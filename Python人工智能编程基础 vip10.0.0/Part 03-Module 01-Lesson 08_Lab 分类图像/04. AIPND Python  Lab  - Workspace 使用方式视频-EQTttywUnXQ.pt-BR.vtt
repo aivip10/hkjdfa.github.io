@@ -1,0 +1,383 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.271 --> 00:00:03.290
+Vou mostrar como usar
+o espaço de trabalho do laboratório.
+
+00:00:03.323 --> 00:00:06.879
+Clique nas três barras azuis
+no canto superior esquerdo.
+
+00:00:07.406 --> 00:00:09.633
+Isso vai abrir
+o painel de navegação.
+
+00:00:09.821 --> 00:00:12.353
+Role para baixo até ver
+"Espaço de trabalho"
+
+00:00:12.707 --> 00:00:14.072
+e clique.
+
+00:00:15.866 --> 00:00:18.694
+Isso vai abrir o espaço de trabalho
+do laboratório.
+
+00:00:18.727 --> 00:00:20.534
+Ele tem três seções.
+
+00:00:21.086 --> 00:00:23.245
+A primeira seção
+tem os arquivos.
+
+00:00:23.918 --> 00:00:27.062
+A segunda seção é onde
+você abre e edita os arquivos.
+
+00:00:27.095 --> 00:00:30.577
+A terceira sessão permite
+que você abra a janela de terminal,
+
+00:00:30.685 --> 00:00:32.910
+para rodar seus programas
+de Python.
+
+00:00:33.137 --> 00:00:36.087
+Vamos abrir a janela de terminal
+clicando no "mais".
+
+00:00:38.084 --> 00:00:40.050
+Enquanto a janela
+é inicializada,
+
+00:00:40.083 --> 00:00:42.541
+vamos expandir
+a janela de edição.
+
+00:00:43.980 --> 00:00:45.661
+Se eu clicar
+no check_images,
+
+00:00:46.744 --> 00:00:49.019
+o programa vai aparecer
+na janela de edição
+
+00:00:49.052 --> 00:00:52.664
+e eu posso colocar o meu nome
+ao lado de "programador"...
+
+00:00:56.883 --> 00:00:58.581
+e vai salvar
+automaticamente.
+
+00:00:59.748 --> 00:01:02.428
+Agora o check_images
+tem o meu nome.
+
+00:01:02.461 --> 00:01:06.111
+Quando você for editar o programa
+para o laboratório,
+
+00:01:06.558 --> 00:01:09.928
+as mudanças que você fizer
+serão salvas automaticamente.
+
+00:01:09.961 --> 00:01:11.835
+Para rodar o check_images,
+
+00:01:11.868 --> 00:01:13.527
+vá para a janela de terminal
+
+00:01:13.560 --> 00:01:18.336
+e escreva "python check".
+
+00:01:18.369 --> 00:01:19.971
+Se você apertar a tecla Tab,
+
+00:01:20.227 --> 00:01:22.881
+ele vai completar
+o nome do arquivo,
+
+00:01:22.914 --> 00:01:24.347
+e você pode apertar Enter
+
+00:01:24.972 --> 00:01:26.594
+para rodar o programa.
+
+00:01:27.681 --> 00:01:33.420
+Enquanto ele roda, vamos olhar
+os arquivos em nosso diretório.
+
+00:01:33.453 --> 00:01:36.093
+Temos a pasta "pet_images"
+
+00:01:36.126 --> 00:01:39.272
+Ao clicar nela,
+vejo todas as imagens de bichos.
+
+00:01:39.305 --> 00:01:41.862
+Para voltar,
+eu clico na seta para cima, aqui,
+
+00:01:42.776 --> 00:01:46.222
+e ele volta ao diretório
+do espaço de trabalho.
+
+00:01:47.928 --> 00:01:52.032
+O único arquivo que eu devo mudar
+aqui é o check_images.
+
+00:01:53.861 --> 00:01:56.130
+Se eu quiser fechar
+o check_images,
+
+00:01:56.163 --> 00:01:58.464
+basta apertar o X
+e ele fecha.
+
+00:01:58.497 --> 00:02:02.115
+Se eu quiser abrir outra coisa,
+como dognames.txt,
+
+00:02:02.622 --> 00:02:05.644
+é só clicar nele
+para abrir na janela de edição.
+
+00:02:06.106 --> 00:02:07.923
+Digamos que eu cometa
+um erro
+
+00:02:07.956 --> 00:02:11.683
+e acidentalmente apague
+ou mude dognames.txt.
+
+00:02:12.686 --> 00:02:15.854
+Se eu der clique direito
+e apertar delete, vou apagar.
+
+00:02:16.675 --> 00:02:18.238
+E agora ele sumiu.
+
+00:02:19.268 --> 00:02:22.780
+Para trazer de volta
+o dognames,
+
+00:02:23.033 --> 00:02:24.998
+preciso reiniciar
+meu ambiente.
+
+00:02:25.031 --> 00:02:26.145
+Ao fazer isso,
+
+00:02:26.178 --> 00:02:28.894
+ele vai voltar
+ao estado original,
+
+00:02:28.927 --> 00:02:32.124
+ou seja, a mudança que eu fiz
+em check_images
+
+00:02:32.157 --> 00:02:33.242
+ao colocar meu nome
+
+00:02:33.275 --> 00:02:34.536
+vai desaparecer.
+
+00:02:34.852 --> 00:02:36.990
+Para não perder
+o check_images
+
+00:02:37.023 --> 00:02:38.482
+eu preciso baixá-lo.
+
+00:02:38.515 --> 00:02:42.472
+Vou clicar em check_images
+com o botão direito e baixo.
+
+00:02:42.505 --> 00:02:47.541
+Ele vai para minha pasta
+de Dowloads do meu laptop.
+
+00:02:49.803 --> 00:02:52.877
+Também vemos aqui que
+nosso programa terminou de rodar.
+
+00:02:53.279 --> 00:02:57.254
+O tempo de execução total
+foi zero, o que é o esperado.
+
+00:02:57.544 --> 00:03:00.218
+Isso demonstra como rodar
+seu programa Python
+
+00:03:00.251 --> 00:03:01.970
+dentro do espaço
+de trabalho.
+
+00:03:02.741 --> 00:03:04.206
+Nosso arquivo foi baixado,
+
+00:03:04.239 --> 00:03:06.885
+então agora podemos voltar
+o espaço de trabalho
+
+00:03:06.918 --> 00:03:08.648
+ao seu estado original.
+
+00:03:09.385 --> 00:03:12.164
+Vou clicar em Menu
+e depois em Reset Data
+
+00:03:12.633 --> 00:03:13.807
+para reinicializar tudo,
+
+00:03:13.840 --> 00:03:17.228
+porque vamos escrever por cima
+de tudo o que já foi feito.
+
+00:03:17.992 --> 00:03:20.841
+É preciso escrever
+"Reset data"...
+
+00:03:23.061 --> 00:03:25.713
+Não esqueça de escrever
+com d minúsculo.
+
+00:03:26.506 --> 00:03:30.045
+Quando você escrever certo,
+este botão vai acender.
+
+00:03:30.078 --> 00:03:32.432
+Você aperta
+e reinicia todos os dados.
+
+00:03:33.070 --> 00:03:36.222
+Agora eu espero ver
+o dognames de volta.
+
+00:03:36.255 --> 00:03:37.931
+Vou clicar nele e aí está.
+
+00:03:38.535 --> 00:03:40.748
+Ele voltou
+ao seu estado original.
+
+00:03:40.781 --> 00:03:43.538
+Se eu clicar
+em check_images,
+
+00:03:44.751 --> 00:03:47.192
+vejo que meu nome
+não está mais escrito aqui,
+
+00:03:47.225 --> 00:03:49.156
+porque voltamos
+ao estado original.
+
+00:03:49.453 --> 00:03:51.675
+Para recuperar
+meu programa editado,
+
+00:03:51.708 --> 00:03:54.668
+é só clicar com o botão direito
+em check_images
+
+00:03:54.701 --> 00:03:58.032
+e escolher "delete".
+Aí eu o apago.
+
+00:03:59.067 --> 00:04:01.621
+Agora é só clicar
+no sinal de "+"
+
+00:04:02.082 --> 00:04:04.130
+e selecionar "subir arquivo".
+
+00:04:05.328 --> 00:04:07.941
+Aí eu vou até meu diretório
+de Downloads,
+
+00:04:08.383 --> 00:04:10.038
+clico em check_images,
+
+00:04:10.381 --> 00:04:11.466
+abro,
+
+00:04:12.002 --> 00:04:15.092
+e ele vai subir o arquivo
+que eu editei
+
+00:04:15.225 --> 00:04:17.068
+para meu espaço de trabalho.
+
+00:04:17.101 --> 00:04:18.504
+Se eu der clique duplo...
+
+00:04:18.854 --> 00:04:20.944
+Aí está. "Jennifer S."
+
+00:04:21.189 --> 00:04:22.297
+Sou eu.
+
+00:04:22.330 --> 00:04:24.231
+Este é o arquivo
+que eu editei.
+
+00:04:25.238 --> 00:04:26.560
+Eu recomendaria
+
+00:04:26.960 --> 00:04:31.674
+que você baixe seu arquivo
+check_images antes de resetar
+
+00:04:31.707 --> 00:04:33.120
+para salvar seu trabalho.
+
+00:04:33.515 --> 00:04:37.075
+Você também pode subir
+outros arquivos para cá
+
+00:04:37.108 --> 00:04:40.067
+usando o sinal de "+"
+e depois "subir um arquivo"
+
+00:04:40.100 --> 00:04:41.309
+ou "subir uma pasta".
+
+00:04:43.118 --> 00:04:44.942
+Para voltar às aulas
+
+00:04:45.393 --> 00:04:50.451
+é só clicar nas três barras
+no canto superior esquerdo.
+
+00:04:51.178 --> 00:04:53.343
+Isso abre
+o painel de navegação
+
+00:04:53.376 --> 00:04:54.929
+e aí basta escolher a aula.
+
+00:04:54.962 --> 00:04:57.358
+Vou voltar
+a "Dicas do Espaço de Trabalho".
+
+00:04:57.391 --> 00:04:59.300
+Eu clico e a página abre.
+
+00:04:59.333 --> 00:05:00.501
+Se eu quiser expandir,
+
+00:05:00.534 --> 00:05:02.322
+eu clico nas três barras
+de novo,
+
+00:05:03.137 --> 00:05:06.317
+"Dicas do Espaço de Trabalho"
+se expande
+
+00:05:06.350 --> 00:05:07.796
+e fica em tela cheia.
+

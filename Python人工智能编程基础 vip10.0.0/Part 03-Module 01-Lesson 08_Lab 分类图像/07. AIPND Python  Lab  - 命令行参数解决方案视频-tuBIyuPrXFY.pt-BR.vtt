@@ -1,0 +1,214 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.242 --> 00:00:03.978
+Este é um vídeo-solução para a seção
+de argumentos de linha de comando.
+
+00:00:04.011 --> 00:00:08.009
+Primeiro, temos que definir
+a função get_input_args.
+
+00:00:08.547 --> 00:00:09.861
+A docstring indica
+
+00:00:09.894 --> 00:00:12.532
+que não há argumentos
+passando para dentro da função,
+
+00:00:12.565 --> 00:00:14.892
+mas retornamos parse_args,
+
+00:00:15.140 --> 00:00:18.309
+a estrutura de dados que guarda
+os argumentos de linha de comando.
+
+00:00:18.342 --> 00:00:21.123
+Primeiro, vamos criar
+um objeto parseador.
+
+00:00:21.776 --> 00:00:23.322
+Ele vai se chamar "parser".
+
+00:00:24.000 --> 00:00:27.653
+Agora temos que criar 3 argumentos
+de linha de comando.
+
+00:00:29.046 --> 00:00:31.341
+O primeiro, "dir",
+
+00:00:31.785 --> 00:00:35.695
+é o argumento de linha de comando
+cujo padrão é a pasta pet_images.
+
+00:00:35.728 --> 00:00:37.989
+É só o caminho das imagens.
+
+00:00:38.769 --> 00:00:42.116
+A seguir, vem o argumento
+de linha de comando "arch",
+
+00:00:42.679 --> 00:00:45.539
+cujo padrão é "vgg",
+
+00:00:45.572 --> 00:00:48.679
+mas você pode escolher
+qualquer modelo.
+
+00:00:49.649 --> 00:00:51.620
+Esse é só
+o modelo escolhido.
+
+00:00:52.861 --> 00:00:55.195
+Por fim, temos "dogfile".
+
+00:00:55.883 --> 00:00:58.822
+O padrão disso
+é dognames.txt.
+
+00:00:58.855 --> 00:01:01.887
+É o arquivo texto
+que contém os nomes dos cães.
+
+00:01:02.485 --> 00:01:05.582
+Por fim, retornamos o argumento
+de parseamento.
+
+00:01:07.218 --> 00:01:09.906
+Agora vamos
+à função principal,
+
+00:01:09.939 --> 00:01:12.187
+onde vamos chamar
+get_input_args.
+
+00:01:16.160 --> 00:01:19.542
+Na função principal,
+vemos get_input_args sendo chamada,
+
+00:01:19.575 --> 00:01:22.246
+sem nenhum argumento,
+o que está certo.
+
+00:01:22.777 --> 00:01:26.286
+Ela retorna esses argumentos
+de linha de comando
+
+00:01:26.319 --> 00:01:28.423
+como a variável in_arg.
+
+00:01:29.521 --> 00:01:31.870
+A seguir, também escrevemos
+uma instrução print,
+
+00:01:31.903 --> 00:01:35.291
+que é temporária e será removida
+depois de conferir o código.
+
+00:01:35.324 --> 00:01:38.930
+A instrução só exibe esses três
+argumentos de linha de comando.
+
+00:01:39.389 --> 00:01:42.884
+Repare que o formato dos nomes é:
+nome da variável, ponto,
+
+00:01:42.917 --> 00:01:45.033
+nome do argumento
+de linha de comando.
+
+00:01:45.066 --> 00:01:50.051
+Por exemplo, temos
+in_arg.dir
+
+00:01:50.442 --> 00:01:54.119
+para chamar o caminho
+do diretório pet_images.
+
+00:01:56.669 --> 00:01:59.713
+Agora vamos executar o programa
+para conferir o código.
+
+00:02:01.898 --> 00:02:03.518
+Na janela de terminal, aqui,
+
+00:02:03.551 --> 00:02:06.966
+eu digito
+python check_images -h
+
+00:02:07.909 --> 00:02:11.309
+para ver o arquivo de ajuda
+de nosso programa.
+
+00:02:11.342 --> 00:02:14.595
+Isso vai me mostrar quais são
+os argumentos de linha de comando
+
+00:02:14.628 --> 00:02:16.776
+e o que é esperado
+de cada um deles.
+
+00:02:18.205 --> 00:02:19.855
+Na segunda janela
+de terminal
+
+00:02:19.888 --> 00:02:24.169
+eu só digito Python check_images.py
+e aperto Enter.
+
+00:02:24.202 --> 00:02:27.171
+Isso exibe os valores padrão
+
+00:02:27.621 --> 00:02:29.345
+dos argumentos
+de linha de comando.
+
+00:02:29.378 --> 00:02:31.535
+Pet_images,
+o diretório padrão,
+
+00:02:31.836 --> 00:02:34.817
+vgg, o modelo de arquitetura
+padrão,
+
+00:02:35.332 --> 00:02:40.025
+e dognames.txt,
+o arquivo padrão de cães.
+
+00:02:41.036 --> 00:02:42.535
+Na terceira
+janela de terminal
+
+00:02:42.568 --> 00:02:46.360
+eu entro os três argumentos
+de linha de comando.
+
+00:02:46.393 --> 00:02:48.411
+Para meu dir
+eu só coloco pets
+
+00:02:48.444 --> 00:02:50.191
+e é isso que eu vejo
+exibido.
+
+00:02:50.224 --> 00:02:53.954
+Para minha arquitetura,
+eu ponho resnet
+
+00:02:53.987 --> 00:02:55.986
+e é isso que vejo
+sendo exibido aqui.
+
+00:02:56.019 --> 00:02:59.758
+Para o arquivo de cães,
+eu coloco dnames.txt
+
+00:02:59.896 --> 00:03:01.825
+e é isso que vejo
+sendo exibido aqui.
+
+00:03:01.858 --> 00:03:05.175
+Parece que meu código
+está funcionando direito.
+

@@ -1,0 +1,357 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.193 --> 00:00:03.407
+Este é o vídeo-solução
+de classificação de imagens.
+
+00:00:04.085 --> 00:00:08.284
+Primeiro precisamos definir
+a função classify_images.
+
+00:00:09.437 --> 00:00:13.997
+O docstring indica que teremos
+estes parâmetros de entrada:
+
+00:00:14.804 --> 00:00:18.949
+image_dir, a pasta
+com as imagens dos animais,
+
+00:00:19.501 --> 00:00:21.301
+petlabel_dic,
+
+00:00:21.334 --> 00:00:25.482
+o dicionário que criamos
+na função get_pet_labels,
+
+00:00:25.515 --> 00:00:28.618
+onde as chaves são os nomes
+dos arquivos das imagens
+
+00:00:28.651 --> 00:00:32.546
+e os valores são os rótulos
+das imagens dos animais.
+
+00:00:33.725 --> 00:00:38.133
+O modelo é a arquitetura
+do modelo CNN que você vai usar
+
+00:00:38.166 --> 00:00:40.403
+para classificar as imagens.
+
+00:00:40.436 --> 00:00:45.099
+O modelo assume o valor
+da ResNet, AlexNet ou VGG,
+
+00:00:45.132 --> 00:00:47.427
+todos em caixa-baixa.
+
+00:00:49.090 --> 00:00:53.793
+Essa função retorna
+o dicionário results_dic,
+
+00:00:53.826 --> 00:00:57.310
+onde a chave
+é o nome do arquivo da imagem
+
+00:00:57.343 --> 00:00:59.142
+e o valor é uma lista.
+
+00:01:00.870 --> 00:01:02.159
+Nessa lista,
+
+00:01:02.192 --> 00:01:05.872
+o índice zero tem o rótulo
+da imagem do animal,
+
+00:01:05.905 --> 00:01:08.719
+o índice um
+tem um rótulo classificador
+
+00:01:08.752 --> 00:01:11.079
+e o índice dois indica
+
+00:01:11.112 --> 00:01:15.880
+se o rótulo classificador
+e o rótulo da imagem do animal
+
+00:01:15.913 --> 00:01:17.312
+correspondem.
+
+00:01:21.772 --> 00:01:25.436
+Nesta função vamos criar
+o dicionário vazio results_dic,
+
+00:01:25.469 --> 00:01:27.938
+que vai ser retornado
+no fim da função.
+
+00:01:28.507 --> 00:01:33.172
+Vamos usar um for-loop para iterar
+o dicionário petlabel_dic,
+
+00:01:33.205 --> 00:01:36.916
+processando cada imagem
+armazenada no dicionário.
+
+00:01:37.171 --> 00:01:38.564
+Nesse for-loop,
+
+00:01:38.597 --> 00:01:41.114
+vamos usar o nome do arquivo
+da imagem do animal
+
+00:01:41.147 --> 00:01:44.620
+quando classificarmos as imagens
+com a função classifier.
+
+00:01:44.653 --> 00:01:47.372
+Vamos formatar o rótulo
+retornado pela função
+
+00:01:47.405 --> 00:01:52.123
+e vamos determinar se os rótulos
+são correspondentes.
+
+00:01:52.435 --> 00:01:54.180
+No fim do for-loop,
+
+00:01:54.213 --> 00:01:57.043
+vamos adicionar os rótulos
+e se correspondem ou não
+
+00:01:57.076 --> 00:02:00.372
+ao nome do arquivo
+no dicionário results_dic.
+
+00:02:00.405 --> 00:02:03.478
+A primeira coisa
+que vamos fazer no for-loop
+
+00:02:03.511 --> 00:02:05.846
+é usar a função classifier
+
+00:02:05.879 --> 00:02:08.246
+para criar os rótulos
+classificadores.
+
+00:02:08.279 --> 00:02:11.574
+Eles vão ser retornados
+como model_label.
+
+00:02:11.607 --> 00:02:14.785
+Na função classifier,
+passamos o modelo
+
+00:02:14.818 --> 00:02:18.224
+e temos o caminho
+para a imagem do animal.
+
+00:02:18.257 --> 00:02:20.525
+A chave é o nome do arquivo
+
+00:02:20.558 --> 00:02:25.477
+e a image_dir é a pasta
+das imagens dos animais.
+
+00:02:26.198 --> 00:02:29.070
+Para processar
+os rótulos classificadores,
+
+00:02:29.103 --> 00:02:33.743
+usamos a função lower para deixar
+as letras em caixa-baixa
+
+00:02:33.776 --> 00:02:36.727
+e usamos a função strip
+para remover
+
+00:02:36.760 --> 00:02:39.421
+espaços brancos
+antes e depois.
+
+00:02:40.516 --> 00:02:43.269
+Lembre-se
+de que o petlabel_dic
+
+00:02:43.302 --> 00:02:46.507
+tem o valor
+do rótulo da imagem do animal.
+
+00:02:46.540 --> 00:02:49.927
+Então a verdade se torna
+o rótulo da imagem do animal.
+
+00:02:49.960 --> 00:02:53.531
+Aqui usamos a função find
+para ver se encontramos
+
+00:02:53.564 --> 00:02:57.476
+o rótulo da imagem do animal
+no rótulo classificador.
+
+00:03:02.569 --> 00:03:04.672
+Se found for maior que zero,
+
+00:03:04.705 --> 00:03:08.360
+significa que achamos o rótulo
+do animal no classificador.
+
+00:03:08.393 --> 00:03:11.564
+Nos casos de rótulos do animal
+com palavras curtas,
+
+00:03:11.597 --> 00:03:13.524
+como "cat" ou "fox",
+
+00:03:13.557 --> 00:03:17.397
+que podem estar inseridas
+nos termos "foxhound" ou "polecat",
+
+00:03:17.430 --> 00:03:19.964
+usamos a segunda instrução
+condicional.
+
+00:03:21.238 --> 00:03:24.180
+A segunda instrução condicional
+verifica se o rótulo do animal
+
+00:03:24.213 --> 00:03:26.330
+começa no início
+do classificador
+
+00:03:26.363 --> 00:03:28.874
+ou se tem um espaço em branco
+na frente.
+
+00:03:28.907 --> 00:03:31.585
+Também verifica se o rótulo
+do animal termina no fim
+
+00:03:31.618 --> 00:03:35.305
+do rótulo classificador
+ou com espaço ou vírgula.
+
+00:03:35.658 --> 00:03:38.444
+Depois de passar
+as duas instruções condicionais,
+
+00:03:38.477 --> 00:03:41.885
+adicionamos ao results_dic
+com a comparação no 1.
+
+00:03:44.460 --> 00:03:46.933
+Se não passou
+as instruções condicionais,
+
+00:03:46.966 --> 00:03:50.419
+vai para o results_dic
+com a comparação no zero.
+
+00:03:51.348 --> 00:03:55.533
+Finalmente retornamos
+o dicionário results_dic
+
+00:03:55.566 --> 00:03:57.236
+no fim da função.
+
+00:03:57.701 --> 00:04:02.284
+A função classify_images
+é ativada na função principal
+
+00:04:02.317 --> 00:04:05.884
+e retorna
+o dicionário result_dic
+
+00:04:05.917 --> 00:04:08.716
+com o nome do arquivo de imagem
+como chave
+
+00:04:08.749 --> 00:04:10.436
+e a lista como valor,
+
+00:04:10.469 --> 00:04:12.933
+que contém os rótulos
+das imagens dos animais,
+
+00:04:12.966 --> 00:04:16.237
+os rótulos classificatórios
+e se correspondem ou não.
+
+00:04:16.270 --> 00:04:20.248
+A classify_images insere
+o argumento in_org.dir,
+
+00:04:20.281 --> 00:04:23.737
+que é o argumento da linha
+de comando da pasta de imagens,
+
+00:04:23.770 --> 00:04:25.161
+o answers_dic,
+
+00:04:25.194 --> 00:04:28.432
+com os nomes dos arquivos
+das imagens como chaves
+
+00:04:28.465 --> 00:04:30.952
+e os rótulos das imagens
+como valores,
+
+00:04:30.985 --> 00:04:32.792
+e o in_org.arch,
+
+00:04:32.825 --> 00:04:36.856
+o argumento da linha de comando
+da arquitetura do modelo CNN.
+
+00:04:36.889 --> 00:04:39.709
+Usamos
+este código temporário
+
+00:04:39.742 --> 00:04:42.758
+para verificar
+se está funcionando direito.
+
+00:04:42.791 --> 00:04:45.496
+Reproduzimos primeiro
+as correspondências.
+
+00:04:45.529 --> 00:04:49.248
+Verificamos visualmente
+para ver se o código funciona
+
+00:04:49.281 --> 00:04:52.864
+e verificamos se as correspondências
+e não correspondências
+
+00:04:52.897 --> 00:04:55.377
+somam as 40 imagens
+que esperamos.
+
+00:04:55.410 --> 00:04:57.274
+Na janela do terminal,
+
+00:04:57.307 --> 00:05:00.666
+dá para ver
+onde executamos o programa.
+
+00:05:00.699 --> 00:05:05.139
+As correspondências vêm primeiro
+e as não correspondências depois.
+
+00:05:05.172 --> 00:05:08.146
+As duas parecem
+estar corretas.
+
+00:05:08.179 --> 00:05:10.330
+Temos um total
+de 40 imagens,
+
+00:05:10.363 --> 00:05:14.371
+com 35 correspondências
+e 5 não correspondências.
+
+00:05:14.404 --> 00:05:16.000
+O código está funcionando.
+

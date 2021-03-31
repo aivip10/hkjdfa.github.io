@@ -1,0 +1,348 @@
+<!-- udacity2.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>分类图像 - 第 1 部分</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>Lab: 分类图像</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. 讲师.html">01. 讲师</a>
+    </li>
+    <li class="">
+      <a href="02. Lab 说明.html">02. Lab 说明</a>
+    </li>
+    <li class="">
+      <a href="03. Lab 说明.html">03. Lab 说明</a>
+    </li>
+    <li class="">
+      <a href="04. Workspace 使用方式.html">04. Workspace 使用方式</a>
+    </li>
+    <li class="">
+      <a href="05. Lab  Workspace.html">05. Lab  Workspace</a>
+    </li>
+    <li class="">
+      <a href="06. 计算代码运行时间.html">06. 计算代码运行时间</a>
+    </li>
+    <li class="">
+      <a href="07. 命令行参数.html">07. 命令行参数</a>
+    </li>
+    <li class="">
+      <a href="08. 可变数据类型和函数.html">08. 可变数据类型和函数</a>
+    </li>
+    <li class="">
+      <a href="09. 创建宠物图像标签 - 第 1 部分.html">09. 创建宠物图像标签 - 第 1 部分</a>
+    </li>
+    <li class="">
+      <a href="10. 创建宠物图像标签 - 第 2 部分.html">10. 创建宠物图像标签 - 第 2 部分</a>
+    </li>
+    <li class="">
+      <a href="11. 分类图像 - 第 1 部分.html">11. 分类图像 - 第 1 部分</a>
+    </li>
+    <li class="">
+      <a href="12. 分类图像 - 第 2 部分.html">12. 分类图像 - 第 2 部分</a>
+    </li>
+    <li class="">
+      <a href="13. 将标签分类为小狗.html">13. 将标签分类为小狗</a>
+    </li>
+    <li class="">
+      <a href="14. 计算结果.html">14. 计算结果</a>
+    </li>
+    <li class="">
+      <a href="15. 输出结果.html">15. 输出结果</a>
+    </li>
+    <li class="">
+      <a href="16. 结果.html">16. 结果</a>
+    </li>
+    <li class="">
+      <a href="17. 结论.html">17. 结论</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">11. 分类图像 - 第 1 部分</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h1 id="分类图像---第-1-部分">分类图像 - 第 1 部分</h1>
+<hr />
+<h2 id="在-check_imagespy-中编写代码">在 <strong><em>check_images.py</em></strong> 中编写代码</h2>
+<h3 id="要修改的代码">要修改的代码</h3>
+<p>此方法将帮助你在程序中编写<em>未定义</em>函数 <strong>classify_images</strong>。对于此函数，你将使用分类器函数为宠物图像创建标签。此外，你会将这些分类器的标签与宠物图像标签进行比较（判断图像标识符是否正确）。最后，你将使用 <strong>classify_images</strong> 返回的复杂数据结构存储宠物图像标签、分类器生成的标签和标签比较结果。对于讲师解决方案，我们使用了列表字典。 </p>
+<ul>
+<li>编写函数定义 <code>def classify_images():</code><ul>
+<li>使用文档字符串，添加定义 <strong>classify_images</strong> 的相应代码</li></ul></li>
+<li>在 <code>main()</code> 函数中以 <code>#TODO: 4.</code> 标注的位置编写代码<ul>
+<li>添加调用函数 <strong>classify_images</strong> 的相应代码</li></ul></li>
+</ul>
+<h3 id="预期结果">预期结果</h3>
+<p>编写完毕后，这段代码将返回一个列表字典，<em>键</em>是<em>宠物图像文件名</em>，<em>值</em>是 <em>pet_image</em> 文件夹中所有 40 张宠物图像的列表。该列表将包含以下条目：宠物图像标签（索引 0）、分类器标签（索引 1），以及标签比较结果（索引 2）。</p>
+<h3 id="检查代码">检查代码</h3>
+<p>添加一个<em>临时</em>输出语句，使用 <strong>classify_images</strong> 返回的字典输出分类器标签和宠物标签匹配的<em>所有</em>情形。此外，添加另一个<em>临时</em>输出语句，使用 <strong>classify_images</strong> 返回的字典输出分类器标签和宠物标签不匹配的<em>所有</em>情形。建议遍历字典两次，用两个不同的群组输出匹配和不匹配的情形，这样肉眼检查起来更简单。 </p>
+<p>肉眼检查结果后表明：</p>
+<ul>
+<li>分类器和宠物图像标签匹配的情形<em>的确</em>匹配</li>
+<li>分类器和宠物图像标签不匹配的情形<em>的确</em>不匹配</li>
+<li><em>匹配数</em>和<em>不匹配数</em>加起来为 <strong>40</strong>，正好等于 <em>pet_images</em> 文件夹中的图像总数 40。</li>
+</ul>
+<h4 id="lab-workspace">Lab Workspace</h4>
+<ul>
+<li>你可以在** Lab Workspace** 修改 <strong><em>check_image.py</em></strong></li>
+</ul>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <hr />
+<h2 id="分类器函数">分类器函数</h2>
+<h3 id="测试分类器函数"><em>测试</em>分类器函数</h3>
+<p>测试我们将用来分类宠物图像的环境和<strong>分类器函数</strong>。此函数位于 <em>classifier.py</em> 程序中。通过按以下说明运行 <em>test_classifier.py</em> 程序，测试你的环境。建议查看 <em>test_classifier.py</em> 程序以了解如何在 <strong>check_images.py</strong> 中使用<strong>分类器函数</strong>。</p>
+<ol>
+<li>转到** Lab Workspace** 部分。   <br />
+&nbsp;</li>
+<li>打开终端。   <br />
+&nbsp; </li>
+<li>在命令行中输入以下命令以测试 classifier.py 程序。<em>柯利犬</em>图像应该正确地分类为<strong>柯利犬</strong>。</li>
+</ol>
+<pre><code>python test_classifier.py </code></pre>
+<h3 id="编写-test_classifierpy">编写 <em>test_classifier.py</em></h3>
+<p>查看 <strong>test_classifier.py</strong> 程序后将发现以下信息：</p>
+<ul>
+<li><p>分类器函数必须导入你的程序中（<em>已经在 <strong>check_images.py</strong></em> 中导入了）。</p></li>
+<li><p>分类器函数有两个参数：</p>
+<ul>
+<li><em>完整的图像路径</em>（包括文件夹和文件名）。</li>
+<li>文件夹和文件名存储为单独的变量，可以连接成一个字符串。</li>
+<li>CNN <em>模型</em>架构</li>
+<li>必须为 <em>resnet</em> <em>vgg</em> 或 <em>alexnet</em></li></ul></li>
+</ul>
+<p>要查看 <code>test_classifier.py</code> 的代码，请在 Workspace 中打开该程序。</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <hr />
+<h2 id="分类器标签格式">分类器标签格式</h2>
+<p>你的函数需要能够判断宠物图像标签和分类器函数返回的标签是否匹配。为了使用函数完成此匹配任务，你需要了解分类器标签的格式。下面详述了分类器标签的格式。</p>
+<h3 id="分类器标签">分类器标签</h3>
+<p>位于文件 <em>imagenet1000_clsid_to_human.txt</em> 中，你将在 Workspace 中看到该文件。 </p>
+<p>其中：</p>
+<ul>
+<li>共有 1000 个标签<ul>
+<li>与 118 个不同的小狗品种相关联<ul>
+<li>小狗品种与 ID 相关，151：吉娃娃到 268：墨西哥无毛狗</li></ul></li>
+<li>与不是小狗的 882 张图像相关</li></ul></li>
+<li>标签格式：<ul>
+<li>包含大小写字母</li>
+<li>用一个单词标识图像<ul>
+<li>例如 <em>beagle</em></li></ul></li>
+<li>用多个单词（以空格分隔）标识图像<ul>
+<li>例如 <em>German shorthaired pointer</em></li></ul></li>
+<li>用几个不同的术语（用英文逗号分隔）标识相同的图像 <ul>
+<li>例如 <em>cocker spaniel, English cocker spaniel, cocker</em></li></ul></li></ul></li>
+</ul>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <hr />
+<h2 id="比较宠物图像标签和分类器标签">比较宠物图像标签和分类器标签</h2>
+<p>在<strong>创建宠物图像标签</strong>部分，我们将宠物图像标签的格式设为：</p>
+<ul>
+<li>标签全小写</li>
+<li>对于由多个单词组成的标签，用空格区分每个单词</li>
+<li>去除标签首位的空格</li>
+<li>示例：<ul>
+<li>beagle </li>
+<li>cocker spaniel</li>
+<li>polar bear</li></ul></li>
+</ul>
+<p>查看上述分类器标签格式后，你唯一需要处理的是将所有字母变成小写形式，并去除首尾的所有空格。如果标签是由一系列用逗号分隔的术语构成的，你需要使用 <a href="https://docs.python.org/3/library/stdtypes.html#str.find" rel="noopener noreferrer" target="_blank"><strong>find()</strong></a> 函数。宠物图像标签始终只有一个术语（即使该术语由多个单词构成）；因此，如果你在术语列表中<strong>发现</strong>构成分类器标签的一个术语，那么存在匹配项。  </p>
+<p>需要注意的一点是，有时候 <strong>find</strong> 函数会指明完全不存在的标签匹配项。如果宠物图像标签是一个很短的字符串，属于另一个术语的一部分时，就会发生这种情况。  </p>
+<p><strong><em>注意</em></strong>：对于我们的 Lab 来说，这种情况<em>很罕见</em>，其中 <code>find() &gt;= 0</code> 没有生成<em>真正的</em>匹配。但是为了正确地处理<em>所有</em> Lab 图像，并能够将你的程序用于其他不包含在 Lab 之内的图像，你需要相应地调整你的函数代码。 </p>
+<p><code>find() &gt;= 0</code> 不是匹配项的示例：</p>
+<ul>
+<li>cat_07.jpg 具有标签 <strong><em>cat</em></strong>，它匹配以下分类器标签：<em>skunk, pole<strong>cat</strong>, wood pussy</em> and <em>lynx <strong>cat</strong>amount</em>  -- 但是它们并不匹配。</li>
+<li><strong><em>fox</em></strong> 匹配以下分类器标签：<em>Walker hound, Walker <strong>fox</strong>hound</em> and <em>English <strong>fox</strong>hound</em> -- 但是它们也并不匹配。</li>
+</ul>
+<p>要处理上述情形，即<em>发现了</em>宠物图像标签，但是并不匹配，你需要在确定 <code>find() &gt;= 0</code> 之后添加一个条件语句，筛选出<em>真正</em>匹配的情形。为了帮助你完成此任务，我们在下面提供了两种<em>真正</em>匹配情形的<em>伪代码</em>。<em>伪代码</em>是使用英语和非正式编程语法对程序或算法操作的概括性描述。</p>
+<p><strong>真正</strong>匹配的项：</p>
+<ul>
+<li>一个术语：<ul>
+<li>发现的索引为 0 <strong><em>以及</em></strong> </li>
+<li>宠物图像标签的长度与分类器标签的长度相符</li>
+<li><em>伪代码</em>：</li></ul></li>
+</ul>
+<pre><code>found_idx == 0 and len(pet_label) == len(classifier_label)</code></pre>
+<ul>
+<li>多个术语：<ul>
+<li>发现的术语从索引 0 处开始，<strong><em>或者</em></strong>在开始<em>之前</em>具有空值 </li>
+<li><strong><em>以及</em></strong> </li>
+<li>发现的术语在分类器标签的结尾处结束，<strong><em>或者</em></strong>在发现的术语的最后一个字母<em>之后</em>具有空格或逗号</li>
+<li><em>伪代码</em>：</li></ul></li>
+</ul>
+<pre><code>( (found_idx == 0) or (classifier_label[found_idx - 1] == " ") )  
+ and
+ (  ( found_idx + len(pet_label) == len(classifier_label) ) or   
+    ( classifier_label[found_idx + len(pet_label) :found_idx + len(pet_label) +1]
+       in  (" ",",") )  ) </code></pre>
+<p>你在<strong>数据类型和运算符</strong>一课的<em>字符串</em>和<em>字符串方法</em>部分第一次学习了字符串数据类型。为了完成这些格式设定和匹配任务，你需要使用以下字符串函数：</p>
+<ul>
+<li><a href="https://docs.python.org/3/library/stdtypes.html#str.lower" rel="noopener noreferrer" target="_blank"><strong>lower()</strong></a> - 使字母全变成小写形式。</li>
+<li><a href="https://docs.python.org/3/library/stdtypes.html#str.strip" rel="noopener noreferrer" target="_blank"><strong>strip()</strong></a> - 返回删除首尾字符的字符串。如果未传入任何字符，则删除首尾的空格。</li>
+<li><a href="https://docs.python.org/3/library/stdtypes.html#str.find" rel="noopener noreferrer" target="_blank"><strong>find()</strong></a> - 返回从字符串中找到子字符串（作为输入提供给函数）的最小索引。如果未发现该子字符串，返回值 -1。</li>
+<li><a href="https://docs.python.org/3/library/stdtypes.html#common-sequence-operations" rel="noopener noreferrer" target="_blank"><strong>len()</strong></a> - 返回字符串的长度。</li>
+<li><a href="https://docs.python.org/3/library/stdtypes.html#common-sequence-operations" rel="noopener noreferrer" target="_blank"><strong>string slicing</strong></a> - 使其能够返回字符串的某个部分。</li>
+</ul>
+</div>
+
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+              <a href="12. 分类图像 - 第 2 部分.html" class="btn btn-outline-primary mt-4" role="button">Next Concept</a>
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://us-udacity.github.io/" target="_blank">【udacity2.0 】If you need more courses, please add wechat：udacity6</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('11. 分类图像 - 第 1 部分')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>

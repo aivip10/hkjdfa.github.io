@@ -1,0 +1,1979 @@
+{
+  "data": {
+    "lesson": {
+      "id": 592283,
+      "key": "0491d74e-dcd8-4700-a971-a7f1b0a26ddb",
+      "title": "Matplotlib 和 Seaborn（第 2 部分）",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "zh-cn",
+      "summary": "在这节课，我们将利用 matplotlib 和 seaborn 绘制可视化图形，以描绘两个变量之间的关系。",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": false,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/0491d74e-dcd8-4700-a971-a7f1b0a26ddb/592283/1544207853679/Matplotlib+%E5%92%8C+Seaborn%EF%BC%88%E7%AC%AC+2+%E9%83%A8%E5%88%86%EF%BC%89+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/0491d74e-dcd8-4700-a971-a7f1b0a26ddb/592283/1544207848260/Matplotlib+%E5%92%8C+Seaborn%EF%BC%88%E7%AC%AC+2+%E9%83%A8%E5%88%86%EF%BC%89+Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 592232,
+          "key": "f8eda5ec-29b5-4ef7-a2aa-0548c42fefe1",
+          "title": "课程简介",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "f8eda5ec-29b5-4ef7-a2aa-0548c42fefe1",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 591970,
+              "key": "1a7ba5d6-23f1-4578-afe7-1d99bdcb4dfc",
+              "title": "L4 011 课程简介 V2",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "JzvJIWG8Rk4",
+                "china_cdn_id": "JzvJIWG8Rk4.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 592233,
+          "key": "9d1316b3-f339-4d52-b63f-91994aefdd40",
+          "title": "散点图和相关性",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "9d1316b3-f339-4d52-b63f-91994aefdd40",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 591972,
+              "key": "479529b9-38ff-41b2-93dc-7a30ab60f0d7",
+              "title": "L4 021 散点图和相关性 V2",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "wqMwTDVT9_Y",
+                "china_cdn_id": "wqMwTDVT9_Y.mp4"
+              }
+            },
+            {
+              "id": 591973,
+              "key": "3b231e85-3229-4fa3-b87a-107eed911c37",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<hr>",
+              "instructor_notes": ""
+            },
+            {
+              "id": 591974,
+              "key": "da00c637-346a-4729-a79e-e9d4ae41f951",
+              "title": "Data Vis L4 C02 V1",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "wBDC5AmYgyg",
+                "china_cdn_id": "wBDC5AmYgyg.mp4"
+              }
+            },
+            {
+              "id": 591975,
+              "key": "73187206-d5e4-41bd-b50e-279609dd5e40",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<hr>\n## 散点图\n\n如果我们想研究两个数值变量之间的关系，通常会选择**散点图**。在散点图中，每个数据点都单独表示为一个点，x 轴对应一个特征值，y 轴对应另一个特征值。创建散点图的一个基本方式是利用 Matplotlib 的 [`scatter`](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.scatter.html) 函数：\n```python\nplt.scatter(data = df, x = 'num_var1', y = 'num_var2')\n```",
+              "instructor_notes": ""
+            },
+            {
+              "id": 591976,
+              "key": "b5053500-0bbd-4744-9351-35e22b57f554",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/March/5ab03c6b_l4-c02-scatterplot1/l4-c02-scatterplot1.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/b5053500-0bbd-4744-9351-35e22b57f554",
+              "caption": "",
+              "alt": "",
+              "width": 432,
+              "height": 288,
+              "instructor_notes": null
+            },
+            {
+              "id": 591977,
+              "key": "b83429e3-f16c-4520-bb26-982e46cca9bd",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "可以在这两个变量之间看到一个大致上的正向关系，x 轴的值越高，y 轴上的变量值也增大。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 591978,
+              "key": "ef7406c3-9a8a-4567-b70c-82a1aa0c6ea0",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## 替代方法\n\nSeaborn 的 [`regplot`](https://seaborn.pydata.org/generated/seaborn.regplot.html) 函数可以创建具有回归拟合的散点图：\n```python\nsb.regplot(data = df, x = 'num_var1', y = 'num_var2')\n```",
+              "instructor_notes": ""
+            },
+            {
+              "id": 591979,
+              "key": "771a484e-a674-4224-a65f-7d8deff58b4e",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/March/5ab03e30_l4-c02-scatterplot2/l4-c02-scatterplot2.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/771a484e-a674-4224-a65f-7d8deff58b4e",
+              "caption": "",
+              "alt": "",
+              "width": 432,
+              "height": 288,
+              "instructor_notes": null
+            },
+            {
+              "id": 591980,
+              "key": "de5ef743-e546-4200-a79b-97aaa773795c",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "默认的回归函数是线性回归，并且包含回归估计置信区间（阴影部分）。因为上面图表的情况看起来像 <span class='mathquill'>\\text{log}(y) \\propto x</span> 关系（也就是 x 与 log(y) 存在线性相关），因此用原始单位绘制回归线不合适。如果我们不关心回归线，那么可以在 `regplot` 函数调用中设置 `reg_fit = False`。如果我们想对观察到的数据相关性拟合回归线，需要变换数据，如上节课中所述。\n```python\ndef log_trans(x, inverse = False):\n    if not inverse:\n        return np.log10(x)\n    else:\n        return np.power(10, x)\n\nsb.regplot(df['num_var1'], df['num_var2'].apply(log_trans))\ntick_locs = [10, 20, 50, 100, 200, 500]\nplt.yticks(log_trans(tick_locs), tick_locs)\n```\n在此例中，`regplot` 的参数 x 和 y 直接设为了从 DataFrame 中提取的 Series。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 591981,
+              "key": "a839c673-3a82-464c-88ad-feb3e4f48a4e",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/March/5ab047f5_l4-c02-scatterplot3/l4-c02-scatterplot3.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/a839c673-3a82-464c-88ad-feb3e4f48a4e",
+              "caption": "",
+              "alt": "",
+              "width": 432,
+              "height": 288,
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 592234,
+          "key": "bd599deb-e989-4ce2-9dc2-d62316ecc0f1",
+          "title": "重叠、透明度和抖动",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "bd599deb-e989-4ce2-9dc2-d62316ecc0f1",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 591982,
+              "key": "465c31dd-dacb-4a6a-9bb3-fc62c33d192f",
+              "title": "L4 031 重叠、透明度和抖动 1 V4",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "BGqR-nxgMtg",
+                "china_cdn_id": "BGqR-nxgMtg.mp4"
+              }
+            },
+            {
+              "id": 591983,
+              "key": "89f76e14-acd7-48d0-8bf5-a0052d47314b",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<hr>",
+              "instructor_notes": ""
+            },
+            {
+              "id": 591984,
+              "key": "616c7331-e77c-4d09-9ad4-e37b20cd4c96",
+              "title": "Data Vis L4 C03 V1",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "0F6ldBC6Nbs",
+                "china_cdn_id": "0F6ldBC6Nbs.mp4"
+              }
+            },
+            {
+              "id": 591985,
+              "key": "7bddb804-1295-4f6f-a9b7-2fec3f8248f8",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<hr>\n## 重叠、透明度和抖动\n\n如果要绘制大量数据点，或者数值变量是离散型的，那么直接使用散点图可能无法呈现足够的信息。图形可能会出现**重叠**，由于大量数据重叠到一起，导致很难看清变量之间的关系。\n```python\nplt.scatter(data = df, x = 'disc_var1', y = 'disc_var2')\n```",
+              "instructor_notes": ""
+            },
+            {
+              "id": 591986,
+              "key": "aca377a3-5afd-435f-b439-ce46e802015d",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/March/5ab1488a_l4-c03-overplotting1/l4-c03-overplotting1.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/aca377a3-5afd-435f-b439-ce46e802015d",
+              "caption": "",
+              "alt": "",
+              "width": 432,
+              "height": 288,
+              "instructor_notes": null
+            },
+            {
+              "id": 591987,
+              "key": "ddbd766a-b05f-45c0-8e36-6ca73f40b172",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "在上图中，我们可以推断出两个变量负相关，但是数据的变化程度和关系强度并不明显。在这种情形下，我们需要应用**透明度**和**抖动**，使散点图能呈现更多的信息。可以通过在  [`scatter`](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.scatter.html) 函数调用时添加 \"alpha\" 参数来表示透明度，\"alpha\" 的值可以介于 0（完全透明，不可见） 到 1（完全不透明）之间。\n```python\nplt.scatter(data = df, x = 'disc_var1', y = 'disc_var2', alpha = 1/5)\n```",
+              "instructor_notes": ""
+            },
+            {
+              "id": 591988,
+              "key": "a43ddb0c-a3e1-4917-8d6b-d8e866e80ebf",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/March/5ab14acb_l4-c03-overplotting2/l4-c03-overplotting2.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/a43ddb0c-a3e1-4917-8d6b-d8e866e80ebf",
+              "caption": "",
+              "alt": "",
+              "width": 432,
+              "height": 288,
+              "instructor_notes": null
+            },
+            {
+              "id": 591989,
+              "key": "805f8a2c-1355-49d7-8780-fd696b53ea66",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "重叠的点越多，图像颜色就越深。从图中可以看出，两个数值变量之间存在一定的负相关关系。x 轴上 0 和 10 的值比中间的值要少很多。\n\n除了设置透明度，我们还可以通过抖动使每个点稍微偏离真实值所对应的位置。这并不是 `scatter` 函数中的直接选项，但是 seaborn 的[`regplot`](https://seaborn.pydata.org/generated/seaborn.regplot.html) 函数有这个内置选项。可以单独添加 x 轴和 y 轴抖动，不会影响到回归方程的拟合情况，如果编写下面的代码：\n```python\nsb.regplot(data = df, x = 'disc_var1', y = 'disc_var2', fit_reg = False,\n           x_jitter = 0.2, y_jitter = 0.2, scatter_kws = {'alpha' : 1/3})\n```\n抖动设置将导致每个点在真实值的 ±0.2 范围内抖动。注意透明度设置已经更改为分配给 “scatter_kws” 参数的字典。这样设置可以将该透明度特别指定到`regplot` 函数的 `scatter` 组件。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 591990,
+              "key": "2742d1a2-7510-41a8-a1cf-bd81e3521fe5",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/March/5ab15147_l4-c03-overplotting3/l4-c03-overplotting3.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/2742d1a2-7510-41a8-a1cf-bd81e3521fe5",
+              "caption": "",
+              "alt": "",
+              "width": 432,
+              "height": 288,
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 592235,
+          "key": "8f54c142-468e-4e1a-abef-4c6425403a3b",
+          "title": "热图",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8f54c142-468e-4e1a-abef-4c6425403a3b",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 591991,
+              "key": "b67f96a7-bced-475c-a7be-c80795705e8d",
+              "title": "L4 041 热图 V4",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "RyCdvsmBjtE",
+                "china_cdn_id": "RyCdvsmBjtE.mp4"
+              }
+            },
+            {
+              "id": 591992,
+              "key": "6824bae0-6b24-40c9-924b-1bdacb810483",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<hr>",
+              "instructor_notes": ""
+            },
+            {
+              "id": 591993,
+              "key": "431acc3d-cd21-4100-ac2c-d64da4ec05cd",
+              "title": "Data Vis L4 C04 V1",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "O6ElT4IFXc0",
+                "china_cdn_id": "O6ElT4IFXc0.mp4"
+              }
+            },
+            {
+              "id": 591994,
+              "key": "c78d87dc-170d-4db7-8297-5b463318a101",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<hr>\n## 热图\n\n**热图**是直方图的二维版本，可以替代散点图。和散点图一样，要绘制的两个数值变量位于两个坐标轴上。和直方图类似，图表区域被划分为网格，累计每个网格的数据点数量。因为没有空间表示条形的高度，因此用网格颜色表示计数。你可以通过 Matplotlib 的 [`hist2d`](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.hist2d.html) 函数实现热图。\n```python\nplt.figure(figsize = [12, 5])\n\n# left plot: scatterplot of discrete data with jitter and transparency\nplt.subplot(1, 2, 1)\nsb.regplot(data = df, x = 'disc_var1', y = 'disc_var2', fit_reg = False,\n           x_jitter = 0.2, y_jitter = 0.2, scatter_kws = {'alpha' : 1/3})\n\n# right plot: heat map with bin edges between values\nplt.subplot(1, 2, 2)\nbins_x = np.arange(0.5, 10.5+1, 1)\nbins_y = np.arange(-0.5, 10.5+1, 1)\nplt.hist2d(data = df, x = 'disc_var1', y = 'disc_var2',\n           bins = [bins_x, bins_y])\nplt.colorbar();\n```\n注意，因为有两个变量，因此 \"bins\" 参数为一个列表，其中的两个值分别指定两个维度的分组边界。和单变量直方图一样，选择合适的分组区间很重要。我们添加了 [`colorbar`](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.colorbar.html) 函数调用，在图表的一侧添加色条，显示计数与颜色的映射。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 591995,
+              "key": "fec2e0d0-e224-4643-8d18-4b65af7820fe",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/March/5ab158bb_l4-c04-heatmap1/l4-c04-heatmap1.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/fec2e0d0-e224-4643-8d18-4b65af7820fe",
+              "caption": "",
+              "alt": "",
+              "width": 864,
+              "height": 360,
+              "instructor_notes": null
+            },
+            {
+              "id": 591996,
+              "key": "f588dc34-6696-457b-92ff-851db7c945c1",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "随着热图中的颜色越来越亮，从蓝色变成黄色，相应单元格中的数据量越来越多。\n\n热图还可以用作条形图的二维版本，按照两个分类变量（而不是数值变量）的计数绘制图表。seaborn 中的函数 `heatmap` 专门用于绘制分类热图。稍后我们将在这节课的“分组条形图”部分详细讲解这方面的知识。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 591997,
+              "key": "301fe6c3-0c0e-4337-97fe-e923b5ba7f6a",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## 其他版本\n\n要选择其他调色板，可以在 `hist2d` 中设置 \"cmap\" 参数。设置调色板的最简单方式是使用字符串引用内置 Matplotlib 调色板。你可以在 Pyplot API 文档的[此部分](https://matplotlib.org/api/pyplot_summary.html#colors-in-matplotlib)找到有效字符串列表。下节课将详细讨论图表中的颜色。暂时我们先通过一个示例了解，设置 `cmap = 'viridis_r'` 可以将默认的 \"viridis\" 修改为反向的调色板。\n\n此外，我想区分计数为零的单元格和计数非零的单元格。\"cmin\" 参数指定了单元格要绘制出来的最小数据量。在 `hist2d` 调用中添加 `cmin = 0.5` 参数后，只有包含一个数据点以上的单元格才会有颜色。\n```python\nbins_x = np.arange(0.5, 10.5+1, 1)\nbins_y = np.arange(-0.5, 10.5+1, 1)\nplt.hist2d(data = df, x = 'disc_var1', y = 'disc_var2',\n           bins = [bins_x, bins_y], cmap = 'viridis_r', cmin = 0.5)\nplt.colorbar()\n```",
+              "instructor_notes": ""
+            },
+            {
+              "id": 591998,
+              "key": "b5c034f5-4812-4270-9210-9c650ae9c9ae",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/March/5ab172c4_l4-c04-heatmap2/l4-c04-heatmap2.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/b5c034f5-4812-4270-9210-9c650ae9c9ae",
+              "caption": "",
+              "alt": "",
+              "width": 432,
+              "height": 288,
+              "instructor_notes": null
+            },
+            {
+              "id": 591999,
+              "key": "78fef3b7-ffe1-4593-8f07-6c2444fb9c53",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "如果你有大量数据，可能需要向图表中的单元格添加注释，表示每个单元格的数据量。在`hist2d` 调用中，我们必须挨个地添加文本标注，就像在上节课挨个地向条形图中添加文本标注一样。我们可以直接通过 `hist2d` 返回的结果得出要标注的计数，该函数返回的结果不仅包括图表对象，还包括计数的数组和两个分组区间的向量。\n```python\n# hist2d returns a number of different variables, including an array of counts\nbins_x = np.arange(0.5, 10.5+1, 1)\nbins_y = np.arange(-0.5, 10.5+1, 1)\nh2d = plt.hist2d(data = df, x = 'disc_var1', y = 'disc_var2',\n               bins = [bins_x, bins_y], cmap = 'viridis_r', cmin = 0.5)\ncounts = h2d[0]\n\n# loop through the cell counts and add text annotations for each\nfor i in range(counts.shape[0]):\n    for j in range(counts.shape[1]):\n        c = counts[i,j]\n        if c >= 7: # increase visibility on darkest cells\n            plt.text(bins_x[i]+0.5, bins_y[j]+0.5, int(c),\n                     ha = 'center', va = 'center', color = 'white')\n        elif c > 0:\n            plt.text(bins_x[i]+0.5, bins_y[j]+0.5, int(c),\n                     ha = 'center', va = 'center', color = 'black')\n```",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592000,
+              "key": "0aeb1d56-80a5-4948-ad59-d484b04df71f",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/March/5ab17c13_l4-c04-heatmap3/l4-c04-heatmap3.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/0aeb1d56-80a5-4948-ad59-d484b04df71f",
+              "caption": "",
+              "alt": "",
+              "width": 432,
+              "height": 288,
+              "instructor_notes": null
+            },
+            {
+              "id": 592001,
+              "key": "ac5124a2-d1a4-4fa8-9c8f-50c3efb34321",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "如果热图中有太多的单元格，注释将太多，无法看清。在这种情形下，建议不要添加注释，直接通过数据和色条传达信息。通常你会在单元格较少的分类热图中看到注释。实际上，seaborn 的 `heatmap` 函数中内置了一个添加注释的参数，稍后我们将讲解。",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 592236,
+          "key": "d559b9aa-86d6-4b46-9149-cc91c0630900",
+          "title": "散点图练习",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "d559b9aa-86d6-4b46-9149-cc91c0630900",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 592002,
+              "key": "f8ce47a9-ef53-4bd6-bad7-c77097c02211",
+              "title": null,
+              "semantic_type": "WorkspaceAtom",
+              "is_public": true,
+              "workspace_id": "viewf503afd5",
+              "pool_id": "jupyter",
+              "view_id": "f503afd5-9ef1-4f48-9779-df0cd56fb622",
+              "gpu_capable": false,
+              "configuration": {
+                "id": "reserved",
+                "blueprint": {
+                  "conf": {
+                    "disk": null,
+                    "ports": [],
+                    "allowGrade": false,
+                    "allowSubmit": false,
+                    "defaultPath": "/notebooks/Scatterplot_Practice-zh.ipynb"
+                  },
+                  "kind": "jupyter"
+                },
+                "workspaceId": "reserved"
+              },
+              "starter_files": null
+            }
+          ]
+        },
+        {
+          "id": 592237,
+          "key": "1dca3bcb-d2d4-44c2-b88e-ecea98402349",
+          "title": "小提琴图",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1dca3bcb-d2d4-44c2-b88e-ecea98402349",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 634547,
+              "key": "c77a532a-e40a-485a-8b9a-0a7c8a55f6ba",
+              "title": "L4 061 Violin Plots 2 V3",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "NbVkApNUqdQ",
+                "china_cdn_id": "NbVkApNUqdQ.mp4"
+              }
+            },
+            {
+              "id": 592004,
+              "key": "66c2dd8f-48a4-41c8-b0bc-a13b483d6588",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<hr>",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592005,
+              "key": "a8dcc219-01c0-4357-8c72-e245ce1a33d0",
+              "title": "Data Vis L4 C06 V2",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "f8Kh4PByiEA",
+                "china_cdn_id": "f8Kh4PByiEA.mp4"
+              }
+            },
+            {
+              "id": 592006,
+              "key": "ec4e12ac-d360-4a31-b2dd-11c817163d0a",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<hr>\n## 小提琴图\n\n我们可以通过几种方式绘制一个数值变量和一个分类变量之间的关系，表示为不同的抽象级别。**小提琴图**是较低级别的抽象。对于分类变量的每个类别，都会绘制数值变量的值分布情况。分布情况绘制为核密度估计，有点像平滑的直方图，关于核密度估计的讲解，可以参照上一章课程结尾的补充内容。\n\nSeaborn 的 [`violinplot`](https://seaborn.pydata.org/generated/seaborn.violinplot.html) 函数可以创建将小提琴图和箱线图相结合的图表，我们将在下个页面讨论箱线图。\n```python\nsb.violinplot(data = df, x = 'cat_var', y = 'num_var')\n```",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592007,
+              "key": "3777f448-d73c-44f8-974d-a86262b420e6",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/March/5ab1a954_l4-c06-violinplot1/l4-c06-violinplot1.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3777f448-d73c-44f8-974d-a86262b420e6",
+              "caption": "",
+              "alt": "",
+              "width": 432,
+              "height": 288,
+              "instructor_notes": null
+            },
+            {
+              "id": 592008,
+              "key": "79cee88e-e432-4890-80f8-857389d914eb",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "在此图中可以看出，数值数据在每个分类级别都具有不同的形状：Alpha 组呈双峰，Beta 组的变化范围相对更广，Gamma 组和 Delta 组分别呈负偏态和正偏态。还可以看出，每个级别都以不同的颜色呈现，就像上节课的普通 `countplot` 一样。如果没必要区分颜色，我们可以使用 \"color\" 参数使所有曲线的颜色都一样。\n\n在每个曲线内，都有一个黑色的形状，其中包含一个白点。这就是上面提到的迷你箱线图，下个页面的课程将详细讨论箱线图。如果你想删除箱线图，可以在  `violinplot` 调用中设置 `inner = None` ，使最终的图表看起来更简单。\n```python\nbase_color = sb.color_palette()[0]\nsb.violinplot(data = df, x = 'cat_var', y = 'num_var', color = base_color,\n              inner = None)\n```",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592009,
+              "key": "e754d722-d1b8-4b54-9b79-99a108eaa8d5",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/March/5ab20251_l4-c06-violinplot2/l4-c06-violinplot2.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/e754d722-d1b8-4b54-9b79-99a108eaa8d5",
+              "caption": "",
+              "alt": "",
+              "width": 432,
+              "height": 288,
+              "instructor_notes": null
+            },
+            {
+              "id": 592010,
+              "key": "ef488935-c122-42bd-a816-a6e2a25ace7a",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## 其他版本\n\n就像横向条形图可以呈现为横条一样，小提琴图也可以水平呈现。Seaborn 很机智，可以根据是 \"x\" 还是 \"y\" 接受的分类变量来推断按照哪个屏幕方向绘制图表。但是如果两个变量都是数值（比如其中一个是离散型数值），则可以使用 “orient” 参数指定图表方向。\n```python\nbase_color = sb.color_palette()[0]\nsb.violinplot(data = df, x = 'num_var', y = 'cat_var', color = base_color,\n              inner = None)\n```",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592011,
+              "key": "f0d10a54-6ae1-4085-a1e3-9d2cdcc12f81",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/March/5ab203d6_l4-c06-violinplot3/l4-c06-violinplot3.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/f0d10a54-6ae1-4085-a1e3-9d2cdcc12f81",
+              "caption": "",
+              "alt": "",
+              "width": 460,
+              "height": 262,
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 592238,
+          "key": "6ec37bb1-2d14-451c-9965-91c86be93be3",
+          "title": "箱线图",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "6ec37bb1-2d14-451c-9965-91c86be93be3",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 592012,
+              "key": "fa198978-ad29-4315-9400-69ea8ceae67e",
+              "title": "L4 071 箱线图 V4",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "3gxJag12T0g",
+                "china_cdn_id": "3gxJag12T0g.mp4"
+              }
+            },
+            {
+              "id": 592013,
+              "key": "842ae37a-1fbc-4dd3-94d4-c5c7cc213fa1",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<hr>",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592014,
+              "key": "2bdb8320-8543-43f3-bcb8-641343e9493f",
+              "title": "Data Vis L4 C07 V1",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "f6v3L3IDo24",
+                "china_cdn_id": "f6v3L3IDo24.mp4"
+              }
+            },
+            {
+              "id": 592015,
+              "key": "000af388-a54c-4a17-89d5-f6a1dab4a76f",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<hr>\n## 箱线图\n\n**箱线图**（也被称为箱形图、盒须图等）是展示数值变量和分类变量之间关系的另一种方式。与小提琴图相比，箱线图更侧重于数据的汇总统计，主要报告每个分类级别数值的一组描述性统计量。可以使用 seaborn 的  [`boxplot`](https://seaborn.pydata.org/generated/seaborn.boxplot.html) 函数创建箱线图。\n\n```python\nplt.figure(figsize = [10, 5])\nbase_color = sb.color_palette()[0]\n\n# left plot: violin plot\nplt.subplot(1, 2, 1)\nax1 = sb.violinplot(data = df, x = 'cat_var', y = 'num_var', color = base_color)\n\n# right plot: box plot\nplt.subplot(1, 2, 2)\nsb.boxplot(data = df, x = 'cat_var', y = 'num_var', color = base_color)\nplt.ylim(ax1.get_ylim()) # set y-axis limits to be same as left plot\n```\n注意，这里使用了 \"color\" 参数使每个箱子的颜色一样。为了更好地比较小提琴图和箱线图，我们在第二个图表上添加了 `ylim` 表达式，使两个图表的 y 轴范围相符。我们将 `violinplot` 返回的 Axes 对象分配给一个变量`ax1`，以编程方式获得范围值（`ax1.get_ylim()`）。\n\n（文档：[Axes 对象](https://matplotlib.org/api/axes_api.html)）",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592016,
+              "key": "902d0a8a-ba46-4dc1-8646-843ce3e1b3b2",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/March/5ab297bd_l4-c07-boxplot1/l4-c07-boxplot1.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/902d0a8a-ba46-4dc1-8646-843ce3e1b3b2",
+              "caption": "",
+              "alt": "",
+              "width": 720,
+              "height": 360,
+              "instructor_notes": null
+            },
+            {
+              "id": 592017,
+              "key": "4befe0cf-9a97-4d52-80c1-8f69748aef14",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "小提琴图的内部方框和线条对应于箱线图的矩形箱子和须线。在箱线图中，箱子的中间线条表示分布的中位数，箱子的顶部和底部分别表示数据的第三个和第一个四分位数。因此，箱子的高度是四分位差（IQR）。箱子顶部的须线，表示从第三四分位数到最大值的范围，底部的须线表示从第一四分位数到最小值的范围。通常，须线长度会设置最大范围，默认情况下，设为 1.5 乘以 IQR。对于 Gamma 级别，底部须线下方有数据，表示在第一四分位数下方存在大于 1.5 倍 IQR 的单个离群值。\n\n对比两个图表后发现，箱线图是比小提琴图更清晰的数据汇总。使用箱线图更容易比较不同组的统计值。如果你有很多组数据要比较，或者要构建解释性可视化，则箱线图更值得考虑。可以从箱线图中清晰地看出，Delta 组的中位数最低。另一方面，箱线图对数据分布的细节描绘没有小提琴图清晰：无法在 Alpha 级别的值中看到微弱的双峰性。小提琴图可能更适合探索数据，尤其因为 seaborn 还默认地在小提琴图中包含了箱线图。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592018,
+              "key": "a443bf82-d583-4c64-bb1a-ca03eacc16b2",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## 其他版本\n\n和 `violinplot` 一样，`boxplot` 也可以水平地呈现箱线图，将数字和分类特征设为相应的参数即可。\n```python\nbase_color = sb.color_palette()[0]\nsb.boxplot(data = df, x = 'num_var', y = 'cat_var', color = base_color)\n```",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592019,
+              "key": "7b401441-b7eb-4151-bec7-18939e45d083",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/March/5ab29ca8_l4-c07-boxplot2/l4-c07-boxplot2.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/7b401441-b7eb-4151-bec7-18939e45d083",
+              "caption": "",
+              "alt": "",
+              "width": 450,
+              "height": 271,
+              "instructor_notes": null
+            },
+            {
+              "id": 592020,
+              "key": "0282ef69-7410-48df-bea4-be9df0114d37",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "在 `violinplot` 中，除了默认的迷你箱线图之外，还有一个在小提琴图中绘制汇总统计信息的其他选项。通过设置 `inner = 'quartile’`，将在小提琴区域绘制三条虚线分别表示三个四分位数。虚线较粗的长横线表示中位数，位于两侧的短横线虚线表示第一四分位数和第三四分位数。\n```python\nbase_color = sb.color_palette()[0]\nsb.violinplot(data = df, x = 'cat_var', y = 'num_var', color = base_color,\n              inner = 'quartile')\n```",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592021,
+              "key": "93b515ea-ac93-428e-859a-1616c48ec27d",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/March/5ab2ac0c_l4-c07-boxplot3/l4-c07-boxplot3.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/93b515ea-ac93-428e-859a-1616c48ec27d",
+              "caption": "",
+              "alt": "",
+              "width": 432,
+              "height": 288,
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 592239,
+          "key": "b3dd0ca0-99d7-4d0a-bf9e-440d33dd5b6c",
+          "title": "小提琴图和箱线图练习",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "b3dd0ca0-99d7-4d0a-bf9e-440d33dd5b6c",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 616626,
+              "key": "6e05ac48-1e5b-4a00-a754-161602304470",
+              "title": null,
+              "semantic_type": "WorkspaceAtom",
+              "is_public": true,
+              "workspace_id": "view352e32eb",
+              "pool_id": "jupyter",
+              "view_id": "352e32eb-8b28-4573-972e-0bb8a2d3f402",
+              "gpu_capable": false,
+              "configuration": {
+                "id": "reserved",
+                "blueprint": {
+                  "conf": {
+                    "disk": null,
+                    "ports": [],
+                    "allowGrade": false,
+                    "allowSubmit": false,
+                    "defaultPath": "/notebooks/Violin_and_Box_Plot_Practice-zh.ipynb"
+                  },
+                  "kind": "jupyter"
+                },
+                "workspaceId": "reserved"
+              },
+              "starter_files": null
+            }
+          ]
+        },
+        {
+          "id": 592240,
+          "key": "7c2f7055-36bc-4370-b81e-68a897951353",
+          "title": "分组条形图",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "7c2f7055-36bc-4370-b81e-68a897951353",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 592023,
+              "key": "9adb488d-16fa-408f-ab96-e0b183bdb10e",
+              "title": "L4 091 集群条形图 V4",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "0rFp55TtEJM",
+                "china_cdn_id": "0rFp55TtEJM.mp4"
+              }
+            },
+            {
+              "id": 592024,
+              "key": "7522dec8-8b8d-4449-9ca2-49b0be8c5d58",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<hr>",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592025,
+              "key": "8c1780ba-a8f4-43d2-90eb-320394ab3ba0",
+              "title": "Data Vis L4 C09 V1",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "OnzWhpgM9Vs",
+                "china_cdn_id": "OnzWhpgM9Vs.mp4"
+              }
+            },
+            {
+              "id": 592026,
+              "key": "5a517994-1d94-42d5-885f-cc217ef00f83",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<hr>\n## 分组条形图\n\n为了描绘两个分类变量之间的关系，我们可以将在上节课见到的单变量条形图扩展为**分组条形图**（也被称为簇状柱形图、簇状条形图等）。和标准条形图一样，我们依然想要描绘每组的数据数量，只是现在每组是两个变量的标签组合。因此我们需要按照某种顺序整理长条，使图表容易解释。在分组条形图中，根据第一个变量的级别将长条分成多组，然后在每个组内根据第二个变量对长条进行排序。使用 seaborn 的 [`countplot`](https://seaborn.pydata.org/generated/seaborn.countplot.html) 函数通过一个示例来讲解最容易理解。要使其从单变量图表变成双变量图表，我们用 \"hue\" 参数添加第二个变量：\n```python\nsb.countplot(data = df, x = 'cat_var1', hue = 'cat_var2')\n```",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592027,
+              "key": "3707e89d-6b66-4105-843e-85ff9809cb4e",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/March/5ab2c211_l4-c09-clusteredbar1/l4-c09-clusteredbar1.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3707e89d-6b66-4105-843e-85ff9809cb4e",
+              "caption": "",
+              "alt": "",
+              "width": 432,
+              "height": 288,
+              "instructor_notes": null
+            },
+            {
+              "id": 592028,
+              "key": "a9614768-aced-474f-8a6f-4b6e42fcbb16",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "第一个分类变量用常规的 x 轴位置表示（对照组 Control、实验 A 组 Experiment A、实验 B 组 Experiment B）。在每组中绘制三个长条，分别对应第二个分类变量的每个级别（低 Low、中 Medium、高 High），用颜色区分每个级别，并在图表的右上角用图例标记。图表告诉我们三个 \"cat_var1\" 组在 \"cat_var2\" 级别的频率分布很平衡，虽然 \"Experiment A\" 组与另外两组相比，Medium 点（橙色中心长条）的计数稍微低些。\n\n但是，该示例中的图例位置有点干扰性。我们可以使用 [Axes 方法](https://matplotlib.org/api/axes_api.html)设置 `countplot` 返回的 Axes 对象的 legend 属性。\n```python\nax = sb.countplot(data = df, x = 'cat_var1', hue = 'cat_var2')\nax.legend(loc = 8, ncol = 3, framealpha = 1, title = 'cat_var2')\n```\n文档：[`Axes.legend`](https://matplotlib.org/api/_as_gen/matplotlib.axes.Axes.legend.html)",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592029,
+              "key": "97ffe06d-294c-474b-8f72-9b2b6f947cb9",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/March/5ab2c577_l4-c09-clusteredbar2/l4-c09-clusteredbar2.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/97ffe06d-294c-474b-8f72-9b2b6f947cb9",
+              "caption": "",
+              "alt": "",
+              "width": 432,
+              "height": 288,
+              "instructor_notes": null
+            },
+            {
+              "id": 592031,
+              "key": "4e2e3c39-5c05-4000-884d-d44fc632323f",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## 其他方法（热图）\n\n描绘两个分类变量之间关系的另一种方式是热图。之前我们介绍热图是直方图的二维版本；现在我们将其当做条形图的二维版本。seaborn 函数 [`heatmap`](https://seaborn.pydata.org/generated/seaborn.heatmap.html) 可以轻松地实现这种类型的热图，但是输入参数与我们在这门课程中介绍的大部分可视化函数不一样。我们需要将计数汇总为一个矩阵，然后进行绘制，而不是提供原始 DataFrame。\n```python\nct_counts = df.groupby(['cat_var1', 'cat_var2']).size()\nct_counts = ct_counts.reset_index(name = 'count')\nct_counts = ct_counts.pivot(index = 'cat_var2', columns = 'cat_var1', values = 'count')\n```\n（文档：[Series `reset_index`](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.reset_index.html), [DataFrame `pivot`](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.pivot.html)）",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592030,
+              "key": "94e7ead0-4c70-43d3-8a96-7be3190eee32",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/March/5ab2cc3e_l4-c09-clusteredbar3/l4-c09-clusteredbar3.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/94e7ead0-4c70-43d3-8a96-7be3190eee32",
+              "caption": "",
+              "alt": "",
+              "width": 399,
+              "height": 98,
+              "instructor_notes": null
+            },
+            {
+              "id": 592032,
+              "key": "452bee7f-d41c-452c-a1d5-087a4e6cb7f9",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "```python\nsb.heatmap(ct_counts)\n```",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592033,
+              "key": "c18181a4-df62-415c-806e-2583d86419ad",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/March/5ab2cc73_l4-c09-clusteredbar4/l4-c09-clusteredbar4.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/c18181a4-df62-415c-806e-2583d86419ad",
+              "caption": "",
+              "alt": "",
+              "width": 432,
+              "height": 288,
+              "instructor_notes": null
+            },
+            {
+              "id": 592034,
+              "key": "6d8fce0c-45dc-459a-b48c-5a9a2ec1f1f2",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "热图和分组条形图传达的信息相似：每行上的相似颜色表示 \"cat_var1\" 群组的大小相似，并且在 \"cat_var2\" 级别上的分布相似。Experiment A 的 Medium 观测值的数量稍微少些，而 Control 的 High 级别数据点的数量多些，Experiment B 的 Low 级别数据点的数量稍微多些。但是与分组条形图相比，差异程度的描绘不够精确。因此，我们可能需要在图表中添加注释，注明每个单元格的计数。\n```python\nsb.heatmap(ct_counts, annot = True, fmt = 'd')\n```\n`annot = True` 可以在每个单元格中显示注释，但是默认的字符串格式精度只能达到小数点后两位。添加 `fmt = 'd'` 表示注释将变成整数形式。为了避免有些类别没有数量，要显示出 NaN 值，你可以设置 `fmt = '.0f'`。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592035,
+              "key": "243c1399-f4ab-479e-8fcb-8a8640fae9a2",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/March/5ab2d035_l4-c09-clusteredbar5/l4-c09-clusteredbar5.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/243c1399-f4ab-479e-8fcb-8a8640fae9a2",
+              "caption": "",
+              "alt": "",
+              "width": 432,
+              "height": 288,
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 592241,
+          "key": "157ab94f-b709-46b2-81ed-5e2f1d11ed4f",
+          "title": "分类图表练习",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "157ab94f-b709-46b2-81ed-5e2f1d11ed4f",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 616630,
+              "key": "a4d0f8ae-60f4-4fdd-af6a-ab2324b806cc",
+              "title": null,
+              "semantic_type": "WorkspaceAtom",
+              "is_public": true,
+              "workspace_id": "view352e32eb",
+              "pool_id": "jupyter",
+              "view_id": "8c41df63-127a-4e09-85c6-3537f7c3791e",
+              "gpu_capable": false,
+              "configuration": {
+                "id": "reserved",
+                "blueprint": {
+                  "conf": {
+                    "ports": [],
+                    "allowSubmit": false,
+                    "defaultPath": "/notebooks/Categorical_Plot_Practice-zh.ipynb"
+                  },
+                  "kind": "jupyter"
+                },
+                "workspaceId": "reserved"
+              },
+              "starter_files": null
+            }
+          ]
+        },
+        {
+          "id": 592242,
+          "key": "2159eb35-129b-419e-a81e-258425d98e1c",
+          "title": "分面",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2159eb35-129b-419e-a81e-258425d98e1c",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 592037,
+              "key": "ba64a6f1-1429-472e-b54b-f175625a215c",
+              "title": "L4 111 分面 V2",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "oUYRqI6wFGw",
+                "china_cdn_id": "oUYRqI6wFGw.mp4"
+              }
+            },
+            {
+              "id": 592038,
+              "key": "baae029f-106d-4a78-8d71-9b8ebbf65097",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<hr>",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592039,
+              "key": "311aad18-26ae-49a2-b2f0-144f2fe3f59c",
+              "title": "Data Vis L4 C11 V1",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "3Ls6w8Cd8n4",
+                "china_cdn_id": "3Ls6w8Cd8n4.mp4"
+              }
+            },
+            {
+              "id": 592040,
+              "key": "9badb38c-38a2-42fb-915f-5ed4ef8383cf",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<hr>\n## 分面\n\n**分面**是一种通用的可视化技巧，帮助你处理包含两个或多个变量的图表。在分面操作中，数据被划分为不相交的子集，通常根据分类变量的不同类别进行划分。对于每个子集，对其他变量绘制相同的图表。分面是比较不同变量级别分布或关系的一种方式，尤其是有三个或多个感兴趣的变量时。虽然分面在多变量可视化中最有用，但是依然有必要在双变量可视化中讨论这一技巧。\n\n例如，我们可以不使用小提琴图或箱线图描绘一个数值变量和一个分类变量之间的关系，而是使用分面，按照分类变量级别划分子集数据，对每个子集中的数值变量绘制直方图。我们可以利用 Seaborn 的 [FacetGrid](https://seaborn.pydata.org/generated/seaborn.FacetGrid.html) 类创建分面图表。在创建分面图表时，需要完成两个步骤。首先，我们需要创建一个 FacetGrid 对象的实例，并指定要分面的特征（在我们的示例中为 “cat_var”）。然后对 FacetGrid 对象使用 `map` 方法，指定在每个子集中要绘制的图表类型和变量（在此例中针对 “num_var” 绘制直方图）。\n```python\ng = sb.FacetGrid(data = df, col = 'cat_var')\ng.map(plt.hist, \"num_var\")\n```\n在 `map` 调用中，将绘图函数和变量设为位置参数，请勿设为关键字参数，例如  `x = \"num_var”`，否则映射无法正常发挥作用。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592041,
+              "key": "bce84111-599c-4aef-b146-7db920a54d2d",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/March/5ab2dbb4_l4-c11-faceting1/l4-c11-faceting1.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/bce84111-599c-4aef-b146-7db920a54d2d",
+              "caption": "",
+              "alt": "",
+              "width": 864,
+              "height": 216,
+              "instructor_notes": null
+            },
+            {
+              "id": 592042,
+              "key": "d7bf6609-46e3-41a7-b7c5-45a8679e1402",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "注意，每个子数据集都是独立绘制的。每个图表都使用 `hist` 的默认 10 个分组划分数据，每个图表具有不同的组距。但是，每个面的坐标轴范围一样，以便清晰直观地对比每个面。依然可以通过在所有平面设置相同的分组区间，使图表更整洁。可以在 `map` 函数中通过其他关键字参数设置其他可视化参数。\n```python\nbin_edges = np.arange(-3, df['num_var'].max()+1/3, 1/3)\ng = sb.FacetGrid(data = df, col = 'cat_var')\ng.map(plt.hist, \"num_var\", bins = bin_edges)\n```",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592043,
+              "key": "0d5f2e2a-471d-4d1e-b591-506159e0d60a",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/March/5ab2df31_l4-c11-faceting2/l4-c11-faceting2.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/0d5f2e2a-471d-4d1e-b591-506159e0d60a",
+              "caption": "",
+              "alt": "",
+              "width": 864,
+              "height": 216,
+              "instructor_notes": null
+            },
+            {
+              "id": 592044,
+              "key": "8a0c9f1d-9939-43ef-83ba-5db318c00ec5",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## 其他版本\n\n如果你要绘制很多个分类级别，则可能需要在 FacetGrid 对象初始化过程中添加更多参数，以便清晰的传达信息。以下示例包含一个具有 15 个不同级别的分类变量“many_cat_var”。设置 `col_wrap = 5` 表示每行只包含 5 个分面，而不是单独的长长一行 15 个。\n```python\ngroup_means = df.groupby(['many_cat_var']).mean()\ngroup_order = group_means.sort_values(['num_var'], ascending = False).index\n\ng = sb.FacetGrid(data = df, col = 'many_cat_var', col_wrap = 5, size = 2,\n                 col_order = group_order)\ng.map(plt.hist, 'num_var', bins = np.arange(5, 15+1, 1))\ng.set_titles('{col_name}')\n```\n为了增加图表的可读性，可以采取的其他操作包括：将每个分面的高度设为 2 英寸（“size” 参数），按照组均值对分面排序（“col_order” 参数），限制直方图 bins 的数量，以及使用 `set_titles` 方法和 `{col_name}` 模板变量将每个分面的标题更改为分类级别名称。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592045,
+              "key": "1c5017f2-5e72-4ba4-9f6a-8fd62c9e70a8",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/March/5ab2f284_l4-c11-faceting3/l4-c11-faceting3.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/1c5017f2-5e72-4ba4-9f6a-8fd62c9e70a8",
+              "caption": "",
+              "alt": "",
+              "width": 720,
+              "height": 432,
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 592243,
+          "key": "c2627efd-b028-430f-b3f8-de1d17e9db89",
+          "title": "调整单变量图表",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "c2627efd-b028-430f-b3f8-de1d17e9db89",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 592046,
+              "key": "d50570ad-2a3d-473d-a25f-d19aa4596538",
+              "title": "L4 121 调整单变量图形 V3",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "MXcqplnUB0o",
+                "china_cdn_id": "MXcqplnUB0o.mp4"
+              }
+            },
+            {
+              "id": 592047,
+              "key": "0e4cc088-3ff2-47e6-829f-1974fe4b7eb8",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<hr>",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592048,
+              "key": "e74dd4df-ab77-406d-a1be-0e994301338e",
+              "title": "Data Vis L4 C12 V2",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "aJncRqqJUYI",
+                "china_cdn_id": "aJncRqqJUYI.mp4"
+              }
+            },
+            {
+              "id": 592049,
+              "key": "249e8927-d20a-4e38-b380-1a61c4efa069",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<hr>\n## 调整后的条形图\n\n在上节课，我们提到直方图和条形图分别可以描绘数值变量和分类变量的分布情况，长条的高度（或长度）表示落入每个长条的值范围内的数据点数量。这些图表可以经过调整，用作双变量可视化，调整后的长条高度不再代表每个值的数量，而用来表示第二个变量的均值或其他统计量。\n\n例如，我们可以调整条形图，使长条高度表示数值变量的均值，从而绘制数值变量和分类变量的关系。这就是 seaborn 的  [`barplot`](https://seaborn.pydata.org/generated/seaborn.barplot.html) 函数的作用：\n```python\nbase_color = sb.color_palette()[0]\nsb.barplot(data = df, x = 'cat_var', y = 'num_var', color = base_color)\n```\n系统会自动为每个分类级别分配不同的色调，除非在 “color” 参数中设置了固定的颜色，就像 `countplot` 和 `violinplot` 一样。\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592050,
+              "key": "1780a7d4-e10a-488a-8529-790939ccbb85",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/March/5ab2f6cd_l4-c12-adaptations1/l4-c12-adaptations1.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/1780a7d4-e10a-488a-8529-790939ccbb85",
+              "caption": "",
+              "alt": "",
+              "width": 432,
+              "height": 288,
+              "instructor_notes": null
+            },
+            {
+              "id": 592051,
+              "key": "f790e64a-2596-425d-b758-43affb2ecab6",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "长条高度表示数值变量的均值，并伴有误差线的绘制，表示基于方差和样本大小的均值不确定性。Delta 的长条因为均值为负数，跑到了 0 轴下方。\n\n此外，可以使用 [`pointplot`](https://seaborn.pydata.org/generated/seaborn.pointplot.html) 函数将平均值绘制为点，而不是长条。如果 0 基线不太重要或者容易让人困惑，那么这么设置会很有用。\n```python\nsb.pointplot(data = df, x = 'cat_var', y = 'num_var', linestyles = \"\")\nplt.ylabel('Avg. value of num_var')\n```\n默认情况下，`pointplot` 将用折线连接值。如果分类变量本身是有序的，那么这样连接没什么问题，但是对于无序分类数据来说，建议通过  `linestyles = \"\"` 删除该折线。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592052,
+              "key": "6e35fb38-1637-4d60-9e5f-8d79906fede0",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/March/5ab34369_l4-c12-adaptations2/l4-c12-adaptations2.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/6e35fb38-1637-4d60-9e5f-8d79906fede0",
+              "caption": "",
+              "alt": "",
+              "width": 432,
+              "height": 288,
+              "instructor_notes": null
+            },
+            {
+              "id": 592053,
+              "key": "e95d472b-7d8f-442b-823c-9b2517441257",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "如果箱线图和小提琴图都不适合描绘数据，那么上述图表可能会比较合适。例如，如果数值变量本身是二元变量，值仅包括 0 和 1，那么箱线图或小提琴图将无法呈现足够的信息，而调整后的条形图最适合显示这些数据。\n```python\nplt.figure(figsize = [12, 5])\nbase_color = sb.color_palette()[0]\n\n# left plot: violin plot\nplt.subplot(1, 3, 1)\nsb.violinplot(data = df, x = 'condition', y = 'binary_out', inner = None,\n              color = base_color)\nplt.xticks(rotation = 10) # include label rotation due to small subplot size\n\n# center plot: box plot\nplt.subplot(1, 3, 2)\nsb.boxplot(data = df, x = 'condition', y = 'binary_out', color = base_color)\nplt.xticks(rotation = 10)\n\n# right plot: adapted bar chart\nplt.subplot(1, 3, 3)\nsb.barplot(data = df, x = 'condition', y = 'binary_out', color = base_color)\nplt.xticks(rotation = 10)\n```\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592054,
+              "key": "9e737137-6cd8-451d-a222-64646608e17f",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/March/5ab34899_l4-c12-adaptations3/l4-c12-adaptations3.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/9e737137-6cd8-451d-a222-64646608e17f",
+              "caption": "",
+              "alt": "",
+              "width": 864,
+              "height": 360,
+              "instructor_notes": null
+            },
+            {
+              "id": 592055,
+              "key": "52d549b4-bdb2-4c13-b8ab-d348720c2468",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## 调整后的直方图\n\n我们还可以调整 Matplotlib 的 `hist` 函数，以便通过 “weights” 参数使长条高度表示除数据点数量以外的其他值。默认情况下，每个数据点的权重是 1，以便每个长条中的数据点权重之和等于数据点的数量。如果我们将权重更改为表示每个点在第二个变量上的值的函数，那么和将表示计数之外的值。\n\n```python\nbin_edges = np.arange(0, df['num_var'].max()+1/3, 1/3)\n\n# count number of points in each bin\nbin_idxs = pd.cut(df['num_var'], bin_edges, right = False, include_lowest = True,\n                  labels = False).astype(int)\npts_per_bin = df.groupby(bin_idxs).size()\n\nnum_var_wts = df['binary_out'] / pts_per_bin[bin_idxs].values\n\n# plot the data using the calculated weights\nplt.hist(data = df, x = 'num_var', bins = bin_edges, weights = num_var_wts)\n```\n要获取每个分组中 y 变量（“binary_out”）的均值，每个点的权重应该等于 y 变量除以 x 分组内的数据量（`num_var_wts`）。在计算过程中，我们使用 pandas 的 `cut` 函数使每个数据点进入特定的分组（`bin_idxs` ）。`labels = False` 这个设置使每个 cut 分组都是数值索引，而不是字符串索引。我们对 `pts_per_bin` 使用这些数值索引进行引用，最后需要用 `.values`  结尾，使`num_var_wts` 表达式的元素级相除运算成功。\n\n（文档：[pandas `cut`](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.cut.html)）",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592056,
+              "key": "745b0f30-81cb-4263-975b-4ad3e2b16648",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/March/5ab3eaed_l4-c12-adaptations4/l4-c12-adaptations4.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/745b0f30-81cb-4263-975b-4ad3e2b16648",
+              "caption": "",
+              "alt": "",
+              "width": 432,
+              "height": 288,
+              "instructor_notes": null
+            },
+            {
+              "id": 592057,
+              "key": "4f043145-6c22-48e6-989c-0083f3a0f76b",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "此图表明 y 变量 “binary_out” 的平均结果基本上随着 x 变量 “num_var” 的增大而增大。\n\n更常见的情形是，你会见到图表将某个数值变量的值与第二个数值变量的关系汇总为折线图，而不是调整后的直方图。下个页面将讲解这方面的知识。",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 592244,
+          "key": "95f3c6d7-2ad0-43c1-bb53-4b7fbc40262b",
+          "title": "折线图",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "95f3c6d7-2ad0-43c1-bb53-4b7fbc40262b",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 592058,
+              "key": "c0b8141d-8727-49f1-91dc-6ea7757b30dc",
+              "title": "L4 131 折线图 V1",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "kSntEWPuOa0",
+                "china_cdn_id": "kSntEWPuOa0.mp4"
+              }
+            },
+            {
+              "id": 592059,
+              "key": "59289a77-b370-4612-9670-e396e5a7b01b",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<hr>",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592060,
+              "key": "2761c9bb-ede7-4c88-9289-607cf1339a71",
+              "title": "Data Vis L4 C13 V1",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "Z7NjwA6jbjU",
+                "china_cdn_id": "Z7NjwA6jbjU.mp4"
+              }
+            },
+            {
+              "id": 592061,
+              "key": "711f26d9-f578-4a12-b5bb-c8136c127fa3",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<hr>\n## 折线图\n\n**折线图**是一种很常见的图表，用于描绘一个数值变量相对于第二个数值变量的变化趋势。与绘制出所有数据点的散点图相比，在折线图中，每个唯一 x 值或 x 值的分组区间仅绘制一个点（就像直方图一样）。如果一个 x 分组区间中有多个观测值，那么该点在折线图中绘制的 y 值将为该数据点在分组中的概括统计值（例如均值或中位数）。绘制的点用线条连接起来，强调 x 值的顺序或相连特性。\n\n如果 x 变量表示时间，则数据的折线图通常称之为**时间序列**图表。通常，在每个时间段内，我们只有一个观测值，例如股票图表或货币汇率图表。虽然 seaborn 函数 [`tsplot`](https://seaborn.pydata.org/generated/seaborn.tsplot.html) 可以用于时间序列数据，但是它很专业化的（撰写本课程时为 seaborn 0.8 版本），且未来即将出现很大的变化。\n\n我们将使用 Matplotlib 的 [`errorbar`](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.errorbar.html) 函数，并且为了使数据符合函数要求的样式，会先演示对数据的必要操作步骤。\n```python\nplt.errorbar(data = df, x = 'num_var1', y = 'num_var2')\n```",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592062,
+              "key": "3d2457a0-969e-425b-8bb8-09014e839499",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/March/5ab445d9_l4-c13-lineplot1/l4-c13-lineplot1.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3d2457a0-969e-425b-8bb8-09014e839499",
+              "caption": "",
+              "alt": "",
+              "width": 432,
+              "height": 288,
+              "instructor_notes": null
+            },
+            {
+              "id": 592063,
+              "key": "d075ac9f-af38-4ad0-a3eb-c47424e2ee9b",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "如果我们直接将 DataFrame 传入该函数中，不考虑数据结构，那么可能会遇到上面的混乱情况。该函数将所有数据点都绘制成一条线，将 DataFrame 第一行的值与最后一行的值相连。为了按照预期方式创建折线图，我们需要对数据进行额外的处理，先汇总数据。\n```python\n# set bin edges, compute centers\nxbin_edges = np.arange(0.5, df['num_var1'].max()+0.25, 0.25)\nxbin_centers = (xbin_edges + 0.25/2)[:-1]\n\n# compute statistics in each bin\ndata_xbins = pd.cut(df['num_var1'], xbin_edges, right = False, include_lowest = True)\ny_means = df['num_var2'].groupby(data_xbins).mean()\ny_sems = df['num_var2'].groupby(data_xbins).sem()\n\n# plot the summarized data\nplt.errorbar(x = xbin_centers, y = y_means, yerr = y_sems)\n```\n因为 x 变量（'num_var1'）是连续的，我们首先设置数据分组采用的区间。除了常见的分组区间边界之外，还会计算每个分组区间的中心，以便稍后绘制出来。对于每个分组区间中的数据点，我们都计算均值和均值的标准差。注意这里的 `cut` 函数调用比上一页的代码要简单，因为我们不需要计算每个点的权重。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592064,
+              "key": "4f0a1244-56da-484e-8f88-00310ee28fc1",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/March/5ab44b48_l4-c13-lineplot2/l4-c13-lineplot2.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/4f0a1244-56da-484e-8f88-00310ee28fc1",
+              "caption": "",
+              "alt": "",
+              "width": 432,
+              "height": 288,
+              "instructor_notes": null
+            },
+            {
+              "id": 592065,
+              "key": "5378a5c2-82b8-4c64-a0fc-7f152649c38c",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "上述数据汇总的一个有趣的方面是，随着 x 值的增大，均值的不确定性也在增大。但是对于两个最大的数据点，没有误差线。从默认的 `errorbar` 图表（或下面的散点图）可以看出，这是因为最后两个分组区间分别只有一个数据点。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592066,
+              "key": "e3cde38f-e696-4607-9eb0-a077f64be890",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## 其他版本\n\n你还可以通过使用 pandas 的 [`rolling`](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.rolling.html) 函数以移动窗口的形式计算概括统计值，而不是通过固定分组区间计算。因为移动窗口将通过 DataFrame 的连续行进行计算，我们应该使用[`sort_values`](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.sort_values.html) 先使 x 值按升序排序。\n\n```python\n# compute statistics in a rolling window\ndf_window = df.sort_values('num_var1').rolling(15)\nx_winmean = df_window.mean()['num_var1']\ny_median = df_window.median()['num_var2']\ny_q1 = df_window.quantile(.25)['num_var2']\ny_q3 = df_window.quantile(.75)['num_var2']\n\n# plot the summarized data\nbase_color = sb.color_palette()[0]\nline_color = sb.color_palette('dark')[0]\nplt.scatter(data = df, x = 'num_var1', y = 'num_var2')\nplt.errorbar(x = x_winmean, y = y_median, c = line_color)\nplt.errorbar(x = x_winmean, y = y_q1, c = line_color, linestyle = '--')\nplt.errorbar(x = x_winmean, y = y_q3, c = line_color, linestyle = '--')\nplt.savefig('L4_C13_Lineplot3.png')\n```\n注意，在绘制图表时，我们是可以绘制多条折线的。挨个调用多个 Matplotlib 函数，所有图表都会在同一个坐标轴上绘制。我们将在散点图上绘制三条四分位数统计量的线条，没有绘制均值和误差条。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592067,
+              "key": "8d2ce55e-8a3a-4de3-8849-986d14e5e2d9",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/March/5ab45937_l4-c13-lineplot3/l4-c13-lineplot3.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/8d2ce55e-8a3a-4de3-8849-986d14e5e2d9",
+              "caption": "",
+              "alt": "",
+              "width": 432,
+              "height": 288,
+              "instructor_notes": null
+            },
+            {
+              "id": 592068,
+              "key": "7d18de6f-fd4d-46f6-a008-25b3a7296f74",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "折线图的另一种双变量应用是针对分类变量的不同级别绘制数值变量的分布情况。这是使用小提琴图、箱线图和分面直方图的另一种替代方式。使用折线图，对每个分类级别绘制一条线，就像相互堆叠地绘制直方图。要实现这一点，可以使用上述方法多次调用 `errorbar`，或者多次调用 [`hist`](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.hist.html)，设置 “histtype = step” 参数，以便将长条描绘为未填充的线条。\n```python\nbin_edges = np.arange(-3, df['num_var'].max()+1/3, 1/3)\ng = sb.FacetGrid(data = df, hue = 'cat_var', size = 5)\ng.map(plt.hist, \"num_var\", bins = bin_edges, histtype = 'step')\ng.add_legend()\n```\n注意，我通过使用 [FacetGrid](https://seaborn.pydata.org/generated/seaborn.FacetGrid.html) ，在 “hue” 参数（而不是 “col” 参数）上设置分类变量多次调用 `hist`。你将在下节课多次见到 FacetGrid 的这一参数。我还调用了 `add_legend` 方法，以便标识每条线与哪个级别相关。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592069,
+              "key": "e93c1913-6d9d-40b5-8591-046b3fea9cd9",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/March/5ab4b468_l4-c13-lineplot4/l4-c13-lineplot4.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/e93c1913-6d9d-40b5-8591-046b3fea9cd9",
+              "caption": "",
+              "alt": "",
+              "width": 435,
+              "height": 360,
+              "instructor_notes": null
+            },
+            {
+              "id": 592070,
+              "key": "05d9731d-c583-4483-b0df-292474979d6b",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "遗憾的是，“Alpha” 曲线是被其他三条曲线覆盖了，因为计数相对较低，导致出现很多重叠的地方。或许用一条线连接长条的中心会更好，就像在第一个 `errorbar` 示例中那样。\n\n提供给 FacetGrid 对象的 `map` 方法的函数并非必须是内置函数。我在下面写了一个函数来进行如上所示的汇总运算，以便为分类变量的每个级别绘制一个`errorbar` 线条，然后将该函数 (`freq_poly`) 提供给 `map`。\n```python\ndef freq_poly(x, bins = 10, **kwargs):\n    \"\"\" Custom frequency polygon / line plot code. \"\"\"\n    # set bin edges if none or int specified\n    if type(bins) == int:\n        bins = np.linspace(x.min(), x.max(), bins+1)\n    bin_centers = (bin_edges[1:] + bin_edges[:-1]) / 2\n    \n    # compute counts\n    data_bins = pd.cut(x, bins, right = False,\n                       include_lowest = True)\n    counts = x.groupby(data_bins).count()\n    \n    # create plot\n    plt.errorbar(x = bin_centers, y = counts, **kwargs)\n    \nbin_edges = np.arange(-3, df['num_var'].max()+1/3, 1/3)\ng = sb.FacetGrid(data = df, hue = 'cat_var', size = 5)\ng.map(freq_poly, \"num_var\", bins = bin_edges)\ng.add_legend()\n```\n`**kwargs` 用于为 `errorbar` 函数设置其他关键字参数。\n\n（文档：[numpy `linspace`](https://docs.scipy.org/doc/numpy/reference/generated/numpy.linspace.html)）",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592071,
+              "key": "49c8e99a-7641-4470-ae6f-32af3c7e5ebf",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/March/5ab545af_l4-c13-lineplot5/l4-c13-lineplot5.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/49c8e99a-7641-4470-ae6f-32af3c7e5ebf",
+              "caption": "",
+              "alt": "",
+              "width": 435,
+              "height": 360,
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 592246,
+          "key": "f0110b63-1b88-488c-b383-e0cf11b60f40",
+          "title": "其他图表练习",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "f0110b63-1b88-488c-b383-e0cf11b60f40",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 616631,
+              "key": "1505688f-8c45-4b0b-9e6f-b1fdfb93485b",
+              "title": null,
+              "semantic_type": "WorkspaceAtom",
+              "is_public": true,
+              "workspace_id": "view352e32eb",
+              "pool_id": "jupyter",
+              "view_id": "69d766ec-fbfb-4c8c-b7c3-4e15ddb63084",
+              "gpu_capable": false,
+              "configuration": {
+                "id": "reserved",
+                "blueprint": {
+                  "conf": {
+                    "ports": [],
+                    "allowSubmit": false,
+                    "defaultPath": "/notebooks/Additional_Plot_Practice-zh.ipynb"
+                  },
+                  "kind": "jupyter"
+                },
+                "workspaceId": "reserved"
+              },
+              "starter_files": null
+            }
+          ]
+        },
+        {
+          "id": 592245,
+          "key": "7cbc9e3d-3f89-45cb-9ad0-dda8a22f1a8c",
+          "title": "课程总结",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "7cbc9e3d-3f89-45cb-9ad0-dda8a22f1a8c",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 592074,
+              "key": "55a4cf2c-3b39-4ea2-a4af-66fdabf0282f",
+              "title": "L4 151 课程总结 V1",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "5igqM44KEmw",
+                "china_cdn_id": "5igqM44KEmw.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 592247,
+          "key": "735c4457-823c-4e99-a32e-9f3a74172ff5",
+          "title": "附录：多变量可视化",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "735c4457-823c-4e99-a32e-9f3a74172ff5",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 592075,
+              "key": "af637629-6d7d-459a-8f95-f411ff76461a",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "在上个页面的视频末尾，我们提到在下节课将介绍向图形中添加第三个变量或更多变量的技巧。此纳米学位课程没有包含这些内容。你刚刚所学的课程属于[数据分析师纳米学位](https://www.udacity.com/course/nd002)课程的内容。相关课程不仅介绍了单变量和双变量可视化，还介绍了多变量可视化，并详细讲解了如何完善图形以向他人传递信息。\n\n本页面将概述多变量可视化技巧。如果你想了解三个变量或多个变量之间的关系，可以利用本页面介绍的技巧作为出发点。\n\n## 使用颜色表示第三个变量\n\n在 matplotlib 和 seaborn 中，向图形中添加第三个变量的最常见方式是使用颜色。你已经在这节课的集群条形图和热图中见过这种方式。`violinplot`、`boxplot` 和 `barplot` 函数都可以通过添加“hue”参数显示第三个变量集群。可以调整热图的代码，以便描绘第三个变量（而不是计数），只需更改 `hist2d` 的“weights”参数，或者要馈送给 `heatmap` 的数据整合函数。\n\n对于散点图来说，可以通过两种不同的方式设置颜色，取决于变量类型。对于数字变量来说，你可以直接在 `scatter` 函数调用中设置“color”或“c”参数。\n```python\nplt.scatter(data = df, x = 'num_var1', y = 'num_var2', c = 'num_var3')\nplt.colorbar()\n```",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592077,
+              "key": "479fb5d9-8715-484b-9fe4-a940b4ab6baf",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/March/5abbe123_l5-c03-color2/l5-c03-color2.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/479fb5d9-8715-484b-9fe4-a940b4ab6baf",
+              "caption": "",
+              "alt": "",
+              "width": 432,
+              "height": 288,
+              "instructor_notes": null
+            },
+            {
+              "id": 592076,
+              "key": "452c7616-a6a5-45fe-b5b4-dbf18699567c",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "如果你有一个定性变量，可以通过 seaborn 的 **FacetGrid** 类上的“hue”参数为分类变量的不同级别设置不同的颜色。\n```python\ng = sb.FacetGrid(data = df, hue = 'cat_var1', size = 5)\ng.map(plt.scatter, 'num_var1', 'num_var2')\ng.add_legend()\n```",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592078,
+              "key": "be21a013-4e8b-4bd0-8953-ea935c454c83",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/March/5abbc9e1_l5-c03-color1/l5-c03-color1.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/be21a013-4e8b-4bd0-8953-ea935c454c83",
+              "caption": "",
+              "alt": "",
+              "width": 411,
+              "height": 360,
+              "instructor_notes": null
+            },
+            {
+              "id": 592080,
+              "key": "d4c45eac-d9dc-48cb-8bb5-47174d697cdc",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## 调色板类型\n\n根据你的变量类型，你可能需要选择默认调色板之外的其他调色板。有三种主要调色板类型：定性、连续和发散调色板。\n\n**定性调色板**面向的是名目型数据。这是默认调色板采用的调色板类。在定性调色板中，连续性颜色值是有区别的，因此并没暗含任何固有的顺序。好的定性调色板的颜色应该尝试避免在亮度和饱和度方面出现剧烈变化，导致读者认为某个类别比其他类别更重要，除非要故意这么强调。\n\n```python\nsb.palplot(sb.color_palette(n_colors=9))\n```\n（文档：seaborn [`palplot`](https://seaborn.pydata.org/generated/seaborn.palplot.html), [`color_palette`](https://seaborn.pydata.org/generated/seaborn.color_palette.html)）",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592081,
+              "key": "d3f962af-7756-4d46-9fc7-8468f90db7cc",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/March/5abbe740_l5-c03-color3/l5-c03-color3.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/d3f962af-7756-4d46-9fc7-8468f90db7cc",
+              "caption": "",
+              "alt": "",
+              "width": 648,
+              "height": 72,
+              "instructor_notes": null
+            },
+            {
+              "id": 592082,
+              "key": "85ba34ae-2a05-45b7-9d33-be5ab5a2d82f",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "对于其他类型的数据（名目和数字），可能需要在连续尺度和发散尺度之间做出选择。在**连续调色板**中，连续的颜色值应该相互之间保持系统性。通常，在单个或小范围的色调之间保持从浅到深的顺序，其中浅色表示值较低，深色表示值很高。默认的连续色图“viridis”采用的是相反的表示法，深色表示较低的值，浅色表示很高的值。\n```python\nsb.palplot(sb.color_palette('viridis', 9))\n```",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592079,
+              "key": "42398306-be94-49d5-a373-89f8626fd1bb",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/March/5abbf5e5_l5-c03-color4/l5-c03-color4.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/42398306-be94-49d5-a373-89f8626fd1bb",
+              "caption": "",
+              "alt": "",
+              "width": 648,
+              "height": 72,
+              "instructor_notes": null
+            },
+            {
+              "id": 592083,
+              "key": "4d2621f7-3292-49d8-b715-eda4c33def15",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "大多数情况下，连续调色板可以很好地描绘有序或数字数据。但是，如果变量有一个有意义的零或中心值，你可能需要考虑使用**发散调色板**。在发散调色板中，将两个具有不同色调的连续调色板放在一起，并用一个共同的颜色（通常是白色或灰色）连接它们。一个色调表示大于中心点的值，另一个色调表示小于中心点的值。\n```python\nsb.palplot(sb.color_palette('vlag', 9))\n```",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592084,
+              "key": "0578c202-c3b1-44a3-bdf1-396830771295",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/March/5abbf873_l5-c03-color5/l5-c03-color5.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/0578c202-c3b1-44a3-bdf1-396830771295",
+              "caption": "",
+              "alt": "",
+              "width": 648,
+              "height": 72,
+              "instructor_notes": null
+            },
+            {
+              "id": 592085,
+              "key": "5d0bad15-592d-456b-b559-1e69b014aac8",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## 设置调色板\n\n如果你想要（或需要）更改图形的色图，最简单的方式是使用 matplotlib 或 seaborn 中的某个内置函数。matplotlib 文档的[此部分](https://matplotlib.org/api/pyplot_summary.html)具有一个可以当做颜色映射的字符串列表。对于大部分情况，请使用 matplotlib 的内置调色板（’viridis' 等）或来自 ColorBrewer 的调色板；剩余的调色板看起来可能不够一致。Seaborn 还增加了以下多个调色板：\n\n- **定性**（全部多达 6 种颜色）：'deep’、’pastel’、’dark’、’muted’、’bright’、’colorblind'\n- **有序**：’rocket' (white-orange-red-purple-black)、’mako' (mint-green-blue-purple-black)\n- **发散**：’vlag' (blue-white-red)、’icefire' (blue-black-orange)\n\n对于所有这些字符串，在后面附加 '_r' 会颠倒调色板，如果序列或发散调色板的呈现方式与你预期的相反，这么设置很有用。\n\n设置调色板的方式取决于所使用的绘图函数。请参阅相关文档，了解具体详情。例如，在 **FacetGrid** 中可以通过“palette”参数设置调色板，在 `scatter` 中可以通过“cmap”参数设置。在使用发散调色板时，你可能需要指定“vmin”和“vmax”参数，以便调色板中的中性点与刻度的中心点为同一个点。此外，创建其他标准化函数的解决方案（例如在[此 Stack Overflow 会话](https://stackoverflow.com/questions/20144529/shifted-colorbar-matplotlib)中发布的解决方案）可以用于精细地控制色图。发散颜色刻度对热图来说很常见，专门有一个“center”参数用于设置中心值。\n\n最后，请注意透明度和重叠对图形可解释性的影响。如果定性刻度上具有不同颜色的点重叠了，可能会形成无法与调色板中的颜色匹配的第三种颜色。如果定性刻度上有多个点重叠了，那么可能会形成一个实际上不存在于数据中的值。为了保险起见，避免或尽量不使用透明度。你可能需要仅绘制示例数据点，确保第三个变量的效果很明显。\n```python\nplt.figure(figsize = [5,5])\n\n# left: qualitative points\nplt.scatter(0,0.5,s = 1e4, c = sb.color_palette()[0], alpha = 0.5)\nplt.scatter(0,-0.5,s = 1e4, c = sb.color_palette()[1], alpha = 0.5)\n\n# right: quantitative points\nplt.scatter(1,0.5,s = 1e4, c = sb.color_palette('Blues')[2], alpha = 0.5)\nplt.scatter(1,-0.5,s = 1e4, c = sb.color_palette('Blues')[4], alpha = 0.5)\n\n# set axes for point overlap\nplt.xlim(-0.5,1.5)\nplt.ylim(-3.5,3.5)\nplt.xticks([])\nplt.yticks([])\n```",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592086,
+              "key": "cc7f480b-da5b-4388-9078-25049dcdc487",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/March/5abc077b_l5-c03-color8/l5-c03-color8.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/cc7f480b-da5b-4388-9078-25049dcdc487",
+              "caption": "",
+              "alt": "",
+              "width": 360,
+              "height": 360,
+              "instructor_notes": null
+            },
+            {
+              "id": 592087,
+              "key": "adc28c23-9312-43c9-b247-dac15859ffc4",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## 在两个变量之间进行分面\n\n之前在这节课，你了解了可以如何使用 **FacetGrid** 根据分类变量的不同级别对数据集分组，然后为每个子集创建一个图形。之前演示的分面图形是单变量图形，实际上你可以使用任何图形类型，并使用分面双变量图形创建多变量图形。\n\n借助 **FacetGrid**，不仅可以根据列对变量进行分面，还可以根据行分面。我们可以在两个分面坐标轴的每个轴上设置分类变量，这是描绘多变量趋势的另外一种方法。\n```python\ng = sb.FacetGrid(data = df, col = 'cat_var2', row = 'cat_var1', size = 2.5,\n                margin_titles = True)\ng.map(plt.scatter, 'num_var1', 'num_var2')\n```\n设置 `margin_titles = True` 表示不再将每个分面标记为行和列变量的组合，而是将标签单独放在分面网格的顶部和右侧边缘。这种方式效果很棒，因为默认的图形标题通常很长。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592088,
+              "key": "74000dbe-da01-46ff-9e6d-19a08e6974cd",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/March/5abc3ac4_l5-c05-faceting2/l5-c05-faceting2.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/74000dbe-da01-46ff-9e6d-19a08e6974cd",
+              "caption": "",
+              "alt": "",
+              "width": 540,
+              "height": 360,
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 592248,
+          "key": "37aa4a54-ea6b-441c-b2e1-b2d996bdff97",
+          "title": "补充内容：蜂群图",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "37aa4a54-ea6b-441c-b2e1-b2d996bdff97",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 592089,
+              "key": "54992851-1827-4349-b1d7-dde7ae47f11a",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## 蜂群图（Swarm Plots）\n\n在这节课，你见到了很多描绘数值变量和分类变量之间关系的方式。小提琴图将分布描绘为密度曲线，箱线图采用的是更加概括性的方法，将数据绘制为箱体和须线。这类图表的另一种替代方式是**蜂群图（Swarm Plots）**。和散点图类似，每个数据点根据在两个变量上的值确定在图表中的位置。点放置在尽量接近真实值的位置，不允许有任何重叠现象，不是像在正常散点图中那样随机抖动数据点。可以使用 seaborn 中的 [`swarmplot`](https://seaborn.pydata.org/generated/seaborn.swarmplot.html) 函数创建蜂群图，调用方式与 `violinplot` 和 `boxplot` 差不多。\n```python\nplt.figure(figsize = [12, 5])\nbase_color = sb.color_palette()[0]\n\n# left plot: violin plot\nplt.subplot(1, 3, 1)\nax1 = sb.violinplot(data = df, x = 'cat_var', y = 'num_var', color = base_color)\n\n# center plot: box plot\nplt.subplot(1, 3, 2)\nsb.boxplot(data = df, x = 'cat_var', y = 'num_var', color = base_color)\nplt.ylim(ax1.get_ylim()) # set y-axis limits to be same as left plot\n\n# right plot: swarm plot\nplt.subplot(1, 3, 3)\nsb.swarmplot(data = df, x = 'cat_var', y = 'num_var', color = base_color)\nplt.ylim(ax1.get_ylim()) # set y-axis limits to be same as left plot\n```",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592090,
+              "key": "79903a76-8c83-4759-a0fb-b2bfda76565a",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/March/5ab55333_l4-c18-swarmplot1/l4-c18-swarmplot1.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/79903a76-8c83-4759-a0fb-b2bfda76565a",
+              "caption": "",
+              "alt": "",
+              "width": 864,
+              "height": 360,
+              "instructor_notes": null
+            },
+            {
+              "id": 592091,
+              "key": "e2798bda-9e49-4fc9-b77e-3d560a1ff1c0",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "并排地查看这些图表后，可以看出蜂群图的优势与不足。和小提琴图和箱线图不同的是，每个点都绘制出来，因此可以比较同一图表中每个群组的频率。虽然由于位置抖动而出现一些变形，但是我们也可以确切地了解每个点实际位于何处，消除了小提琴图中可能出现的长尾。\n\n但是，只有数据量很少或适中时，才适合使用蜂群图。如果有太多的数据点，那么不能重叠的限制将导致变形严重，或者需要很多空间才能很好地绘制数据。此外，数据点太多实际上会分散注意力，使我们更难发现图表中的关键规律。请根据在单变量可视化部分得出的结论判断哪个双变量可视化图表最合适，或者直接尝试不同的图表，看看哪个呈现的信息最多。",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 592249,
+          "key": "a5e5b3af-fe44-40cf-aadf-3ee5c0630eaf",
+          "title": "补充内容：轴须图和带状图",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "a5e5b3af-fe44-40cf-aadf-3ee5c0630eaf",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 592092,
+              "key": "7d7efbab-0c5c-48ba-9d33-fda3c44142fc",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## 轴须图（Rug Plot）和带状图（Strip Plot）\n\n你可能遇到过用散点图等双变量图表绘制的边缘分布，或者对这种分布感兴趣。边缘分布是变量的单变量分布，忽略任何其他变量的值。对于数值数据来说，直方图或密度曲线适合边缘分布，但是你可能还见过**轴须图**（Rug Plot，有时也被称为地毯图）。在轴须图中，所有数据点都在一个轴上绘制，每个点一个刻度或线条。与边缘直方图相比，轴须图的分布情况不太好理解，但是在呈现数据方面更紧凑。\n\nSeaborn 的 [JointGrid](https://seaborn.pydata.org/generated/seaborn.JointGrid.html) 类可以对数值数据绘制带边缘单变量分布的双变量关系图。`plot_joint` 方法为主变量指定一个绘图函数，并将两个变量的图表连接起来，而 `plot_marginals` 方法会为两个边缘图表指定绘图函数。此处，我们利用 seaborn 的  [`rugplot`](https://seaborn.pydata.org/generated/seaborn.rugplot.html) 函数。\n\n```python\ng = sb.JointGrid(data = df, x = 'num_var1', y = 'num_var2')\ng.plot_joint(plt.scatter)\ng.plot_marginals(sb.rugplot, height = 0.25)\n```\n“height” 参数指定轴须图的刻度为边缘轴大小高度的 0.25 倍。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592093,
+              "key": "6c6fba40-2d65-4145-a0a2-4447825491d7",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/March/5ab58c38_l4-c17-rugplot1/l4-c17-rugplot1.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/6c6fba40-2d65-4145-a0a2-4447825491d7",
+              "caption": "",
+              "alt": "",
+              "width": 432,
+              "height": 432,
+              "instructor_notes": null
+            },
+            {
+              "id": 592094,
+              "key": "7eb62330-a1ba-4483-b8d4-e01566328b3e",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "在此例中，轴须图很合适，因为数据并不多或过于密集。在其他情形下，直方图或密度曲线可能更合适。你或许不会将轴须图当做首要选择，但是在某些情形下是个不错的图表。\n\n另一个和轴须图相似的图表类型是**带状图（Strip Plot）**。它和蜂群图相似（请参阅上一页），只是没有任何分散或抖动，来避免点在分类线上的重叠。你还可以将分类散点图看做根据分类级别进行分面的轴须图。你可以使用 seaborn 的  [`swarmplot`](https://seaborn.pydata.org/generated/seaborn.swarmplot.html) 函数向任何其他图表添加蜂群图。还可以在 `violinplot` 函数中使用 `inner = \"stick\"` 和 `inner = \"point\"` 选项 ，在小提琴区域添加蜂群图（而不是箱线图）。\n```python\nplt.figure(figsize = [10, 5])\nbase_color = sb.color_palette()[0]\n\n# left plot: strip plot\nplt.subplot(1, 2, 1)\nax1 = sb.stripplot(data = df, x = 'num_var', y = 'cat_var',\n                   color = base_color)\n\n# right plot: violin plot with inner strip plot as lines\nplt.subplot(1, 2, 2)\nsb.violinplot(data = df, x = 'num_var', y = 'cat_var', color = base_color,\n             inner = 'stick')\n```",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592095,
+              "key": "033905f6-549a-4eaa-8daa-14a05a40cc99",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/March/5ab9416a_l4-c17-rugplot2/l4-c17-rugplot2.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/033905f6-549a-4eaa-8daa-14a05a40cc99",
+              "caption": "",
+              "alt": "",
+              "width": 720,
+              "height": 360,
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 592250,
+          "key": "28e18872-f2c7-4940-b9de-560c8c47a060",
+          "title": "补充内容：堆积图",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "28e18872-f2c7-4940-b9de-560c8c47a060",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 592096,
+              "key": "7d639d3a-259a-4baf-a863-624a3920edbb",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "在这门课程中，目前还没讨论过一种常见技巧：**堆叠**。堆叠（Stacked）条形图和直方图并不罕见，但是通常都有更合适的图表可供选择。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592097,
+              "key": "54cac0ae-7605-4696-b899-a8144f2b3d89",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## 课外资料\n\n- [Eager Eyes：堆叠图最糟糕](https://eagereyes.org/techniques/stacked-bars-are-the-worst)\n- [Data Revelations：如何从堆叠条形图和面积图中区分出“尖叫的猫”](http://www.datarevelations.com/stackedbars.html)",
+              "instructor_notes": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    }
+  ]
+}

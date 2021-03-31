@@ -1,0 +1,274 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.060 --> 00:00:04.494
+This is the solutions video for printing the results.
+
+00:00:04.495 --> 00:00:07.280
+First we need to define the print results function.
+
+00:00:07.280 --> 00:00:11.275
+The docstring indicates we have five input parameters.
+
+00:00:11.275 --> 00:00:14.705
+The last two have default arguments.
+
+00:00:14.705 --> 00:00:19.120
+Results_dic, the dictionary with the file name as its key,
+
+00:00:19.120 --> 00:00:21.644
+and the list as its value.
+
+00:00:21.644 --> 00:00:25.535
+This dictionary is needed to print the misclassified dogs and breeds.
+
+00:00:25.535 --> 00:00:31.524
+Results_stats, this dictionary is returned by the calculate_results_stats function.
+
+00:00:31.524 --> 00:00:34.460
+The dictionary contains all the percentage and counts that
+
+00:00:34.460 --> 00:00:37.895
+summarize how well the algorithm classified the images.
+
+00:00:37.895 --> 00:00:43.840
+This dictionary's key is the statistics name and the value is the statistics value.
+
+00:00:43.840 --> 00:00:49.700
+Model. The CNN model architecture used to classify the images.
+
+00:00:49.700 --> 00:00:52.220
+This is needed for the print statements.
+
+00:00:52.219 --> 00:00:56.049
+Print_incorrect_dogs, a boolean value that when
+
+00:00:56.049 --> 00:01:00.504
+true prints incorrectly classified dogs using the results_dic dictionary.
+
+00:01:00.505 --> 00:01:05.799
+This parameter has the default argument of false when no misclassification are printed.
+
+00:01:05.799 --> 00:01:10.209
+Print_incorrect_breed, a boolean value when true
+
+00:01:10.209 --> 00:01:14.989
+prints incorrectly classified dog breeds using the results_dic dictionary.
+
+00:01:14.989 --> 00:01:17.750
+This parameter has the default argument of false,
+
+00:01:17.750 --> 00:01:19.924
+where no misclassification are printed.
+
+00:01:19.924 --> 00:01:23.524
+This function returns nothing because you're just printing results.
+
+00:01:23.525 --> 00:01:27.040
+First this function prints out the CNN model architecture,
+
+00:01:27.040 --> 00:01:29.080
+the number of images,
+
+00:01:29.079 --> 00:01:32.789
+the number of dog images and the number of non-dog images.
+
+00:01:32.790 --> 00:01:36.040
+Next it prints out all the percentages to
+
+00:01:36.040 --> 00:01:40.540
+summarize how well each of the algorithms performed on image classification.
+
+00:01:40.540 --> 00:01:42.190
+Notice to do this iterates through
+
+00:01:42.189 --> 00:01:47.605
+the results_stats dictionary looking for where the statistics started with the letter P,
+
+00:01:47.605 --> 00:01:50.885
+to print out only the percentages.
+
+00:01:50.885 --> 00:01:56.520
+In this next section it prints out dog misclassification if
+
+00:01:56.519 --> 00:02:01.484
+print incorrect dogs is true and there was a dog misclassification.
+
+00:02:01.484 --> 00:02:05.073
+To do this it iterates through the results_dic dictionary,
+
+00:02:05.073 --> 00:02:09.270
+and prints out where it finds those dog misclassification.
+
+00:02:09.270 --> 00:02:14.320
+In this final section here it prints out breed misclassifications.
+
+00:02:14.319 --> 00:02:17.639
+If print_incorrect_breed is true
+
+00:02:17.639 --> 00:02:21.089
+and there is a breed misclassification it iterates through
+
+00:02:21.090 --> 00:02:23.865
+the results_dic dictionary to print
+
+00:02:23.865 --> 00:02:30.125
+these breed misclassifications only when it finds a breed misclassification.
+
+00:02:30.125 --> 00:02:32.745
+This ends the function.
+
+00:02:32.745 --> 00:02:37.620
+The program ends with this call to run the main function.
+
+00:02:37.620 --> 00:02:42.465
+This is the function call to the print results function within the main function.
+
+00:02:42.465 --> 00:02:46.879
+This function returns nothing because we're just printing results.
+
+00:02:46.879 --> 00:02:51.259
+This function requires three but can have up to five input arguments,
+
+00:02:51.259 --> 00:02:57.185
+result_dic, the dictionary with the file name as its key and a list as its value.
+
+00:02:57.185 --> 00:03:00.090
+This dictionary is required argument and
+
+00:03:00.090 --> 00:03:03.819
+it's needed to print the misclassified dogs and breeds.
+
+00:03:03.819 --> 00:03:09.840
+Results_stats_dic, the dictionary returned by the calculate_result_stats function.
+
+00:03:09.840 --> 00:03:13.110
+This dictionary is required and contains all the percentages and
+
+00:03:13.110 --> 00:03:17.985
+counts that summarize how well the algorithm classified the images.
+
+00:03:17.985 --> 00:03:21.490
+In arg.arch,
+
+00:03:21.490 --> 00:03:26.280
+the command line argument for the CNN model architecture used to classify the images.
+
+00:03:26.280 --> 00:03:28.259
+This argument is required.
+
+00:03:28.259 --> 00:03:31.394
+True, a boolean value that prints
+
+00:03:31.395 --> 00:03:35.575
+incorrectly classified dogs using the results_dic dictionary.
+
+00:03:35.574 --> 00:03:38.129
+This argument is not required and defaults to
+
+00:03:38.129 --> 00:03:42.599
+false where no misclassification are printed.
+
+00:03:42.599 --> 00:03:44.775
+True, a boolean value that prints
+
+00:03:44.775 --> 00:03:49.129
+incorrectly classified dog breeds using the results_dic dictionary.
+
+00:03:49.129 --> 00:03:51.539
+This argument is not required and defaults to
+
+00:03:51.539 --> 00:03:54.900
+false when no misclassification are printed.
+
+00:03:54.900 --> 00:03:58.560
+The only temporary code is a commented out call to
+
+00:03:58.560 --> 00:04:03.629
+the function to check that the default arguments work correctly.
+
+00:04:03.629 --> 00:04:08.403
+Let's go to the terminal window.
+
+00:04:08.403 --> 00:04:10.960
+In this first terminal,
+
+00:04:10.960 --> 00:04:13.390
+this is from the last section where we were
+
+00:04:13.389 --> 00:04:18.120
+checking that the percentages and the counts were working correctly.
+
+00:04:18.120 --> 00:04:22.105
+We want to compare this to terminal two where we've run
+
+00:04:22.105 --> 00:04:26.830
+print results but we did the run where we're testing the default arguments.
+
+00:04:26.829 --> 00:04:29.680
+So expect that there won't be any prints of
+
+00:04:29.680 --> 00:04:33.470
+misclassified breeds because it's the only misclassification we have,
+
+00:04:33.470 --> 00:04:36.225
+we won't see those prints in the next terminal.
+
+00:04:36.225 --> 00:04:37.975
+When we look in this next terminal,
+
+00:04:37.975 --> 00:04:39.700
+we see where we ran the program,
+
+00:04:39.699 --> 00:04:42.550
+we don't see any prints of misclassified breeds in
+
+00:04:42.550 --> 00:04:46.435
+our numbers for the percent correct dogs not dogs and breeds,
+
+00:04:46.435 --> 00:04:48.355
+match what we saw in terminal one.
+
+00:04:48.355 --> 00:04:50.410
+So this means our program is working
+
+00:04:50.410 --> 00:04:54.070
+great and so far it seems like it's working perfectly.
+
+00:04:54.069 --> 00:04:56.314
+Our next check is terminal three,
+
+00:04:56.314 --> 00:05:00.625
+where this time we allow the prints of misclassified breeds
+
+00:05:00.625 --> 00:05:05.649
+and dogs but since we had no misclassified dogs it only printed the misclassified breeds,
+
+00:05:05.649 --> 00:05:08.454
+which is expected and we got the same numbers.
+
+00:05:08.454 --> 00:05:11.529
+So this means our program is working perfectly.
+
+00:05:11.529 --> 00:05:14.949
+You should be very excited because your program is working great.
+
+00:05:14.949 --> 00:05:18.985
+And finally, we can run it on all three model architectures.
+
+00:05:18.985 --> 00:05:22.205
+So in terminal four we did that with batch processing.
+
+00:05:22.204 --> 00:05:26.314
+I go over and click on the files to actually look at those results.
+
+00:05:26.314 --> 00:05:29.680
+That's alexnet. Here's resnet.
+
+00:05:29.680 --> 00:05:35.170
+And here's vgg. And you can compare these results to the results in the next section.
+
+00:05:35.170 --> 00:05:38.050
+Congratulations you've finished the lab and it looks great.
+

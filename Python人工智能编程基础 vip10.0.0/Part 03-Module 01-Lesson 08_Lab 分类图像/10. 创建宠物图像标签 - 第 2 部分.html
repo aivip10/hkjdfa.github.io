@@ -1,0 +1,327 @@
+<!-- udacity2.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>创建宠物图像标签 - 第 2 部分</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>Lab: 分类图像</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. 讲师.html">01. 讲师</a>
+    </li>
+    <li class="">
+      <a href="02. Lab 说明.html">02. Lab 说明</a>
+    </li>
+    <li class="">
+      <a href="03. Lab 说明.html">03. Lab 说明</a>
+    </li>
+    <li class="">
+      <a href="04. Workspace 使用方式.html">04. Workspace 使用方式</a>
+    </li>
+    <li class="">
+      <a href="05. Lab  Workspace.html">05. Lab  Workspace</a>
+    </li>
+    <li class="">
+      <a href="06. 计算代码运行时间.html">06. 计算代码运行时间</a>
+    </li>
+    <li class="">
+      <a href="07. 命令行参数.html">07. 命令行参数</a>
+    </li>
+    <li class="">
+      <a href="08. 可变数据类型和函数.html">08. 可变数据类型和函数</a>
+    </li>
+    <li class="">
+      <a href="09. 创建宠物图像标签 - 第 1 部分.html">09. 创建宠物图像标签 - 第 1 部分</a>
+    </li>
+    <li class="">
+      <a href="10. 创建宠物图像标签 - 第 2 部分.html">10. 创建宠物图像标签 - 第 2 部分</a>
+    </li>
+    <li class="">
+      <a href="11. 分类图像 - 第 1 部分.html">11. 分类图像 - 第 1 部分</a>
+    </li>
+    <li class="">
+      <a href="12. 分类图像 - 第 2 部分.html">12. 分类图像 - 第 2 部分</a>
+    </li>
+    <li class="">
+      <a href="13. 将标签分类为小狗.html">13. 将标签分类为小狗</a>
+    </li>
+    <li class="">
+      <a href="14. 计算结果.html">14. 计算结果</a>
+    </li>
+    <li class="">
+      <a href="15. 输出结果.html">15. 输出结果</a>
+    </li>
+    <li class="">
+      <a href="16. 结果.html">16. 结果</a>
+    </li>
+    <li class="">
+      <a href="17. 结论.html">17. 结论</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">10. 创建宠物图像标签 - 第 2 部分</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h1 id="创建宠物图像标签---第-2-部分">创建宠物图像标签 - 第 2 部分</h1>
+<hr />
+<h4 id="lab-workspace">Lab Workspace</h4>
+<ul>
+<li>你可以在** Lab Workspace** 中修改 <strong><em>check_image.py</em></strong>。</li>
+</ul>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <hr />
+<h2 id="宠物图像文件格式和标签匹配">宠物图像文件格式和标签匹配</h2>
+<p>正如上文所述，我们需要判断宠物图像标签和分类器标签是否匹配。要使用函数完成此匹配任务，你需要了解两种标签的格式。下文详述了用来创建宠物图像标签的宠物图像文件名的格式。</p>
+<h3 id="宠物图像文件">宠物图像文件</h3>
+<p>位于 Workspace 的 <em>pet_images</em> 文件夹中。你将在下面找到关于宠物图像的详情。以下是一些文件名示例：Basenji_00963.jpg、Boston_terrier_02259.jpg、gecko_80.jpg、fox_squirrel_01.jpg </p>
+<ul>
+<li>共 40 张宠物图像<ul>
+<li>30 张小狗图像</li>
+<li>10 张非小狗动物图像</li></ul></li>
+<li>图像的名称（标签）（<strong>需要用于比较</strong>）<ul>
+<li>包含大小写字母</li>
+<li>包含描述图像的一个或多个单词（标签）</li>
+<li>单词用下划线 (_) 分隔</li></ul></li>
+<li>数字值（<em>不需要</em>）<ul>
+<li>以下划线 (_) 开头</li>
+<li>以一系列数字 (0-9) 结束</li></ul></li>
+<li>文件扩展名（<em>不需要</em>）<ul>
+<li>以点 (.) 开始</li>
+<li>以 jpg 结尾</li></ul></li>
+</ul>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <hr />
+<h2 id="根据文件名创建宠物图像标签">根据文件名创建宠物图像标签</h2>
+<p>根据上述宠物图像文件名的详细信息，每个宠物图像名称的最佳格式为：</p>
+<ul>
+<li>标签全部由小写字母组成</li>
+<li>对于由多个单词组成的标签，用空格分隔每个单词</li>
+<li>删除标签前后的空格</li>
+</ul>
+<p>你在<strong>数据类型和运算符</strong>一课的<em>字符串</em>和<em>字符串方法</em>部分第一次学习了字符串数据类型。根据<em>上述</em>宠物图像文件名格式，我们可以使用字符串函数获得上述标签格式：</p>
+<ul>
+<li><a href="https://docs.python.org/3/library/stdtypes.html#str.lower" rel="noopener noreferrer" target="_blank"><strong>lower()</strong></a> - 使字母全变成小写形式。</li>
+<li><a href="https://docs.python.org/3/library/stdtypes.html#str.split" rel="noopener noreferrer" target="_blank"><strong>split()</strong></a> - 返回字符串中的单词类别，单词按照提供给 split 函数的分隔符分离（划分）。如果没有提供分隔符，则用空格分离。 </li>
+<li><a href="https://docs.python.org/3/library/stdtypes.html#str.strip" rel="noopener noreferrer" target="_blank"><strong>strip()</strong></a> - 返回删除首尾字符的字符串。如果未传入任何字符，则删除首尾的空格。</li>
+<li><a href="https://docs.python.org/3/library/stdtypes.html#str.isalpha" rel="noopener noreferrer" target="_blank"><strong>isalpha()</strong></a> - 如果字符串仅包含字母字符，则返回 true，否则返回 false。</li>
+</ul>
+<p>以下代码演示了如何使用上述字符串函数。 </p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <pre><code class="python language-python"># Sets pet_image variable to a filename 
+pet_image = "Boston_terrier_02259.jpg"
+
+# Sets string to lower case letters
+low_pet_image = pet_image.lower()
+
+# Splits lower case string by _ to break into words 
+word_list_pet_image = low_pet_image.split("_")
+
+# Create pet_name starting as empty string
+pet_name = ""
+
+# Loops to check if word in pet name is only
+# alphabetic characters - if true append word
+# to pet_name separated by trailing space 
+for word in word_list_pet_image:
+    if word.isalpha():
+        pet_name += word + " "
+
+# Strip off starting/trailing whitespace characters 
+pet_name = pet_name.strip()
+
+# Prints resulting pet_name
+print("\nFilename=", pet_image, "   Label=", pet_name)</code></pre>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <hr />
+<h2 id="代码">代码</h2>
+<p>你可以在程序 <a href="https://github.com/udacity/AIPND/blob/master/intropylab-classifying-images/create_pet_image_labels.py" rel="noopener noreferrer" target="_blank">create_pet_image_labels.py</a> 的 Github 代码库中找到此部分的代码。</p>
+<hr />
+<h2 id="解决方案视频">解决方案视频</h2>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>AIPND Python  Lab  - 检查图像解决方案视频</p></h3>
+  <video controls>
+  <source src="10. AIPND Python  Lab  - 检查图像解决方案视频-2jaZfP7otSs.mp4" type="video/mp4">
+
+  <track default="true" kind="subtitles" srclang="en" src="10. AIPND Python  Lab  - 检查图像解决方案视频-2jaZfP7otSs.en.vtt" label="en">
+  <track default="false" kind="subtitles" srclang="BR" src="10. AIPND Python  Lab  - 检查图像解决方案视频-2jaZfP7otSs.pt-BR.vtt" label="BR">
+  <track default="false" kind="subtitles" srclang="CN" src="10. AIPND Python  Lab  - 检查图像解决方案视频-2jaZfP7otSs.zh-CN.vtt" label="CN">
+</video>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>备注：</p>
+<p>在上方的解决方案视频中，你可能留意到在打印语句中使用符号 % 来使得输出格式化。 在该 Lab 中并不要求格式化输出。 不过，如果你想学习打印语句中的格式化输出，可以点击该 <a href="https://github.com/udacity/AIPND/blob/master/notes/lab_intro-to-python-lab.md#formatting-print-statements" rel="noopener noreferrer" target="_blank">链接</a> 进一步学习。 </p>
+</div>
+
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+              <a href="11. 分类图像 - 第 1 部分.html" class="btn btn-outline-primary mt-4" role="button">Next Concept</a>
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://us-udacity.github.io/" target="_blank">【udacity2.0 】If you need more courses, please add wechat：udacity6</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('10. 创建宠物图像标签 - 第 2 部分')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>

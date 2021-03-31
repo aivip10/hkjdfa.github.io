@@ -1,0 +1,247 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.077 --> 00:00:04.029
+Este é o vídeo-solução dos rótulos
+das imagens dos animais.
+
+00:00:04.062 --> 00:00:08.481
+Primeiro precisamos definir
+a função get_pet_labels.
+
+00:00:08.696 --> 00:00:10.729
+O docstring indica
+
+00:00:10.762 --> 00:00:15.224
+que vamos inserir
+o parâmetro image_dir,
+
+00:00:15.257 --> 00:00:19.243
+que é o caminho para a pasta
+com as imagens dos animais.
+
+00:00:19.276 --> 00:00:21.786
+Vamos retornar
+o petlabels_dic,
+
+00:00:21.819 --> 00:00:25.699
+o dicionário que armazena o nome
+do arquivo da imagem como a chave
+
+00:00:25.732 --> 00:00:28.539
+e o rótulo da imagem do animal
+como valor.
+
+00:00:28.572 --> 00:00:32.586
+Na função, primeiro criamos
+a lista no files,
+
+00:00:32.619 --> 00:00:36.675
+que contém os nomes dos arquivos
+da pasta de imagens dos animais.
+
+00:00:36.708 --> 00:00:40.707
+Depois criamos o dicionário
+vazio petlabels_dic,
+
+00:00:40.740 --> 00:00:43.875
+que vai ser o dicionário
+que vamos retornar.
+
+00:00:48.698 --> 00:00:53.700
+Usamos um for-loop para processar
+os nomes dos arquivos na lista
+
+00:00:53.733 --> 00:00:56.227
+para criar os rótulos
+das imagens dos animais.
+
+00:00:56.571 --> 00:00:58.715
+Existe
+uma instrução condicional
+
+00:00:58.748 --> 00:01:02.138
+que não processa os arquivos
+que começam com um ponto.
+
+00:01:02.171 --> 00:01:05.915
+Isso só acontece se você
+estiver num computador da Apple.
+
+00:01:05.948 --> 00:01:08.299
+Se você estiver
+no espaço de trabalho do lab,
+
+00:01:08.332 --> 00:01:10.562
+não precisa
+da instrução condicional.
+
+00:01:10.595 --> 00:01:13.922
+Agora o nome do arquivo da imagem
+é dividido numa lista de palavras
+
+00:01:13.955 --> 00:01:16.291
+com base
+no delimitador de underline.
+
+00:01:16.324 --> 00:01:20.174
+O nome da imagem é a variável
+que aponta para a lista na memória.
+
+00:01:21.590 --> 00:01:25.455
+Depois criamos a variável pet_label
+como um string vazio.
+
+00:01:25.488 --> 00:01:29.942
+A variável vai ter o rótulo
+que extraímos do nome do arquivo.
+
+00:01:31.926 --> 00:01:34.991
+Vamos usar um for-loop
+para criar a pet_label
+
+00:01:35.024 --> 00:01:37.966
+ao processar cada palavra
+num nome de imagem.
+
+00:01:37.999 --> 00:01:41.317
+Se a palavra só contém letras,
+ela é adicionada à pet_label
+
+00:01:41.350 --> 00:01:43.686
+como um string de letras
+em caixa-baixa
+
+00:01:43.719 --> 00:01:45.741
+e um espaço em branco
+no fim.
+
+00:01:49.454 --> 00:01:51.289
+Quando a lista de palavras
+é processada
+
+00:01:51.322 --> 00:01:54.073
+ao extrair as palavras
+que só contêm letras,
+
+00:01:54.106 --> 00:01:56.833
+o espaço em branco
+é removido da pet_label
+
+00:01:56.866 --> 00:01:58.051
+com a função strip.
+
+00:01:59.273 --> 00:02:00.625
+No fim do loop,
+
+00:02:00.658 --> 00:02:04.128
+o rótulo do animal é adicionado
+ao dicionário petlabels_dic,
+
+00:02:04.161 --> 00:02:06.504
+se já não existir nele.
+
+00:02:06.537 --> 00:02:08.703
+A chave do dicionário
+é o nome do arquivo
+
+00:02:08.736 --> 00:02:11.607
+e o valor é o rótulo
+da imagem do animal.
+
+00:02:11.640 --> 00:02:13.879
+Repare que aparece um aviso
+
+00:02:13.912 --> 00:02:16.206
+se o nome do arquivo
+já existir no dicionário
+
+00:02:16.239 --> 00:02:19.815
+porque não podem estar duplicados
+na pasta de imagens dos animais.
+
+00:02:20.030 --> 00:02:24.639
+Então retornamos o dicionário
+dos rótulos das imagens dos animais.
+
+00:02:24.672 --> 00:02:28.158
+Aqui temos a função
+get_pet_labels
+
+00:02:28.191 --> 00:02:30.742
+dentro da função principal.
+
+00:02:30.775 --> 00:02:33.743
+Inserimos o in_arg.dir.
+
+00:02:33.776 --> 00:02:35.950
+É o argumento
+da linha de comando
+
+00:02:35.983 --> 00:02:39.983
+que indica em que pasta
+as imagens estão.
+
+00:02:40.183 --> 00:02:44.334
+Vamos retornar o answers_dic,
+do dicionário que tem a chave,
+
+00:02:44.367 --> 00:02:48.543
+o nome do arquivo com os valores
+dos rótulos das imagens dos animais.
+
+00:02:48.576 --> 00:02:51.487
+Aqui temos
+a instrução print temporária,
+
+00:02:51.520 --> 00:02:55.575
+onde verificamos se existem
+40 pares de valor de chave.
+
+00:02:55.608 --> 00:02:57.966
+Depois verificamos
+dez desses pares
+
+00:02:57.999 --> 00:03:01.422
+para ver se processamos
+os nomes dos arquivos direito
+
+00:03:01.455 --> 00:03:03.471
+para criar os rótulos.
+
+00:03:03.504 --> 00:03:07.127
+Vamos ver o terminal,
+onde executei o programa,
+
+00:03:07.160 --> 00:03:08.735
+para verificar o código.
+
+00:03:08.768 --> 00:03:12.279
+Dá para ver que executei
+o check_images do Python.
+
+00:03:12.312 --> 00:03:16.470
+Temos 40 pares de valor de chave,
+já que temos 40 imagens.
+
+00:03:16.503 --> 00:03:19.006
+Ao reproduzir
+os dez primeiros,
+
+00:03:19.039 --> 00:03:22.239
+vemos que processamos
+os nomes dos arquivos direito.
+
+00:03:22.272 --> 00:03:26.086
+Os rótulos das imagens dos animais
+estão em caixa-baixa
+
+00:03:26.119 --> 00:03:30.150
+e há espaços entre as palavras
+dos rótulos.
+
+00:03:30.366 --> 00:03:32.900
+Parece
+que processamos direito.
+

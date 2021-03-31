@@ -1,0 +1,345 @@
+<!-- udacity2.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>计算代码运行时间</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>Lab: 分类图像</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. 讲师.html">01. 讲师</a>
+    </li>
+    <li class="">
+      <a href="02. Lab 说明.html">02. Lab 说明</a>
+    </li>
+    <li class="">
+      <a href="03. Lab 说明.html">03. Lab 说明</a>
+    </li>
+    <li class="">
+      <a href="04. Workspace 使用方式.html">04. Workspace 使用方式</a>
+    </li>
+    <li class="">
+      <a href="05. Lab  Workspace.html">05. Lab  Workspace</a>
+    </li>
+    <li class="">
+      <a href="06. 计算代码运行时间.html">06. 计算代码运行时间</a>
+    </li>
+    <li class="">
+      <a href="07. 命令行参数.html">07. 命令行参数</a>
+    </li>
+    <li class="">
+      <a href="08. 可变数据类型和函数.html">08. 可变数据类型和函数</a>
+    </li>
+    <li class="">
+      <a href="09. 创建宠物图像标签 - 第 1 部分.html">09. 创建宠物图像标签 - 第 1 部分</a>
+    </li>
+    <li class="">
+      <a href="10. 创建宠物图像标签 - 第 2 部分.html">10. 创建宠物图像标签 - 第 2 部分</a>
+    </li>
+    <li class="">
+      <a href="11. 分类图像 - 第 1 部分.html">11. 分类图像 - 第 1 部分</a>
+    </li>
+    <li class="">
+      <a href="12. 分类图像 - 第 2 部分.html">12. 分类图像 - 第 2 部分</a>
+    </li>
+    <li class="">
+      <a href="13. 将标签分类为小狗.html">13. 将标签分类为小狗</a>
+    </li>
+    <li class="">
+      <a href="14. 计算结果.html">14. 计算结果</a>
+    </li>
+    <li class="">
+      <a href="15. 输出结果.html">15. 输出结果</a>
+    </li>
+    <li class="">
+      <a href="16. 结果.html">16. 结果</a>
+    </li>
+    <li class="">
+      <a href="17. 结论.html">17. 结论</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">06. 计算代码运行时间</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h1 id="计算代码运行时间">计算代码运行时间</h1>
+<hr />
+<h2 id="在-check_imagespy-中编写代码">在 <strong><em>check_images.py</em></strong> 中编写代码</h2>
+<h3 id="要修改的代码">要修改的代码</h3>
+<ul>
+<li><p>程序标头中以 <code>#TODO: 0.</code> 开头的注释。</p>
+<ul>
+<li>添加你的名称</li>
+<li>你开始处理该 Lab 的日期</li></ul></li>
+<li><p>在 <code>main()</code> 函数中以 <code>#TODO: 1.</code> 开头的位置添加代码</p>
+<ul>
+<li>添加计算程序运行时间的相应代码  </li></ul></li>
+</ul>
+<h3 id="预期的输出">预期的输出</h3>
+<p>编写完毕后，该代码将计算程序的总运行时间。具体而言，该代码将衡量三个算法中的每个算法对 pet_images 文件夹中的所有图像进行分类所需的时间。</p>
+<h3 id="检查代码">检查代码</h3>
+<p>使用 <code>sleep()</code> 函数测试计算运行时间的代码运行正确。</p>
+<p>测试以下内容：</p>
+<ul>
+<li>在 <code>sleep()</code> 函数中设置不同的值（秒），检查时长和时间格式。</li>
+</ul>
+<h4 id="lab-workspace">Lab Workspace</h4>
+<ul>
+<li>你可以在** Lab Workspace** 中修改 <strong><em>check_image.py</em></strong>。</li>
+</ul>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <hr />
+<h2 id="导入-time-模块">导入 Time 模块</h2>
+<p>计算程序或部分程序代码的运行时间使我们能够比较使用不同算法解决问题所需的时间。此外，计算代码运行时间使我们能够了解使用给定计算资源运行程序所花费的时间。  </p>
+<p>要在 python 中计算代码运行时间，需要从 <a href="https://docs.python.org/3/library/time.html#module-time" rel="noopener noreferrer" target="_blank">python time 模块</a> 导入 <a href="https://docs.python.org/3/library/time.html#time.time" rel="noopener noreferrer" target="_blank"><code>time()</code> 函数</a>。为了模拟程序运行一段特定的时间，我们将使用 time 模块的 <a href="https://docs.python.org/2/library/time.html#time.sleep" rel="noopener noreferrer" target="_blank"><code>sleep()</code> 函数</a>。它将使程序暂停执行一定的秒数。 </p>
+<p>因为我们只需使用 <code>time()</code> 和 <code>sleep()</code> 函数，我们将仅导入这两个函数，而不是导入整个 time 模块。仅从模块中导入所需的函数可以节省程序运行所需的内存 (RAM)。</p>
+<p>此类导入如下所示：</p>
+<pre><code class="python language-python"># Imports time() and sleep() functions from time module
+from time import time, sleep</code></pre>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <hr />
+<h2 id="使用-time-和-sleep-函数">使用 Time 和 Sleep 函数</h2>
+<p>要计算代码运行时间，需要：</p>
+<ul>
+<li><p>首先，创建一个变量来记录<strong><em>开始时间</em></strong> (<em>start_time</em>)，即你要<em>开始</em>记录代码运行时间的点</p></li>
+<li><p>接着，创建一个变量来记录<strong><em>结束时间</em></strong> (<em>end_time</em>)，即你要<em>停止</em>记录代码运行时间的点</p></li>
+<li><p>最后，计算<strong><em>总运行时间</em></strong> (<em>tot_time</em>)：将 <em>end_time</em> 减去 <em>start_time</em></p></li>
+<li><p><strong>注意</strong>以下事项：</p>
+<ul>
+<li><em>tot_time</em> 是指代码的总运行时间（以<strong><em>秒</em></strong>记）</li>
+<li>下面的代码使用了 <code>sleep()</code>，以使程序<em>暂停</em> 75 秒。要计算实际代码的运行时间，请将 <code>sleep(75)</code> 替换为要计算运行时间的代码。</li></ul></li>
+</ul>
+<p>以下代码演示了如何使用 <code>time()</code> 和 <code>sleep()</code>。</p>
+<pre><code class="python language-python"># Sets start time
+start_time = time()
+
+# Replace sleep(75) below with code you want to time
+sleep(75)
+
+# Sets end time
+end_time = time()
+
+# Computes overall runtime in seconds
+tot_time = end_time - start_time
+
+# Prints overall runtime in seconds
+print("\nTotal Elapsed Runtime:", tot_time, "in seconds.")</code></pre>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <hr />
+<h2 id="设定时间格式">设定时间格式</h2>
+<p>你可能需要将运行时间设置成一定的格式，例如 <em>hh</em>:<em>mm</em>:<em>ss</em>，其中</p>
+<ul>
+<li><em>hh</em> 表示两位数的小时数</li>
+<li><em>mm</em> 表示两位数的分钟数</li>
+<li><em>ss</em> 表示两位数的秒数 </li>
+</ul>
+<p>请记住以下在 python 中关于时间格式的秒数</p>
+<ul>
+<li>1 小时等于 <strong>3600</strong> 秒</li>
+<li>1 分钟等于 <strong>60</strong> 秒</li>
+<li><a href="https://docs.python.org/3/library/operator.html#operator.truediv" rel="noopener noreferrer" target="_blank"><strong>/</strong></a>（除法运算符）和 <a href="https://docs.python.org/3/library/functions.html#int" rel="noopener noreferrer" target="_blank"><strong>int()</strong> 函数</a> 将仅返回除法的整数部分</li>
+<li><a href="https://docs.python.org/3/library/operator.html#operator.mod" rel="noopener noreferrer" target="_blank"><strong>%</strong></a>（模运算符）返回除法的余数</li>
+<li><a href="https://docs.python.org/3/library/functions.html#func-str" rel="noopener noreferrer" target="_blank"><strong>str() 函数</strong></a> 将数字值转换为字符串       </li>
+<li><strong>数据类型和运算符</strong>：<em>算术运算符</em>和<em>整型及浮点型</em>课程将帮助设定 python 中的时间格式。<br />
+&nbsp; </li>
+</ul>
+<p>使用上述信息可以确定<strong><em>总运行时间</em></strong>（即<em>tot_time</em>）的格式：</p>
+<ul>
+<li>hours = int( (tot_time / 3600) )</li>
+<li>minutes = int(  ( (tot_time % 3600) / 60 )  )</li>
+<li>seconds = int(  ( (tot_time % 3600) % 60 )  )      <br />
+&nbsp; </li>
+</ul>
+<p>下面的代码将以 <em>hh</em>:<em>mm</em>:<em>ss</em> 格式输出运行时间：</p>
+<pre><code class="python language-python"># Prints overall runtime in format hh:mm:ss
+print("\nTotal Elapsed Runtime:", str( int( (tot_time / 3600) ) ) + ":" +
+          str( int(  ( (tot_time % 3600) / 60 )  ) ) + ":" + 
+          str( int(  ( (tot_time % 3600) % 60 ) ) ) ) </code></pre>
+<h3 id="注意">注意</h3>
+<p>我们的代码使用 <em><strong>int()</strong></em> 函数并截断秒数的值，而不是四舍五入到最近的秒数。也就是说，如果<em>总运行时间为</em> <strong>4.519087974567</strong>，则格式变成<em>总运行时间：</em> <strong>0:0:4</strong>。如果你想<em><strong>四舍五入</strong></em>到最近的秒数，在计算上面的<em><strong>秒数</strong></em>时，需要将 <a href="https://docs.python.org/3/library/functions.html#int" rel="noopener noreferrer" target="_blank"><em><strong>int()</strong></em> 函数</a>替换为 <a href="https://docs.python.org/3/library/functions.html#round" rel="noopener noreferrer" target="_blank"><em><strong>round()</strong></em> 函数</a>。</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <hr />
+<h2 id="代码">代码</h2>
+<p>你可以在程序 <a href="https://github.com/udacity/AIPND/blob/master/intropylab-classifying-images/timing_code.py" rel="noopener noreferrer" target="_blank">timing_code.py</a> 的 Github 代码库中找到此部分的代码。</p>
+<hr />
+<h2 id="解决方案视频">解决方案视频</h2>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>AIPND Python  Lab  - 计算代码运行时间解决方案视频</p></h3>
+  <video controls>
+  <source src="06. AIPND Python  Lab  - 计算代码运行时间解决方案视频-ic7gqM4cnl4.mp4" type="video/mp4">
+
+  <track default="true" kind="subtitles" srclang="en" src="06. AIPND Python  Lab  - 计算代码运行时间解决方案视频-ic7gqM4cnl4.en.vtt" label="en">
+  <track default="false" kind="subtitles" srclang="BR" src="06. AIPND Python  Lab  - 计算代码运行时间解决方案视频-ic7gqM4cnl4.pt-BR.vtt" label="BR">
+  <track default="false" kind="subtitles" srclang="CN" src="06. AIPND Python  Lab  - 计算代码运行时间解决方案视频-ic7gqM4cnl4.zh-CN.vtt" label="CN">
+</video>
+
+
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+              <a href="07. 命令行参数.html" class="btn btn-outline-primary mt-4" role="button">Next Concept</a>
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://us-udacity.github.io/" target="_blank">【udacity2.0 】If you need more courses, please add wechat：udacity6</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('06. 计算代码运行时间')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>

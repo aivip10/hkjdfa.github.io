@@ -1,0 +1,345 @@
+<!-- udacity2.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>命令行参数</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>Lab: 分类图像</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. 讲师.html">01. 讲师</a>
+    </li>
+    <li class="">
+      <a href="02. Lab 说明.html">02. Lab 说明</a>
+    </li>
+    <li class="">
+      <a href="03. Lab 说明.html">03. Lab 说明</a>
+    </li>
+    <li class="">
+      <a href="04. Workspace 使用方式.html">04. Workspace 使用方式</a>
+    </li>
+    <li class="">
+      <a href="05. Lab  Workspace.html">05. Lab  Workspace</a>
+    </li>
+    <li class="">
+      <a href="06. 计算代码运行时间.html">06. 计算代码运行时间</a>
+    </li>
+    <li class="">
+      <a href="07. 命令行参数.html">07. 命令行参数</a>
+    </li>
+    <li class="">
+      <a href="08. 可变数据类型和函数.html">08. 可变数据类型和函数</a>
+    </li>
+    <li class="">
+      <a href="09. 创建宠物图像标签 - 第 1 部分.html">09. 创建宠物图像标签 - 第 1 部分</a>
+    </li>
+    <li class="">
+      <a href="10. 创建宠物图像标签 - 第 2 部分.html">10. 创建宠物图像标签 - 第 2 部分</a>
+    </li>
+    <li class="">
+      <a href="11. 分类图像 - 第 1 部分.html">11. 分类图像 - 第 1 部分</a>
+    </li>
+    <li class="">
+      <a href="12. 分类图像 - 第 2 部分.html">12. 分类图像 - 第 2 部分</a>
+    </li>
+    <li class="">
+      <a href="13. 将标签分类为小狗.html">13. 将标签分类为小狗</a>
+    </li>
+    <li class="">
+      <a href="14. 计算结果.html">14. 计算结果</a>
+    </li>
+    <li class="">
+      <a href="15. 输出结果.html">15. 输出结果</a>
+    </li>
+    <li class="">
+      <a href="16. 结果.html">16. 结果</a>
+    </li>
+    <li class="">
+      <a href="17. 结论.html">17. 结论</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">07. 命令行参数</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h1 id="命令行参数">命令行参数</h1>
+<hr />
+<h2 id="在-check_imagespy-中编写代码">在 <strong><em>check_images.py</em></strong> 中编写代码</h2>
+<h3 id="要修改的代码">要修改的代码</h3>
+<p>此部分将帮助你编写程序中的<em>未定义</em>函数 <strong>get_input_args</strong>。对于此函数，你将使用 argparse 获取命令行参数。</p>
+<ul>
+<li>编写函数定义 <code>def get_input_args():</code><ul>
+<li>使用文档字符串，为定义 <strong>get_input_args</strong> 添加相应的代码</li></ul></li>
+<li>在 <code>main()</code> 函数中以 <code>#TODO: 2.</code> 开头的部分添加代码<ul>
+<li>添加调用函数 <strong>get_input_args</strong> 的相应代码</li></ul></li>
+</ul>
+<h3 id="预期结果">预期结果</h3>
+<p>编写完毕后，这段代码将输入用户提供的三个命令行参数。 </p>
+<h3 id="检查代码">检查代码</h3>
+<p>添加一个输出命令行参数的<em>临时</em>输出语句。 </p>
+<p>测试以下内容：</p>
+<ul>
+<li><strong><em>不</em></strong>输入任何命令行参数导致输出<em>默认</em>值。</li>
+<li>输入命令行参数的值导致输出<em>相应的</em>的值。</li>
+</ul>
+<h4 id="lab-workspace">Lab Workspace</h4>
+<ul>
+<li>你可以在** Lab Workspace** 中修改 <strong><em>check_image.py</em></strong>。</li>
+</ul>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <hr />
+<h2 id="目的">目的</h2>
+<p>命令行参数的目的是使程序能够更灵活地允许程序获得外部输入（命令行参数）。关键在于这些外部参数可以改变，从而使程序具有更高的灵活性。</p>
+<p>例如，假设你编写了一个程序，该程序会计算文件中的行数并将该数字输出到屏幕上。要使用户能够进入<em>任何</em>文件，而不用更改程序，我们需要以命令行参数的形式传入文件位置。这样的话，该程序可以用在<em>任何</em>文件上，因为值在运行时作为外部输入被传入。</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <hr />
+<h2 id="argparse">Argparse:</h2>
+<p><a href="https://docs.python.org/3/library/argparse.html#module-argparse" rel="noopener noreferrer" target="_blank">Argparse</a> 是一个 python 模块，借助该模块，我们可以轻松地为命令行参数编写用户友好型命令行界面。你可以在<a href="https://docs.python.org/3/howto/argparse.html" rel="noopener noreferrer" target="_blank">此处</a>查看简单的 Argparse 教程。</p>
+<p>要使用 Argparse 模块，你首先需要在程序中导入该模块。以下是导入该模块的代码。</p>
+<pre><code class="python language-python"># Imports argparse python module
+import argparse</code></pre>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <hr />
+<h2 id="argparse-的用途：">Argparse 的用途：</h2>
+<p>我们将使用 <strong>argparse</strong> 模块将以下外部输入输入到程序 <strong>check_image.py</strong> 中。我们建议编写 <strong>get_input_args</strong> 函数以使用 <strong>argparse</strong> 获取命令行参数。  </p>
+<p>以下是 <strong>check_image.py</strong> 程序从用户那获取输入所需的三个外部输入以及每个输入的建议<em>默认</em>值。</p>
+<ul>
+<li><p>包含宠物图像的文件夹</p>
+<ul>
+<li><em>pet_images/</em></li></ul></li>
+<li><p>要使用的 CNN 模型架构</p>
+<ul>
+<li><em>resnet</em>、<em>alexnet</em> 或 <em>vgg</em>（选一个作为默认值）</li></ul></li>
+<li><p>包含有效小狗名称列表的文件 </p>
+<ul>
+<li><em>dognames.txt</em></li></ul></li>
+</ul>
+<p>&nbsp;</p>
+<p><strong>get_input_args</strong> 函数需要使用 <a href="https://docs.python.org/3/library/argparse.html#argparse.ArgumentParser" rel="noopener noreferrer" target="_blank">argparse.ArgumentParser</a> 创建一个参数解析器对象，然后使用 <a href="https://docs.python.org/3/library/argparse.html#adding-arguments" rel="noopener noreferrer" target="_blank">add_argument 方法</a>以使用户能够输入上述四个外部输入。 </p>
+<p>下面是创建参数解析器对象，然后使用 <strong>add_argument</strong> 添加文件夹路径参数和第二个整数参数的示例。</p>
+<pre><code class="python language-python"># Creates Argument Parser object named parser
+parser = argparse.ArgumentParser()
+
+# Argument 1: that's a path to a folder
+parser.add_argument('--dir', type = str, default = 'my_folder/', 
+                    help = 'path to the folder my_folder') 
+
+# Argument 2: that's an integer
+parser.add_argument('--num', type = int, default = 1, 
+                    help = 'Number (integer) input') </code></pre>
+<p>以下是对 <strong>add_argument</strong> 输入的解释。</p>
+<ul>
+<li><p><strong>参数 1</strong>:</p>
+<ul>
+<li><p>--dir = 参数的变量名（本例中是 <em>dir</em>）</p></li>
+<li><p>type = 参数类型（本例中是字符串）</p></li>
+<li><p>default = 默认值（本例中是 'my_folder/‘）</p></li>
+<li><p>help = 用户输入程序名，然后输入 -h 或 --help 时出现的文本。使用户了解期望的参数值是什么</p></li></ul></li>
+<li><p><strong>参数 2</strong>:</p>
+<ul>
+<li><p>--num = 参数的变量名（本例中是 <em>num</em>）</p></li>
+<li><p>type = 参数类型（本例中是整型）</p></li>
+<li><p>default = 默认值（本例中是值 1）</p></li>
+<li><p>help = 用户输入程序名，然后输入 -h 或 --help 时出现的文本。使用户了解期望的参数值是什么</p></li></ul></li>
+</ul>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <hr />
+<h2 id="访问-argparse-参数">访问 Argparse 参数</h2>
+<p>要通过 argparse 对象访问传入程序中的参数，你需要使用 <a href="https://docs.python.org/3/library/argparse.html#the-parse-args-method" rel="noopener noreferrer" target="_blank"><strong>parse_args 方法</strong></a>。以下代码演示了如何通过扩展上述示例的 argparse 访问参数。</p>
+<p>首先，你需要为 <strong>parse_args</strong> 分配一个变量，然后使用该变量访问 argparse 对象的参数。如果在函数内创建 argparse 对象，需要<em>返回</em> <strong>parse_args</strong>，而不是为它分配一个变量。</p>
+<pre><code class="python language-python"># Assigns variable in_args to parse_args()
+in_args = parser.parse_args()
+
+# Accesses values of Arguments 1 and 2 by printing them
+print("Argument 1:", in_args.dir, "  Argument 2:", in_args.num)</code></pre>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <hr />
+<h2 id="代码">代码</h2>
+<p>你可以在程序 <a href="https://github.com/udacity/AIPND/blob/master/intropylab-classifying-images/command_line_arguments.py" rel="noopener noreferrer" target="_blank">command_line_arguments.py</a> 的 Github 代码库中找到此部分的代码。</p>
+<hr />
+<h2 id="解决方案视频">解决方案视频</h2>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>AIPND Python  Lab  - 命令行参数解决方案视频</p></h3>
+  <video controls>
+  <source src="07. AIPND Python  Lab  - 命令行参数解决方案视频-tuBIyuPrXFY.mp4" type="video/mp4">
+
+  <track default="true" kind="subtitles" srclang="en" src="07. AIPND Python  Lab  - 命令行参数解决方案视频-tuBIyuPrXFY.en.vtt" label="en">
+  <track default="false" kind="subtitles" srclang="BR" src="07. AIPND Python  Lab  - 命令行参数解决方案视频-tuBIyuPrXFY.pt-BR.vtt" label="BR">
+  <track default="false" kind="subtitles" srclang="CN" src="07. AIPND Python  Lab  - 命令行参数解决方案视频-tuBIyuPrXFY.zh-CN.vtt" label="CN">
+</video>
+
+
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+              <a href="08. 可变数据类型和函数.html" class="btn btn-outline-primary mt-4" role="button">Next Concept</a>
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://us-udacity.github.io/" target="_blank">【udacity2.0 】If you need more courses, please add wechat：udacity6</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('07. 命令行参数')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>

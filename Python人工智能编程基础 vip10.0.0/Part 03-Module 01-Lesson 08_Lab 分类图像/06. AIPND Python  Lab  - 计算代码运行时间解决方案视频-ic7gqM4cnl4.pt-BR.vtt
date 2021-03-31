@@ -1,0 +1,150 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.138 --> 00:00:03.202
+Este é um vídeo-solução
+da seção de código de timing.
+
+00:00:03.235 --> 00:00:06.468
+Primeiro, vamos colocar nosso nome
+e a data no programa.
+
+00:00:07.923 --> 00:00:09.115
+Eu fiz isso aqui
+
+00:00:09.148 --> 00:00:11.701
+e marquei que essa tarefa
+foi cumprida, aqui.
+
+00:00:12.157 --> 00:00:15.676
+A seguir, vamos colocar o código
+de timing na função principal.
+
+00:00:20.259 --> 00:00:23.944
+Veja que aqui eu atribuí
+que start_time é igual a "time",
+
+00:00:24.481 --> 00:00:27.140
+para indicar o tempo
+quando o programa começou.
+
+00:00:34.400 --> 00:00:36.755
+Depois,
+vemos que end_time = time,
+
+00:00:36.788 --> 00:00:40.149
+para indicar quando
+o programa terminou.
+
+00:00:40.667 --> 00:00:42.820
+Aqui calculamos
+o tempo de execução total.
+
+00:00:42.853 --> 00:00:46.523
+Tot_time é igual
+a end_time - start_time.
+
+00:00:47.954 --> 00:00:49.928
+Depois temos duas declarações
+de print.
+
+00:00:49.961 --> 00:00:53.356
+A primeira exibe o tempo
+de execução em segundos.
+
+00:00:54.141 --> 00:00:56.828
+Isso vai ser removido
+do programa
+
+00:00:56.861 --> 00:00:58.237
+depois de conferirmos.
+
+00:00:58.270 --> 00:01:00.931
+Só vamos usar para verificar
+a formatação.
+
+00:01:01.109 --> 00:01:03.494
+Aqui exibe-se
+o tempo de execução total
+
+00:01:03.527 --> 00:01:06.678
+formatado em hora-hora,
+minuto-minuto, segundo-segundo,
+
+00:01:06.711 --> 00:01:10.205
+como aprendemos no conceito
+de código de timing.
+
+00:01:11.715 --> 00:01:14.283
+Repare aqui que ajustamos
+a função sleep
+
+00:01:14.316 --> 00:01:15.906
+para 75 segundos.
+
+00:01:17.152 --> 00:01:18.615
+É só um código temporário,
+
+00:01:18.648 --> 00:01:21.927
+que vamos remover depois
+de verificar o código de timing.
+
+00:01:21.960 --> 00:01:23.993
+Isso é só para simular
+
+00:01:24.098 --> 00:01:26.652
+o programa sendo executado
+por 75 segundos
+
+00:01:26.685 --> 00:01:29.955
+para conferirmos a formatação
+de timing e de tempo.
+
+00:01:31.894 --> 00:01:34.682
+Agora vamos testar o código
+executando o programa.
+
+00:01:37.820 --> 00:01:39.066
+Na janela do terminal,
+
+00:01:39.099 --> 00:01:41.546
+digite
+Python check_images.PY
+
+00:01:41.579 --> 00:01:44.138
+e aperte Enter.
+Isso vai executar seu código.
+
+00:01:45.366 --> 00:01:47.377
+Nós o rodamos
+por 75 segundos,
+
+00:01:47.410 --> 00:01:49.918
+que foi formatado como
+1 minuto e 15 segundos,
+
+00:01:49.951 --> 00:01:51.136
+como esperado.
+
+00:01:51.622 --> 00:01:53.065
+Depois eu o executei de novo
+
+00:01:53.098 --> 00:01:55.915
+e deixei rodando
+por 125 segundos,
+
+00:01:55.948 --> 00:01:58.330
+o que foi formatado como
+2 minutos e 5 segundos,
+
+00:01:58.363 --> 00:02:00.004
+também como esperado.
+
+00:02:00.037 --> 00:02:04.231
+Lembre-se de tirar a função sleep
+e a declaração print adicional
+
+00:02:04.264 --> 00:02:05.699
+antes de continuar.
+

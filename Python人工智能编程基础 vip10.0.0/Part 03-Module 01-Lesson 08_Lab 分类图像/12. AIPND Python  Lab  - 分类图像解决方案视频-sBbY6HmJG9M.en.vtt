@@ -1,0 +1,235 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.660
+This is the solutions video for classifying images.
+
+00:00:03.660 --> 00:00:08.714
+First we need to define the classify images function.
+
+00:00:08.714 --> 00:00:15.972
+The doc string indicates we will have the following input parameters: image_ dir,
+
+00:00:15.973 --> 00:00:18.990
+the folder with the pet images,
+
+00:00:18.989 --> 00:00:26.640
+petlabel_dic, the dictionary we created in get pet labels function where the keys are
+
+00:00:26.640 --> 00:00:33.840
+the file names of the images and the values are the pet image labels themselves.
+
+00:00:33.840 --> 00:00:40.035
+Model, the CNN model architecture you'll be using to classify the images.
+
+00:00:40.034 --> 00:00:42.914
+This takes a value of either resnet,
+
+00:00:42.914 --> 00:00:48.045
+alexnet, or vgg, all in lowercase letters.
+
+00:00:48.045 --> 00:00:52.650
+This function returns the dictionary results_dic,
+
+00:00:52.649 --> 00:00:59.789
+where the key is the image file name and the value is a list.
+
+00:00:59.789 --> 00:01:05.489
+In this list, index zero has the pet image label,
+
+00:01:05.489 --> 00:01:08.369
+index one has a classifier label,
+
+00:01:08.370 --> 00:01:11.850
+and index two indicates whether or not
+
+00:01:11.849 --> 00:01:18.530
+the classifier label and the pet image label match.
+
+00:01:19.900 --> 00:01:24.135
+In this function we'll create an empty dictionary,
+
+00:01:24.135 --> 00:01:28.020
+results_dic, which will be returned at the end of the function.
+
+00:01:28.019 --> 00:01:30.719
+Next, we'll use a for loop to iterate through
+
+00:01:30.719 --> 00:01:36.870
+the petlabel_dic dictionary processing each pet image stored in the dictionary.
+
+00:01:36.870 --> 00:01:38.790
+In this for loop, we'll use
+
+00:01:38.790 --> 00:01:41.205
+the pet image filename when we
+
+00:01:41.204 --> 00:01:44.340
+classify each of the pet images with the classifier function.
+
+00:01:44.340 --> 00:01:48.299
+We'll format the label returned by this function and we'll determine
+
+00:01:48.299 --> 00:01:52.659
+whether or not the pet label and the classifier labels match.
+
+00:01:52.659 --> 00:01:53.924
+At the end of the for loop,
+
+00:01:53.924 --> 00:01:56.280
+we'll add the labels and whether or not the labels
+
+00:01:56.280 --> 00:02:00.230
+match to the results_dic dictionary for each file name.
+
+00:02:00.230 --> 00:02:03.245
+The first thing we're going to do in the for loop,
+
+00:02:03.245 --> 00:02:08.194
+is we're going to use the classifier function to create those classifier labels.
+
+00:02:08.194 --> 00:02:14.449
+They'll be returned as the model label into our classifier function we pass the model,
+
+00:02:14.449 --> 00:02:17.629
+and then that fullpath to the pet image.
+
+00:02:17.629 --> 00:02:20.150
+The key is the filename,
+
+00:02:20.150 --> 00:02:25.760
+and the image_dir is going to be that pet images folder.
+
+00:02:25.759 --> 00:02:28.819
+To process those classifier labels,
+
+00:02:28.819 --> 00:02:33.709
+we use the lower function to put all the letters in lowercase,
+
+00:02:33.710 --> 00:02:39.860
+and we use the strip function to strip off leading and trailing white space.
+
+00:02:39.860 --> 00:02:44.870
+Remember our petlabel_dic has the value of
+
+00:02:44.870 --> 00:02:49.700
+the pet image label so truth becomes that pet image label.
+
+00:02:49.699 --> 00:02:52.609
+Here we're using the find function to see if we can
+
+00:02:52.610 --> 00:02:59.230
+find that pet image label within the classifier label.
+
+00:03:00.770 --> 00:03:04.495
+If found is greater than zero,
+
+00:03:04.495 --> 00:03:08.125
+this means that we found the pet label within the classifier label.
+
+00:03:08.125 --> 00:03:12.490
+To handle cases where the pet label is a short word like cat or
+
+00:03:12.490 --> 00:03:17.433
+fox that can be embedded within the term foxhound or polecat,
+
+00:03:17.432 --> 00:03:20.514
+we use the second conditional statement.
+
+00:03:20.514 --> 00:03:23.439
+The second conditional statement checks that
+
+00:03:23.439 --> 00:03:27.115
+the pet label starts at the beginning of the classifier label or,
+
+00:03:27.115 --> 00:03:28.832
+has a blank in front of it.
+
+00:03:28.832 --> 00:03:31.599
+Additionally, it checks that the pet label ends at the end of
+
+00:03:31.599 --> 00:03:35.409
+the classifier label or enter the blank or comma.
+
+00:03:35.409 --> 00:03:38.389
+Once it's passed both conditional statements,
+
+00:03:38.389 --> 00:03:43.044
+we added to results_dic with comparison set to one.
+
+00:03:43.044 --> 00:03:46.794
+If it didn't pass a conditional statements,
+
+00:03:46.794 --> 00:03:50.739
+it's add to result_dic with a comparison set to zero.
+
+00:03:50.740 --> 00:03:57.594
+Finally, we return the result_dic dictionary at the end of the function.
+
+00:03:57.594 --> 00:04:02.727
+This is the call to the classifier images function within the main function.
+
+00:04:02.727 --> 00:04:06.430
+Classify images returns the result_dic dictionary with
+
+00:04:06.430 --> 00:04:09.670
+the image file name as the key and a list as
+
+00:04:09.669 --> 00:04:13.022
+its value where these lists contain the pet image labels,
+
+00:04:13.022 --> 00:04:16.089
+the classifier labels, and whether or not the labels match.
+
+00:04:16.089 --> 00:04:20.169
+Classify images inputs arguments in_org.dir,
+
+00:04:20.170 --> 00:04:25.098
+the command line argument for the pet images folder, answers_dic,
+
+00:04:25.098 --> 00:04:27.879
+the dictionary with the image file names
+
+00:04:27.879 --> 00:04:30.805
+as the keys and the pet image labels as the values,
+
+00:04:30.805 --> 00:04:37.310
+and in_org.arch, the command line argument for the CNN model architecture.
+
+00:04:37.310 --> 00:04:42.910
+We use this code here as our temporary code to check that our code is working properly.
+
+00:04:42.910 --> 00:04:46.090
+We print our matches first and then are non matches and we'll
+
+00:04:46.089 --> 00:04:49.554
+visually check those to make sure the code is working properly,
+
+00:04:49.555 --> 00:04:52.240
+then we also check that our non-matches
+
+00:04:52.240 --> 00:04:55.345
+plus our matches total the 40 images that we expect.
+
+00:04:55.345 --> 00:04:57.410
+If we open up our terminal window,
+
+00:04:57.410 --> 00:05:00.785
+we can see where we ran the program up here,
+
+00:05:00.785 --> 00:05:03.560
+and we have our matches print first,
+
+00:05:03.560 --> 00:05:08.269
+and then our non-matches and visually they appear to be both correct.
+
+00:05:08.269 --> 00:05:10.504
+We have a total of 40 images,
+
+00:05:10.504 --> 00:05:14.675
+35 matches, and five non-matches.
+
+00:05:14.675 --> 00:05:16.740
+So it appears our code is working properly.
+

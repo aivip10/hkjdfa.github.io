@@ -1,0 +1,223 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.850
+This is the solutions video for calculating results.
+
+00:00:03.850 --> 00:00:08.535
+The first thing we need to do is define the calculate result_stats function.
+
+00:00:08.535 --> 00:00:14.519
+The doc string indicates that we'll have only one input parameter.
+
+00:00:14.519 --> 00:00:16.794
+This is results_dic.
+
+00:00:16.795 --> 00:00:20.895
+The dictionary with the image filename as its key,
+
+00:00:20.894 --> 00:00:23.067
+and a list as its value.
+
+00:00:23.067 --> 00:00:26.774
+Where the list contains the pet image label, the classifier label,
+
+00:00:26.774 --> 00:00:28.410
+whether the labels match,
+
+00:00:28.410 --> 00:00:32.000
+and whether the labels indicate the images are of dogs.
+
+00:00:32.000 --> 00:00:38.094
+This function returns the results_stats dictionary.
+
+00:00:38.094 --> 00:00:41.039
+This dictionary contains the counts and percentages that
+
+00:00:41.039 --> 00:00:45.615
+summarize how well the algorithm did on classifying the images.
+
+00:00:45.615 --> 00:00:48.731
+First, we create an empty dictionary results_stats.
+
+00:00:48.731 --> 00:00:53.615
+This dictionary will hold the counts in percentages.
+
+00:00:53.615 --> 00:00:57.929
+Next, we set all of our counters to zero.
+
+00:00:57.929 --> 00:01:00.716
+We'll be counting the number of dog images,
+
+00:01:00.716 --> 00:01:01.979
+the number of matches,
+
+00:01:01.979 --> 00:01:03.854
+the number of correctly classified dogs,
+
+00:01:03.854 --> 00:01:06.194
+the number of correctly classified non-dogs,
+
+00:01:06.194 --> 00:01:10.489
+number of correctly classified breeds of dog.
+
+00:01:11.079 --> 00:01:14.579
+Next, we'll be iterating through
+
+00:01:14.579 --> 00:01:20.469
+the results_dic dictionary with a for loop incrementing these counters when appropriate.
+
+00:01:20.469 --> 00:01:22.484
+If the labels match,
+
+00:01:22.484 --> 00:01:26.489
+we'll increment the counter for the number of matches.
+
+00:01:26.489 --> 00:01:29.681
+If both labels are of dogs and they match,
+
+00:01:29.682 --> 00:01:34.094
+we'll increment the counter for the number of correctly classified breeds of dog.
+
+00:01:34.094 --> 00:01:37.394
+If the pet label is a dog,
+
+00:01:37.394 --> 00:01:40.890
+then we'll increment the counter for the number of dog images.
+
+00:01:40.890 --> 00:01:43.965
+If the classifier label is also of a dog,
+
+00:01:43.965 --> 00:01:47.325
+then we'll increment the number of correctly classified dogs.
+
+00:01:47.325 --> 00:01:51.639
+If the pet label is not a dog and the classifier label is not a dog,
+
+00:01:51.638 --> 00:01:55.494
+then we'll increment the number of correctly classified non-dogs.
+
+00:01:55.495 --> 00:01:59.785
+This ends the for loop that iterates through the results_dic dictionary.
+
+00:01:59.784 --> 00:02:06.914
+Next, the number of total images is computed using the length of the results_dic.
+
+00:02:06.915 --> 00:02:11.879
+The number of non-dog images is computed using
+
+00:02:11.879 --> 00:02:16.756
+the number of images minus the number of dog images.
+
+00:02:16.756 --> 00:02:21.449
+Next, we're going to compute all the percentages.
+
+00:02:21.449 --> 00:02:25.049
+The percentage match equals the number of
+
+00:02:25.050 --> 00:02:29.355
+matches divided by the number of images times 100.
+
+00:02:29.354 --> 00:02:32.909
+The percentage of correctly classified dogs is the number of
+
+00:02:32.909 --> 00:02:37.805
+correctly classified dogs divided by the number of dog images times 100.
+
+00:02:37.805 --> 00:02:41.640
+The percentage of correctly classified breeds is the number of
+
+00:02:41.639 --> 00:02:46.529
+correctly classified breeds divided by the number of dog images times 100.
+
+00:02:46.530 --> 00:02:51.224
+Finally, as long as we have at least one non-dog image,
+
+00:02:51.224 --> 00:02:56.449
+we'll compute the percentage of correctly classified non-dogs as the number of
+
+00:02:56.449 --> 00:03:03.155
+correctly classified non-dogs divided by the number of non-dog images times 100.
+
+00:03:03.155 --> 00:03:06.840
+If there are no non-dog images,
+
+00:03:06.840 --> 00:03:09.539
+this percentage is set to zero.
+
+00:03:09.539 --> 00:03:10.949
+At the bottom of this function,
+
+00:03:10.949 --> 00:03:14.875
+we'll return this results_stats dictionary.
+
+00:03:14.875 --> 00:03:16.300
+This is the function call to
+
+00:03:16.300 --> 00:03:20.564
+the calculate results_stats function within the main function.
+
+00:03:20.564 --> 00:03:25.139
+This function returns the result_stats_dic dictionary that contains
+
+00:03:25.139 --> 00:03:30.539
+the percentages and counts that summarize how well the algorithm classifies the images.
+
+00:03:30.539 --> 00:03:32.310
+This dictionary has a key that's
+
+00:03:32.310 --> 00:03:36.545
+the statistics name and a value that's the statistics value.
+
+00:03:36.544 --> 00:03:41.594
+This function has one input argument, result_dic.
+
+00:03:41.594 --> 00:03:48.379
+This is the dictionary that was returned by adjust-results4-isadog function.
+
+00:03:48.379 --> 00:03:53.594
+This dictionary has the image file name as its key and a list as its value.
+
+00:03:53.594 --> 00:03:57.109
+The list contains the pet image labels, the classifier labels,
+
+00:03:57.110 --> 00:03:58.737
+whether the labels match,
+
+00:03:58.737 --> 00:04:02.139
+whether the labels indicate the images are of dogs.
+
+00:04:02.139 --> 00:04:05.647
+We use this temporary code here to check our code.
+
+00:04:05.647 --> 00:04:10.849
+We'll be recomputing some counts and percentages using result_dic dictionary.
+
+00:04:10.849 --> 00:04:16.490
+We'll then compare these counts and percentages to the counts and percentages that were
+
+00:04:16.490 --> 00:04:22.394
+produced by the results_stats_dic dictionary that was returned by our function.
+
+00:04:22.394 --> 00:04:25.539
+We'll visually check to do this comparison.
+
+00:04:25.540 --> 00:04:29.510
+Let's look at our code in the terminal window.
+
+00:04:29.509 --> 00:04:34.430
+Here we've run the check images Python program.
+
+00:04:34.430 --> 00:04:37.555
+Here are the statistics from our function.
+
+00:04:37.555 --> 00:04:41.009
+Here are the statistics from the temporary code.
+
+00:04:41.009 --> 00:04:42.709
+We can see that they match.
+
+00:04:42.709 --> 00:04:45.000
+So, we know our code has run properly.
+

@@ -1,0 +1,259 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.113
+This is the solutions video for adjust-results4-isadog.
+
+00:00:04.113 --> 00:00:09.734
+First, we need to define the adjust-results4-isadog function.
+
+00:00:09.734 --> 00:00:14.519
+The doc string indicates that we have the following input parameters, results-dic,
+
+00:00:14.519 --> 00:00:20.609
+the dictionary with the image filename as its key and a list as its value.
+
+00:00:20.609 --> 00:00:22.980
+Where these lists indicate,
+
+00:00:22.980 --> 00:00:24.524
+the pet image label,
+
+00:00:24.524 --> 00:00:27.509
+the classifier label, and whether the labels match.
+
+00:00:27.510 --> 00:00:32.804
+In this function, we'll be adding to this list to indicate if the pet label is a dog,
+
+00:00:32.804 --> 00:00:35.189
+and if the classifier label is a dog.
+
+00:00:35.189 --> 00:00:39.509
+Dogsfile, a text file that contains
+
+00:00:39.509 --> 00:00:44.280
+all the dog names used by both the pet image label and the classifier label.
+
+00:00:44.280 --> 00:00:46.200
+Finding the label in this file,
+
+00:00:46.200 --> 00:00:48.195
+means that label is a dog.
+
+00:00:48.195 --> 00:00:50.250
+This function returns nothing,
+
+00:00:50.250 --> 00:00:53.085
+because the results-dic dictionary is mutable,
+
+00:00:53.085 --> 00:00:56.625
+and changes that happen to the dictionary within the function,
+
+00:00:56.625 --> 00:00:58.725
+are seen outside of the function.
+
+00:00:58.725 --> 00:01:01.995
+First, we create an empty dictionary dognames-dic.
+
+00:01:01.994 --> 00:01:05.924
+This dictionary will hold all the dognames in dogsfile.
+
+00:01:05.924 --> 00:01:10.245
+Next, we open dogsfile reading one line at a time from the file,
+
+00:01:10.245 --> 00:01:14.160
+using a while loop until we reach the end of the file.
+
+00:01:14.159 --> 00:01:19.973
+We must read in the first line using the read line function,
+
+00:01:19.974 --> 00:01:23.314
+then we enter the while loop.
+
+00:01:23.314 --> 00:01:31.164
+In the loop, we strip the new line off the read in dogname using the rstrip function.
+
+00:01:31.165 --> 00:01:36.954
+Then, if the dogname doesn't already exist in dognames-dic,
+
+00:01:36.953 --> 00:01:38.274
+we add it to the dictionary.
+
+00:01:38.275 --> 00:01:42.730
+Otherwise, we print a warning that there's a duplicate dogname.
+
+00:01:42.730 --> 00:01:44.920
+At the end of the loop,
+
+00:01:44.920 --> 00:01:47.605
+we read in the next line using read line.
+
+00:01:47.605 --> 00:01:49.870
+We will check at the top of the loop with
+
+00:01:49.870 --> 00:01:52.170
+a conditional statement if we process this line,
+
+00:01:52.170 --> 00:01:53.960
+or if we've reached the end of the file.
+
+00:01:53.959 --> 00:01:55.439
+If the line is empty,
+
+00:01:55.439 --> 00:01:57.164
+we've reached the end of the file,
+
+00:01:57.165 --> 00:01:58.755
+and the loop will terminate.
+
+00:01:58.754 --> 00:02:02.504
+Next, we iterate through the results-dic dictionary,
+
+00:02:02.504 --> 00:02:06.810
+extending the value lists by whether or not the labels are dogs.
+
+00:02:06.810 --> 00:02:12.810
+We use nested conditional statements to determine if the labels are dogs,
+
+00:02:12.810 --> 00:02:17.280
+then, we use the extended function to append these two items to the end of the list.
+
+00:02:17.280 --> 00:02:21.314
+The first item appended indicates whether the pet label is a dog,
+
+00:02:21.314 --> 00:02:25.560
+the second item appended indicates whether the classifier label is a dog.
+
+00:02:25.560 --> 00:02:28.289
+If the label is found within dognames-dic,
+
+00:02:28.289 --> 00:02:30.500
+we know the label is of a dog.
+
+00:02:30.500 --> 00:02:32.215
+Here in the code,
+
+00:02:32.215 --> 00:02:34.735
+we found the pet label is a dog.
+
+00:02:34.735 --> 00:02:37.360
+If the classifier label is a dog,
+
+00:02:37.360 --> 00:02:39.550
+we extend by the values 1,1.
+
+00:02:39.550 --> 00:02:41.995
+If the classifier label isn't a dog,
+
+00:02:41.995 --> 00:02:44.740
+we extend by the values 1,0.
+
+00:02:44.740 --> 00:02:48.805
+Here in the code, we found that the pet label isn't a dog.
+
+00:02:48.805 --> 00:02:51.205
+If the classifier label is a dog,
+
+00:02:51.205 --> 00:02:53.094
+we extend by 0,1.
+
+00:02:53.094 --> 00:02:55.330
+If the classifier label isn't a dog,
+
+00:02:55.330 --> 00:02:57.295
+we extend by 1,1.
+
+00:02:57.294 --> 00:03:00.039
+Now results-dic has been changed to indicate
+
+00:03:00.039 --> 00:03:03.280
+whether the labels are of dogs and the function ends.
+
+00:03:03.280 --> 00:03:10.250
+This is the function call to adjust-results4-isadog function within the main function.
+
+00:03:10.250 --> 00:03:13.129
+This function returns nothing.
+
+00:03:13.129 --> 00:03:20.052
+Adjust-results4-isadog inputs the arguments result_dic,
+
+00:03:20.052 --> 00:03:23.914
+the dictionary that was returned by the classify images function,
+
+00:03:23.914 --> 00:03:28.429
+this dictionary has the image file name as its key,
+
+00:03:28.430 --> 00:03:30.290
+a list as its value,
+
+00:03:30.289 --> 00:03:33.125
+where the list contains the pet image labels,
+
+00:03:33.125 --> 00:03:36.020
+the classifier labels, and whether the labels match.
+
+00:03:36.020 --> 00:03:37.880
+When this function completes,
+
+00:03:37.879 --> 00:03:43.650
+we'll have added to this list to indicate whether the labels are of dogs.
+
+00:03:43.650 --> 00:03:49.689
+In-arg.dogfile, the command line argument for
+
+00:03:49.689 --> 00:03:53.004
+the text file that contains all the dognames used
+
+00:03:53.004 --> 00:03:57.174
+by both the pet image labels and the classifier labels.
+
+00:03:57.175 --> 00:04:01.795
+We'll use this temporary code here to check our code.
+
+00:04:01.794 --> 00:04:04.344
+We're going to print all the matches,
+
+00:04:04.344 --> 00:04:06.909
+followed by all the non matches.
+
+00:04:06.909 --> 00:04:11.319
+We'll visually check whether the labels of dogs have been coded correctly,
+
+00:04:11.319 --> 00:04:14.349
+and then we'll check if the non-matches
+
+00:04:14.349 --> 00:04:18.189
+added to the matches equals the 40 images we are expecting.
+
+00:04:18.189 --> 00:04:22.800
+Let's go to the terminal window to check our code.
+
+00:04:26.149 --> 00:04:29.439
+At the top, we can see,
+
+00:04:29.439 --> 00:04:33.459
+we call the check images Python program, and below,
+
+00:04:33.459 --> 00:04:35.469
+we see we have our matches first,
+
+00:04:35.470 --> 00:04:41.035
+and it seems that the labels are correctly classified as dogs or not dogs.
+
+00:04:41.035 --> 00:04:46.060
+We scroll down, and we see where we have the not a match images,
+
+00:04:46.060 --> 00:04:50.500
+and they also seem to be classified correctly as dogs or not dogs.
+
+00:04:50.500 --> 00:04:53.004
+We have a total of 35 matches,
+
+00:04:53.004 --> 00:04:56.949
+five not matches for a total of 40 images as we expect.
+
+00:04:56.949 --> 00:04:59.949
+So it seems that our code is working correctly.
+

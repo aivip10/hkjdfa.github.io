@@ -1,0 +1,130 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.841 --> 00:00:03.954
+Este é o vídeo de instruções
+do laboratório de Python.
+
+00:00:04.909 --> 00:00:06.175
+Ao se construir uma casa,
+
+00:00:06.208 --> 00:00:07.994
+primeiro se faz uma planta
+
+00:00:08.027 --> 00:00:11.178
+para guiar a construção
+antes de ela começar.
+
+00:00:11.546 --> 00:00:14.444
+Para criar um programa complexo
+por trabalho ou lazer,
+
+00:00:14.477 --> 00:00:15.734
+também é preciso uma planta
+
+00:00:15.767 --> 00:00:18.995
+que descreva as tarefas
+a serem cumpridas pelo programa.
+
+00:00:19.491 --> 00:00:20.867
+Um jeito de criar a planta
+
+00:00:20.900 --> 00:00:24.519
+é escrever um resumo das tarefas
+a serem cumpridas pelo programa.
+
+00:00:24.938 --> 00:00:27.820
+Depois você vai usar esse resumo
+para rascunhar o programa
+
+00:00:27.853 --> 00:00:30.057
+com comentários
+e esboços de funções.
+
+00:00:30.542 --> 00:00:32.940
+O esboço contém
+o nome da função,
+
+00:00:32.973 --> 00:00:34.737
+sua definição e o docstring,
+
+00:00:34.770 --> 00:00:37.985
+mas a tarefa que a função realiza
+fica indefinida.
+
+00:00:38.341 --> 00:00:41.737
+Neste laboratório vamos dar a você
+o resumo do programa
+
+00:00:41.770 --> 00:00:44.826
+e a planta para te ajudar
+a completar tudo mais rápido.
+
+00:00:44.938 --> 00:00:48.102
+Além disso, os materiais
+vão dar exemplo de ambos
+
+00:00:48.135 --> 00:00:50.472
+para ajudar você
+em seus futuros programas.
+
+00:00:51.114 --> 00:00:54.433
+Nas instruções do laboratório
+você verá o resumo do programa
+
+00:00:54.466 --> 00:00:57.278
+e o próprio programa
+check_images
+
+00:00:57.311 --> 00:00:59.706
+será a planta para
+o programa.
+
+00:00:59.739 --> 00:01:02.246
+Para completar o laboratório,
+edite o check_images,
+
+00:01:02.279 --> 00:01:05.566
+definindo todas as funções,
+para que o programa finalizado
+
+00:01:05.599 --> 00:01:09.234
+atinja os 4 objetivos listados
+nas instruções.
+
+00:01:11.520 --> 00:01:14.498
+Você vai editar o check_images
+no espaço de trabalho.
+
+00:01:14.531 --> 00:01:18.248
+As mudanças que você fizer
+no espaço de trabalho serão salvas,
+
+00:01:18.633 --> 00:01:21.752
+mesmo que você dê log out
+depois de fazer as mudanças.
+
+00:01:22.392 --> 00:01:25.447
+Seria bom ter uma janela
+de navegador com a aula
+
+00:01:25.609 --> 00:01:28.953
+e outra janela com o espaço
+de trabalho do laboratório
+
+00:01:28.986 --> 00:01:33.082
+para facilitar alternar entre
+o trabalho e a aula.
+
+00:01:34.121 --> 00:01:36.443
+Quando você terminar
+de ler as instruções,
+
+00:01:36.650 --> 00:01:38.922
+Clique nas Dicas
+do Espaço de Trabalho
+
+00:01:38.955 --> 00:01:40.270
+para aprender a usá-lo.
+

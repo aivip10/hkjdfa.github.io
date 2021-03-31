@@ -1,0 +1,187 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.990
+This is the solutions video for creating pet image labels.
+
+00:00:03.990 --> 00:00:08.483
+First we need to define the get_pet_labels function.
+
+00:00:08.483 --> 00:00:10.419
+The doc string indicates,
+
+00:00:10.419 --> 00:00:14.955
+we'll be inputting the parameter image_dir,
+
+00:00:14.955 --> 00:00:18.846
+which is just the path to the folder that contains all the pet images.
+
+00:00:18.846 --> 00:00:21.495
+And we'll be returning petlabels_dic,
+
+00:00:21.495 --> 00:00:25.335
+the dictionary that stores the image filename as the key,
+
+00:00:25.335 --> 00:00:28.275
+with the pet image label as the value.
+
+00:00:28.274 --> 00:00:32.339
+In this function we first create the list, in files.
+
+00:00:32.340 --> 00:00:36.665
+That contains the filenames from the pet images folder.
+
+00:00:36.664 --> 00:00:40.530
+Next, we create an empty dictionary petlabels_dic.
+
+00:00:40.530 --> 00:00:45.429
+That will be the dictionary we'll be returning from this function.
+
+00:00:46.869 --> 00:00:53.684
+We use a for loop to process all the filenames in the in files list,
+
+00:00:53.685 --> 00:00:56.700
+to create the pet image labels.
+
+00:00:56.700 --> 00:00:58.800
+First there's the conditional statement that
+
+00:00:58.799 --> 00:01:02.204
+skips processing all files that start with a dot.
+
+00:01:02.204 --> 00:01:05.914
+This should only occur if you're working on a Apple computer.
+
+00:01:05.915 --> 00:01:08.250
+If you're working in the lab work space,
+
+00:01:08.250 --> 00:01:10.510
+you won't need this conditional statement.
+
+00:01:10.510 --> 00:01:16.050
+Next the image filename is split into a list of words based upon the under bar delimiter.
+
+00:01:16.049 --> 00:01:21.804
+Image name is the variable that points to this list of words in memory.
+
+00:01:21.805 --> 00:01:25.480
+Then we create the variable pet_label as an empty string.
+
+00:01:25.480 --> 00:01:32.094
+This variable will hold the pet image label that we've extracted from the filename.
+
+00:01:32.094 --> 00:01:34.900
+Next we use a for loop to create the pet_label,
+
+00:01:34.900 --> 00:01:38.020
+by processing each word in image name.
+
+00:01:38.019 --> 00:01:39.939
+If the word is only made up of letters,
+
+00:01:39.939 --> 00:01:42.159
+it's added to the pet_label as a string of
+
+00:01:42.159 --> 00:01:47.219
+all lowercase letters with a blank space at the end.
+
+00:01:47.810 --> 00:01:54.010
+After the list of words is processed by extracting the words that only contain letters,
+
+00:01:54.010 --> 00:01:56.650
+the trailing blank space is stripped off the pet_label,
+
+00:01:56.650 --> 00:01:58.685
+with the strip function.
+
+00:01:58.685 --> 00:02:00.655
+At the end of the loop,
+
+00:02:00.655 --> 00:02:02.859
+the pet_label's added to the dictionary,
+
+00:02:02.859 --> 00:02:06.579
+petlabels_dic, if it doesn't already exist in the dictionary.
+
+00:02:06.579 --> 00:02:11.425
+Where the dictionary key is the filename and the value is the pet image label.
+
+00:02:11.425 --> 00:02:13.935
+Notice that a warning prints,
+
+00:02:13.935 --> 00:02:16.092
+if the filename already exists in the dictionary,
+
+00:02:16.092 --> 00:02:20.269
+because there shouldn't be duplicate filenames in the pet images folder.
+
+00:02:20.270 --> 00:02:24.545
+Finally, we return the dictionary that contains the pet image labels.
+
+00:02:24.544 --> 00:02:27.004
+Here we're at the function call for,
+
+00:02:27.004 --> 00:02:31.079
+get_pet_labels within the main function.
+
+00:02:31.080 --> 00:02:33.065
+Notice we input in arg.dir.
+
+00:02:33.064 --> 00:02:36.365
+This is that command line argument that
+
+00:02:36.365 --> 00:02:40.165
+indicates what folder the images are located within.
+
+00:02:40.164 --> 00:02:42.364
+Where we're turning answers_dic,
+
+00:02:42.365 --> 00:02:44.585
+that dictionary that has the key,
+
+00:02:44.585 --> 00:02:46.930
+the filename with the values,
+
+00:02:46.930 --> 00:02:48.840
+those pet image labels.
+
+00:02:48.840 --> 00:02:51.724
+Then we have here our temporary print statement,
+
+00:02:51.724 --> 00:02:55.759
+where we check that we have 40 key-value pairs.
+
+00:02:55.759 --> 00:02:59.264
+And then we check ten of those key-value pairs to make sure that we're
+
+00:02:59.264 --> 00:03:03.739
+processing those filenames appropriately to create those pet images label.
+
+00:03:03.740 --> 00:03:05.585
+Let's look at the terminal,
+
+00:03:05.585 --> 00:03:08.750
+where I've run the program, to check our code.
+
+00:03:08.750 --> 00:03:12.500
+You can see I ran Python check_images.
+
+00:03:12.500 --> 00:03:16.710
+We have 40 key-value pairs which we expect because we have 40 images.
+
+00:03:16.710 --> 00:03:19.250
+And then when we printed the first 10,
+
+00:03:19.250 --> 00:03:22.514
+we can see we've processed those filenames appropriately,
+
+00:03:22.514 --> 00:03:26.519
+or we've put the pet image labels in all lowercase letters.
+
+00:03:26.520 --> 00:03:30.469
+There are spaces in between the words of those pet labels.
+
+00:03:30.469 --> 00:03:33.680
+And it seems like we've processed appropriately.
+

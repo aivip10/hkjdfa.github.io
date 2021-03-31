@@ -1,0 +1,97 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.540
+This is a solution video for the timing code section.
+
+00:00:03.540 --> 00:00:08.164
+The first thing we have to do is add our name and date to the program.
+
+00:00:08.164 --> 00:00:09.779
+I've done that here and then,
+
+00:00:09.779 --> 00:00:12.026
+I marked that the task was done here.
+
+00:00:12.026 --> 00:00:18.897
+Next, we needed to add the timing code within the main function.
+
+00:00:18.897 --> 00:00:24.339
+Here, we could see where I set start time to time,
+
+00:00:24.339 --> 00:00:34.549
+to indicate the time the program started.
+
+00:00:34.549 --> 00:00:36.954
+Next, we see end time equal time,
+
+00:00:36.954 --> 00:00:40.594
+to indicate the time the program ended.
+
+00:00:40.594 --> 00:00:42.729
+Here, we compute the total runtime.
+
+00:00:42.729 --> 00:00:47.379
+Tot time, equals end time minus start time.
+
+00:00:47.380 --> 00:00:50.030
+Then we have two print statements.
+
+00:00:50.030 --> 00:00:54.549
+The first print statement just prints the runtime in seconds.
+
+00:00:54.549 --> 00:00:58.379
+This will be removed in the program after we do this check.
+
+00:00:58.380 --> 00:01:01.390
+This is only to be used to check the formatting.
+
+00:01:01.390 --> 00:01:05.829
+Here, we print the total runtime formatted in hour hour, minute minute,
+
+00:01:05.829 --> 00:01:11.734
+second second like we learned in the timing code concept.
+
+00:01:11.734 --> 00:01:17.289
+Note here, we have the sleep function set to 75 seconds.
+
+00:01:17.290 --> 00:01:22.330
+This is just temporary code that will remove after we've checked the timing code.
+
+00:01:22.329 --> 00:01:25.870
+This is just to simulate the program running for
+
+00:01:25.870 --> 00:01:32.100
+75 seconds so we can check the timing and time formatting.
+
+00:01:32.099 --> 00:01:36.329
+Now, we're going to check our code by running the program.
+
+00:01:36.329 --> 00:01:39.155
+In the terminal window,
+
+00:01:39.155 --> 00:01:42.799
+type Python, check images dot PY, and hit enter.
+
+00:01:42.799 --> 00:01:45.679
+This will run your code.
+
+00:01:45.680 --> 00:01:48.080
+We ran it for 75 seconds which was
+
+00:01:48.079 --> 00:01:51.799
+formatted to a minute and 15 seconds which is expected.
+
+00:01:51.799 --> 00:01:54.980
+Then, I did a second run where we ran it for 
+
+00:01:54.980 --> 00:02:00.094
+125 seconds which formatted to two minutes and five seconds which is also expected.
+
+00:02:00.094 --> 00:02:03.004
+Please remember to remove the sleep function
+
+00:02:03.004 --> 00:02:06.079
+and extra print statement before continuing on to the next section.
+

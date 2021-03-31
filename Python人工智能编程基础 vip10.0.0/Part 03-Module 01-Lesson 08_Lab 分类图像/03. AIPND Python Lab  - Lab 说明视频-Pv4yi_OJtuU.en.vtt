@@ -1,0 +1,103 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.224
+This is the Python lab instructions video.
+
+00:00:04.224 --> 00:00:05.934
+When you're building a house,
+
+00:00:05.934 --> 00:00:07.949
+there's a blueprint of the house made first,
+
+00:00:07.950 --> 00:00:11.324
+to outline construction prior to beginning building the house.
+
+00:00:11.324 --> 00:00:14.209
+When writing a complex program for work or for fun,
+
+00:00:14.210 --> 00:00:16.260
+you too will want a blueprint that outlines
+
+00:00:16.260 --> 00:00:18.960
+the tasks you need to complete with your program.
+
+00:00:18.960 --> 00:00:21.300
+One way to create a blueprint is to write
+
+00:00:21.300 --> 00:00:24.810
+an outline of the task you'll need to complete with your program.
+
+00:00:24.809 --> 00:00:30.034
+Next, you'll use this outline to draft the program with comments, and functions stubs.
+
+00:00:30.035 --> 00:00:33.009
+Where a functions stub contains the function name,
+
+00:00:33.009 --> 00:00:34.872
+definition in doc string,
+
+00:00:34.872 --> 00:00:38.565
+but the task the function performs have been left undefined.
+
+00:00:38.566 --> 00:00:41.960
+With this lab will provide you with both the program outline,
+
+00:00:41.960 --> 00:00:45.094
+and the blueprint to help you complete the lab more quickly.
+
+00:00:45.094 --> 00:00:47.530
+Additionally, these materials provide an example
+
+00:00:47.530 --> 00:00:50.590
+of both to help you with your future programs.
+
+00:00:50.590 --> 00:00:52.438
+In the lab instructions,
+
+00:00:52.438 --> 00:00:54.535
+you'll find the program outline,
+
+00:00:54.534 --> 00:00:57.234
+and check images program itself,
+
+00:00:57.234 --> 00:00:59.394
+is the blueprint for the actual program.
+
+00:00:59.395 --> 00:01:02.370
+To complete this lab, you'll edit check images,
+
+00:01:02.369 --> 00:01:03.729
+defining all the functions,
+
+00:01:03.729 --> 00:01:06.429
+such that the final program will achieve
+
+00:01:06.430 --> 00:01:10.360
+the four objectives outlined in the lab instructions.
+
+00:01:10.359 --> 00:01:14.644
+You'll be editing check images in the lab workspace.
+
+00:01:14.644 --> 00:01:18.484
+All changes you make to check images in the workspace will always be saved,
+
+00:01:18.484 --> 00:01:21.905
+even when you log out after making the change.
+
+00:01:21.905 --> 00:01:25.737
+You may want to have one browser window open to the lesson,
+
+00:01:25.737 --> 00:01:29.689
+and another browser window open to the lab workspace to make it
+
+00:01:29.689 --> 00:01:34.129
+easier to switch between the lab workspace, and the lessons.
+
+00:01:34.129 --> 00:01:36.629
+Once you've finished reading over the lab instructions,
+
+00:01:36.629 --> 00:01:40.469
+click on over to the workspace 'How to' to learn how to use the lab workspace.
+

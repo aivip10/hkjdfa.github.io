@@ -1,0 +1,253 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.260 --> 00:00:03.969
+I'm going to demonstrate how to work within the Lab Workspace.
+
+00:00:03.969 --> 00:00:08.425
+Click on the three blue bars in the left upper corner.
+
+00:00:08.425 --> 00:00:10.585
+This opens up the Navigation Pane,
+
+00:00:10.585 --> 00:00:15.387
+scroll down until you see the Lab Workspace and click on it.
+
+00:00:15.387 --> 00:00:19.660
+This opens up your Lab Workspace.
+
+00:00:19.660 --> 00:00:22.059
+It's composed of three sections.
+
+00:00:22.059 --> 00:00:24.849
+The first section has the files.
+
+00:00:24.850 --> 00:00:27.900
+The second section is where you open and edit files.
+
+00:00:27.899 --> 00:00:30.339
+The third section allows you to open
+
+00:00:30.339 --> 00:00:34.045
+terminal windows so that you can run your Python programs.
+
+00:00:34.045 --> 00:00:37.890
+Let's open a Terminal window by clicking on the plus.
+
+00:00:37.890 --> 00:00:41.125
+While the Terminal window initializes,
+
+00:00:41.125 --> 00:00:44.594
+let's expand the Edit window.
+
+00:00:44.594 --> 00:00:47.122
+If I click on check images,
+
+00:00:47.122 --> 00:00:52.614
+this brings it up in the Edit window and then I can add my name beside
+
+00:00:52.615 --> 00:01:00.000
+programmer and it automatically saves it.
+
+00:01:00.000 --> 00:01:03.564
+So, now check images has my name in it.
+
+00:01:03.564 --> 00:01:07.314
+So when you're editing check images for the lab,
+
+00:01:07.314 --> 00:01:10.709
+the changes you make in this program are automatically saved.
+
+00:01:10.709 --> 00:01:12.774
+To run this program Check Images,
+
+00:01:12.775 --> 00:01:19.165
+you go to the Terminal window and just type Python space check.
+
+00:01:19.165 --> 00:01:20.859
+And then if you hit tab,
+
+00:01:20.859 --> 00:01:22.420
+you'll get tab completion,
+
+00:01:22.420 --> 00:01:27.984
+which will complete the file name and you can hit enter and it will run the program.
+
+00:01:27.984 --> 00:01:34.465
+While it's running, let's go back and look at the files in our directory here.
+
+00:01:34.465 --> 00:01:36.969
+We have the pet images folder.
+
+00:01:36.969 --> 00:01:38.289
+If I click on it,
+
+00:01:38.290 --> 00:01:40.180
+I see all the pet images.
+
+00:01:40.180 --> 00:01:48.719
+To go back, I click on the arrow up here and it puts me back in that Workspace directory.
+
+00:01:48.719 --> 00:01:53.905
+The only file I should be changing in here is check images.
+
+00:01:53.905 --> 00:01:57.109
+If I want to close check images out,
+
+00:01:57.109 --> 00:01:59.329
+I just hit the X and it closes out.
+
+00:01:59.329 --> 00:02:03.724
+If I want to open up something else like dognames.txt,
+
+00:02:03.724 --> 00:02:07.174
+I click on it and it opens in this Edit window.
+
+00:02:07.175 --> 00:02:13.444
+Let's say I make a mistake and I accidentally delete or change dognames.txt.
+
+00:02:13.443 --> 00:02:15.694
+So, if I right click and hit Delete,
+
+00:02:15.694 --> 00:02:19.846
+I will delete it and all of a sudden it's gone.
+
+00:02:19.846 --> 00:02:23.825
+To be able to bring dog names back,
+
+00:02:23.824 --> 00:02:25.789
+I need to reset my environment,
+
+00:02:25.789 --> 00:02:26.959
+but when I reset,
+
+00:02:26.960 --> 00:02:29.870
+it's going to set back to the original state,
+
+00:02:29.870 --> 00:02:32.259
+which will mean the change that I made in
+
+00:02:32.259 --> 00:02:35.644
+check images by adding my name is going to disappear.
+
+00:02:35.645 --> 00:02:38.030
+So, to keep from losing check images,
+
+00:02:38.030 --> 00:02:39.305
+I need to download it.
+
+00:02:39.305 --> 00:02:40.819
+I click on Check Images,
+
+00:02:40.819 --> 00:02:50.594
+do right click and Download and it will download to my Downloads folder on my laptop.
+
+00:02:50.594 --> 00:02:53.974
+We can also see here that our program finished running,
+
+00:02:53.974 --> 00:02:58.519
+total elapsed runtime is none, that's expected.
+
+00:02:58.520 --> 00:03:03.590
+This demonstrates how to run your Python program within this Workspace.
+
+00:03:03.590 --> 00:03:09.620
+Our file is downloaded so now we can safely reset the Workspace to its original state.
+
+00:03:09.620 --> 00:03:13.819
+I hit Menu and then Reset Data to
+
+00:03:13.819 --> 00:03:18.079
+reset your data because you're overwriting everything that you've worked on,
+
+00:03:18.080 --> 00:03:27.050
+you need to type in Reset data and make sure you have a lower case D,
+
+00:03:27.050 --> 00:03:30.880
+once it's typed correctly it'll initialize this button,
+
+00:03:30.879 --> 00:03:33.840
+you hit it and it resets all the data.
+
+00:03:33.840 --> 00:03:39.215
+So, now I would expect that I see dog names is back and if I click on it, there it is.
+
+00:03:39.215 --> 00:03:41.539
+So, it's reset back to its original state.
+
+00:03:41.539 --> 00:03:45.289
+If I click on check images,
+
+00:03:45.289 --> 00:03:47.750
+I see that I don't see my name typed
+
+00:03:47.750 --> 00:03:50.104
+in here because it's the original state of the program.
+
+00:03:50.104 --> 00:03:52.669
+To bring my edited program back,
+
+00:03:52.669 --> 00:03:55.564
+I just click on check images, right click,
+
+00:03:55.564 --> 00:03:59.539
+and do Delete and then I delete it.
+
+00:03:59.539 --> 00:04:05.689
+And now, I click on this plus and hit Upload File.
+
+00:04:05.689 --> 00:04:09.109
+And I go to my Downloads directory,
+
+00:04:09.110 --> 00:04:11.135
+click on check images,
+
+00:04:11.134 --> 00:04:18.149
+open, and it uploads that file that I edited back to my Workspace.
+
+00:04:18.149 --> 00:04:19.534
+If I double click on it,
+
+00:04:19.535 --> 00:04:22.995
+there it is Jennifer S, that's me.
+
+00:04:22.995 --> 00:04:26.158
+And this is that file that I edited.
+
+00:04:26.158 --> 00:04:29.930
+I would recommend that you download
+
+00:04:29.930 --> 00:04:34.405
+your check images file before you do the reset so that you save your work.
+
+00:04:34.404 --> 00:04:38.779
+You can also upload other files you want to the Workspace by using
+
+00:04:38.779 --> 00:04:43.629
+the plus and then upload a file or upload a folder.
+
+00:04:43.629 --> 00:04:46.189
+So, to go back to the lessons,
+
+00:04:46.189 --> 00:04:49.850
+I simply click on the three bars on
+
+00:04:49.850 --> 00:04:55.750
+the upper left corner that opens the navigation pane and then I pick my lesson.
+
+00:04:55.750 --> 00:04:57.964
+I'm going back to Workspace How-to,
+
+00:04:57.964 --> 00:05:00.209
+click on it and it opens back up.
+
+00:05:00.209 --> 00:05:01.444
+And if I want to expand that,
+
+00:05:01.444 --> 00:05:07.269
+I click on these three bars again and expands my Workspace How-to,
+
+00:05:07.269 --> 00:05:09.359
+to be full screen.
+

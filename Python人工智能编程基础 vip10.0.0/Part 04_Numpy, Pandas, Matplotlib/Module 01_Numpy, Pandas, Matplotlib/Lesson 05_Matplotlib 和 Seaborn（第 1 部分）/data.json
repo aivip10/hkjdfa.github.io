@@ -1,0 +1,1466 @@
+{
+  "data": {
+    "lesson": {
+      "id": 592287,
+      "key": "43855abb-dae5-46c7-9167-4b001dabd41e",
+      "title": "Matplotlib 和 Seaborn（第 1 部分）",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "zh-cn",
+      "summary": "学习如何使用 Matplotlib 和 Seaborn 可视化数据。在这节课，你将学习如何创建可视化图表来描述单个变量的分布情况。",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": null,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/43855abb-dae5-46c7-9167-4b001dabd41e/592287/1544208129191/Matplotlib+%E5%92%8C+Seaborn%EF%BC%88%E7%AC%AC+1+%E9%83%A8%E5%88%86%EF%BC%89+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/43855abb-dae5-46c7-9167-4b001dabd41e/592287/1544208124593/Matplotlib+%E5%92%8C+Seaborn%EF%BC%88%E7%AC%AC+1+%E9%83%A8%E5%88%86%EF%BC%89+Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 592265,
+          "key": "d0d9bf51-4e12-4578-9e7b-aebff5fbf77c",
+          "title": "讲师",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "d0d9bf51-4e12-4578-9e7b-aebff5fbf77c",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 592128,
+              "key": "37914592-c167-4908-8cbf-0f5975be90a7",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/March/5ab03cac_screen-shot-2018-03-19-at-3.41.27-pm/screen-shot-2018-03-19-at-3.41.27-pm.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/37914592-c167-4908-8cbf-0f5975be90a7",
+              "caption": "_Mike Yi_",
+              "alt": "",
+              "width": 320,
+              "height": 300,
+              "instructor_notes": null
+            },
+            {
+              "id": 592129,
+              "key": "b74bb041-8fb5-4379-b826-00ab69b930c7",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "你已经从统计学和数学的角度使用 Numpy 和 Pandas 读取和操纵数据。现在，你将使用库 **Matplotlib** 和 **Seaborn** 可视化数据，了解无法仅通过统计学完全了解的数据信息。\n\nMike 将是你的讲师！Mike 是一名数学家，拥有加州大学欧文分校认知科学博士学位。\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 592266,
+          "key": "1d01ba1d-a76c-4709-a833-97b5772f6ab2",
+          "title": "简介",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1d01ba1d-a76c-4709-a833-97b5772f6ab2",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 592130,
+              "key": "f55df0d1-beb9-4372-92d3-72dd0e5455c4",
+              "title": "L3 011 简介 V3",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "4BpAF4MYKm8",
+                "china_cdn_id": "4BpAF4MYKm8.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 592267,
+          "key": "f65e11a1-e5f5-4cb2-be57-5db700af0e7a",
+          "title": "整洁的数据",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "f65e11a1-e5f5-4cb2-be57-5db700af0e7a",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 592131,
+              "key": "56a9c345-bbfc-44a9-959f-fe6a7a2267fc",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## 什么是整洁的数据？\n\n在这门课程中，你的数据应该以一种整洁的格式存在。简单来说，[整洁数据集](https://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html)是满足以下条件的一种表格数据集：\n- 每个变量占一列（Each variable is a column）\n- 每个观察值占一行（Each observation is a row）\n- 每种观察单位是一个表格（Each type of observational unit is a table）\n\n下面的前三张图片描述了一个整洁的数据集。这个整洁的数据集来自医疗保健领域，有两个表格：一个是患者表格（包括患者 ID、姓名和年龄），一个是治疗表格（包括患者 ID、患者服用的药物 Drug，以及药物剂量 Dose）。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592132,
+              "key": "0c6251d2-fe0e-4c70-8db8-3fe5ff127318",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/January/5a6278e8_tidy-data-one/tidy-data-one.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/0c6251d2-fe0e-4c70-8db8-3fe5ff127318",
+              "caption": "*整洁数据集的每个变量都必须具有自己的列*",
+              "alt": "包含两个表格（患者表格和治疗表格）的图片，每个列都高亮显示",
+              "width": 1182,
+              "height": 400,
+              "instructor_notes": null
+            },
+            {
+              "id": 592133,
+              "key": "ea74295a-418c-42c6-8e20-0a33c885a4ce",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/January/5a6278ea_tidy-data-two/tidy-data-two.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/ea74295a-418c-42c6-8e20-0a33c885a4ce",
+              "caption": "*整洁数据集中的每个观察值都必须具有自己的行*",
+              "alt": "包含两个表格（患者表格和治疗表格）的图片，每个行都高亮显示",
+              "width": 1182,
+              "height": 400,
+              "instructor_notes": null
+            },
+            {
+              "id": 592134,
+              "key": "8ac88c77-40ea-4085-bb7d-302a2ee3b78d",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/January/5a6278ec_tidy-data-three/tidy-data-three.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/8ac88c77-40ea-4085-bb7d-302a2ee3b78d",
+              "caption": "*整洁数据集中的每个观察单位都必须具有自己的表格*",
+              "alt": "包含两个表格（患者表格和治疗表格）的图片，每个表格都高亮显示",
+              "width": 1182,
+              "height": 400,
+              "instructor_notes": null
+            },
+            {
+              "id": 592135,
+              "key": "e7c820dd-b440-42a9-aea8-548ce4d0482d",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "下一张图片描述了相同的数据，但是呈现为一种非整洁模式（还有可能存在其他非整洁模式）。*Drug A*、*Drug B* 和 *Drug C* 列应该组成一个 “Drug” 列，因为这些药物都属于一个变量。整个表格应该拆分为两个：一个患者表格和一个治疗表格。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592136,
+              "key": "20d53747-38eb-4f6f-8eff-dfd4292d9905",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/January/5a6278e7_tidy-data-four/tidy-data-four.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/20d53747-38eb-4f6f-8eff-dfd4292d9905",
+              "caption": "*上述非整洁数据表示只遵守了整洁数据的第二条规则：每个观察值占一行*",
+              "alt": "患者和治疗表格的非整洁形式。每个变量没有形成一列，两个观察单位共用一个表格。",
+              "width": 1182,
+              "height": 397,
+              "instructor_notes": null
+            },
+            {
+              "id": 592137,
+              "key": "b58576bb-b414-44e4-a1fd-ad72c9864aa8",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "虽然在这门课程中提供给你的数据都是整洁形式的，但在实践中，你可能需要先整理数据，然后才能探索数据。你应该能熟练地重塑数据或进行转换，以拆分或组合数据中的特征，形成新的数据列。这一步应该在数据分析流程的整理阶段完成，如果你要详细了解这些操作，建议复习这门课程之前的数据整理课程。",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 592268,
+          "key": "67ba40a3-42b6-4216-a100-19c5e565dfbe",
+          "title": "条形图",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "67ba40a3-42b6-4216-a100-19c5e565dfbe",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 592142,
+              "key": "45d900c7-ebaf-4061-b364-97bb81019834",
+              "title": "L3 031 条形图V3",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "ybXcduB6cXA",
+                "china_cdn_id": "ybXcduB6cXA.mp4"
+              }
+            },
+            {
+              "id": 592140,
+              "key": "56e965e5-b7ad-4397-9763-e52458eb35cb",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<hr>",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592139,
+              "key": "a53ef98b-ec59-4bf2-b0d9-8cd1602cf6a4",
+              "title": "DataVis L3 03 V2",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "srRhFrSPdvs",
+                "china_cdn_id": "srRhFrSPdvs.mp4"
+              }
+            },
+            {
+              "id": 592141,
+              "key": "2ec9199b-604b-4cff-b012-fc7a2bc9512b",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<hr>\n## 条形图\n\n**条形图**（也被称为柱形图、柱状图等）用于展示分类变量的分布情况。在条形图中，分类变量的每个类别用长条表示，高度表示数据该类别的出现频率。我们可以通过 seaborn 的 [`countplot`](https://seaborn.pydata.org/generated/seaborn.countplot.html) 函数创建基本的频率条形图：\n\n```python\nsb.countplot(data = df, x = 'cat_var')\n```",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592138,
+              "key": "1148fdb1-e87f-471a-bd80-465eee382f22",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/March/5aa9b7c3_l3-c03-barchart1/l3-c03-barchart1.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/1148fdb1-e87f-471a-bd80-465eee382f22",
+              "caption": "",
+              "alt": "",
+              "width": 432,
+              "height": 288,
+              "instructor_notes": null
+            },
+            {
+              "id": 592143,
+              "key": "4e46b694-7e6e-43e9-b753-e2e4585750ef",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "对于给出的示例，可以看出，Beta 类别频率最高，超过 100 次，然后是 Gamma      和 Alpha，Delta 的频率最低，大约为 50。默认情况下，每个类别都用不同的颜色标注。当我们探索更多变量时，添加颜色标注可能会对建立这些类别之间的关联性有帮助。其他情况下，建议简化图表，将所有长条都用相同的颜色标注，可以减少不必要的干扰。我们可以使用 \"color\" 参数设置长条颜色：\n```python\nbase_color = sb.color_palette()[0]\nsb.countplot(data = df, x = 'cat_var', color = base_color)\n```\n[`color_palette`](https://seaborn.pydata.org/generated/seaborn.color_palette.html) 返回一个 RGB 元组列表，每个元组由三个数字组成，分别对应红绿蓝通道值，这三个值确定一个颜色。在没有任何参数的情况下调用此函数会返回当前/默认的调色板，我们将默认调色板的第一个颜色设为所有长条的颜色。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592144,
+              "key": "66cadd01-4a02-4173-b26f-97f97ce9d588",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/March/5aa9bcf3_l3-c03-barchart2/l3-c03-barchart2.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/66cadd01-4a02-4173-b26f-97f97ce9d588",
+              "caption": "",
+              "alt": "",
+              "width": 432,
+              "height": 288,
+              "instructor_notes": null
+            },
+            {
+              "id": 592145,
+              "key": "ae83e357-c230-4be9-b618-25d4c7b6d5a8",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "对于条形图，我们可能想要执行的一个操作是以某种方式对数据进行排序。对于无序分类数据，一种常见操作是按照频率对数据排序。我们的数据是 pandas DataFrame 类型，因此我们可以使用各种 DataFrame 的方法来计算和得出排序方式，然后使用 \"order\" 参数设置排序方式：\n```python\nbase_color = sb.color_palette()[0]\ncat_order = df['cat_var'].value_counts().index\nsb.countplot(data = df, x = 'cat_var', color = base_color, order = cat_order)\n```\n（文档：[`Series.value_counts()`](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.Series.value_counts.html)）",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592147,
+              "key": "c52c4492-4ad5-435e-a6a3-12d049a144f6",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/March/5aa9c9b7_l3-c03-barchart3/l3-c03-barchart3.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/c52c4492-4ad5-435e-a6a3-12d049a144f6",
+              "caption": "",
+              "alt": "",
+              "width": 432,
+              "height": 288,
+              "instructor_notes": null
+            },
+            {
+              "id": 592146,
+              "key": "e65c4188-5907-4462-8187-0138cdd5346a",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "对于有序分类数据，我们可能需要根据固有的变量顺序对长条排序。虽然我们也可以像上面的示例一样按照频率对各级别进行排序，但是我们通常更关心的是高频率的数值属于较高级别还是较低级别。在这种情况下，最佳的做法是将该列转换为有序类别（ordered category）数据类型。默认情况下，pandas 会将字符串数据读取为 object 类型，并按照看到唯一值的先后顺序绘制长条。通过将数据转换为 ordered 类型，类别的顺序将变成该特征的固有排序，不用在每次需要绘图时都指定 \"order\" 参数。\n```python\n# 本方法要求 pandas 0.21 或更高版本\nlevel_order = ['Alpha', 'Beta', 'Gamma', 'Delta']\nordered_cat = pd.api.types.CategoricalDtype(ordered = True, categories = level_order)\ndf['cat_var'] = df['cat_var'].astype(ordered_cat)\n\n## 如果你的 pandas 为 0.20.3 或更低版本，请使用这种方法：\n# df['cat_var'] = df['cat_var'].astype('category', ordered = True,\n#                                      categories = level_order)\n\nbase_color = sb.color_palette()[0]\nsb.countplot(data = df, x = 'cat_var', color = base_color)\n```\n（文档：[CategoricalDtype](https://pandas.pydata.org/pandas-docs/version/0.23/generated/pandas.api.types.CategoricalDtype.html)）",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592148,
+              "key": "39e22677-d339-4593-a99e-56c145bb813c",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/March/5aa9cc51_l3-c03-barchart4/l3-c03-barchart4.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/39e22677-d339-4593-a99e-56c145bb813c",
+              "caption": "",
+              "alt": "",
+              "width": 432,
+              "height": 288,
+              "instructor_notes": null
+            },
+            {
+              "id": 592149,
+              "key": "90a247ab-67f2-4496-bb59-3ad09d9b9237",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "如果你发现需要按照不同的顺序对有序分类数据排序，则可以通过设置 \"order\" 参数临时覆盖数据类型，如上所示。\n\n## 其他版本     \n\n如果数据是 pandas Series、一维 NumPy 数组或列表形式，你可以将其设为 `countplot` 函数的第一个参数，比如 Series 数据 `data_var`，就可以像下面这样绘制：\n```python\nsb.countplot(data_var)\n```\n\n如果有很多个分类级别，或者类别名称很长，那么刻度标记可能会紧挨在一起。一种解决方式是创建横向条形图。在横向条形图中，每个长条的长度（而不是高度）表示频率。在代码中，你可以在参数 \"y\" 上设置变量，而不是在参数 \"x\" 上设置变量：\n```python\nbase_color = sb.color_palette()[0]\nsb.countplot(data = df, y = 'cat_var', color = base_color)\n```",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592151,
+              "key": "d3b3e014-8716-4535-afee-95ea9cebde44",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/March/5aa9cf92_l3-c03-barchart5/l3-c03-barchart5.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/d3b3e014-8716-4535-afee-95ea9cebde44",
+              "caption": "",
+              "alt": "",
+              "width": 440,
+              "height": 269,
+              "instructor_notes": null
+            },
+            {
+              "id": 592152,
+              "key": "39c4163b-4384-477d-a913-0696913627df",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "此外，你还可以使用 matplotlib 的 [`xticks`](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.xticks.html) 函数及其 \"rotation\" 参数更改绘制刻度标记的方向（与水平方向的逆时针夹角度数）：\n```python\nbase_color = sb.color_palette()[0]\nsb.countplot(data = df, x = 'cat_var', color = base_color)\nplt.xticks(rotation = 90)\n```",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592150,
+              "key": "91443769-c565-453a-ac5c-8ed1277a1cfa",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/March/5aa9d1d5_l3-c03-barchart6/l3-c03-barchart6.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/91443769-c565-453a-ac5c-8ed1277a1cfa",
+              "caption": "",
+              "alt": "",
+              "width": 430,
+              "height": 304,
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 592269,
+          "key": "bd9948e9-eda5-48b7-8c6f-e97192a9ac48",
+          "title": "绝对频率与相对频率",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "bd9948e9-eda5-48b7-8c6f-e97192a9ac48",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 592153,
+              "key": "e83cd6b1-b012-44d9-9f31-cfd60340d327",
+              "title": "L3 041 绝对频率与相对频率 V5",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "FpnZ7dH4FqU",
+                "china_cdn_id": "FpnZ7dH4FqU.mp4"
+              }
+            },
+            {
+              "id": 592157,
+              "key": "377242b2-e3c3-42f2-9ad6-74dbe31ec418",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<hr>",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592154,
+              "key": "473bd2d7-dca1-4533-9faf-882a1898774f",
+              "title": "DataVis L3 04 V2",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "HLum_ys7RJ0",
+                "china_cdn_id": "HLum_ys7RJ0.mp4"
+              }
+            },
+            {
+              "id": 592156,
+              "key": "ad7df70c-ee51-438d-ba71-7d93bbf8b514",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "（注意：关于视频最后一部分，文本标签可以实现的原因是条形已经按照频率进行排序，在本页内容的最下方，可以看到更通用的解决方案。）<hr>\n## 绝对频率与相对频率\n\n默认情况下，seaborn 的 `countplot` 函数将以**绝对频率**（即纯粹计数）汇总     和绘制数据。在某些情形下，你可能想要了解数据分布或者用在总体中所占的比例比较类别。在这种情形下，你需要用**相对频率**绘制数据，这时条形的高度表示数据在每个类别的占比，而不是绝对计数。\n\n在条形图中用相对频率绘制数据的一种方式是：将坐标轴的刻度标签修改为比例的形式。底层数据不变，只是轴刻度会发生变化。\n\n```python\n# get proportion taken by most common group for derivation\n# of tick marks\nn_points = df.shape[0]\nmax_count = df['cat_var'].value_counts().max()\nmax_prop = max_count / n_points\n\n# generate tick mark locations and names\ntick_props = np.arange(0, max_prop, 0.05)\ntick_names = ['{:0.2f}'.format(v) for v in tick_props]\n\n# create the plot\nbase_color = sb.color_palette()[0]\nsb.countplot(data = df, x = 'cat_var', color = base_color)\nplt.yticks(tick_props * n_points, tick_names)\nplt.ylabel('proportion')\n```\n[`xticks`](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.xticks.html) 和 [`yticks`](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.yticks.html) 函数不仅仅会旋转刻度标签的方向。你还可以获取和设置它们的位置及文字标签。第一个参数表示刻度位置：在此例中，刻度比例翻倍后变回计数比例。第二个参数表示刻度名称：在此例中，刻度比例的格式为精确到两位小数的字符串。\n\n我还添加了 [`ylabel`](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.ylabel.html) “proportion”，表明我们不再使用绝对计数     。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592158,
+              "key": "b6520697-bd94-4af8-825b-7a7f51f1326a",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/March/5aaaa643_l3-c04-relfreqchart1/l3-c04-relfreqchart1.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/b6520697-bd94-4af8-825b-7a7f51f1326a",
+              "caption": "",
+              "alt": "",
+              "width": 432,
+              "height": 288,
+              "instructor_notes": null
+            },
+            {
+              "id": 592159,
+              "key": "53e6477d-376b-4a74-8077-0c6004ef530b",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## 其他版本\n\n你还可以在长条上使用文本注释标记相对频率，而不是以相对频率标尺绘制数据。这需要编写一个循环来遍历刻度位置和标签，并为每个长条添加一个文本元素。\n\n```python\n# create the plot\nbase_color = sb.color_palette()[0]\nsb.countplot(data = df, x = 'cat_var', color = base_color)\n\n# add annotations\nn_points = df.shape[0]\ncat_counts = df['cat_var'].value_counts()\nlocs, labels = plt.xticks() # get the current tick locations and labels\n\n# loop through each pair of locations and labels\nfor loc, label in zip(locs, labels):\n\n    # get the text property for the label to get the correct count\n    count = cat_counts[label.get_text()]\n    pct_string = '{:0.1f}%'.format(100*count/n_points)\n\n    # print the annotation just below the top of the bar\n    plt.text(loc, count-8, pct_string, ha = 'center', color = 'w')\n```\n我使用 `.get_text()` 方法获取类别名称，从而获取每个分类级别的计数。最后，我使用 [`text`](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.text.html#matplotlib.pyplot.text) 函数，将 x 坐标、y 坐标和字符串作为该函数的三个主要参数传入，          打印出每个百分比     。\n\n（文档：[Text objects](https://matplotlib.org/api/text_api.html?highlight=get_text#matplotlib.text.Text)）",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592160,
+              "key": "01ad137e-2892-409f-80df-4fa5733e616e",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/March/5aaaad18_l3-c04-relfreqchart2/l3-c04-relfreqchart2.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/01ad137e-2892-409f-80df-4fa5733e616e",
+              "caption": "",
+              "alt": "",
+              "width": 432,
+              "height": 288,
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 592271,
+          "key": "c33c9906-5be2-4c59-8012-eab668a50d3d",
+          "title": "缺失值统计",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "c33c9906-5be2-4c59-8012-eab668a50d3d",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 592161,
+              "key": "9af22efe-88f3-4919-8762-89d5057f959d",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## 缺失值统计\n条形图的一种有趣应用是可视化缺失数据。我们可以使用 pandas 的函数创建一个数据，其中包含每列缺失值的数量。\n```python\ndf.isna().sum()\n```\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592162,
+              "key": "4e549810-d920-4391-88a7-9d34511d7abc",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/March/5aaabcb3_l3-c05-missingdata1/l3-c05-missingdata1.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/4e549810-d920-4391-88a7-9d34511d7abc",
+              "caption": "",
+              "alt": "",
+              "width": 112,
+              "height": 115,
+              "instructor_notes": null
+            },
+            {
+              "id": 592163,
+              "key": "976fcf20-cb54-493c-9b40-e2546e305426",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "如果我们想可视化这些缺失值的计数，应该如何做呢？我们可以将变量名当做一个分类变量的各个类别，创建条形图。然而，由于这些数据属于汇总统计后的形式，     我们需要使用另一个绘制函数。Seaborn 的 [`barplot`](https://seaborn.pydata.org/generated/seaborn.barplot.html) 函数旨在描述一个数值变量相对于另一个分类变量的直观比较，可用在此处。\n\n```python\nna_counts = df.isna().sum()\nbase_color = sb.color_palette()[0]\nsb.barplot(na_counts.index.values, na_counts, color = base_color)\n```\n该函数的第一个参数为 x 值（列名称），第二个参数为 y 值（计数）。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592164,
+              "key": "b493bac2-2c37-493c-b469-88c49f04bd3d",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/March/5aaabf07_l3-c05-missingdata2/l3-c05-missingdata2.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/b493bac2-2c37-493c-b469-88c49f04bd3d",
+              "caption": "",
+              "alt": "",
+              "width": 432,
+              "height": 288,
+              "instructor_notes": null
+            },
+            {
+              "id": 592165,
+              "key": "d039984d-e06c-41c8-9f78-9e76ee8a0243",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "一般而言，如果你的数据经过了汇总统计，但你依然想要绘制条形图，那么就可以用这个函数。但是如果数据尚未汇总，则使用 `countplot` 函数，这样就不需要进行额外的汇总统计工作。此外，在下节课讨论如何调整单变量图以绘制双变量数据时，你将在了解 `barplot` 的主要作用。",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 592270,
+          "key": "4a54ec42-2e6e-4be7-ba48-7d93485aad59",
+          "title": "条形图练习",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "4a54ec42-2e6e-4be7-ba48-7d93485aad59",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": {
+            "files": [],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 616622,
+              "key": "ff0a02bc-e244-4b8a-bc3a-aae29f9ee7d2",
+              "title": null,
+              "semantic_type": "WorkspaceAtom",
+              "is_public": true,
+              "workspace_id": "view559cc2ff",
+              "pool_id": "jupyter",
+              "view_id": "559cc2ff-dc38-4d01-907c-1c1c6c9e15ce",
+              "gpu_capable": false,
+              "configuration": {
+                "id": "reserved",
+                "blueprint": {
+                  "conf": {
+                    "ports": [],
+                    "allowSubmit": false,
+                    "defaultPath": "/notebooks/Bar_Chart_Practice-zh.ipynb"
+                  },
+                  "kind": "jupyter"
+                },
+                "workspaceId": "reserved"
+              },
+              "starter_files": null
+            }
+          ]
+        },
+        {
+          "id": 592272,
+          "key": "e7d15a6d-4d4b-418e-b85e-3cf0ed6f6740",
+          "title": "饼图",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "e7d15a6d-4d4b-418e-b85e-3cf0ed6f6740",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 592167,
+              "key": "a72797f4-0fc5-4887-be73-f076c5b1f344",
+              "title": "L3 071 饼图 V3",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "kSrJGJHTKV8",
+                "china_cdn_id": "kSrJGJHTKV8.mp4"
+              }
+            },
+            {
+              "id": 592168,
+              "key": "f4bfe6d5-80eb-4142-80ed-50b3adfda42c",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<hr>\n## 饼图\n\n**饼图**是一种常见的单变量图表，用于描绘分类变量各类别的相对频率。饼图中的扇区代表频率大小；角度或面积越大，该类别就出现地越频繁。\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592170,
+              "key": "d12dcebc-c398-45aa-8924-5354b88a57fd",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/March/5aaad0c8_l3-c07-piecharts2/l3-c07-piecharts2.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/d12dcebc-c398-45aa-8924-5354b88a57fd",
+              "caption": "饼图（左）和条形图（右）",
+              "alt": "",
+              "width": 864,
+              "height": 360,
+              "instructor_notes": null
+            },
+            {
+              "id": 592171,
+              "key": "4425b384-d0b7-4094-b0eb-e2987eac2cc8",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "遗憾的是，饼图是一种应用场合很有限的图表类型，图表创建者很容易将饼图绘制得难以看懂。如果你要使用饼图，请尝试遵守下面的规则：\n\n* 确保你关心的是相对频率。每个扇区应该表示整体的一部分，而不是单独的数值（除非变量能够求和成某个整体）。\n* 将扇区限制在一定数量内。饼图最好只包含两到三个扇区，如果扇区足以明确区分，也可以包含四到五个。如果你有很多个类别，并且某些类别所占的比例很小，那可以将它们组合到一起，或者将这些比例很小的类别放到 \"其他\" 类别中。\n* 系统地绘制数据。绘制饼图的一种常见方法是从圆圈的顶部开始，然后沿着顺时针方向绘制每个分类级别，从最常见的到最不常见的排列。如果有三个类别，并且想要对比其中两个，一种常见绘制方法是将这两个类别放在 12 点钟方向的两侧，第三个类别填充在底部剩余部分。\n\n如果无法满足这些规则，则建议使用条形图。通常选择条形图更保险。长条高度比面积或角度更精确，并且条形图比饼图更紧凑。对于值很多的变量来说，条形图更灵活。\n\n你可以使用 matplotlib 的 [`pie`](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.pie.html) 函数创建饼图。此函数需要数据为汇总的形式：函数的主要参数是扇区大小     。\n```python\n# code for the pie chart seen above\nsorted_counts = df['cat_var'].value_counts()\nplt.pie(sorted_counts, labels = sorted_counts.index, startangle = 90,\n        counterclock = False);\nplt.axis('square')\n```\n为了遵守上面提到的规则，我们可以添加 \"startangle = 90\" 和 \"counterclock = False\"这两个参数，在垂直上方开始第一个扇区，然后按照顺时针方向有序地绘制每个扇区。[`axis`](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.axis.html) 函数的使用和 \"square\" 参数的设定， 将使 x 和 y 轴的长度相等。不调用此函数的话，最终的图形可能看起来更像椭圆而不是正圆。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592169,
+              "key": "66ce5767-74f4-434d-ba06-9c82a2fd1fb6",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## 其他版本\n\n饼图的一种变体形式是**环形图**。它看起来很像饼图，但是图形中间有个洞。从视觉感知上来看，环形图和饼图没有什么太大的区别，所以应该按照饼图的相同规则使用环形图。选择饼图还是环形图的原因之一可能是看起来是否美观。比如，你可能会在一些报告中看到，在环形图中间的空白处展示一些统计数据，充分利用空间。\n\n要创建环形图，可以在 `pie` 函数调用中添加 \"wedgeprops\" 参数。默认情况下，饼图（圆形）的半径是 1；将扇区宽度属性设为小于 1 的值会删除圆形中心的颜色。\n```python\nsorted_counts = df['cat_var'].value_counts()\nplt.pie(sorted_counts, labels = sorted_counts.index, startangle = 90,\n        counterclock = False, wedgeprops = {'width' : 0.4});\nplt.axis('square')\n```\n（文档：[Wedge patches](https://matplotlib.org/api/_as_gen/matplotlib.patches.Wedge.html)）",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592172,
+              "key": "c9ff6fb1-db62-4915-81b6-73c9927f408a",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/March/5aaae08c_l3-c07-piecharts3/l3-c07-piecharts3.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/c9ff6fb1-db62-4915-81b6-73c9927f408a",
+              "caption": "",
+              "alt": "",
+              "width": 432,
+              "height": 288,
+              "instructor_notes": null
+            },
+            {
+              "id": 592173,
+              "key": "4cb8c3cb-e9c8-4af3-afb2-ca956ad3fbc8",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## 扩展资料\n- Eager Eyes：[理解饼图](https://eagereyes.org/pie-charts)\n- Eager Eyes：[饼图研究结果的图形分析](https://eagereyes.org/blog/2016/an-illustrated-tour-of-the-pie-chart-study-results) - 如何准确地理解饼图的不同形式？\n- Datawrapper：[在创建饼图时要注意的事项](https://academy.datawrapper.de/article/127-what-to-consider-when-creating-a-pie-chart)",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 592274,
+          "key": "c0f67015-ef78-4bd8-98ea-78c25b5ac5b2",
+          "title": "直方图",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "c0f67015-ef78-4bd8-98ea-78c25b5ac5b2",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 592174,
+              "key": "55aa5d94-c302-4878-a0cd-36f9197f8b14",
+              "title": "L3 081 直方图 V2",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "RLez9L0htGQ",
+                "china_cdn_id": "RLez9L0htGQ.mp4"
+              }
+            },
+            {
+              "id": 592175,
+              "key": "4efa44a4-c66d-4fa4-85bf-a8c05b103950",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<hr>",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592176,
+              "key": "d130ff3f-b159-4505-9100-a78592e544f7",
+              "title": "DataVis L3 08 V2",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "f1we_0dUSXg",
+                "china_cdn_id": "f1we_0dUSXg.mp4"
+              }
+            },
+            {
+              "id": 592177,
+              "key": "2b4b16a5-b467-4182-83fa-34134f8d66b6",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<hr>\n## 直方图\n\n**直方图**用来绘制数值变量的分布情况。它是条形图的数值变量版本。但是，我们不会为每个单独的数值绘制一个长条，而是定义几个连续的分组（bin），为每个分组绘制长条以代表相应的数字。例如，使用 matplotlib 的 [`hist`](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.hist.html) 函数的默认设置：\n```python\nplt.hist(data = df, x = 'num_var')\n```",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592178,
+              "key": "a5567624-34f1-453a-b29f-36edd04ec379",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/March/5aaae934_l3-c08-histograms1/l3-c08-histograms1.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/a5567624-34f1-453a-b29f-36edd04ec379",
+              "caption": "",
+              "alt": "",
+              "width": 432,
+              "height": 288,
+              "instructor_notes": null
+            },
+            {
+              "id": 592179,
+              "key": "16a38321-3cb6-4fcc-be54-29d2c96772ef",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "可以看出，最左侧的分组（约为 0 到 2.5 之间）包含 8 个数据点，其相邻的分组     （约为 2.5 到 5 之间）包含 9 个数据点。总体来说，可以看出是一个双峰分布。直方图中的长条彼此相连，而条形图中的长条是分开的，表明在直方图中数据的值处在连续范围内。如果某个数值位于分组的边界，则属于右侧的分组。例外情况是最右侧的分组边界，将上限值放入了最右侧的分组内（上限值的左侧分组）。\n\n默认情况下，`hist` 函数会根据值的范围将数据分成 10 个组。在几乎所有情况下，我们都需要更改这一设置。因为，10 组一般来说都太少了，无法了解数据真实的分布情况。并且默认的刻度都不太好解释，没有“四舍五入”到某个具体的好描述的值。如果在上述示例中，将“约为0 到 2.5 之间”改为“0 到 2.5 之间”，将“约为2.5 到 5 之间”改为“2.5 到 5 之间”，是不是更方便？\n\n你可以使用描述统计量（例如通过 [`df['num_var'].describe()`](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.Series.describe.html)）估计什么样的组下限和组上限最合适。可以使用 numpy 的 [`arange`](https://docs.scipy.org/doc/numpy/reference/generated/numpy.arange.html) 函数设置这些分组的边界：\n```python\nbin_edges = np.arange(0, df['num_var'].max()+1, 1)\nplt.hist(data = df, x = 'num_var', bins = bin_edges)\n```\n`arange` 的第一个参数是最左侧的分组边界，第二个参数是上限值，第三个参数是组距（bin width）。注意，即使已经在第二个参数中指定了最大值，我又给这个值 “+1” 了。这是因为 `arange` 仅返回完全小于上限的值。“+1” 可有效地确保最右侧的分组边界至少是数据的最大值，以便所有数据点都能绘制出来。最左侧的分组设为硬编码的 0，以便获得更好解释的边界数值，当然你也可以使用 numpy 的 [`around`](https://docs.scipy.org/doc/numpy/reference/generated/numpy.around.html) 等函数以编程方式达到这种效果。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592180,
+              "key": "94a80c65-0e9e-45c1-81d7-0f9510e9597c",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/March/5aaaf362_l3-c08-histograms2/l3-c08-histograms2.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/94a80c65-0e9e-45c1-81d7-0f9510e9597c",
+              "caption": "",
+              "alt": "",
+              "width": 432,
+              "height": 288,
+              "instructor_notes": null
+            },
+            {
+              "id": 592181,
+              "key": "48d27028-b51b-4b52-addc-c259dec91243",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "在创建直方图时，有必要尝试不同的组距，看看哪个组距最能表示数据。如果组太多，可能会发现太多噪点，干扰我们发现数据里蕴含的规律。如果组太少，则根本无法看出真正的规律。\n```python\nplt.figure(figsize = [10, 5]) # larger figure size for subplots\n\n# histogram on left, example of too-large bin size\nplt.subplot(1, 2, 1) # 1 row, 2 cols, subplot 1\nbin_edges = np.arange(0, df['num_var'].max()+4, 4)\nplt.hist(data = df, x = 'num_var', bins = bin_edges)\n\n# histogram on right, example of too-small bin size\nplt.subplot(1, 2, 2) # 1 row, 2 cols, subplot 2\nbin_edges = np.arange(0, df['num_var'].max()+1/4, 1/4)\nplt.hist(data = df, x = 'num_var', bins = bin_edges)\n```\n该示例通过 [`subplot`](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.subplot.html) 函数将两个图表并排地放到一起，函数的参数指定了子图的行数、列数和索引。[`figure()`](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.figure.html) 函数在调用时传入了 \"figsize\" 参数，绘制尺寸更大的图纸，以便其中可以包含更多的子图。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592182,
+              "key": "1c1ef198-e92c-4122-82da-8b7a1463baa7",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/March/5aaaf900_l3-c08-histograms3/l3-c08-histograms3.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/1c1ef198-e92c-4122-82da-8b7a1463baa7",
+              "caption": "",
+              "alt": "",
+              "width": 720,
+              "height": 360,
+              "instructor_notes": null
+            },
+            {
+              "id": 592183,
+              "key": "886a23fa-83c6-46c9-9d82-94f14e2ff8f3",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## 其他方法\n\nseaborn 函数 [`distplot`](https://seaborn.pydata.org/generated/seaborn.distplot.html) 也可以用于绘制直方图，该函数集成了一些其他的单变量绘图函数     。\n```python\nsb.distplot(df['num_var'])\n```\n注意，第一个参数_必须_是 Series 或数组，其中包含要绘制的数据点。这与我们之前看到的 `countplot` 和 `hist` 函数不同，后面两个函数需要分别指定数据源和列两个参数。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592184,
+              "key": "7123f637-a3f8-44d8-82d3-117c1e9e44ed",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/March/5aab083d_l3-c08-histograms4/l3-c08-histograms4.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/7123f637-a3f8-44d8-82d3-117c1e9e44ed",
+              "caption": "",
+              "alt": "",
+              "width": 432,
+              "height": 288,
+              "instructor_notes": null
+            },
+            {
+              "id": 592185,
+              "key": "073d8af1-6fc8-4533-8ff2-b138d709b7a2",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "`distplot` 函数具有绘制直方图的内置规则，默认情况下，会在数据上绘制一个      核密度估计（KDE）。纵轴基于 KDE，而不是直方图：长条的高度之和不一定等于 1，但是曲线下方的面积应该等于 1。如果你想详细了解 KDE，请参阅这节课最后     的补充内容。\n\n虽然默认的 `distplot` 的分组形式比 `.hist` 固定的 10 个分组更好，但是你依然可能需要对它进行调整，使分组的边界值为“四舍五入”后的值。你可以使用其他参数自定义直方图，或者像之前那样指定分组：\n```python\nbin_edges = np.arange(0, df['num_var'].max()+1, 1)\nsb.distplot(df['num_var'], bins = bin_edges, kde = False,\n            hist_kws = {'alpha' : 1})\n```\nalpha（透明度）的设置必须在参数 \"hist_kws\" 的字典里，因为还有其他底层绘图函数（例如 KDE）具有自己的可选关键字参数。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592186,
+              "key": "fb7d6f04-326b-4416-af2a-59fcf525f76b",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/March/5aaaf362_l3-c08-histograms2/l3-c08-histograms2.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/fb7d6f04-326b-4416-af2a-59fcf525f76b",
+              "caption": "",
+              "alt": "",
+              "width": 432,
+              "height": 288,
+              "instructor_notes": null
+            },
+            {
+              "id": 592187,
+              "key": "b9deb564-8dbb-4724-bc0b-1a8991473ecc",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "上述代码的结果和之前组距为 1 的直方图完全一样。纵轴的单位也以计数的形式出现了。\n\n总之，如果你只想了解数据的直方图分布情况，而不想要 `distplot` 提供的额外信息，为了简便，建议只使用 Matplotlib 的 `hist` 函数。另一方面，如果你想快速了解如何为直方图选择代表性的分组组距，建议在自定义之前，先快速查看下     一下`distplot`。",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 592273,
+          "key": "8b672628-12cf-411e-b052-9b337a1044e6",
+          "title": "直方图练习",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8b672628-12cf-411e-b052-9b337a1044e6",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 616623,
+              "key": "4a0f4f66-b560-49c8-9185-6030af2f93d4",
+              "title": null,
+              "semantic_type": "WorkspaceAtom",
+              "is_public": true,
+              "workspace_id": "view559cc2ff",
+              "pool_id": "jupyter",
+              "view_id": "2deed1ea-f4ee-4b2e-ab7d-3782cac81c24",
+              "gpu_capable": false,
+              "configuration": {
+                "id": "reserved",
+                "blueprint": {
+                  "conf": {
+                    "ports": [],
+                    "allowSubmit": false,
+                    "defaultPath": "/notebooks/Histogram_Practice-zh.ipynb"
+                  },
+                  "kind": "jupyter"
+                },
+                "workspaceId": "reserved"
+              },
+              "starter_files": null
+            }
+          ]
+        },
+        {
+          "id": 592275,
+          "key": "74ab8c07-01e4-407c-8941-350a2cf49e78",
+          "title": "为离散数据选择图表",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "74ab8c07-01e4-407c-8941-350a2cf49e78",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 592189,
+              "key": "33233dad-2e0b-4874-ade0-b0185a1d9f07",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## 为离散数据选择图表     \n\n如果想要绘制离散型数值变量，直方图或条形图都是可能的选择     。\n\n直方图可能是最直接的选择，因为数据是数值型的，但是需要特别考虑一下分组边界的问题。因为离散型数值都是特定的值，而你的读者可能并不了解分组边界的值属于右边的分组，所以将分组边界设置为实际的两个值之间可以减少歧义。请比较下面两个图表，图表的数据是 100 次随机掷骰结果（`die_rolls`），左图是分组边界值等于数据实际值的情况，右边是分组边界在数据实际值之间的情况。\n\n```python\nplt.figure(figsize = [10, 5])\n\n# histogram on the left, bin edges on integers\nplt.subplot(1, 2, 1)\nbin_edges = np.arange(2, 12+1.1, 1) # note `+1.1`, see below\nplt.hist(die_rolls, bins = bin_edges)\nplt.xticks(np.arange(2, 12+1, 1))\n\n# histogram on the right, bin edges between integers\nplt.subplot(1, 2, 2)\nbin_edges = np.arange(1.5, 12.5+1, 1)\nplt.hist(die_rolls, bins = bin_edges)\nplt.xticks(np.arange(2, 12+1, 1))\n```",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592190,
+              "key": "abd876f4-09cd-4033-9a91-172e86e33919",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/March/5aa9881b_l3-c10-dierolls1/l3-c10-dierolls1.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/abd876f4-09cd-4033-9a91-172e86e33919",
+              "caption": "",
+              "alt": "两个子图绘制了相同的数据，但是每个分组的值域不同。",
+              "width": 720,
+              "height": 360,
+              "instructor_notes": null
+            },
+            {
+              "id": 592191,
+              "key": "3bdb62e0-87eb-4fd1-be6e-9536ddf2e0f9",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "你会注意到左侧的直方图在设置分组边界时，我在最大值（12）的基础上加了 1.1，而不是 1。回想一下前面讲的内容，最右侧的边界会落在最后一个分组内，如果数据中包含很多个最大值，它们都会落在左边属于数据值 11 的分组内，这个潜在问题对于离散型数值尤其需要注意。为最大值加上 1.1，可以让 12 这个值单独存放在最后一个分组内，避免 11 和 12 在同一个分组。     。\n\n考虑一下长条不相连的条形图是否可以成为替代直方图的更好方案。     以下的图表采用了之前的代码，只是添加了 \"rwidth\" 参数，用来设置每个直方图长条占各自宽度的比例。将 \"rwidth\" 参数设置为 0.7，长条只会占据原本分组条形空间的 70%，左侧留出 30% 的空白。\n\n```python\nbin_edges = np.arange(1.5, 12.5+1, 1)\nplt.hist(die_rolls, bins = bin_edges, rwidth = 0.7)\nplt.xticks(np.arange(2, 12+1, 1))\n```",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592192,
+              "key": "2ef94dbd-976a-4266-99c4-040e80909e97",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/March/5aa996d1_l3-c10-dierolls2/l3-c10-dierolls2.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/2ef94dbd-976a-4266-99c4-040e80909e97",
+              "caption": "",
+              "alt": "长条之间的空隙清晰地表明数据是离散的。",
+              "width": 432,
+              "height": 288,
+              "instructor_notes": null
+            },
+            {
+              "id": 592193,
+              "key": "1e492cac-ebd3-4679-bc05-7dd7860625a2",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "通过在长条之间增加空隙，强调数据的值是离散的。但另一方面，以这种方式绘制数值型数据可能会被理解为数据是有序分类数据，这样会对整体的理解带来影响。 \n\n对于连续型数据，最好不要使用 \"rwidth\" 参数，因为长条的空隙暗示数值是离散的。另外注意，你可能会尝试使用 seaborn 的 `countplot` 函数将离散数值变量的分布情况绘制成条形图。这样操作时要小心，因为无论两个值之间的间距多大，每个唯一数     值都对应一个长条（比如，如果唯一值为 {1,2,4,5}，缺少了 3，那么 `countplot` 只会绘制 4 个条形，其中 2 和 4 相邻）。此外，即使数据是离散数字，也尽量不要考虑此页面上描述的直方图变体版本，除非唯一值的数量很小，允许半个单位的位移使离散长条可解释。如果有大量唯一值并且分布在很大的范围内，则最好采用标准直方图，避免出现解释性问题的风险。\n\n虽然你可以使用条形图绘制离散数据，但你很难充分地解释以下情况，即：将有序分类数据绘制为直方图。条形图中长条之间的空隙会提醒读者，值不是连续的，属于一种 \"间隔\" 形式：只是级别是有序的。如果删除空隙后，则很难记得这一点。",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 592276,
+          "key": "1523cdaa-1c53-47fd-ab3e-a31631dcacad",
+          "title": "描述统计量、异常值和坐标轴范围",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1523cdaa-1c53-47fd-ab3e-a31631dcacad",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 592194,
+              "key": "1c154c9e-1d3a-4f1e-a09b-49a7a41f69c3",
+              "title": "L3 111 描述统计量、异常值和坐标轴范围 V2",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "kQoK7UwrGh0",
+                "china_cdn_id": "kQoK7UwrGh0.mp4"
+              }
+            },
+            {
+              "id": 592195,
+              "key": "6ee95e8d-14c9-4c15-bd7a-efd6c3b73d0f",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<hr>",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592196,
+              "key": "edf64e10-5b8c-471b-b77c-0875152cc055",
+              "title": "DataVis L3 11 V1",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "C8DGwJa_adA",
+                "china_cdn_id": "C8DGwJa_adA.mp4"
+              }
+            },
+            {
+              "id": 592197,
+              "key": "12a73a1e-5db9-4c67-83b0-db0132cbb503",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<hr>\n## 描述统计量、异常值和坐标轴范围\n\n在创建图表和探索数据时，不要只关注描述统计量传达的信息，也要确保关注图形传递的其他信息，例如峰的数量和偏态，注意数据中是否有任何异常值以供进一步的研究。\n\n由于可能存在的异常值，你可能需要更改坐标轴的范围或标尺，从而观察数据的底层规律。本节课会介绍更改坐标轴范围的内容，下节课会介绍坐标轴的标尺变换。要更改直方图的坐标轴范围，你可以在代码中调用 Matplotlib 的 [`xlim`](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.xlim.html) 函数。该函数接受一个包含两个数字的元组，用于指定 x 轴的上限和下限。或者，也可以在 `xlim` 函数中直接传入两个数字参数，两者效果一样。\n```python\nplt.figure(figsize = [10, 5])\n\n# histogram on left: full data\nplt.subplot(1, 2, 1)\nbin_edges = np.arange(0, df['skew_var'].max()+2.5, 2.5)\nplt.hist(data = df, x = 'skew_var', bins = bin_edges)\n\n# histogram on right: focus in on bulk of data < 35\nplt.subplot(1, 2, 2)\nbin_edges = np.arange(0, 35+1, 1)\nplt.hist(data = df, x = 'skew_var', bins = bin_edges)\nplt.xlim(0, 35) # could also be called as plt.xlim((0, 35))\n```",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592198,
+              "key": "348c6ac2-99e8-4acf-9977-7c60e66c657f",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/March/5aab1bfb_l3-c11-outliers1/l3-c11-outliers1.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/348c6ac2-99e8-4acf-9977-7c60e66c657f",
+              "caption": "",
+              "alt": "",
+              "width": 720,
+              "height": 360,
+              "instructor_notes": null
+            },
+            {
+              "id": 592199,
+              "key": "83661503-5e06-40f8-9add-76be5aaf3ce0",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "在上述示例中，我们可能会想要比较小于 35 的数据模式和大于 35 的数据模式。对于集中在前一组（<35）的数据，我们无需滤除掉所有大于 35 的数据创建新的 DataFrame，只通过设定坐标轴范围就可以重点关注了     。",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 592277,
+          "key": "7623c273-f807-4da3-9ce4-93124bc9ce42",
+          "title": "标尺和变换",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "7623c273-f807-4da3-9ce4-93124bc9ce42",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 592200,
+              "key": "739b6a7e-ff04-40e0-b922-ffb8266523d7",
+              "title": "L3 121 标尺和变换 V3",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "PE53ga2bOME",
+                "china_cdn_id": "PE53ga2bOME.mp4"
+              }
+            },
+            {
+              "id": 592201,
+              "key": "2457508e-e0d1-4cac-9f48-73e1c917d71c",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<hr>",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592202,
+              "key": "9a0a73a9-addf-4d5f-9ad9-a4f6e1ce1463",
+              "title": "DataVis L3 12 V2",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "fo0VIbQRBJk",
+                "china_cdn_id": "fo0VIbQRBJk.mp4"
+              }
+            },
+            {
+              "id": 592203,
+              "key": "5d00e0b6-4956-4373-8db7-2b44b8ecd156",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<hr>\n## 标尺和变换\n\n某些数据分布可以进行标尺变换。最常见的示例是近似符合[对数正态](https://en.wikipedia.org/wiki/Log-normal_distribution)分布的数据。这样的数据采用原始单位的话，看起来非常偏态：很多数据点的值很小，有很长的尾部，而且尾部数据点的值很大，但是取对数的话，数据看起来就像是正态分布的。\n```python\nplt.figure(figsize = [10, 5])\n\n# histogram on left: natural units\nplt.subplot(1, 2, 1)\nbin_edges = np.arange(0, ln_data.max()+100, 100)\nplt.hist(ln_data, bins = bin_edges)\n\n# histogram on right: directly log-transform data\nplt.subplot(1, 2, 2)\nlog_ln_data = np.log10(ln_data)\nlog_bin_edges = np.arange(0.8, log_ln_data.max()+0.1, 0.1)\nplt.hist(log_ln_data, bins = log_bin_edges)\nplt.xlabel('log(values)') # add axis label for clarity\n```\n（文档 [numpy `log10`](https://docs.scipy.org/doc/numpy/reference/generated/numpy.log10.html)，[matplotlib `xlabel`](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.xlabel.html)）",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592204,
+              "key": "bdee5cc6-638e-43b9-bf06-c9daaab1307d",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/March/5aab27f3_l3-c12-transforms1/l3-c12-transforms1.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/bdee5cc6-638e-43b9-bf06-c9daaab1307d",
+              "caption": "",
+              "alt": "",
+              "width": 720,
+              "height": 360,
+              "instructor_notes": null
+            },
+            {
+              "id": 592205,
+              "key": "b9a693a4-c3fa-49ff-a26e-d5245fa814a0",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "在左图中，值大于 1000 的少部分数据将大部分数据点推到了最左侧的分组中。对于右图，对数变换将这些大的数据点分布看起来和剩余的数据点比较一致：原始值 1000 在对数变换下变成了对数值 3，原始值 100 被变换为对数值 2。右图的最大问题是 x 轴的单位很难解释：对于很多人来说，只能简单地将整数的对数值转换为原始值（假设基数是示例中10 这样比较好计算的值）。\n\n这时候标尺变换就派上用场了。在标尺变换中值的间隙基于变换后的比例，但是你可以用变量的原始单位解释数据。此外，你不需要设定新的特征变量，这很方便。Matplotlib 的 [`xscale`](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.xscale.html) 函数包含几个内置的变换：我们将在这里尝试使用 \"对数\" 标尺。\n```python\nbin_edges = np.arange(0, ln_data.max()+100, 100)\nplt.hist(ln_data, bins = bin_edges)\nplt.xscale('log')\n```",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592206,
+              "key": "d5452476-03ab-40f6-9469-aa817815d429",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/March/5aab631b_l3-c12-transforms2/l3-c12-transforms2.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/d5452476-03ab-40f6-9469-aa817815d429",
+              "caption": "",
+              "alt": "",
+              "width": 432,
+              "height": 288,
+              "instructor_notes": null
+            },
+            {
+              "id": 592207,
+              "key": "b09c02aa-17f6-47e7-80ce-ef667a7c4ff5",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "对于现在这个图表，注意两点：首先，即使数据采用的是对数标尺，组区间依然呈线性分布，意味着它们的尺寸从左到右由宽变窄，因为值会成倍增大。其次，默认的标签设置依然很难解释，并且很稀疏     。\n\n要处理组宽的尺寸问题，我们只需将它们变成 10 的幂次方并且均匀分布。根据你所绘制的数据，2 或者其他值的幂次方可能更合适。对于刻度，我们可以使用 [`xticks`](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.xticks.html) 函数，以原始单位指定位置和标签。注意：我们并没有更改数据的值，只是改变了显示方式。在 10 的幂次方的整数之间，我们没有表示均匀刻度的整数，但是可以很接近。对于 10 幂次方对数变换，设置 1-3-10 或 1-2-5-10 这样的循环刻度很有用。\n```python\nbin_edges = 10 ** np.arange(0.8, np.log10(ln_data.max())+0.1, 0.1)\nplt.hist(ln_data, bins = bin_edges)\nplt.xscale('log')\ntick_locs = [10, 30, 100, 300, 1000, 3000]\nplt.xticks(tick_locs, tick_locs)\n```\n请务必在 `xscale` 之后指定 `xticks`，因为该函数具有内置的刻度设置。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592208,
+              "key": "cf4b2609-fcf9-4448-ba33-a8237571fea4",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/March/5aab6792_l3-c12-transforms3/l3-c12-transforms3.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/cf4b2609-fcf9-4448-ba33-a8237571fea4",
+              "caption": "",
+              "alt": "",
+              "width": 432,
+              "height": 288,
+              "instructor_notes": null
+            },
+            {
+              "id": 592209,
+              "key": "38d91845-3680-4059-ab75-367a8d7d97c1",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "最终，我们获得了和进行直接对数变换的图表一样的图表，但是现在的刻度和标签看起来美观多了。\n\n## 替代方法\n\n注意，对数变换并不是唯一的变换方式。在进行对数变换时，数据值必须全是正数，     0 或负数无法取对数。此外，对数变换后，对对数标尺进行加法将导致原始标尺出现倍数变化，这是在数据建模时需要注意的重要事项。你可以根据数据判断该选择什么类型的变换。例如，[这篇维基百科文章](https://en.wikipedia.org/wiki/Log-normal_distribution#Occurrence_and_applications)介绍了几个运用对数正态分布的示例场合。\n\n如果你想使用 `xscale` 中未提供的其他变换，则需要进行某些特征工程。在这种情形下，我们需要写一个应用变换和还原过程的函数，以保持系统性。当我们想要将变换了的数值变回到原始单位的时候，还原功能就很有用。为了进行演示，假设我们想要以平方根变换的形式绘制上述数据（或许这些数字表示面积，我们认为有必要按照半径、长度或其他一维近似值来对数据建模）。我们可以如下所示地绘制变换后的分布情况：\n```python\ndef sqrt_trans(x, inverse = False):\n    \"\"\" transformation helper function \"\"\"\n    if not inverse:\n        return np.sqrt(x)\n    else:\n        return x ** 2\n\nbin_edges = np.arange(0, sqrt_trans(ln_data.max())+1, 1)\nplt.hist(ln_data.apply(sqrt_trans), bins = bin_edges)\ntick_locs = np.arange(0, sqrt_trans(ln_data.max())+10, 10)\nplt.xticks(tick_locs, sqrt_trans(tick_locs, inverse = True).astype(int))\n```\n注意 `ln_data` 是一个 pandas Series，因此我们可以使用该函数的 [`apply`](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.Series.apply.html) 方法来应用该函数。如果是 NumPy 数组，则需要像在其他情形下一样应用该函数。刻度位置同样应该用原始值指定，所以我们对 `xticks` 的第一个参数应用了该变换函数。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592210,
+              "key": "5f9d338f-baff-4569-b77b-06e7ccad89fa",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/March/5aab784e_l3-c12-transforms4/l3-c12-transforms4.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/5f9d338f-baff-4569-b77b-06e7ccad89fa",
+              "caption": "",
+              "alt": "",
+              "width": 432,
+              "height": 288,
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 592278,
+          "key": "492395f7-8a52-4da0-ba5a-72689f25718e",
+          "title": "标尺和变换练习",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "492395f7-8a52-4da0-ba5a-72689f25718e",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 616624,
+              "key": "2c2e7cb0-d177-4fb1-9c8b-9825738662be",
+              "title": null,
+              "semantic_type": "WorkspaceAtom",
+              "is_public": true,
+              "workspace_id": "view559cc2ff",
+              "pool_id": "jupyter",
+              "view_id": "026d2f95-3023-4cbd-af94-6b0c99e582d1",
+              "gpu_capable": false,
+              "configuration": {
+                "id": "reserved",
+                "blueprint": {
+                  "conf": {
+                    "ports": [],
+                    "allowSubmit": false,
+                    "defaultPath": "/notebooks/Scales_and_Transformations_Practice-zh.ipynb"
+                  },
+                  "kind": "jupyter"
+                },
+                "workspaceId": "reserved"
+              },
+              "starter_files": null
+            }
+          ]
+        },
+        {
+          "id": 592279,
+          "key": "a3eee132-0ea6-4410-8406-0e732fcd330d",
+          "title": "课程总结",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "a3eee132-0ea6-4410-8406-0e732fcd330d",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 592212,
+              "key": "78e26bc9-c172-4c5a-bf7e-fbec4a0271d7",
+              "title": "L3 141 课程总结 V1",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "7ZaSMbsJUWU",
+                "china_cdn_id": "7ZaSMbsJUWU.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 592280,
+          "key": "cfbaee5f-1a27-4457-8a67-8421bf19cb05",
+          "title": "补充内容：核密度估计",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "cfbaee5f-1a27-4457-8a67-8421bf19cb05",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 592213,
+              "key": "8145f50f-65d6-4f06-ac2e-ebb40185c55d",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "在每次课的末尾，你将发现一些和课程主体内容不太一致的补充内容。这次的内容将介绍你可能会感兴趣或在自己的研究中可能见过的其他单变量图表。虽然条形图和直方图应该能够满足常见需求，但是此部分的图表可能对探索和解释数据图表来说都很有用。\n<hr>\n## 核密度估计\n\n在之前的课上，你通过使用 seaborn 的 [`distplot`](https://seaborn.pydata.org/generated/seaborn.distplot.html#seaborn.distplot) 函数见到了[核密度估计](https://en.wikipedia.org/wiki/Kernel_density_estimation)（KDE）示例，该函数在直方图上绘制了 KDE。\n```python\nsb.distplot(df['num_var'])\n```",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592214,
+              "key": "cb946d8b-4fa1-4e69-b510-0a2aea09df23",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/March/5aab083d_l3-c08-histograms4/l3-c08-histograms4.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/cb946d8b-4fa1-4e69-b510-0a2aea09df23",
+              "caption": "",
+              "alt": "",
+              "width": 432,
+              "height": 288,
+              "instructor_notes": null
+            },
+            {
+              "id": 592215,
+              "key": "4fa206a1-29a0-4955-9ac5-3587b61f5fb6",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "核密度估计是估计变量的概率密度函数的一种方式。在 KDE 图表中，你可以将每个观测值看做一个小的块状区域。将这些块状区域都堆叠到一起可以生成最终的密度曲线。默认设置使用正态分布内核，但是能够生成 KDE 图形的大部分软件还包括其他内核函数选项。\n\nSeaborn 的 `distplot` 函数会调用另一个函数 [`kdeplot`](https://seaborn.pydata.org/generated/seaborn.kdeplot.html) 来生成 KDE。以下演示代码还使用了被 `distplot` 调用的第三个函数 [`rugplot`](https://seaborn.pydata.org/generated/seaborn.rugplot.html)。在轴须图（rugplot）中，数据点被描绘成数值轴上的短竖线     。\n```python\ndata = [0.0, 3.0, 4.5, 8.0]\nplt.figure(figsize = [12, 5])\n\n# left plot: showing kde lumps with the default settings\nplt.subplot(1, 3, 1)\nsb.distplot(data, hist = False, rug = True, rug_kws = {'color' : 'r'})\n\n# central plot: kde with narrow bandwidth to show individual probability lumps\nplt.subplot(1, 3, 2)\nsb.distplot(data, hist = False, rug = True, rug_kws = {'color' : 'r'},\n            kde_kws = {'bw' : 1})\n\n# right plot: choosing a different, triangular kernel function (lump shape)\nplt.subplot(1, 3, 3)\nsb.distplot(data, hist = False, rug = True, rug_kws = {'color' : 'r'},\n            kde_kws = {'bw' : 1.5, 'kernel' : 'tri'})\n```",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592216,
+              "key": "426610e8-1d78-4f47-865d-9d241c46387f",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/March/5aab7fe3_l3-c15-kde1/l3-c15-kde1.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/426610e8-1d78-4f47-865d-9d241c46387f",
+              "caption": "",
+              "alt": "",
+              "width": 864,
+              "height": 360,
+              "instructor_notes": null
+            },
+            {
+              "id": 592217,
+              "key": "d96a048c-ec56-434c-96a6-a66668ab5f50",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "根据这种图表解释概率比标准直方图稍微复杂些。纵轴表示的是数据密度，而不是直接的概率。在 KDE 图表中，x 坐标轴和曲线之间的总面积为 1。位于两个值之间的概率可以通过计算这两个值之间的曲线下方面积得出。不借助计算机判断面积大小很难，也很可能不准确。\n\n虽然通过 KDE 做出具体的概率判断没有直方图直观，但是使用核密度估计依然存在一定的理由。如果数据点相对较少，则 KDE 可以对整体数据分布提供平滑的估计。这些信息可能无法通过直方图轻松地呈现出来，大量的不连续跳跃性数据，在直方图中可能会造成误导。\n\n另外要注意的是，KDE 中的带宽参数（bandwidth）会指定密度块体的宽度是多少。和直方图的组距（bin_width）类似，我们需要选择最能表示数据规律的带宽大小。带宽太小的话，数据看起来比实际的噪点更多，带宽太大的话，可能会遮蔽数据的有用特征。记住有这个设置方法，以防可视化软件所选的默认带宽看起来不太合适，或者你想要进一步展开调查。",
+              "instructor_notes": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    }
+  ]
+}

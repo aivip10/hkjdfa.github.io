@@ -1,0 +1,416 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.981 --> 00:00:04.325
+Este é o vídeo-solução
+para a reprodução de resultados.
+
+00:00:04.533 --> 00:00:07.445
+Primeiro precisamos definir
+a função print_results.
+
+00:00:07.734 --> 00:00:11.349
+O docstring indica que temos
+cinco parâmetros de entrada.
+
+00:00:11.382 --> 00:00:14.565
+Os dois últimos
+têm argumentos padrões.
+
+00:00:15.277 --> 00:00:16.589
+O results_dic
+
+00:00:16.622 --> 00:00:19.453
+é o dicionário com o nome
+do arquivo como chave
+
+00:00:19.486 --> 00:00:21.758
+e a lista como valor.
+
+00:00:21.791 --> 00:00:25.622
+É necessário para reproduzir cães
+e raças mal classificados.
+
+00:00:26.020 --> 00:00:28.901
+O results_stats
+é o dicionário retornado
+
+00:00:28.934 --> 00:00:31.565
+pela função
+calculate_results_stats.
+
+00:00:31.598 --> 00:00:34.805
+Ele contém as porcentagens
+e contagens que resumem
+
+00:00:34.838 --> 00:00:38.038
+o desempenho do algoritmo
+na classificação das imagens.
+
+00:00:38.071 --> 00:00:40.788
+A chave é o nome
+da estatística
+
+00:00:40.821 --> 00:00:43.669
+e o valor é o valor
+da estatística.
+
+00:00:44.421 --> 00:00:47.989
+O model é a arquitetura
+do modelo CNN
+
+00:00:48.022 --> 00:00:50.061
+usado para classificar
+as imagens.
+
+00:00:50.094 --> 00:00:52.493
+É necessário
+para as instruções print.
+
+00:00:52.949 --> 00:00:55.828
+O print_incorrect_dogs
+é um valor booleano
+
+00:00:55.861 --> 00:00:58.691
+que, quando for verdadeiro,
+reproduz cães mal classificados,
+
+00:00:58.724 --> 00:01:00.795
+usando o dicionário
+results_dic.
+
+00:01:00.828 --> 00:01:03.636
+O parâmetro
+tem o argumento padrão de falso
+
+00:01:03.669 --> 00:01:06.091
+quando não há
+classificações erradas.
+
+00:01:06.314 --> 00:01:09.242
+O print_incorrect_breed
+é um valor booleano
+
+00:01:09.275 --> 00:01:12.922
+que, quando for verdadeiro,
+reproduz as raças mal classificadas,
+
+00:01:12.955 --> 00:01:15.098
+usando o dicionário
+results_dic.
+
+00:01:15.131 --> 00:01:17.874
+O parâmetro
+tem o argumento padrão de falso
+
+00:01:17.907 --> 00:01:20.146
+quando não há
+classificações erradas.
+
+00:01:20.179 --> 00:01:23.635
+A função não retorna nada
+porque só reproduzimos resultados.
+
+00:01:23.668 --> 00:01:27.027
+Primeiro a função reproduz
+a arquitetura do modelo CNN,
+
+00:01:27.283 --> 00:01:29.155
+o número de imagens,
+
+00:01:29.188 --> 00:01:32.891
+de imagens de cães
+e de imagens de não-cães.
+
+00:01:33.162 --> 00:01:35.803
+Depois ela reproduz
+todas as porcentagens
+
+00:01:35.836 --> 00:01:38.459
+para resumir o desempenho
+de cada algoritmo
+
+00:01:38.492 --> 00:01:40.588
+na classificação
+das imagens.
+
+00:01:40.621 --> 00:01:44.611
+Ela itera o dicionário
+results_stats,
+
+00:01:44.644 --> 00:01:47.626
+procurando onde as estatísticas
+começaram com a letra P
+
+00:01:47.659 --> 00:01:49.883
+para reproduzir
+apenas as porcentagens.
+
+00:01:52.267 --> 00:01:55.827
+Nesta seção, ela reproduz
+cães mal classificados,
+
+00:01:55.860 --> 00:01:59.339
+se print_incorrect_dogs
+for verdadeiro
+
+00:01:59.372 --> 00:02:01.690
+e um cão
+foi mal classificado.
+
+00:02:01.723 --> 00:02:05.074
+Ela itera o dicionário
+results_dic
+
+00:02:05.107 --> 00:02:08.587
+e reproduz os cães
+mal classificados.
+
+00:02:09.220 --> 00:02:11.931
+Nesta última seção,
+
+00:02:11.964 --> 00:02:14.588
+ela reproduz
+as raças mal classificadas.
+
+00:02:14.621 --> 00:02:17.804
+Se print_incorrect_breed
+for verdadeiro
+
+00:02:17.837 --> 00:02:20.437
+e a raça
+for mal classificada,
+
+00:02:20.470 --> 00:02:23.387
+ela itera o dicionário
+results_dic
+
+00:02:23.420 --> 00:02:29.012
+para reproduzir
+as raças mal classificadas.
+
+00:02:29.997 --> 00:02:32.372
+Isto finaliza a função.
+
+00:02:32.916 --> 00:02:37.533
+O programa acaba
+com a ativação da função principal.
+
+00:02:37.781 --> 00:02:42.060
+A função print_results é ativada
+dentro da função principal.
+
+00:02:42.357 --> 00:02:46.255
+A função não retorna nada
+porque só reproduzimos resultados.
+
+00:02:46.751 --> 00:02:48.407
+A função exige três,
+
+00:02:48.440 --> 00:02:51.296
+mas aceita até cinco argumentos
+de entrada.
+
+00:02:51.630 --> 00:02:53.663
+O result_dic é o dicionário
+
+00:02:53.696 --> 00:02:57.246
+que tem o nome do arquivo
+como chave e uma lista como valor.
+
+00:02:57.279 --> 00:02:59.823
+Esse dicionário
+é um argumento exigido
+
+00:02:59.856 --> 00:03:03.479
+e é necessário para reproduzir
+cães e raças mal classificados.
+
+00:03:04.503 --> 00:03:07.279
+O results_stats_dic
+é o dicionário retornado
+
+00:03:07.312 --> 00:03:09.791
+pela função
+calculate_results_stats.
+
+00:03:09.824 --> 00:03:13.519
+Ele é exigido e contém
+as porcentagens e contagens
+
+00:03:13.552 --> 00:03:15.719
+que resumem o desempenho
+do algoritmo
+
+00:03:15.752 --> 00:03:17.655
+na classificação
+das imagens.
+
+00:03:18.712 --> 00:03:22.832
+O in_arg.arch é o argumento
+da linha de comando
+
+00:03:22.865 --> 00:03:26.367
+da arquitetura do modelo CNN
+usada para classificar as imagens.
+
+00:03:26.400 --> 00:03:28.255
+Esse argumento é exigido.
+
+00:03:28.695 --> 00:03:32.871
+True é um valor booleano
+que reproduz cães mal classificados
+
+00:03:32.904 --> 00:03:35.552
+usando o dicionário
+results_dic.
+
+00:03:35.585 --> 00:03:38.663
+Esse argumento não é exigido
+e o padrão é falso
+
+00:03:38.696 --> 00:03:41.343
+quando não há
+classificações erradas.
+
+00:03:42.438 --> 00:03:47.031
+True é um valor booleano
+que reproduz raças mal classificadas
+
+00:03:47.064 --> 00:03:49.104
+usando o dicionário
+results_dic.
+
+00:03:49.137 --> 00:03:52.208
+Esse argumento não é exigido
+e o padrão é falso
+
+00:03:52.241 --> 00:03:54.846
+quando não há
+classificações erradas.
+
+00:03:55.423 --> 00:03:59.743
+O único código temporário
+é uma função desativada
+
+00:03:59.776 --> 00:04:03.799
+para verificar se os argumentos
+padrões estão funcionando.
+
+00:04:03.832 --> 00:04:05.959
+Vamos para a janela
+dos terminais.
+
+00:04:09.056 --> 00:04:12.783
+No terminal 1,
+vemos a última seção,
+
+00:04:12.816 --> 00:04:16.246
+na qual verificamos
+se as porcentagens e contagens
+
+00:04:16.279 --> 00:04:18.111
+estavam funcionando.
+
+00:04:18.144 --> 00:04:21.031
+Vamos comparar
+ao terminal 2,
+
+00:04:21.064 --> 00:04:23.551
+onde executamos
+a print_results,
+
+00:04:23.584 --> 00:04:26.901
+mas foi com o teste
+dos argumentos padrões.
+
+00:04:26.934 --> 00:04:30.901
+Então não há reproduções
+de raças mal classificadas
+
+00:04:30.934 --> 00:04:35.577
+porque é a única
+classificação errada que temos.
+
+00:04:36.039 --> 00:04:38.143
+Ao avaliarmos
+o terminal seguinte,
+
+00:04:38.176 --> 00:04:39.879
+vemos onde executamos
+o programa.
+
+00:04:39.912 --> 00:04:42.616
+Não há reproduções
+de raças mal classificadas
+
+00:04:42.649 --> 00:04:46.455
+e a porcentagem de cães,
+não-cães e raças corretos
+
+00:04:46.488 --> 00:04:48.432
+corresponde
+ao primeiro terminal.
+
+00:04:48.465 --> 00:04:51.312
+Então o programa
+está funcionando bem.
+
+00:04:51.345 --> 00:04:53.928
+Até agora, está perfeito.
+
+00:04:53.961 --> 00:04:56.335
+Vamos verificar
+o terminal 3,
+
+00:04:56.368 --> 00:05:01.088
+no qual permitimos a reprodução
+de raças e cães mal classificados,
+
+00:05:01.121 --> 00:05:03.584
+mas como não há cães
+mal classificados,
+
+00:05:03.617 --> 00:05:06.578
+só vemos as raças
+mal classificadas.
+
+00:05:06.611 --> 00:05:08.467
+Os números são iguais.
+
+00:05:08.500 --> 00:05:11.523
+Isso quer dizer que o programa
+funciona perfeitamente.
+
+00:05:11.556 --> 00:05:15.107
+Pode ficar muito feliz
+porque o programa funciona bem!
+
+00:05:15.140 --> 00:05:18.876
+Vamos executar nas três
+arquiteturas do modelo.
+
+00:05:18.909 --> 00:05:22.258
+No terminal 4,
+fizemos o processamento de lote.
+
+00:05:22.291 --> 00:05:26.170
+Vou clicar nos arquivos
+para ver os resultados.
+
+00:05:26.203 --> 00:05:29.210
+Temos a AlexNet.
+Aqui está a ResNet.
+
+00:05:29.459 --> 00:05:31.259
+E aqui está a VGG.
+
+00:05:31.563 --> 00:05:35.035
+Pode comparar os resultados
+aos da próxima seção.
+
+00:05:35.068 --> 00:05:37.933
+Parabéns, você terminou.
+Está ótimo.
+

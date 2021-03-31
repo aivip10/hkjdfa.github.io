@@ -1,0 +1,225 @@
+{
+  "id": 1861,
+  "project_id": 473,
+  "upload_types": [
+    "repo",
+    "zip"
+  ],
+  "file_filter_regex": "\\A(?!(((.*/)?(__MACOSX|\\.git|node_modules|bower_components|jspm_packages|\\.idea|build|.ipynb_checkpoints|\\.Trash-0|logs)(\\Z|/))))((.*\\.(css|docx|gradle|htm|html|java|js|markdown|md|pdf|py|rmd|rst|sql|swift|txt|xml|yaml|yml)\\Z)|((.*/)?(README|Readme|readme|Makefile)\\Z))",
+  "nomination_eligible": false,
+  "stand_out": "",
+  "hide_criteria": false,
+  "created_at": "2018-04-22T08:03:56.241Z",
+  "updated_at": "2019-03-29T02:05:29.809Z",
+  "hashtag": "",
+  "max_upload_size_mb": 500,
+  "estimated_sla": null,
+  "project_assistant_enabled": false,
+  "available_for_cert_project": false,
+  "language": "zh-cn",
+  "ndkeys": [
+    "nd089-cn",
+    "nd089-cn-vip",
+    "nd089-cn-basic",
+    "nd089-cn-basic-vip",
+    "nd089-cn-ent",
+    "nd009-cn-basic"
+  ],
+  "coursekeys": [],
+  "is_career": false,
+  "sections": [
+    {
+      "id": 4138,
+      "name": "数据导入与处理",
+      "created_at": "2018-06-21T02:03:12.873Z",
+      "updated_at": "2018-06-21T02:03:27.296Z",
+      "deleted_at": null,
+      "position": 0,
+      "rubric_id": 1861,
+      "rubric_items": [
+        {
+          "id": 12087,
+          "section_id": 4138,
+          "passed_description": "学生成功导入所需要的库，并通过`Pandas`读取tmdb-movies.csv 中的数据。",
+          "exceeded_description": null,
+          "created_at": "2018-06-21T02:04:01.718Z",
+          "updated_at": "2018-06-21T02:04:46.768Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 0,
+          "criteria": "导入库以及数据",
+          "exceedable": false
+        },
+        {
+          "id": 12088,
+          "section_id": 4138,
+          "passed_description": "学生成功完成 5 个 tasks。",
+          "exceeded_description": null,
+          "created_at": "2018-06-21T02:04:47.203Z",
+          "updated_at": "2018-06-21T02:05:21.017Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 1,
+          "criteria": "了解数据",
+          "exceedable": false
+        },
+        {
+          "id": 12089,
+          "section_id": 4138,
+          "passed_description": "学员对数据表中的空值进行了处理。",
+          "exceeded_description": null,
+          "created_at": "2018-06-21T02:05:21.418Z",
+          "updated_at": "2018-06-21T02:07:40.491Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 2,
+          "criteria": "清理数据",
+          "exceedable": false
+        }
+      ]
+    },
+    {
+      "id": 4139,
+      "name": "根据指定要求读取数据",
+      "created_at": "2018-06-21T02:03:27.671Z",
+      "updated_at": "2018-06-21T02:03:43.573Z",
+      "deleted_at": null,
+      "position": 1,
+      "rubric_id": 1861,
+      "rubric_items": [
+        {
+          "id": 12090,
+          "section_id": 4139,
+          "passed_description": "完成3个简单读取的tasks",
+          "exceeded_description": null,
+          "created_at": "2018-06-21T02:07:40.851Z",
+          "updated_at": "2018-06-21T02:09:12.454Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 0,
+          "criteria": "简单读取",
+          "exceedable": false
+        },
+        {
+          "id": 12091,
+          "section_id": 4139,
+          "passed_description": "学员完成逻辑读取中的2个任务",
+          "exceeded_description": null,
+          "created_at": "2018-06-21T02:09:12.836Z",
+          "updated_at": "2018-06-21T02:10:01.256Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 1,
+          "criteria": "逻辑读取",
+          "exceedable": false
+        },
+        {
+          "id": 12092,
+          "section_id": 4139,
+          "passed_description": "学员使用 Groupby 命令完成2个分组读取任务",
+          "exceeded_description": null,
+          "created_at": "2018-06-21T02:10:01.686Z",
+          "updated_at": "2018-06-21T02:10:31.440Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 2,
+          "criteria": "分组读取",
+          "exceedable": false
+        }
+      ]
+    },
+    {
+      "id": 4140,
+      "name": "绘图与可视化",
+      "created_at": "2018-06-21T02:03:43.934Z",
+      "updated_at": "2018-06-21T02:04:01.373Z",
+      "deleted_at": null,
+      "position": 2,
+      "rubric_id": 1861,
+      "rubric_items": [
+        {
+          "id": 12093,
+          "section_id": 4140,
+          "passed_description": "对 popularity 最高的20名电影绘制其 popularity 值。",
+          "exceeded_description": null,
+          "created_at": "2018-06-21T02:10:31.810Z",
+          "updated_at": "2018-06-21T02:11:17.609Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 0,
+          "criteria": "对 popularity 最高的20名电影绘制其 popularity 值。",
+          "exceedable": false
+        },
+        {
+          "id": 12094,
+          "section_id": 4140,
+          "passed_description": "分析电影净利润（票房-成本）随着年份变化的情况，并简单进行分析。",
+          "exceeded_description": null,
+          "created_at": "2018-06-21T02:11:17.944Z",
+          "updated_at": "2018-06-21T02:11:29.319Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 1,
+          "criteria": "分析电影净利润（票房-成本）随着年份变化的情况，并简单进行分析。",
+          "exceedable": false
+        },
+        {
+          "id": 12095,
+          "section_id": 4140,
+          "passed_description": "选择最多产的10位导演（电影数量最多的），绘制他们排行前3的三部电影的票房情况，并简要进行分析。",
+          "exceeded_description": null,
+          "created_at": "2018-06-21T02:11:29.748Z",
+          "updated_at": "2018-06-21T02:11:56.182Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 2,
+          "criteria": "选做题",
+          "exceedable": false
+        },
+        {
+          "id": 12096,
+          "section_id": 4140,
+          "passed_description": "分析1968年~2015年六月电影的数量的变化。",
+          "exceeded_description": null,
+          "created_at": "2018-06-21T02:11:31.172Z",
+          "updated_at": "2018-06-21T02:11:56.196Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 3,
+          "criteria": "选做题",
+          "exceedable": false
+        },
+        {
+          "id": 12097,
+          "section_id": 4140,
+          "passed_description": "分析1968年~2015年六月电影 Comedy 和 Drama 两类电影的数量的变化。",
+          "exceeded_description": null,
+          "created_at": "2018-06-21T02:11:56.673Z",
+          "updated_at": "2018-06-21T02:12:07.375Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 4,
+          "criteria": "选做题",
+          "exceedable": false
+        }
+      ]
+    }
+  ],
+  "project": {
+    "id": 473,
+    "name": "Investigate Movie Dataset",
+    "nanodegree_key": "nd009-cn-basic",
+    "is_cert_project": false,
+    "audit_project_id": null,
+    "hashtag": null,
+    "audit_rubric_id": 2899,
+    "entitlement_required": false,
+    "is_career": false,
+    "recruitment_family_id": 1,
+    "created_at": "2018-04-23T03:47:48.405Z",
+    "updated_at": "2020-08-06T16:33:06.393Z",
+    "price": "6.5",
+    "ungradeable_price": "3.0",
+    "audit_price": "0.0"
+  }
+}
