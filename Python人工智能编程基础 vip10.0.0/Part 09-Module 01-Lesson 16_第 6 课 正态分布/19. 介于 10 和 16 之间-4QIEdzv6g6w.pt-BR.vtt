@@ -1,0 +1,154 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:04.767
+Vamos recomeçar vendo onde
+10 e 16 entram na distribuição.
+
+00:00:04.801 --> 00:00:07.667
+10 é 3 pontos
+a menos do que a média,
+
+00:00:07.701 --> 00:00:10.467
+e 16 é 3 pontos
+a mais do que a média.
+
+00:00:10.501 --> 00:00:15.567
+Então se esta é a média, 13,
+aqui estão o 10 e o 16.
+
+00:00:15.601 --> 00:00:18.767
+Queremos a área
+entre estes dois.
+
+00:00:18.801 --> 00:00:20.400
+Como vamos descobrir isso?
+
+00:00:20.434 --> 00:00:24.901
+Bem, vamos descobrir
+a área abaixo de 16,
+
+00:00:24.934 --> 00:00:28.200
+depois subtrairemos
+a área abaixo de 10.
+
+00:00:28.234 --> 00:00:30.567
+Então qual é a área
+abaixo de 16?
+
+00:00:30.601 --> 00:00:33.133
+Primeiro, vamos converter 16
+em um escore z.
+
+00:00:33.167 --> 00:00:36.267
+16 menos 13
+dividido por 4,8.
+
+00:00:36.300 --> 00:00:38.267
+Isso dá 0,625.
+
+00:00:38.300 --> 00:00:42.100
+Já que 10 é equidistante de 13,
+assim como 16 é,
+
+00:00:42.133 --> 00:00:45.234
+então o escore z para 10
+será -0,625.
+
+00:00:45.267 --> 00:00:48.334
+Pode fazer esse cálculo,
+se quiser.
+
+00:00:48.367 --> 00:00:51.200
+Às vezes,
+isso ajuda a entender melhor.
+
+00:00:51.234 --> 00:00:55.501
+Vamos achar a área menor
+do que um escore z de 0,625.
+
+00:00:55.534 --> 00:00:59.601
+Vamos encontrar 0,6
+na coluna vertical,
+
+00:00:59.634 --> 00:01:02.067
+teremos que arredondar
+para a casa centesimal,
+
+00:01:02.100 --> 00:01:04.534
+já que a tabela z
+só vai até aí.
+
+00:01:04.567 --> 00:01:06.868
+Então vamos arredondar
+para 0,63.
+
+00:01:06.901 --> 00:01:09.300
+Está nesta coluna...
+
+00:01:09.334 --> 00:01:11.701
+Vamos chegar a 0,7357.
+
+00:01:11.734 --> 00:01:15.033
+Depois subtrairemos
+a área menor do que 10,
+
+00:01:15.067 --> 00:01:18.434
+que tem o escore z
+de -0,625.
+
+00:01:18.467 --> 00:01:23.968
+Aqui está o -0,6, e aqui está
+e aqui está a coluna de 0,03.
+
+00:01:24.000 --> 00:01:29.968
+Então a área menor
+do que -0,63 é 0,2643.
+
+00:01:30.000 --> 00:01:33.400
+Percebam que, já que
+esses são os mesmos valores,
+
+00:01:33.434 --> 00:01:36.000
+um sendo positivo
+e o outro negativo,
+
+00:01:36.033 --> 00:01:39.334
+então a área
+menor que 0,625,
+
+00:01:39.367 --> 00:01:43.801
+mais a área menor do que -0,625
+resultam em 1.
+
+00:01:43.834 --> 00:01:46.968
+Então, basicamente,
+essa área aqui,
+
+00:01:47.000 --> 00:01:50.133
+mais essa área aqui,
+são iguais a 1.
+
+00:01:50.167 --> 00:01:55.567
+Isso porque essa área
+é igual a essa outra área.
+
+00:01:56.400 --> 00:02:01.767
+Se você somar 0,7357 e 0,2643,
+você terá 1.
+
+00:02:01.801 --> 00:02:04.200
+Essa é só uma propriedade
+da simetria
+
+00:02:04.234 --> 00:02:05.801
+da distribuição normal.
+
+00:02:05.834 --> 00:02:09.701
+Se as subtrairmos,
+teremos 0,4714,
+
+00:02:09.734 --> 00:02:13.367
+essa é a área entre 10 e 16.
+

@@ -1,0 +1,53 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:02.834
+Agora temos que os parâmetros
+de nossa população
+
+00:00:02.868 --> 00:00:05.133
+são 13 para a média
+
+00:00:05.167 --> 00:00:08.434
+e 4,8 para o desvio padrão.
+
+00:00:08.467 --> 00:00:11.701
+Lembrando que as unidades são
+média de pontos karma por post.
+
+00:00:11.734 --> 00:00:15.267
+Usando esses valores redondos,
+vamos desenhar a distribuição.
+
+00:00:15.300 --> 00:00:16.901
+Vamos dizer
+que é normal,
+
+00:00:16.934 --> 00:00:20.133
+então essa é a função densidade
+de probabilidade teórica.
+
+00:00:20.167 --> 00:00:25.434
+Aqui a média é igual à mediana,
+que é igual à moda, temos 13.
+
+00:00:25.467 --> 00:00:28.534
+Digamos que aqui temos
+um desvio padrão acima da média
+
+00:00:28.567 --> 00:00:31.701
+e aqui um desvio padrão
+abaixo da média.
+
+00:00:31.734 --> 00:00:34.033
+E aqui,
+dois desvios padrões.
+
+00:00:34.067 --> 00:00:37.033
+Se nosso desvio padrão é 4,8,
+
+00:00:37.067 --> 00:00:41.734
+então quais seriam os valores
+aqui, aqui, aqui e aqui?
+

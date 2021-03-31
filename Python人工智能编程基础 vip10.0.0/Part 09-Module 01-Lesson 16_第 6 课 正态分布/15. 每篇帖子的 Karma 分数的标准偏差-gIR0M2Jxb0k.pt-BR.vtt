@@ -1,0 +1,46 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:03.934
+A próxima coisa que faremos
+será calcular o desvio padrão,
+
+00:00:03.967 --> 00:00:06.334
+mas, desta vez,
+já que estamos tentando estimar
+
+00:00:06.367 --> 00:00:08.032
+parâmetros de população,
+
+00:00:08.067 --> 00:00:11.667
+vamos usar a fórmula para
+o desvio padrão de amostra.
+
+00:00:11.700 --> 00:00:15.434
+Lembre que isso é igual
+ao desvio padrão de população,
+
+00:00:15.467 --> 00:00:18.133
+só que dividimos por n-1.
+
+00:00:18.167 --> 00:00:21.467
+Essa é a correção de Bessel
+para deixar o desvio padrão
+
+00:00:21.500 --> 00:00:24.900
+um pouco maior, já que
+o desvio padrão de amostra
+
+00:00:24.934 --> 00:00:27.434
+tende a subestimar
+a variabilidade.
+
+00:00:27.467 --> 00:00:30.634
+Então continue e tente calcular
+o desvio padrão de amostra,
+
+00:00:30.667 --> 00:00:32.667
+isso será uma boa revisão
+para você.
+

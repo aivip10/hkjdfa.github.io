@@ -1,0 +1,41 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.501 --> 00:00:07.258
+Você viu que na distribuição normal,
+sabendo onde no eixo de X um valor está,
+
+00:00:07.288 --> 00:00:10.282
+em termos de desvio padrão,
+
+00:00:10.312 --> 00:00:15.497
+podemos determinar a porcentagem
+menor ou maior que qualquer valor.
+
+00:00:15.527 --> 00:00:19.081
+Nesta lição você irá calcular
+essas porcentagens.
+
+00:00:19.111 --> 00:00:23.473
+Lembre-se de que usamos
+a curva teórica para modelar os dados
+
+00:00:23.503 --> 00:00:26.162
+e a área sob a curva é 1,
+
+00:00:26.192 --> 00:00:28.722
+porque ela
+modela a frequência relativa
+
+00:00:28.752 --> 00:00:32.674
+de uma distribuição de dados
+em termos de proporções.
+
+00:00:32.704 --> 00:00:36.137
+Essa curva se chama função
+e densidade de probabilidade,
+
+00:00:36.167 --> 00:00:38.905
+que abreviamos como FDP.
+

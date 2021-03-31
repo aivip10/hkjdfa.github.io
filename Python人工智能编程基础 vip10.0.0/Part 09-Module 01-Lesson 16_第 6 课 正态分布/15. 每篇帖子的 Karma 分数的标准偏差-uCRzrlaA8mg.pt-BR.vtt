@@ -1,0 +1,162 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:03.967
+Você deve ter levado mais tempo
+para resolver esse, e tudo bem.
+
+00:00:04.000 --> 00:00:05.867
+Lembre que a 1ª coisa
+que devemos fazer
+
+00:00:05.900 --> 00:00:09.367
+é encontrar o desvio da média
+de cada um destes valores.
+
+00:00:09.400 --> 00:00:11.533
+Vamos fazer isso
+na célula B1.
+
+00:00:11.567 --> 00:00:14.900
+Descobrimos que a média
+é aproximadamente 12,96.
+
+00:00:14.933 --> 00:00:19.867
+Então vou escrever
+"=A1-12,96".
+
+00:00:19.900 --> 00:00:23.600
+Isso nos dará o desvio
+do 1º valor da média.
+
+00:00:23.633 --> 00:00:27.533
+Agora vamos copiar para não ter
+que escrever em cada célula.
+
+00:00:27.567 --> 00:00:30.133
+Vamos para a célula A1
+
+00:00:30.167 --> 00:00:33.967
+teclar CMD+seta para baixo,
+pelo menos no teclado Mac,
+
+00:00:34.000 --> 00:00:36.867
+então vamos
+para a célula B200,
+
+00:00:36.900 --> 00:00:40.400
+teclar CMD+SHIFT+
+seta para cima,
+
+00:00:40.433 --> 00:00:43.900
+e você marcará
+a coluna B inteira.
+
+00:00:43.933 --> 00:00:46.433
+Agora tecle CMD+V
+
+00:00:46.467 --> 00:00:50.200
+e você terá todos os desvios
+para cada um dos valores.
+
+00:00:50.233 --> 00:00:53.800
+Outra coisa que você talvez
+tenha feito que eu já ensinei
+
+00:00:53.833 --> 00:00:57.400
+é ir neste canto até
+aparecer o sinal de "+"
+
+00:00:57.433 --> 00:00:59.167
+e arrastar para baixo.
+
+00:00:59.200 --> 00:01:01.833
+Se você fez assim,
+tudo bem.
+
+00:01:01.867 --> 00:01:05.400
+São apenas atalhos de teclado
+que facilitam nossa vida.
+
+00:01:06.167 --> 00:01:10.500
+Agora, na coluna C, vamos elevar
+todos os desvios ao quadrado.
+
+00:01:10.533 --> 00:01:15.067
+Vamos escrever "=B1^2",
+
+00:01:15.100 --> 00:01:16.567
+que significa
+elevar ao quadrado,
+
+00:01:16.600 --> 00:01:20.800
+e vamos copiar a célula C1,
+vamos para a célula B1,
+
+00:01:20.833 --> 00:01:24.100
+teclar CMD+seta para baixo,
+para ir até o fim,
+
+00:01:24.133 --> 00:01:26.367
+vamos para a célula C200,
+
+00:01:26.400 --> 00:01:29.300
+teclar CMD+SHIFT+
+seta para cima,
+
+00:01:29.333 --> 00:01:32.200
+assim marcaremos
+a coluna C inteira,
+
+00:01:32.233 --> 00:01:34.233
+e então CMD+V.
+
+00:01:35.500 --> 00:01:38.967
+Agora temos todos
+os desvios ao quadrado.
+
+00:01:39.000 --> 00:01:42.100
+O que faremos depois?
+Temos que somá-los.
+
+00:01:42.133 --> 00:01:44.867
+Vamos fazer isso
+na célula D1:
+
+00:01:44.900 --> 00:01:50.367
+"=SOMA(C1:C200)".
+
+00:01:50.400 --> 00:01:52.600
+Somamos nossos desvios
+ao quadrado,
+
+00:01:52.633 --> 00:01:56.700
+e agora, e é aqui que o desvio
+padrão de amostra se difere
+
+00:01:56.733 --> 00:02:00.800
+do desvio padrão de população,
+vamos dividir por "n-1",
+
+00:02:00.833 --> 00:02:05.467
+que dá 199. "=D1/199".
+
+00:02:05.500 --> 00:02:08.267
+Nosso último passo
+será tirar a raiz quadrada.
+
+00:02:08.300 --> 00:02:12.433
+"=RAIZ(D2)".
+
+00:02:12.467 --> 00:02:14.867
+Teremos que nosso
+desvio padrão de amostra
+
+00:02:14.900 --> 00:02:17.767
+é aproximadamente 4,76.
+
+00:02:17.800 --> 00:02:21.467
+Essa é a melhor estimativa
+do desvio padrão de população.
+

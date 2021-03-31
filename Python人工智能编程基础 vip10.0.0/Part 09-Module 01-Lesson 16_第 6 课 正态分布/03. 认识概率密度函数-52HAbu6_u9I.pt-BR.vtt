@@ -1,0 +1,147 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.767 --> 00:00:03.223
+Podemos fazer o mesmo
+com distribuições normais,
+
+00:00:03.253 --> 00:00:06.943
+que são modeladas por uma função
+de densidade de probabilidade especial.
+
+00:00:07.763 --> 00:00:12.977
+Não vamos ver a equação
+para essa função neste curso,
+
+00:00:13.007 --> 00:00:16.602
+mas se quiser, pode facilmente
+pesquisá-la e ver como é.
+
+00:00:16.632 --> 00:00:20.906
+Pode ser legal para vocês que querem
+um pouco mais de informação.
+
+00:00:20.936 --> 00:00:24.065
+Mas basicamente, já que temos
+esta curva teórica,
+
+00:00:24.095 --> 00:00:25.897
+podemos modelá-la
+com uma equação.
+
+00:00:25.927 --> 00:00:30.969
+E usando essa equação, podemos usar
+cálculo para achar a área sob a curva.
+
+00:00:30.999 --> 00:00:34.441
+Mas não precisamos,
+porque alguém já o fez.
+
+00:00:34.471 --> 00:00:38.970
+E assim, criou uma tabela especial
+para podermos sempre descobrir a área
+
+00:00:39.000 --> 00:00:41.890
+sob a curva entre quaisquer dois valores.
+
+00:00:41.920 --> 00:00:43.890
+Vamos usar a tabela depois.
+
+00:00:43.920 --> 00:00:48.913
+1º, vamos nos certificar de que entendemos
+a função de densidade de probabilidade
+
+00:00:48.943 --> 00:00:50.962
+e a área sob ela.
+
+00:00:50.992 --> 00:00:58.242
+1º, as extremidades nunca tocam o eixo de X,
+elas se aproximam cada vez mais dele.
+
+00:00:58.272 --> 00:01:01.234
+O eixo de X é uma assíntota horizontal.
+
+00:01:01.264 --> 00:01:05.721
+A razão pelas extremidades deste modelo
+não tocarem o eixo de X
+
+00:01:05.751 --> 00:01:09.641
+é basicamente porque nunca
+podemos ter 100% de certeza de nada.
+
+00:01:09.671 --> 00:01:19.674
+Ou seja, poderíamos ter um valor bem aqui,
+bem longe da média, a uns 5 desvios padrão.
+
+00:01:19.704 --> 00:01:24.665
+Mas a probabilidade de achar
+este valor ou menor é muito pequena.
+
+00:01:24.695 --> 00:01:28.561
+E é igual à área sob a curva.
+
+00:01:28.591 --> 00:01:30.577
+Então, se pudéssemos dar um zoom,
+
+00:01:30.607 --> 00:01:36.234
+veríamos esta extremidade se aproximar
+do eixo de X, mas nunca o tocar.
+
+00:01:36.264 --> 00:01:44.049
+Depois, a área entre a extremidade
+e o eixo de X, até o infinito negativo
+
+00:01:44.079 --> 00:01:48.066
+é a probabilidade de achar
+este valor ou menor.
+
+00:01:48.096 --> 00:01:50.482
+Veremos isso mais a fundo em um instante.
+
+00:01:50.512 --> 00:01:54.632
+De modo similar,
+poderíamos achar um valor bem aqui.
+
+00:01:54.662 --> 00:01:57.121
+Mas a probabilidade é muito pequena.
+
+00:01:57.151 --> 00:02:02.122
+Então, basicamente, o que precisa
+lembrar é que se temos um certo valor -
+
+00:02:02.152 --> 00:02:04.370
+vamos chamá-lo de X -
+
+00:02:04.400 --> 00:02:12.097
+a área sob a curva do infinito negativo até X
+é igual à probabilidade de selecionar
+
+00:02:12.127 --> 00:02:15.393
+aleatoriamente um sujeito em nossa amostra
+menor que X.
+
+00:02:15.423 --> 00:02:21.802
+E é igual à proporção na amostra ou população
+com pontuação menor que X.
+
+00:02:21.832 --> 00:02:27.042
+Se a probabilidade
+é 80%, dizemos que X é o 80º percentil.
+
+00:02:27.072 --> 00:02:32.361
+Se a probabilidade é 90%,
+dizemos que X é o 90º percentil, etc.
+
+00:02:32.391 --> 00:02:36.881
+Se for confuso, não se preocupe.
+É para isso que serve esta lição.
+
+00:02:36.911 --> 00:02:40.841
+Você ficará confortável em usar
+as funções de densidade de probabilidade
+
+00:02:40.871 --> 00:02:44.397
+e em analisar
+esta área e achar esta área.
+

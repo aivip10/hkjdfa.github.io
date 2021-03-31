@@ -1,0 +1,60 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:04.892
+Deve ter deduzido que primeiro
+convertemos 240 para a pontuação Z.
+
+00:00:04.922 --> 00:00:12.236
+Ou seja, queremos descobrir a quantos
+desvios padrão da média, 190, 240 está.
+
+00:00:12.266 --> 00:00:14.411
+Então será um vírgula algo.
+
+00:00:14.441 --> 00:00:18.844
+Então 1º, tiramos a distância
+entre 190 e 240,
+
+00:00:18.874 --> 00:00:22.148
+depois dividimos
+pelo desvio padrão para descobrir
+
+00:00:22.178 --> 00:00:25.668
+quantos desvios padrão cabem
+nessa distância.
+
+00:00:25.698 --> 00:00:28.308
+Então temos cerca de 1,39.
+
+00:00:28.338 --> 00:00:32.637
+Precisamos arredondar para os centésimos,
+porque a tabela Z que temos
+
+00:00:32.668 --> 00:00:34.851
+não fica mais precisa que isso.
+
+00:00:34.881 --> 00:00:38.779
+Nossa pontuação Z é 1,39,
+então vejamos a tabela.
+
+00:00:38.809 --> 00:00:44.900
+1º, achamos 1,3 e achamos 0,09,
+que é a última coluna.
+
+00:00:44.930 --> 00:00:54.164
+E descobrimos que a área menor
+que um desvio padrão de 1,39 é 0,9177.
+
+00:00:54.194 --> 00:01:02.244
+Isso significa que cerca de 91,77% das pessoas
+terão menos que 240 amigos no Facebook.
+
+00:01:02.274 --> 00:01:07.644
+E lembre-se, isto é supondo que esta
+é uma distribuição normal de média 190
+
+00:01:07.674 --> 00:01:09.859
+e desvio padrão 36.
+

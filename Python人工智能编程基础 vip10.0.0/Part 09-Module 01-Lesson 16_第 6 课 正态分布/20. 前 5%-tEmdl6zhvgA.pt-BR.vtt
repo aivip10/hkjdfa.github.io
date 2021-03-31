@@ -1,0 +1,111 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.734 --> 00:00:02.467
+Aqui está
+nossa distribuição.
+
+00:00:02.501 --> 00:00:05.334
+Queremos achar
+qual valor seria esse
+
+00:00:05.367 --> 00:00:09.000
+para que
+a porcentagem seja 5.
+
+00:00:09.033 --> 00:00:13.100
+Isso é o mesmo
+que uma proporção de 0,05.
+
+00:00:13.133 --> 00:00:17.200
+Primeiro, qual escore z
+deveria ir aqui?
+
+00:00:17.234 --> 00:00:20.067
+Usaremos a tabela z
+para descobrir isso.
+
+00:00:20.567 --> 00:00:26.501
+Dessa vez, vamos ver o centro
+da tabela z, procurando 0,05.
+
+00:00:26.534 --> 00:00:32.000
+Aqui temos 0,0505 e 0,495.
+
+00:00:32.033 --> 00:00:36.267
+Isso corresponde
+a um escore z de -1,64
+
+00:00:36.300 --> 00:00:38.467
+e -1,65.
+
+00:00:38.501 --> 00:00:41.067
+Já que
+0,05 está bem no meio,
+
+00:00:41.100 --> 00:00:46.367
+vamos usar o escore z
+que está no meio deles, -1,645.
+
+00:00:46.400 --> 00:00:49.133
+Note que encontramos
+o escore z
+
+00:00:49.167 --> 00:00:53.267
+que corresponde
+a 0,05 abaixo disso.
+
+00:00:53.300 --> 00:00:57.100
+Então este escore z é
+o correspondente positivo disso.
+
+00:00:57.133 --> 00:00:59.968
+1,645.
+
+00:01:00.067 --> 00:01:02.667
+Já que a distribuição normal
+é simétrica,
+
+00:01:02.701 --> 00:01:08.100
+então 0,05 seria maior
+que o positivo deste escore z.
+
+00:01:08.133 --> 00:01:11.067
+Este é o escore z
+que queremos,
+
+00:01:11.100 --> 00:01:13.234
+vamos convertê-lo
+para pontos karma.
+
+00:01:13.267 --> 00:01:17.868
+1,645 é igual ao número
+de pontos karma menos a média,
+
+00:01:17.901 --> 00:01:20.200
+dividido
+pelo desvio padrão.
+
+00:01:20.234 --> 00:01:21.834
+Agora podemos
+resolver essa equação
+
+00:01:21.868 --> 00:01:25.133
+multiplicando
+1,645 por 4,8,
+
+00:01:25.667 --> 00:01:27.367
+e somando 13.
+
+00:01:27.400 --> 00:01:29.434
+Isso dá 20,9.
+
+00:01:29.467 --> 00:01:33.734
+Se você tem 20,9 pontos
+karma por post em média,
+
+00:01:33.767 --> 00:01:38.767
+então você tem mais pontos karma
+por post que 95% dos alunos.
+

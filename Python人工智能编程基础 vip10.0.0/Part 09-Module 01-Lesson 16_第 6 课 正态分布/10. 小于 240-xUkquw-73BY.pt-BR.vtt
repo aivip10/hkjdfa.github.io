@@ -1,0 +1,71 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:01.812
+Agora foi uma pegadinha,
+
+00:00:01.842 --> 00:00:08.692
+porque 240 está aqui e não estará
+um desvio padrão inteiro de distância da média.
+
+00:00:08.722 --> 00:00:13.677
+São 1,5 desvios padrão
+de distância da média, aproximadamente.
+
+00:00:13.707 --> 00:00:18.604
+Então, como vamos calcular a área
+sob esta curva entre o infinito negativo
+
+00:00:18.634 --> 00:00:23.420
+e este número não inteiro
+de desvios padrão de distância?
+
+00:00:23.450 --> 00:00:31.021
+Bom, podemos dar o palpite que estará
+aproximadamente entre 84% e 97%.
+
+00:00:31.051 --> 00:00:36.172
+Porque sabemos que são 68%
+entre esses dois pontos.
+
+00:00:36.202 --> 00:00:41.500
+13,5% aqui e 2,5% aqui,
+
+00:00:41.530 --> 00:00:48.845
+então haverá aproximadamente 84% de valores
+entre o infinito negativo e 226.
+
+00:00:48.875 --> 00:00:53.780
+Outra forma de ver isto, já que é simétrico,
+você sabe que 50% é menos que a média,
+
+00:00:53.810 --> 00:00:58.124
+e sabe que 34% está entre a média
+e um desvio padrão.
+
+00:00:58.154 --> 00:01:02.132
+Então 84% tem menos que 226 amigos
+no Facebook.
+
+00:01:02.162 --> 00:01:05.861
+Se somarmos esta seção, 13,5%,
+
+00:01:05.891 --> 00:01:13.588
+sabemos que 97,5% estão entre
+o infinito negativo e 262.
+
+00:01:13.618 --> 00:01:16.180
+Então vamos chamar a proporção de P.
+
+00:01:16.210 --> 00:01:23.125
+Sabemos que P precisa ser maior que 0,84
+e menos que 0,975,
+
+00:01:23.155 --> 00:01:27.971
+mas usaremos uma ferramenta
+que nos ajudará a achar para qualquer valor,
+
+00:01:28.001 --> 00:01:29.589
+qual proporção será.
+

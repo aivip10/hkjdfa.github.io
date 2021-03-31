@@ -1,0 +1,97 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:01.571
+Lembra que eu disse mais cedo
+
+00:00:01.601 --> 00:00:05.067
+que se temos a equação da função
+da densidade de probabilidade
+
+00:00:05.097 --> 00:00:10.867
+podemos usar cálculo para achar a área
+sob a curva entre quaisquer dois valores
+
+00:00:10.897 --> 00:00:13.940
+ou entre o infinito negativo e qualquer valor?
+
+00:00:13.970 --> 00:00:17.220
+Matemáticos puseram esses valores
+em uma tabela.
+
+00:00:17.250 --> 00:00:19.731
+Aqui está o começo da tabela.
+
+00:00:19.761 --> 00:00:24.395
+Ela te dá um diagrama
+dizendo que quando temos a pontuação Z,
+
+00:00:24.425 --> 00:00:30.196
+os valores na tabela nos dão
+a proporção menor que essa pontuação Z,
+
+00:00:30.226 --> 00:00:32.212
+na curva normal padrão.
+
+00:00:32.241 --> 00:00:35.562
+Então esta tabela é para a distribuição
+normal padrão,
+
+00:00:35.592 --> 00:00:40.323
+e lembre-se que isso é quando
+a média é 0 e o desvio padrão é 1.
+
+00:00:40.353 --> 00:00:44.683
+Assim, depois de padronizar
+qualquer distribuição normal, ou seja,
+
+00:00:44.713 --> 00:00:49.380
+depois de calcular as pontuações Z
+para os valores em que estamos interessados,
+
+00:00:49.410 --> 00:00:51.804
+podemos usar esta tabela para aproximar
+
+00:00:51.834 --> 00:00:55.115
+a proporção menor que essa pontuação Z
+em particular.
+
+00:00:55.145 --> 00:01:01.731
+Na vertical ficam os décimos
+e na horizontal, os centésimos.
+
+00:01:01.761 --> 00:01:07.044
+Então se tivermos uma pontuação Z de,
+digamos, menos 2,75 -
+
+00:01:07.074 --> 00:01:09.852
+lembre-se, seria então menor que a média.
+
+00:01:09.882 --> 00:01:15.219
+Menos 2,7 está aqui e 0,05, aqui.
+
+00:01:15.249 --> 00:01:21.467
+Então, se seguirmos,
+as células se encontram em 0,003.
+
+00:01:21.497 --> 00:01:29.475
+Então a proporção menor que menos 2,75
+é 0,003, ou 0,3%.
+
+00:01:29.505 --> 00:01:35.395
+Então essa é a probabilidade
+de acharmos menos que menos 2,75.
+
+00:01:35.425 --> 00:01:43.244
+E essa é a proporção de objetos na amostra
+que têm pontuação menor que menos 2,75.
+
+00:01:43.274 --> 00:01:45.860
+Há um link para a tabela Z
+que compartilhamos,
+
+00:01:45.890 --> 00:01:52.078
+então o use quando usar a tabela Z,
+que é o que fará na próxima questão.
+
