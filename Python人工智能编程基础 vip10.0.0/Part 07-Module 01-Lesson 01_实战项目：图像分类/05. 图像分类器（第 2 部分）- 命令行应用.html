@@ -1,0 +1,220 @@
+<!-- udacity2.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>图像分类器（第 2 部分）- 命令行应用</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>实战项目：图像分类</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. 课程讲师.html">01. 课程讲师</a>
+    </li>
+    <li class="">
+      <a href="02. 项目简介.html">02. 项目简介</a>
+    </li>
+    <li class="">
+      <a href="03. GPU Workspace 简介.html">03. GPU Workspace 简介</a>
+    </li>
+    <li class="">
+      <a href="04. 图像分类器（第 1 部分）- 开发.html">04. 图像分类器（第 1 部分）- 开发</a>
+    </li>
+    <li class="">
+      <a href="05. 图像分类器（第 2 部分）- 命令行应用.html">05. 图像分类器（第 2 部分）- 命令行应用</a>
+    </li>
+    <li class="">
+      <a href="06. 审阅标准.html">06. 审阅标准</a>
+    </li>
+    <li class="">
+      <a href="Project Description - 图像分类器应用.html">Project Description - 图像分类器应用</a>
+    </li>
+    <li class="">
+      <a href="Project Rubric - 图像分类器应用.html">Project Rubric - 图像分类器应用</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">05. 图像分类器（第 2 部分）- 命令行应用</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h1 id="第-2-部分---构建命令行应用">第 2 部分 - 构建命令行应用</h1>
+<p>你已经通过花卉数据集构建并训练了一个深度神经网络，现在将该网络转换成其他人可以利用的应用吧。你的应用应该是一对从命令行运行的 Python 脚本。要进行测试，你应该使用在第一部分保存的检查点。</p>
+<h3 id="规范">规范</h3>
+<p>提交的项目中必须至少包含两个文件：<code>train.py</code> 和 <code>predict.py</code>。第一个文件 <code>train.py</code> 将用数据集训练新的网络，并将模型保存为检查点。第二个文件 <code>predict.py</code> 将使用训练的网络预测输入图像的类别。你可以随意创建其他文件。我们建议你为与模型相关的函数和类创建一个文件，并为加载数据和预处理图像等实用函数创建另一个文件。<strong>确保在提交的文件夹中包含运行 <code>train.py</code> 和 <code>predict.py</code> 所需的所有必要文件。</strong></p>
+<ul>
+<li><p>使用 <code>train.py</code> 用数据集训练新的网络</p>
+<ul>
+<li>基本用途：<code>python train.py data_directory</code></li>
+<li>在训练网络时，输出训练损失、验证损失和验证准确率</li>
+<li>选项：</li>
+<li>设置保存检查点的目录：<code>python train.py data_dir --save_dir save_directory</code></li>
+<li>选择架构：<code>python train.py data_dir --arch "vgg13"</code></li>
+<li>设置超参数：<code>python train.py data_dir --learning_rate 0.01 --hidden_units 512 --epochs 20</code></li>
+<li>使用 GPU 进行训练：<code>python train.py data_dir --gpu</code></li></ul></li>
+<li><p>使用 <code>predict.py</code> 预测图像的花卉名称以及该名称的概率</p>
+<ul>
+<li>基本用途：<code>python predict.py input checkpoint</code></li>
+<li>选项：</li>
+<li>返回前 <span class="mathquill ud-math">K</span> 个类别：<code>python predict.py input checkpoint --top_k 3</code></li>
+<li>使用类别到真实名称的映射：<code>python predict.py input checkpoint --category_names cat_to_name.json</code></li>
+<li>使用 GPU 进行训练：<code>python predict.py input checkpoint --gpu</code></li></ul></li>
+</ul>
+<p>将命令行输入放入脚本中的最佳方式是使用标准库中的 <a href="https://docs.python.org/3/library/argparse.html" rel="noopener noreferrer" target="_blank">argparse 模块</a>。你还可以在<a href="https://pymotw.com/3/argparse/" rel="noopener noreferrer" target="_blank">此处</a>找到相关的 argparse 教程。 </p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div class="jumbotron">
+  <h3>Code</h3>
+
+  <p class="lead">If you need a code on the <a href="https://github.com/udacity"
+    target="_blank">https://github.com/udacity</a>. </p>
+
+  </ul>
+</div>
+
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+              <a href="06. 审阅标准.html" class="btn btn-outline-primary mt-4" role="button">Next Concept</a>
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://us-udacity.github.io/" target="_blank">【udacity2.0 】If you need more courses, please add wechat：udacity6</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('05. 图像分类器（第 2 部分）- 命令行应用')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>

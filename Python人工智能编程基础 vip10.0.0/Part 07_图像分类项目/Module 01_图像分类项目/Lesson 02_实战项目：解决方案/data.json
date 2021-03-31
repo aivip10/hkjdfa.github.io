@@ -1,0 +1,126 @@
+{
+  "data": {
+    "lesson": {
+      "id": 593016,
+      "key": "fe265a7c-d5d4-4ccc-9478-35a71d5de797",
+      "title": "实战项目：解决方案",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "zh-cn",
+      "summary": null,
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": null,
+      "resources": null,
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 593011,
+          "key": "674ed79d-c3e1-470e-93b1-5dbf79861d5d",
+          "title": "Notebook 解决方案",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "674ed79d-c3e1-470e-93b1-5dbf79861d5d",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 616641,
+              "key": "12eb3159-e107-4889-a8ec-b6a3b456358f",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "本地化备注：打开 workspace 后，会首先出现名为 `Image Classifier Project.ipynb`的英文文件。 如需看到对应的中文文本，请点击教室内左上角的 Jupyter, 选择文件夹中的 `Image Classifier Project-zh.ipynb`的中文文件，即可在教室内看到中文的项目说明。 ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592985,
+              "key": "48657c14-f8a3-47a0-8642-9c19393edb5c",
+              "title": null,
+              "semantic_type": "WorkspaceAtom",
+              "is_public": true,
+              "workspace_id": "viewdafb91ed",
+              "pool_id": "jupytergpu",
+              "view_id": "dafb91ed-9a3f-4429-95e8-96a20a4ab06c",
+              "gpu_capable": true,
+              "configuration": {
+                "id": "reserved",
+                "blueprint": {
+                  "conf": {
+                    "ports": [],
+                    "allowSubmit": false,
+                    "defaultPath": "/notebooks/ProgrammingAI/Image%20Classifier%20Project.ipynb"
+                  },
+                  "kind": "jupyter"
+                },
+                "workspaceId": "reserved"
+              },
+              "starter_files": null
+            }
+          ]
+        },
+        {
+          "id": 593009,
+          "key": "d39d9ba7-adbe-468e-b5dd-740eb6138ca3",
+          "title": "CLI 解决方案",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "d39d9ba7-adbe-468e-b5dd-740eb6138ca3",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 592980,
+              "key": "e71b0c73-8f2c-47b7-a729-170cf187d8e5",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "**备注：**`train.py`解决方案不是 100％ 运行成功，仍然需要更多的开发工作。 然而，`predict.py`是能运行成功的。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592982,
+              "key": "40829e1a-f538-4f90-92fc-b98fb878adbe",
+              "title": null,
+              "semantic_type": "WorkspaceAtom",
+              "is_public": true,
+              "workspace_id": "viewca5ca6eb",
+              "pool_id": "webterminalgpu",
+              "view_id": "ca5ca6eb-6e1b-464a-8bfc-6115a2672ea1",
+              "gpu_capable": true,
+              "configuration": {
+                "id": "reserved",
+                "blueprint": {
+                  "conf": {
+                    "port": 3000,
+                    "ports": [],
+                    "userCode": "",
+                    "openFiles": [
+                      "/home/workspace/ProgrammingAI/train.py",
+                      "/home/workspace/ProgrammingAI/predict.py"
+                    ],
+                    "showFiles": true,
+                    "allowClose": true,
+                    "allowSubmit": false
+                  },
+                  "kind": "generic"
+                },
+                "workspaceId": "reserved"
+              },
+              "starter_files": null
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

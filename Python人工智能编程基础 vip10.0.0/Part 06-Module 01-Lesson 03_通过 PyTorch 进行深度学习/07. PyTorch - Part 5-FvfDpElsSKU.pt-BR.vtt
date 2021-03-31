@@ -1,0 +1,1100 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.121 --> 00:00:02.580
+Olá, de novo.
+Bem-vindo a este vídeo
+
+00:00:02.614 --> 00:00:05.407
+em que vou falar
+sobre inferência e validação,
+
+00:00:05.441 --> 00:00:10.500
+e mostrar a minha solução
+para a rede Fashion-MNIST.
+
+00:00:10.534 --> 00:00:13.639
+Inferência e validação
+são termos relacionados.
+
+00:00:13.673 --> 00:00:16.261
+A inferência é quando você pega
+a rede treinada,
+
+00:00:16.295 --> 00:00:17.986
+e a usa para fazer predições.
+
+00:00:18.020 --> 00:00:21.605
+Isso é emprestado da estatística,
+estatística inferencial,
+
+00:00:21.639 --> 00:00:24.373
+onde você tem os dados
+e faz algumas predições sobre isso.
+
+00:00:24.407 --> 00:00:27.407
+No entanto, essas predições
+podem ser muito boas,
+
+00:00:27.441 --> 00:00:31.900
+a rede aprende
+muito bem o treinamento
+
+00:00:31.934 --> 00:00:34.962
+e não pode generalizar
+para dados que não viu antes.
+
+00:00:34.996 --> 00:00:36.795
+Isso é chamado de sobreajuste.
+
+00:00:36.829 --> 00:00:39.736
+Para testar o sobreajuste,
+usamos o que é chamado de validação.
+
+00:00:39.770 --> 00:00:43.665
+A validação é executar a rede
+em um conjunto de testes
+
+00:00:43.699 --> 00:00:46.426
+que a rede nunca viu antes.
+Não foi treinada nisso,
+
+00:00:46.460 --> 00:00:49.578
+são apenas dados que estão fora
+do conjunto de treinamento.
+
+00:00:49.612 --> 00:00:54.619
+Isso significa que você pode ver
+o desempenho da rede
+
+00:00:54.653 --> 00:00:57.607
+em um conjunto de dados
+que não foram vistos antes.
+
+00:00:57.641 --> 00:01:00.855
+Se você tiver uma perda
+de treinamento muito baixa,
+
+00:01:00.889 --> 00:01:03.170
+mas com uma perda de validação
+maior,
+
+00:01:03.204 --> 00:01:05.437
+isso significa que a rede
+está com sobreajuste,
+
+00:01:05.471 --> 00:01:11.142
+está com dificuldade para predizer
+imagens do conjunto de validação.
+
+00:01:11.176 --> 00:01:12.988
+Para evitar o sobreajuste,
+
+00:01:13.022 --> 00:01:15.332
+usamos a regularização
+como o dropout.
+
+00:01:15.366 --> 00:01:17.442
+Vou te mostrar como fazer isso
+neste caderno.
+
+00:01:17.476 --> 00:01:21.493
+Para começar,
+vou importar os pacotes,
+
+00:01:21.527 --> 00:01:23.980
+e então carregar os dados.
+
+00:01:24.014 --> 00:01:26.927
+Agora vou mostrar como construí
+minha rede
+
+00:01:26.961 --> 00:01:29.191
+para o conjunto de dados
+Fashion-MNIST.
+
+00:01:29.225 --> 00:01:32.885
+Eu compliquei um pouco
+e não te mostrei ainda.
+
+00:01:32.919 --> 00:01:35.133
+Espero que isso seja
+instrutivo.
+
+00:01:35.167 --> 00:01:37.334
+O que quero fazer
+é construir minha rede
+
+00:01:37.368 --> 00:01:40.155
+para passar um número arbitrário
+das camadas ocultas.
+
+00:01:40.189 --> 00:01:44.456
+Posso definir o número de unidades
+em cada uma dessas camadas ocultas.
+
+00:01:45.122 --> 00:01:46.340
+O que eu fiz:
+
+00:01:46.374 --> 00:01:49.478
+criei minha rede como o normal,
+nn.Mmodule.
+
+00:01:49.512 --> 00:01:51.369
+E na função init,
+
+00:01:51.403 --> 00:01:55.047
+eu queria passar
+o tamanho de input
+
+00:01:55.496 --> 00:01:59.917
+e o tamanho da saída,
+e as camadas ocultas.
+
+00:01:59.951 --> 00:02:01.902
+Também vou usar o dropout,
+
+00:02:01.936 --> 00:02:04.837
+posso definir
+uma probabilidade de queda aqui.
+
+00:02:04.871 --> 00:02:07.348
+Eu queria adicionar
+
+00:02:08.485 --> 00:02:10.787
+um número arbitrário
+de camadas ocultas.
+
+00:02:10.821 --> 00:02:14.116
+Para fazer isso,
+usei nn.ModuleList.
+
+00:02:14.364 --> 00:02:18.211
+Em funções como NormalList,
+você pode acrescentar,
+
+00:02:18.245 --> 00:02:20.259
+pode indexá-la
+e assim por diante.
+
+00:02:20.293 --> 00:02:23.549
+Mas ela apenas ajuda o PyTorch
+
+00:02:23.583 --> 00:02:28.388
+a rastrear a arquitetura
+da sua rede e exibi-la.
+
+00:02:28.422 --> 00:02:30.738
+Vou criar uma lista aqui,
+
+00:02:31.043 --> 00:02:34.999
+colocar na operação linear
+para a primeira camada.
+
+00:02:35.033 --> 00:02:39.594
+input_size,
+hidden_layers. 0.
+
+00:02:39.628 --> 00:02:44.593
+Isso será como uma camada de input
+na primeira das camadas ocultas.
+
+00:02:45.091 --> 00:02:50.207
+Agora preciso adicionar camadas
+à lista de camadas ocultas.
+
+00:02:50.241 --> 00:02:52.950
+Vai ser como em nn.Linear,
+
+00:02:52.984 --> 00:02:58.074
+mas preciso ter uma maneira
+de colocar em h1 e h2,
+
+00:02:58.108 --> 00:03:00.305
+onde h1 é o input
+para alguma camada,
+
+00:03:00.339 --> 00:03:01.744
+e o output dessa camada.
+
+00:03:01.778 --> 00:03:06.153
+Então as camadas ocultas
+são inseridas aqui,
+
+00:03:06.187 --> 00:03:08.452
+se parece algo assim.
+
+00:03:08.486 --> 00:03:13.090
+Digamos 200, 100, 50.
+Algo parecido com isto.
+
+00:03:13.508 --> 00:03:18.014
+A lista onde temos três camadas,
+as primeiras três camadas ocultas,
+
+00:03:18.048 --> 00:03:20.438
+a primeira tem 200 unidades,
+a segunda tem 100 unidades,
+
+00:03:20.472 --> 00:03:21.908
+a terceira tem 50 unidades.
+
+00:03:21.942 --> 00:03:24.310
+O que eu preciso fazer é algo
+que se parece
+
+00:03:24.344 --> 00:03:27.389
+com self.Linear(200, 100),
+
+00:03:27.817 --> 00:03:30.658
+self.Linear(100, 50),
+
+00:03:30.944 --> 00:03:34.272
+self.Linear(50, output_size).
+
+00:03:34.306 --> 00:03:36.458
+Mas quero fazer isso
+programaticamente,
+
+00:03:36.492 --> 00:03:38.310
+não quero ter que codificar
+esses números,
+
+00:03:38.344 --> 00:03:40.109
+porque quero tirá-los
+dessas camadas ocultas.
+
+00:03:40.143 --> 00:03:43.962
+Podemos fazer isso para obter
+esses pares 200, 100, 150.
+
+00:03:43.996 --> 00:03:46.187
+Você tem que usar
+zip(hidden_layers)
+
+00:03:46.221 --> 00:03:50.784
+e depois uma parte
+do primeiro elemento até o último,
+
+00:03:50.835 --> 00:03:54.997
+e as camadas ocultas
+do segundo elemento para o último.
+
+00:03:55.334 --> 00:03:59.889
+A primeira coisa que vai sair daqui
+é 200 e 100.
+
+00:03:59.923 --> 00:04:05.563
+O primeiro elemento fora do zip
+será o primeiro
+
+00:04:05.597 --> 00:04:08.148
+e depois o segundo,
+então é 200 e 100.
+
+00:04:08.189 --> 00:04:11.824
+Então o segundo elemento
+será 100 e 50.
+
+00:04:12.180 --> 00:04:17.282
+Isso nos dá o tamanho
+das camadas ocultas como tuplas.
+
+00:04:18.109 --> 00:04:21.526
+Agora eu poderia usar
+self.hidden_layers.extend,
+
+00:04:21.560 --> 00:04:24.939
+pois é apenas uma lista e podemos
+usar extend como uma lista.
+
+00:04:24.973 --> 00:04:29.530
+E depois vamos adicionar
+as operações lineares.
+
+00:04:29.564 --> 00:04:33.684
+Isso vai configurar o número
+arbitrário de camadas ocultas.
+
+00:04:33.970 --> 00:04:39.496
+Então para self.output,
+
+00:04:39.530 --> 00:04:42.714
+queremos outra camada linear
+aqui
+
+00:04:42.748 --> 00:04:44.674
+e depois output_size.
+
+00:04:45.229 --> 00:04:50.579
+Eles estão lá em cima.
+Também quero usar dropout,
+
+00:04:50.613 --> 00:04:54.041
+então posso adicionar
+um módulo de dropout aqui.
+
+00:04:54.075 --> 00:04:57.546
+É só nn.Dropout.
+
+00:04:57.580 --> 00:05:00.450
+Então você pode definir
+a probabilidade de queda.
+
+00:05:00.746 --> 00:05:04.648
+Você pode codificar,
+mas vou colocá-lo como drop_p,
+
+00:05:04.682 --> 00:05:07.037
+que é um dos argumentos
+de palavra-chave para a rede.
+
+00:05:07.328 --> 00:05:11.780
+Definimos
+a arquitetura da rede.
+
+00:05:11.814 --> 00:05:16.484
+A seguir tem o método forward.
+
+00:05:16.902 --> 00:05:21.231
+Temos as camadas ocultas
+nesta lista,
+
+00:05:21.265 --> 00:05:24.261
+self.hidden_layers
+e podemos ajustar o loop.
+
+00:05:24.295 --> 00:05:27.019
+Então:
+for each in self.hidden_layers,
+
+00:05:27.053 --> 00:05:28.968
+para cada uma
+dessas camadas ocultas,
+
+00:05:29.002 --> 00:05:31.049
+vamos passar em x.
+
+00:05:31.083 --> 00:05:34.020
+Você passa x, o tensor vai
+para a camada oculta,
+
+00:05:34.054 --> 00:05:36.356
+passa pela função relu
+de ativação,
+
+00:05:36.390 --> 00:05:41.770
+e depois vamos colocar o dropout
+após a ativação da ação.
+
+00:05:42.085 --> 00:05:44.323
+Para cada camada
+e camadas ocultas,
+
+00:05:44.360 --> 00:05:47.504
+passamos por essa função linear
+correspondente
+
+00:05:47.538 --> 00:05:51.305
+e depois passa pela função relu
+de ativação,
+
+00:05:51.339 --> 00:05:55.002
+e passa pelo dropout e por fim,
+o último, self.output.
+
+00:05:55.267 --> 00:05:57.320
+Aqui vou usar
+
+00:05:57.354 --> 00:06:02.165
+return F.log_softmax
+(x, dim=1).
+
+00:06:02.370 --> 00:06:04.561
+Antes eu retornei os logits,
+
+00:06:04.595 --> 00:06:07.428
+mas agora estou retornando
+log_softmax.
+
+00:06:07.462 --> 00:06:12.352
+Há uma função de perda de critério
+onde podemos usar o log_softmax,
+
+00:06:12.386 --> 00:06:15.725
+e lembre-se que estava falando
+que com o softmax
+
+00:06:15.759 --> 00:06:18.482
+você pode ter
+pontos flutuantes
+
+00:06:18.516 --> 00:06:22.298
+em cálculos muito difíceis,
+
+00:06:22.694 --> 00:06:25.052
+porque alguns dos números
+estão muito próximos de zero
+
+00:06:25.086 --> 00:06:27.298
+e alguns deles podem ser
+muito parecidos com 1.
+
+00:06:27.332 --> 00:06:29.396
+Mas quando você trabalha
+no espaço do log,
+
+00:06:29.824 --> 00:06:32.947
+seus números se comportam
+muito melhor.
+
+00:06:32.981 --> 00:06:36.004
+Você é como -4 ou algo assim.
+
+00:06:36.038 --> 00:06:39.075
+O cálculo é muito mais fácil
+no espaço de log
+
+00:06:39.109 --> 00:06:42.153
+da distribuição de probabilidade
+softmax.
+
+00:06:42.535 --> 00:06:44.993
+Com o log_softmax,
+
+00:06:45.027 --> 00:06:49.222
+se quisermos a distribuição
+de probabilidade real do softmax,
+
+00:06:49.256 --> 00:06:50.905
+é só pegar o exponencial.
+
+00:06:50.939 --> 00:06:55.131
+E isso é
+para a arquitetura de rede.
+
+00:06:55.165 --> 00:06:59.729
+Agora precisamos criar a rede
+e definir o critério e o otimizador.
+
+00:06:59.795 --> 00:07:04.812
+Vamos chamar
+model = Network(784),
+
+00:07:04.846 --> 00:07:07.108
+input normal,
+queremos 10 como normal.
+
+00:07:07.142 --> 00:07:10.478
+Vou usar uma camada oculta
+com 500 unidades.
+
+00:07:10.512 --> 00:07:14.233
+Podemos adicionar mais,
+200, 500,
+
+00:07:14.267 --> 00:07:15.551
+tudo o que queremos lá,
+
+00:07:15.585 --> 00:07:19.544
+e definir a probabilidade de queda
+para 0.5.
+
+00:07:19.578 --> 00:07:21.159
+Agora podemos criar
+o critério.
+
+00:07:21.389 --> 00:07:23.121
+Como eu falei antes,
+
+00:07:23.155 --> 00:07:28.684
+temos o log_softmax como a saída
+do forward pass.
+
+00:07:28.971 --> 00:07:33.815
+Então podemos usar
+o nn.NLLLoss com isso.
+
+00:07:34.538 --> 00:07:36.834
+Se você ler
+a documentação aqui,
+
+00:07:36.899 --> 00:07:39.457
+isso é a perda negativa
+da probabilidade de log
+
+00:07:39.491 --> 00:07:42.434
+e é útil para classificação,
+
+00:07:42.468 --> 00:07:45.594
+e é a input passando antes,
+porque se espera que o recall tenha
+
+00:07:45.628 --> 00:07:47.225
+as probabilidades de log
+de cada classe,
+
+00:07:47.259 --> 00:07:49.220
+que é o que temos aqui.
+
+00:07:49.254 --> 00:07:51.374
+Temos as probabilidades de log
+de cada classe.
+
+00:07:51.746 --> 00:07:53.710
+Esta é a função de perda
+que queremos usar.
+
+00:07:54.200 --> 00:07:59.043
+Para o otimizador,
+vamos usar o Otimizador Adam.
+
+00:07:59.361 --> 00:08:01.163
+O Adam
+
+00:08:01.197 --> 00:08:05.830
+é uma variação
+do gradiente descendente estocástico
+
+00:08:05.864 --> 00:08:10.098
+mas usa momentum para aumentar
+a velocidade de treinamento,
+
+00:08:10.132 --> 00:08:12.186
+lr.0.001.
+
+00:08:12.220 --> 00:08:14.543
+Defina a taxa de aprendizado
+para 0.001.
+
+00:08:14.600 --> 00:08:16.705
+Agora que está tudo
+configurado,
+
+00:08:16.739 --> 00:08:20.082
+podemos começar a escrever
+o código de treinamento como normal.
+
+00:08:20.116 --> 00:08:21.733
+Treinamento para 2 epochs,
+
+00:08:22.409 --> 00:08:27.147
+os steps em 0,
+running_loss como 0.
+
+00:08:27.181 --> 00:08:31.117
+Vamos exibir as perdas
+a cada 40 etapas
+
+00:08:31.332 --> 00:08:34.852
+for e in range(epochs).
+
+00:08:35.589 --> 00:08:39.128
+Agora temos o dropout.
+
+00:08:39.448 --> 00:08:41.958
+Observe que quando estamos
+treinando,
+
+00:08:41.992 --> 00:08:43.517
+queremos que o dropout ativo.
+
+00:08:43.551 --> 00:08:46.034
+Queremos que haja
+probabilidade para o dropout.
+
+00:08:46.068 --> 00:08:48.861
+Mas quando estamos avaliando,
+
+00:08:48.895 --> 00:08:52.362
+quando estamos tentando
+fazer inferência ou validação,
+
+00:08:52.396 --> 00:08:54.180
+precisamos que o dropout
+esteja desativado.
+
+00:08:54.214 --> 00:08:57.139
+Lembre que o dropout desliga
+aleatoriamente
+
+00:08:57.173 --> 00:09:00.110
+algumas conexões e abandona
+algumas unidades.
+
+00:09:00.144 --> 00:09:02.934
+Isso significa é que o dropout
+está ativo
+
+00:09:02.968 --> 00:09:04.295
+e você tenta fazer inferência
+
+00:09:04.329 --> 00:09:07.786
+e a rede não vai funcionar
+em sua capacidade total.
+
+00:09:07.820 --> 00:09:10.609
+Você não vai conseguir
+uma boa medição nem boas predições.
+
+00:09:10.643 --> 00:09:14.807
+Queremos desligar o dropout
+quando fazemos inferências.
+
+00:09:14.841 --> 00:09:16.664
+Queremos ligá-lo
+quando estamos treinando.
+
+00:09:17.010 --> 00:09:19.268
+O PyTorch faz isso
+de forma simples,
+
+00:09:19.302 --> 00:09:22.201
+se digitar model.train,
+ativa o dropout.
+
+00:09:22.235 --> 00:09:24.753
+ativa tudo o que deveria estar
+ativado enquanto você treina
+
+00:09:24.787 --> 00:09:28.998
+e depois, se você quiser sair,
+digita model.eval.
+
+00:09:29.032 --> 00:09:32.496
+Você basicamente configura
+o modelo no modo de avaliação
+
+00:09:32.530 --> 00:09:34.955
+para inferência e validação.
+
+00:09:34.989 --> 00:09:37.488
+No início deste loop,
+queremos começar no modo treino,
+
+00:09:37.522 --> 00:09:38.941
+obviamente, model.train.
+
+00:09:38.975 --> 00:09:42.514
+Para o passe de treinamento,
+você já viu tudo isso antes,
+
+00:09:42.548 --> 00:09:44.287
+por isso não é
+muito interessante.
+
+00:09:44.321 --> 00:09:47.243
+Agora estamos na parte
+
+00:09:47.277 --> 00:09:50.454
+em que queremos exibir
+a perda de treinamento,
+
+00:09:50.488 --> 00:09:55.900
+assim print_every ==0:.
+
+00:09:55.934 --> 00:09:57.608
+Quando exibimos
+a perda de treinamento,
+
+00:09:57.642 --> 00:09:59.471
+também queremos exibir
+a perda de validação.
+
+00:09:59.505 --> 00:10:02.204
+Queremos executar a rede,
+
+00:10:02.238 --> 00:10:05.617
+queremos executar o conjunto
+de testes através da rede
+
+00:10:05.651 --> 00:10:09.191
+e testar o desempenho dos dados,
+como vimos anteriormente.
+
+00:10:09.225 --> 00:10:11.807
+Estamos fazendo inferência aqui,
+por isso queremos garantir
+
+00:10:11.841 --> 00:10:14.520
+que o modelo está
+no modo de avaliação.
+
+00:10:14.580 --> 00:10:16.659
+Isso vai desligar o dropout.
+
+00:10:16.693 --> 00:10:20.588
+Queremos saber a precisão
+e também queremos saber o test_loss.
+
+00:10:20.894 --> 00:10:24.822
+A precisão é exatamente
+a probabilidade
+
+00:10:24.856 --> 00:10:29.104
+de que a rede determine
+corretamente qual é a imagem.
+
+00:10:29.677 --> 00:10:34.258
+Vamos fazer o loop
+das imagens e rótulos
+
+00:10:34.292 --> 00:10:36.963
+no conjunto de testes,
+é um testloader.
+
+00:10:36.997 --> 00:10:41.378
+Normal, images.resize.
+
+00:10:41.412 --> 00:10:44.399
+Vamos colocar as imagens
+e rótulos em variáveis.
+
+00:10:45.069 --> 00:10:47.338
+Aqui o que queremos fazer
+com a variável,
+
+00:10:47.689 --> 00:10:51.023
+realmente queremos definir
+volatile=True.
+
+00:10:51.315 --> 00:10:55.819
+Isso significa
+que não queremos
+
+00:10:55.853 --> 00:10:59.055
+fazer a retropropagação,
+não queremos fazer um backward pass.
+
+00:10:59.089 --> 00:11:01.892
+Isso desativa o Autograd,
+
+00:11:01.926 --> 00:11:05.514
+ele não monitora todas as operações,
+se você não se importar com isso.
+
+00:11:05.548 --> 00:11:08.248
+Você quer fazer isso
+quando está fazendo inferência
+
+00:11:08.282 --> 00:11:12.399
+com modelos de PyTorch
+porque isso faz cálculos,
+
+00:11:12.433 --> 00:11:16.550
+demora e será mais rápido
+se você não manter os gradientes
+
+00:11:16.584 --> 00:11:19.454
+e não rastrear as operações
+que estão acontecendo.
+
+00:11:19.488 --> 00:11:21.237
+Quando estiver
+no modo de inferência,
+
+00:11:21.271 --> 00:11:25.846
+você quer criar as variáveis
+com volatile=True.
+
+00:11:26.434 --> 00:11:30.912
+Vamos fazer um forward pass
+com as imagens
+
+00:11:31.295 --> 00:11:32.995
+e obtemos o test_loss.
+
+00:11:33.434 --> 00:11:37.191
+Agora queremos calcular
+a precisão.
+
+00:11:37.795 --> 00:11:40.811
+Para calcular a precisão,
+primeiro precisamos das predições.
+
+00:11:40.845 --> 00:11:45.022
+Vamos pegar as probabilidades
+em torch.exp.
+
+00:11:45.056 --> 00:11:48.970
+Isso pega o exponencial,
+lembre que o output é o log_softmax.
+
+00:11:49.004 --> 00:11:50.331
+Se pegamos o exponencial,
+
+00:11:50.365 --> 00:11:52.550
+voltamos
+a distribuição de probabilidade
+
+00:11:52.584 --> 00:11:54.309
+softmax sobre as classes.
+
+00:11:54.552 --> 00:11:58.610
+Isso traz as probabilidades
+e podemos testar a igualdade.
+
+00:11:59.067 --> 00:12:01.723
+Queremos conhecer os rótulos.
+
+00:12:01.757 --> 00:12:03.732
+Os rótulos são os labels true,
+certo?
+
+00:12:04.016 --> 00:12:06.181
+Eles são iguais aos rótulos
+
+00:12:06.215 --> 00:12:10.190
+que são previstos pela rede?
+
+00:12:10.452 --> 00:12:15.413
+Lembre-se que ps aqui
+é a distribuição de probabilidade
+
+00:12:15.447 --> 00:12:17.094
+e por isso estamos pegando
+o max.
+
+00:12:17.128 --> 00:12:19.304
+Basicamente você está encontrando
+a classe
+
+00:12:19.338 --> 00:12:21.488
+que tem maior probabilidade.
+
+00:12:21.522 --> 00:12:23.658
+O que o 1 aqui faz é devolver
+
+00:12:23.692 --> 00:12:26.601
+o índice da classe
+com a maior probabilidade.
+
+00:12:26.635 --> 00:12:29.177
+Assim estamos testando
+os rótulos verdadeiros
+
+00:12:29.211 --> 00:12:30.756
+com os rótulos previstos.
+
+00:12:30.790 --> 00:12:35.876
+Lembre que isso está prevendo
+o índice com a maior probabilidade.
+
+00:12:35.910 --> 00:12:39.908
+Então quando a rede diz
+que é a 9ª temporada,
+
+00:12:39.942 --> 00:12:41.603
+está dizendo que é 9.
+
+00:12:41.637 --> 00:12:45.323
+Isso nos dá verdadeiro
+ou falso
+
+00:12:45.709 --> 00:12:51.185
+com base em se os rótulos reais
+são os mesmos rótulos
+
+00:12:51.219 --> 00:12:53.102
+que foram previstos pela rede.
+
+00:12:53.349 --> 00:12:57.299
+Então podemos calcular
+a precisão e a igualdade.
+
+00:12:57.634 --> 00:12:59.711
+Lembre que a precisão
+é basicamente
+
+00:12:59.745 --> 00:13:04.290
+quantas predições a rede
+consegue acertar,
+
+00:13:04.826 --> 00:13:07.261
+dividida pelo número total
+de predições feitas.
+
+00:13:07.849 --> 00:13:11.117
+Como elas são verdadeiras
+e falsas,
+
+00:13:11.151 --> 00:13:15.583
+se convertem para 1 e 0.
+
+00:13:15.617 --> 00:13:19.064
+Verdadeiro é 1, falso é 0,
+e se você pegar a média,
+
+00:13:19.098 --> 00:13:22.417
+ela será convertida na soma
+de todos os 1 corretos
+
+00:13:22.451 --> 00:13:25.291
+dividido pelo número total
+de predições que você tem.
+
+00:13:25.325 --> 00:13:30.116
+Se você pegar equality.mean,
+vai voltar à precisão da rede.
+
+00:13:30.556 --> 00:13:33.171
+Se você tentar executar
+um código como este,
+
+00:13:33.205 --> 00:13:34.524
+vai descobrir que ele falha,
+
+00:13:34.558 --> 00:13:37.198
+e basicamente, o que acontece
+é a igualdade,
+
+00:13:37.232 --> 00:13:39.223
+eu acho que é
+como um tipo booleano,
+
+00:13:39.257 --> 00:13:41.690
+como um tensor booleano
+em vez de um tensor float,
+
+00:13:41.724 --> 00:13:46.739
+mas quando você digita .mean,
+ele precisa ser um tensor float.
+
+00:13:46.773 --> 00:13:49.048
+Você precisa convertê-lo aqui.
+
+00:13:49.095 --> 00:13:53.374
+Digite
+type_as(torch.FloatTensor).
+
+00:13:53.408 --> 00:13:56.352
+Estamos pegando a igualdade
+que obtemos a partir daqui,
+
+00:13:56.386 --> 00:13:57.496
+é como um tensor booleano,
+
+00:13:57.530 --> 00:14:00.997
+estamos convertendo
+em um tensor float
+
+00:14:01.031 --> 00:14:03.452
+e obtemos a média
+e isso nos dá a precisão.
+
+00:14:03.486 --> 00:14:07.046
+Todo esse loop aqui é
+o loop de validação.
+
+00:14:07.269 --> 00:14:09.850
+Passamos por todas as imagens
+no Test Loader
+
+00:14:09.884 --> 00:14:13.250
+e estamos calculando a perda
+e a precisão.
+
+00:14:13.284 --> 00:14:18.529
+Isso diz qual é o desempenho da rede
+com dados, como vimos.
+
+00:14:18.813 --> 00:14:22.045
+Cole isso aqui.
+
+00:14:22.414 --> 00:14:27.727
+Isso exibe em qual epoch estamos,
+qual é a perda de treinamento,
+
+00:14:27.761 --> 00:14:30.514
+qual é a perda de teste
+e qual é a precisão do teste.
+
+00:14:30.766 --> 00:14:35.414
+Aqui o Test Loader
+mostra o número de lotes.
+
+00:14:35.448 --> 00:14:38.125
+O número de vezes
+que você fez loops aqui, certo?
+
+00:14:38.159 --> 00:14:39.360
+Temos a precisão,
+
+00:14:39.394 --> 00:14:41.592
+estamos adicionando tudo
+e obtendo a média.
+
+00:14:41.639 --> 00:14:45.359
+Vamos dividir pelo número total
+de loops aqui.
+
+00:14:45.393 --> 00:14:48.335
+Esta é a média da precisão
+e a média da perda de teste.
+
+00:14:48.663 --> 00:14:53.656
+Por fim, precisamos definir
+o running_loss para 0 no final.
+
+00:14:54.087 --> 00:14:57.097
+Também queremos definir
+de volta o modelo para treinamento.
+
+00:14:57.750 --> 00:15:01.632
+Agora que escrevemos tudo,
+podemos treinar a rede.
+
+00:15:03.417 --> 00:15:05.785
+Depois de treinar 2 epochs,
+
+00:15:06.058 --> 00:15:10.365
+conseguimos a precisão do teste
+em cerca de 0.85. É muito bom.
+
+00:15:10.763 --> 00:15:14.092
+Podemos adicionar a rede
+e ter certeza de que ela funciona.
+
+00:15:14.126 --> 00:15:18.229
+Não sei exatamente
+se 7 é o sapato,
+
+00:15:18.263 --> 00:15:20.413
+mas ela acha que 7
+é sapato.
+
+00:15:20.757 --> 00:15:22.414
+Na próxima parte,
+
+00:15:22.448 --> 00:15:24.871
+vou mostrar como salvar
+os modelos treinados.
+
+00:15:24.905 --> 00:15:28.167
+Não faz muito sentido
+treinar uma nova rede
+
+00:15:28.201 --> 00:15:29.281
+toda vez que precisar,
+
+00:15:29.315 --> 00:15:32.271
+o que você vai fazer é treinar
+a rede e salvá-la.
+
+00:15:32.305 --> 00:15:34.132
+E quando precisar
+fazer inferência
+
+00:15:34.166 --> 00:15:36.143
+ou talvez treiná-la mais
+com novos dados,
+
+00:15:36.177 --> 00:15:38.426
+vai carregá-la de volta
+e continuar treinando
+
+00:15:38.460 --> 00:15:41.356
+ou usar para inferência.
+Até o próximo vídeo.
+

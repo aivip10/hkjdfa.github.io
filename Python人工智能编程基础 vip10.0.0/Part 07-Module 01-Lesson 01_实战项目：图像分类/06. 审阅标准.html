@@ -1,0 +1,336 @@
+<!-- udacity2.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>审阅标准</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>实战项目：图像分类</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. 课程讲师.html">01. 课程讲师</a>
+    </li>
+    <li class="">
+      <a href="02. 项目简介.html">02. 项目简介</a>
+    </li>
+    <li class="">
+      <a href="03. GPU Workspace 简介.html">03. GPU Workspace 简介</a>
+    </li>
+    <li class="">
+      <a href="04. 图像分类器（第 1 部分）- 开发.html">04. 图像分类器（第 1 部分）- 开发</a>
+    </li>
+    <li class="">
+      <a href="05. 图像分类器（第 2 部分）- 命令行应用.html">05. 图像分类器（第 2 部分）- 命令行应用</a>
+    </li>
+    <li class="">
+      <a href="06. 审阅标准.html">06. 审阅标准</a>
+    </li>
+    <li class="">
+      <a href="Project Description - 图像分类器应用.html">Project Description - 图像分类器应用</a>
+    </li>
+    <li class="">
+      <a href="Project Rubric - 图像分类器应用.html">Project Rubric - 图像分类器应用</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">06. 审阅标准</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h3 id="提交的文件">提交的文件</h3>
+<table>
+<thead>
+<tr>
+<th id="**条件**"><strong>条件</strong></th>
+<th id="**规范**"><strong>规范</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>提交的文件</td>
+<td>提交的文件包含所有必要的文件。</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h3 id="第-1-部分---开发-notebook">第 1 部分 - 开发 Notebook</h3>
+<table>
+<thead>
+<tr>
+<th id="**条件**"><strong>条件</strong></th>
+<th id="**规范**"><strong>规范</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>导入软件包</td>
+<td>在 notebook 的第一个单元格中导入所有必要的软件包和模块</td>
+</tr>
+<tr>
+<td>改善训练数据</td>
+<td>使用 torchvision 变换以通过随机缩放、旋转、镜像和/或裁剪改善训练数据</td>
+</tr>
+<tr>
+<td>数据标准化</td>
+<td>恰当地裁剪和标准化训练、验证和测试数据</td>
+</tr>
+<tr>
+<td>数据加载</td>
+<td>使用 torchvision 的 ImageFolder 加载每个数据集（训练集、验证集、测试集）的数据</td>
+</tr>
+<tr>
+<td>数据批处理</td>
+<td>使用 torchvision 的 DataLoader 加载每个数据集的数据</td>
+</tr>
+<tr>
+<td>预训练的网络</td>
+<td>从 torchvision.models 加载 VGG16 等预训练的网络并冻结参数</td>
+</tr>
+<tr>
+<td>前馈分类器</td>
+<td>定义了一个新的前馈网络用作分类器，并使用特征作为输入</td>
+</tr>
+<tr>
+<td>训练网络</td>
+<td>适当地训练前馈分类器的参数，而特征网络的参数保持静态</td>
+</tr>
+<tr>
+<td>验证损失和准确率</td>
+<td>训练期间显示验证损失和准确率</td>
+</tr>
+<tr>
+<td>测试准确率</td>
+<td>衡量网络在测试数据上的准确率</td>
+</tr>
+<tr>
+<td>保存模型</td>
+<td>将训练的模型保存为检查点，并保存相关的超参数和 <code>class_to_idx</code> 字典</td>
+</tr>
+<tr>
+<td>加载检查点</td>
+<td>可以通过函数成功地加载检查点和重构模型</td>
+</tr>
+<tr>
+<td>图像处理</td>
+<td><code>process_image</code> 函数成功地将 PIL 图像转换为张量，并用作已训练模型的输入</td>
+</tr>
+<tr>
+<td>类别预测</td>
+<td><code>predict</code> 函数成功地获取图像路径和检查点，然后返回该图像的前 K 个可能的类别</td>
+</tr>
+<tr>
+<td>通过 matplotlib 进行健全性检查</td>
+<td>创建了 matplotlib 图表，并显示图像和相关的前 5 个可能类别及其实际花卉名称</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h2 id="第-2-部分---命令行应用">第 2 部分 - 命令行应用</h2>
+<table>
+<thead>
+<tr>
+<th id="**条件**"><strong>条件</strong></th>
+<th id="**规范**"><strong>规范</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>训练网络</td>
+<td><code>train.py</code> 成功地用图像数据集训练一个新的网络</td>
+</tr>
+<tr>
+<td>训练验证日志</td>
+<td>在训练网络时输出训练损失、验证损失和验证准确率</td>
+</tr>
+<tr>
+<td>模型架构</td>
+<td>训练脚本使用户能够从 torchvision.models 中选择至少两个不同的可用架构</td>
+</tr>
+<tr>
+<td>模型超参数</td>
+<td>训练脚本使用户能够设置学习速率、隐藏单元数和训练周期超参数</td>
+</tr>
+<tr>
+<td>在 GPU 上进行训练</td>
+<td>训练脚本使用户能够选择在 GPU 上训练模型</td>
+</tr>
+<tr>
+<td>预测类别</td>
+<td><code>predict.py</code> 脚本成功地读取了图像和检查点，然后输出最可能的图像类别及其概率</td>
+</tr>
+<tr>
+<td>前 K 个类别</td>
+<td><code>predict.py</code> 脚本使用户能够输出前 K 个类别及其相关的概率</td>
+</tr>
+<tr>
+<td>显示类别名称</td>
+<td><code>predict.py</code> 脚本使用户能够加载将类别值映射到其他类别名称的 JSON 文件</td>
+</tr>
+<tr>
+<td>在 GPU 上进行预测</td>
+<td><code>predict.py</code> 脚本使用户能够使用 GPU 计算预测值</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p><a href="https://review.udacity.com/#!/rubrics/1794/view" rel="noopener noreferrer" target="_blank">中文审阅标准页面</a>。</p>
+</div>
+
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://us-udacity.github.io/" target="_blank">【udacity2.0 】If you need more courses, please add wechat：udacity6</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('06. 审阅标准')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>

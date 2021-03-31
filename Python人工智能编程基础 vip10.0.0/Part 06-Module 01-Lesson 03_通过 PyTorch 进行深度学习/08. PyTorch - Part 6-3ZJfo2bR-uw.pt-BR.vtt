@@ -1,0 +1,530 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.047 --> 00:00:01.168
+Bem-vindo de volta!
+
+00:00:01.201 --> 00:00:05.796
+Neste vídeo eu vou mostrar
+como salvar e carregar os modelos
+
+00:00:05.829 --> 00:00:07.462
+que você treinou
+com o PyTorch.
+
+00:00:07.496 --> 00:00:10.843
+Isso é importante porque,
+na maior parte das vezes,
+
+00:00:10.876 --> 00:00:13.714
+você vai querer treinar
+sua rede com alguns dados
+
+00:00:13.744 --> 00:00:15.796
+e depois
+salvar tudo no disco.
+
+00:00:15.829 --> 00:00:18.748
+Depois você pode carregar
+e treinar mais
+
+00:00:18.781 --> 00:00:21.956
+ou usar para inferências,
+para fazer predições.
+
+00:00:23.159 --> 00:00:26.932
+Eu me adiantei e rodei
+a maior parte deste código
+
+00:00:26.965 --> 00:00:29.974
+e treinei minha rede
+no Fashion-MNIST de novo.
+
+00:00:30.740 --> 00:00:35.629
+Veja que temos uma precisão
+de 84% ou 85%,
+
+00:00:36.177 --> 00:00:38.145
+Agora que a rede foi treinada,
+
+00:00:38.358 --> 00:00:42.720
+nós queremos pegar esses pesos,
+agora que aprendemos esse problema,
+
+00:00:42.753 --> 00:00:45.570
+e vamos salvá-los para que,
+no futuro,
+
+00:00:45.603 --> 00:00:47.788
+possamos carregá-los
+e usá-los de novo.
+
+00:00:47.821 --> 00:00:49.292
+Esses pesos,
+esses parâmetros,
+
+00:00:49.325 --> 00:00:52.491
+são armazenados em
+model.state_dict.
+
+00:00:53.536 --> 00:00:56.267
+Vamos exibir para ver
+nossa rede, aqui.
+
+00:00:56.296 --> 00:00:58.996
+Temos duas camadas ocultas.
+
+00:00:59.029 --> 00:01:01.540
+Esta aqui vai até 500,
+e de 500 vai para 100.
+
+00:01:01.573 --> 00:01:03.417
+Depois vai para
+a camada de output,
+
+00:01:03.450 --> 00:01:05.939
+que tem 10 unidades de output
+
+00:01:05.972 --> 00:01:07.378
+e depois temos o dropout.
+
+00:01:07.406 --> 00:01:08.756
+Essa é a cara da rede.
+
+00:01:08.789 --> 00:01:11.578
+Se olharmos as chaves
+do state_dict,
+
+00:01:11.612 --> 00:01:14.765
+ele vai nos mostrar que temos
+camadas ocultas com peso zero.
+
+00:01:14.799 --> 00:01:15.897
+Isso está aqui.
+
+00:01:15.931 --> 00:01:17.700
+E camadas ocultas com viés.
+
+00:01:17.733 --> 00:01:20.464
+A 2ª camada oculta
+nos dá o peso e o viés
+
+00:01:20.497 --> 00:01:23.553
+e também o peso e o viés
+da camada de output.
+
+00:01:24.289 --> 00:01:27.165
+Os tensores que formam
+nossos pesos e vieses
+
+00:01:27.198 --> 00:01:30.320
+estão armazenados
+em model.state_dict.
+
+00:01:30.670 --> 00:01:33.102
+Tipicamente é isso
+que queremos salvar.
+
+00:01:33.433 --> 00:01:35.853
+Salvar o state_dict
+é muito simples.
+
+00:01:35.886 --> 00:01:37.592
+É só usar torch.save
+
+00:01:37.625 --> 00:01:40.422
+e depois model.state_dict,
+
+00:01:40.455 --> 00:01:43.992
+chamando de checkpoint.pth.
+
+00:01:44.025 --> 00:01:45.458
+Pronto, está salvo.
+
+00:01:45.492 --> 00:01:48.426
+Agora que está salvo,
+podemos carregar no state_dict.
+
+00:01:48.459 --> 00:01:52.778
+Fazemos
+state_dict = torch.load.
+
+00:01:53.004 --> 00:01:56.993
+O resto é a mesma coisa,
+checkpoint.pth.
+
+00:01:57.410 --> 00:01:59.076
+Coloquei um "p" a mais.
+
+00:01:59.109 --> 00:02:03.527
+Agora podemos dar print
+para ver as chaves.
+
+00:02:03.907 --> 00:02:06.564
+Isso nos dá as mesmas camadas
+que vimos antes,
+
+00:02:06.597 --> 00:02:08.078
+hidden_layers.0.weight.
+
+00:02:08.111 --> 00:02:09.599
+Devemos ver a mesma coisa.
+
+00:02:09.641 --> 00:02:11.608
+Mas o state_dict
+se auto-carrega.
+
+00:02:11.641 --> 00:02:13.879
+Como carregamos ele
+para um modelo?
+
+00:02:13.912 --> 00:02:17.355
+Basta escrever
+model.load_state_dict
+
+00:02:17.388 --> 00:02:19.259
+e passamos state_dict.
+
+00:02:19.292 --> 00:02:22.575
+Repare que nosso modelo
+já precisa existir,
+
+00:02:22.608 --> 00:02:24.418
+ele precisa
+já ter sido criado.
+
+00:02:24.451 --> 00:02:28.467
+Ele será criado com pesos e vieses
+inicializados aleatoriamente.
+
+00:02:28.500 --> 00:02:30.771
+Os parâmetros
+são inicializados aleatoriamente.
+
+00:02:30.774 --> 00:02:32.824
+Estamos passando
+nosso state_dict
+
+00:02:32.857 --> 00:02:36.548
+e os parâmetros aleatórios
+são substituídos
+
+00:02:36.581 --> 00:02:38.687
+por aqueles
+que acabamos de treinar.
+
+00:02:39.079 --> 00:02:40.566
+Isso parece bem simples.
+
+00:02:40.599 --> 00:02:43.715
+Salve o state_dict
+e carregue-o depois em um modelo,
+
+00:02:43.991 --> 00:02:46.461
+mas não é assim tão simples.
+
+00:02:46.951 --> 00:02:48.622
+Vou mostrar o por quê.
+
+00:02:48.655 --> 00:02:50.815
+Se eu criar uma nova rede...
+
+00:02:50.848 --> 00:02:54.257
+784, normal,
+10 unidades de output...
+
+00:02:54.529 --> 00:03:00.217
+Mas desta vez eu vou usar
+três camadas ocultas,
+
+00:03:00.548 --> 00:03:03.330
+com 400, 200 e 100 unidades
+cada uma.
+
+00:03:05.270 --> 00:03:06.681
+Muito bem. E agora,
+
+00:03:06.714 --> 00:03:09.352
+tenho um state_dict
+previamente treinado, certo?
+
+00:03:09.385 --> 00:03:11.505
+Bem, criei um novo modelo
+
+00:03:11.538 --> 00:03:15.060
+e vou tentar carregar
+esse state_dict.
+
+00:03:15.611 --> 00:03:16.792
+E dá erro.
+
+00:03:16.826 --> 00:03:20.448
+Aqui diz, basicamente:
+"Tamanho de tensor inconsistente,
+
+00:03:20.481 --> 00:03:23.666
+o tensor esperado é de um tamanho
+e a fonte é de outro.
+
+00:03:24.063 --> 00:03:26.137
+Certo, o que isso significa
+
+00:03:26.170 --> 00:03:29.899
+é que, quando treinei o state_dict
+nesse ponto de salvamento,
+
+00:03:29.933 --> 00:03:32.786
+eu tinha uma arquitetura
+de rede diferente.
+
+00:03:33.610 --> 00:03:37.456
+Na rede original eu tinha
+500 unidades na primeira camada
+
+00:03:37.489 --> 00:03:39.625
+e agora tenho 400.
+
+00:03:39.964 --> 00:03:44.653
+Ou seja, quando você constrói
+sua rede e a treina,
+
+00:03:44.686 --> 00:03:46.679
+quando carrega de novo
+o state_dict,
+
+00:03:46.712 --> 00:03:50.056
+ele tem que entrar em um modelo
+com a mesma arquitetura.
+
+00:03:50.716 --> 00:03:51.996
+Se você tiver um código
+
+00:03:52.029 --> 00:03:55.109
+que pode gerar redes
+com arquiteturas diferentes
+
+00:03:55.318 --> 00:03:58.127
+quando você recarregar
+seu state_dict,
+
+00:03:58.160 --> 00:04:01.448
+é preciso também incluir
+informação sobre a arquitetura.
+
+00:04:01.942 --> 00:04:04.128
+Por exemplo,
+com esta rede aqui,
+
+00:04:04.161 --> 00:04:07.279
+como eu tenho um número arbitrário
+de camadas ocultas,
+
+00:04:07.311 --> 00:04:10.423
+preciso incluir informações
+sobre essas camadas
+
+00:04:10.457 --> 00:04:12.915
+no ponto de verificação
+que eu salvei.
+
+00:04:13.243 --> 00:04:15.816
+Para reconstruir esse modelo
+do jeito que foi treinado,
+
+00:04:15.849 --> 00:04:20.273
+tenho que armazenar o state_dict
+e a informação sobre a arquitetura.
+
+00:04:21.096 --> 00:04:24.808
+Aqui eu posso fazer...
+digamos, criar um dicionário,
+
+00:04:25.354 --> 00:04:28.341
+dado que o tamanho do input
+é de 784
+
+00:04:28.374 --> 00:04:31.715
+e o tamanho
+do meu output 10.
+
+00:04:32.295 --> 00:04:34.558
+Se eu tiver um modelo,
+
+00:04:34.958 --> 00:04:36.672
+então eu posso fazer...
+
+00:04:36.705 --> 00:04:41.354
+out_features for each
+in model.hidden_layers
+
+00:04:42.041 --> 00:04:44.167
+Lembre que
+model.hidden_layers
+
+00:04:44.200 --> 00:04:47.349
+é uma lista
+de operações lineares.
+
+00:04:47.382 --> 00:04:50.873
+Hidden_layers é uma lista
+das camadas da rede.
+
+00:04:50.907 --> 00:04:55.757
+Para pegar os valores
+que eu defini para hidden_layers,
+
+00:04:55.790 --> 00:04:57.164
+dependendo do número
+de unidades,
+
+00:04:57.197 --> 00:04:59.628
+posso chamar out_features
+para cada camada.
+
+00:04:59.661 --> 00:05:03.104
+Estamos passando por cada camada
+da lista de camadas ocultas
+
+00:05:03.137 --> 00:05:06.968
+pegando o número de características
+ou unidades da camada.
+
+00:05:07.913 --> 00:05:09.795
+Depois posso salvar
+o state_dict.
+
+00:05:10.093 --> 00:05:11.839
+Agora que tenho
+o dicionário,
+
+00:05:11.872 --> 00:05:14.604
+posso simplesmente salvá-lo.
+
+00:05:15.664 --> 00:05:17.199
+Checkpoint...
+
+00:05:17.680 --> 00:05:20.440
+Checkpoint.pth de novo.
+
+00:05:20.474 --> 00:05:21.700
+Pronto.
+
+00:05:21.733 --> 00:05:25.635
+Agora nosso ponto de verificação
+tem toda a informação necessária
+
+00:05:25.668 --> 00:05:27.453
+para reconstruir
+nosso modelo.
+
+00:05:27.486 --> 00:05:31.291
+Agora quero criar uma função,
+
+00:05:31.324 --> 00:05:33.133
+que vou chamar
+de load_checkpoint,
+
+00:05:33.166 --> 00:05:35.313
+e vou dar a ela
+um caminho de arquivo.
+
+00:05:35.657 --> 00:05:38.641
+Agora podemos carregar
+nosso ponto de verificação.
+
+00:05:38.674 --> 00:05:43.739
+Nosso ponto é igual a
+torch.load(filepath)
+
+00:05:45.704 --> 00:05:47.030
+e agora podemos
+criar o modelo.
+
+00:05:47.063 --> 00:05:48.853
+Fazendo model = Network...
+
+00:05:49.232 --> 00:05:52.600
+Os parâmetros deste modelo
+vêm do ponto de verificação.
+
+00:05:52.633 --> 00:05:55.401
+Podemos colocar
+o tamanho do input,
+
+00:05:55.434 --> 00:06:00.179
+podemos colocar
+o tamanho do output
+
+00:06:04.159 --> 00:06:07.290
+e passamos
+as camadas ocultas.
+
+00:06:08.118 --> 00:06:09.586
+O que isso faz é...
+
+00:06:09.619 --> 00:06:13.509
+ele está passando todos
+os parâmetros de argumento
+
+00:06:13.542 --> 00:06:15.456
+para criar nosso modelo.
+
+00:06:15.489 --> 00:06:17.260
+Depois que tivermos
+nosso modelo,
+
+00:06:17.293 --> 00:06:21.023
+podemos carregar
+o state_dict do nosso ponto...
+
+00:06:21.900 --> 00:06:23.390
+e o modelo é retornado.
+
+00:06:24.506 --> 00:06:26.876
+Depois podemos chamar
+o ponto de verificação,
+
+00:06:26.909 --> 00:06:29.784
+passando checkpoint.pth,
+
+00:06:30.778 --> 00:06:32.062
+e então...
+
+00:06:33.127 --> 00:06:35.245
+Pronto.
+Carregamos o modelo,
+
+00:06:35.278 --> 00:06:36.857
+carregamos o state_dict
+
+00:06:36.891 --> 00:06:39.415
+e tudo está presente.
+
+00:06:40.031 --> 00:06:44.826
+Em geral, é assim que salvamos
+e carregamos nossas redes.
+
+00:06:45.126 --> 00:06:46.684
+É importante lembrar
+
+00:06:46.717 --> 00:06:51.222
+que cada parâmetro usado
+para construir sua rede
+
+00:06:51.256 --> 00:06:54.209
+precisa ser incluído
+nos pontos de verificação.
+
+00:06:54.242 --> 00:06:56.640
+Assim você pode reconstruir
+seu modelo
+
+00:06:56.673 --> 00:06:59.973
+para que fique exatamente igual
+ao que era quando foi salvo.
+
+00:07:00.245 --> 00:07:02.088
+Até o próximo vídeo.
+Abraços!
+

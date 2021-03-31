@@ -1,0 +1,94 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:05.620
+The best way to fix this is to change the activation function. Here's another one.
+
+00:00:05.620 --> 00:00:12.788
+The hyperbolic tangent is given by this formula underneath e to the x minus e to the -x,
+
+00:00:12.788 --> 00:00:15.859
+divided by e to the x plus e to the -x.
+
+00:00:15.859 --> 00:00:17.995
+This one is similar to sigmoid,
+
+00:00:17.995 --> 00:00:20.920
+but since their range is between -1 and 1,
+
+00:00:20.920 --> 00:00:22.984
+the derivatives are larger.
+
+00:00:22.984 --> 00:00:24.640
+This small difference actually led to
+
+00:00:24.640 --> 00:00:27.565
+great advances in neural networks, believe it or not.
+
+00:00:27.565 --> 00:00:32.945
+Another very popular activation function is the Rectified Linear Unit or ReLU.
+
+00:00:32.945 --> 00:00:36.020
+This is a very simple function.
+
+00:00:36.020 --> 00:00:38.799
+It only says, if you're positive,
+
+00:00:38.798 --> 00:00:40.894
+I'll return the same value,
+
+00:00:40.895 --> 00:00:44.405
+and if you're negative, I'll return 0.
+
+00:00:44.405 --> 00:00:48.560
+Another way of seeing it is as the maximum between x and 0.
+
+00:00:48.560 --> 00:00:50.880
+This function is used a lot instead of
+
+00:00:50.880 --> 00:00:53.969
+the sigmoid and it can improve the training significantly without
+
+00:00:53.969 --> 00:00:59.535
+sacrificing much accuracy since the derivative is 1 if the number is positive.
+
+00:00:59.534 --> 00:01:01.544
+It's fascinating that this function,
+
+00:01:01.545 --> 00:01:06.504
+which barely breaks linearity can lead to such complex non-linear solutions.
+
+00:01:06.504 --> 00:01:08.459
+So now, with better activation functions,
+
+00:01:08.459 --> 00:01:12.599
+when we multiply derivatives to obtain the derivative on any certain weight,
+
+00:01:12.599 --> 00:01:15.974
+the products will be made of slightly larger numbers,
+
+00:01:15.974 --> 00:01:21.305
+which will make the derivative less small and will allow us to do grading descent.
+
+00:01:21.305 --> 00:01:25.500
+We'll represent the ReLU unit by the drawing of its function.
+
+00:01:25.500 --> 00:01:30.718
+Here's an example of a multi-layer perceptron with a bunch of ReLU activation units.
+
+00:01:30.718 --> 00:01:34.339
+Note that the last unit is a sigmoid since
+
+00:01:34.340 --> 00:01:38.655
+our final output still needs to be a probability between 0 and 1.
+
+00:01:38.655 --> 00:01:40.968
+However, if we let the final unit be a ReLU,
+
+00:01:40.968 --> 00:01:45.203
+we can actually end up with regression models that predict their value.
+
+00:01:45.203 --> 00:01:49.000
+This will be of use in the recurrent neural network section of the nano degree.
+

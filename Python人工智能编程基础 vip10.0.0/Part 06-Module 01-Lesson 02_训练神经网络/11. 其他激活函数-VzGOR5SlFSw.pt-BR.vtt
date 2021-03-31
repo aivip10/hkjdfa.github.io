@@ -1,0 +1,147 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.634 --> 00:00:04.467
+A melhor maneira de consertar
+é alterando a função de ativação.
+
+00:00:04.501 --> 00:00:07.701
+Esta é outra,
+a tangente hiperbólica,
+
+00:00:07.735 --> 00:00:10.267
+que é dada
+pela fórmula abaixo.
+
+00:00:10.301 --> 00:00:14.267
+E ao X menos E ao menos X
+dividido por E ao X
+
+00:00:14.301 --> 00:00:16.300
+mais E ao menos X.
+
+00:00:16.334 --> 00:00:19.334
+Isso é parecido com a sigmoide,
+mas, como isso varia
+
+00:00:19.368 --> 00:00:22.934
+de menos um e um,
+os derivativos são maiores.
+
+00:00:22.968 --> 00:00:26.400
+Isso trouxe grandes avanços
+para as redes neurais,
+
+00:00:26.434 --> 00:00:27.934
+acredite ou não.
+
+00:00:27.968 --> 00:00:30.000
+Outra função de ativação
+muito popular
+
+00:00:30.034 --> 00:00:33.300
+é a unidade linear
+retificada, ReLU.
+
+00:00:33.334 --> 00:00:35.901
+Esta é uma função
+muito simples.
+
+00:00:35.935 --> 00:00:38.934
+Ela diz que
+se for positivo,
+
+00:00:38.968 --> 00:00:40.701
+ela retorna o mesmo valor,
+
+00:00:40.735 --> 00:00:44.200
+e, se for negativo,
+ela retorna zero.
+
+00:00:44.234 --> 00:00:48.767
+Outra forma de encará-la
+é como o máximo entre X e zero.
+
+00:00:48.801 --> 00:00:51.400
+Esta função é muito utilizada
+no lugar da sigmoide
+
+00:00:51.434 --> 00:00:53.734
+e pode melhorar muito
+o treinamento
+
+00:00:53.768 --> 00:00:55.701
+sem ter que sacrificar
+a precisão,
+
+00:00:55.735 --> 00:00:59.734
+pois o derivativo será um
+se o valor for positivo.
+
+00:00:59.768 --> 00:01:03.234
+É fascinante que esta função,
+que quebra levemente a linha,
+
+00:01:03.268 --> 00:01:06.300
+pode levar a soluções
+não lineares tão complexas.
+
+00:01:06.334 --> 00:01:09.801
+Com função de ativação melhores,
+ao multiplicar derivativos
+
+00:01:09.835 --> 00:01:12.834
+para obter o derivativo
+de qualquer peso,
+
+00:01:12.868 --> 00:01:16.067
+os produtos serão feitos
+com números um pouco maiores,
+
+00:01:16.101 --> 00:01:18.834
+isso tornará o derivativo
+um pouco maior
+
+00:01:18.868 --> 00:01:21.534
+e nos permitirá realizar
+o gradiente descendente.
+
+00:01:21.568 --> 00:01:25.467
+Nós representamos a unidade ReLU
+pelo desenho da função.
+
+00:01:25.501 --> 00:01:27.934
+Este é um exemplo
+de um perceptron multicamadas
+
+00:01:27.968 --> 00:01:30.634
+com um monte de unidades
+de ativação ReLU.
+
+00:01:30.668 --> 00:01:32.834
+Perceba que a última unidade
+é uma sigmoide,
+
+00:01:33.901 --> 00:01:36.968
+pois a saída final ainda precisa
+ser uma probabilidade
+
+00:01:37.002 --> 00:01:38.567
+entre zero e um.
+
+00:01:38.601 --> 00:01:41.100
+Entretanto, se a última unidade
+for uma ReLU,
+
+00:01:41.134 --> 00:01:43.334
+você pode acabar tendo
+modelos de regressão
+
+00:01:43.368 --> 00:01:45.100
+que preveem o valor.
+
+00:01:45.134 --> 00:01:49.167
+Isso será útil na seção de rede
+neural recorrente do curso.
+

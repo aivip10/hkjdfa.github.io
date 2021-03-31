@@ -1,0 +1,200 @@
+<!-- udacity2.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>PyTorch 简介</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>通过 PyTorch 进行深度学习</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. 讲师.html">01. 讲师</a>
+    </li>
+    <li class="">
+      <a href="02. PyTorch 简介.html">02. PyTorch 简介</a>
+    </li>
+    <li class="">
+      <a href="03. PyTorch 张量.html">03. PyTorch 张量</a>
+    </li>
+    <li class="">
+      <a href="04. 定义网络.html">04. 定义网络</a>
+    </li>
+    <li class="">
+      <a href="05. 训练网络.html">05. 训练网络</a>
+    </li>
+    <li class="">
+      <a href="06. Fashion-MNIST 练习.html">06. Fashion-MNIST 练习</a>
+    </li>
+    <li class="">
+      <a href="07. 推理和验证.html">07. 推理和验证</a>
+    </li>
+    <li class="">
+      <a href="08. 保存和加载训练过的网络.html">08. 保存和加载训练过的网络</a>
+    </li>
+    <li class="">
+      <a href="09. 使用 Torchvision 加载数据集.html">09. 使用 Torchvision 加载数据集</a>
+    </li>
+    <li class="">
+      <a href="10. 迁移学习.html">10. 迁移学习</a>
+    </li>
+    <li class="">
+      <a href="11. 解决方案：迁移学习.html">11. 解决方案：迁移学习</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">02. PyTorch 简介</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>大家好！在这节课，你将学习如何使用 PyTorch 构建深度学习模型。PyTorch 于 2017 年初推出，对深度学习领域带来了深远的影响。它是由 Facebook 的 AI 团队开发的，已经被各行各业和各个学术领域采用。根据我个人的经验，它是开发和训练神经网络的最佳框架。学完这节课后，你将训练一个能够轻松地对猫狗图像进行分类的深度学习模型。 </p>
+<p>首先，我将简单介绍 PyTorch，在此部分，我们将介绍张量，即 PyTorch 的主要数据结构。我将演示如何创建张量、如何简化运算，以及张量如何与 Numpy 交互。</p>
+<p>然后，你将学习模块 Autograd，PyTorch 使用该模块计算训练神经网络的梯度。我认为 Autograd 非常强大。它会为你完成整个反向传播工作：计算网络中每次运算的梯度，然后使用这些梯度更新网络权重。</p>
+<p>接着，你将使用 PyTorch 构建网络并在其中向前运行数据。然后，你将定义损失和优化方法，并用手写数字数据集训练神经网络。你还将学习如何验证你的神经网络是否可以通过验证进行泛化。</p>
+<p>但是，你将发现你的网络在更复杂的图像上的效果不太好。你将学习如何使用预训练的神经网络改善分类器的性能，这种方法也被称作迁移学习。</p>
+<p>如果你想在电脑本地的 notebook 上或是其他平台编写代码，你可以在这个<a href="https://github.com/udacity/DL_PyTorch" rel="noopener noreferrer" target="_blank">代码库</a>中找到代码。 </p>
+</div>
+
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+              <a href="03. PyTorch 张量.html" class="btn btn-outline-primary mt-4" role="button">Next Concept</a>
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://us-udacity.github.io/" target="_blank">【udacity2.0 】If you need more courses, please add wechat：udacity6</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('02. PyTorch 简介')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>

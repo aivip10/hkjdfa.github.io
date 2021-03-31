@@ -1,0 +1,544 @@
+{
+  "data": {
+    "lesson": {
+      "id": 593019,
+      "key": "c094a284-2f2a-482d-83d6-fbadf91630bd",
+      "title": "实战项目：图像分类",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "zh-cn",
+      "summary": "在此项目中，你将构建一个 Python 应用，该应用可以用数据集训练图像分类器，然后使用训练的模型预测新图像。",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": null,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/c094a284-2f2a-482d-83d6-fbadf91630bd/593019/1544207679679/%E5%AE%9E%E6%88%98%E9%A1%B9%E7%9B%AE%EF%BC%9A%E5%9B%BE%E5%83%8F%E5%88%86%E7%B1%BB+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/c094a284-2f2a-482d-83d6-fbadf91630bd/593019/1544207677650/%E5%AE%9E%E6%88%98%E9%A1%B9%E7%9B%AE%EF%BC%9A%E5%9B%BE%E5%83%8F%E5%88%86%E7%B1%BB+Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": {
+        "key": "7e88bcd6-600e-4edb-af44-3bc4e695951c",
+        "version": "1.0.0",
+        "locale": "zh-cn",
+        "duration": 30240,
+        "semantic_type": "Project",
+        "title": "图像分类器应用",
+        "description": "# 提交项目\n\n项目链接：https://github.com/udacity/AIPND-cn/tree/master/Image%20Classifier\n\n在成功提交项目之前，你需要将以下这类文件压缩进一个ZIP文件中：\n\n* 在第1部分完成的Jupyter Notebook作为HTML文件，以及其他你需要在 notebook 中运行代码所需的额外文件 \n\n*在第2部分中的`train.py`和`predict.py`文件，以及运行这些脚本所需的任何其他文件\n\n你可以从 workspace 中单独下载这些文件。\n\n**注意：**不要在提交的档案中包含数据。\n",
+        "is_public": true,
+        "summary": null,
+        "forum_path": "",
+        "rubric_id": "1794",
+        "terminal_project_id": null,
+        "resources": null,
+        "image": null
+      },
+      "lab": null,
+      "concepts": [
+        {
+          "id": 593010,
+          "key": "89202d47-2620-41e7-8caa-31df5a0f7eab",
+          "title": "课程讲师",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "89202d47-2620-41e7-8caa-31df5a0f7eab",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 592983,
+              "key": "166759a4-e60b-4525-b140-0a3dbcceb907",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/March/5ab043a5_screen-shot-2018-03-19-at-2.49.57-pm/screen-shot-2018-03-19-at-2.49.57-pm.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/166759a4-e60b-4525-b140-0a3dbcceb907",
+              "caption": "_Mat Leonard_",
+              "alt": "",
+              "width": 300,
+              "height": 300,
+              "instructor_notes": null
+            },
+            {
+              "id": 592981,
+              "key": "56bc1dd4-e729-49e4-8cfa-6645aeca0afb",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "欢迎来到 AI 课程的**图像分类器**，该项目由 Mat 讲解！\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 593012,
+          "key": "84d42c50-f836-479c-9f42-b26eb14e409f",
+          "title": "项目简介",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "84d42c50-f836-479c-9f42-b26eb14e409f",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 592984,
+              "key": "8a7e0f8d-73a2-48f7-a341-b908799af8de",
+              "title": "项目简介 MAIN V2",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "--9IFCNBM6Y",
+                "china_cdn_id": "--9IFCNBM6Y.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 589677,
+          "key": "8b7e602a-4a29-4009-b162-73c6051d4647",
+          "title": "GPU Workspace 简介",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8b7e602a-4a29-4009-b162-73c6051d4647",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 588349,
+              "key": "43033f6d-6756-4208-9782-c3a7a4cd3de0",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/January/5a501791_jupyter-logo/jupyter-logo.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/43033f6d-6756-4208-9782-c3a7a4cd3de0",
+              "caption": "",
+              "alt": "",
+              "width": 208,
+              "height": 56,
+              "instructor_notes": null
+            },
+            {
+              "id": 588350,
+              "key": "3f8a5696-c478-4920-90e1-81b795aa1d28",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## 项目简介\n---\n\n优达学城的 Workspace 为某些项目提供了 GPU 支持，这样你就不用手动配置支持 GPU 的远程服务器。这些 Workspace 可以直接在浏览器中提供 Jupyter notebook 服务器。这节课将简要介绍 Workspace 界面。\n\n### 重要事项：\n\n-  Workspace 会话是从浏览器到远程服务器的连接。我们在服务器上为每个学员分配了有限数量的 GPU 时间（分配的时间足够完成项目）。如果停用 GPU 模式，则目前对 Workspace 小时数没有任何限制。\n- 关闭会话后会保留 Workspace 数据（也可以根据需要重置会话，以便获取项目更新）。\n- 如果连接断开或关闭浏览器窗口，Workspace 会话会保留，只需返回课堂并重新打开 Workspace 页面即可。\n- 一段时间不操作后 Workspace 会话自动关闭。这样可以避免一直连接会话并浪费分配的 GPU 时间。（但是，如果你使 notebook 持续有效地运行某个进程，例如训练网络，则会继续消耗 GPU 时间。）\n- 只要 notebook 会话保持打开状态，内核状态就会保留，但是如果关闭会话，则*不会*保留内核状态。如果你退出 notebook 超过半个小时并且关闭会话，则需要重新运行之前运行的单元格，然后才能继续。\n\n## 概述\n---",
+              "instructor_notes": ""
+            },
+            {
+              "id": 588351,
+              "key": "4c0b682a-fe2b-4924-8291-66a40fd6b46a",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/January/5a501a04_workspaces-jupyter/workspaces-jupyter.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/4c0b682a-fe2b-4924-8291-66a40fd6b46a",
+              "caption": "默认 Workspace 界面",
+              "alt": "Workspace 界面",
+              "width": 1227,
+              "height": 589,
+              "instructor_notes": null
+            },
+            {
+              "id": 588352,
+              "key": "672eb443-24f0-4f36-b99d-8b9415e18745",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "打开 Workspace 后，你将看到普通的 Jupyter 文件浏览器。你可以从此界面打开 notebook 文件，启动远程终端会话，启用 GPU，或者重置 Workspace 数据等。点击 Jupyter 徽标上方左上角的三条图标即可隐藏课堂课程侧栏。\n\n**注意：你始终可以在 Workspace 的任何其他位置通过点击左上角的 Jupyter 徽标回到文件浏览器页面。**\n\n## 打开 notebook\n---",
+              "instructor_notes": ""
+            },
+            {
+              "id": 588353,
+              "key": "cb33298c-6c37-43ec-9861-7de904dff2d6",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/January/5a501a8d_workspaces-notebook/workspaces-notebook.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/cb33298c-6c37-43ec-9861-7de904dff2d6",
+              "caption": "项目 notebook 的视图",
+              "alt": "项目 notebook 的视图",
+              "width": 1224,
+              "height": 588,
+              "instructor_notes": null
+            },
+            {
+              "id": 588354,
+              "key": "4aa8e179-7831-4a37-959c-dc26e66140d2",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "在文件列表中点击 notebook (*.ipynb) 的名称将打开项目的标准 Jupyter notebook 视图。只要你在操作，notebook 会话将保持打开状态，如果 30 分钟内都没有执行任何操作，会话将自动终止。\n\n你可以通过点击左上角的 Jupyter 徽标退出 notebook。\n\n**注意：Notebook 会继续在后台运行，除非你停止 Notebook。如果启用 GPU 模式，关闭或停止 NOTEBOOK 后它将继续保持活跃状态。只能通过 GPU 切换按钮停止 GPU 模式（请参阅下个部分。）**\n\n## 启用 GPU 模式\n---",
+              "instructor_notes": ""
+            },
+            {
+              "id": 588355,
+              "key": "0e16c570-a956-4fb3-8d74-87a9977c7579",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/January/5a501cb6_workspaces-gpu/workspaces-gpu.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/0e16c570-a956-4fb3-8d74-87a9977c7579",
+              "caption": "The GPU Toggle Button",
+              "alt": "启用 GPU 模式",
+              "width": 1224,
+              "height": 588,
+              "instructor_notes": null
+            },
+            {
+              "id": 588356,
+              "key": "31587370-cb43-4a3d-b010-336044267f32",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "停用 GPU 模式后，GPU Workspace 可以不受时间限制地运行。可以使用“启用”/“停用”按钮（在图中用红色圈出的位置）切换 GPU 模式。**注意：切换 GPU/CPU 模式可能会切换服务器，这可能会导致数据丢失，除非你在切换 GPU 支持前点击保存按钮。**\n\n**在切换 GPU 支持前始终保存更改。**\n\n## 提交项目\n---",
+              "instructor_notes": ""
+            },
+            {
+              "id": 588357,
+              "key": "045515f3-a319-441f-86a9-cd4862f6e751",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/January/5a501db1_workspaces-submit/workspaces-submit.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/045515f3-a319-441f-86a9-cd4862f6e751",
+              "caption": "提交项目按钮",
+              "alt": "项目提交按钮的 UI 注释",
+              "width": 1224,
+              "height": 588,
+              "instructor_notes": null
+            },
+            {
+              "id": 588358,
+              "key": "d8cdd4ca-398e-485a-b958-a80c96233d92",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "某些 Workspace 能够直接代表你提交项目（即你**不**需要在课堂上手动提交项目）。要提交项目，只需点击“提交项目”按钮（在图中用红色圈出的位置）。\n\n如果你没有看到“提交项目”按钮，则该 Workspace 无法提交项目。你需要手动下载项目文件并在课堂上提交这些文件。\n\n**注意：在提交之前，必须确保已经包含所有必要的文件，包括任何文件转换（例如从 ipynb 到 HTML）**\n\n## 打开终端\n---",
+              "instructor_notes": ""
+            },
+            {
+              "id": 588359,
+              "key": "f529706f-70c5-4ac8-834e-ab69c8a696d0",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/January/5a501f0b_workspaces-new/workspaces-new.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/f529706f-70c5-4ac8-834e-ab69c8a696d0",
+              "caption": "“新建”菜单按钮",
+              "alt": "“新建”菜单",
+              "width": 1224,
+              "height": 589,
+              "instructor_notes": null
+            },
+            {
+              "id": 588360,
+              "key": "81021215-6310-437f-a0f2-2ca64969c112",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Jupyter  Workspace 支持多个视图，包括已经介绍的文件浏览器和 notebook 视图，以及 shell 终端。要打开终端 shell，点击文件浏览器视图右上角的“新建”菜单按钮，并选择“终端”。\n\n## 终端\n---",
+              "instructor_notes": ""
+            },
+            {
+              "id": 588361,
+              "key": "0f10c752-1676-4c98-af4f-cb5118a950d6",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/January/5a50201e_workspaces-terminal/workspaces-terminal.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/0f10c752-1676-4c98-af4f-cb5118a950d6",
+              "caption": "Jupyter 终端 shell 界面",
+              "alt": "Jupter 终端 shell 界面",
+              "width": 1223,
+              "height": 586,
+              "instructor_notes": null
+            },
+            {
+              "id": 588362,
+              "key": "f9b26824-e4ae-4f4e-94ef-9f42d628e771",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "终端提供了完整的 Bash shell，你可以在终端里安装或更新软件包，从 github 代码库中获取更新，或者运行任何终端命令。和 notebook 视图一样，你可以点击窗口左上角的 Jupyter 徽标回到文件浏览器视图。\n\n**注意：关闭并打开 Workspace 会话后，你的数据和更改会保留。如果稍后重置 Workspace 数据，则需要重新执行之前的所有更改。**\n\n## 重置数据\n---",
+              "instructor_notes": ""
+            },
+            {
+              "id": 588363,
+              "key": "95b31bc6-091a-4d39-b572-40c7e8e37c56",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/January/5a502126_workspaces-menu/workspaces-menu.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/95b31bc6-091a-4d39-b572-40c7e8e37c56",
+              "caption": "The Menu Button",
+              "alt": "Workspace 菜单按钮",
+              "width": 1224,
+              "height": 589,
+              "instructor_notes": null
+            },
+            {
+              "id": 588364,
+              "key": "26ea5715-b920-4d32-8b7c-9326c55512a8",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "通过左下角的“菜单”按钮可以重置 Workspace 。“刷新 Workspace ”按钮将刷新会话，这对你已经在 Workspace 中做出的更改没有影响。\n\n“重置数据”按钮会丢弃所有更改并恢复到 Workspace 的原始版本。点击该按钮将打开一个对话框，需要你在确认对话框中输入“重置数据”。**你的所有数据将丢失。**\n\n只有以下情形需要重置数据：优达学城对项目进行了更改，你无法通过 `git pull` 获取这些更改，或者你销毁了 Workspace 的内容。如果你的确需要重置数据，在点击“重置数据”之前，强烈建议你从文件界面中下载一份数据副本。",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 593013,
+          "key": "a0638042-7d4c-4e3e-9d19-c71e6a87fe18",
+          "title": "图像分类器（第 1 部分）- 开发",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "a0638042-7d4c-4e3e-9d19-c71e6a87fe18",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 593003,
+              "key": "43fe9fcc-985c-44ee-8387-7053719cab08",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# 通过深度学习开发图像分类器\n\n在项目的第一部分，你将利用 Jupyter notebook 通过 PyTorch 实现一个图像分类器。我们将提供一些提示和建议，但是你需要完成大部分代码。在处理该项目的过程中，请[参阅此审阅标准](https://review.udacity.com/#!/rubrics/1663/view)，获取如何成功地提交项目的指导说明。\n\n请注意，你应该自己编写代码，请勿剽窃（更多详情[请参阅此处](https://udacity.zendesk.com/hc/en-us/articles/360001451091-What-is-plagiarism-)）。\n\n在提交项目时需要包含此 notebook。完成后，确保将其下载为 HTML 文件并在项目的下个部分编写的文件中包含此文件。\n\n我们为你提供了处理此项目所需的 GPU Workspace。如果你想在本地机器上处理项目，可以在[此 GitHub](https://github.com/udacity/paind-project) [暂时处于非公开状态]上找到这些文件****。\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 616640,
+              "key": "123d92e9-e71d-40e7-8643-494565b4258f",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "本地化备注：打开 workspace 后，会首先出现名为 `Image Classifier Project.ipynb`的英文文件。 如需看到对应的中文文本，请点击教室内左上角的 Jupyter, 选择文件夹中的 `Image Classifier Project-zh.ipynb`的中文文件，即可在教室内看到中文的项目说明。 ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 593002,
+              "key": "0ab60ffa-8da3-4a50-b045-2c81043d4ea7",
+              "title": null,
+              "semantic_type": "WorkspaceAtom",
+              "is_public": true,
+              "workspace_id": "view87cc5390",
+              "pool_id": "jupytergpu",
+              "view_id": "87cc5390-c9b0-43c7-bea8-6db32026f801",
+              "gpu_capable": true,
+              "configuration": {
+                "id": "reserved",
+                "blueprint": {
+                  "conf": {
+                    "disk": {
+                      "id": "mldatasets",
+                      "paths": [
+                        {
+                          "src": "/aipnd_projects",
+                          "dest": "/data/"
+                        }
+                      ]
+                    },
+                    "ports": [],
+                    "allowGrade": false,
+                    "allowSubmit": false,
+                    "defaultPath": "/notebooks/aipnd-project/Image%20Classifier%20Project-zh.ipynb"
+                  },
+                  "kind": "jupyter"
+                },
+                "workspaceId": "reserved"
+              },
+              "starter_files": null
+            }
+          ]
+        },
+        {
+          "id": 593014,
+          "key": "4db448a2-9b6c-4df8-9685-d905814bca04",
+          "title": "图像分类器（第 2 部分）- 命令行应用",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "4db448a2-9b6c-4df8-9685-d905814bca04",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 593005,
+              "key": "c4baffd3-2d70-41c6-8851-cfc1114d0c29",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# 第 2 部分 - 构建命令行应用\n\n你已经通过花卉数据集构建并训练了一个深度神经网络，现在将该网络转换成其他人可以利用的应用吧。你的应用应该是一对从命令行运行的 Python 脚本。要进行测试，你应该使用在第一部分保存的检查点。\n\n### 规范\n\n提交的项目中必须至少包含两个文件：`train.py` 和 `predict.py`。第一个文件 `train.py` 将用数据集训练新的网络，并将模型保存为检查点。第二个文件 `predict.py` 将使用训练的网络预测输入图像的类别。你可以随意创建其他文件。我们建议你为与模型相关的函数和类创建一个文件，并为加载数据和预处理图像等实用函数创建另一个文件。**确保在提交的文件夹中包含运行 `train.py` 和 `predict.py` 所需的所有必要文件。**\n\n* 使用 `train.py` 用数据集训练新的网络\n  * 基本用途：`python train.py data_directory`\n  * 在训练网络时，输出训练损失、验证损失和验证准确率\n  * 选项：\n    * 设置保存检查点的目录：`python train.py data_dir --save_dir save_directory`\n    * 选择架构：`python train.py data_dir --arch \"vgg13\"`\n    * 设置超参数：`python train.py data_dir --learning_rate 0.01 --hidden_units 512 --epochs 20`\n    * 使用 GPU 进行训练：`python train.py data_dir --gpu`\n\n* 使用 `predict.py` 预测图像的花卉名称以及该名称的概率\n  * 基本用途：`python predict.py input checkpoint`\n  * 选项：\n    * 返回前 <span class='mathquill'>K</span> 个类别：`python predict.py input checkpoint --top_k 3`\n    * 使用类别到真实名称的映射：`python predict.py input checkpoint --category_names cat_to_name.json`\n    * 使用 GPU 进行训练：`python predict.py input checkpoint --gpu`\n\n将命令行输入放入脚本中的最佳方式是使用标准库中的 [argparse 模块](https://docs.python.org/3/library/argparse.html)。你还可以在[此处](https://pymotw.com/3/argparse/)找到相关的 argparse 教程。 ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 593004,
+              "key": "363d2af3-28e8-411c-b9da-c2564bddbc9c",
+              "title": null,
+              "semantic_type": "WorkspaceAtom",
+              "is_public": true,
+              "workspace_id": "view0228105f",
+              "pool_id": "webterminalgpu",
+              "view_id": "0228105f-c729-4f43-a902-b114bf19ec85",
+              "gpu_capable": true,
+              "configuration": {
+                "id": "reserved",
+                "blueprint": {
+                  "conf": {
+                    "disk": {
+                      "id": "mldatasets",
+                      "paths": [
+                        {
+                          "src": "/aipnd_projects",
+                          "dest": "/data/"
+                        }
+                      ]
+                    },
+                    "port": 3000,
+                    "ports": [],
+                    "userCode": "",
+                    "openFiles": [
+                      "/home/workspace/paind-project/train.py",
+                      "/home/workspace/paind-project/predict.py"
+                    ],
+                    "showFiles": true,
+                    "allowClose": true,
+                    "showEditor": true,
+                    "allowSubmit": false,
+                    "terminalTitle": "BASH"
+                  },
+                  "kind": "generic"
+                },
+                "workspaceId": "reserved"
+              },
+              "starter_files": null
+            }
+          ]
+        },
+        {
+          "id": 593015,
+          "key": "b4162538-0215-4bd0-9357-5e1614028ccf",
+          "title": "审阅标准",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "b4162538-0215-4bd0-9357-5e1614028ccf",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 593006,
+              "key": "cd7edf48-58ab-4df5-b3e6-7c97c16f8e8d",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### 提交的文件\n| **条件** | **规范** |\n|----|--|\n| 提交的文件   | 提交的文件包含所有必要的文件。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 593007,
+              "key": "95e83b2e-b881-41fe-b8c8-736339a510eb",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### 第 1 部分 - 开发 Notebook\n\n| **条件** | **规范** |\n|----|--|\n| 导入软件包   | 在 notebook 的第一个单元格中导入所有必要的软件包和模块\n|改善训练数据 | 使用 torchvision 变换以通过随机缩放、旋转、镜像和/或裁剪改善训练数据 |\n| 数据标准化 | 恰当地裁剪和标准化训练、验证和测试数据 |\n| 数据加载 | 使用 torchvision 的 ImageFolder 加载每个数据集（训练集、验证集、测试集）的数据 |\n| 数据批处理 | 使用 torchvision 的 DataLoader 加载每个数据集的数据 |\n| 预训练的网络 | 从 torchvision.models 加载 VGG16 等预训练的网络并冻结参数|\n| 前馈分类器 | 定义了一个新的前馈网络用作分类器，并使用特征作为输入 |\n| 训练网络 | 适当地训练前馈分类器的参数，而特征网络的参数保持静态|\n| 验证损失和准确率 | 训练期间显示验证损失和准确率 |\n|测试准确率 | 衡量网络在测试数据上的准确率 |\n| 保存模型 | 将训练的模型保存为检查点，并保存相关的超参数和 `class_to_idx` 字典|\n| 加载检查点 | 可以通过函数成功地加载检查点和重构模型|\n| 图像处理 | `process_image` 函数成功地将 PIL 图像转换为张量，并用作已训练模型的输入 |\n| 类别预测 | `predict` 函数成功地获取图像路径和检查点，然后返回该图像的前 K 个可能的类别 |\n| 通过 matplotlib 进行健全性检查| 创建了 matplotlib 图表，并显示图像和相关的前 5 个可能类别及其实际花卉名称 |",
+              "instructor_notes": ""
+            },
+            {
+              "id": 593008,
+              "key": "1cd72f56-df46-42c6-94fa-8712f0d8cc05",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## 第 2 部分 - 命令行应用\n\n| **条件** | **规范** |\n|--|--|\n| 训练网络 | `train.py` 成功地用图像数据集训练一个新的网络 |\n|训练验证日志 | 在训练网络时输出训练损失、验证损失和验证准确率|\n| 模型架构 | 训练脚本使用户能够从 torchvision.models 中选择至少两个不同的可用架构|\n|模型超参数 | 训练脚本使用户能够设置学习速率、隐藏单元数和训练周期超参数 |\n| 在 GPU 上进行训练| 训练脚本使用户能够选择在 GPU 上训练模型|\n| 预测类别 | `predict.py` 脚本成功地读取了图像和检查点，然后输出最可能的图像类别及其概率 |\n|前 K 个类别 | `predict.py` 脚本使用户能够输出前 K 个类别及其相关的概率 |\n| 显示类别名称 | `predict.py` 脚本使用户能够加载将类别值映射到其他类别名称的 JSON 文件|\n| 在 GPU 上进行预测| `predict.py` 脚本使用户能够使用 GPU 计算预测值 |",
+              "instructor_notes": ""
+            },
+            {
+              "id": 616644,
+              "key": "57664b74-9334-4348-be26-bff4c9ab801a",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "[中文审阅标准页面](https://review.udacity.com/#!/rubrics/1794/view)。",
+              "instructor_notes": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    }
+  ]
+}

@@ -1,0 +1,364 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.040
+Welcome back. So, in this video,
+
+00:00:02.040 --> 00:00:07.395
+I'm going to be showing you how to save and load models that you've trained with PyTorch.
+
+00:00:07.394 --> 00:00:11.489
+Again, this is important because most of the time you'll want
+
+00:00:11.490 --> 00:00:15.750
+to train your network on some data and then just save it to disk,
+
+00:00:15.750 --> 00:00:18.780
+and then you can later load it up and train more
+
+00:00:18.780 --> 00:00:22.560
+or use it for inference, like making predictions.
+
+00:00:22.559 --> 00:00:27.074
+So I've already gone ahead and ran most of this codes,
+
+00:00:27.074 --> 00:00:29.489
+trained my network on fashion hymnist.
+
+00:00:29.489 --> 00:00:35.924
+Again, we see we get about an accuracy of 84-85 percent.
+
+00:00:35.924 --> 00:00:38.219
+Now that the network is trained,
+
+00:00:38.219 --> 00:00:41.054
+we actually don't want to take these weights,
+
+00:00:41.054 --> 00:00:42.600
+never really learned this problem,
+
+00:00:42.600 --> 00:00:47.385
+and we want to save them so that we can in the future load them back up and use it again.
+
+00:00:47.384 --> 00:00:49.229
+These weights, these parameters,
+
+00:00:49.229 --> 00:00:53.069
+are actually stored in model.state_dict.
+
+00:00:53.070 --> 00:00:56.295
+So we print this out, so we can see our network here.
+
+00:00:56.295 --> 00:00:58.440
+So we have two hidden layers.
+
+00:00:58.439 --> 00:01:01.530
+So, this one goes to 500, 500 to 100,
+
+00:01:01.530 --> 00:01:05.879
+and then this goes to our output layer of 10 output units,
+
+00:01:05.879 --> 00:01:07.170
+and then we have drop out.
+
+00:01:07.170 --> 00:01:08.820
+So this is what our network looks like.
+
+00:01:08.819 --> 00:01:11.759
+If we look at the state_dict keys,
+
+00:01:11.760 --> 00:01:15.740
+this is showing us we have hidden layers at zero weight. So that's here.
+
+00:01:15.739 --> 00:01:17.674
+Hidden layers gives us a bias,
+
+00:01:17.674 --> 00:01:19.640
+the second hidden layer gives us the weight
+
+00:01:19.640 --> 00:01:23.790
+and also the weights and bias for our output layer.
+
+00:01:23.790 --> 00:01:26.640
+So that the tensors that for our weights and
+
+00:01:26.640 --> 00:01:30.209
+biases are actually stored and model.state_dict.
+
+00:01:30.209 --> 00:01:32.789
+So this is what typically you want to save.
+
+00:01:32.790 --> 00:01:35.775
+So to save the state_dict, it's pretty simple.
+
+00:01:35.775 --> 00:01:37.484
+So use the torch.save,
+
+00:01:37.484 --> 00:01:42.629
+and then pass in your model.state_dict and then call it checkpoint.pth.
+
+00:01:42.629 --> 00:01:45.390
+There you go. It's saved.
+
+00:01:45.390 --> 00:01:48.390
+So once it's saved, we can then load in the state_dict.
+
+00:01:48.390 --> 00:01:52.245
+So state_dict is equal to torch.load.
+
+00:01:52.245 --> 00:01:56.020
+Let's give it the same thing, checkpoint.pth,
+
+00:01:56.420 --> 00:01:59.265
+and then one p to state_dict,
+
+00:01:59.265 --> 00:02:03.750
+then we can print this out just see.keys.
+
+00:02:03.750 --> 00:02:08.039
+So it gives us the same layers that we saw up here, so in layers.0.weight.
+
+00:02:08.039 --> 00:02:09.479
+So, we all see the same thing.
+
+00:02:09.479 --> 00:02:11.699
+But the state_dict, it's self loaded.
+
+00:02:11.699 --> 00:02:14.099
+How do we actually load this into a model?
+
+00:02:14.099 --> 00:02:19.139
+So we say model.load_state_dict and we pass in our state_dict.
+
+00:02:19.139 --> 00:02:22.579
+So notice that we need to have our model existing already.
+
+00:02:22.580 --> 00:02:24.235
+We need to have it already created,
+
+00:02:24.235 --> 00:02:28.470
+and it's going to be created with randomly initialize the weights and biases.
+
+00:02:28.469 --> 00:02:30.724
+The parameters are going to be randomly initialized.
+
+00:02:30.724 --> 00:02:33.030
+Basically we just pass in our state dict and then
+
+00:02:33.030 --> 00:02:38.685
+those random parameters are replaced by the ones that we trained previously.
+
+00:02:38.685 --> 00:02:40.545
+This seems pretty straightforward,
+
+00:02:40.544 --> 00:02:43.849
+you just save your state_dict and you can load it backup into a model,
+
+00:02:43.849 --> 00:02:46.659
+but it's not actually all that simple,
+
+00:02:46.659 --> 00:02:48.549
+and I'll show you why.
+
+00:02:48.550 --> 00:02:50.880
+So, if I create a new network,
+
+00:02:50.879 --> 00:02:54.439
+784 at normal, 10 output units,
+
+00:02:54.439 --> 00:03:01.409
+but this time I'm going to use three hidden layers with 400,
+
+00:03:01.409 --> 00:03:04.370
+200 and 100 units each.
+
+00:03:04.370 --> 00:03:09.215
+Okay. So now, I have this pre-trained State_dict, right?
+
+00:03:09.215 --> 00:03:11.960
+So it's like, okay well I created this new model,
+
+00:03:11.960 --> 00:03:16.820
+I'm going to try to load this state_dict, and it gives me an error.
+
+00:03:16.819 --> 00:03:18.514
+So basically it says,
+
+00:03:18.514 --> 00:03:21.629
+inconsistent tensor size, expected tensor,
+
+00:03:21.629 --> 00:03:23.924
+this size but the sources is dense.
+
+00:03:23.925 --> 00:03:26.590
+Right? So basically what that means is that when I
+
+00:03:26.590 --> 00:03:29.990
+trained this state_dict with this checkpoint,
+
+00:03:29.990 --> 00:03:33.219
+I had a different network architecture.
+
+00:03:33.219 --> 00:03:37.419
+So that in the original network I had 500 units in the first layer,
+
+00:03:37.419 --> 00:03:39.699
+and now I have 400 units in the first layer.
+
+00:03:39.699 --> 00:03:44.754
+So, the thing is that when you build your network and you train it,
+
+00:03:44.754 --> 00:03:46.629
+when you load the state_dict back up,
+
+00:03:46.629 --> 00:03:50.424
+it has to go to a model with exactly the same architecture.
+
+00:03:50.424 --> 00:03:53.990
+So if you have code that can generate networks with
+
+00:03:53.990 --> 00:03:58.140
+different architectures when you load your your state_dict back up,
+
+00:03:58.139 --> 00:04:01.519
+you also have to include information about the architecture.
+
+00:04:01.520 --> 00:04:04.610
+So, for instance, here with this network since I have
+
+00:04:04.610 --> 00:04:07.430
+an arbitrary number of hidden layers,
+
+00:04:07.430 --> 00:04:13.010
+I need to include this information about the hidden layers in my checkpoint that I saved.
+
+00:04:13.009 --> 00:04:15.560
+To rebuild this model exactly as it was trained,
+
+00:04:15.560 --> 00:04:20.680
+I'm going to store the state_dict and all the information about the model architecture.
+
+00:04:20.680 --> 00:04:25.230
+Here I can say let's say, create a dictionary,
+
+00:04:25.230 --> 00:04:28.410
+given it my input size it's 784,
+
+00:04:28.410 --> 00:04:32.010
+my output size 10.
+
+00:04:32.009 --> 00:04:34.800
+So if I have a model,
+
+00:04:34.800 --> 00:04:40.960
+then I can do up features for each model.
+
+00:04:41.089 --> 00:04:47.250
+So remember here that model.hidden_layers is a list of these linear operations.
+
+00:04:47.250 --> 00:04:50.790
+So basically hidden_layers is a list of the layers in the network.
+
+00:04:50.790 --> 00:04:54.090
+So, to get the actual values
+
+00:04:54.089 --> 00:04:57.044
+I had set for the hidden_layers depending on the number of units,
+
+00:04:57.045 --> 00:04:59.475
+I just call out features on each of those layers.
+
+00:04:59.475 --> 00:05:01.710
+So this is basically just going through each of the layers,
+
+00:05:01.709 --> 00:05:03.884
+in this list of hidden layers and then getting
+
+00:05:03.884 --> 00:05:07.469
+the number of features or units in that layer.
+
+00:05:07.470 --> 00:05:10.020
+Then I can save the state_dict.
+
+00:05:10.019 --> 00:05:11.774
+Then once I have that dictionary,
+
+00:05:11.774 --> 00:05:14.459
+then I can simply save the dictionary.
+
+00:05:14.459 --> 00:05:21.359
+Checkpoint, checkpoint.pth again. There you go.
+
+00:05:21.360 --> 00:05:27.225
+Now our checkpoint has all the necessary information we need to rebuild our model.
+
+00:05:27.225 --> 00:05:29.355
+So what I'd like to do is create
+
+00:05:29.355 --> 00:05:35.175
+a function just called like load_checkpoint and give it a file path,
+
+00:05:35.175 --> 00:05:38.280
+and then we can load our checkpoint.
+
+00:05:38.279 --> 00:05:46.919
+So our checkpoint is torch.load(file path) then we can create our model.
+
+00:05:46.920 --> 00:05:48.975
+So our model is network,
+
+00:05:48.975 --> 00:05:52.580
+then we get our parameters for this model from our checkpoint.
+
+00:05:52.579 --> 00:05:55.094
+So we can put in the input size,
+
+00:05:55.095 --> 00:06:04.140
+we can put in the output size,
+
+00:06:04.139 --> 00:06:07.694
+we pass in the hidden layers.
+
+00:06:07.694 --> 00:06:10.855
+So what this does is passing in
+
+00:06:10.855 --> 00:06:15.085
+all the necessary arguments parameters to create our model.
+
+00:06:15.084 --> 00:06:17.229
+So, once we have our model,
+
+00:06:17.230 --> 00:06:21.520
+then we can load the state_dict from uh,
+
+00:06:21.519 --> 00:06:24.569
+I want to return the model.
+
+00:06:24.569 --> 00:06:29.589
+Then we can call the checkpoint, passed in checkpoint.pth.
+
+00:06:32.750 --> 00:06:36.129
+So then we load the model and we successfully load
+
+00:06:36.129 --> 00:06:39.644
+the state_dict and everything is present.
+
+00:06:39.644 --> 00:06:44.859
+So in general that's how you're going to save and load your networks.
+
+00:06:44.860 --> 00:06:47.949
+So, it's important to remember that every
+
+00:06:47.949 --> 00:06:51.439
+parameter that you use for building your network,
+
+00:06:51.439 --> 00:06:54.100
+you have to also include that in your checkpoints.
+
+00:06:54.100 --> 00:06:59.935
+So you can reconstruct your model exactly the same way it was when you saved it.
+
+00:06:59.935 --> 00:07:02.329
+Right. See you in the next video. Cheers
+

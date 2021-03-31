@@ -1,0 +1,364 @@
+<!-- udacity2.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>GPU Workspace 简介</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>实战项目：图像分类</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. 课程讲师.html">01. 课程讲师</a>
+    </li>
+    <li class="">
+      <a href="02. 项目简介.html">02. 项目简介</a>
+    </li>
+    <li class="">
+      <a href="03. GPU Workspace 简介.html">03. GPU Workspace 简介</a>
+    </li>
+    <li class="">
+      <a href="04. 图像分类器（第 1 部分）- 开发.html">04. 图像分类器（第 1 部分）- 开发</a>
+    </li>
+    <li class="">
+      <a href="05. 图像分类器（第 2 部分）- 命令行应用.html">05. 图像分类器（第 2 部分）- 命令行应用</a>
+    </li>
+    <li class="">
+      <a href="06. 审阅标准.html">06. 审阅标准</a>
+    </li>
+    <li class="">
+      <a href="Project Description - 图像分类器应用.html">Project Description - 图像分类器应用</a>
+    </li>
+    <li class="">
+      <a href="Project Rubric - 图像分类器应用.html">Project Rubric - 图像分类器应用</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">03. GPU Workspace 简介</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/jupyter-logo.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h2 id="-项目简介">## 项目简介</h2>
+<p>优达学城的 Workspace 为某些项目提供了 GPU 支持，这样你就不用手动配置支持 GPU 的远程服务器。这些 Workspace 可以直接在浏览器中提供 Jupyter notebook 服务器。这节课将简要介绍 Workspace 界面。</p>
+<h3 id="重要事项：">重要事项：</h3>
+<ul>
+<li>Workspace 会话是从浏览器到远程服务器的连接。我们在服务器上为每个学员分配了有限数量的 GPU 时间（分配的时间足够完成项目）。如果停用 GPU 模式，则目前对 Workspace 小时数没有任何限制。</li>
+<li>关闭会话后会保留 Workspace 数据（也可以根据需要重置会话，以便获取项目更新）。</li>
+<li>如果连接断开或关闭浏览器窗口，Workspace 会话会保留，只需返回课堂并重新打开 Workspace 页面即可。</li>
+<li>一段时间不操作后 Workspace 会话自动关闭。这样可以避免一直连接会话并浪费分配的 GPU 时间。（但是，如果你使 notebook 持续有效地运行某个进程，例如训练网络，则会继续消耗 GPU 时间。）</li>
+<li>只要 notebook 会话保持打开状态，内核状态就会保留，但是如果关闭会话，则<em>不会</em>保留内核状态。如果你退出 notebook 超过半个小时并且关闭会话，则需要重新运行之前运行的单元格，然后才能继续。</li>
+</ul>
+<h2 id="-概述">## 概述</h2>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/workspaces-jupyter.png" alt="默认 Workspace 界面" class="img img-fluid">
+    <figcaption class="figure-caption">
+      <p>默认 Workspace 界面</p>
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>打开 Workspace 后，你将看到普通的 Jupyter 文件浏览器。你可以从此界面打开 notebook 文件，启动远程终端会话，启用 GPU，或者重置 Workspace 数据等。点击 Jupyter 徽标上方左上角的三条图标即可隐藏课堂课程侧栏。</p>
+<p><strong>注意：你始终可以在 Workspace 的任何其他位置通过点击左上角的 Jupyter 徽标回到文件浏览器页面。</strong></p>
+<h2 id="-打开-notebook">## 打开 notebook</h2>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/workspaces-notebook.png" alt="项目 notebook 的视图" class="img img-fluid">
+    <figcaption class="figure-caption">
+      <p>项目 notebook 的视图</p>
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>在文件列表中点击 notebook (*.ipynb) 的名称将打开项目的标准 Jupyter notebook 视图。只要你在操作，notebook 会话将保持打开状态，如果 30 分钟内都没有执行任何操作，会话将自动终止。</p>
+<p>你可以通过点击左上角的 Jupyter 徽标退出 notebook。</p>
+<p><strong>注意：Notebook 会继续在后台运行，除非你停止 Notebook。如果启用 GPU 模式，关闭或停止 NOTEBOOK 后它将继续保持活跃状态。只能通过 GPU 切换按钮停止 GPU 模式（请参阅下个部分。）</strong></p>
+<h2 id="-启用-gpu-模式">## 启用 GPU 模式</h2>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/workspaces-gpu.png" alt="The GPU Toggle Button" class="img img-fluid">
+    <figcaption class="figure-caption">
+      <p>The GPU Toggle Button</p>
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>停用 GPU 模式后，GPU Workspace 可以不受时间限制地运行。可以使用“启用”/“停用”按钮（在图中用红色圈出的位置）切换 GPU 模式。<strong>注意：切换 GPU/CPU 模式可能会切换服务器，这可能会导致数据丢失，除非你在切换 GPU 支持前点击保存按钮。</strong></p>
+<p><strong>在切换 GPU 支持前始终保存更改。</strong></p>
+<h2 id="-提交项目">## 提交项目</h2>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/workspaces-submit.png" alt="提交项目按钮" class="img img-fluid">
+    <figcaption class="figure-caption">
+      <p>提交项目按钮</p>
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>某些 Workspace 能够直接代表你提交项目（即你<strong>不</strong>需要在课堂上手动提交项目）。要提交项目，只需点击“提交项目”按钮（在图中用红色圈出的位置）。</p>
+<p>如果你没有看到“提交项目”按钮，则该 Workspace 无法提交项目。你需要手动下载项目文件并在课堂上提交这些文件。</p>
+<p><strong>注意：在提交之前，必须确保已经包含所有必要的文件，包括任何文件转换（例如从 ipynb 到 HTML）</strong></p>
+<h2 id="-打开终端">## 打开终端</h2>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/workspaces-new.png" alt="“新建”菜单按钮" class="img img-fluid">
+    <figcaption class="figure-caption">
+      <p>“新建”菜单按钮</p>
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>Jupyter  Workspace 支持多个视图，包括已经介绍的文件浏览器和 notebook 视图，以及 shell 终端。要打开终端 shell，点击文件浏览器视图右上角的“新建”菜单按钮，并选择“终端”。</p>
+<h2 id="-终端">## 终端</h2>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/workspaces-terminal.png" alt="Jupyter 终端 shell 界面" class="img img-fluid">
+    <figcaption class="figure-caption">
+      <p>Jupyter 终端 shell 界面</p>
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>终端提供了完整的 Bash shell，你可以在终端里安装或更新软件包，从 github 代码库中获取更新，或者运行任何终端命令。和 notebook 视图一样，你可以点击窗口左上角的 Jupyter 徽标回到文件浏览器视图。</p>
+<p><strong>注意：关闭并打开 Workspace 会话后，你的数据和更改会保留。如果稍后重置 Workspace 数据，则需要重新执行之前的所有更改。</strong></p>
+<h2 id="-重置数据">## 重置数据</h2>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/workspaces-menu.png" alt="The Menu Button" class="img img-fluid">
+    <figcaption class="figure-caption">
+      <p>The Menu Button</p>
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>通过左下角的“菜单”按钮可以重置 Workspace 。“刷新 Workspace ”按钮将刷新会话，这对你已经在 Workspace 中做出的更改没有影响。</p>
+<p>“重置数据”按钮会丢弃所有更改并恢复到 Workspace 的原始版本。点击该按钮将打开一个对话框，需要你在确认对话框中输入“重置数据”。<strong>你的所有数据将丢失。</strong></p>
+<p>只有以下情形需要重置数据：优达学城对项目进行了更改，你无法通过 <code>git pull</code> 获取这些更改，或者你销毁了 Workspace 的内容。如果你的确需要重置数据，在点击“重置数据”之前，强烈建议你从文件界面中下载一份数据副本。</p>
+</div>
+
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+              <a href="04. 图像分类器（第 1 部分）- 开发.html" class="btn btn-outline-primary mt-4" role="button">Next Concept</a>
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://us-udacity.github.io/" target="_blank">【udacity2.0 】If you need more courses, please add wechat：udacity6</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('03. GPU Workspace 简介')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>
