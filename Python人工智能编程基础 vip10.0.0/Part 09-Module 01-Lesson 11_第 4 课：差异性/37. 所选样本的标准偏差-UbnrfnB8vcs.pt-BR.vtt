@@ -1,0 +1,39 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:02.360
+Digamos que temos esta população.
+
+00:00:02.390 --> 00:00:07.392
+Calculei a média é 18,97,
+aproximadamente,
+
+00:00:07.422 --> 00:00:10.240
+e o desvio padrão é 5,99.
+
+00:00:10.270 --> 00:00:14.032
+Se quiser, pode seguir e ver
+se acha os mesmos parâmetros.
+
+00:00:14.062 --> 00:00:17.495
+A propósito, gerei aleatoriamente
+estes números usando R.
+
+00:00:17.525 --> 00:00:19.136
+Então vamos pegar uma amostra.
+
+00:00:19.166 --> 00:00:20.944
+Digamos que esta é a 1ª.
+
+00:00:20.974 --> 00:00:26.767
+Ela inclui 18, 20, 23, 18, 21,
+15, 17, 22, e 21.
+
+00:00:26.797 --> 00:00:28.687
+Então temos 9 números.
+
+00:00:28.717 --> 00:00:32.866
+Calcula o desvio padrão
+desta amostra como aprendeu.
+

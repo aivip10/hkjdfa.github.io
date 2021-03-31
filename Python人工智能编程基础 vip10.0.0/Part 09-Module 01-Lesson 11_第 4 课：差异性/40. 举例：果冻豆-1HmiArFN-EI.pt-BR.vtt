@@ -1,0 +1,43 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.012 --> 00:00:05.092
+&gt;&gt; Vejamos outra maneira de considerar isso. Digamos que você tenha um saco de jujubas.
+
+00:00:05.092 --> 00:00:10.789
+Existe apenas uma de alcaçuz, mas quatro de morango e mais quatro de mirtilo.
+
+00:00:10.789 --> 00:00:16.320
+Tem também apenas uma de cereja e duas de lima, ou de limão, não sei, você decide.
+
+00:00:16.320 --> 00:00:21.656
+Se fizéssemos uma amostra de, digamos, quatro jujubas, muito provavelmente não
+
+00:00:21.656 --> 00:00:26.926
+pegaríamos a de alcaçuz. Suponhamos que pegássemos exatamente essas em nossa amostra. Essa amostra não
+
+00:00:26.926 --> 00:00:32.125
+demonstraria toda a gama de sabores de jujuba que temos, incluindo cereja e
+
+00:00:32.125 --> 00:00:37.117
+alcaçuz. Portanto, ela subestima a variabilidade de nossa população de
+
+00:00:37.117 --> 00:00:42.200
+jujubas. Felizmente, este exemplo nos dá um pouco mais de percepção de por que
+
+00:00:42.200 --> 00:00:47.005
+dividimos por n menos 1 ao calcular o desvio padrão de uma amostra. Mas
+
+00:00:47.005 --> 00:00:51.936
+vamos discutir isso nos fóruns. Lá, podemos aprofundar mais esse assunto.
+
+00:00:51.936 --> 00:00:56.344
+No entanto, para os fins desta aula, contanto que você tenha uma compreensão básica e
+
+00:00:56.344 --> 00:01:01.385
+intuitiva da diferença entre o desvio padrão da amostra e o desvio
+
+00:01:01.385 --> 00:01:03.930
+padrão da população, está bom.
+

@@ -1,0 +1,45 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:03.267
+Esta 1ª opção, média
+de desvios quadráticos.
+
+00:00:03.300 --> 00:00:06.333
+Cada um destes
+é um desvio quadrático.
+
+00:00:06.367 --> 00:00:07.933
+Depois tiramos a média,
+
+00:00:07.967 --> 00:00:11.467
+que é somá-los
+e depois dividir por 10.
+
+00:00:11.500 --> 00:00:13.567
+Então assim traduzimos em palavras.
+
+00:00:13.600 --> 00:00:15.700
+Soma de desvios quadráticos
+
+00:00:15.733 --> 00:00:20.133
+significa que somamos tudo isso
+e dividimos por n,
+
+00:00:20.167 --> 00:00:22.033
+que é o que fizemos.
+
+00:00:22.067 --> 00:00:26.900
+A média quadrada
+de desvio quadrático seria a média disto,
+
+00:00:26.933 --> 00:00:28.267
+que é a variância,
+
+00:00:28.300 --> 00:00:30.333
+mas depois elevá-la ao quadrado.
+
+00:00:30.367 --> 00:00:31.700
+Então não serve.
+

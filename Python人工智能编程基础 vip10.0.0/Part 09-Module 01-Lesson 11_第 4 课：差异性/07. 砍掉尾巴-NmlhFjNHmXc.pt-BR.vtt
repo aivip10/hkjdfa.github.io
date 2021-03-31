@@ -1,0 +1,44 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.012 --> 00:00:02.300
+Uma maneira de os estatísticos
+lidarem com os outliers
+
+00:00:02.300 --> 00:00:06.100
+é cortando as extremidades superior
+e inferior da distribuição.
+
+00:00:06.100 --> 00:00:08.400
+Então, vamos cortar 
+Mark Zuckerberg.
+
+00:00:08.400 --> 00:00:11.100
+Depois, consideraremos
+apenas os valores do meio.
+
+00:00:11.100 --> 00:00:13.300
+O que queremos dizer
+com cortar as extremidades?
+
+00:00:13.300 --> 00:00:19.900
+Normalmente, os estatísticos cortam
+os 25% inferiores e 25% superiores.
+
+00:00:19.900 --> 00:00:22.500
+Digamos que você tenha
+oito valores de dados.
+
+00:00:22.500 --> 00:00:27.100
+Vamos cortar os dois últimos,
+ou os 25% inferiores,
+
+00:00:27.100 --> 00:00:30.900
+e os dois primeiros,
+ou os 25% superiores.
+
+00:00:30.900 --> 00:00:33.940
+Então, só nos preocuparemos
+com estes valores do meio.
+

@@ -1,0 +1,34 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:02.480
+Um valor é considerado
+um outlier
+
+00:00:02.513 --> 00:00:09.689
+se for menor que o Q1 - 1,5
+multiplicado pela amplitude interquartil.
+
+00:00:09.722 --> 00:00:17.336
+Ou se for maior que o Q3 + 1,5
+multiplicado pela amplitude interquartil.
+
+00:00:17.369 --> 00:00:23.138
+Nós descobrimos
+que a amplitude interquartil é 4.944.
+
+00:00:23.171 --> 00:00:26.769
+Sabemos que Q1 é 49.191
+
+00:00:26.802 --> 00:00:30.265
+e Q3 é 54.135.
+
+00:00:30.298 --> 00:00:35.198
+Usando essa definição universal
+de outliers,
+
+00:00:35.231 --> 00:00:39.840
+decida estatisticamente
+quais valores são considerados outliers.
+

@@ -1,0 +1,87 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:01.947
+Vamos ver cada uma destas.
+
+00:00:01.976 --> 00:00:08.812
+Nesta primeira, tiramos a raiz
+do desvio quadrático médio.
+
+00:00:08.842 --> 00:00:14.195
+Bom, o desvio é Xi menos X-linha.
+
+00:00:14.225 --> 00:00:20.899
+O desvio quadrático então é apenas
+Xi menos X-linha ao quadrado,
+
+00:00:20.929 --> 00:00:27.980
+e a média é a soma
+de cada desvio quadrático dividida por n.
+
+00:00:28.010 --> 00:00:31.179
+Esta é nossa fórmula
+para o desvio padrão.
+
+00:00:31.209 --> 00:00:37.163
+O desvio quadrático médio é basicamente
+isto dentro do sinal de raiz quadrada,
+
+00:00:37.193 --> 00:00:40.238
+mas em vez de tirar a raiz,
+vamos elevá-lo ao quadrado.
+
+00:00:40.268 --> 00:00:42.478
+Este não é o desvio padrão.
+
+00:00:42.508 --> 00:00:44.998
+A soma dos desvios quadráticos...
+
+00:00:45.028 --> 00:00:48.894
+Bom, estes são os desvios quadráticos,
+então a soma é isto.
+
+00:00:48.924 --> 00:00:51.558
+Isto também se chama
+de soma dos quadrados.
+
+00:00:51.588 --> 00:00:54.215
+Soma dos desvios absolutos
+ao quadrado,
+
+00:00:54.245 --> 00:01:00.806
+o desvio absoluto é Xi menos X-linha
+com os valores absolutos,
+
+00:01:00.836 --> 00:01:02.594
+e se elevarmos eles ao quadrado,
+
+00:01:02.624 --> 00:01:06.195
+será o mesmo que não tivéssemos
+tirado o valor absoluto.
+
+00:01:06.225 --> 00:01:09.731
+E se somarmos,
+temos a soma dos quadrados de novo,
+
+00:01:09.761 --> 00:01:13.419
+então estes dois são equivalentes,
+e não são o desvio padrão.
+
+00:01:13.449 --> 00:01:16.939
+Finalmente, temos a soma
+dos desvios quadráticos
+
+00:01:16.969 --> 00:01:20.098
+dividida por n,
+e a raiz quadrada disso.
+
+00:01:20.128 --> 00:01:22.960
+Esta também é nossa fórmula
+para o desvio padrão.
+
+00:01:22.990 --> 00:01:25.051
+Bom trabalho!
+Eu sei que foi muito difícil.
+

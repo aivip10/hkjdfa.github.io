@@ -1,0 +1,87 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:05.467
+Bom, isto significa que você está elevando
+cada valor desses ao quadrado
+
+00:00:05.500 --> 00:00:07.567
+e depois somando-os,
+o que não fazemos aqui.
+
+00:00:07.600 --> 00:00:11.267
+Aqui estamos
+somando os desvios quadráticos.
+
+00:00:11.300 --> 00:00:15.100
+Para esta, precisa tomar cuidado
+com ter parênteses
+
+00:00:15.133 --> 00:00:20.934
+ou não, porque isso significa
+que só somamos os valores,
+
+00:00:20.967 --> 00:00:27.700
+tudo isto, e depois subtraímos a média
+ao quadrado, que não é o que fizemos.
+
+00:00:27.734 --> 00:00:30.634
+De novo,
+aqui os parênteses importam.
+
+00:00:30.667 --> 00:00:34.567
+Significa que somamos
+todos os valores,
+
+00:00:34.600 --> 00:00:37.800
+depois subtraímos a média,
+
+00:00:37.834 --> 00:00:40.200
+depois elevamos o resultado
+ao quadrado.
+
+00:00:40.233 --> 00:00:41.667
+Não fizemos isso.
+
+00:00:41.700 --> 00:00:44.200
+Esta não tem um sinal de soma,
+
+00:00:44.233 --> 00:00:47.000
+o que significa que pegamos
+um valor arbitrário,
+
+00:00:47.033 --> 00:00:52.200
+indeterminado.
+US$ 38.801, por exemplo.
+
+00:00:52.233 --> 00:00:54.167
+Depois subtraímos a média.
+
+00:00:54.200 --> 00:00:55.867
+Então elevamos
+os resultados ao quadrado.
+
+00:00:55.901 --> 00:00:57.567
+E isso também
+não é o que fizemos.
+
+00:00:57.600 --> 00:01:03.667
+Mas nesta você pega isto, cada valor,
+menos a média,
+
+00:01:03.700 --> 00:01:05.266
+para achar o desvio.
+
+00:01:05.300 --> 00:01:09.267
+Eleva cada desvio ao quadrado,
+depois soma todos eles.
+
+00:01:09.300 --> 00:01:12.534
+Esta é a fórmula correta
+para somar isto.
+
+00:01:12.567 --> 00:01:15.534
+Isto se chama SQ,
+soma dos quadrados.
+

@@ -1,0 +1,61 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:03.292
+Agora que calculou
+o desvio padrão à mão,
+
+00:00:03.322 --> 00:00:05.492
+podemos finalmente
+usar tabelas.
+
+00:00:05.522 --> 00:00:07.860
+E é isso que faremos
+daqui para a frente.
+
+00:00:07.890 --> 00:00:11.884
+Abra a tabela
+Sample Social Networkers Salary.
+
+00:00:11.914 --> 00:00:13.620
+O link deve estar à direita.
+
+00:00:13.650 --> 00:00:17.948
+Ela tem 100 valores de dados
+e você vai calcular o desvio padrão.
+
+00:00:17.978 --> 00:00:20.828
+Precisa copiar isto
+para a sua tabela.
+
+00:00:20.858 --> 00:00:25.164
+Para guiá-lo, coloquei instruções
+com números
+
+00:00:25.194 --> 00:00:27.804
+que significam a ordem
+em que deve fazê-los.
+
+00:00:27.834 --> 00:00:30.916
+Então primeiro ache a média dos valores.
+
+00:00:30.946 --> 00:00:33.349
+Depois ache o desvio.
+
+00:00:33.379 --> 00:00:35.828
+Depois eleve
+cada desvio ao quadrado.
+
+00:00:35.858 --> 00:00:38.804
+Aí ache o desvio quadrático médio.
+
+00:00:38.834 --> 00:00:41.228
+Então, finalmente, tire a raiz quadrada.
+
+00:00:41.258 --> 00:00:43.340
+E este será o desvio padrão.
+
+00:00:43.370 --> 00:00:46.860
+Quando calculá-lo, escreva aqui.
+

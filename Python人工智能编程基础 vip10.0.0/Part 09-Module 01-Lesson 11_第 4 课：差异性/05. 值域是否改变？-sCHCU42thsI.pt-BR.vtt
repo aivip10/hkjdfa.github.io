@@ -1,0 +1,62 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:03.267
+Às vezes as variações mudam
+quando adicionamos novos dados ao conjunto.
+
+00:00:03.300 --> 00:00:06.934
+Poderíamos adicionar vários valores
+aqui no meio.
+
+00:00:06.968 --> 00:00:09.534
+A forma da distribuição
+iria mudar,
+
+00:00:09.567 --> 00:00:12.534
+mas a variação não.
+A mesma coisa aqui.
+
+00:00:12.567 --> 00:00:16.334
+Ao invés de 187,
+podemos mudar para 190.
+
+00:00:16.367 --> 00:00:18.634
+Você pode continuar adicionando
+dados ao conjunto,
+
+00:00:18.667 --> 00:00:20.634
+mas a variação nunca mudaria.
+
+00:00:20.667 --> 00:00:22.767
+Mas se adicionarmos valores aqui.
+
+00:00:22.801 --> 00:00:24.434
+Mais altos que o valor máximo.
+
+00:00:24.467 --> 00:00:25.601
+Ou aqui.
+
+00:00:25.634 --> 00:00:27.267
+Ou aqui em baixo.
+
+00:00:27.300 --> 00:00:29.534
+Mudaria a variação
+do nosso conjunto de dados.
+
+00:00:29.567 --> 00:00:33.734
+Perdemos detalhes com a variação,
+porque é baseada em apenas dois pontos.
+
+00:00:33.767 --> 00:00:37.200
+E eles são os pontos mais extremos
+da distribuição.
+
+00:00:37.234 --> 00:00:40.300
+Esses valores extremos
+não representam muito bem
+
+00:00:40.334 --> 00:00:42.400
+o resto da distribuição.
+

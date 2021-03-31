@@ -1,0 +1,69 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:02.117
+Vamos visualizar o que fizemos.
+
+00:00:02.147 --> 00:00:05.765
+Temos um monte de valores
+e descobrimos a média.
+
+00:00:05.795 --> 00:00:07.094
+Digamos que é aqui.
+
+00:00:07.124 --> 00:00:10.742
+Depois achamos a distância
+entre cada valor e a média,
+
+00:00:10.772 --> 00:00:12.214
+e elevamos ao quadrado.
+
+00:00:12.244 --> 00:00:17.080
+Essa é a área de todo quadrado
+
+00:00:17.110 --> 00:00:21.152
+cujo lado é a distância
+entre cada valor e a média.
+
+00:00:21.182 --> 00:00:23.656
+Então temos esses quadrados
+
+00:00:23.686 --> 00:00:29.352
+e a soma de quadrados é a soma da área
+de cada quadrado,
+
+00:00:29.382 --> 00:00:33.928
+onde cada distância
+é Xi menos X-linha
+
+00:00:33.958 --> 00:00:38.000
+e cada área
+é Xi menos X-linha ao quadrado.
+
+00:00:38.030 --> 00:00:40.504
+Então achamos o quadrado médio.
+
+00:00:40.534 --> 00:00:45.569
+Ele pode ter este tamanho,
+digamos.
+
+00:00:45.599 --> 00:00:48.847
+Neste caso, as dimensões
+estão em dólares.
+
+00:00:48.877 --> 00:00:53.328
+Então a área deste quadrado
+teria unidades de dólar ao quadrado.
+
+00:00:53.358 --> 00:00:57.616
+Então, como converter
+isto de volta a dólares?
+
+00:00:57.646 --> 00:01:00.528
+Tirando a raiz quadrada,
+dividindo por dois,
+
+00:01:00.558 --> 00:01:03.359
+ou subtraindo um dólar?
+

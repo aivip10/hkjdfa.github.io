@@ -1,0 +1,79 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:04.335
+Aqui estão amostras com 10 valores
+para cada uma das distribuições.
+
+00:00:04.368 --> 00:00:06.533
+Vou encontrar
+o quartil 1,
+
+00:00:06.566 --> 00:00:10.449
+que vamos chamar de Q1,
+para a população geral.
+
+00:00:10.482 --> 00:00:14.288
+Também vou encontrar o quartil 3,
+que vamos chamar de Q3.
+
+00:00:14.321 --> 00:00:16.613
+Primeiro,
+vamos dividir os dados ao meio.
+
+00:00:16.646 --> 00:00:20.413
+Temos 5 valores em cima
+e 5 valores em baixo.
+
+00:00:20.446 --> 00:00:26.585
+Depois encontramos a mediana
+desta parte, que é 38.801.
+
+00:00:26.618 --> 00:00:31.428
+Este é o Q1,
+o valor do quartil 1.
+
+00:00:31.461 --> 00:00:37.320
+E depois encontramos a mediana
+da segunda metade, que é 56.863.
+
+00:00:37.353 --> 00:00:42.234
+Este é o Q3
+e vamos chamar a mediana de Q2.
+
+00:00:42.267 --> 00:00:46.896
+E nosso novo intervalo,
+vai ser a distância entre Q1 e Q3.
+
+00:00:46.931 --> 00:00:50.695
+Nosso novo é intervalo é 18.062,
+
+00:00:50.730 --> 00:00:53.489
+quando cortamos
+as partes de cima e de baixo.
+
+00:00:53.524 --> 00:00:56.360
+Ou os 25%
+de cima e de baixo.
+
+00:00:56.393 --> 00:00:58.997
+Que tal você fazer o mesmo
+com este aqui?
+
+00:00:59.030 --> 00:01:01.629
+Corte os 25%
+de cima e de baixo.
+
+00:01:01.662 --> 00:01:03.676
+Este aqui
+é o Mark Zuckerberg.
+
+00:01:03.709 --> 00:01:07.670
+Então vamos achar o intervalo
+entre Q1 e Q3.
+
+00:01:08.245 --> 00:01:10.171
+Coloque sua resposta
+nesta caixa.
+

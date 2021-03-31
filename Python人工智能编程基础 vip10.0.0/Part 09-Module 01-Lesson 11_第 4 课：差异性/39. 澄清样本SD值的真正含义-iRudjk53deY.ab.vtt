@@ -1,0 +1,64 @@
+WEBVTT
+Kind: captions
+Language: ab
+
+00:00:00.000 --> 00:00:05.937
+Viste que denotamos esta desviación estandar corregida por la letra s.
+
+00:00:06.051 --> 00:00:13.991
+Cuando tenemos una muestra, esto es lo que utilizamos para aproximarnos a la verdadesa desviación estandar (sigma) de la población.
+
+00:00:14.053 --> 00:00:18.433
+Llamamos a esto desviación estandar de la muestra.
+
+00:00:18.541 --> 00:00:24.131
+Pero no te confundas con la actual desviación estandar de un pequeño grupo de datos.
+
+00:00:24.198 --> 00:00:28.628
+Por ejemplo, digamos que tenemos este grupo de datos donde n es igual a 5.
+
+00:00:28.695 --> 00:00:38.815
+Para encontrar la desviación estandar de esta, tendremos que encontrar la media, que es 3, sacar el cuadrado de la desviación de la media.
+
+00:00:38.885 --> 00:00:48.140
+Sumar los cuadrados de las desviaciones, lo que se llama suma de cuadrados, y dividirlo por 5 o n.
+
+00:00:48.230 --> 00:00:51.460
+Esta es la desviación estandar de estos 5 valores.
+
+00:00:51.527 --> 00:00:56.927
+Pero si estamos utilizando esto para aproximarnos a una gran población,
+
+00:00:57.004 --> 00:01:01.464
+de la que sacamos la muestra, entonces lo dividiríamos por n-1.
+
+00:01:01.572 --> 00:01:10.082
+Entonces tendríamos un 4 en el denominador, si estamos tratando de estimar la desviación estandar de la población.
+
+00:01:10.289 --> 00:01:15.189
+Por lo tanto, no confundas estas dos. Pero da pié a confusión porque
+
+00:01:15.568 --> 00:01:19.998
+cuando usamos la fórmula con n-1 en el denominador,
+
+00:01:20.089 --> 00:01:25.829
+se llama desviación estandar de la muestra y se representa con una s
+
+00:01:25.888 --> 00:01:29.818
+Recuerda, si tienes una muestra y necesitas
+
+00:01:29.895 --> 00:01:37.225
+estimar la desviación estandar de la población, debes usar la fórmula con´n-1 en el denominador.
+
+00:01:37.337 --> 00:01:40.677
+Sacar la desviación estandar completa, es algo mayor.
+
+00:01:40.871 --> 00:01:45.461
+Es una mejor estimación de la verdadera desviación estandar de la población, sigma.
+
+00:01:45.548 --> 00:01:50.818
+Pero si tu tienes un grupo de datos y necesitas calcular la desviación estandar del grupo de datos,
+
+00:01:50.939 --> 00:01:55.669
+no la desviación estandar aproximada, entonces tienes que divir por n.
+

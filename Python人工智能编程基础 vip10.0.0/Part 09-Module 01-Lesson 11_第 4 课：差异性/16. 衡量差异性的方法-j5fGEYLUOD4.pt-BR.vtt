@@ -1,0 +1,62 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:02.919
+Aqui estão 3 opções
+para calcular variabilidade
+
+00:00:02.952 --> 00:00:04.693
+usando todos os valores.
+
+00:00:04.726 --> 00:00:09.087
+Uma opção é encontrar a distância média
+entre quaisquer dois valores.
+
+00:00:09.120 --> 00:00:13.847
+Por exemplo,
+se tivesse vários valores,
+
+00:00:13.881 --> 00:00:17.029
+você encontraria a distância
+entre cada um deles
+
+00:00:17.062 --> 00:00:18.608
+e calcularia a média.
+
+00:00:18.641 --> 00:00:22.063
+Ou encontraria a distância média
+entre cada um dos dados
+
+00:00:22.096 --> 00:00:24.261
+e o mínimo ou o máximo.
+
+00:00:24.294 --> 00:00:29.322
+A distância entre esses dois,
+esses dois, esses dois, etc.
+
+00:00:29.355 --> 00:00:30.923
+Ou poderia usar o mínimo.
+
+00:00:30.956 --> 00:00:33.643
+A distância entre esses dois
+e todos os outros
+
+00:00:33.676 --> 00:00:35.317
+e depois calcularia a média.
+
+00:00:35.350 --> 00:00:39.267
+Ou encontraria a distância média
+entre cada valor e a média.
+
+00:00:39.300 --> 00:00:41.448
+Se essa é a média,
+
+00:00:41.481 --> 00:00:46.765
+encontre a distância média
+entre cada um deles e esse ponto.
+
+00:00:46.798 --> 00:00:48.682
+Qual você acha
+que seria a melhor opção?
+

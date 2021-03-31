@@ -1,0 +1,62 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:03.824
+Vamos calcular a variação dos valores
+que não são considerados exceções.
+
+00:00:03.857 --> 00:00:07.554
+Q1 é 49,191.
+
+00:00:07.587 --> 00:00:11.869
+E a amplitude interquartil
+é 4.944.
+
+00:00:11.902 --> 00:00:18.570
+Isso significa que Q1 - 1,5
+multiplicado pela amplitude
+
+00:00:18.603 --> 00:00:26.072
+é igual a 49.191 - 1,5(4.944).
+
+00:00:26.105 --> 00:00:29.968
+Isso é igual a 41.775.
+
+00:00:30.001 --> 00:00:33.701
+Qualquer coisa menor que esse número
+é considerada uma exceção.
+
+00:00:33.734 --> 00:00:38.728
+Também sabemos que Q3
+é 54.135.
+
+00:00:38.761 --> 00:00:52.850
+Q3 + 1,5 multiplicado pela amplitude
+é igual a 54.135 + 1,5(4.944).
+
+00:00:52.883 --> 00:00:56.682
+Isso é igual a 61.551.
+
+00:00:56.715 --> 00:01:01.030
+Qualquer coisa entre esses números
+não é uma exceção.
+
+00:01:01.063 --> 00:01:04.063
+Qualquer coisa menor que isso
+é uma exceção.
+
+00:01:04.096 --> 00:01:07.107
+E qualquer coisa maior que isso
+é uma exceção.
+
+00:01:07.140 --> 00:01:09.870
+Isso significa,
+que estatisticamente,
+
+00:01:09.903 --> 00:01:11.809
+esse valores são exceções.
+
+00:01:11.842 --> 00:01:13.740
+Mas não o 60.000.
+

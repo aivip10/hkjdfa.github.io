@@ -1,0 +1,92 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:01.655
+Mas agora
+temos um problema.
+
+00:00:01.688 --> 00:00:04.370
+A nossa derivação média
+deu 0.
+
+00:00:04.403 --> 00:00:06.688
+E essa não pode ser
+uma boa medida
+
+00:00:06.721 --> 00:00:08.404
+para mostrar como os números
+são espalhados.
+
+00:00:08.437 --> 00:00:14.245
+Eu acho que se tivéssemos
+o mesmo ponto repetidamente,
+
+00:00:14.278 --> 00:00:16.468
+a extensão seria 0.
+
+00:00:16.501 --> 00:00:19.916
+Mas aqui temos muitos pontos,
+por toda a linha numérica,
+
+00:00:19.949 --> 00:00:22.707
+e tem que existir
+alguma extensão.
+
+00:00:22.740 --> 00:00:26.795
+Essa não pode ser nossa medida de extensão
+se o resultado for 0.
+
+00:00:26.828 --> 00:00:30.570
+O problema é que os negativos
+estão cancelando os positivos.
+
+00:00:30.603 --> 00:00:32.256
+Quando medimos extensão,
+
+00:00:32.289 --> 00:00:35.967
+não nos importamos se nossos valores
+estão acima ou abaixo da média.
+
+00:00:36.000 --> 00:00:38.932
+Só nos importamos
+com a distância entre eles e a média.
+
+00:00:38.965 --> 00:00:43.590
+Como podemos ter certeza que as derivações
+positivas e negativas não vão se cancelar?
+
+00:00:43.623 --> 00:00:45.226
+Escolha todas as que você acha
+que estão certas.
+
+00:00:45.259 --> 00:00:46.865
+Ignore o sinal de negativo.
+
+00:00:46.898 --> 00:00:49.636
+Pelo menos para aqueles
+com derivações negativas.
+
+00:00:49.669 --> 00:00:53.751
+Multiplique as derivações por 2.
+Calcule o quadrado de cada derivação.
+
+00:00:53.784 --> 00:00:57.619
+Em outras palavras,
+multiplique cada número por ele mesmo.
+
+00:00:57.652 --> 00:01:00.009
+Ou não há nada
+que a gente possa fazer?
+
+00:01:00.042 --> 00:01:04.336
+Mas isso é muito complicado.
+Pense bem a respeito.
+
+00:01:04.369 --> 00:01:07.050
+Porque medir extensões é essencial
+para estatísticas.
+
+00:01:07.083 --> 00:01:08.095
+Boa sorte!
+

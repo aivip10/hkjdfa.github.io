@@ -1,0 +1,35 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:04.122
+1º, precisa tirar a média destes,
+que é 19,4.
+
+00:00:04.152 --> 00:00:09.657
+A média da amostra é indicada por X-linha.
+Vamos arredondar para duas casas decimais.
+
+00:00:09.687 --> 00:00:13.985
+Agora subtraímos a média
+de cada valor nos dados.
+
+00:00:14.015 --> 00:00:17.353
+Depois elevamos o desvio ao quadrado
+e os somamos.
+
+00:00:17.383 --> 00:00:20.657
+A soma
+dos quadrados é 54,22.
+
+00:00:20.687 --> 00:00:26.354
+Depois, dividimos pelo tamanho
+da amostra, 9, e tiramos a raiz quadrada.
+
+00:00:26.384 --> 00:00:31.665
+Achamos que o desvio padrão é 2,45.
+
+00:00:31.695 --> 00:00:37.838
+Uau, é muito menor do que
+o desvio padrão da população, que é 5,99.
+

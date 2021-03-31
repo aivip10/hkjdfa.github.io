@@ -1,0 +1,31 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.012 --> 00:00:05.033
+&gt;&gt; Recapitulando o que fizemos: achamos o desvio de cada valor a partir da média.
+
+00:00:05.033 --> 00:00:10.637
+Aqui está o desvio. E, depois, enquadramos cada desvio, que equivale à
+
+00:00:10.637 --> 00:00:16.337
+área desses quadrados. Em seguida, encontramos a área média dos quadrados. Depois,
+
+00:00:16.337 --> 00:00:21.607
+calculamos a raiz quadrada dessa área simplesmente para achar o comprimento do lado,
+
+00:00:21.607 --> 00:00:26.889
+que é o desvio padrão. O desvio padrão é a medida mais
+
+00:00:26.889 --> 00:00:32.275
+comum de dispersão, e o símbolo é o sigma grego minúsculo. Lembre-se de que
+
+00:00:32.275 --> 00:00:37.126
+o sigma maiúsculo é o símbolo de somatório. A variação é
+
+00:00:37.126 --> 00:00:42.643
+basicamente a área desse desvio quadrado médio. Então, quando calculamos a raiz
+
+00:00:42.643 --> 00:00:46.244
+quadrada da variação, obtemos o desvio padrão.
+

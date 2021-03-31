@@ -1,0 +1,54 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:01.000
+Geralmente,
+
+00:00:01.033 --> 00:00:04.334
+amostras subestimam a quantidade
+de variabilidade em uma população,
+
+00:00:04.367 --> 00:00:08.667
+porque amostras tendem a ser valores
+no meio da população.
+
+00:00:08.701 --> 00:00:13.100
+Especialmente em uma distribuição normal,
+a maioria dos valores são centrados no meio.
+
+00:00:13.133 --> 00:00:18.968
+Então quando pegamos as amostras,
+a maioria dos valores estarão por aqui,
+
+00:00:19.000 --> 00:00:22.834
+já que a maioria dos valores estão aqui.
+
+00:00:22.868 --> 00:00:25.868
+Assim, a variabilidade
+nesta amostra será menor
+
+00:00:25.901 --> 00:00:29.367
+que a variabilidade da população inteira.
+
+00:00:29.400 --> 00:00:33.167
+Para corrigir isso, usamos algo chamado
+correção de Bessel,
+
+00:00:33.200 --> 00:00:37.067
+onde em vez de dividir por n,
+dividimos por n menos 1.
+
+00:00:37.100 --> 00:00:38.834
+O mesmo com a variância.
+
+00:00:38.868 --> 00:00:41.167
+Então, o que dividir por n menos 1
+
+00:00:41.200 --> 00:00:44.534
+fará com o desvio padrão
+e a variância originais?
+
+00:00:44.567 --> 00:00:47.667
+Aumentará ou diminuirá eles?
+

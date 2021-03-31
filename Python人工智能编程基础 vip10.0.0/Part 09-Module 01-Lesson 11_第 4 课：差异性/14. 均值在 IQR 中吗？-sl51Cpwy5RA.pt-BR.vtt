@@ -1,0 +1,58 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:01.351
+A resposta é "não".
+
+00:00:01.384 --> 00:00:03.449
+Mas normalmente é "sim".
+
+00:00:03.482 --> 00:00:06.771
+Especialmente em distribuições simétricas
+como essas.
+
+00:00:06.804 --> 00:00:10.421
+A média geralmente vai estar
+entre Q1 e Q3
+
+00:00:10.454 --> 00:00:13.873
+e perto da mediana,
+se for perfeitamente simétrico.
+
+00:00:13.906 --> 00:00:16.123
+Mas olhe esse conjunto de dados,
+por exemplo.
+
+00:00:16.156 --> 00:00:18.302
+Tem uma exceção, o 90.
+
+00:00:18.335 --> 00:00:19.774
+Q1 é 1,
+
+00:00:19.807 --> 00:00:23.795
+porque a mediana está aqui,
+com 6 valores de cada lado.
+
+00:00:23.828 --> 00:00:26.395
+E se dividirmos
+essa parte dos dados ao meio,
+
+00:00:26.428 --> 00:00:29.579
+a média de 1 e 1
+é só 1.
+
+00:00:29.612 --> 00:00:31.879
+E se dividirmos
+esses dados ao meio,
+
+00:00:31.912 --> 00:00:33.878
+vemos que Q3 é 3.
+
+00:00:33.911 --> 00:00:38.051
+Mas se calcularmos a média,
+acharemos 8,62.
+
+00:00:38.084 --> 00:00:40.674
+O que é bem mais que Q3.
+

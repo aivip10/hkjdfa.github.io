@@ -1,0 +1,358 @@
+<!-- udacity2.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>找到偏差对应的值</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>第 4 课：差异性</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. 社交网络工作人员的薪酬.html">01. 社交网络工作人员的薪酬</a>
+    </li>
+    <li class="">
+      <a href="02. 你应该注册帐号吗？.html">02. 你应该注册帐号吗？</a>
+    </li>
+    <li class="">
+      <a href="03. 有什么不同？.html">03. 有什么不同？</a>
+    </li>
+    <li class="">
+      <a href="04. 量化数据的分布形态.html">04. 量化数据的分布形态</a>
+    </li>
+    <li class="">
+      <a href="05. 值域是否改变？.html">05. 值域是否改变？</a>
+    </li>
+    <li class="">
+      <a href="06. 扎克伯格的薪酬：一个异常值.html">06. 扎克伯格的薪酬：一个异常值</a>
+    </li>
+    <li class="">
+      <a href="07. 砍掉尾巴.html">07. 砍掉尾巴</a>
+    </li>
+    <li class="">
+      <a href="08. Q1 在哪里？.html">08. Q1 在哪里？</a>
+    </li>
+    <li class="">
+      <a href="09. Q3 - Q1.html">09. Q3 - Q1</a>
+    </li>
+    <li class="">
+      <a href="10. IQR.html">10. IQR</a>
+    </li>
+    <li class="">
+      <a href="11. 哪些是异常值？.html">11. 哪些是异常值？</a>
+    </li>
+    <li class="">
+      <a href="12. 定义异常值.html">12. 定义异常值</a>
+    </li>
+    <li class="">
+      <a href="13. 匹配对应的箱线图.html">13. 匹配对应的箱线图</a>
+    </li>
+    <li class="">
+      <a href="14. 均值在 IQR 中吗？.html">14. 均值在 IQR 中吗？</a>
+    </li>
+    <li class="">
+      <a href="15. IQR 的不足.html">15. IQR 的不足</a>
+    </li>
+    <li class="">
+      <a href="16. 衡量差异性的方法.html">16. 衡量差异性的方法</a>
+    </li>
+    <li class="">
+      <a href="17. 计算均值.html">17. 计算均值</a>
+    </li>
+    <li class="">
+      <a href="18. 离均差.html">18. 离均差</a>
+    </li>
+    <li class="">
+      <a href="19. 平均偏差.html">19. 平均偏差</a>
+    </li>
+    <li class="">
+      <a href="20. 平均偏差的公式.html">20. 平均偏差的公式</a>
+    </li>
+    <li class="">
+      <a href="21. 摆脱负值，开心起来.html">21. 摆脱负值，开心起来</a>
+    </li>
+    <li class="">
+      <a href="22. 绝对偏差.html">22. 绝对偏差</a>
+    </li>
+    <li class="">
+      <a href="23. 平均绝对偏差.html">23. 平均绝对偏差</a>
+    </li>
+    <li class="">
+      <a href="24. 平均绝对偏差的公式.html">24. 平均绝对偏差的公式</a>
+    </li>
+    <li class="">
+      <a href="25. 平方偏差.html">25. 平方偏差</a>
+    </li>
+    <li class="">
+      <a href="26. 平方和.html">26. 平方和</a>
+    </li>
+    <li class="">
+      <a href="27. 平均平方偏差.html">27. 平均平方偏差</a>
+    </li>
+    <li class="">
+      <a href="28. 用语言解释平均平方偏差.html">28. 用语言解释平均平方偏差</a>
+    </li>
+    <li class="">
+      <a href="29. 一维的数据.html">29. 一维的数据</a>
+    </li>
+    <li class="">
+      <a href="30. 标准偏差.html">30. 标准偏差</a>
+    </li>
+    <li class="">
+      <a href="31. 计算标准偏差.html">31. 计算标准偏差</a>
+    </li>
+    <li class="">
+      <a href="32. 社交网络工作人员薪酬的标准偏差.html">32. 社交网络工作人员薪酬的标准偏差</a>
+    </li>
+    <li class="">
+      <a href="33. 用语言解释标准偏差.html">33. 用语言解释标准偏差</a>
+    </li>
+    <li class="">
+      <a href="34. 用电子表格计算标准偏差.html">34. 用电子表格计算标准偏差</a>
+    </li>
+    <li class="">
+      <a href="35. 标准偏差的重要性.html">35. 标准偏差的重要性</a>
+    </li>
+    <li class="">
+      <a href="36. 找到偏差对应的值.html">36. 找到偏差对应的值</a>
+    </li>
+    <li class="">
+      <a href="37. 所选样本的标准偏差.html">37. 所选样本的标准偏差</a>
+    </li>
+    <li class="">
+      <a href="38. 贝塞耳校正.html">38. 贝塞耳校正</a>
+    </li>
+    <li class="">
+      <a href="39. 样本标准偏差.html">39. 样本标准偏差</a>
+    </li>
+    <li class="">
+      <a href="40. 举例：果冻豆.html">40. 举例：果冻豆</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">36. 找到偏差对应的值</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3><p>找到偏差对应的值</p></h3>
+  <div>
+  <div>
+    <h4>Question:</h4>
+
+    <video controls>
+  <source src="36. 找到偏差对应的值-JP-mQPN9Sl4.mp4" type="video/mp4">
+
+  <track default="true" kind="subtitles" srclang="en" src="36. 找到偏差对应的值-JP-mQPN9Sl4.en.vtt" label="en">
+  <track default="false" kind="subtitles" srclang="BR" src="36. 找到偏差对应的值-JP-mQPN9Sl4.pt-BR.vtt" label="BR">
+  <track default="false" kind="subtitles" srclang="CN" src="36. 找到偏差对应的值-JP-mQPN9Sl4.zh-CN.vtt" label="CN">
+</video>
+
+
+  </div>
+
+  <h4>Start Quiz:</h4>
+  <div>
+  <div style="display: block;">
+    <div style="position: relative;">
+      <img src="img/83664097.gif" style="width: 100%; max-height: 100%" alt="">
+      
+    <div style="
+    position: absolute; top: 85.52123552123551%; left: 73.8327904451683%; width: 16.209476309226932%; height: 7.760532150776053%;
+  ">
+      
+        <input type="number" style="width: 100%; height: 100%;" name="null" id="0" aria-label="Empty">
+      
+    </div>
+  
+    <div style="
+    position: absolute; top: 72.39382239382239%; left: 73.7242128121607%; width: 16.708229426433917%; height: 7.760532150776053%;
+  ">
+      
+        <input type="number" style="width: 100%; height: 100%;" name="null" id="1" aria-label="Empty">
+      
+    </div>
+  
+    <div style="
+    position: absolute; top: 57.72200772200772%; left: 73.61563517915309%; width: 17.08229426433915%; height: 7.5388026607538805%;
+  ">
+      
+        <input type="number" style="width: 100%; height: 100%;" name="null" id="2" aria-label="Empty">
+      
+    </div>
+  
+    </div>
+  </div>
+</div>
+
+
+  <div>
+    <details>
+      <summary><strong>Solution:</strong></summary>
+      <div>
+        <video controls>
+  <source src="36. 找到偏差对应的值-fUI1XABUTrY.mp4" type="video/mp4">
+
+  <track default="true" kind="subtitles" srclang="en" src="36. 找到偏差对应的值-fUI1XABUTrY.en.vtt" label="en">
+  <track default="false" kind="subtitles" srclang="BR" src="36. 找到偏差对应的值-fUI1XABUTrY.pt-BR.vtt" label="BR">
+  <track default="false" kind="subtitles" srclang="CN" src="36. 找到偏差对应的值-fUI1XABUTrY.zh-CN.vtt" label="CN">
+</video>
+
+
+      </div>
+    </details>
+  </div>
+</div>
+
+
+  <div class="jumbotron" style="margin-top: 50px; margin-bottom: 50px;">
+    <h3>INSTRUCTOR NOTE:</h3>
+    <h2 id="标准偏差到底有什么好？">标准偏差到底有什么好？</h2>
+<p><strong>如果均值为60，标准偏差为13，那么：</strong></p>
+<p>均值一个标准偏差以下的值是多少？<br />
+□ </p>
+<p>均值两个标准偏差以上的值是多少？<br />
+□ </p>
+<p>均值两个标准偏差以下的值是多少？<br />
+□</p>
+  </div>
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+              <a href="37. 所选样本的标准偏差.html" class="btn btn-outline-primary mt-4" role="button">Next Concept</a>
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://us-udacity.github.io/" target="_blank">【udacity2.0 】If you need more courses, please add wechat：udacity6</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('36. 找到偏差对应的值')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>

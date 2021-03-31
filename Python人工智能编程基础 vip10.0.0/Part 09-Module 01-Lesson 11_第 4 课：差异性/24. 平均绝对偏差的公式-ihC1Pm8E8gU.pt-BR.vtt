@@ -1,0 +1,138 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:04.601
+Esta significa que primeiro somamos
+todos os valores,
+
+00:00:04.634 --> 00:00:06.834
+depois tiramos
+o valor absoluto.
+
+00:00:06.868 --> 00:00:11.067
+Como são todos positivos,
+tirar o valor absoluto não fará nada.
+
+00:00:11.100 --> 00:00:14.934
+Já será positivo. Mas isso
+não mostra nada sobre os desvios.
+
+00:00:14.968 --> 00:00:16.901
+Na verdade,
+será só a média novamente.
+
+00:00:16.934 --> 00:00:20.667
+Esta diz que achará
+o desvio absoluto.
+
+00:00:20.701 --> 00:00:24.334
+Então você pega um valor
+menos a média,
+
+00:00:24.367 --> 00:00:26.133
+que são estes desvios.
+
+00:00:26.167 --> 00:00:29.634
+Mas depois tira
+o valor absoluto deles, aqui,
+
+00:00:29.667 --> 00:00:32.567
+soma todos eles,
+com este sigma,
+
+00:00:32.601 --> 00:00:37.601
+e depois divide por n, o total,
+que neste caso é 10.
+
+00:00:37.634 --> 00:00:39.634
+Então esta
+descreve o que você fez.
+
+00:00:39.667 --> 00:00:44.367
+Esta diz que você acha cada desvio,
+que estão aqui,
+
+00:00:44.400 --> 00:00:48.367
+tira o valor absoluto,
+aqui;
+
+00:00:48.400 --> 00:00:54.100
+divide cada um desses por n,
+que neste caso é 10.
+
+00:00:54.133 --> 00:00:58.367
+E depois soma todos eles,
+que te dará o mesmo
+
+00:00:58.367 --> 00:01:03.501
+que se somasse todos estes primeiro,
+e depois dividisse por 10.
+
+00:01:03.501 --> 00:01:08.901
+Então esta também descreve o que fez.
+Esta parece ir na direção oposta,
+
+00:01:08.901 --> 00:01:12.734
+então em vez disso, tiramos a média
+e depois subtraímos cada valor destes.
+
+00:01:12.767 --> 00:01:15.734
+Então acharíamos
+o oposto de cada um destes.
+
+00:01:15.767 --> 00:01:19.734
+Acharíamos 19.574 positivos.
+
+00:01:19.767 --> 00:01:24.601
+Estes seriam positivos também,
+mas estes seriam negativos.
+
+00:01:24.601 --> 00:01:27.100
+Mas aí diz que tiraríamos
+o valor absoluto,
+
+00:01:27.133 --> 00:01:30.267
+que nos levaria de volta
+a esta coluna aqui.
+
+00:01:30.300 --> 00:01:33.434
+Porque não importa
+se estes são positivos ou negativos.
+
+00:01:33.467 --> 00:01:37.497
+Aí dividimos por n,
+e achamos o mesmo que isto.
+
+00:01:37.531 --> 00:01:40.734
+Esta diz que estamos usando
+apenas um valor.
+
+00:01:40.767 --> 00:01:45.000
+Não sabemos qual, subtraindo a média,
+tirando o valor absoluto,
+
+00:01:45.038 --> 00:01:49.367
+e depois dividindo por n,
+que não nos dá o que queremos.
+
+00:01:49.409 --> 00:01:53.100
+Isto foi difícil,
+mas quanto mais trabalhar com fórmulas,
+
+00:01:53.133 --> 00:01:55.267
+vai ficar mais confortável
+com elas.
+
+00:01:55.300 --> 00:01:57.634
+E não se preocupe,
+até o fim deste curso
+
+00:01:57.667 --> 00:02:01.767
+entenderá todos estes símbolos
+e fórmulas que estamos usando.
+
+00:02:01.801 --> 00:02:05.467
+E isso te ajudará a expressar
+ideias matemáticas.
+
