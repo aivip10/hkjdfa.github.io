@@ -1,0 +1,210 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.334 --> 00:00:03.734
+Vamos estudar o gradiente
+descendente matematicamente.
+
+00:00:03.767 --> 00:00:05.968
+A função de erro
+é uma função de pesos
+
+00:00:06.000 --> 00:00:07.868
+que pode ser representada
+desta forma.
+
+00:00:07.901 --> 00:00:11.300
+Há uma estrutura matemática,
+e não é mais o Monte Errorest,
+
+00:00:11.334 --> 00:00:13.767
+é mais um Monte Matemático.
+
+00:00:13.801 --> 00:00:18.067
+Nós estamos em algum lugar
+do Monte e precisamos descer.
+
+00:00:18.373 --> 00:00:23.133
+Se as entradas das funções
+são W1 e W2
+
+00:00:23.167 --> 00:00:26.834
+e a função de erro
+é dada por E,
+
+00:00:26.868 --> 00:00:28.767
+então o gradiente de E
+
+00:00:28.801 --> 00:00:32.200
+é dado pela soma dos vetores
+dos derivativos parciais de E
+
+00:00:32.234 --> 00:00:36.367
+em respeito a W1 e W2.
+
+00:00:36.400 --> 00:00:39.634
+Este gradiente nos informa
+a direção a seguir
+
+00:00:39.667 --> 00:00:42.801
+se quisermos aumentar
+a função de erro.
+
+00:00:42.834 --> 00:00:45.734
+Assim, se pegarmos
+o negativo do gradiente,
+
+00:00:45.767 --> 00:00:49.167
+isso nos dirá como diminuir
+a função de erro ao máximo,
+
+00:00:49.200 --> 00:00:51.734
+que é precisamente
+o que faremos.
+
+00:00:51.767 --> 00:00:55.133
+De onde estamos, pegamos
+o negativo do gradiente
+
+00:00:55.167 --> 00:00:58.400
+da função de erro
+a partir daquele ponto.
+
+00:00:59.033 --> 00:01:01.367
+Nós damos um passo
+nessa direção.
+
+00:01:01.400 --> 00:01:04.534
+Após darmos o passo,
+estaremos na posição mais baixa,
+
+00:01:04.567 --> 00:01:09.300
+então nós fazemos novamente,
+novamente e novamente
+
+00:01:09.334 --> 00:01:12.901
+até podermos chegar
+ao pé da montanha.
+
+00:01:12.934 --> 00:01:15.200
+É assim que calculamos
+o gradiente:
+
+00:01:15.234 --> 00:01:20.200
+começamos com a previsão inicial
+Y^ igual a sigmoide de WX mais B.
+
+00:01:20.234 --> 00:01:23.234
+Digamos que seja ruim,
+pois o erro é grande,
+
+00:01:23.267 --> 00:01:25.167
+pois estamos
+no topo da montanha.
+
+00:01:25.200 --> 00:01:26.868
+A previsão é assim:
+
+00:01:26.901 --> 00:01:32.868
+Y^ é igual a sigmoide de W1X1
+mais, até o WnXn, mais B.
+
+00:01:33.634 --> 00:01:37.367
+A função de erro é dada
+pela fórmula que vimos antes,
+
+00:01:37.400 --> 00:01:40.834
+mas o que importa
+é o gradiente da função de erro.
+
+00:01:40.868 --> 00:01:44.701
+O gradiente da função de erro
+é exatamente o vetor formado
+
+00:01:44.734 --> 00:01:47.367
+pelos derivativos parciais
+da função de erro
+
+00:01:47.400 --> 00:01:50.100
+em respeito aos pesos
+e às vieses.
+
+00:01:50.133 --> 00:01:54.367
+Nós damos um passo na direção
+do negativo do gradiente.
+
+00:01:54.400 --> 00:01:57.601
+Como antes, não queremos fazer
+nenhuma alteração drástica,
+
+00:01:57.634 --> 00:02:00.501
+então nós introduzimos uma taxa
+de aprendizado menor alfa,
+
+00:02:00.534 --> 00:02:02.834
+por exemplo, 0,1,
+
+00:02:02.868 --> 00:02:06.200
+e multiplicamos o gradiente
+por esse valor.
+
+00:02:06.234 --> 00:02:08.934
+Dar o passo é exatamente
+o mesmo
+
+00:02:08.968 --> 00:02:12.501
+que atualizar os pesos
+e vieses da seguinte forma:
+
+00:02:12.534 --> 00:02:15.868
+o peso WI se torna WI',
+
+00:02:15.901 --> 00:02:18.767
+dado por WI menos alfa,
+
+00:02:18.801 --> 00:02:21.667
+vezes o derivativo parcial
+do erro
+
+00:02:21.701 --> 00:02:24.267
+em respeito ao WI.
+
+00:02:24.300 --> 00:02:27.001
+E a viés se tornará B'
+
+00:02:27.033 --> 00:02:29.334
+dado por B menos alfa,
+
+00:02:29.367 --> 00:02:31.601
+vezes o derivativo parcial
+do erro
+
+00:02:31.634 --> 00:02:33.834
+em respeito ao B.
+
+00:02:33.868 --> 00:02:35.968
+Isso nos levará
+a uma previsão
+
+00:02:36.000 --> 00:02:37.968
+com função de erro menor,
+
+00:02:38.000 --> 00:02:40.868
+então podemos concluir
+que a previsão atual,
+
+00:02:40.901 --> 00:02:43.133
+com pesos W' e B',
+
+00:02:43.167 --> 00:02:45.434
+é melhor do que
+a que tínhamos antes,
+
+00:02:45.467 --> 00:02:47.200
+com pesos W e B.
+
+00:02:47.934 --> 00:02:50.634
+Este é exatamente o passo
+de gradiente descendente.
+

@@ -1,0 +1,74 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.235 --> 00:00:03.504
+Este é o vídeo-solução do
+Laboratório de Mapeamento Linear
+
+00:00:03.539 --> 00:00:05.802
+demonstrando que
+uma transformação vetorial
+
+00:00:05.835 --> 00:00:08.906
+também pode ser feita
+com multiplicação de matrizes.
+
+00:00:09.582 --> 00:00:11.431
+Na seção de código
+do laboratório,
+
+00:00:11.464 --> 00:00:15.618
+substituímos "none"
+pela função matmul do NumPy,
+
+00:00:15.818 --> 00:00:20.051
+onde o primeiro argumento
+é a matriz ij
+
+00:00:20.317 --> 00:00:22.910
+e o segundo argumento
+é o vetor v.
+
+00:00:23.517 --> 00:00:25.759
+Então marcamos
+que a tarefa foi cumprida.
+
+00:00:25.978 --> 00:00:29.004
+Para salvar nosso código,
+clicamos no ícone de salvar.
+
+00:00:29.123 --> 00:00:31.781
+Quando rodarmos o código,
+nossos resultados aqui
+
+00:00:32.161 --> 00:00:35.309
+devem ser iguais aos resultados
+esperados, aqui embaixo.
+
+00:00:35.741 --> 00:00:36.905
+Para rodar o código
+
+00:00:36.938 --> 00:00:38.793
+selecionamos Kernel,
+
+00:00:39.481 --> 00:00:41.260
+Restart &amp; Run All.
+
+00:00:42.785 --> 00:00:46.205
+Por fim, comparamos
+o vetor transformado v, aqui,
+
+00:00:47.141 --> 00:00:49.450
+com a solução esperada, aqui.
+
+00:00:49.913 --> 00:00:51.234
+Veja que confere,
+
+00:00:51.360 --> 00:00:53.753
+então sabemos que o código
+está correto.
+
+00:00:54.054 --> 00:00:55.855
+Isso completa o laboratório.
+

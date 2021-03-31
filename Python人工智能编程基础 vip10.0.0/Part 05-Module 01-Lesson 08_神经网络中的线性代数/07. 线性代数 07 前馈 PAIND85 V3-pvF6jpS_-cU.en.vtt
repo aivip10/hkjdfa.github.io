@@ -1,0 +1,178 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.390
+We finished step one,
+
+00:00:02.390 --> 00:00:04.730
+and we'll now start with step number two,
+
+00:00:04.730 --> 00:00:10.754
+which is finding the output y by using the values of h we just calculated.
+
+00:00:10.753 --> 00:00:13.439
+Since we have more than one output,
+
+00:00:13.439 --> 00:00:15.424
+y will be a vector as well.
+
+00:00:15.425 --> 00:00:17.870
+We have our initial inputs h,
+
+00:00:17.870 --> 00:00:21.609
+and want to find the values of the output y.
+
+00:00:21.609 --> 00:00:27.625
+Mathematically, the idea is identical to what we just saw in step number one.
+
+00:00:27.625 --> 00:00:29.795
+We now have different inputs,
+
+00:00:29.795 --> 00:00:35.789
+we call them h, and a different weight matrix, we call it W_2.
+
+00:00:35.789 --> 00:00:38.539
+The output will be vector y.
+
+00:00:38.539 --> 00:00:40.609
+Notice that the weight matrix has
+
+00:00:40.609 --> 00:00:44.494
+three rows as we have three neurons in the hidden layer,
+
+00:00:44.494 --> 00:00:48.299
+and two columns as we have only two outputs.
+
+00:00:48.299 --> 00:00:52.584
+And again, we have a vector by matrix multiplication.
+
+00:00:52.585 --> 00:00:57.020
+Vector h multiplied by the weight matrix W_2,
+
+00:00:57.020 --> 00:00:59.475
+gives us the output vector y.
+
+00:00:59.475 --> 00:01:08.115
+We can put it in a simple equation where y equals h times W. Once we have the outputs,
+
+00:01:08.114 --> 00:01:11.269
+we don't necessarily need an activation function.
+
+00:01:11.269 --> 00:01:14.744
+To have a good approximation of the output y,
+
+00:01:14.745 --> 00:01:17.850
+we need more than one level of hidden layers,
+
+00:01:17.849 --> 00:01:20.164
+maybe even 10 or more.
+
+00:01:20.165 --> 00:01:24.240
+In this picture, I use the general number p. The number
+
+00:01:24.239 --> 00:01:28.054
+of neurons in each layer can change from one layer to the next,
+
+00:01:28.055 --> 00:01:29.705
+and as I mentioned before,
+
+00:01:29.704 --> 00:01:31.539
+can be even thousands.
+
+00:01:31.540 --> 00:01:34.700
+Essentially, you can look at these neurons as building
+
+00:01:34.700 --> 00:01:37.980
+blocks or lego pieces that can be stacked.
+
+00:01:37.980 --> 00:01:41.835
+So how is this done mathematically? Just as before.
+
+00:01:41.834 --> 00:01:44.723
+A simple vector by matrix multiplication,
+
+00:01:44.724 --> 00:01:47.140
+followed by an activation function,
+
+00:01:47.140 --> 00:01:50.129
+where the vector indicates the inputs,
+
+00:01:50.129 --> 00:01:55.685
+and the matrix indicates the weights connecting one layer to the next.
+
+00:01:55.685 --> 00:01:58.295
+To generalize this model,
+
+00:01:58.295 --> 00:02:01.280
+let's look into one random Kth layer.
+
+00:02:01.280 --> 00:02:06.040
+The weight W_ ij from the K layer to the K plus
+
+00:02:06.040 --> 00:02:12.564
+one corresponds to the ith input going into the jth output.
+
+00:02:12.564 --> 00:02:14.500
+You might want to get a pencil for
+
+00:02:14.500 --> 00:02:18.504
+this one as these are important mathematical derivations.
+
+00:02:18.504 --> 00:02:20.215
+As you follow the math,
+
+00:02:20.215 --> 00:02:23.990
+pause the video, write the derivations in your notes.
+
+00:02:23.990 --> 00:02:28.370
+Let's treat layer K as the inputs x,
+
+00:02:28.370 --> 00:02:35.409
+and layer K plus one as the outputs of the hidden layer h. We will have n,
+
+00:02:35.409 --> 00:02:40.370
+x inputs and m, h outputs.
+
+00:02:40.370 --> 00:02:43.735
+By the way, if we are not dealing with inputs,
+
+00:02:43.735 --> 00:02:47.640
+but rather than the outputs of the previous hidden layer,
+
+00:02:47.639 --> 00:02:51.854
+the only thing that will change is the letter that we choose to use,
+
+00:02:51.854 --> 00:02:54.369
+but the calculations will be the same.
+
+00:02:54.370 --> 00:02:56.775
+So to make the notation simple,
+
+00:02:56.775 --> 00:03:04.340
+let's just stay with x. H one is the output of an activation function of a sum,
+
+00:03:04.340 --> 00:03:07.810
+where the sum is a multiplication of each input
+
+00:03:07.810 --> 00:03:13.110
+x_i by its corresponding weight component W_i1.
+
+00:03:13.110 --> 00:03:18.870
+The same way h_m is the output of an activation function of a sum,
+
+00:03:18.870 --> 00:03:21.905
+and the sum is the multiplication of each input
+
+00:03:21.905 --> 00:03:26.784
+x_i by its corresponding weight component W_im.
+
+00:03:26.784 --> 00:03:30.984
+For example, if we have three inputs,
+
+00:03:30.985 --> 00:03:33.745
+and we want to calculate h_1,
+
+00:03:33.745 --> 00:03:40.480
+it will be the output of an activation function of the following linear combination.
+

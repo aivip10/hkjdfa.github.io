@@ -1,0 +1,263 @@
+<!-- udacity2.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>什么是神经网络？</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>神经网络中的线性代数</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. 讲师.html">01. 讲师</a>
+    </li>
+    <li class="">
+      <a href="02. 简介.html">02. 简介</a>
+    </li>
+    <li class="">
+      <a href="03. 什么是神经网络？.html">03. 什么是神经网络？</a>
+    </li>
+    <li class="">
+      <a href="04. 神经元如何相连？.html">04. 神经元如何相连？</a>
+    </li>
+    <li class="">
+      <a href="05. 将所有概念关联到一起.html">05. 将所有概念关联到一起</a>
+    </li>
+    <li class="">
+      <a href="06. 前馈流程 - 计算 h.html">06. 前馈流程 - 计算 h</a>
+    </li>
+    <li class="">
+      <a href="07. 前馈流程 - 计算 y.html">07. 前馈流程 - 计算 y</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">03. 什么是神经网络？</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h1 id="什么是神经网络？">什么是神经网络？</h1>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>神经网络是神经科学的一个重要研究领域。对于计算机科学家、工程师或纯粹神经科学领域之外的其他专业人士来说，神经网络实际上是指<strong>人工神经网络</strong>。</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>下面是一个很有趣的简短视频，直观地呈现了这些<strong>生物</strong>神经网络。</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>Dolly Inside Head  1 </p></h3>
+  <video controls>
+  <source src="03. Dolly Inside Head  1 -tyam5ZncjNw.mp4" type="video/mp4">
+
+  <track default="true" kind="subtitles" srclang="en" src="03. Dolly Inside Head  1 -tyam5ZncjNw.en.vtt" label="en">
+  <track default="false" kind="subtitles" srclang="BR" src="03. Dolly Inside Head  1 -tyam5ZncjNw.pt-BR.vtt" label="BR">
+  <track default="false" kind="subtitles" srclang="CN" src="03. Dolly Inside Head  1 -tyam5ZncjNw.zh-CN.vtt" label="CN">
+</video>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p><strong>人工神经网络</strong>的设计灵感来自生物大脑结构。下面的人工网络中使用的神经元本质上是数学函数。 </p>
+<p>每个网络都具有：</p>
+<ul>
+<li>输入神经元 - 称之为神经元的<em>输入层</em></li>
+<li>输出神经元 - 称之为神经元的<em>输出层</em></li>
+</ul>
+<p>以及 </p>
+<ul>
+<li>内部神经元 - 称之为神经元的<em>隐藏层</em>。每个神经网络可以有很多个隐藏层</li>
+</ul>
+<p>下图是一个简单的神经网络，其中只有一个隐藏层。</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/screen-shot-2018-01-31-at-2.22.49-pm.png" alt="_简化的人工神经网络_" class="img img-fluid">
+    <figcaption class="figure-caption">
+      <p><em>简化的人工神经网络</em></p>
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>这个简化的人工神经网络由以下部分组成：</p>
+<ul>
+<li><p>一个输入向量 <span class="mathquill ud-math">\vec{x}=\begin{bmatrix} x_1& x_2& x_3& …&x_n\end{bmatrix}</span></p></li>
+<li><p>一个隐藏层向量 <span class="mathquill ud-math">\vec{h}=\begin{bmatrix} h_1& h_2& h_3& …&h_m\end{bmatrix}</span></p></li>
+</ul>
+<p>以及 </p>
+<ul>
+<li>一个输出向量 <span class="mathquill ud-math">\vec{y}=\begin{bmatrix} y_1& y_2& y_3& …&y_k\end{bmatrix}</span></li>
+</ul>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>向量中的每个元素都是一个数学参数，稍后我们会详细讲解。</p>
+<p>注意，输入数量和隐藏层中的隐藏神经元数量或输出数量没有联系。</p>
+<p>（此处用到的记法是行向量，这些向量也可以表示为列向量）</p>
+</div>
+
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+              <a href="04. 神经元如何相连？.html" class="btn btn-outline-primary mt-4" role="button">Next Concept</a>
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://us-udacity.github.io/" target="_blank">【udacity2.0 】If you need more courses, please add wechat：udacity6</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('03. 什么是神经网络？')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>

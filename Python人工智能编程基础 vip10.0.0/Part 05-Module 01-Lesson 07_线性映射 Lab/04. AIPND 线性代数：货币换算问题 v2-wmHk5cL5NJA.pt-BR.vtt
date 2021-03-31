@@ -1,0 +1,85 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.117 --> 00:00:02.977
+Este é o vídeo-solução do
+Lab. de Mapeamento Linear
+
+00:00:03.010 --> 00:00:04.614
+para o problema da conversão
+de moedas
+
+00:00:04.647 --> 00:00:06.829
+resolvido por
+multiplicação de matrizes.
+
+00:00:06.862 --> 00:00:09.790
+Neste laboratório vamos usar
+a função matmul do NumPy
+
+00:00:09.823 --> 00:00:11.634
+para fazer
+multiplicação de matrizes
+
+00:00:11.667 --> 00:00:14.043
+para resolver o problema
+da conversão de moedas.
+
+00:00:14.055 --> 00:00:15.522
+Na seção de código, aqui,
+
+00:00:15.555 --> 00:00:18.710
+substituímos "none"
+pela função matmul do NumPy,
+
+00:00:19.045 --> 00:00:21.161
+onde o primeiro argumento
+é money
+
+00:00:21.468 --> 00:00:23.508
+e o segundo é
+conversion_rates.
+
+00:00:23.909 --> 00:00:26.169
+Aí marcamos essa tarefa
+como cumprida.
+
+00:00:26.586 --> 00:00:29.599
+Depois salvamos o código
+clicando no ícone de salvar.
+
+00:00:30.239 --> 00:00:31.551
+Quando rodarmos o código,
+
+00:00:31.584 --> 00:00:33.628
+nossos resultados
+vão aparecer aqui.
+
+00:00:33.876 --> 00:00:37.412
+Devem ser iguais
+à solução esperada, que vemos aqui.
+
+00:00:38.018 --> 00:00:39.187
+Para rodar o código,
+
+00:00:39.326 --> 00:00:40.738
+selecionamos Kernel,
+
+00:00:41.752 --> 00:00:43.361
+Restart &amp; Run All.
+
+00:00:44.051 --> 00:00:47.649
+Por fim, comparamos
+as quantias totais com a solução
+
+00:00:47.682 --> 00:00:49.495
+e vemos que são iguais.
+
+00:00:49.666 --> 00:00:51.890
+Portanto,
+o código está correto.
+
+00:00:52.298 --> 00:00:54.066
+Isso completa o laboratório.
+

@@ -1,0 +1,183 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.334 --> 00:00:04.000
+Agora temos as ferramentas
+do algoritmo perceptron.
+
+00:00:04.701 --> 00:00:06.434
+Começamos
+com uma equação aleatória
+
+00:00:06.468 --> 00:00:08.834
+que determina uma linha
+e duas regiões,
+
+00:00:08.868 --> 00:00:10.801
+a positiva e a negativa.
+
+00:00:11.434 --> 00:00:14.868
+Nós movemos
+a linha para ajustar.
+
+00:00:14.902 --> 00:00:17.501
+Nós perguntamos aos pontos
+sobre a performance.
+
+00:00:17.535 --> 00:00:19.534
+Os quatro pontos corretos
+
+00:00:19.568 --> 00:00:21.001
+dizem "eu estou bem".
+
+00:00:21.035 --> 00:00:23.667
+Os dois pontos classificados
+erroneamente
+
+00:00:23.701 --> 00:00:25.634
+dizem "aproxime-se".
+
+00:00:25.668 --> 00:00:29.033
+Vamos ouvir o ponto da direita
+e aplicar o truque
+
+00:00:29.067 --> 00:00:31.508
+para aproximar
+a linha do ponto.
+
+00:00:31.801 --> 00:00:33.934
+Aqui está.
+Este ponto está bom.
+
+00:00:34.667 --> 00:00:36.734
+Vamos ouvir
+o ponto da esquerda.
+
+00:00:36.768 --> 00:00:38.634
+Ele diz "aproxime-se".
+
+00:00:38.668 --> 00:00:41.334
+Nós aplicamos o truque
+e a linha se aproxima dele.
+
+00:00:42.133 --> 00:00:44.767
+Ele acaba classificando
+corretamente.
+
+00:00:45.501 --> 00:00:48.845
+Todo ponto é
+classificado corretamente.
+
+00:00:48.879 --> 00:00:51.901
+Vamos escrever um pseudocódigo
+para o algoritmo perceptron.
+
+00:00:52.601 --> 00:00:56.300
+Começamos com pesos aleatórios,
+de W1 a WN e B.
+
+00:00:56.334 --> 00:00:58.667
+Isso nos dá a equação
+WX mais B,
+
+00:00:58.701 --> 00:01:02.001
+a linha e as áreas
+positivas e negativas.
+
+00:01:02.035 --> 00:01:04.001
+Para cada ponto errado
+
+00:01:04.035 --> 00:01:07.501
+com coordenadas de X1 a XN,
+nós fazemos o seguinte.
+
+00:01:07.535 --> 00:01:09.167
+Se a previsão for zero,
+
+00:01:09.201 --> 00:01:12.934
+ele é um ponto positivo
+na área negativa,
+
+00:01:12.968 --> 00:01:15.567
+nós atualizamos os pesos.
+
+00:01:15.601 --> 00:01:19.100
+Para I igual a um até N,
+nós alteramos WI
+
+00:01:19.134 --> 00:01:21.601
+para WI mais alfa vezes XI,
+
+00:01:21.635 --> 00:01:23.701
+no qual alfa
+é a taxa de aprendizado.
+
+00:01:23.735 --> 00:01:26.167
+Neste caso,
+estamos utilizando 0,1.
+
+00:01:26.201 --> 00:01:29.567
+Às vezes usamos 0,01
+entre outros. Isso depende.
+
+00:01:30.400 --> 00:01:32.200
+Nós alteramos
+a unidade de viés
+
+00:01:32.234 --> 00:01:34.033
+para B mais alfa.
+
+00:01:34.067 --> 00:01:37.434
+Isso aproxima a linha
+do ponto errado.
+
+00:01:38.367 --> 00:01:39.734
+Se a previsão for um,
+
+00:01:39.768 --> 00:01:42.367
+será um ponto negativo
+na área positiva,
+
+00:01:42.401 --> 00:01:44.801
+nós atualizamos os pesos
+de forma parecida,
+
+00:01:44.835 --> 00:01:47.267
+mas subtraímos
+em vez de adicionar.
+
+00:01:47.301 --> 00:01:49.434
+Isso significa
+que para I igual a um,
+
+00:01:49.468 --> 00:01:53.834
+nós alteramos WI
+para WI menos alfa XI,
+
+00:01:53.868 --> 00:01:56.067
+e alteramos
+a unidade de viés B
+
+00:01:56.101 --> 00:01:58.033
+para B menos alfa.
+
+00:01:58.067 --> 00:02:01.631
+Agora a linha se aproximará
+do ponto errado.
+
+00:02:02.167 --> 00:02:05.001
+Nós repetimos os passos
+até não termos erros
+
+00:02:05.035 --> 00:02:07.367
+ou até termos poucos erros.
+
+00:02:07.401 --> 00:02:11.367
+Você pode pedir para executar
+o passo mil vezes e parar.
+
+00:02:11.401 --> 00:02:13.968
+Veremos outras opções
+mais à frente.
+

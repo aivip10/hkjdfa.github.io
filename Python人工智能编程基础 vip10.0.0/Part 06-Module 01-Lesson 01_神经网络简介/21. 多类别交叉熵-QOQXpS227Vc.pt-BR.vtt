@@ -1,0 +1,274 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.267 --> 00:00:02.334
+Isso era quando tínhamos
+duas classes
+
+00:00:02.367 --> 00:00:05.100
+de "recebendo um presente"
+e "não recebendo um presente".
+
+00:00:05.133 --> 00:00:07.567
+O que ocorre se tivermos
+mais classes?
+
+00:00:07.601 --> 00:00:09.167
+Vamos ver.
+
+00:00:09.200 --> 00:00:10.801
+Nós temos um problema
+parecido.
+
+00:00:10.834 --> 00:00:12.300
+Nós ainda temos três portas
+
+00:00:12.334 --> 00:00:14.801
+e este não é o problema
+do Monty Hall.
+
+00:00:14.834 --> 00:00:16.901
+Atrás de cada porta
+pode haver um animal,
+
+00:00:16.934 --> 00:00:18.934
+que pode ser de três tipos,
+
+00:00:18.968 --> 00:00:21.601
+ele pode ser um pato,
+um castor
+
+00:00:21.634 --> 00:00:23.467
+ou uma morsa.
+
+00:00:23.501 --> 00:00:26.234
+Vamos ver a tabela
+de probabilidades.
+
+00:00:26.267 --> 00:00:28.634
+De acordo com a primeira coluna
+da tabela,
+
+00:00:28.667 --> 00:00:30.133
+atrás da primeira porta,
+
+00:00:30.167 --> 00:00:33.167
+a probabilidade de haver
+um pato é de 0,7,
+
+00:00:33.200 --> 00:00:35.868
+de haver um castor
+é de 0,2,
+
+00:00:35.901 --> 00:00:39.334
+e de haver uma morsa
+é de 0,1.
+
+00:00:39.367 --> 00:00:41.267
+Perceba que os valores
+de cada coluna
+
+00:00:41.300 --> 00:00:43.001
+precisam ser
+adicionados a um,
+
+00:00:43.033 --> 00:00:45.968
+pois há algum animal
+atrás da porta um.
+
+00:00:46.000 --> 00:00:48.801
+Os números nas linhas
+não precisam se adicionar a um,
+
+00:00:48.834 --> 00:00:50.000
+como você pode ver.
+
+00:00:50.033 --> 00:00:52.567
+Poderia haver um pato
+atrás de cada porta,
+
+00:00:52.601 --> 00:00:53.767
+e tudo bem.
+
+00:00:53.801 --> 00:00:55.701
+Vamos observar
+nosso exemplo.
+
+00:00:55.734 --> 00:00:58.767
+Imagine três portas
+e, atrás da primeira,
+
+00:00:58.801 --> 00:01:00.000
+há um pato,
+
+00:01:00.033 --> 00:01:02.001
+atrás da segunda,
+há uma morsa,
+
+00:01:02.033 --> 00:01:05.100
+e atrás da terceira,
+outra morsa.
+
+00:01:05.133 --> 00:01:08.033
+As probabilidades
+estão na tabela.
+
+00:01:08.067 --> 00:01:11.834
+A probabilidade do pato
+na primeira porta é de 0,7,
+
+00:01:11.868 --> 00:01:15.200
+a da morsa,
+na segunda porta, é de 0,3
+
+00:01:15.234 --> 00:01:18.868
+e a de outra morsa,
+na terceira, é de 0,4.
+
+00:01:18.901 --> 00:01:20.934
+A probabilidade de termos
+os três animais
+
+00:01:20.968 --> 00:01:23.701
+é o produto da probabilidade
+dos três eventos,
+
+00:01:23.734 --> 00:01:25.567
+pois são eventos
+independentes,
+
+00:01:25.601 --> 00:01:29.267
+que, neste caso,
+é igual a 0,084.
+
+00:01:29.300 --> 00:01:32.300
+Conforme vimos,
+a entropia cruzada
+
+00:01:32.334 --> 00:01:35.167
+é fornecida pela soma
+dos negativos dos logaritmos
+
+00:01:35.200 --> 00:01:36.868
+das probabilidades.
+
+00:01:36.901 --> 00:01:40.667
+A primeira
+é o logaritmo negativo 0,7,
+
+00:01:40.701 --> 00:01:43.634
+a segunda é logaritmo
+negativo 0,3
+
+00:01:43.667 --> 00:01:47.100
+e a terceira
+é logaritmo negativo 0,4.
+
+00:01:47.133 --> 00:01:49.968
+A entropia cruzada
+é a soma dos três,
+
+00:01:50.000 --> 00:01:52.400
+que é igual a 2,48.
+
+00:01:52.434 --> 00:01:55.801
+Mas nós queremos uma fórmula,
+então vamos usar variáveis.
+
+00:01:55.834 --> 00:01:59.834
+P11 é a probabilidade
+de acharmos o pato na porta um,
+
+00:01:59.868 --> 00:02:04.968
+P12, de encontrarmos um pato
+na porta dois, etc.
+
+00:02:05.000 --> 00:02:08.934
+Vamos fazer as variáveis
+indicadoras Y1J serem um
+
+00:02:08.968 --> 00:02:11.267
+se houver um pato
+atrás da porta J.
+
+00:02:11.300 --> 00:02:14.834
+Y2J será um se houver
+um castor na porta J
+
+00:02:14.868 --> 00:02:18.734
+e Y3J será um se houver
+uma morsa na porta J.
+
+00:02:19.534 --> 00:02:22.067
+Caso contrário,
+as variáveis serão zero.
+
+00:02:22.100 --> 00:02:25.501
+A fórmula para a entropia
+cruzada é o negativo
+
+00:02:25.534 --> 00:02:28.667
+da soma de I igual
+a um até N,
+
+00:02:28.701 --> 00:02:32.801
+até a soma de Y igual a J
+até M de YIJ
+
+00:02:32.834 --> 00:02:35.934
+vezes o logaritmo de PIJ.
+
+00:02:35.968 --> 00:02:38.901
+Neste caso,
+M é a quantidade de classes.
+
+00:02:38.934 --> 00:02:43.167
+Esta fórmula funciona
+porque YIJ sendo 01 garante
+
+00:02:43.200 --> 00:02:46.100
+que só adicionemos logaritmos
+das probabilidades
+
+00:02:46.133 --> 00:02:48.701
+dos eventos que realmente
+aconteceram.
+
+00:02:48.734 --> 00:02:51.901
+Pronto. Esta é a fórmula
+da entropia cruzada
+
+00:02:51.934 --> 00:02:53.434
+em mais classes.
+
+00:02:53.467 --> 00:02:55.167
+Eu vou fazer uma pergunta:
+
+00:02:55.200 --> 00:02:57.300
+como temos uma fórmula
+da entropia cruzada
+
+00:02:57.334 --> 00:02:59.901
+para duas classes
+e outra para classes M,
+
+00:02:59.934 --> 00:03:01.567
+as fórmulas
+parecem diferentes,
+
+00:03:01.601 --> 00:03:04.200
+mas continuam iguais
+para M igual a dois?
+
+00:03:04.234 --> 00:03:05.601
+Obviamente que sim,
+
+00:03:05.634 --> 00:03:07.734
+mas é um bom exercício
+escrever isso
+
+00:03:07.767 --> 00:03:10.767
+para você se convencer
+de que elas são iguais.
+

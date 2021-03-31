@@ -1,0 +1,519 @@
+<!-- udacity2.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>感知器算法</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>神经网络简介</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. 简介.html">01. 简介</a>
+    </li>
+    <li class="">
+      <a href="02. 分类问题 1.html">02. 分类问题 1</a>
+    </li>
+    <li class="">
+      <a href="03. 分类问题 2.html">03. 分类问题 2</a>
+    </li>
+    <li class="">
+      <a href="04. 线性界线.html">04. 线性界线</a>
+    </li>
+    <li class="">
+      <a href="05. 更高维度的界线.html">05. 更高维度的界线</a>
+    </li>
+    <li class="">
+      <a href="06. 感知器.html">06. 感知器</a>
+    </li>
+    <li class="">
+      <a href="07. 为何称为“神经网络”？.html">07. 为何称为“神经网络”？</a>
+    </li>
+    <li class="">
+      <a href="08. 用感知器实现简单逻辑运算.html">08. 用感知器实现简单逻辑运算</a>
+    </li>
+    <li class="">
+      <a href="09. 感知器技巧 - 计算机如何“学习”分类？.html">09. 感知器技巧 - 计算机如何“学习”分类？</a>
+    </li>
+    <li class="">
+      <a href="10. 感知器算法.html">10. 感知器算法</a>
+    </li>
+    <li class="">
+      <a href="11. 非线性界线.html">11. 非线性界线</a>
+    </li>
+    <li class="">
+      <a href="12. 误差函数.html">12. 误差函数</a>
+    </li>
+    <li class="">
+      <a href="13. 误差函数与梯度下降.html">13. 误差函数与梯度下降</a>
+    </li>
+    <li class="">
+      <a href="14. 离散型与连续型 - 为什么使用sigmoid函数 .html">14. 离散型与连续型 - 为什么使用sigmoid函数 </a>
+    </li>
+    <li class="">
+      <a href="15. 多类别分类与Softmax 函数.html">15. 多类别分类与Softmax 函数</a>
+    </li>
+    <li class="">
+      <a href="16. One-Hot 编码.html">16. One-Hot 编码</a>
+    </li>
+    <li class="">
+      <a href="17. 最大似然率.html">17. 最大似然率</a>
+    </li>
+    <li class="">
+      <a href="18. 最大化概率.html">18. 最大化概率</a>
+    </li>
+    <li class="">
+      <a href="19. 交叉熵 1-损失函数.html">19. 交叉熵 1-损失函数</a>
+    </li>
+    <li class="">
+      <a href="20. 交叉熵 2-损失函数.html">20. 交叉熵 2-损失函数</a>
+    </li>
+    <li class="">
+      <a href="21. 多类别交叉熵.html">21. 多类别交叉熵</a>
+    </li>
+    <li class="">
+      <a href="22. Logistic 回归.html">22. Logistic 回归</a>
+    </li>
+    <li class="">
+      <a href="23. 梯度下降.html">23. 梯度下降</a>
+    </li>
+    <li class="">
+      <a href="24. 梯度下降算法推导与实现.html">24. 梯度下降算法推导与实现</a>
+    </li>
+    <li class="">
+      <a href="25. [Lab 准备] 梯度下降.html">25. [Lab 准备] 梯度下降</a>
+    </li>
+    <li class="">
+      <a href="26. [Lab] 梯度下降.html">26. [Lab] 梯度下降</a>
+    </li>
+    <li class="">
+      <a href="27. 感知器和梯度下降.html">27. 感知器和梯度下降</a>
+    </li>
+    <li class="">
+      <a href="28. 连续型感知器.html">28. 连续型感知器</a>
+    </li>
+    <li class="">
+      <a href="29. 非线性数据.html">29. 非线性数据</a>
+    </li>
+    <li class="">
+      <a href="30. 非线性模型.html">30. 非线性模型</a>
+    </li>
+    <li class="">
+      <a href="31. 神经网络结构.html">31. 神经网络结构</a>
+    </li>
+    <li class="">
+      <a href="32. 前向反馈.html">32. 前向反馈</a>
+    </li>
+    <li class="">
+      <a href="33. 反向传播.html">33. 反向传播</a>
+    </li>
+    <li class="">
+      <a href="34. [Lab 准备] 分析学生录取数据.html">34. [Lab 准备] 分析学生录取数据</a>
+    </li>
+    <li class="">
+      <a href="35. [Lab] 分析学生数据.html">35. [Lab] 分析学生数据</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">10. 感知器算法</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h1 id="感知器算法">感知器算法</h1>
+<p>掌握了感知器技巧后，我们就可以编写完整的感知器运算的算法了！</p>
+<p>下面的视频将介绍感知器算法的伪代码，现在你还不需要担心什么是学习速率（learning rate），我们在之后的课程中会详细介绍为什么这里的伪代码中有学习率。</p>
+<p>在视频下面的测验中，你将有机会用 Python 将其编成代码，并看看自己的感知器分类成果。加油！</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>DL 12 Perceptron Agorithm Pseudocode (1)</p></h3>
+  <video controls>
+  <source src="10. DL 12 Perceptron Agorithm Pseudocode (1)-M9c9bN5nJ3U.mp4" type="video/mp4">
+
+  <track default="true" kind="subtitles" srclang="en" src="10. DL 12 Perceptron Agorithm Pseudocode (1)-M9c9bN5nJ3U.en.vtt" label="en">
+  <track default="false" kind="subtitles" srclang="BR" src="10. DL 12 Perceptron Agorithm Pseudocode (1)-M9c9bN5nJ3U.pt-BR.vtt" label="BR">
+  <track default="false" kind="subtitles" srclang="CN" src="10. DL 12 Perceptron Agorithm Pseudocode (1)-M9c9bN5nJ3U.zh-CN.vtt" label="CN">
+</video>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h1 id="编写感知器算法">编写感知器算法</h1>
+<p>该编写代码了！在此练习中，你将实现感知器算法以分类下面的数据（位于文件 data.csv 中）。</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/points.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>感知器步骤如下所示。对于坐标轴为<br />
+<span class="mathquill ud-math">(p,q)</span><br />
+的点，标签 y，以及等式<br />
+<span class="mathquill ud-math">\hat{y} = step(w_1x_1 + w_2x_2 + b)</span> 给出的预测</p>
+<ul>
+<li>如果点分类正确，则什么也不做。</li>
+<li>如果点分类为正，但是标签为负，则分别减去<br />
+<span class="mathquill ud-math">\alpha p, \alpha q,</span><br />
+和<br />
+<span class="mathquill ud-math">\alpha</span><br />
+至<br />
+<span class="mathquill ud-math">w_1, w_2,</span><br />
+和<br />
+<span class="mathquill ud-math">b</span></li>
+<li>如果点分类为负，但是标签为正，则分别将<br />
+<span class="mathquill ud-math">\alpha p, \alpha q,</span><br />
+和<br />
+<span class="mathquill ud-math">\alpha</span><br />
+加到<br />
+<span class="mathquill ud-math">w_1, w_2,</span><br />
+和<br />
+<span class="mathquill ud-math">b</span><br />
+上。</li>
+</ul>
+<p>然后点击<code>测试运行</code>绘出感知器算法给出的解决方案。它实际上会画出一组虚线，显示算法如何接近最佳解决方案（用黑色实线表示）。</p>
+<p>请随意改动算法的参数（epoch 数量、学习速率，甚至随机化初始参数），看看初始条件对解决方案有何影响！</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+
+  <h4>Start Quiz:</h4>
+  <div>
+  <div class="nav nav-tabs nav-fill" role="tablist" id="question-tabs">
+    <a href="#348894-perceptron-py" class="nav-item nav-link  active show" id="tab-348894-perceptron-py" data-toggle="tab" role="tab"
+      aria-controls="348894-perceptron-py" aria-selected="true">perceptron.py</a>
+    <a href="#348894-data-csv" class="nav-item nav-link " id="tab-348894-data-csv" data-toggle="tab" role="tab"
+      aria-controls="348894-data-csv" aria-selected="false">data.csv</a>
+    <a href="#348894-solution-py" class="nav-item nav-link " id="tab-348894-solution-py" data-toggle="tab" role="tab"
+      aria-controls="348894-solution-py" aria-selected="false">solution.py</a>
+  </div>
+
+  <div class="tab-content" style="padding: 20px 0;" id="question-tab-contents">
+    <div class="tab-pane  active show" id="348894-perceptron-py" aria-labelledby="tab-348894-perceptron-py" role="tabpanel">
+      <pre><code></code>import numpy as np
+# Setting the random seed, feel free to change it and see different solutions.
+np.random.seed(42)
+
+def stepFunction(t):
+    if t &gt;&#x3D; 0:
+        return 1
+    return 0
+
+def prediction(X, W, b):
+    return stepFunction((np.matmul(X,W)+b)[0])
+
+# TODO: Fill in the code below to implement the perceptron trick.
+# The function should receive as inputs the data X, the labels y,
+# the weights W (as an array), and the bias b,
+# update the weights and bias W, b, according to the perceptron algorithm,
+# and return W and b.
+def perceptronStep(X, y, W, b, learn_rate &#x3D; 0.01):
+    # Fill in code
+    return W, b
+    
+# This function runs the perceptron algorithm repeatedly on the dataset,
+# and returns a few of the boundary lines obtained in the iterations,
+# for plotting purposes.
+# Feel free to play with the learning rate and the num_epochs,
+# and see your results plotted below.
+def trainPerceptronAlgorithm(X, y, learn_rate &#x3D; 0.01, num_epochs &#x3D; 25):
+    x_min, x_max &#x3D; min(X.T[0]), max(X.T[0])
+    y_min, y_max &#x3D; min(X.T[1]), max(X.T[1])
+    W &#x3D; np.array(np.random.rand(2,1))
+    b &#x3D; np.random.rand(1)[0] + x_max
+    # These are the solution lines that get plotted below.
+    boundary_lines &#x3D; []
+    for i in range(num_epochs):
+        # In each epoch, we apply the perceptron step.
+        W, b &#x3D; perceptronStep(X, y, W, b, learn_rate)
+        boundary_lines.append((-W[0]/W[1], -b/W[1]))
+    return boundary_lines
+</code></pre>
+    </div>
+    <div class="tab-pane " id="348894-data-csv" aria-labelledby="tab-348894-data-csv" role="tabpanel">
+      <pre><code></code>0.78051,-0.063669,1
+0.28774,0.29139,1
+0.40714,0.17878,1
+0.2923,0.4217,1
+0.50922,0.35256,1
+0.27785,0.10802,1
+0.27527,0.33223,1
+0.43999,0.31245,1
+0.33557,0.42984,1
+0.23448,0.24986,1
+0.0084492,0.13658,1
+0.12419,0.33595,1
+0.25644,0.42624,1
+0.4591,0.40426,1
+0.44547,0.45117,1
+0.42218,0.20118,1
+0.49563,0.21445,1
+0.30848,0.24306,1
+0.39707,0.44438,1
+0.32945,0.39217,1
+0.40739,0.40271,1
+0.3106,0.50702,1
+0.49638,0.45384,1
+0.10073,0.32053,1
+0.69907,0.37307,1
+0.29767,0.69648,1
+0.15099,0.57341,1
+0.16427,0.27759,1
+0.33259,0.055964,1
+0.53741,0.28637,1
+0.19503,0.36879,1
+0.40278,0.035148,1
+0.21296,0.55169,1
+0.48447,0.56991,1
+0.25476,0.34596,1
+0.21726,0.28641,1
+0.67078,0.46538,1
+0.3815,0.4622,1
+0.53838,0.32774,1
+0.4849,0.26071,1
+0.37095,0.38809,1
+0.54527,0.63911,1
+0.32149,0.12007,1
+0.42216,0.61666,1
+0.10194,0.060408,1
+0.15254,0.2168,1
+0.45558,0.43769,1
+0.28488,0.52142,1
+0.27633,0.21264,1
+0.39748,0.31902,1
+0.5533,1,0
+0.44274,0.59205,0
+0.85176,0.6612,0
+0.60436,0.86605,0
+0.68243,0.48301,0
+1,0.76815,0
+0.72989,0.8107,0
+0.67377,0.77975,0
+0.78761,0.58177,0
+0.71442,0.7668,0
+0.49379,0.54226,0
+0.78974,0.74233,0
+0.67905,0.60921,0
+0.6642,0.72519,0
+0.79396,0.56789,0
+0.70758,0.76022,0
+0.59421,0.61857,0
+0.49364,0.56224,0
+0.77707,0.35025,0
+0.79785,0.76921,0
+0.70876,0.96764,0
+0.69176,0.60865,0
+0.66408,0.92075,0
+0.65973,0.66666,0
+0.64574,0.56845,0
+0.89639,0.7085,0
+0.85476,0.63167,0
+0.62091,0.80424,0
+0.79057,0.56108,0
+0.58935,0.71582,0
+0.56846,0.7406,0
+0.65912,0.71548,0
+0.70938,0.74041,0
+0.59154,0.62927,0
+0.45829,0.4641,0
+0.79982,0.74847,0
+0.60974,0.54757,0
+0.68127,0.86985,0
+0.76694,0.64736,0
+0.69048,0.83058,0
+0.68122,0.96541,0
+0.73229,0.64245,0
+0.76145,0.60138,0
+0.58985,0.86955,0
+0.73145,0.74516,0
+0.77029,0.7014,0
+0.73156,0.71782,0
+0.44556,0.57991,0
+0.85275,0.85987,0
+0.51912,0.62359,0
+</code></pre>
+    </div>
+    <div class="tab-pane " id="348894-solution-py" aria-labelledby="tab-348894-solution-py" role="tabpanel">
+      <pre><code></code>def perceptronStep(X, y, W, b, learn_rate &#x3D; 0.01):
+    for i in range(len(X)):
+        y_hat &#x3D; prediction(X[i],W,b)
+        if y[i]-y_hat &#x3D;&#x3D; 1:
+            W[0] +&#x3D; X[i][0]*learn_rate
+            W[1] +&#x3D; X[i][1]*learn_rate
+            b +&#x3D; learn_rate
+        elif y[i]-y_hat &#x3D;&#x3D; -1:
+            W[0] -&#x3D; X[i][0]*learn_rate
+            W[1] -&#x3D; X[i][1]*learn_rate
+            b -&#x3D; learn_rate
+    return W, b
+</code></pre>
+    </div>
+  </div>
+</div>
+
+
+
+</div>
+
+
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+              <a href="11. 非线性界线.html" class="btn btn-outline-primary mt-4" role="button">Next Concept</a>
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://us-udacity.github.io/" target="_blank">【udacity2.0 】If you need more courses, please add wechat：udacity6</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('10. 感知器算法')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>

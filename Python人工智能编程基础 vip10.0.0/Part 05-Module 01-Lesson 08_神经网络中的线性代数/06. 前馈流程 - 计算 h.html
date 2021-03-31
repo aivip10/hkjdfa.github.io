@@ -1,0 +1,292 @@
+<!-- udacity2.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>前馈流程 - 计算 h</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>神经网络中的线性代数</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. 讲师.html">01. 讲师</a>
+    </li>
+    <li class="">
+      <a href="02. 简介.html">02. 简介</a>
+    </li>
+    <li class="">
+      <a href="03. 什么是神经网络？.html">03. 什么是神经网络？</a>
+    </li>
+    <li class="">
+      <a href="04. 神经元如何相连？.html">04. 神经元如何相连？</a>
+    </li>
+    <li class="">
+      <a href="05. 将所有概念关联到一起.html">05. 将所有概念关联到一起</a>
+    </li>
+    <li class="">
+      <a href="06. 前馈流程 - 计算 h.html">06. 前馈流程 - 计算 h</a>
+    </li>
+    <li class="">
+      <a href="07. 前馈流程 - 计算 y.html">07. 前馈流程 - 计算 y</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">06. 前馈流程 - 计算 h</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h1 id="前馈流程---计算-span-classmathquill-ud-mathvech-span">前馈流程 - 计算 <span class="mathquill ud-math">\vec{h} </span></h1>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>在此部分，我们将深入学习<strong>前馈</strong>流程的数学原理。借助线性代数工具，这些计算变得非常简单！</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>假设有一个隐藏层，我们将需要完成两个计算步骤。第一步是计算隐藏状态的值，第二步是计算输出的值。</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/screen-shot-2018-01-31-at-4.14.50-pm.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>注意，隐藏层和输出层都显示为向量，因为它们都由多个神经元表示。</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>第一个视频将帮助你理解第一步：<strong>计算隐藏状态的值</strong>。</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>线性代数 06 前馈 A V7 PAIND83 V1</p></h3>
+  <video controls>
+  <source src="06. 线性代数 06 前馈 A V7 PAIND83 V1-kQ6rNndcA1I.mp4" type="video/mp4">
+
+  <track default="true" kind="subtitles" srclang="en" src="06. 线性代数 06 前馈 A V7 PAIND83 V1-kQ6rNndcA1I.en.vtt" label="en">
+  <track default="false" kind="subtitles" srclang="BR" src="06. 线性代数 06 前馈 A V7 PAIND83 V1-kQ6rNndcA1I.pt-BR.vtt" label="BR">
+  <track default="false" kind="subtitles" srclang="CN" src="06. 线性代数 06 前馈 A V7 PAIND83 V1-kQ6rNndcA1I.zh-CN.vtt" label="CN">
+</video>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>正如你在上个视频中看到的，隐藏层的向量 <span class="mathquill ud-math">\vec{h'} </span> 的计算方式为，如下所示地将输入向量与权重矩阵 <span class="mathquill ud-math">W^{1}</span> 相乘：</p>
+<p><span class="mathquill ud-math">\vec{h'} = (\bar{x}  W^1 )</span></p>
+<p>通过向量和矩阵乘法，我们可以按如下方式理解此计算过程：</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/screen-shot-2018-01-31-at-4.25.16-pm.png" alt="_方程 17_" class="img img-fluid">
+    <figcaption class="figure-caption">
+      <p><em>方程 17</em></p>
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>算出 <span class="mathquill ud-math">\vec{h'} </span> 后，我们需要激活函数。</p>
+<p>激活函数的符号是希腊字母 Φ：<span class="mathquill ud-math"> \Phi</span>。</p>
+<p>此激活函数会确定隐藏层值的计算结果。 </p>
+<p>我们可以使用以下两个方程表示最后的隐藏向量 <span class="mathquill ud-math">\vec{h'} </span>：</p>
+<p><span class="mathquill ud-math">\vec{h} = \Phi(\vec{x}  W^1 )</span> </p>
+<p>或</p>
+<p><span class="mathquill ud-math"> \vec{h} = \Phi(\vec{h'})</span></p>
+<p>因为 <span class="mathquill ud-math">W_{ij}</span> 表示权重矩阵的权重部分，将输入中的神经元 <strong>i</strong> 与隐藏层中的神经元 <strong>j</strong> 相连，我们还可以使用<strong>线性组合</strong>表示这些计算过程（注意，在此示例中，我们有 <em>n</em> 个输入，只有 3 个隐藏神经元）</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/screen-shot-2018-01-31-at-4.29.38-pm.png" alt="_方程 18_" class="img img-fluid">
+    <figcaption class="figure-caption">
+      <p><em>方程 18</em></p>
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>你可以在下节课（神经网络入门）中详细了解激活函数及如何使用这些激活函数。</p>
+</div>
+
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+              <a href="07. 前馈流程 - 计算 y.html" class="btn btn-outline-primary mt-4" role="button">Next Concept</a>
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://us-udacity.github.io/" target="_blank">【udacity2.0 】If you need more courses, please add wechat：udacity6</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('06. 前馈流程 - 计算 h')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>

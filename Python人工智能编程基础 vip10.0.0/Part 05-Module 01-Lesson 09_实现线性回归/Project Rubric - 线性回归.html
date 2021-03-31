@@ -1,0 +1,428 @@
+<!-- udacity2.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>线性回归</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>实现线性回归</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. 项目介绍.html">01. 项目介绍</a>
+    </li>
+    <li class="">
+      <a href="Project Description - 线性回归.html">Project Description - 线性回归</a>
+    </li>
+    <li class="">
+      <a href="Project Rubric - 线性回归.html">Project Rubric - 线性回归</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">线性回归</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            
+      <div>
+        <h2><p>基本要求</p></h2>
+        <table class="table table-bordered table-hover">
+          <thead>
+            <tr class="thead-dark">
+              <th>Criteria</th>
+              <th>Meet Specification</th>
+            </tr>
+          </thead>
+          
+    <tbody>
+      
+      <tr scope="row">
+        <td>
+          <p>提交代码</p>
+        </td>
+        <td>
+          <p>如果不符合基本要求，你的项目将不会得到批改，直接判为无法审阅。 </p>
+<p>提交了<br />
+linear_regression_project.ipynb<br />
+linear_regression_project.html<br />
+linear_regression_project.py</p>
+        </td>
+      </tr>
+    
+      <tr scope="row">
+        <td>
+          <p>提交证明（可选）</p>
+        </td>
+        <td>
+          <p>如果不符合基本要求，你的项目将不会得到批改，直接判为无法审阅。</p>
+<p>提交了 proof.pdf 或在 ipython notebook 中用 LATEX 完成了证明。</p>
+        </td>
+      </tr>
+    
+    </tbody>
+  
+        </table>
+
+      </div>
+    
+      <div>
+        <h2><p>矩阵运算</p></h2>
+        <table class="table table-bordered table-hover">
+          <thead>
+            <tr class="thead-dark">
+              <th>Criteria</th>
+              <th>Meet Specification</th>
+            </tr>
+          </thead>
+          
+    <tbody>
+      
+      <tr scope="row">
+        <td>
+          <p>1.1 单位矩阵</p>
+        </td>
+        <td>
+          <p>学生正确的构建了一个 4*4 的单位矩阵</p>
+        </td>
+      </tr>
+    
+      <tr scope="row">
+        <td>
+          <p>1.2 返回矩阵的行数和列数</p>
+        </td>
+        <td>
+          <p>学生正确地实现了shape 函数</p>
+        </td>
+      </tr>
+    
+      <tr scope="row">
+        <td>
+          <p>1.3 每个元素四舍五入到特定小数数位</p>
+        </td>
+        <td>
+          <p>学生正确地实现了matxRound 函数</p>
+        </td>
+      </tr>
+    
+      <tr scope="row">
+        <td>
+          <p>1.4 计算矩阵的转置</p>
+        </td>
+        <td>
+          <p>学生正确的实现了 transpose 函数</p>
+        </td>
+      </tr>
+    
+      <tr scope="row">
+        <td>
+          <p>1.5 计算矩阵乘法 AB</p>
+        </td>
+        <td>
+          <p>学生正确地实现了 matxMultiply 函数</p>
+        </td>
+      </tr>
+    
+    </tbody>
+  
+        </table>
+
+      </div>
+    
+      <div>
+        <h2><p>Gaussian Jordan 消元法</p></h2>
+        <table class="table table-bordered table-hover">
+          <thead>
+            <tr class="thead-dark">
+              <th>Criteria</th>
+              <th>Meet Specification</th>
+            </tr>
+          </thead>
+          
+    <tbody>
+      
+      <tr scope="row">
+        <td>
+          <p>2.1 增广矩阵</p>
+        </td>
+        <td>
+          <p>学生正确实现了增广矩阵</p>
+        </td>
+      </tr>
+    
+      <tr scope="row">
+        <td>
+          <p>2.2 初等行变换</p>
+        </td>
+        <td>
+          <p>学生按要求正确实现了初等行变换</p>
+        </td>
+      </tr>
+    
+      <tr scope="row">
+        <td>
+          <p>2.3 算法推演</p>
+        </td>
+        <td>
+          <p>学生正确推演了Gaussian Jordan消元法的两种情况</p>
+        </td>
+      </tr>
+    
+      <tr scope="row">
+        <td>
+          <p>2.3 Gaussian Jordan 消元法求解 Ax = b</p>
+        </td>
+        <td>
+          <p>学生正确实现了Gaussian Jordan 消元法求解 Ax = b</p>
+        </td>
+      </tr>
+    
+      <tr scope="row">
+        <td>
+          <p>2.4 证明算法正确判断了奇异矩阵（可选）</p>
+        </td>
+        <td>
+          <p>学生证明了算法正确判断了奇异矩阵</p>
+<p>如果没做，则通过。<br />
+如果做了但是做错了，则不通过。</p>
+        </td>
+      </tr>
+    
+    </tbody>
+  
+        </table>
+
+      </div>
+    
+      <div>
+        <h2><p>线性回归</p></h2>
+        <table class="table table-bordered table-hover">
+          <thead>
+            <tr class="thead-dark">
+              <th>Criteria</th>
+              <th>Meet Specification</th>
+            </tr>
+          </thead>
+          
+    <tbody>
+      
+      <tr scope="row">
+        <td>
+          <p>3.2 拟合一条直线</p>
+        </td>
+        <td>
+          <p>猜测一条直线并正确计算MSE</p>
+        </td>
+      </tr>
+    
+      <tr scope="row">
+        <td>
+          <p>3.3 损失函数求导（可选）</p>
+        </td>
+        <td>
+          <p>学生正确的证明了损失函数相对于参数的导数</p>
+<p>如果没做，则通过。<br />
+如果做了但是做错了，则不通过。</p>
+        </td>
+      </tr>
+    
+      <tr scope="row">
+        <td>
+          <p>3.3 线性回归实例推演（可选）</p>
+        </td>
+        <td>
+          <p>用三个点 (1,1), (2,2), (3,2) 来拟合一条直线 y = m*x + b</p>
+<p>如果没做，则通过。<br />
+如果做了但是做错了，则不通过。</p>
+        </td>
+      </tr>
+    
+      <tr scope="row">
+        <td>
+          <p>3.3 将导数写成矩阵形式（可选）</p>
+        </td>
+        <td>
+          <p>学生正确地计算／证明了方程组的矩阵形式</p>
+<p>如果没做，则通过。<br />
+如果做了但是做错了，则不通过。</p>
+        </td>
+      </tr>
+    
+      <tr scope="row">
+        <td>
+          <p>3.4 求解方程组</p>
+        </td>
+        <td>
+          <p>学生正确地计算了线性回归的最佳参数</p>
+        </td>
+      </tr>
+    
+    </tbody>
+  
+        </table>
+
+      </div>
+    
+      <div>
+        <h2><p>单元测试</p></h2>
+        <table class="table table-bordered table-hover">
+          <thead>
+            <tr class="thead-dark">
+              <th>Criteria</th>
+              <th>Meet Specification</th>
+            </tr>
+          </thead>
+          
+    <tbody>
+      
+      <tr scope="row">
+        <td>
+          <p>成功通过所有单元测试</p>
+        </td>
+        <td>
+          <p>学生成功通过了所有的单元测试</p>
+        </td>
+      </tr>
+    
+    </tbody>
+  
+        </table>
+
+      </div>
+    
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://us-udacity.github.io/" target="_blank">【udacity2.0 】If you need more courses, please add wechat：udacity6</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('线性回归')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>

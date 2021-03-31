@@ -1,0 +1,274 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.743 --> 00:00:02.493
+Terminamos o passo 1
+
+00:00:02.526 --> 00:00:04.635
+e agora vamos começar
+o passo 2,
+
+00:00:04.913 --> 00:00:06.737
+que é achar o output y
+
+00:00:07.223 --> 00:00:10.376
+usando os valores de h
+que acabamos de calcular.
+
+00:00:11.243 --> 00:00:13.289
+Como temos mais de um output,
+
+00:00:13.636 --> 00:00:15.532
+y também será um vetor.
+
+00:00:15.849 --> 00:00:17.808
+Temos nossas entradas
+iniciais, h
+
+00:00:18.079 --> 00:00:21.305
+e queremos encontrar os valores
+do output, y.
+
+00:00:22.146 --> 00:00:27.501
+Matematicamente, a ideia é idêntica
+ao que acabamos de ver no passo 1.
+
+00:00:28.063 --> 00:00:29.910
+Agora temos
+entradas diferentes,
+
+00:00:30.193 --> 00:00:31.584
+que vamos chamar de h,
+
+00:00:32.193 --> 00:00:35.641
+e uma matriz-peso diferente,
+que vamos chamar de W2.
+
+00:00:36.262 --> 00:00:38.435
+A output será o vetor y.
+
+00:00:38.975 --> 00:00:41.516
+Repare que a matriz peso
+tem três linhas,
+
+00:00:41.549 --> 00:00:44.389
+pois temos 3 neurônios
+na camada oculta,
+
+00:00:44.827 --> 00:00:48.038
+e duas colunas,
+pois temos só duas output.
+
+00:00:48.792 --> 00:00:52.384
+Novamente, temos multiplicação
+de vetor por matriz.
+
+00:00:53.036 --> 00:00:56.837
+O vetor h multiplicado
+pela matriz peso W2
+
+00:00:57.285 --> 00:00:59.327
+vai fornecer
+o vetor de output, y.
+
+00:00:59.956 --> 00:01:01.970
+Podemos montar
+uma equação simples
+
+00:01:02.204 --> 00:01:05.999
+onde y é igual a h vezes W2.
+
+00:01:06.589 --> 00:01:08.165
+Assim que tivermos
+os outputs,
+
+00:01:08.198 --> 00:01:11.542
+não precisaremos, necessariamente,
+de uma função de ativação.
+
+00:01:11.737 --> 00:01:14.703
+Para ter uma boa aproximação
+do output y,
+
+00:01:15.019 --> 00:01:17.891
+precisamos de mais de um nível
+de camadas ocultas,
+
+00:01:18.222 --> 00:01:19.849
+talvez até 10, ou mais.
+
+00:01:20.713 --> 00:01:23.372
+Nesta figura eu usei
+um número genérico, p.
+
+00:01:23.795 --> 00:01:25.754
+O número de neurônios
+em cada camada
+
+00:01:25.787 --> 00:01:28.023
+pode mudar de uma camada
+para outra
+
+00:01:28.192 --> 00:01:29.760
+e, como eu mencionei antes,
+
+00:01:29.910 --> 00:01:31.603
+pode chegar aos milhares.
+
+00:01:31.874 --> 00:01:35.193
+Você pode imaginar esses neurônios
+como bloquinhos de montar,
+
+00:01:35.226 --> 00:01:37.671
+ou peças de Lego,
+que você pode empilhar.
+
+00:01:38.369 --> 00:01:40.497
+Como se faz isso,
+matematicamente?
+
+00:01:40.530 --> 00:01:42.112
+Igual a antes.
+
+00:01:42.145 --> 00:01:44.730
+Uma simples multiplicação
+de vetor por matriz,
+
+00:01:44.893 --> 00:01:47.012
+seguida de
+uma função de ativação,
+
+00:01:47.551 --> 00:01:49.814
+onde o vetor indica
+as entradas
+
+00:01:50.428 --> 00:01:54.815
+e a matriz indica os pesos
+que conectam uma camada a outra.
+
+00:01:56.712 --> 00:01:58.416
+Para generalizar esse modelo,
+
+00:01:58.449 --> 00:02:01.304
+vamos observar a k-ésima
+camada aleatória.
+
+00:02:01.776 --> 00:02:03.602
+O peso W_ij
+
+00:02:03.939 --> 00:02:06.481
+da k-ésima camada
+para a k-ésima+1
+
+00:02:07.095 --> 00:02:09.591
+corresponde à i-ésima entrada
+
+00:02:09.624 --> 00:02:12.428
+que gera a j-ésima output.
+
+00:02:13.073 --> 00:02:15.548
+É melhor pegar um lápis
+para tomar nota,
+
+00:02:15.585 --> 00:02:18.298
+pois essa é uma derivação
+matemática importante.
+
+00:02:18.925 --> 00:02:20.603
+Ao acompanhar os cálculos,
+
+00:02:20.636 --> 00:02:23.954
+pause o vídeo e copie
+a derivação em seu caderno.
+
+00:02:24.049 --> 00:02:28.084
+Vamos tratar a camada k
+como as entradas x
+
+00:02:28.549 --> 00:02:30.188
+e a camada k+1
+
+00:02:30.437 --> 00:02:33.340
+como os outputs
+da camada oculta h.
+
+00:02:33.941 --> 00:02:37.047
+Teremos n entradas x
+
+00:02:37.080 --> 00:02:40.181
+e m outputs h.
+
+00:02:40.690 --> 00:02:43.768
+Aliás, se não estivermos mexendo
+com entradas
+
+00:02:43.801 --> 00:02:47.480
+e sim com os outputs
+de um camada oculta anterior,
+
+00:02:48.047 --> 00:02:49.784
+a única coisa que vai mudar
+
+00:02:49.817 --> 00:02:51.718
+será a letra
+que vamos escolher,
+
+00:02:52.237 --> 00:02:54.312
+mas os cálculos
+serão os mesmos.
+
+00:02:54.741 --> 00:02:56.745
+Então, para facilitar
+a notação,
+
+00:02:56.996 --> 00:02:58.410
+vamos ficar com o x.
+
+00:02:59.109 --> 00:03:01.316
+Temos que h1 será o output
+
+00:03:01.349 --> 00:03:04.257
+da função de ativação
+de uma soma,
+
+00:03:04.674 --> 00:03:08.558
+onde a soma é a multiplicação
+de cada entrada xi
+
+00:03:08.591 --> 00:03:12.921
+por seu componente de peso
+correspondente Wi1.
+
+00:03:13.387 --> 00:03:14.570
+Da mesma maneira,
+
+00:03:14.937 --> 00:03:18.635
+hm é o output da função de ativação
+de uma soma
+
+00:03:19.065 --> 00:03:22.860
+e a soma é a multiplicação
+de cada input xi
+
+00:03:23.141 --> 00:03:27.118
+por seu componente de peso
+correspondente Wim.
+
+00:03:27.551 --> 00:03:28.825
+Por exemplo:
+
+00:03:29.337 --> 00:03:30.914
+se tivermos 3 inputs
+
+00:03:31.258 --> 00:03:33.613
+e quisemos calcular h1,
+
+00:03:34.117 --> 00:03:36.773
+h1 será o output de uma função
+de ativação
+
+00:03:37.116 --> 00:03:39.885
+da seguinte
+combinação linear:
+

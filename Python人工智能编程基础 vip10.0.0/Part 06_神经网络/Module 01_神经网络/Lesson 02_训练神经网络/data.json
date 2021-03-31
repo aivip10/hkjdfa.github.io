@@ -1,0 +1,560 @@
+{
+  "data": {
+    "lesson": {
+      "id": 457816,
+      "key": "1a0c733f-e9a5-4ffb-a905-a7a2de1975bf",
+      "title": "训练神经网络",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "zh-cn",
+      "summary": "现在你已经了解了什么是神经网络。在这一课中你将学会几种方法，以提升神经网络的训练效果。",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": null,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/1a0c733f-e9a5-4ffb-a905-a7a2de1975bf/457816/1583470623414/%E8%AE%AD%E7%BB%83%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/1a0c733f-e9a5-4ffb-a905-a7a2de1975bf/457816/1583470618664/%E8%AE%AD%E7%BB%83%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C+Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 349188,
+          "key": "b7683c31-5e82-4457-b061-070ff4188a41",
+          "title": "训练优化",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "b7683c31-5e82-4457-b061-070ff4188a41",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 348976,
+              "key": "c3bd0375-9e85-479b-b776-28b9a649a5aa",
+              "title": "训练优化",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "UiGKhx9pUYc",
+                "china_cdn_id": "UiGKhx9pUYc.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 349191,
+          "key": "6ab70d49-b484-431b-a7e5-e4046a95b6e8",
+          "title": "测试",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "6ab70d49-b484-431b-a7e5-e4046a95b6e8",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 348980,
+              "key": "1d4bc359-ed36-4275-a56f-3b0e20c4d191",
+              "title": "测试",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "EeBZpb-PSac",
+                "china_cdn_id": "EeBZpb-PSac.mp4"
+              }
+            },
+            {
+              "id": 348981,
+              "key": "7fb946e2-3096-4e6e-b40d-ec0b24ef2531",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## 在 Keras 中进行测试\n\n要在 Keras 中进行测试，我们只需将数据集拆分为训练集和测试集。因为我们有 400 个数据点，所以用 50 个数据点进行训练比较合理：\n\n     (X_train, X_test) = X[50:], X[:50]\n     (y_train, y_test) = y[50:], y[:50]",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 349193,
+          "key": "207e59e5-4542-4bf3-9acf-2c67c22525e8",
+          "title": "过拟合和欠拟合",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "207e59e5-4542-4bf3-9acf-2c67c22525e8",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 348982,
+              "key": "01364680-93a3-44af-8f18-5d6871c1224e",
+              "title": "Underfitting And Overfitting",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "xj4PlXMsN-Y",
+                "china_cdn_id": "xj4PlXMsN-Y.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 349192,
+          "key": "6ca15486-4db4-4731-89f3-06b704ef8455",
+          "title": "早期停止",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "6ca15486-4db4-4731-89f3-06b704ef8455",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 348983,
+              "key": "c4993845-a7a0-4f8a-a187-1706258224d0",
+              "title": "模型复杂图",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "NnS0FJyVcDQ",
+                "china_cdn_id": "NnS0FJyVcDQ.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 349194,
+          "key": "75935645-a408-4685-bd9c-5f234e1b0761",
+          "title": "正则化",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "75935645-a408-4685-bd9c-5f234e1b0761",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 348984,
+              "key": "e13c64d5-1b20-4f0e-a400-c28e54ee0b92",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# 正则化",
+              "instructor_notes": ""
+            },
+            {
+              "id": 348985,
+              "key": "d6506b13-388c-4acf-aaf6-219ffb829f6a",
+              "title": "DL 53 Q Regularization",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "KxROxcRsHL8",
+                "china_cdn_id": "KxROxcRsHL8.mp4"
+              }
+            },
+            {
+              "id": 348986,
+              "key": "d4a4a842-0003-430a-9db6-421f3c74afee",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2017/May/59113b25_regularization-quiz/regularization-quiz.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/d4a4a842-0003-430a-9db6-421f3c74afee",
+              "caption": "",
+              "alt": null,
+              "width": 1920,
+              "height": 663,
+              "instructor_notes": null
+            },
+            {
+              "id": 348987,
+              "key": "93bfddd2-24ce-483f-b3be-d6b5b5455a5f",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "93bfddd2-24ce-483f-b3be-d6b5b5455a5f",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "哪个误差更小？（）",
+                "answers": [
+                  {
+                    "id": "a1494301677230",
+                    "text": "x1 + x2",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1494301688642",
+                    "text": "10x1 + 10x2",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 689527,
+              "key": "03f65216-b560-4364-a71c-c0ce462cf073",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "（正确答案视频源为YouTube,若无法打开可在下一讲观看）",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 457755,
+          "key": "2e0a0320-f6f0-4506-a6b5-0d913fac2fa1",
+          "title": "正则化 2",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2e0a0320-f6f0-4506-a6b5-0d913fac2fa1",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 457741,
+              "key": "3945664a-a648-4043-a2dc-80b3a2d8a7fb",
+              "title": "Regularization",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "ndYnUrx8xvs",
+                "china_cdn_id": "ndYnUrx8xvs.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 457756,
+          "key": "05d1b01f-191e-4b45-8e93-469aa0e05877",
+          "title": "Dropout",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "05d1b01f-191e-4b45-8e93-469aa0e05877",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 457742,
+              "key": "55e872df-6109-4a23-abc1-68aef4c09521",
+              "title": "Dropout",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "Ty6K6YiGdBs",
+                "china_cdn_id": "Ty6K6YiGdBs.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 349198,
+          "key": "696fa20c-c948-464b-a024-bf65a3ee8813",
+          "title": "局部最低点",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "696fa20c-c948-464b-a024-bf65a3ee8813",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 348993,
+              "key": "b34eafee-7673-41cc-9c1d-c38525105b2e",
+              "title": "局部最低点",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "gF_sW_nY-xw",
+                "china_cdn_id": "gF_sW_nY-xw.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 349200,
+          "key": "61dacb5b-dc2b-4249-b326-8022baa18d62",
+          "title": "随机重新开始",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "61dacb5b-dc2b-4249-b326-8022baa18d62",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 348994,
+              "key": "f2cf2b27-e238-4ace-ad75-b8a6bea032de",
+              "title": "随机重新开始",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "idyBBCzXiqg",
+                "china_cdn_id": "idyBBCzXiqg.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 349196,
+          "key": "f39bf14a-ddc9-4560-99b5-be8eff82fac6",
+          "title": "梯度消失",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "f39bf14a-ddc9-4560-99b5-be8eff82fac6",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 348990,
+              "key": "891ee5a8-b5ef-497c-807e-3ba7b99ffde9",
+              "title": "梯度消失",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "W_JJm_5syFw",
+                "china_cdn_id": "W_JJm_5syFw.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 349197,
+          "key": "79a26389-34e8-4b3b-9cae-29f6ed792ba6",
+          "title": "其他激活函数",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "79a26389-34e8-4b3b-9cae-29f6ed792ba6",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 348991,
+              "key": "f139eb4f-d067-4ca0-90a8-730b96a4732b",
+              "title": "其他激活函数",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "VzGOR5SlFSw",
+                "china_cdn_id": "VzGOR5SlFSw.mp4"
+              }
+            },
+            {
+              "id": 627879,
+              "key": "654cfbb8-f188-4def-8e08-7d03eeb5744a",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "1'05\"的ReLU函数应为：\nReLU函数的坐标轴中点，0.5应为0；\n\n<span class=\"mathquill\">\nf(x) = \\left\\{\n        \\begin{array}{ll}\n            x & \\quad if \\quad  x \\geq 0 \\\\\n            0 & \\quad if \\quad x < 0\n        \\end{array}\n    \\right.\n</span>",
+              "instructor_notes": ""
+            },
+            {
+              "id": 348992,
+              "key": "0aa6c0f7-273d-420a-aad3-5fdc206b529a",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Keras 中的其他激活函数\n\n更改激活函数很简单。到目前为止，我们一直在使用 s 型函数（如果有多个类别，则使用 softmax，例如我们对输出进行一位热码编码时），并按以下方式添加到层级中：\n\n```python\nmodel.add(Activation('sigmoid'))\n```\n或\n\n```python\nmodel.add(Activation('softmax'))\n```\n如果我们要使用 relu 或 tanh，则直接将层级名称指定为 relu 或 tanh：\n\n```python\nmodel.add(Activation('relu'))\nmodel.add(Activation('tanh'))\n```",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 349189,
+          "key": "cad9b57b-ff21-4e06-8a4b-b53bebe5e2b6",
+          "title": "Batch 和随机梯度下降",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "cad9b57b-ff21-4e06-8a4b-b53bebe5e2b6",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 348977,
+              "key": "0d8e7eef-f14d-4cd6-9da0-ffd03418642a",
+              "title": "批次和随机梯度下降",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "2p58rVgqsgo",
+                "china_cdn_id": "2p58rVgqsgo.mp4"
+              }
+            },
+            {
+              "id": 348978,
+              "key": "8e4a0803-5eb9-436e-ab73-8bb8daa5cd72",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Keras 中的随机梯度下降\n\n在 Keras 中很容易实现随机梯度下降。我们只需按以下命令在训练流程中指定批次大小：\n\n    model.fit(X_train, y_train, epochs=1000, batch_size=100, verbose=0)\n\n这里，我们将数据分成 100 批。",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 349190,
+          "key": "153aaf4d-d2f7-49c4-8343-dd6cb04b35ac",
+          "title": "学习速率衰退",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "153aaf4d-d2f7-49c4-8343-dd6cb04b35ac",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 348979,
+              "key": "dcb78aa0-01ec-43b6-a9d4-f6db59bca6cd",
+              "title": "学习速率",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "TwJ8aSZoh2U",
+                "china_cdn_id": "TwJ8aSZoh2U.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 349201,
+          "key": "d98afa37-4318-4203-9f99-4e2a64922bee",
+          "title": "动量",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "d98afa37-4318-4203-9f99-4e2a64922bee",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 348995,
+              "key": "2dd578e9-da77-470d-b924-9e593580c865",
+              "title": "动量",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "r-rYz_PEWC8",
+                "china_cdn_id": "r-rYz_PEWC8.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 349199,
+          "key": "8d6ae663-f64d-4e91-b214-f70c2789c977",
+          "title": "世界各地的误差函数",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8d6ae663-f64d-4e91-b214-f70c2789c977",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 348997,
+              "key": "5ef6bc2a-f222-4ed2-bf04-d032e749f04f",
+              "title": "已知的误差函数",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "34AAcTECu2A",
+                "china_cdn_id": "34AAcTECu2A.mp4"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:01.500
+This is the solution's video for
+
+00:00:01.500 --> 00:00:06.360
+the linear mapping lab covering computing and plotting a transform vector.
+
+00:00:06.360 --> 00:00:09.804
+With this lab, you'll be defining transform vector i_hat,
+
+00:00:09.804 --> 00:00:12.945
+transform vector j_hat, transform vector v,
+
+00:00:12.945 --> 00:00:17.140
+and then plotting transform vector v. In the coding section,
+
+00:00:17.140 --> 00:00:22.530
+you would have set x to three and y to one and mark this task as done.
+
+00:00:22.530 --> 00:00:27.914
+Set x to one and y to two and mark this task as done.
+
+00:00:27.914 --> 00:00:37.689
+Then you would have replace none with v_ihat_t plus v_jhat_t and mark this task as done.
+
+00:00:37.689 --> 00:00:43.968
+Finally, you would have copied the arrow statement for vector v and pasted it here,
+
+00:00:43.969 --> 00:00:52.005
+changing vector v to vector v under bar t color equal skyblue to color equals b.
+
+00:00:52.005 --> 00:00:56.615
+Then you would have saved your code by clicking on the "Save" icon here.
+
+00:00:56.615 --> 00:00:58.270
+When we run our code,
+
+00:00:58.270 --> 00:01:03.075
+we'd expect this plot here will match our expected solution here.
+
+00:01:03.075 --> 00:01:06.379
+To run the code, we click on "Kernel",
+
+00:01:06.379 --> 00:01:08.969
+"Restart &amp; Run All".
+
+00:01:08.969 --> 00:01:13.814
+Finally, we compare our plot to the solution and we see that they match.
+
+00:01:13.814 --> 00:01:16.870
+So, this means we've coded everything correctly.
+

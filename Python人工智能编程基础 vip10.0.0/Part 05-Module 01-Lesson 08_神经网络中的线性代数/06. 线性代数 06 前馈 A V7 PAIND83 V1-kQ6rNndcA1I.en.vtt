@@ -1,0 +1,145 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.419
+Let's look at the feedforward part first.
+
+00:00:03.419 --> 00:00:05.665
+To make our computations easier,
+
+00:00:05.665 --> 00:00:08.390
+let's decide to have n inputs,
+
+00:00:08.390 --> 00:00:13.214
+three neurons in a single hidden layer, and two outputs.
+
+00:00:13.214 --> 00:00:15.009
+By the way in practice,
+
+00:00:15.009 --> 00:00:18.365
+we can have thousands of neurons in a single hidden layer.
+
+00:00:18.364 --> 00:00:22.184
+We will use W1 as the set of weights from X to
+
+00:00:22.184 --> 00:00:27.184
+H and W2 as the set of weights from H to Y.
+
+00:00:27.184 --> 00:00:29.934
+Since we have only one hidden layer,
+
+00:00:29.934 --> 00:00:34.174
+we will have only two steps in each feedforward cycle.
+
+00:00:34.174 --> 00:00:41.304
+Step one, will be finding H from a given input and a set of weights W1.
+
+00:00:41.304 --> 00:00:45.549
+And step two, will be finding the output Y from
+
+00:00:45.549 --> 00:00:50.289
+the calculated H and the set of weights W2.
+
+00:00:50.289 --> 00:00:55.444
+You will find that other than the use of non-linear activation functions,
+
+00:00:55.444 --> 00:01:01.115
+all of the calculations involve linear combinations of inputs and weights,
+
+00:01:01.115 --> 00:01:05.254
+or in other words, we will use matrix multiplications.
+
+00:01:05.254 --> 00:01:08.004
+Let's start with step number one,
+
+00:01:08.004 --> 00:01:10.780
+finding H. Notice that,
+
+00:01:10.780 --> 00:01:15.245
+if we have more than one neuron in the hidden layer which is usually the case,
+
+00:01:15.245 --> 00:01:17.340
+H is actually a vector.
+
+00:01:17.340 --> 00:01:20.380
+We will have our initial inputs X,
+
+00:01:20.379 --> 00:01:22.549
+X is also a vector.
+
+00:01:22.549 --> 00:01:25.814
+And we want to find the values of the hidden neurons
+
+00:01:25.814 --> 00:01:30.935
+H. Each input is connected to each neuron in the hidden layer.
+
+00:01:30.935 --> 00:01:33.159
+For simplicity, we will use
+
+00:01:33.159 --> 00:01:38.890
+the following indices W11 connects X1 to H1,
+
+00:01:38.890 --> 00:01:42.790
+W13 connects X1 to H3,
+
+00:01:42.790 --> 00:01:47.930
+W21 connects X2 to H1,
+
+00:01:47.930 --> 00:01:53.770
+Wn3 connects Xn to H3 and so on.
+
+00:01:54.409 --> 00:01:59.094
+The vector of the inputs X1, X to the second,
+
+00:01:59.094 --> 00:02:02.400
+all the way up to Xn is multiplied by
+
+00:02:02.400 --> 00:02:07.545
+the weight matrix W1 to give us the hidden neurons.
+
+00:02:07.545 --> 00:02:16.020
+So, each vector H equals vector X multiplied by the weight matrix W1.
+
+00:02:16.020 --> 00:02:20.260
+In this case, we have a weight matrix with N rows,
+
+00:02:20.259 --> 00:02:22.514
+as we have N inputs,
+
+00:02:22.514 --> 00:02:27.324
+and three columns as we have three neurons in the hidden layer.
+
+00:02:27.324 --> 00:02:31.159
+If you multiply the input vector by the weight matrix,
+
+00:02:31.159 --> 00:02:35.060
+you will have a simple linear combination for each neuron in
+
+00:02:35.060 --> 00:02:40.560
+the hidden layer giving us vector H. So for example,
+
+00:02:40.560 --> 00:02:44.520
+H to the first will be X1 times W11
+
+00:02:44.520 --> 00:02:49.735
+plus X2 times W21, and so on.
+
+00:02:49.735 --> 00:02:53.495
+But we are not done with calculating the hidden layer yet.
+
+00:02:53.495 --> 00:02:56.455
+Notice the prime symbol I've been using?
+
+00:02:56.455 --> 00:03:00.640
+I used it to remind us that we are not done with finding H yet.
+
+00:03:00.639 --> 00:03:03.534
+We're almost there, but not quite yet.
+
+00:03:03.534 --> 00:03:09.109
+To make sure that the values of H do not explode or increase too much in size,
+
+00:03:09.110 --> 00:03:12.120
+we need to use an activation function.
+

@@ -1,0 +1,148 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:01.800
+This is the solutions video for
+
+00:00:01.800 --> 00:00:05.690
+the linear combination lab that covers checking of vector span.
+
+00:00:05.690 --> 00:00:10.880
+The first thing we need to do is replace "none" with the "np.linalg.solve" function.
+
+00:00:10.880 --> 00:00:14.060
+Then we need to mark this task as "done."
+
+00:00:14.060 --> 00:00:16.649
+Notice that the first argument in the function is "set of
+
+00:00:16.649 --> 00:00:20.039
+vectors" and the second argument is "vector to check."
+
+00:00:20.039 --> 00:00:24.000
+If "vector to check" is within the span of "set of
+
+00:00:24.000 --> 00:00:30.100
+vectors" then what's returned is a "vector of scalars" that solves Equation 1.
+
+00:00:30.100 --> 00:00:34.350
+This means the scalars "A" and "B" in Equation 1
+
+00:00:34.350 --> 00:00:39.890
+will be represented by the "vector of scalars" returned by the function.
+
+00:00:39.890 --> 00:00:43.909
+Otherwise, the function returns the printed statement,
+
+00:00:43.909 --> 00:00:46.739
+"there is no single solution," and
+
+00:00:46.740 --> 00:00:51.885
+the "vector to check" is not within the span of the "set of vectors."
+
+00:00:51.884 --> 00:00:53.820
+To save our code,
+
+00:00:53.820 --> 00:00:56.924
+we need to click on the "Save" icon.
+
+00:00:56.924 --> 00:01:02.579
+Then we need to select "Kernel," "Restart &amp; Run all" to run the code and
+
+00:01:02.579 --> 00:01:05.879
+Initialize our updated function so that it
+
+00:01:05.879 --> 00:01:09.449
+will be used to run the rest of the code in the notebook.
+
+00:01:09.450 --> 00:01:12.225
+Now let's check to see if our function is working properly.
+
+00:01:12.224 --> 00:01:13.679
+In the code here,
+
+00:01:13.680 --> 00:01:16.785
+we're checking if vector "t" is within the span
+
+00:01:16.784 --> 00:01:21.024
+of vectors "v" and "w" by calling our function.
+
+00:01:21.025 --> 00:01:26.010
+Next we define a second set of vectors to check with "set
+
+00:01:26.010 --> 00:01:31.469
+of vectors" defined as "vw2" and "vector to check" as "t2."
+
+00:01:31.469 --> 00:01:37.340
+We call the function with "set of vectors" "vw2" and "vector to check" "t2."
+
+00:01:37.340 --> 00:01:41.640
+Next we define a third set of "vectors to check" with "set of vectors"
+
+00:01:41.640 --> 00:01:46.739
+defined as "vw3" and "vector to check" as "t3."
+
+00:01:46.739 --> 00:01:52.604
+We call the function with "set of vectors" "vw3" and "vector to check" "t3."
+
+00:01:52.605 --> 00:01:54.120
+Below the coding cell,
+
+00:01:54.120 --> 00:01:57.454
+we find the results of running our updated function.
+
+00:01:57.454 --> 00:01:59.299
+Let's check our results.
+
+00:01:59.299 --> 00:02:03.469
+Vector "t" is within the span of vectors "v"
+
+00:02:03.469 --> 00:02:07.795
+and "w." The vector scalars return are "2" and "1."
+
+00:02:07.795 --> 00:02:12.134
+We can check this with our expected results and we see they match.
+
+00:02:12.134 --> 00:02:19.548
+With Equation 1, "2" is the value of "scalar a" and "1" is the value of "scalar b."
+
+00:02:19.549 --> 00:02:24.210
+We can go back to our results and we see that vector
+
+00:02:24.210 --> 00:02:29.909
+"t2" is not within the span of vectors "v2" and "w2."
+
+00:02:29.909 --> 00:02:38.039
+We also see that vector "t3" is not within the span of vectors "v3" and "w3."
+
+00:02:38.039 --> 00:02:42.659
+We can check this with the expected results and we see that they match,
+
+00:02:42.659 --> 00:02:46.710
+where "t2" and "t3" are not within the span.
+
+00:02:46.710 --> 00:02:50.215
+Because the results match the expected results,
+
+00:02:50.215 --> 00:02:52.469
+we know we've coded everything correctly.
+
+00:02:52.469 --> 00:02:55.139
+Next, read through the rest of the lab and learn how we
+
+00:02:55.139 --> 00:02:58.139
+could have written Equation 1 as a system of
+
+00:02:58.139 --> 00:03:00.899
+equations and use the same function "check
+
+00:03:00.900 --> 00:03:04.558
+vector span" to solve that system of equations.
+
+00:03:04.558 --> 00:03:08.759
+You'll also learn that a system of equations always results in
+
+00:03:08.759 --> 00:03:13.799
+one of three possible solutions and what those solutions look like graphically.
+

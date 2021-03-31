@@ -1,0 +1,107 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.300 --> 00:00:03.700
+Vimos que todos os algoritmos
+são numerais,
+
+00:00:03.733 --> 00:00:05.733
+então nós precisamos
+fornecer números,
+
+00:00:05.767 --> 00:00:08.933
+como a pontuação em uma prova
+de admissão ou as médias.
+
+00:00:08.967 --> 00:00:12.433
+Mas o dado de entrada
+não será sempre um número.
+
+00:00:12.467 --> 00:00:14.200
+Às vezes ele parece assim:
+
+00:00:14.234 --> 00:00:18.663
+um modelo que tem como entrada
+o fato de ganhar ou não um presente.
+
+00:00:18.697 --> 00:00:21.800
+Como transformamos isso
+em números? É fácil.
+
+00:00:21.833 --> 00:00:24.967
+Se você receber um presente,
+a variável de entrada será um,
+
+00:00:25.000 --> 00:00:29.167
+se não receber, a variável
+de entrada será zero.
+
+00:00:29.201 --> 00:00:31.352
+E se tivermos mais classes?
+
+00:00:31.386 --> 00:00:34.493
+Antes nós tínhamos pato,
+castor e morsa.
+
+00:00:34.842 --> 00:00:37.467
+Qual variável nós entramos
+no algoritmo?
+
+00:00:37.501 --> 00:00:39.600
+Talvez possamos
+entrar zero, um e dois,
+
+00:00:39.634 --> 00:00:40.867
+mas isso não funcionará,
+
+00:00:40.901 --> 00:00:44.432
+pois isso cria dependências
+entre classes que não podemos ter.
+
+00:00:44.466 --> 00:00:48.867
+Nós criamos uma variável
+para cada uma das classes,
+
+00:00:48.900 --> 00:00:50.700
+então a tabela fica assim.
+
+00:00:50.734 --> 00:00:52.398
+Há uma variável para o pato,
+
+00:00:52.432 --> 00:00:55.133
+uma para o castor
+e outra para a morsa.
+
+00:00:55.167 --> 00:00:57.967
+Cada uma possui
+uma coluna correspondente.
+
+00:00:58.000 --> 00:01:02.167
+Se a entrada for um pato,
+a variável do pato será um,
+
+00:01:02.200 --> 00:01:06.633
+e as variáveis do castor
+e da morsa serão zero.
+
+00:01:06.667 --> 00:01:10.033
+Da mesma forma
+para o castor e para a morsa.
+
+00:01:10.067 --> 00:01:11.899
+Podemos ter mais
+colunas de dados,
+
+00:01:11.933 --> 00:01:14.533
+mas não há nenhuma
+dependência necessária.
+
+00:01:14.567 --> 00:01:16.833
+Este processo é chamado
+de codificação one-hot
+
+00:01:16.867 --> 00:01:19.300
+e será muito utilizado
+no processamento de dados.
+

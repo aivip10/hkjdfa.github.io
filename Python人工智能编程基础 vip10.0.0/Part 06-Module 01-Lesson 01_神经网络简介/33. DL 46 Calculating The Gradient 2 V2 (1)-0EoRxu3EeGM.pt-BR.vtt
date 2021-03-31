@@ -1,0 +1,345 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.400 --> 00:00:04.434
+Vamos voltar para nossa rede neural
+com nossos pesos e nossa entrada.
+
+00:00:04.467 --> 00:00:07.234
+E lembre-se
+de que os pesos elevados a 1
+
+00:00:07.267 --> 00:00:09.033
+pertencem à primeira camada
+
+00:00:09.067 --> 00:00:12.667
+e os pesos elevados a 2
+pertencem à segunda camada.
+
+00:00:12.701 --> 00:00:15.367
+Lembre-se também que o viés
+não se chama mais B.
+
+00:00:15.400 --> 00:00:19.834
+Agora ele se chama W31,
+W32 etc. por conveniência,
+
+00:00:19.868 --> 00:00:22.834
+para que tenhamos tudo
+em notação de matriz.
+
+00:00:22.868 --> 00:00:25.200
+E agora, o que acontece
+com a entrada?
+
+00:00:25.234 --> 00:00:28.033
+Vamos fazer o processo
+de alimentação direta.
+
+00:00:28.033 --> 00:00:29.968
+Na primeira camada,
+
+00:00:30.001 --> 00:00:33.200
+pegamos a entrada
+e multiplicamos pelos pesos,
+
+00:00:33.234 --> 00:00:34.601
+e isso nos dá h1,
+
+00:00:34.634 --> 00:00:37.934
+que é uma função linear
+da entrada e dos pesos.
+
+00:00:37.968 --> 00:00:42.267
+A mesma coisa com h2,
+resultado desta fórmula aqui.
+
+00:00:42.300 --> 00:00:43.734
+Agora, na segunda camada,
+
+00:00:43.767 --> 00:00:46.567
+pegamos h1, h2
+e o novo viés,
+
+00:00:46.601 --> 00:00:51.701
+aplicamos a função sigmoide
+e aplicamos uma função linear
+
+00:00:51.734 --> 00:00:54.067
+multiplicando
+os dois pelos pesos
+
+00:00:54.100 --> 00:00:56.868
+e somando para encontrar
+o valor de h.
+
+00:00:56.901 --> 00:00:58.767
+E, finalmente,
+na terceira camada,
+
+00:00:58.801 --> 00:01:03.434
+pegamos uma função sigmoide de h
+para encontrar nossa predição,
+
+00:01:03.467 --> 00:01:07.801
+nossa probabilidade entre 0 e 1,
+que é y^.
+
+00:01:08.334 --> 00:01:10.634
+Podemos escrever isso
+em uma notação mais reduzida,
+
+00:01:10.667 --> 00:01:15.767
+dizendo que a matriz correspondente
+à primeira camada é W elevado a 1,
+
+00:01:15.801 --> 00:01:20.133
+a matriz correspondente
+à segunda camada é W elevado a 2
+
+00:01:20.167 --> 00:01:25.667
+e a predição y^ será
+o sigmoide de W elevado a 2,
+
+00:01:25.701 --> 00:01:29.133
+combinado ao sigmoide de W
+elevado a 1,
+
+00:01:29.167 --> 00:01:31.601
+aplicado à entrada x.
+
+00:01:31.634 --> 00:01:33.601
+E isto é
+a alimentação direta.
+
+00:01:33.634 --> 00:01:36.100
+Agora vamos desenvolver
+uma retropropagação,
+
+00:01:36.133 --> 00:01:39.100
+que é exatamente o oposto
+da alimentação direta.
+
+00:01:39.133 --> 00:01:42.133
+Vamos calcular a derivada
+desta função de erro
+
+00:01:42.167 --> 00:01:46.133
+em referência a cada um
+dos pesos e dos rótulos,
+
+00:01:46.167 --> 00:01:48.100
+usando uma regra de cadeia.
+
+00:01:48.133 --> 00:01:50.934
+Vamos calcular a derivada
+desta função de erro
+
+00:01:50.968 --> 00:01:53.367
+em referência a cada um
+dos pesos e dos rótulos,
+
+00:01:53.400 --> 00:01:55.734
+usando uma regra de cadeia.
+
+00:01:55.767 --> 00:01:57.567
+Vamos recapitular
+nossa função de erro
+
+00:01:57.601 --> 00:01:59.167
+nesta fórmula aqui,
+
+00:01:59.200 --> 00:02:02.934
+que é uma função
+da predição y^.
+
+00:02:02.968 --> 00:02:07.868
+Mas como a predição é uma função
+de todos os pesos WIJ,
+
+00:02:07.901 --> 00:02:13.834
+a função de erro poderá ser vista
+como a função em todo WIJ.
+
+00:02:13.868 --> 00:02:16.634
+Portanto, a inclinação é
+simplesmente o vetor formado
+
+00:02:16.667 --> 00:02:21.033
+por todas as derivadas parciais
+da função de erro E,
+
+00:02:21.067 --> 00:02:23.634
+em referência
+a cada um dos pesos.
+
+00:02:23.667 --> 00:02:26.067
+Vamos calcular
+uma das derivadas.
+
+00:02:26.100 --> 00:02:31.467
+Vamos calcular a derivada de E
+em referência a W11 elevado a 1.
+
+00:02:31.501 --> 00:02:34.100
+Como a predição é simplesmente
+uma composição de funções,
+
+00:02:34.133 --> 00:02:35.501
+através da regra em cadeia,
+
+00:02:35.534 --> 00:02:38.067
+sabemos que a derivada
+em referência a isto
+
+00:02:38.100 --> 00:02:41.667
+é o produto de todas
+as derivadas parciais.
+
+00:02:41.701 --> 00:02:46.467
+Neste caso, a derivada E
+em referência a W11
+
+00:02:46.501 --> 00:02:49.801
+é a derivada de E
+em referência a y^
+
+00:02:49.834 --> 00:02:53.200
+vezes a derivada de y^
+em referência a h,
+
+00:02:53.234 --> 00:02:56.534
+vezes a derivada de h
+em referência a h1,
+
+00:02:56.567 --> 00:03:00.100
+vezes a derivada de h1
+em referência a W11.
+
+00:03:00.133 --> 00:03:01.434
+Pode parecer complicado,
+
+00:03:01.467 --> 00:03:04.200
+mas o fato de podermos
+calcular a derivada
+
+00:03:04.234 --> 00:03:06.300
+de uma função
+de composição tão complicada
+
+00:03:06.334 --> 00:03:10.400
+apenas multiplicando
+quatro derivadas parciais é notável.
+
+00:03:10.434 --> 00:03:12.601
+Agora já calculamos
+a primeira,
+
+00:03:12.634 --> 00:03:15.133
+a derivada de E
+em referência a y^
+
+00:03:15.167 --> 00:03:18.200
+e, se você se lembra,
+o resultado foi y^ - y.
+
+00:03:18.234 --> 00:03:20.434
+Vamos calcular as outras.
+
+00:03:20.467 --> 00:03:21.801
+Vamos nos aproximar um pouco
+
+00:03:21.834 --> 00:03:25.501
+e olhar apenas um pedaço
+do nosso perceptron de multicamadas.
+
+00:03:25.534 --> 00:03:28.801
+As entradas são alguns valores,
+h1 e h2,
+
+00:03:28.834 --> 00:03:31.334
+que são os valores
+vindos de antes.
+
+00:03:31.367 --> 00:03:35.100
+E como aplicamos
+as funções sigmoide e linear
+
+00:03:35.133 --> 00:03:36.801
+em h1 e h2,
+
+00:03:36.834 --> 00:03:39.400
+e 1, correspondente
+à unidade de viés,
+
+00:03:39.434 --> 00:03:41.434
+chegamos ao resultado h.
+
+00:03:41.467 --> 00:03:45.434
+Qual é a derivada de h
+em referência a h1?
+
+00:03:45.467 --> 00:03:51.167
+Bom, h é a soma de três coisas,
+e só uma delas contém h1.
+
+00:03:51.200 --> 00:03:56.133
+Então a segunda e a terceira soma
+nós dão a derivada de 0.
+
+00:03:56.167 --> 00:04:01.501
+A primeira soma nos dá
+W11 elevado a 2
+
+00:04:01.534 --> 00:04:03.634
+porque é uma constante,
+
+00:04:03.667 --> 00:04:07.001
+e isso tudo vezes a derivada
+da função sigmoide
+
+00:04:07.033 --> 00:04:09.234
+em referência a h1.
+
+00:04:09.534 --> 00:04:13.033
+Isto é algo que calculamos abaixo,
+nas anotações,
+
+00:04:13.067 --> 00:04:16.267
+que a função sigmoide
+tem uma bela derivada,
+
+00:04:16.300 --> 00:04:21.734
+ou seja, a derivada do sigmoide de h
+é exatamente o sigmoide de h
+
+00:04:21.767 --> 00:04:24.601
+vezes 1
+menos o sigmoide de h.
+
+00:04:24.634 --> 00:04:26.334
+Novamente, você pode ver
+o desenvolvimento abaixo,
+
+00:04:26.367 --> 00:04:27.968
+nas anotações.
+
+00:04:28.000 --> 00:04:30.033
+Você também tem a chance
+de codificar isto no teste,
+
+00:04:30.067 --> 00:04:31.534
+porque, no final das contas,
+
+00:04:31.567 --> 00:04:34.501
+uma vez codificadas,
+usaremos estas fórmulas para sempre.
+
+00:04:34.534 --> 00:04:35.667
+E é isso.
+
+00:04:35.701 --> 00:04:37.133
+É assim que treinamos
+uma rede neural.
+

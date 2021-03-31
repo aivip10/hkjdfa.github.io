@@ -1,0 +1,55 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.440
+This is the solutions video for the Linear Mapping Lab demonstrating that
+
+00:00:04.440 --> 00:00:09.150
+a vector transformation can also be achieved by matrix multiplication.
+
+00:00:09.150 --> 00:00:11.190
+In the coding section of this lab,
+
+00:00:11.189 --> 00:00:15.750
+we've replaced none by the NumPy function, matmul,
+
+00:00:15.750 --> 00:00:20.274
+where the first input argument is matrix ij,
+
+00:00:20.274 --> 00:00:23.759
+the second input argument is vector v. Then,
+
+00:00:23.760 --> 00:00:25.635
+we've marked this task as done.
+
+00:00:25.635 --> 00:00:28.785
+To save our code, we click on the save icon.
+
+00:00:28.785 --> 00:00:30.344
+When we run our code,
+
+00:00:30.344 --> 00:00:35.369
+our results here should match the expected results that we find down here.
+
+00:00:35.369 --> 00:00:39.104
+To run the code, we select Kernel,
+
+00:00:39.104 --> 00:00:42.779
+Restart and Run All.
+
+00:00:42.780 --> 00:00:45.509
+Finally, we compare our transform vector v,
+
+00:00:45.509 --> 00:00:49.574
+here, with our expected solution here.
+
+00:00:49.575 --> 00:00:51.420
+We see that they match,
+
+00:00:51.420 --> 00:00:54.120
+so we know we've coded everything correctly.
+
+00:00:54.119 --> 00:00:56.000
+This completes this section of the lab.
+

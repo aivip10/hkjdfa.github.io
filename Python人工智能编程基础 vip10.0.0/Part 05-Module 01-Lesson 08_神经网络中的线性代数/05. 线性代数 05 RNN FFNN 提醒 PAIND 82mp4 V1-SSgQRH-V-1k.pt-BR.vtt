@@ -1,0 +1,187 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.839 --> 00:00:04.244
+Vamos conferir um modelo básico
+de rede neural artificial
+
+00:00:04.277 --> 00:00:06.633
+onde temos apenas
+uma camada oculta.
+
+00:00:07.127 --> 00:00:09.422
+Os inputs estão conectadas
+com os neurônios
+
+00:00:09.455 --> 00:00:10.896
+na camada oculta
+
+00:00:11.060 --> 00:00:12.656
+e os neurônios
+na camada oculta
+
+00:00:12.689 --> 00:00:15.682
+estão conectados aos neurônios
+da camada de output,
+
+00:00:15.713 --> 00:00:19.436
+onde cada neurônio ali
+representa um output só.
+
+00:00:19.773 --> 00:00:23.591
+Podemos encarar isso como
+uma coleção de funções matemáticas.
+
+00:00:23.933 --> 00:00:26.264
+Cada input
+se conecta matematicamente
+
+00:00:26.297 --> 00:00:28.177
+com uma camada oculta
+de neurônios
+
+00:00:28.386 --> 00:00:31.146
+através de uma série de pesos
+que temos que modificar
+
+00:00:31.179 --> 00:00:32.824
+e cada camada oculta
+de neurônios
+
+00:00:32.857 --> 00:00:34.601
+se conecta
+com a camada de output
+
+00:00:34.634 --> 00:00:35.949
+de maneira similar.
+
+00:00:37.490 --> 00:00:39.997
+Não há limite
+ao número de inputs,
+
+00:00:40.093 --> 00:00:42.515
+ao número de neurônios ocultos
+em uma camada
+
+00:00:42.551 --> 00:00:43.954
+e número de output.
+
+00:00:44.301 --> 00:00:47.214
+Também não há correlação
+entre esses números.
+
+00:00:48.083 --> 00:00:49.976
+Então podemos ter n inputs
+
+00:00:50.755 --> 00:00:52.258
+m neurônios ocultos,
+
+00:00:52.830 --> 00:00:54.417
+e k outputs.
+
+00:00:54.966 --> 00:00:57.725
+Em uma visão mais próxima
+e ainda mais simplista,
+
+00:00:57.758 --> 00:00:59.233
+vemos que cada input
+
+00:00:59.266 --> 00:01:01.616
+é multiplicada
+pelo peso correspondente
+
+00:01:01.800 --> 00:01:04.302
+e somada nos neurônios
+da camada seguinte
+
+00:01:04.335 --> 00:01:06.103
+com um viés também.
+
+00:01:06.365 --> 00:01:08.929
+O viés é um parâmetro externo
+do neurônio
+
+00:01:09.141 --> 00:01:12.790
+e pode ser modelado adicionando
+um input externo de valor fixo.
+
+00:01:13.556 --> 00:01:17.151
+Toda essa soma geralmente passa
+através de uma função de ativação
+
+00:01:17.184 --> 00:01:19.476
+para a próxima camada,
+ou para o output.
+
+00:01:20.971 --> 00:01:22.443
+Mas qual é a nossa meta?
+
+00:01:22.836 --> 00:01:25.046
+Podemos ver nosso sistema
+como uma caixa preta
+
+00:01:25.079 --> 00:01:27.795
+que tem n inputs
+e k outputs.
+
+00:01:28.534 --> 00:01:31.334
+Nossa meta é projetar o sistema
+de tal maneira
+
+00:01:31.367 --> 00:01:34.042
+que nos dê o output correta, y,
+
+00:01:34.506 --> 00:01:36.502
+para um input
+específico, x.
+
+00:01:37.003 --> 00:01:40.481
+Nossa tarefa é decidir
+o que há nessa caixa preta.
+
+00:01:41.277 --> 00:01:44.060
+Sabemos que vamos usar
+redes neurais artificiais
+
+00:01:44.392 --> 00:01:47.202
+e precisamos treiná-las
+para ter um sistema
+
+00:01:47.235 --> 00:01:49.282
+que forneça o output correto
+
+00:01:49.516 --> 00:01:51.224
+para um input específico.
+
+00:01:51.648 --> 00:01:53.819
+Bem, correta na maior parte
+das vezes.
+
+00:01:54.864 --> 00:01:57.058
+Essencialmente,
+o que realmente queremos
+
+00:01:57.238 --> 00:01:59.491
+é encontrar o conjunto ótimo
+de pesos
+
+00:01:59.606 --> 00:02:02.490
+que conecte o input
+com a camada oculta
+
+00:02:02.798 --> 00:02:04.400
+e o conjunto ótimo de pesos
+
+00:02:04.433 --> 00:02:06.991
+que conecte a camada oculta
+com o output.
+
+00:02:07.233 --> 00:02:09.657
+Nunca teremos
+uma estimativa perfeita,
+
+00:02:09.736 --> 00:02:12.875
+mas podemos tentar chegar
+o mais perto disso possível.
+

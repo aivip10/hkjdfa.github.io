@@ -1,0 +1,234 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.515 --> 00:00:03.299
+Este é o vídeo-solução do lab.
+de combinação linear
+
+00:00:03.332 --> 00:00:05.278
+que cobre
+o espaço vetorial gerado.
+
+00:00:05.638 --> 00:00:06.805
+A 1ª coisa a fazer
+
+00:00:06.838 --> 00:00:10.716
+é substituir "none" pela função
+np.linalg.solve, do NumPy.
+
+00:00:10.885 --> 00:00:13.163
+Depois podemos marcar
+como tarefa cumprida.
+
+00:00:14.094 --> 00:00:17.484
+Repare que o primeiro argumento
+da função é set_of_vectors
+
+00:00:17.823 --> 00:00:20.107
+e o segundo argumento é
+vector_to_check.
+
+00:00:20.686 --> 00:00:21.988
+Se vector_to_check
+
+00:00:22.021 --> 00:00:24.659
+estiver no espaço gerado
+por set_of_vectors,
+
+00:00:24.692 --> 00:00:27.763
+o resultado retornado é
+vector_of_scalars
+
+00:00:27.796 --> 00:00:29.334
+que resolve a equação 1.
+
+00:00:30.079 --> 00:00:34.920
+Isso significa que
+os escalares a e b na equação 1
+
+00:00:35.116 --> 00:00:38.077
+serão representados pelo
+vector_of_scalars
+
+00:00:38.110 --> 00:00:39.460
+que a função retornou.
+
+00:00:39.931 --> 00:00:43.877
+De outra forma, a função exibe
+a seguinte declaração:
+
+00:00:43.910 --> 00:00:45.827
+"there is no single solution"
+(não há solução única)
+
+00:00:45.860 --> 00:00:51.409
+e o vetor não está no espaço
+gerado por set_of_vectors.
+
+00:00:52.612 --> 00:00:53.906
+Para salvar nosso código,
+
+00:00:53.939 --> 00:00:56.089
+precisamos clicar
+no ícone de salvar.
+
+00:00:57.163 --> 00:01:01.128
+Depois selecionamos Kernel,
+Restart &amp; Run All
+
+00:01:01.161 --> 00:01:04.878
+para rodar o código e inicializar
+nossa função atualizada,
+
+00:01:04.961 --> 00:01:09.199
+para que ela seja usada para rodar
+o resto do código no caderno.
+
+00:01:09.490 --> 00:01:12.175
+Agora vamos ver se a função
+está funcionando.
+
+00:01:12.548 --> 00:01:15.750
+No código aqui,
+vamos verificar se o vetor t
+
+00:01:15.783 --> 00:01:18.879
+está no espaço gerado
+pelos vetores v e w
+
+00:01:18.912 --> 00:01:20.433
+chamando nossa função.
+
+00:01:21.263 --> 00:01:24.705
+A seguir, definimos outro grupo
+de vetores para verificar,
+
+00:01:24.847 --> 00:01:28.366
+com set_of_vectors
+definido como vw2
+
+00:01:28.487 --> 00:01:31.293
+e vector_to_check
+como t2.
+
+00:01:31.871 --> 00:01:34.667
+Chamamos a função,
+com set_of_vectors vw2
+
+00:01:34.700 --> 00:01:36.779
+e vector_to_check t2.
+
+00:01:37.387 --> 00:01:40.381
+Depois, definimos um 3º grupo
+de vetores para verificar
+
+00:01:40.414 --> 00:01:43.660
+com set_of_vectors
+definido como vw3
+
+00:01:43.693 --> 00:01:46.537
+e vector_to_check como t3.
+
+00:01:47.055 --> 00:01:50.207
+Chamamos a função,
+com set_of_vectors vw3
+
+00:01:50.240 --> 00:01:52.640
+e vector_to_check t3.
+
+00:01:52.846 --> 00:01:54.246
+Abaixo da célula de código,
+
+00:01:54.279 --> 00:01:56.972
+vemos o resultado de rodar
+a função atualizada.
+
+00:01:57.600 --> 00:01:59.266
+Vamos ver os resultados.
+
+00:01:59.884 --> 00:02:04.307
+O vetor t está no espaço gerado
+pelos vetores v e w.
+
+00:02:05.176 --> 00:02:07.650
+Os vetores escalares
+retornados são 2 e 1.
+
+00:02:08.146 --> 00:02:10.451
+Podemos comparar
+com o resultado esperado
+
+00:02:10.484 --> 00:02:12.006
+e vemos que são iguais.
+
+00:02:12.445 --> 00:02:16.377
+Na equação 1,
+o valor do escalar a é 2
+
+00:02:16.736 --> 00:02:18.900
+e o valor do escalar b é 1.
+
+00:02:19.693 --> 00:02:21.353
+Vamos voltar aos resultados
+
+00:02:22.842 --> 00:02:25.036
+para ver que o vetor t2
+
+00:02:25.069 --> 00:02:29.377
+não está no espaço gerado
+pelos vetores v2 e w2.
+
+00:02:30.009 --> 00:02:32.743
+Também vemos que o vetor t3
+
+00:02:32.776 --> 00:02:37.544
+não está no espaço gerado
+por v3 e w3.
+
+00:02:38.199 --> 00:02:40.564
+Podemos conferir
+com o resultado esperado
+
+00:02:41.120 --> 00:02:46.467
+para ver que está certo,
+t2 e t3 não estão no espaço gerado.
+
+00:02:47.171 --> 00:02:50.102
+Como a resposta confere
+com os resultados esperados,
+
+00:02:50.135 --> 00:02:52.215
+sabemos que o código
+está certo.
+
+00:02:52.360 --> 00:02:54.593
+A seguir, leia o resto
+do laboratório
+
+00:02:54.626 --> 00:02:56.766
+e aprenda como poderíamos
+escrever a equação 1
+
+00:02:56.864 --> 00:02:59.038
+como um sistema de equações
+
+00:02:59.071 --> 00:03:01.740
+e usar a mesma função
+check_vector_span
+
+00:03:01.941 --> 00:03:03.986
+para resolver
+o sistema de equações.
+
+00:03:04.485 --> 00:03:05.878
+Você também vai ver
+
+00:03:06.180 --> 00:03:10.610
+que um sistema de equações sempre
+resulta em 1 de 3 soluções possíveis
+
+00:03:10.914 --> 00:03:13.747
+e vai ver como essas soluções
+se parecem graficamente.
+

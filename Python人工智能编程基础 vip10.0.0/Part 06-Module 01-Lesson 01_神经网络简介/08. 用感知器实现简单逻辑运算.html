@@ -1,0 +1,633 @@
+<!-- udacity2.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>用感知器实现简单逻辑运算</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>神经网络简介</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. 简介.html">01. 简介</a>
+    </li>
+    <li class="">
+      <a href="02. 分类问题 1.html">02. 分类问题 1</a>
+    </li>
+    <li class="">
+      <a href="03. 分类问题 2.html">03. 分类问题 2</a>
+    </li>
+    <li class="">
+      <a href="04. 线性界线.html">04. 线性界线</a>
+    </li>
+    <li class="">
+      <a href="05. 更高维度的界线.html">05. 更高维度的界线</a>
+    </li>
+    <li class="">
+      <a href="06. 感知器.html">06. 感知器</a>
+    </li>
+    <li class="">
+      <a href="07. 为何称为“神经网络”？.html">07. 为何称为“神经网络”？</a>
+    </li>
+    <li class="">
+      <a href="08. 用感知器实现简单逻辑运算.html">08. 用感知器实现简单逻辑运算</a>
+    </li>
+    <li class="">
+      <a href="09. 感知器技巧 - 计算机如何“学习”分类？.html">09. 感知器技巧 - 计算机如何“学习”分类？</a>
+    </li>
+    <li class="">
+      <a href="10. 感知器算法.html">10. 感知器算法</a>
+    </li>
+    <li class="">
+      <a href="11. 非线性界线.html">11. 非线性界线</a>
+    </li>
+    <li class="">
+      <a href="12. 误差函数.html">12. 误差函数</a>
+    </li>
+    <li class="">
+      <a href="13. 误差函数与梯度下降.html">13. 误差函数与梯度下降</a>
+    </li>
+    <li class="">
+      <a href="14. 离散型与连续型 - 为什么使用sigmoid函数 .html">14. 离散型与连续型 - 为什么使用sigmoid函数 </a>
+    </li>
+    <li class="">
+      <a href="15. 多类别分类与Softmax 函数.html">15. 多类别分类与Softmax 函数</a>
+    </li>
+    <li class="">
+      <a href="16. One-Hot 编码.html">16. One-Hot 编码</a>
+    </li>
+    <li class="">
+      <a href="17. 最大似然率.html">17. 最大似然率</a>
+    </li>
+    <li class="">
+      <a href="18. 最大化概率.html">18. 最大化概率</a>
+    </li>
+    <li class="">
+      <a href="19. 交叉熵 1-损失函数.html">19. 交叉熵 1-损失函数</a>
+    </li>
+    <li class="">
+      <a href="20. 交叉熵 2-损失函数.html">20. 交叉熵 2-损失函数</a>
+    </li>
+    <li class="">
+      <a href="21. 多类别交叉熵.html">21. 多类别交叉熵</a>
+    </li>
+    <li class="">
+      <a href="22. Logistic 回归.html">22. Logistic 回归</a>
+    </li>
+    <li class="">
+      <a href="23. 梯度下降.html">23. 梯度下降</a>
+    </li>
+    <li class="">
+      <a href="24. 梯度下降算法推导与实现.html">24. 梯度下降算法推导与实现</a>
+    </li>
+    <li class="">
+      <a href="25. [Lab 准备] 梯度下降.html">25. [Lab 准备] 梯度下降</a>
+    </li>
+    <li class="">
+      <a href="26. [Lab] 梯度下降.html">26. [Lab] 梯度下降</a>
+    </li>
+    <li class="">
+      <a href="27. 感知器和梯度下降.html">27. 感知器和梯度下降</a>
+    </li>
+    <li class="">
+      <a href="28. 连续型感知器.html">28. 连续型感知器</a>
+    </li>
+    <li class="">
+      <a href="29. 非线性数据.html">29. 非线性数据</a>
+    </li>
+    <li class="">
+      <a href="30. 非线性模型.html">30. 非线性模型</a>
+    </li>
+    <li class="">
+      <a href="31. 神经网络结构.html">31. 神经网络结构</a>
+    </li>
+    <li class="">
+      <a href="32. 前向反馈.html">32. 前向反馈</a>
+    </li>
+    <li class="">
+      <a href="33. 反向传播.html">33. 反向传播</a>
+    </li>
+    <li class="">
+      <a href="34. [Lab 准备] 分析学生录取数据.html">34. [Lab 准备] 分析学生录取数据</a>
+    </li>
+    <li class="">
+      <a href="35. [Lab] 分析学生数据.html">35. [Lab] 分析学生数据</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">08. 用感知器实现简单逻辑运算</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h1 id="逻辑运算感知器">逻辑运算感知器</h1>
+<p>在这节课，我们要用感知器实现简单的逻辑运算。你将会为最常见的逻辑运算符创建感知器：<strong>AND</strong>（与）、<strong>OR</strong>（或） 和 <strong>NOT</strong> （非）。然后，我们将看看如何处理比较难的 <strong>XOR</strong>（异或）运算符。我们开始吧！</p>
+<h1 id="用感知器实现逻辑运算---and-（“与”）">用感知器实现逻辑运算 - AND （“与”）</h1>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>AND 和 OR 感知器</p></h3>
+  <video controls>
+  <source src="08. AND 和 OR 感知器-45K5N0P9wJk.mp4" type="video/mp4">
+
+  <track default="true" kind="subtitles" srclang="en" src="08. AND 和 OR 感知器-45K5N0P9wJk.en.vtt" label="en">
+  <track default="false" kind="subtitles" srclang="BR" src="08. AND 和 OR 感知器-45K5N0P9wJk.pt-BR.vtt" label="BR">
+  <track default="false" kind="subtitles" srclang="CN" src="08. AND 和 OR 感知器-45K5N0P9wJk.zh-CN.vtt" label="CN">
+</video>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/and-quiz.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h2 id="and-感知器的权重和偏差是什么？">AND 感知器的权重和偏差是什么？</h2>
+<p>将权重（<code>weight1</code>、<code>weight2</code>）和偏差 <code>bias</code> 设为正确的值，以便如上所示地计算 AND 运算。</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+
+  <h4>Start Quiz:</h4>
+  <div>
+  <div class="nav nav-tabs nav-fill" role="tablist" id="question-tabs">
+    <a href="#348870-quiz-py" class="nav-item nav-link  active show" id="tab-348870-quiz-py" data-toggle="tab" role="tab"
+      aria-controls="348870-quiz-py" aria-selected="true">quiz.py</a>
+  </div>
+
+  <div class="tab-content" style="padding: 20px 0;" id="question-tab-contents">
+    <div class="tab-pane  active show" id="348870-quiz-py" aria-labelledby="tab-348870-quiz-py" role="tabpanel">
+      <pre><code></code>import pandas as pd
+
+# TODO: Set weight1, weight2, and bias
+weight1 &#x3D; 0.0
+weight2 &#x3D; 0.0
+bias &#x3D; 0.0
+
+
+# DON&#x27;T CHANGE ANYTHING BELOW
+# Inputs and outputs
+test_inputs &#x3D; [(0, 0), (0, 1), (1, 0), (1, 1)]
+correct_outputs &#x3D; [False, False, False, True]
+outputs &#x3D; []
+
+# Generate and check output
+for test_input, correct_output in zip(test_inputs, correct_outputs):
+    linear_combination &#x3D; weight1 * test_input[0] + weight2 * test_input[1] + bias
+    output &#x3D; int(linear_combination &gt;&#x3D; 0)
+    is_correct_string &#x3D; &#x27;Yes&#x27; if output &#x3D;&#x3D; correct_output else &#x27;No&#x27;
+    outputs.append([test_input[0], test_input[1], linear_combination, output, is_correct_string])
+
+# Print output
+num_wrong &#x3D; len([output[4] for output in outputs if output[4] &#x3D;&#x3D; &#x27;No&#x27;])
+output_frame &#x3D; pd.DataFrame(outputs, columns&#x3D;[&#x27;Input 1&#x27;, &#x27;  Input 2&#x27;, &#x27;  Linear Combination&#x27;, &#x27;  Activation Output&#x27;, &#x27;  Is Correct&#x27;])
+if not num_wrong:
+    print(&#x27;Nice!  You got it all correct.\n&#x27;)
+else:
+    print(&#x27;You got {} wrong.  Keep trying!\n&#x27;.format(num_wrong))
+print(output_frame.to_string(index&#x3D;False))
+</code></pre>
+    </div>
+  </div>
+</div>
+
+
+
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h1 id="用感知器实现逻辑运算---or-（“或”）">用感知器实现逻辑运算 - OR （“或”）</h1>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/or-quiz.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>OR 感知器和 AND 感知器很相似。在下图中，OR 感知器和 AND 感知器的直线一样，只是直线往下移动了。你可以如何处理权重和/或偏差以实现这一效果？请使用下面的 AND 感知器来创建一个 OR 感知器。</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/and-to-or.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>OR 感知器测验</p></h3>
+  <div>
+  <form>
+    <fieldset>
+      <legend><p>从 AND 感知器变成 OR 感知器的两种方法是什么？</p></legend>
+    </fieldset>
+
+    <div>
+      <input type="checkbox" value="a1494182870768" name="348875" id="a1494182870768">
+      <label for="a1494182870768"><p>增大权重</p></label>
+    </div>
+    <div>
+      <input type="checkbox" value="a1494182883245" name="348875" id="a1494182883245">
+      <label for="a1494182883245"><p>减小权重</p></label>
+    </div>
+    <div>
+      <input type="checkbox" value="a1494182884153" name="348875" id="a1494182884153">
+      <label for="a1494182884153"><p>增大单个权重</p></label>
+    </div>
+    <div>
+      <input type="checkbox" value="a1494182884879" name="348875" id="a1494182884879">
+      <label for="a1494182884879"><p>减小单个权重</p></label>
+    </div>
+    <div>
+      <input type="checkbox" value="a1494182885650" name="348875" id="a1494182885650">
+      <label for="a1494182885650"><p>增大偏差大小</p></label>
+    </div>
+    <div>
+      <input type="checkbox" value="a1494182887943" name="348875" id="a1494182887943">
+      <label for="a1494182887943"><p>减小偏差大小</p></label>
+    </div>
+  </form>
+
+  <details>
+    <summary><strong>SOLUTION:</strong></summary>
+    <ul>
+      <li>增大权重</li>
+      <li>减小偏差大小</li>
+  </ul>
+  </details>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h1 id="用感知器实现逻辑运算---not-（非”）">用感知器实现逻辑运算 - NOT （"非”）</h1>
+<p>和我们刚刚研究的其他感知器不一样，NOT 运算仅关心一个输入。如果输入是 <code>1</code>，则运算返回 <code>0</code>，如果输入是 <code>0</code>，则返回 <code>1</code>。感知器的其他输入被忽略了。</p>
+<p>在此测验中，你将设置权重（<code>weight1</code>、<code>weight2</code>）和偏差 <code>bias</code>，以便对第二个输入进行 NOT 运算，并忽略第一个输入。</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+
+  <h4>Start Quiz:</h4>
+  <div>
+  <div class="nav nav-tabs nav-fill" role="tablist" id="question-tabs">
+    <a href="#348877-quiz-py" class="nav-item nav-link  active show" id="tab-348877-quiz-py" data-toggle="tab" role="tab"
+      aria-controls="348877-quiz-py" aria-selected="true">quiz.py</a>
+  </div>
+
+  <div class="tab-content" style="padding: 20px 0;" id="question-tab-contents">
+    <div class="tab-pane  active show" id="348877-quiz-py" aria-labelledby="tab-348877-quiz-py" role="tabpanel">
+      <pre><code></code>import pandas as pd
+
+# TODO: Set weight1, weight2, and bias
+weight1 &#x3D; 0.0
+weight2 &#x3D; 0.0
+bias &#x3D; 0.0
+
+
+# DON&#x27;T CHANGE ANYTHING BELOW
+# Inputs and outputs
+test_inputs &#x3D; [(0, 0), (0, 1), (1, 0), (1, 1)]
+correct_outputs &#x3D; [True, False, True, False]
+outputs &#x3D; []
+
+# Generate and check output
+for test_input, correct_output in zip(test_inputs, correct_outputs):
+    linear_combination &#x3D; weight1 * test_input[0] + weight2 * test_input[1] + bias
+    output &#x3D; int(linear_combination &gt;&#x3D; 0)
+    is_correct_string &#x3D; &#x27;Yes&#x27; if output &#x3D;&#x3D; correct_output else &#x27;No&#x27;
+    outputs.append([test_input[0], test_input[1], linear_combination, output, is_correct_string])
+
+# Print output
+num_wrong &#x3D; len([output[4] for output in outputs if output[4] &#x3D;&#x3D; &#x27;No&#x27;])
+output_frame &#x3D; pd.DataFrame(outputs, columns&#x3D;[&#x27;Input 1&#x27;, &#x27;  Input 2&#x27;, &#x27;  Linear Combination&#x27;, &#x27;  Activation Output&#x27;, &#x27;  Is Correct&#x27;])
+if not num_wrong:
+    print(&#x27;Nice!  You got it all correct.\n&#x27;)
+else:
+    print(&#x27;You got {} wrong.  Keep trying!\n&#x27;.format(num_wrong))
+print(output_frame.to_string(index&#x3D;False))</code></pre>
+    </div>
+  </div>
+</div>
+
+
+
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>DL 09 XOR 感知器</p></h3>
+  <video controls>
+  <source src="08. DL 09 XOR 感知器-TF83GfjYLdw.mp4" type="video/mp4">
+
+  <track default="true" kind="subtitles" srclang="en" src="08. DL 09 XOR 感知器-TF83GfjYLdw.en.vtt" label="en">
+  <track default="false" kind="subtitles" srclang="BR" src="08. DL 09 XOR 感知器-TF83GfjYLdw.pt-BR.vtt" label="BR">
+  <track default="false" kind="subtitles" srclang="CN" src="08. DL 09 XOR 感知器-TF83GfjYLdw.zh-CN.vtt" label="CN">
+</video>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h1 id="用感知器实现逻辑运算---xor-（“异或”）">用感知器实现逻辑运算 - XOR （“异或”）</h1>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/xor.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h1 id="测验：构建一个-xor-多层感知器">测验：构建一个 XOR 多层感知器</h1>
+<p>现在我们使用 AND、NOT 和 OR 感知器构建一个多层感知器，以便创建 XOR 逻辑！</p>
+<p>下面的神经网络包含三个感知器：A、B 和 C。最后一个 (AND) 已经提供给你了。神经网络的输入来自第一个节点。输出来自最后一个节点。</p>
+<p>上面的多层感知器计算出 XOR。每个感知器都是 AND、OR 和 NOT 的逻辑运算。但是，感知器 A、B、C 和 D 并不表明它们的运算。在下面的测验中，请为四个感知器设置正确的运算，以便计算 XOR。</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/xor-quiz.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p><strong>QUIZ QUESTION:</strong>: <p>在 XOR 神经网络中为感知器设置运算。</p></p>
+  <p><strong>ANSWER CHOICES:</strong></p>
+  <button class="btn btn-primary"><p>OR</p></button>
+  <button class="btn btn-primary"><p>AND</p></button>
+  <button class="btn btn-primary"><p>NOT</p></button>
+
+  <br><br>
+
+  <table class="table">
+    <tr class="thead-dark table-hover">
+      <th>
+        <p>感知器</p>
+      </th>
+      <th>
+        <p>运算符</p>
+      </th>
+    </tr>
+
+    <tr>
+      <td><p>A</p></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><p>B</p></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><p>C</p></td>
+      <td></td>
+    </tr>
+  </table>
+
+  <details>
+    <summary><strong>SOLUTION:</strong></summary>
+
+    <table class="table">
+      <tr class="thead-dark table-hover">
+        <th>
+          <p>感知器</p>
+        </th>
+        <th>
+          <p>运算符</p>
+        </th>
+      </tr>
+
+      <tr>
+        <td>
+          <p>B</p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>OR</p></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>A</p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>AND</p></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>C</p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>NOT</p></button>
+        </td>
+      </tr>
+    </table>
+  </details>
+</div>
+
+
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+              <a href="09. 感知器技巧 - 计算机如何“学习”分类？.html" class="btn btn-outline-primary mt-4" role="button">Next Concept</a>
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://us-udacity.github.io/" target="_blank">【udacity2.0 】If you need more courses, please add wechat：udacity6</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('08. 用感知器实现简单逻辑运算')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>

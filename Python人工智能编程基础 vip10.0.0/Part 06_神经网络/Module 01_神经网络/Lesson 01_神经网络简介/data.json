@@ -1,0 +1,2713 @@
+{
+  "data": {
+    "lesson": {
+      "id": 458140,
+      "key": "93d158ce-25e1-4fc1-a187-162982e3cef7",
+      "title": "神经网络简介",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "zh-cn",
+      "summary": "在这一课里，Luis 将带给你夯实的深度学习与神经网络的基础知识。你也将在教室里亲手用 python 实现梯度下降法与反向传播。\n",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": false,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/93d158ce-25e1-4fc1-a187-162982e3cef7/458140/1584326636874/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E7%AE%80%E4%BB%8B+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/93d158ce-25e1-4fc1-a187-162982e3cef7/458140/1584326626875/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E7%AE%80%E4%BB%8B+Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 349158,
+          "key": "34148307-a49b-422c-b9bd-f6ac62bf35af",
+          "title": "简介",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "34148307-a49b-422c-b9bd-f6ac62bf35af",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 348858,
+              "key": "d11b330c-16c2-4d65-b488-52b7bef5c5e9",
+              "title": "机器学习纳米学位课程简介",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "tn-CrUTkCUc",
+                "china_cdn_id": "tn-CrUTkCUc.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 349159,
+          "key": "501ce6c5-9b80-4536-8754-f7da607fc40d",
+          "title": "分类问题 1",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "501ce6c5-9b80-4536-8754-f7da607fc40d",
+            "completed_at": "2019-03-02T05:42:55.377Z",
+            "last_viewed_at": "2020-07-04T09:40:18.249Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 348859,
+              "key": "83927222-7248-4f54-974e-27fb2598db5a",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# 分类问题\n我们首先来讲下什么是分类问题，以及用一个简单的例子来说明。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 348860,
+              "key": "0ebbcff0-54ab-42de-8815-8e7a068c3e67",
+              "title": "Exemplo de classificação",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "Dh625piH7Z0",
+                "china_cdn_id": "Dh625piH7Z0.mp4"
+              }
+            },
+            {
+              "id": 348861,
+              "key": "3583f4e1-51e7-4488-bec5-1b376670888d",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2017/May/5912bcf6_student-quiz/student-quiz.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3583f4e1-51e7-4488-bec5-1b376670888d",
+              "caption": "",
+              "alt": "",
+              "width": 2560,
+              "height": 1398,
+              "instructor_notes": null
+            },
+            {
+              "id": 348862,
+              "key": "623e87b9-7117-4771-bb0e-04efc0ad7237",
+              "title": "分类示例",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "623e87b9-7117-4771-bb0e-04efc0ad7237",
+                "completed_at": "2019-03-02T05:45:02.651Z",
+                "last_viewed_at": "2019-05-01T14:52:02.273Z",
+                "unstructured": "{\"selected_id\":\"a1494006799855\",\"is_correct\":true}"
+              },
+              "question": {
+                "prompt": "学生被录取了吗？",
+                "answers": [
+                  {
+                    "id": "a1494006799855",
+                    "text": "是",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1494006825413",
+                    "text": "否",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 624643,
+              "key": "7331805f-9eeb-4931-9972-840b8e0974bd",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "上方正确回答后弹出的视频为 youtube 的视频，在国内网络内可能会打不开。\n\n下一节的视频内容即是这个解答视频",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 457995,
+          "key": "64b290a9-b38b-4a5a-859f-215eaae008d1",
+          "title": "分类问题 2",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "64b290a9-b38b-4a5a-859f-215eaae008d1",
+            "completed_at": "2019-03-02T05:45:44.503Z",
+            "last_viewed_at": "2020-07-04T09:40:22.954Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 457857,
+              "key": "80e09508-1d7c-4b6f-b747-93ac43693002",
+              "title": "分类问题 2 ",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "46PywnGa_cQ",
+                "china_cdn_id": "46PywnGa_cQ.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 349162,
+          "key": "55e267a6-888b-4093-90cb-6b131ad00c6d",
+          "title": "线性界线",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "55e267a6-888b-4093-90cb-6b131ad00c6d",
+            "completed_at": "2019-03-02T05:47:00.761Z",
+            "last_viewed_at": "2020-07-04T16:00:16.897Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 348863,
+              "key": "0a3bb2f7-68f9-4269-9ccc-182a9f860136",
+              "title": "线性界线",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "X-uMlsBi07k",
+                "china_cdn_id": "X-uMlsBi07k.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 349160,
+          "key": "3a0e2972-89dc-4b08-826a-1011b9b554ac",
+          "title": "更高维度的界线",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "3a0e2972-89dc-4b08-826a-1011b9b554ac",
+            "completed_at": "2019-03-02T05:50:33.023Z",
+            "last_viewed_at": "2020-07-04T16:03:49.195Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 348864,
+              "key": "0e44cc19-debf-48db-8d8a-07f6a33614ce",
+              "title": "更高维度的界线",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "eBHunImDmWw",
+                "china_cdn_id": "eBHunImDmWw.mp4"
+              }
+            },
+            {
+              "id": 919297,
+              "key": "eefa8419-572e-4b53-847e-b14c3a105de1",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "eefa8419-572e-4b53-847e-b14c3a105de1",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "在上面视频的表格中，要满足方程式(Wx + b)， 输入特征(x), 权重(W)和偏置 (b)的维度各是多少？",
+                "answers": [
+                  {
+                    "id": "a1566793063203",
+                    "text": "W:(nx1), x:(1xn), b:(1x1) ",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1566793073840",
+                    "text": "W:(1xn), x:(1xn), b:(nx1) ",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1566793081240",
+                    "text": "W:(1xn), x:(nx1), b:(1x1) ",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1566793086827",
+                    "text": "W:(1xn), x:(nx1), b:(1xn) ",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 349136,
+          "key": "6ba9c9eb-2e36-4b03-9bcc-01e71260a024",
+          "title": "感知器",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "6ba9c9eb-2e36-4b03-9bcc-01e71260a024",
+            "completed_at": "2019-03-02T05:53:22.176Z",
+            "last_viewed_at": "2020-07-04T16:11:31.146Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 348857,
+              "key": "39aae1e9-c3e0-4905-bef7-3606f8e06f6d",
+              "title": "DL 06 Perceptron Definition Fix V2",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "hImSxZyRiOw",
+                "china_cdn_id": "hImSxZyRiOw.mp4"
+              }
+            },
+            {
+              "id": 832483,
+              "key": "4e7d9f53-f11d-4d6d-9379-499898b47e50",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "**更正：** \n- 在视频3:07 处，标题 \"Set Function\" 应改为 \"Step Function\"。\n- 在视频3:07 处，Step函数的定义应该是：\n   \n  y=1 if x >= 0;\n  y=0 if x<0",
+              "instructor_notes": ""
+            },
+            {
+              "id": 919298,
+              "key": "0e252a13-f6a4-45cc-b520-c6ed9412c595",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "0e252a13-f6a4-45cc-b520-c6ed9412c595",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "给定方程式 Score = 2\\*Test + 1*Grade – 18，假定：参数 w1 是 1.5 而不是2。一个考试分数是7分，等级分数是6分的学生是否会被录取？",
+                "answers": [
+                  {
+                    "id": "a1566793171776",
+                    "text": "是",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1566793181059",
+                    "text": "否",
+                    "is_correct": true
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 349161,
+          "key": "a3b18b18-8496-4775-af48-921ab35bd306",
+          "title": "为何称为“神经网络”？",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "a3b18b18-8496-4775-af48-921ab35bd306",
+            "completed_at": "2019-03-02T12:45:29.574Z",
+            "last_viewed_at": "2020-07-06T13:50:53.383Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 348865,
+              "key": "fe0436a5-d393-476f-b2ff-b58fcb3833bd",
+              "title": "为何是神经网络",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "zAkzOZntK6Y",
+                "china_cdn_id": "zAkzOZntK6Y.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 349163,
+          "key": "4d015fb7-e73c-447f-a17a-34a0a2b694a0",
+          "title": "用感知器实现简单逻辑运算",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "4d015fb7-e73c-447f-a17a-34a0a2b694a0",
+            "completed_at": "2019-03-02T12:46:20.632Z",
+            "last_viewed_at": "2020-07-06T13:51:44.792Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 348866,
+              "key": "66e4ffdd-f84c-4b28-a379-0600ba2dcb6a",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# 逻辑运算感知器\n\n在这节课，我们要用感知器实现简单的逻辑运算。你将会为最常见的逻辑运算符创建感知器：**AND**（与）、**OR**（或） 和 **NOT** （非）。然后，我们将看看如何处理比较难的 **XOR**（异或）运算符。我们开始吧！\n\n# 用感知器实现逻辑运算 - AND （“与”） ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 348867,
+              "key": "62824f29-003f-46b8-8dbd-3c125eab3ad5",
+              "title": "AND 和 OR 感知器",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "45K5N0P9wJk",
+                "china_cdn_id": "45K5N0P9wJk.mp4"
+              }
+            },
+            {
+              "id": 348868,
+              "key": "cd9d82d7-b53f-434f-a029-b8dc517f43e1",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2017/May/5912bf0e_and-quiz/and-quiz.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/cd9d82d7-b53f-434f-a029-b8dc517f43e1",
+              "caption": "",
+              "alt": null,
+              "width": 1800,
+              "height": 460,
+              "instructor_notes": null
+            },
+            {
+              "id": 348869,
+              "key": "fdd28d8a-fcaf-4fc0-a222-a7199f1db55d",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## AND 感知器的权重和偏差是什么？\n将权重（`weight1`、`weight2`）和偏差 `bias` 设为正确的值，以便如上所示地计算 AND 运算。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 348870,
+              "key": "11c90890-7258-40ad-a29a-f7cd3593d47f",
+              "title": "",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "11c90890-7258-40ad-a29a-f7cd3593d47f",
+                "completed_at": "2019-03-02T12:52:42.936Z",
+                "last_viewed_at": "2019-05-01T15:31:14.130Z",
+                "unstructured": "{\"quiz.py\":\"import pandas as pd\\n\\n# TODO: Set weight1, weight2, and bias\\nweight1 = 1.0\\nweight2 = 1.0\\nbias = -1.5\\n\\n\\n# DON'T CHANGE ANYTHING BELOW\\n# Inputs and outputs\\ntest_inputs = [(0, 0), (0, 1), (1, 0), (1, 1)]\\ncorrect_outputs = [False, False, False, True]\\noutputs = []\\n\\n# Generate and check output\\nfor test_input, correct_output in zip(test_inputs, correct_outputs):\\n    linear_combination = weight1 * test_input[0] + weight2 * test_input[1] + bias\\n    output = int(linear_combination >= 0)\\n    is_correct_string = 'Yes' if output == correct_output else 'No'\\n    outputs.append([test_input[0], test_input[1], linear_combination, output, is_correct_string])\\n\\n# Print output\\nnum_wrong = len([output[4] for output in outputs if output[4] == 'No'])\\noutput_frame = pd.DataFrame(outputs, columns=['Input 1', '  Input 2', '  Linear Combination', '  Activation Output', '  Is Correct'])\\nif not num_wrong:\\n    print('Nice!  You got it all correct.\\\\n')\\nelse:\\n    print('You got {} wrong.  Keep trying!\\\\n'.format(num_wrong))\\nprint(output_frame.to_string(index=False))\\n\"}"
+              },
+              "instruction": null,
+              "question": {
+                "title": "",
+                "semantic_type": "ProgrammingQuestion",
+                "evaluation_id": "5630399981158400",
+                "initial_code_files": [
+                  {
+                    "text": "import pandas as pd\n\n# TODO: Set weight1, weight2, and bias\nweight1 = 0.0\nweight2 = 0.0\nbias = 0.0\n\n\n# DON'T CHANGE ANYTHING BELOW\n# Inputs and outputs\ntest_inputs = [(0, 0), (0, 1), (1, 0), (1, 1)]\ncorrect_outputs = [False, False, False, True]\noutputs = []\n\n# Generate and check output\nfor test_input, correct_output in zip(test_inputs, correct_outputs):\n    linear_combination = weight1 * test_input[0] + weight2 * test_input[1] + bias\n    output = int(linear_combination >= 0)\n    is_correct_string = 'Yes' if output == correct_output else 'No'\n    outputs.append([test_input[0], test_input[1], linear_combination, output, is_correct_string])\n\n# Print output\nnum_wrong = len([output[4] for output in outputs if output[4] == 'No'])\noutput_frame = pd.DataFrame(outputs, columns=['Input 1', '  Input 2', '  Linear Combination', '  Activation Output', '  Is Correct'])\nif not num_wrong:\n    print('Nice!  You got it all correct.\\n')\nelse:\n    print('You got {} wrong.  Keep trying!\\n'.format(num_wrong))\nprint(output_frame.to_string(index=False))\n",
+                    "name": "quiz.py"
+                  }
+                ]
+              },
+              "answer": null
+            },
+            {
+              "id": 348871,
+              "key": "7b7a5347-894d-45ad-95e3-8e4e76ea86f5",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# 用感知器实现逻辑运算 - OR （“或”）",
+              "instructor_notes": ""
+            },
+            {
+              "id": 348872,
+              "key": "6cfa3fe3-458e-4132-bd3f-864074da39d1",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2017/May/5912c102_or-quiz/or-quiz.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/6cfa3fe3-458e-4132-bd3f-864074da39d1",
+              "caption": "",
+              "alt": null,
+              "width": 2523,
+              "height": 590,
+              "instructor_notes": null
+            },
+            {
+              "id": 348873,
+              "key": "33817358-f608-405c-9164-3f01ae5744b2",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "OR 感知器和 AND 感知器很相似。在下图中，OR 感知器和 AND 感知器的直线一样，只是直线往下移动了。你可以如何处理权重和/或偏差以实现这一效果？请使用下面的 AND 感知器来创建一个 OR 感知器。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 348874,
+              "key": "90883050-5cc9-4d3f-9cd3-087edde9eaeb",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2017/May/5912c232_and-to-or/and-to-or.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/90883050-5cc9-4d3f-9cd3-087edde9eaeb",
+              "caption": "",
+              "alt": null,
+              "width": 2519,
+              "height": 704,
+              "instructor_notes": null
+            },
+            {
+              "id": 348875,
+              "key": "73ddcfe0-0272-4bdc-99ab-ea89f068a887",
+              "title": "OR 感知器测验",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "73ddcfe0-0272-4bdc-99ab-ea89f068a887",
+                "completed_at": "2019-03-02T12:55:40.716Z",
+                "last_viewed_at": "2019-05-01T15:35:14.179Z",
+                "unstructured": "{\"selected_ids\":[\"a1494182870768\",\"a1494182887943\"],\"is_correct\":true}"
+              },
+              "question": {
+                "prompt": "从 AND 感知器变成 OR 感知器的两种方法是什么？",
+                "answers": [
+                  {
+                    "id": "a1494182870768",
+                    "text": "增大权重",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1494182883245",
+                    "text": "减小权重",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1494182884153",
+                    "text": "增大单个权重",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1494182884879",
+                    "text": "减小单个权重",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1494182885650",
+                    "text": "增大偏差大小",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1494182887943",
+                    "text": "减小偏差大小",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 348876,
+              "key": "900788cb-de0c-45b1-9a6a-38132e814ba7",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# 用感知器实现逻辑运算 - NOT （\"非”）\n和我们刚刚研究的其他感知器不一样，NOT 运算仅关心一个输入。如果输入是 `1`，则运算返回 `0`，如果输入是 `0`，则返回 `1`。感知器的其他输入被忽略了。\n\n在此测验中，你将设置权重（`weight1`、`weight2`）和偏差 `bias`，以便对第二个输入进行 NOT 运算，并忽略第一个输入。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 348877,
+              "key": "9c5828f7-2d28-495b-824a-1a72647c4df8",
+              "title": "",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "9c5828f7-2d28-495b-824a-1a72647c4df8",
+                "completed_at": "2019-03-02T12:57:47.240Z",
+                "last_viewed_at": "2019-05-01T15:41:26.601Z",
+                "unstructured": "{\"quiz.py\":\"import pandas as pd\\n\\n# TODO: Set weight1, weight2, and bias\\nweight1 = 0.0\\nweight2 = -3.\\nbias = 2.\\n\\n\\n# DON'T CHANGE ANYTHING BELOW\\n# Inputs and outputs\\ntest_inputs = [(0, 0), (0, 1), (1, 0), (1, 1)]\\ncorrect_outputs = [True, False, True, False]\\noutputs = []\\n\\n# Generate and check output\\nfor test_input, correct_output in zip(test_inputs, correct_outputs):\\n    linear_combination = weight1 * test_input[0] + weight2 * test_input[1] + bias\\n    output = int(linear_combination >= 0)\\n    is_correct_string = 'Yes' if output == correct_output else 'No'\\n    outputs.append([test_input[0], test_input[1], linear_combination, output, is_correct_string])\\n\\n# Print output\\nnum_wrong = len([output[4] for output in outputs if output[4] == 'No'])\\noutput_frame = pd.DataFrame(outputs, columns=['Input 1', '  Input 2', '  Linear Combination', '  Activation Output', '  Is Correct'])\\nif not num_wrong:\\n    print('Nice!  You got it all correct.\\\\n')\\nelse:\\n    print('You got {} wrong.  Keep trying!\\\\n'.format(num_wrong))\\nprint(output_frame.to_string(index=False))\"}"
+              },
+              "instruction": null,
+              "question": {
+                "title": "",
+                "semantic_type": "ProgrammingQuestion",
+                "evaluation_id": "4935618422505472",
+                "initial_code_files": [
+                  {
+                    "text": "import pandas as pd\n\n# TODO: Set weight1, weight2, and bias\nweight1 = 0.0\nweight2 = 0.0\nbias = 0.0\n\n\n# DON'T CHANGE ANYTHING BELOW\n# Inputs and outputs\ntest_inputs = [(0, 0), (0, 1), (1, 0), (1, 1)]\ncorrect_outputs = [True, False, True, False]\noutputs = []\n\n# Generate and check output\nfor test_input, correct_output in zip(test_inputs, correct_outputs):\n    linear_combination = weight1 * test_input[0] + weight2 * test_input[1] + bias\n    output = int(linear_combination >= 0)\n    is_correct_string = 'Yes' if output == correct_output else 'No'\n    outputs.append([test_input[0], test_input[1], linear_combination, output, is_correct_string])\n\n# Print output\nnum_wrong = len([output[4] for output in outputs if output[4] == 'No'])\noutput_frame = pd.DataFrame(outputs, columns=['Input 1', '  Input 2', '  Linear Combination', '  Activation Output', '  Is Correct'])\nif not num_wrong:\n    print('Nice!  You got it all correct.\\n')\nelse:\n    print('You got {} wrong.  Keep trying!\\n'.format(num_wrong))\nprint(output_frame.to_string(index=False))",
+                    "name": "quiz.py"
+                  }
+                ]
+              },
+              "answer": null
+            },
+            {
+              "id": 348878,
+              "key": "4875eb9d-501a-4658-b092-8cb57549229e",
+              "title": "DL 09 XOR 感知器",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "TF83GfjYLdw",
+                "china_cdn_id": "TF83GfjYLdw.mp4"
+              }
+            },
+            {
+              "id": 348879,
+              "key": "79a219c6-c286-4c31-ba2a-24ea02296b37",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# 用感知器实现逻辑运算 - XOR （“异或”）",
+              "instructor_notes": ""
+            },
+            {
+              "id": 348880,
+              "key": "bcb66ae2-ee07-44a6-b131-3288b04a8a25",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2017/May/5912c2f1_xor/xor.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/bcb66ae2-ee07-44a6-b131-3288b04a8a25",
+              "caption": "",
+              "alt": null,
+              "width": 1898,
+              "height": 526,
+              "instructor_notes": null
+            },
+            {
+              "id": 348881,
+              "key": "15028e9f-0aa4-4162-91cd-e507dd9ed407",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# 测验：构建一个 XOR 多层感知器\n\n现在我们使用 AND、NOT 和 OR 感知器构建一个多层感知器，以便创建 XOR 逻辑！\n\n下面的神经网络包含三个感知器：A、B 和 C。最后一个 (AND) 已经提供给你了。神经网络的输入来自第一个节点。输出来自最后一个节点。\n\n上面的多层感知器计算出 XOR。每个感知器都是 AND、OR 和 NOT 的逻辑运算。但是，感知器 A、B、C 和 D 并不表明它们的运算。在下面的测验中，请为四个感知器设置正确的运算，以便计算 XOR。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 348882,
+              "key": "af97e020-f83a-47fb-ad7e-6c0bded2de89",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2017/May/59112a6b_xor-quiz/xor-quiz.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/af97e020-f83a-47fb-ad7e-6c0bded2de89",
+              "caption": "",
+              "alt": null,
+              "width": 1760,
+              "height": 599,
+              "instructor_notes": null
+            },
+            {
+              "id": 348883,
+              "key": "84a12a7b-ef22-4003-9528-9e44fd73d648",
+              "title": "",
+              "semantic_type": "MatchingQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "84a12a7b-ef22-4003-9528-9e44fd73d648",
+                "completed_at": "2019-03-02T13:11:32.055Z",
+                "last_viewed_at": "2019-05-01T15:45:03.032Z",
+                "unstructured": "{\"answer_ids\":[\"a1494297409537\",\"a1494297414036\",\"a1494297422474\"],\"is_correct\":true}"
+              },
+              "question": {
+                "complex_prompt": {
+                  "text": "在 XOR 神经网络中为感知器设置运算。"
+                },
+                "concepts_label": "感知器",
+                "answers_label": "运算符",
+                "concepts": [
+                  {
+                    "text": "A",
+                    "correct_answer": {
+                      "id": "a1494297409537",
+                      "text": "AND"
+                    }
+                  },
+                  {
+                    "text": "B",
+                    "correct_answer": {
+                      "id": "a1494297414036",
+                      "text": "OR"
+                    }
+                  },
+                  {
+                    "text": "C",
+                    "correct_answer": {
+                      "id": "a1494297422474",
+                      "text": "NOT"
+                    }
+                  }
+                ],
+                "answers": [
+                  {
+                    "id": "a1494297414036",
+                    "text": "OR"
+                  },
+                  {
+                    "id": "a1494297409537",
+                    "text": "AND"
+                  },
+                  {
+                    "id": "a1494297422474",
+                    "text": "NOT"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 349164,
+          "key": "8ea20904-0215-4e44-afa9-bb5a720bd028",
+          "title": "感知器技巧 - 计算机如何“学习”分类？",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8ea20904-0215-4e44-afa9-bb5a720bd028",
+            "completed_at": "2019-03-02T12:48:48.610Z",
+            "last_viewed_at": "2020-07-06T13:51:52.558Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 348884,
+              "key": "e0971445-04f0-4968-ab4d-a1ebeace7bd9",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "#  感知器技巧 - 计算机如何“学习”分类？\n\n在上一部分，你使用你自己的逻辑和数学知识为某些最常见的逻辑运算符创建了感知器。\n但是在现实生活中，除了这些非常简单的形式，我们人类是无法靠自己构建这些感知器函数，找到用于分类的曲线的。\n\n下面的视频将告诉你，计算机如何根据我们人类给出的结果，来自己进行构建感知器函数。对于这一点，有一个非常棒的技巧能帮到我们。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 348885,
+              "key": "e640ff2d-fdb0-458c-b12b-d3ef72bfe93f",
+              "title": "DL 10 Q  Perceptron Algorithm",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "-zhTROHtscQ",
+                "china_cdn_id": "-zhTROHtscQ.mp4"
+              }
+            },
+            {
+              "id": 348886,
+              "key": "e0640565-e4ef-420d-98b5-51d4d0eec4e0",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2017/May/5912022e_perceptronquiz/perceptronquiz.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/e0640565-e4ef-420d-98b5-51d4d0eec4e0",
+              "caption": "",
+              "alt": null,
+              "width": 1132,
+              "height": 405,
+              "instructor_notes": null
+            },
+            {
+              "id": 348887,
+              "key": "d5bc6c8f-b9a3-4f8f-97d0-9777f6895dd2",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "d5bc6c8f-b9a3-4f8f-97d0-9777f6895dd2",
+                "completed_at": "2019-05-02T02:33:24.535Z",
+                "last_viewed_at": "2019-05-02T02:33:34.255Z",
+                "unstructured": "{\"selected_id\":\"a1494352441693\",\"is_correct\":true}"
+              },
+              "question": {
+                "prompt": "被错误分类的点，希望斜线离自己更近，还是更远？",
+                "answers": [
+                  {
+                    "id": "a1494352441693",
+                    "text": "更近",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1494352459483",
+                    "text": "更远",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 348888,
+              "key": "7218acbe-271f-4f74-b45e-c5b552f352b8",
+              "title": "DL 10 S  Perceptron Algorithm",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "fATmrG2hQzI",
+                "china_cdn_id": "fATmrG2hQzI.mp4"
+              }
+            },
+            {
+              "id": 675142,
+              "key": "eca6a7f2-f5c5-4052-aa10-ceb91cc88988",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### 来做些数学计算吧！\n现在我们已经知道了那些被误分类的点，希望直线向它们靠近，让我们做一些数学计算。下面的视频展示了一个数学技巧，它可以通过更改直线方程来靠近特定点。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 919299,
+              "key": "caf72abe-fe07-4af6-811a-714be29b3678",
+              "title": "07 感知器技巧",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "lif_qPmXvWA",
+                "china_cdn_id": "lif_qPmXvWA.mp4"
+              }
+            },
+            {
+              "id": 919300,
+              "key": "b517c9f2-0211-416f-8a30-878fa1e08577",
+              "title": "",
+              "semantic_type": "ValidatedQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "b517c9f2-0211-416f-8a30-878fa1e08577",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "在第二个例子中，直线的方程式为 3x<sub>1</sub>+ 4x<sub>2</sub> - 10 = 0。如果把学习速率设为 0.1，我们总共要重复应用这个感知器技巧多少次，才能把直线移动到使蓝点 (1,1) 正确分类的位置？ \n",
+                "matchers": [
+                  {
+                    "expression": "10"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 349165,
+          "key": "dc837952-c0d8-43fc-921c-f1ffe316c795",
+          "title": "感知器算法",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "dc837952-c0d8-43fc-921c-f1ffe316c795",
+            "completed_at": "2019-03-02T13:11:53.969Z",
+            "last_viewed_at": "2020-07-06T13:53:35.636Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 348889,
+              "key": "a60d96eb-348a-4b28-afc5-8690d2e9275e",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# 感知器算法\n\n掌握了感知器技巧后，我们就可以编写完整的感知器运算的算法了！\n\n下面的视频将介绍感知器算法的伪代码，现在你还不需要担心什么是学习速率（learning rate），我们在之后的课程中会详细介绍为什么这里的伪代码中有学习率。\n\n在视频下面的测验中，你将有机会用 Python 将其编成代码，并看看自己的感知器分类成果。加油！",
+              "instructor_notes": ""
+            },
+            {
+              "id": 348890,
+              "key": "6a337130-558e-4c12-9d1d-8bec421e73f3",
+              "title": "DL 12 Perceptron Agorithm Pseudocode (1)",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "M9c9bN5nJ3U",
+                "china_cdn_id": "M9c9bN5nJ3U.mp4"
+              }
+            },
+            {
+              "id": 348891,
+              "key": "5cde4654-e7cf-47d5-967c-ad2b91f8fe00",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# 编写感知器算法\n\n该编写代码了！在此练习中，你将实现感知器算法以分类下面的数据（位于文件 data.csv 中）。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 348892,
+              "key": "28d86cb6-c4b4-4b75-a919-bddc10c5c7c1",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2017/May/590d06dd_points/points.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/28d86cb6-c4b4-4b75-a919-bddc10c5c7c1",
+              "caption": "",
+              "alt": null,
+              "width": 778,
+              "height": 521,
+              "instructor_notes": null
+            },
+            {
+              "id": 348893,
+              "key": "a5b3a99b-0299-47bd-b2fe-1a8ebf07d1d4",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "感知器步骤如下所示。对于坐标轴为\n<span class=\"mathquill\">\n(p,q)\n</span>\n的点，标签 y，以及等式\n<span class=\"mathquill\">\n\\hat{y} = step(w_1x_1 + w_2x_2 + b)\n</span> 给出的预测\n\n- 如果点分类正确，则什么也不做。\n- 如果点分类为正，但是标签为负，则分别减去\n<span class=\"mathquill\">\n\\alpha p, \\alpha q,\n</span>\n和\n<span class=\"mathquill\">\n\\alpha\n</span>\n至\n<span class=\"mathquill\">\nw_1, w_2,\n</span>\n和\n<span class=\"mathquill\">\nb\n</span>\n- 如果点分类为负，但是标签为正，则分别将\n<span class=\"mathquill\">\n\\alpha p, \\alpha q,\n</span>\n和\n<span class=\"mathquill\">\n\\alpha\n</span>\n加到\n<span class=\"mathquill\">\nw_1, w_2,\n</span>\n和\n<span class=\"mathquill\">\nb\n</span>\n上。\n\n然后点击`测试运行`绘出感知器算法给出的解决方案。它实际上会画出一组虚线，显示算法如何接近最佳解决方案（用黑色实线表示）。\n\n请随意改动算法的参数（epoch 数量、学习速率，甚至随机化初始参数），看看初始条件对解决方案有何影响！",
+              "instructor_notes": ""
+            },
+            {
+              "id": 348894,
+              "key": "d9b6c9f8-b58d-45a4-9ea9-6dacd8fcfd7c",
+              "title": "",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "d9b6c9f8-b58d-45a4-9ea9-6dacd8fcfd7c",
+                "completed_at": "2019-03-02T13:23:25.010Z",
+                "last_viewed_at": "2019-05-02T02:54:05.846Z",
+                "unstructured": "{\"perceptron.py\":\"import numpy as np\\n# Setting the random seed, feel free to change it and see different solutions.\\nnp.random.seed(42)\\n\\ndef stepFunction(t):\\n    if t >= 0:\\n        return 1\\n    return 0\\n\\ndef prediction(X, W, b):\\n    return stepFunction((np.matmul(X,W)+b)[0])\\n\\n# TODO: Fill in the code below to implement the perceptron trick.\\n# The function should receive as inputs the data X, the labels y,\\n# the weights W (as an array), and the bias b,\\n# update the weights and bias W, b, according to the perceptron algorithm,\\n# and return W and b.\\ndef perceptronStep(X, y, W, b, learn_rate = 0.01):\\n    # Fill in code\\n    yhat=prediction(X,W,b)\\n    if yhat==1 and y==0:\\n        b=b-learing_rate\\n        W=W-learning_rate*X\\n    if yhat==0 and y==1:\\n        b=b+learing_rate\\n        W=W+learning_rate*X \\n    \\n    return W, b\\n    \\n# This function runs the perceptron algorithm repeatedly on the dataset,\\n# and returns a few of the boundary lines obtained in the iterations,\\n# for plotting purposes.\\n# Feel free to play with the learning rate and the num_epochs,\\n# and see your results plotted below.\\ndef trainPerceptronAlgorithm(X, y, learn_rate = 0.01, num_epochs = 25):\\n    x_min, x_max = min(X.T[0]), max(X.T[0])\\n    y_min, y_max = min(X.T[1]), max(X.T[1])\\n    W = np.array(np.random.rand(2,1))\\n    b = np.random.rand(1)[0] + x_max\\n    # These are the solution lines that get plotted below.\\n    boundary_lines = []\\n    for i in range(num_epochs):\\n        # In each epoch, we apply the perceptron step.\\n        W, b = perceptronStep(X, y, W, b, learn_rate)\\n        boundary_lines.append((-W[0]/W[1], -b/W[1]))\\n    return boundary_lines\\n\",\"data.csv\":\"0.78051,-0.063669,1\\n0.28774,0.29139,1\\n0.40714,0.17878,1\\n0.2923,0.4217,1\\n0.50922,0.35256,1\\n0.27785,0.10802,1\\n0.27527,0.33223,1\\n0.43999,0.31245,1\\n0.33557,0.42984,1\\n0.23448,0.24986,1\\n0.0084492,0.13658,1\\n0.12419,0.33595,1\\n0.25644,0.42624,1\\n0.4591,0.40426,1\\n0.44547,0.45117,1\\n0.42218,0.20118,1\\n0.49563,0.21445,1\\n0.30848,0.24306,1\\n0.39707,0.44438,1\\n0.32945,0.39217,1\\n0.40739,0.40271,1\\n0.3106,0.50702,1\\n0.49638,0.45384,1\\n0.10073,0.32053,1\\n0.69907,0.37307,1\\n0.29767,0.69648,1\\n0.15099,0.57341,1\\n0.16427,0.27759,1\\n0.33259,0.055964,1\\n0.53741,0.28637,1\\n0.19503,0.36879,1\\n0.40278,0.035148,1\\n0.21296,0.55169,1\\n0.48447,0.56991,1\\n0.25476,0.34596,1\\n0.21726,0.28641,1\\n0.67078,0.46538,1\\n0.3815,0.4622,1\\n0.53838,0.32774,1\\n0.4849,0.26071,1\\n0.37095,0.38809,1\\n0.54527,0.63911,1\\n0.32149,0.12007,1\\n0.42216,0.61666,1\\n0.10194,0.060408,1\\n0.15254,0.2168,1\\n0.45558,0.43769,1\\n0.28488,0.52142,1\\n0.27633,0.21264,1\\n0.39748,0.31902,1\\n0.5533,1,0\\n0.44274,0.59205,0\\n0.85176,0.6612,0\\n0.60436,0.86605,0\\n0.68243,0.48301,0\\n1,0.76815,0\\n0.72989,0.8107,0\\n0.67377,0.77975,0\\n0.78761,0.58177,0\\n0.71442,0.7668,0\\n0.49379,0.54226,0\\n0.78974,0.74233,0\\n0.67905,0.60921,0\\n0.6642,0.72519,0\\n0.79396,0.56789,0\\n0.70758,0.76022,0\\n0.59421,0.61857,0\\n0.49364,0.56224,0\\n0.77707,0.35025,0\\n0.79785,0.76921,0\\n0.70876,0.96764,0\\n0.69176,0.60865,0\\n0.66408,0.92075,0\\n0.65973,0.66666,0\\n0.64574,0.56845,0\\n0.89639,0.7085,0\\n0.85476,0.63167,0\\n0.62091,0.80424,0\\n0.79057,0.56108,0\\n0.58935,0.71582,0\\n0.56846,0.7406,0\\n0.65912,0.71548,0\\n0.70938,0.74041,0\\n0.59154,0.62927,0\\n0.45829,0.4641,0\\n0.79982,0.74847,0\\n0.60974,0.54757,0\\n0.68127,0.86985,0\\n0.76694,0.64736,0\\n0.69048,0.83058,0\\n0.68122,0.96541,0\\n0.73229,0.64245,0\\n0.76145,0.60138,0\\n0.58985,0.86955,0\\n0.73145,0.74516,0\\n0.77029,0.7014,0\\n0.73156,0.71782,0\\n0.44556,0.57991,0\\n0.85275,0.85987,0\\n0.51912,0.62359,0\\n\",\"solution.py\":\"def perceptronStep(X, y, W, b, learn_rate = 0.01):\\n    for i in range(len(X)):\\n        y_hat = prediction(X[i],W,b)\\n        if y[i]-y_hat == 1:\\n            W[0] += X[i][0]*learn_rate\\n            W[1] += X[i][1]*learn_rate\\n            b += learn_rate\\n        elif y[i]-y_hat == -1:\\n            W[0] -= X[i][0]*learn_rate\\n            W[1] -= X[i][1]*learn_rate\\n            b -= learn_rate\\n    return W, b\\n\"}"
+              },
+              "instruction": null,
+              "question": {
+                "title": "",
+                "semantic_type": "ProgrammingQuestion",
+                "evaluation_id": "5660419386638336",
+                "initial_code_files": [
+                  {
+                    "text": "import numpy as np\n# Setting the random seed, feel free to change it and see different solutions.\nnp.random.seed(42)\n\ndef stepFunction(t):\n    if t >= 0:\n        return 1\n    return 0\n\ndef prediction(X, W, b):\n    return stepFunction((np.matmul(X,W)+b)[0])\n\n# TODO: Fill in the code below to implement the perceptron trick.\n# The function should receive as inputs the data X, the labels y,\n# the weights W (as an array), and the bias b,\n# update the weights and bias W, b, according to the perceptron algorithm,\n# and return W and b.\ndef perceptronStep(X, y, W, b, learn_rate = 0.01):\n    # Fill in code\n    return W, b\n    \n# This function runs the perceptron algorithm repeatedly on the dataset,\n# and returns a few of the boundary lines obtained in the iterations,\n# for plotting purposes.\n# Feel free to play with the learning rate and the num_epochs,\n# and see your results plotted below.\ndef trainPerceptronAlgorithm(X, y, learn_rate = 0.01, num_epochs = 25):\n    x_min, x_max = min(X.T[0]), max(X.T[0])\n    y_min, y_max = min(X.T[1]), max(X.T[1])\n    W = np.array(np.random.rand(2,1))\n    b = np.random.rand(1)[0] + x_max\n    # These are the solution lines that get plotted below.\n    boundary_lines = []\n    for i in range(num_epochs):\n        # In each epoch, we apply the perceptron step.\n        W, b = perceptronStep(X, y, W, b, learn_rate)\n        boundary_lines.append((-W[0]/W[1], -b/W[1]))\n    return boundary_lines\n",
+                    "name": "perceptron.py"
+                  },
+                  {
+                    "text": "0.78051,-0.063669,1\n0.28774,0.29139,1\n0.40714,0.17878,1\n0.2923,0.4217,1\n0.50922,0.35256,1\n0.27785,0.10802,1\n0.27527,0.33223,1\n0.43999,0.31245,1\n0.33557,0.42984,1\n0.23448,0.24986,1\n0.0084492,0.13658,1\n0.12419,0.33595,1\n0.25644,0.42624,1\n0.4591,0.40426,1\n0.44547,0.45117,1\n0.42218,0.20118,1\n0.49563,0.21445,1\n0.30848,0.24306,1\n0.39707,0.44438,1\n0.32945,0.39217,1\n0.40739,0.40271,1\n0.3106,0.50702,1\n0.49638,0.45384,1\n0.10073,0.32053,1\n0.69907,0.37307,1\n0.29767,0.69648,1\n0.15099,0.57341,1\n0.16427,0.27759,1\n0.33259,0.055964,1\n0.53741,0.28637,1\n0.19503,0.36879,1\n0.40278,0.035148,1\n0.21296,0.55169,1\n0.48447,0.56991,1\n0.25476,0.34596,1\n0.21726,0.28641,1\n0.67078,0.46538,1\n0.3815,0.4622,1\n0.53838,0.32774,1\n0.4849,0.26071,1\n0.37095,0.38809,1\n0.54527,0.63911,1\n0.32149,0.12007,1\n0.42216,0.61666,1\n0.10194,0.060408,1\n0.15254,0.2168,1\n0.45558,0.43769,1\n0.28488,0.52142,1\n0.27633,0.21264,1\n0.39748,0.31902,1\n0.5533,1,0\n0.44274,0.59205,0\n0.85176,0.6612,0\n0.60436,0.86605,0\n0.68243,0.48301,0\n1,0.76815,0\n0.72989,0.8107,0\n0.67377,0.77975,0\n0.78761,0.58177,0\n0.71442,0.7668,0\n0.49379,0.54226,0\n0.78974,0.74233,0\n0.67905,0.60921,0\n0.6642,0.72519,0\n0.79396,0.56789,0\n0.70758,0.76022,0\n0.59421,0.61857,0\n0.49364,0.56224,0\n0.77707,0.35025,0\n0.79785,0.76921,0\n0.70876,0.96764,0\n0.69176,0.60865,0\n0.66408,0.92075,0\n0.65973,0.66666,0\n0.64574,0.56845,0\n0.89639,0.7085,0\n0.85476,0.63167,0\n0.62091,0.80424,0\n0.79057,0.56108,0\n0.58935,0.71582,0\n0.56846,0.7406,0\n0.65912,0.71548,0\n0.70938,0.74041,0\n0.59154,0.62927,0\n0.45829,0.4641,0\n0.79982,0.74847,0\n0.60974,0.54757,0\n0.68127,0.86985,0\n0.76694,0.64736,0\n0.69048,0.83058,0\n0.68122,0.96541,0\n0.73229,0.64245,0\n0.76145,0.60138,0\n0.58985,0.86955,0\n0.73145,0.74516,0\n0.77029,0.7014,0\n0.73156,0.71782,0\n0.44556,0.57991,0\n0.85275,0.85987,0\n0.51912,0.62359,0\n",
+                    "name": "data.csv"
+                  },
+                  {
+                    "text": "def perceptronStep(X, y, W, b, learn_rate = 0.01):\n    for i in range(len(X)):\n        y_hat = prediction(X[i],W,b)\n        if y[i]-y_hat == 1:\n            W[0] += X[i][0]*learn_rate\n            W[1] += X[i][1]*learn_rate\n            b += learn_rate\n        elif y[i]-y_hat == -1:\n            W[0] -= X[i][0]*learn_rate\n            W[1] -= X[i][1]*learn_rate\n            b -= learn_rate\n    return W, b\n",
+                    "name": "solution.py"
+                  }
+                ]
+              },
+              "answer": null
+            }
+          ]
+        },
+        {
+          "id": 349166,
+          "key": "82825f51-bc33-4ad8-81f3-4785ab3efbcf",
+          "title": "非线性界线",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "82825f51-bc33-4ad8-81f3-4785ab3efbcf",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 348895,
+              "key": "fb3cfbe9-0222-48fc-bab9-94c183902175",
+              "title": "非线性数据",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "B8UrWnHh1Wc",
+                "china_cdn_id": "B8UrWnHh1Wc.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 349169,
+          "key": "dcbb24bf-3cc1-43b3-977b-b164895f357b",
+          "title": "误差函数",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "dcbb24bf-3cc1-43b3-977b-b164895f357b",
+            "completed_at": "2019-03-02T13:36:58.686Z",
+            "last_viewed_at": "2020-07-06T13:53:41.339Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 675174,
+              "key": "ddc77235-22c1-44b9-a887-a62a1bbc3135",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "刚刚的感知器算法实现告诉我们，获取正确分类的方式，就是通过每一个错误分类的点，评估错误点位置与我们期望位置之间的差异，来慢慢的修正我们分类函数。\n\n因为误差暗示了如何进行正确的分类，因此误差的定义就变得尤为重要，这也被称为**误差函数**。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 348907,
+              "key": "6b00a6da-4895-46f7-a82c-0ea833eaa7cc",
+              "title": "误差函数",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "YfUUunxWIJw",
+                "china_cdn_id": "YfUUunxWIJw.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 349171,
+          "key": "5e1f6c71-6c75-4bb2-98a9-ee40c0eb3472",
+          "title": "误差函数与梯度下降",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "5e1f6c71-6c75-4bb2-98a9-ee40c0eb3472",
+            "completed_at": "2019-03-02T13:37:58.122Z",
+            "last_viewed_at": "2020-07-06T13:54:23.006Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 675177,
+              "key": "63ac7698-6fbd-46ae-8226-caee028b6f61",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "误差函数提供给我们的预测值与实际值之间的差异，但是这个差异如何指导我们权重的更新呢？我们的目标是找到**最小**的误差函数值来找到与实际值误差最小的预测值。\n\n在简单的线性方程中，我们可以通过判断“预测值与实测值相比是大了还是小了”来决定权重是增加还是减少。但是在更为复杂的非线性环境中呢？复杂的数学问题，我们就直接来看看学者们的解决策略。\n\n假设一维问题是一条直线，那么二维问题就是一个平面，而三维问题就是一个曲面。曲面可以理解为有山峰也有低谷的地面，误差最小的地方就是低谷处，我们希望计算机找到的就是这个低谷的值。为了找到这个低谷，学者们发明了**梯度下降**。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 348908,
+              "key": "86d3777f-17d5-4381-85ec-085b74bcee0f",
+              "title": "对数损失误差函数",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "jfKShxGAbok",
+                "china_cdn_id": "jfKShxGAbok.mp4"
+              }
+            },
+            {
+              "id": 690701,
+              "key": "937f8637-d405-459b-abe9-0890ae859cbf",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "**备注**：视频中所有的“惩罚值”，请不要误认为是“阈值”的错误写法",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 349167,
+          "key": "4b7026be-06e3-49de-a362-ce109172659e",
+          "title": "离散型与连续型 - 为什么使用sigmoid函数 ",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "4b7026be-06e3-49de-a362-ce109172659e",
+            "completed_at": "2019-03-02T13:45:09.275Z",
+            "last_viewed_at": "2020-07-06T13:55:08.697Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 348896,
+              "key": "792ca1fc-b193-4e45-aa61-5bd9651ece7a",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# 离散型与连续型预测\n\n在前几个视频中，我们了解到，对于优化而言，连续型误差函数比离散型函数更好。为此，我们需要从离散型预测变成连续型预测。下两个视频将指导我们完成这一操作。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 348897,
+              "key": "f6c52a7d-38da-4d33-ad00-bce1ba773038",
+              "title": "离散型与连续型",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "rdP-RPDFkl0",
+                "china_cdn_id": "rdP-RPDFkl0.mp4"
+              }
+            },
+            {
+              "id": 348898,
+              "key": "104afa4a-2de4-4545-aa33-7b4f815a06e2",
+              "title": "离散型与连续型",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "Rm2KxFaPiJg",
+                "china_cdn_id": "Rm2KxFaPiJg.mp4"
+              }
+            },
+            {
+              "id": 927617,
+              "key": "4c1d5f03-b615-465d-b993-87bb3f1f630d",
+              "title": "",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "4c1d5f03-b615-465d-b993-87bb3f1f630d",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "这个 sigmoid 函数被定义为 sigmoid(x) = 1/(1+e<sup>-x</sup>)。如果这个分数被定义为 4x<sub>1</sub> + 5x<sub>2</sub> - 9 = score，那么，以下哪些点为蓝色或红色的概率是 50%？选择所有正确选项。",
+                "answers": [
+                  {
+                    "id": "a1567678804167",
+                    "text": "(1, 1)",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1567678814888",
+                    "text": "(2, 4)",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1567678819510",
+                    "text": "(5, -5)",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1567678824090",
+                    "text": "(-4, 5)",
+                    "is_correct": true
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 349168,
+          "key": "9e1364a8-e8b4-4eac-be12-4d44a139f721",
+          "title": "多类别分类与Softmax 函数",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "9e1364a8-e8b4-4eac-be12-4d44a139f721",
+            "completed_at": "2019-03-02T13:52:17.998Z",
+            "last_viewed_at": "2020-07-06T13:55:13.204Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 348899,
+              "key": "4bb77d61-423f-4b74-9d69-cc2ed7bf762a",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# 多类别分类和 Softmax",
+              "instructor_notes": ""
+            },
+            {
+              "id": 348900,
+              "key": "0bfd9bff-3a33-48cf-b60b-ccdc868aec6d",
+              "title": "Quiz - Softmax",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "NNoezNnAMTY",
+                "china_cdn_id": "NNoezNnAMTY.mp4"
+              }
+            },
+            {
+              "id": 348901,
+              "key": "2a0b5a06-9388-4f47-a268-5a7381f5053f",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Softmax 函数\n\n在下个视频中，我们将学习激活函数的对等形式，它和 s 型函数是对等的，但是问题具有 3 个或更多个类别。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 348902,
+              "key": "24650f94-1030-4d1d-883f-f44f0f7de7a7",
+              "title": "DL 18 Q Softmax V2",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "RC_A9Tu99y4",
+                "china_cdn_id": "RC_A9Tu99y4.mp4"
+              }
+            },
+            {
+              "id": 348903,
+              "key": "e905f181-a259-41a1-85b5-77ccb41dcd81",
+              "title": "Softmax Quiz",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "e905f181-a259-41a1-85b5-77ccb41dcd81",
+                "completed_at": "2019-05-02T03:14:59.968Z",
+                "last_viewed_at": "2019-05-02T03:14:59.968Z",
+                "unstructured": "{\"selected_id\":\"a1494026208481\",\"is_correct\":true}"
+              },
+              "question": {
+                "prompt": "哪个函数会将任何输入数字变成正数？",
+                "answers": [
+                  {
+                    "id": "a1494026191658",
+                    "text": "sin",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1494026206850",
+                    "text": "cos",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1494026207723",
+                    "text": "log",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1494026208481",
+                    "text": "exp",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 927618,
+              "key": "89e08e93-b4f1-49b9-8836-d19e9f8f1ebb",
+              "title": "DL 18 S Softmax",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "n8S-v_LCTms",
+                "china_cdn_id": "n8S-v_LCTms.mp4"
+              }
+            },
+            {
+              "id": 348904,
+              "key": "1bc7f5be-9c0f-47da-990b-47becc82e1e3",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# 练习：编写 Softmax\n\n现在该你来操作了！我们用 Python 编写 Softmax 公式吧。\n\nSoftmax 公式：\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 814413,
+              "key": "5f87f8ef-f6b3-447c-96d1-857d03c32a3e",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2019/January/5c4d4f7a_chart/chart.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/5f87f8ef-f6b3-447c-96d1-857d03c32a3e",
+              "caption": "",
+              "alt": "",
+              "width": 91,
+              "height": 48,
+              "instructor_notes": null
+            },
+            {
+              "id": 348905,
+              "key": "b72b37b6-940b-47b4-8a2d-073f396a9853",
+              "title": "",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "b72b37b6-940b-47b4-8a2d-073f396a9853",
+                "completed_at": "2019-03-02T14:00:06.557Z",
+                "last_viewed_at": "2019-05-02T03:25:43.428Z",
+                "unstructured": "{\"softmax.py\":\"import numpy as np\\n\\n# Write a function that takes as input a list of numbers, and returns\\n# the list of values given by the softmax function.\\ndef softmax(L):\\n    s=L\\n    for i in range(len(L)):\\n        s[i]=np.exp(L[i])\\n    s_sum=np.sum(s)\\n    for i in range(len(s)):\\n        s[i]=s[i]/s_sum\\n    return s\",\"solution.py\":\"import numpy as np\\n\\ndef softmax(L):\\n    expL = np.exp(L)\\n    sumExpL = sum(expL)\\n    result = []\\n    for i in expL:\\n        result.append(i*1.0/sumExpL)\\n    return result\\n    \\n    # Note: The function np.divide can also be used here, as follows:\\n    # def softmax(L):\\n    #     expL = np.exp(L)\\n    #     return np.divide (expL, expL.sum())\\n\"}"
+              },
+              "instruction": null,
+              "question": {
+                "title": "",
+                "semantic_type": "ProgrammingQuestion",
+                "evaluation_id": "4839883869913088",
+                "initial_code_files": [
+                  {
+                    "text": "import numpy as np\n\n# Write a function that takes as input a list of numbers, and returns\n# the list of values given by the softmax function.\ndef softmax(L):\n    pass",
+                    "name": "softmax.py"
+                  },
+                  {
+                    "text": "import numpy as np\n\ndef softmax(L):\n    expL = np.exp(L)\n    sumExpL = sum(expL)\n    result = []\n    for i in expL:\n        result.append(i*1.0/sumExpL)\n    return result\n    \n    # Note: The function np.divide can also be used here, as follows:\n    # def softmax(L):\n    #     expL = np.exp(L)\n    #     return np.divide (expL, expL.sum())\n",
+                    "name": "solution.py"
+                  }
+                ]
+              },
+              "answer": null
+            }
+          ]
+        },
+        {
+          "id": 349170,
+          "key": "cac0e3d6-38c1-4eb6-8440-4325b44703b3",
+          "title": "One-Hot 编码",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "cac0e3d6-38c1-4eb6-8440-4325b44703b3",
+            "completed_at": "2019-03-02T14:02:08.593Z",
+            "last_viewed_at": "2020-07-06T13:55:35.741Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 675228,
+              "key": "e3d7f302-cd36-436c-b959-2e0bacd4d044",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "计算机在表示多结果的分类时，使用One-Hot编码是比较常见的处理方式。\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 348906,
+              "key": "df53afab-bff2-4470-ba57-629c4b1c1999",
+              "title": "One-Hot 编码",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "PUeY4iyp7rQ",
+                "china_cdn_id": "PUeY4iyp7rQ.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 349172,
+          "key": "32704510-a70c-4a9b-a2c6-77ccdd389c0c",
+          "title": "最大似然率",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "32704510-a70c-4a9b-a2c6-77ccdd389c0c",
+            "completed_at": "2019-03-02T14:03:37.253Z",
+            "last_viewed_at": "2020-07-06T13:56:36.289Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 348910,
+              "key": "81b2ed57-5d53-4c2d-88b7-b08cd44c954e",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "#  最大似然率\n\n在我们学习深度学习的过程中，将一直用到概率。在这节课，我们将学习如何使用概率来评估（并改善）我们的模型。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 348909,
+              "key": "fe307f0f-f3a3-47ae-9cec-634295e6180e",
+              "title": "Probability 1",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "1yJx-QtlvNI",
+                "china_cdn_id": "1yJx-QtlvNI.mp4"
+              }
+            },
+            {
+              "id": 348911,
+              "key": "aa8e3d52-fae4-4230-a5ea-77347c8f4dd6",
+              "title": "DL 22 Maximum Likelihood V2",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "6nUUeQ9AeUA",
+                "china_cdn_id": "6nUUeQ9AeUA.mp4"
+              }
+            },
+            {
+              "id": 927619,
+              "key": "1997cce1-01e9-4de2-9b5b-83acfed7b2a0",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "1997cce1-01e9-4de2-9b5b-83acfed7b2a0",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "基于上面的视频，如果总概率 P(all) 的值很高，以下哪项正确？",
+                "answers": [
+                  {
+                    "id": "a1567678976484",
+                    "text": "模型对大多数蓝点进行了正确的分类。",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1567678987462",
+                    "text": "模型对大多数红点进行了正确的分类。",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1567678992120",
+                    "text": "模型对大多数点进行了正确的分类， 因为总概率 P(all) 指示了模型的准确度。",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1567678999647",
+                    "text": "模型对所有点都进行了正确的分类。",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 348912,
+              "key": "3f5c6b18-8533-40d6-9291-3d201b7d9e20",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "下个视频将介绍最大似然率的更正式处理方法。",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 349173,
+          "key": "2098790c-e2ce-4c0e-9e39-326bf189b417",
+          "title": "最大化概率",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2098790c-e2ce-4c0e-9e39-326bf189b417",
+            "completed_at": "2019-03-02T14:05:43.059Z",
+            "last_viewed_at": "2020-07-06T14:04:17.717Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 348913,
+              "key": "f287241f-532a-4f93-8104-03286013ceca",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# 最大化概率\n\n在这节课和这节课的练习中，我们将学习如何运用数学最大化概率。只会用到高中数学知识，准备回忆些以往的知识吧！",
+              "instructor_notes": ""
+            },
+            {
+              "id": 348914,
+              "key": "58d1e15e-565c-42c5-9d14-cb19b777940d",
+              "title": "Quiz - Cross 1",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "-xxrisIvD0E",
+                "china_cdn_id": "-xxrisIvD0E.mp4"
+              }
+            },
+            {
+              "id": 348915,
+              "key": "00071f2e-37c5-405b-b00b-ed0d426a3411",
+              "title": "DL 24 Q Cross Entropy",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "njq6bYrPqSU",
+                "china_cdn_id": "njq6bYrPqSU.mp4"
+              }
+            },
+            {
+              "id": 348916,
+              "key": "b7b9c85e-ceb5-4ad0-a80b-e09b0bba3dcd",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "b7b9c85e-ceb5-4ad0-a80b-e09b0bba3dcd",
+                "completed_at": "2019-03-03T00:22:50.675Z",
+                "last_viewed_at": "2019-03-03T00:22:50.675Z",
+                "unstructured": "{\"selected_id\":\"a1494355432746\",\"is_correct\":true}"
+              },
+              "question": {
+                "prompt": "哪个函数会将积变成和？",
+                "answers": [
+                  {
+                    "id": "a1494355420285",
+                    "text": "sin",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1494355432088",
+                    "text": "cos",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1494355432746",
+                    "text": "log",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1494355433404",
+                    "text": "exp",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 458031,
+          "key": "c03e2d61-77be-4a7e-a380-b7ade8b062e5",
+          "title": "交叉熵 1-损失函数",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "c03e2d61-77be-4a7e-a380-b7ade8b062e5",
+            "completed_at": "2019-03-03T00:23:06.026Z",
+            "last_viewed_at": "2020-07-06T14:21:13.398Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 457934,
+              "key": "8e27a034-8546-45f9-bc79-a8a620ee36aa",
+              "title": "交叉墒 1",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "iREoPUrpXvE",
+                "china_cdn_id": "iREoPUrpXvE.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 349174,
+          "key": "760235e0-a3ec-4e56-8cdb-56d762886690",
+          "title": "交叉熵 2-损失函数",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "760235e0-a3ec-4e56-8cdb-56d762886690",
+            "completed_at": "2019-03-03T00:27:12.778Z",
+            "last_viewed_at": "2020-07-06T14:22:31.728Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 348917,
+              "key": "86500a13-48d3-4650-a473-6939a11768cc",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# 交叉熵\n\n我们遇到了某种规律，概率和误差函数之间肯定有一定的联系，这种联系叫做**交叉熵**。这个概念在很多领域都非常流行，包括机器学习领域。我们将详细了解该公式，并编写代码！",
+              "instructor_notes": ""
+            },
+            {
+              "id": 348918,
+              "key": "324a017e-f426-4df8-8641-4495613e7049",
+              "title": "交叉熵 2",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "qvr_ego_d6w",
+                "china_cdn_id": "qvr_ego_d6w.mp4"
+              }
+            },
+            {
+              "id": 348919,
+              "key": "eb97b33d-c019-4c31-ad26-283727526126",
+              "title": "CrossEntropy V1",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "1BnhC6e0TFw",
+                "china_cdn_id": "1BnhC6e0TFw.mp4"
+              }
+            },
+            {
+              "id": 348920,
+              "key": "56ae2acc-0eca-44d9-a202-fb080cd4e247",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# 练习：编写交叉熵\n\n现在该你来发挥作用了！我们用 Python 编写交叉熵公式。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 348921,
+              "key": "1b079052-6418-43a6-a7f0-bfe465d10ad3",
+              "title": "",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "1b079052-6418-43a6-a7f0-bfe465d10ad3",
+                "completed_at": "2019-03-03T00:42:36.211Z",
+                "last_viewed_at": "2019-05-02T04:00:38.967Z",
+                "unstructured": "{\"cross_entropy.py\":\"import numpy as np\\n\\n# Write a function that takes as input two lists Y, P,\\n# and returns the float corresponding to their cross-entropy.\\ndef cross_entropy(Y, P):\\n    Y=np.float_(Y)\\n    P=np.float_(P)\\n    error=-np.sum(Y*np.log(P)+(1-Y)*np.log(1-P))\\n    return error\",\"solution.py\":\"import numpy as np\\n\\ndef cross_entropy(Y, P):\\n    Y = np.float_(Y)\\n    P = np.float_(P)\\n    return -np.sum(Y * np.log(P) + (1 - Y) * np.log(1 - P))\"}"
+              },
+              "instruction": null,
+              "question": {
+                "title": "",
+                "semantic_type": "ProgrammingQuestion",
+                "evaluation_id": "6614311758856192",
+                "initial_code_files": [
+                  {
+                    "text": "import numpy as np\n\n# Write a function that takes as input two lists Y, P,\n# and returns the float corresponding to their cross-entropy.\ndef cross_entropy(Y, P):\n    pass",
+                    "name": "cross_entropy.py"
+                  },
+                  {
+                    "text": "import numpy as np\n\ndef cross_entropy(Y, P):\n    Y = np.float_(Y)\n    P = np.float_(P)\n    return -np.sum(Y * np.log(P) + (1 - Y) * np.log(1 - P))",
+                    "name": "solution.py"
+                  }
+                ]
+              },
+              "answer": null
+            }
+          ]
+        },
+        {
+          "id": 349175,
+          "key": "a9641a7f-f6a1-4868-9bbc-77a55f8b94be",
+          "title": "多类别交叉熵",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "a9641a7f-f6a1-4868-9bbc-77a55f8b94be",
+            "completed_at": "2019-03-03T00:48:19.384Z",
+            "last_viewed_at": "2020-07-06T14:22:34.163Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 348923,
+              "key": "5996687e-a87e-4840-a662-57a48197473b",
+              "title": "多类别交叉熵",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "QOQXpS227Vc",
+                "china_cdn_id": "QOQXpS227Vc.mp4"
+              }
+            },
+            {
+              "id": 690361,
+              "key": "2a02a614-ccf1-4ecc-a63e-4e5a056b62c0",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "**备注**\n\n 视频中02‘37’‘\n这里的n表示类别数量\n例如：n表示的 鸭子，海狸，海豹，则\nCross-Entropy = ∑ ∑ [ yij * ln(Pij) ]  ( i = 1, 2, 3 ... n )  ( j = 1, 2, 3 ...m ) = ∑ [ y1j * ln(P1j) + y2j * ln(P2j) + ..... yij * ln(Pij) ]  且   ( P1j + P2j + P3j + ......Pij = 1 )\n\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 927620,
+              "key": "f39a0076-78ec-48a4-b5ca-310467ddd6c0",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "f39a0076-78ec-48a4-b5ca-310467ddd6c0",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "基于我们已经讲过的内容， 以下哪一项是正确的？",
+                "answers": [
+                  {
+                    "id": "a1567679261790",
+                    "text": "较高的交叉熵意味着较低的事件概率。",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1567679273183",
+                    "text": "较高的交叉熵意味着较高的事件概率。",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1567679277864",
+                    "text": "交叉熵与事件的概率之间没有关系。",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 349176,
+          "key": "a5711d6e-abc1-41bc-a242-e8c8a9834f72",
+          "title": "Logistic 回归",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "a5711d6e-abc1-41bc-a242-e8c8a9834f72",
+            "completed_at": "2019-03-03T00:52:36.828Z",
+            "last_viewed_at": "2020-07-06T14:22:35.888Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 348922,
+              "key": "00303cd4-2eb9-42a6-a40c-b60970a47448",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Logistic 回归\n现在，我们终于要讲解机器学习中最热门和最有用的算法之一，它也是所有机器学习的基石——**对数几率回归**算法。基本上是这样的：\n- 获得数据\n- 选择一个随机模型\n- 计算误差\n- 最小化误差，获得更好的模型\n- 完成！\n\n### 计算误差函数\n我们详细讲解下。下个视频将介绍如何计算误差函数。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 348924,
+              "key": "04330a18-6627-47b9-8758-d807aab3c0b2",
+              "title": "DL 28 Error Function V2 (3)",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "nV1W7oQOlkU",
+                "china_cdn_id": "nV1W7oQOlkU.mp4"
+              }
+            },
+            {
+              "id": 617269,
+              "key": "269fba95-f17c-4ce5-9be9-8a667af1e950",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "**备注**：\n\n视频中的 log 应为 ln\n\n视频 13s 处视频中的左侧公式需改为-ln(0.6) - (ln0.2) - ln(0.1) - ln(0.7) = 4.8，并非log(0.6) = - (log0.2) - log(0.1) - log(0.7) = 4.8。\n\n视频 13s 处视频中的右侧公式需改为ln(0.7) - (ln0.9) - ln(0.9) - ln(0.6) = 1.2，并非log(0.7)= - (log0.9) - log(0.9) - log(0.6) = 1.2。\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 348925,
+              "key": "7d52e5c8-2d73-4e71-aee3-d8e4aec1c762",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### 最小化误差函数\n\n该视频将介绍如何最小化误差函数。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 458517,
+              "key": "2324c951-e0fa-46a3-89b9-32c6a39f4845",
+              "title": "DL 29 Logistic Regression-Minimizing The Error Function",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "KayqiYijlzc",
+                "china_cdn_id": "KayqiYijlzc.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 349177,
+          "key": "0d92455b-2fa0-4eb8-ae5d-07c7834b8a56",
+          "title": "梯度下降",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "0d92455b-2fa0-4eb8-ae5d-07c7834b8a56",
+            "completed_at": "2019-03-03T00:59:10.331Z",
+            "last_viewed_at": "2020-07-06T14:15:59.440Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 348927,
+              "key": "f501e9d1-c412-4fc7-988b-0b0751984d0a",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# 梯度下降\n\n在这节课，我们将学习梯度下降算法背后的准则和数学原理。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 348928,
+              "key": "ab219917-5dcf-4c32-bbc0-2e565199056d",
+              "title": "DL 30 Gradient Descent V2 (1)",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "26_dnS0r2jc",
+                "china_cdn_id": "26_dnS0r2jc.mp4"
+              }
+            },
+            {
+              "id": 348929,
+              "key": "3884d6a7-f79f-4c4e-ad0d-7d52684da239",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# 梯度计算\n在上几个视频中，我们了解到为了最小化误差函数，我们需要获得一些导数。我们开始计算误差函数的导数吧。首先要注意的是 s 型函数具有很完美的导数。即\n\n<span class=\"mathquill\">\n\\sigma'(x) = \\sigma(x) (1-\\sigma(x))\n</span>\n\n原因是，我们可以使用商式计算它：",
+              "instructor_notes": ""
+            },
+            {
+              "id": 348930,
+              "key": "ba81c06c-40be-4ae9-b557-cc0f74cd4116",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2017/May/5910e6c6_codecogseqn-49/codecogseqn-49.gif",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/ba81c06c-40be-4ae9-b557-cc0f74cd4116",
+              "caption": "",
+              "alt": null,
+              "width": 251,
+              "height": 125,
+              "instructor_notes": null
+            },
+            {
+              "id": 348931,
+              "key": "de428288-8530-4e9d-975b-a10eaa218588",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "现在，如果有\n<span class=\"mathquill\">\nm\n</span>\n个样本点，标为\n<span class=\"mathquill\">\nx^{(1)}, x^{(2)}, \\ldots, x^{(m)},\n</span>\n误差公式是：\n\n<span class=\"mathquill\">\nE = -\\frac{1}{m} \\sum_{i=1}^m \\left( y^{(i)} \\ln(\\hat{y^{(i)}}) + (1-y^{(i)}) \\ln (1-\\hat{y^{(i)}}) \\right)\n</span>\n\n预测是\n<span class=\"mathquill\">\n\\hat{y^{(i)}} = \\sigma(Wx^{(i)} + b).\n</span>\n\n我们的目标是计算\n<span class=\"mathquill\">\nE,\n</span>\n在单个样本点 x\n时的梯度（偏导数），其中 x 包含 n 个特征，即<span class=\"mathquill\">\nx = (x_1, \\ldots, x_n),\n</span>。\n\n<span class=\"mathquill\">\n\\nabla E =\\left(\\frac{\\partial}{\\partial w_1}E, \\cdots, \\frac{\\partial}{\\partial w_n}E, \\frac{\\partial}{\\partial b}E \\right)\n</span>\n\n为此，首先我们要计算，\n<span class=\"mathquill\">\n\\frac{\\partial}{\\partial w_j} \\hat{y}.\n</span>\n\n因为这是上述公式里的第一个元素。\n\n<span class=\"mathquill\">\n\\hat{y} = \\sigma(Wx+b),\n</span>\n因此：",
+              "instructor_notes": ""
+            },
+            {
+              "id": 348932,
+              "key": "cfe9e171-2608-4c05-a1bb-f9a7d1a5eee1",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2017/May/590eac24_codecogseqn-43/codecogseqn-43.gif",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/cfe9e171-2608-4c05-a1bb-f9a7d1a5eee1",
+              "caption": "",
+              "alt": null,
+              "width": 752,
+              "height": 205,
+              "instructor_notes": null
+            },
+            {
+              "id": 348933,
+              "key": "09ca6059-4037-43bd-ad9e-175ba27cbd01",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "最后一个等式是因为和中的唯一非常量项相对于\n<span class=\"mathquill\">\nw_j\n</span>\n正好是\n<span class=\"mathquill\">\nw_j x_j,\n</span>\n明显具有导数\n<span class=\"mathquill\">\nx_j.\n</span>\n\n现在可以计算\n<span class=\"mathquill\">\n\\frac {\\partial} {\\partial w_j} E\n</span>",
+              "instructor_notes": ""
+            },
+            {
+              "id": 348934,
+              "key": "ccfebc74-13ff-48a8-9d8c-3562f5b9945b",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2019/September/5d70e3cc_codecogseqn-60-2/codecogseqn-60-2.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/ccfebc74-13ff-48a8-9d8c-3562f5b9945b",
+              "caption": "",
+              "alt": "",
+              "width": 515,
+              "height": 278,
+              "instructor_notes": null
+            },
+            {
+              "id": 348935,
+              "key": "fb0e78b7-3a7a-46aa-9da2-690faba5093e",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "类似的计算将得出：（备注：下图公式缺少一个负号，且其为 m 个样本点时的公式）\n\n【针对单个样本点时，E 对 b 求偏导的公式为：<span class=\"mathquill\">\n\\frac {\\partial} {\\partial b} E=-(y -\\hat{y})\n</span>】",
+              "instructor_notes": ""
+            },
+            {
+              "id": 348936,
+              "key": "936e53ac-6b05-436e-bbc9-9f5a01e82a0a",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2019/September/5d70e3ef_codecogseqn-58/codecogseqn-58.gif",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/936e53ac-6b05-436e-bbc9-9f5a01e82a0a",
+              "caption": "",
+              "alt": "",
+              "width": 172,
+              "height": 53,
+              "instructor_notes": null
+            },
+            {
+              "id": 348937,
+              "key": "2cc65e2e-397c-4898-b0fc-61d5fef20f91",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "这个实际上告诉了我们很重要的规则。对于具有坐标\n<span class=\"mathquill\">\n(x_1, \\ldots, x_n),\n</span>\n的点，标签\n<span class=\"mathquill\">\ny,\n</span>\n预测\n<span class=\"mathquill\">\n\\hat{y},\n</span>\n该点的误差函数梯度是\n<span class=\"mathquill\">\n\\left(-(y - \\hat{y})x_1, \\cdots, -(y - \\hat{y})x_n, -(y - \\hat{y}) \\right).\n</span>\n\n总之\n\n<span class=\"mathquill\">\n\\nabla E(W,b) = -(y - \\hat{y}) (x_1, \\ldots, x_n, 1).\n</span>\n\n如果思考下，会发现很神奇。梯度实际上是标量乘以点的坐标！什么是标量？也就是标签和预测之间的差别。这意味着，如果标签与预测接近（表示点分类正确），该梯度将很小，如果标签与预测差别很大（表示点分类错误），那么此梯度将很大。请记下：小的梯度表示我们将稍微修改下坐标，大的梯度表示我们将大幅度修改坐标。\n\n如果觉得这听起来像感知器算法，其实并非偶然性！稍后我们将详细了解。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 927621,
+              "key": "ae50b11f-0ea4-40f7-bdbb-338d5ae5aa7e",
+              "title": "",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "ae50b11f-0ea4-40f7-bdbb-338d5ae5aa7e",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "我们在上面得到的标量表示了什么？选择所有正确选项。",
+                "answers": [
+                  {
+                    "id": "a1567679526851",
+                    "text": "标签值和预测值越接近，则梯度越大。",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1567679538156",
+                    "text": "标签值和预测值越接近，则梯度越小。",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1567679542553",
+                    "text": "标签值和预测值相差越大，则梯度越大。",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1567679546943",
+                    "text": "标签值和预测值相差越大，则梯度越小。",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 927622,
+              "key": "432c96bf-ff62-4aa0-a507-c5fefb8d8de8",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "所以，一个小的梯度意味着我们的坐标会只改变一点，而一个大的梯度意味着我们的坐标会改变很多。如果这听起来像感知器算法，这不是巧合！我们一会儿再看。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 927623,
+              "key": "f339a2e4-00b0-4784-8d02-0d574406475a",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# 梯度下降步骤\n\n因此，梯度下降的简单步骤包括减去每点的误差函数的梯度与学习速率的乘积，然后按以下方式更新权重：\n\n<span class=\"mathquill\">w_i' \\leftarrow w_i -\\alpha [-(y - \\hat{y}) x_i],</span>\n\n这相当于\n\n<span class=\"mathquill\">w_i' \\leftarrow w_i + \\alpha (y - \\hat{y}) x_i.</span>\n\n类似地，它以如下方式更新偏差：\n\n<span class=\"mathquill\">b' \\leftarrow b + \\alpha (y - \\hat{y}),</span>\n\n_注意：_因为我们取了这些误差的平均值，我们要添加的这项应该是\n<span class=\"mathquill\">\\frac{1}{m} \\cdot \\alpha</span>\n而不是\n<span class=\"mathquill\">\\alpha,</span>\n但因为\n<span class=\"mathquill\">\\alpha</span>\n是一个常量，为简化计算，我们仅取\n<span class=\"mathquill\">\\frac{1}{m} \\cdot \\alpha</span>\n作为学习速率并且用这个符号来表示\n<span class=\"mathquill\">\\alpha.</span>\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 458041,
+          "key": "86dd3eb6-7912-4739-b4df-1ee1f33da0f0",
+          "title": "梯度下降算法推导与实现",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "86dd3eb6-7912-4739-b4df-1ee1f33da0f0",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 457960,
+              "key": "628491f1-e554-4fa1-8f52-27263204ae0e",
+              "title": "梯度下降算法",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "I-l32oR5iMM",
+                "china_cdn_id": "I-l32oR5iMM.mp4"
+              }
+            },
+            {
+              "id": 617283,
+              "key": "a124f582-b2e3-4c0a-aa48-43be4c373225",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "视频 01:13 处，公式解释：<span class=\"mathquill\">\nwi + (- ( y - y^{hat} ) x_i ) = w_i - ( y - y^{hat} ) x_i\n</span>\n\n或者：<span class=\"mathquill\">\nwi + (- ( y - y^{hat} ) x_i ) = w_i + ( y^{hat} - y) x_i\n</span>\n\n视频00:03s处字幕”编写伪代码的工具，步骤是这样的“，改为：”梯度下降的算法是这样运行的“",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 458044,
+          "key": "4ddf28ad-b6e1-4371-b8a3-b04f7923dde9",
+          "title": "[Lab 准备] 梯度下降",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "4ddf28ad-b6e1-4371-b8a3-b04f7923dde9",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 457961,
+              "key": "3f3bc25a-3719-4051-a4a8-06d37c437c50",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# 梯度下降\n\n在下面的 lab 中，你将能够在以下两个类的示例数据集上执行梯度下降算法。\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 457962,
+              "key": "c39c9c4b-4349-4f02-98f5-8a668a627c10",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2017/June/594bfad6_points/points.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/c39c9c4b-4349-4f02-98f5-8a668a627c10",
+              "caption": "",
+              "alt": "",
+              "width": 768,
+              "height": 504,
+              "instructor_notes": null
+            },
+            {
+              "id": 457963,
+              "key": "054611f5-e8d7-48a4-b398-6cf8e15ecddd",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# 工作区\n要打开这个 notebook，你有两个选择：\n-  转到教室的下一页（推荐）\n- 从[Github](https://github.com/udacity/deep-learning) 克隆，并在** gradient_descent **文件夹中打开 notebook** GradientDescent.ipynb **。\n\n在这个notebook中，你将实现构建梯度下降算法的功能，即：\n- `sigmoid`: sigmoid激活函数。\n- `output_formula`: 输出（预测）公式\n- `error_formula`:  误差函数。\n- `update_weights`: 更新权重的函数。\n\n当你执行它们时，运行 `train` 函数，这将绘制连续梯度下降步骤中的几条直线。 它还会绘制误差函数，随着 epoch 数量的增加，你可以看到它正在降低。\n\n如果你需要任何帮助，请随时在相同的文件夹中查看解决方案 notebook。",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 458055,
+          "key": "64f025bd-1d7b-42fb-9f13-8559242c1ec9",
+          "title": "[Lab] 梯度下降",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "64f025bd-1d7b-42fb-9f13-8559242c1ec9",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 675265,
+              "key": "88380ee0-7215-45e2-84d7-216b14c901f8",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "在这里，你将实现一个单层的神经网络，来完成分类器的正确分类。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 578261,
+              "key": "735a0bcd-0e85-4c8a-95de-bb6de0d8943f",
+              "title": null,
+              "semantic_type": "WorkspaceAtom",
+              "is_public": true,
+              "workspace_id": "view2b938cd6",
+              "pool_id": "jupyter",
+              "view_id": "2b938cd6-909d-40ac-8059-0b395db5d832",
+              "gpu_capable": false,
+              "configuration": {
+                "id": "reserved",
+                "blueprint": {
+                  "conf": {
+                    "disk": null,
+                    "ports": [],
+                    "allowGrade": false,
+                    "allowSubmit": false,
+                    "defaultPath": "/notebooks/GradientDescent-zh.ipynb"
+                  },
+                  "kind": "jupyter"
+                },
+                "workspaceId": "reserved"
+              },
+              "starter_files": null
+            },
+            {
+              "id": 675266,
+              "key": "74640a6f-c483-4cfc-b965-55ea1248421b",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "按左上角的 Jupyter 可以回到上层路径，查看一层神经网络实现梯度下降的解决策略。 ",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 349179,
+          "key": "1f6bbd8c-bb45-4e5e-b790-1ab0dad751e1",
+          "title": "感知器和梯度下降",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1f6bbd8c-bb45-4e5e-b790-1ab0dad751e1",
+            "completed_at": "2019-03-03T01:21:53.199Z",
+            "last_viewed_at": "2020-07-06T14:23:51.933Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 543193,
+              "key": "dc7b0a08-18bb-499c-8a24-903cdf634b61",
+              "title": "Gradient Descent Vs Perceptron Algorithm",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "uL5LuRPivTA",
+                "china_cdn_id": "uL5LuRPivTA.mp4"
+              }
+            },
+            {
+              "id": 927624,
+              "key": "7398b0d3-0edc-4aa1-a8f4-0c9bd9f6bc47",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "视频 0:12 处有个错误：不是屏幕上显示的 `y hat minus y`，而是 `y minus y hat`。",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 349180,
+          "key": "5e9bd75b-a419-45d4-8a2b-88ba847cc814",
+          "title": "连续型感知器",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "5e9bd75b-a419-45d4-8a2b-88ba847cc814",
+            "completed_at": "2019-03-03T01:24:36.135Z",
+            "last_viewed_at": "2020-07-06T14:27:55.691Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 348942,
+              "key": "883a7df2-5946-4a99-a953-a3c9324ab9bb",
+              "title": "连续型感知器",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "07-JJ-aGEfM",
+                "china_cdn_id": "07-JJ-aGEfM.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 349181,
+          "key": "60ed34da-990f-462e-b440-33f1a96a39e3",
+          "title": "非线性数据",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "60ed34da-990f-462e-b440-33f1a96a39e3",
+            "completed_at": "2019-03-03T01:25:30.459Z",
+            "last_viewed_at": "2020-07-06T14:28:57.320Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 348943,
+              "key": "b859abf5-851e-48df-ac17-5d6d25f745eb",
+              "title": "非线性数据",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "F7ZiE8PQiSc",
+                "china_cdn_id": "F7ZiE8PQiSc.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 349182,
+          "key": "24d1d59e-b66c-40b1-a555-5975fb128f3c",
+          "title": "非线性模型",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "24d1d59e-b66c-40b1-a555-5975fb128f3c",
+            "completed_at": "2019-03-03T01:25:54.333Z",
+            "last_viewed_at": "2020-07-06T14:29:25.327Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 348945,
+              "key": "12049098-1cde-46e4-822f-d2446ddf884a",
+              "title": "非线性模型",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "HWuBKCZsCo8",
+                "china_cdn_id": "HWuBKCZsCo8.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 349183,
+          "key": "7a42d26d-7d7e-4c76-a014-5bf8b4413179",
+          "title": "神经网络结构",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "7a42d26d-7d7e-4c76-a014-5bf8b4413179",
+            "completed_at": "2019-03-03T01:26:49.197Z",
+            "last_viewed_at": "2020-07-13T16:09:28.037Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 348944,
+              "key": "f0c39c45-c729-4256-8996-709769d7ab61",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# 神经网络架构\n现在可以将这些构建基石组合到一起了，并构建出色的神经网络！（或者你愿意，也可以叫做多层级感知器。）\n\n第一个视频将演示如何将两个感知器组合成第三个更复杂的感知器。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 348946,
+              "key": "73e2853b-02ea-47f9-a417-946be8491f34",
+              "title": "DL 37 Combining Models",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "Boy3zHVrWB4",
+                "china_cdn_id": "Boy3zHVrWB4.mp4"
+              }
+            },
+            {
+              "id": 348947,
+              "key": "80fc572a-da13-4aec-b1ce-6bb32c2feda7",
+              "title": "29 Neural Network Architecture 2",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "FWN3Sw5fFoM",
+                "china_cdn_id": "FWN3Sw5fFoM.mp4"
+              }
+            },
+            {
+              "id": 927625,
+              "key": "f2b2e138-94d4-4cb0-a0ac-6ed1c01dea62",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "f2b2e138-94d4-4cb0-a0ac-6ed1c01dea62",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "基于以上视频，让我们将两个新感知器的组合定义为 w<sub>1</sub>\\*0.4 + w<sub>2</sub>*0.6 + b。下面的权重和偏置值中的哪一个将导致点的最终概率为 0.88？",
+                "answers": [
+                  {
+                    "id": "a1567680799435",
+                    "text": "w<sub>1</sub>: 2, w<sub>2</sub>: 6, b: -2",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1567680810457",
+                    "text": "w<sub>1</sub>: 3, w<sub>2</sub>: 5, b: -2.2",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1567680814789",
+                    "text": "w<sub>1</sub>: 5, w<sub>2</sub>: 4, b: -3",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 348948,
+              "key": "e27b5551-e2ca-4787-b1f8-b81b15a1c3a6",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### 多层级\n并非所有神经网络都看起像上面的那样。可能会复杂的多！尤其是，我们可以执行以下操作：\n- 向输入、隐藏和输出层添加更多节点。\n- 添加更多层级。\n\n我们将在下个视频中看看这些变化的效果。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 348949,
+              "key": "6f95b131-58ef-47ac-a6cc-c5ff1dd2cfac",
+              "title": "DL 39 Layers (1)",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "pg99FkXYK0M",
+                "china_cdn_id": "pg99FkXYK0M.mp4"
+              }
+            },
+            {
+              "id": 348950,
+              "key": "2f0c10e3-6a0a-4388-aed1-d5176c78c245",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "注意：1'49'' 的深层结构中，第二层不应连接到 常数结点 1，而应该连接到第三层 1 上面的结点。\n\n### 多类别分类\n现在我们详细讲解下如果神经网络需要对超过一个输出的数据进行建模，我们该如何操作。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 348951,
+              "key": "c8815c6c-549a-4916-b989-1a46f02251ec",
+              "title": "多类别分类",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "uNTtvxwfox0",
+                "china_cdn_id": "uNTtvxwfox0.mp4"
+              }
+            },
+            {
+              "id": 927626,
+              "key": "28571063-ab45-445c-be04-ddcabadcec32",
+              "title": "",
+              "semantic_type": "ValidatedQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "28571063-ab45-445c-be04-ddcabadcec32",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "如果尝试对英文字母表中的所有字母进行分类，则需要输出层中有多少个节点？",
+                "matchers": [
+                  {
+                    "expression": "^[2][6]\\s*$"
+                  },
+                  {
+                    "expression": "^[5][2]\\s*$"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 349184,
+          "key": "02c36864-ee71-481c-bb01-a34c35bfc581",
+          "title": "前向反馈",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "02c36864-ee71-481c-bb01-a34c35bfc581",
+            "completed_at": "2019-03-03T01:45:00.894Z",
+            "last_viewed_at": "2020-07-13T16:09:33.496Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 348952,
+              "key": "daef89a0-10d2-4857-8389-ef86f9416448",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# 前向反馈\n \n前向反馈是神经网络用来将输入变成输出的流程。我们仔细研究下这一概念，然后详细了解如何训练网络。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 348953,
+              "key": "126b1043-f821-4bbe-957a-deaca4edd0b1",
+              "title": "DL 41 Feedforward FIX V2",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "hVCuvMGOfyY",
+                "china_cdn_id": "hVCuvMGOfyY.mp4"
+              }
+            },
+            {
+              "id": 348955,
+              "key": "5100ebef-9f25-4487-923f-d50462cd878e",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# 误差函数\n\n和之前一样，神经网络将产生误差函数，最终我们需要最小化该误差函数。下面的视频演示了神经网络的误差函数。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 348954,
+              "key": "6333b4c9-8af5-440a-83f0-7dd9f74b5962",
+              "title": "DL 42 Neural Network Error Function (1)",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "SC1wEW7TtKs",
+                "china_cdn_id": "SC1wEW7TtKs.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 349185,
+          "key": "4cc13714-37d7-4705-a714-314ede5290b5",
+          "title": "反向传播",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "4cc13714-37d7-4705-a714-314ede5290b5",
+            "completed_at": "2019-03-03T02:21:33.471Z",
+            "last_viewed_at": "2020-07-13T16:15:00.494Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 348956,
+              "key": "e6e62773-7797-4973-a353-0f77f19d6e17",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# 反向传播\n现在，我们准备好训练神经网络了。为此，我们将使用一种方法，叫做**反向传播**。简而言之，反向传播将包括：\n- 进行前向反馈运算。\n- 将模型的输出与期望的输出进行比较。\n- 计算误差。\n- 向后运行前向反馈运算（反向传播），将误差分散到每个权重上。\n- 更新权重，并获得更好的模型。\n- 继续此流程，直到获得很好的模型。\n\n听起来比较复杂，实际上要简单些。我们看看后续几个视频。第一个视频将从概念上解释什么是反向传播。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 348957,
+              "key": "d81b8b53-d5b9-4955-a9f9-ec9a288f4715",
+              "title": "DL 43 Backpropagation V2 (1)",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "1SmY3TZTyUk",
+                "china_cdn_id": "1SmY3TZTyUk.mp4"
+              }
+            },
+            {
+              "id": 348958,
+              "key": "d1463a38-3338-454a-8b85-fde047452d93",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### 反向传播数学\n后面的几个视频将深入讲解数学知识。如果不想听也没有关系，现有的很多代码库和深度学习框架比如 [Keras](https://keras.io/zh/)，能够很好并且很简单地完成这个任务。如果你想立即开始训练网络，请转到下个部分。但是如果你喜欢计算各种导数，那么我们深入了解下吧！",
+              "instructor_notes": ""
+            },
+            {
+              "id": 348959,
+              "key": "d04523fa-8341-429d-8b0c-0638e9de10d5",
+              "title": "DL 44 Calculating The Gradient 1 (1)",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "tVuZDbUrzzI",
+                "china_cdn_id": "tVuZDbUrzzI.mp4"
+              }
+            },
+            {
+              "id": 840504,
+              "key": "0e610dde-184e-4726-9f07-0b3c389afac5",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "纠正：1‘左右，Multi-layer Perceptron 中 **第二层级**的 输出 不会影响**第三层级**的bias。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 348960,
+              "key": "940013b8-b419-46a0-beca-fa4456f4dc9e",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### 链式法则\n我们需要复习下链式法则，以便计算导数。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 348961,
+              "key": "b2f1f683-c75c-46cb-9796-8f13d2c941c5",
+              "title": "DL 45 Chain Rule",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "YAhIBOnbt54",
+                "china_cdn_id": "YAhIBOnbt54.mp4"
+              }
+            },
+            {
+              "id": 348962,
+              "key": "ca212800-9baf-41f3-867a-42da8de08a50",
+              "title": "DL 46 Calculating The Gradient 2 V2 (1)",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "0EoRxu3EeGM",
+                "china_cdn_id": "0EoRxu3EeGM.mp4"
+              }
+            },
+            {
+              "id": 594423,
+              "key": "f8f1bebf-ce20-4ad2-9d6a-8637c0b1ae14",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "修正：\n\n视频中0:58中的右侧前两个公式有误，应更正为： \n\n<span class=\"mathquill\">\nh_1 = W^1_{11} x_1 + W^{1}_{21} x_{2} + W^1_{31} \n</span>\n\n<span class=\"mathquill\">\nh_2 = W^1_{12} x_1 + W^{1}_{22} x_{2} + W^1_{32} \n</span>\n\n视频2:56s处字幕“乘以 hi相对于W11 的导数”，需改为“乘以 h1 相对于W11的导数”",
+              "instructor_notes": ""
+            },
+            {
+              "id": 561654,
+              "key": "e0a3730b-c6e6-41c7-918f-256bd761c53e",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### 计算 sigmoid 函数的导数\n回想一下，sigmoid 函数有一个完美的导数，我们可以在下面的计算中看到。这将使我们的反向传播步骤更加简洁。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 561655,
+              "key": "2865c361-e986-498f-9bfc-12b7fefe299f",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/March/5aa61b86_sigmoid-derivative/sigmoid-derivative.gif",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/2865c361-e986-498f-9bfc-12b7fefe299f",
+              "caption": "",
+              "alt": "",
+              "width": 251,
+              "height": 125,
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 458073,
+          "key": "964e9bdb-40c3-4110-aee7-fddd13bea0c6",
+          "title": "[Lab 准备] 分析学生录取数据",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "964e9bdb-40c3-4110-aee7-fddd13bea0c6",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 457991,
+              "key": "93f7cd7f-27eb-46d8-ae2f-ff35d2773069",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Lab：分析学生数据\n\n现在，我们已经准备好将神经网络用于实践。 我们将分析以下加州大学洛杉矶分校的学生录取的数据。\n\n在这个  notebook  中，你将执行神经网络训练的一些步骤，即：\n- One-hot 编码数据\n- 缩放数据\n- 编写反向传播步骤\n\n# Workspace\n\n要打开这个 notebook，你有两个选择：\n- 转到教室的下一页（推荐）\n- 从 [Github](https://github.com/udacity/deep-learning) clone 并打开** student_admissions **文件夹中的notebook ** StudentAdmissions.ipynb **。\n\n如果你需要任何帮助，请随时在相同的文件夹中查看解决方案 notebook** StudentAdmissionsSolutions.ipynb **，点击Workspace左上角Jupyter回到local目录后点击```StudentAdmissionsSolutions.ipynb```查看。",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 458074,
+          "key": "dab588a2-51cc-4c4e-ba24-410a009943c7",
+          "title": "[Lab] 分析学生数据",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "dab588a2-51cc-4c4e-ba24-410a009943c7",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 624676,
+              "key": "12295176-0817-4abf-9143-c5913c2429af",
+              "title": null,
+              "semantic_type": "WorkspaceAtom",
+              "is_public": true,
+              "workspace_id": "view31e53a7a",
+              "pool_id": "jupyter",
+              "view_id": "31e53a7a-3265-4a89-a0f5-1fd8e0e20eca",
+              "gpu_capable": false,
+              "configuration": {
+                "id": "reserved",
+                "blueprint": {
+                  "conf": {
+                    "disk": null,
+                    "ports": [],
+                    "allowGrade": false,
+                    "allowSubmit": false,
+                    "defaultPath": "/notebooks/StudentAdmissions-zh.ipynb"
+                  },
+                  "kind": "jupyter"
+                },
+                "workspaceId": "reserved"
+              },
+              "starter_files": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    }
+  ]
+}

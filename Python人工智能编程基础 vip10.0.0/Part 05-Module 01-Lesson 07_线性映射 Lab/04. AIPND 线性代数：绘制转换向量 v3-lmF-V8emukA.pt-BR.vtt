@@ -1,0 +1,104 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.128 --> 00:00:02.908
+Este é o vídeo-solução
+do laboratório de mapeamento linear,
+
+00:00:02.941 --> 00:00:05.868
+que mostra como computar
+e plotar um vetor transformado.
+
+00:00:06.418 --> 00:00:09.586
+Neste lab, vamos definir o vetor
+transformado i-chapéu,
+
+00:00:10.031 --> 00:00:11.595
+o vetor transformado j-chapéu,
+
+00:00:11.628 --> 00:00:12.977
+o vetor transformado v
+
+00:00:13.010 --> 00:00:15.484
+e depois vamos plotar
+o vetor transformado v.
+
+00:00:15.517 --> 00:00:16.881
+Na seção de código,
+
+00:00:17.423 --> 00:00:20.848
+vamos definir x=3 e y=1
+
+00:00:20.881 --> 00:00:22.842
+para marcar
+a tarefa como cumprida.
+
+00:00:22.861 --> 00:00:25.572
+Defina x=1 e y=2
+
+00:00:25.917 --> 00:00:27.956
+para marcar
+a tarefa como cumprida.
+
+00:00:28.615 --> 00:00:30.461
+Depois você substitui "none"
+
+00:00:30.494 --> 00:00:34.851
+por v_ihat_t + v_jhat_t
+
+00:00:35.804 --> 00:00:37.694
+e marca essa tarefa
+como cumprida.
+
+00:00:37.727 --> 00:00:38.816
+Por fim,
+
+00:00:38.849 --> 00:00:42.227
+você copia a declaração arrow
+para o vetor v
+
+00:00:42.350 --> 00:00:43.978
+e cola aqui,
+
+00:00:44.344 --> 00:00:47.986
+mudando o vetor v
+para o vetor v_t,
+
+00:00:48.019 --> 00:00:51.788
+e muda color = 'skyblue'
+para color = 'b'.
+
+00:00:52.150 --> 00:00:55.895
+Depois você salva seu código
+clicando no ícone de salvar, aqui.
+
+00:00:56.811 --> 00:00:58.211
+Quando rodarmos o código,
+
+00:00:58.297 --> 00:01:00.484
+esperamos
+que este gráfico aqui
+
+00:01:00.517 --> 00:01:02.967
+fique igual à nossa solução
+esperada, aqui.
+
+00:01:03.453 --> 00:01:06.003
+Para rodar nosso código,
+clicamos em Kernel,
+
+00:01:06.851 --> 00:01:08.578
+e Restart &amp; Run All.
+
+00:01:09.007 --> 00:01:11.741
+Por fim, comparamos nosso gráfico
+com a solução
+
+00:01:11.774 --> 00:01:13.699
+e vemos que são iguais.
+
+00:01:14.310 --> 00:01:16.678
+Isso significa
+que o código está correto.
+

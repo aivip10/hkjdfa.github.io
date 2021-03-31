@@ -1,0 +1,472 @@
+<!-- udacity2.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>梯度下降</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>神经网络简介</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. 简介.html">01. 简介</a>
+    </li>
+    <li class="">
+      <a href="02. 分类问题 1.html">02. 分类问题 1</a>
+    </li>
+    <li class="">
+      <a href="03. 分类问题 2.html">03. 分类问题 2</a>
+    </li>
+    <li class="">
+      <a href="04. 线性界线.html">04. 线性界线</a>
+    </li>
+    <li class="">
+      <a href="05. 更高维度的界线.html">05. 更高维度的界线</a>
+    </li>
+    <li class="">
+      <a href="06. 感知器.html">06. 感知器</a>
+    </li>
+    <li class="">
+      <a href="07. 为何称为“神经网络”？.html">07. 为何称为“神经网络”？</a>
+    </li>
+    <li class="">
+      <a href="08. 用感知器实现简单逻辑运算.html">08. 用感知器实现简单逻辑运算</a>
+    </li>
+    <li class="">
+      <a href="09. 感知器技巧 - 计算机如何“学习”分类？.html">09. 感知器技巧 - 计算机如何“学习”分类？</a>
+    </li>
+    <li class="">
+      <a href="10. 感知器算法.html">10. 感知器算法</a>
+    </li>
+    <li class="">
+      <a href="11. 非线性界线.html">11. 非线性界线</a>
+    </li>
+    <li class="">
+      <a href="12. 误差函数.html">12. 误差函数</a>
+    </li>
+    <li class="">
+      <a href="13. 误差函数与梯度下降.html">13. 误差函数与梯度下降</a>
+    </li>
+    <li class="">
+      <a href="14. 离散型与连续型 - 为什么使用sigmoid函数 .html">14. 离散型与连续型 - 为什么使用sigmoid函数 </a>
+    </li>
+    <li class="">
+      <a href="15. 多类别分类与Softmax 函数.html">15. 多类别分类与Softmax 函数</a>
+    </li>
+    <li class="">
+      <a href="16. One-Hot 编码.html">16. One-Hot 编码</a>
+    </li>
+    <li class="">
+      <a href="17. 最大似然率.html">17. 最大似然率</a>
+    </li>
+    <li class="">
+      <a href="18. 最大化概率.html">18. 最大化概率</a>
+    </li>
+    <li class="">
+      <a href="19. 交叉熵 1-损失函数.html">19. 交叉熵 1-损失函数</a>
+    </li>
+    <li class="">
+      <a href="20. 交叉熵 2-损失函数.html">20. 交叉熵 2-损失函数</a>
+    </li>
+    <li class="">
+      <a href="21. 多类别交叉熵.html">21. 多类别交叉熵</a>
+    </li>
+    <li class="">
+      <a href="22. Logistic 回归.html">22. Logistic 回归</a>
+    </li>
+    <li class="">
+      <a href="23. 梯度下降.html">23. 梯度下降</a>
+    </li>
+    <li class="">
+      <a href="24. 梯度下降算法推导与实现.html">24. 梯度下降算法推导与实现</a>
+    </li>
+    <li class="">
+      <a href="25. [Lab 准备] 梯度下降.html">25. [Lab 准备] 梯度下降</a>
+    </li>
+    <li class="">
+      <a href="26. [Lab] 梯度下降.html">26. [Lab] 梯度下降</a>
+    </li>
+    <li class="">
+      <a href="27. 感知器和梯度下降.html">27. 感知器和梯度下降</a>
+    </li>
+    <li class="">
+      <a href="28. 连续型感知器.html">28. 连续型感知器</a>
+    </li>
+    <li class="">
+      <a href="29. 非线性数据.html">29. 非线性数据</a>
+    </li>
+    <li class="">
+      <a href="30. 非线性模型.html">30. 非线性模型</a>
+    </li>
+    <li class="">
+      <a href="31. 神经网络结构.html">31. 神经网络结构</a>
+    </li>
+    <li class="">
+      <a href="32. 前向反馈.html">32. 前向反馈</a>
+    </li>
+    <li class="">
+      <a href="33. 反向传播.html">33. 反向传播</a>
+    </li>
+    <li class="">
+      <a href="34. [Lab 准备] 分析学生录取数据.html">34. [Lab 准备] 分析学生录取数据</a>
+    </li>
+    <li class="">
+      <a href="35. [Lab] 分析学生数据.html">35. [Lab] 分析学生数据</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">23. 梯度下降</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h1 id="梯度下降">梯度下降</h1>
+<p>在这节课，我们将学习梯度下降算法背后的准则和数学原理。</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>DL 30 Gradient Descent V2 (1)</p></h3>
+  <video controls>
+  <source src="23. DL 30 Gradient Descent V2 (1)-26_dnS0r2jc.mp4" type="video/mp4">
+
+  <track default="true" kind="subtitles" srclang="en" src="23. DL 30 Gradient Descent V2 (1)-26_dnS0r2jc.en.vtt" label="en">
+  <track default="false" kind="subtitles" srclang="BR" src="23. DL 30 Gradient Descent V2 (1)-26_dnS0r2jc.pt-BR.vtt" label="BR">
+  <track default="false" kind="subtitles" srclang="CN" src="23. DL 30 Gradient Descent V2 (1)-26_dnS0r2jc.zh-CN.vtt" label="CN">
+</video>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h1 id="梯度计算">梯度计算</h1>
+<p>在上几个视频中，我们了解到为了最小化误差函数，我们需要获得一些导数。我们开始计算误差函数的导数吧。首先要注意的是 s 型函数具有很完美的导数。即</p>
+<p><span class="mathquill ud-math">\sigma'(x) = \sigma(x) (1-\sigma(x))</span></p>
+<p>原因是，我们可以使用商式计算它：</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/codecogseqn-49.gif" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>现在，如果有<br />
+<span class="mathquill ud-math">m</span><br />
+个样本点，标为<br />
+<span class="mathquill ud-math">x^{(1)}, x^{(2)}, \ldots, x^{(m)},</span><br />
+误差公式是：</p>
+<p><span class="mathquill ud-math">E = -\frac{1}{m} \sum_{i=1}^m \left( y^{(i)} \ln(\hat{y^{(i)}}) + (1-y^{(i)}) \ln (1-\hat{y^{(i)}}) \right)</span></p>
+<p>预测是<br />
+<span class="mathquill ud-math">\hat{y^{(i)}} = \sigma(Wx^{(i)} + b).</span></p>
+<p>我们的目标是计算<br />
+<span class="mathquill ud-math">E,</span><br />
+在单个样本点 x<br />
+时的梯度（偏导数），其中 x 包含 n 个特征，即<span class="mathquill ud-math">x = (x_1, \ldots, x_n),</span>。</p>
+<p><span class="mathquill ud-math">\nabla E =\left(\frac{\partial}{\partial w_1}E, \cdots, \frac{\partial}{\partial w_n}E, \frac{\partial}{\partial b}E \right)</span></p>
+<p>为此，首先我们要计算，<br />
+<span class="mathquill ud-math">\frac{\partial}{\partial w_j} \hat{y}.</span></p>
+<p>因为这是上述公式里的第一个元素。</p>
+<p><span class="mathquill ud-math">\hat{y} = \sigma(Wx+b),</span><br />
+因此：</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/codecogseqn-43.gif" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>最后一个等式是因为和中的唯一非常量项相对于<br />
+<span class="mathquill ud-math">w_j</span><br />
+正好是<br />
+<span class="mathquill ud-math">w_j x_j,</span><br />
+明显具有导数<br />
+<span class="mathquill ud-math">x_j.</span></p>
+<p>现在可以计算<br />
+<span class="mathquill ud-math">\frac {\partial} {\partial w_j} E</span></p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/codecogseqn-60-2.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>类似的计算将得出：（备注：下图公式缺少一个负号，且其为 m 个样本点时的公式）</p>
+<p>【针对单个样本点时，E 对 b 求偏导的公式为：<span class="mathquill ud-math">\frac {\partial} {\partial b} E=-(y -\hat{y})</span>】</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/codecogseqn-58.gif" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>这个实际上告诉了我们很重要的规则。对于具有坐标<br />
+<span class="mathquill ud-math">(x_1, \ldots, x_n),</span><br />
+的点，标签<br />
+<span class="mathquill ud-math">y,</span><br />
+预测<br />
+<span class="mathquill ud-math">\hat{y},</span><br />
+该点的误差函数梯度是<br />
+<span class="mathquill ud-math">\left(-(y - \hat{y})x_1, \cdots, -(y - \hat{y})x_n, -(y - \hat{y}) \right).</span></p>
+<p>总之</p>
+<p><span class="mathquill ud-math">\nabla E(W,b) = -(y - \hat{y}) (x_1, \ldots, x_n, 1).</span></p>
+<p>如果思考下，会发现很神奇。梯度实际上是标量乘以点的坐标！什么是标量？也就是标签和预测之间的差别。这意味着，如果标签与预测接近（表示点分类正确），该梯度将很小，如果标签与预测差别很大（表示点分类错误），那么此梯度将很大。请记下：小的梯度表示我们将稍微修改下坐标，大的梯度表示我们将大幅度修改坐标。</p>
+<p>如果觉得这听起来像感知器算法，其实并非偶然性！稍后我们将详细了解。</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <form>
+    <fieldset>
+      <legend><p>我们在上面得到的标量表示了什么？选择所有正确选项。</p></legend>
+    </fieldset>
+
+    <div>
+      <input type="checkbox" value="a1567679526851" name="927621" id="a1567679526851">
+      <label for="a1567679526851"><p>标签值和预测值越接近，则梯度越大。</p></label>
+    </div>
+    <div>
+      <input type="checkbox" value="a1567679538156" name="927621" id="a1567679538156">
+      <label for="a1567679538156"><p>标签值和预测值越接近，则梯度越小。</p></label>
+    </div>
+    <div>
+      <input type="checkbox" value="a1567679542553" name="927621" id="a1567679542553">
+      <label for="a1567679542553"><p>标签值和预测值相差越大，则梯度越大。</p></label>
+    </div>
+    <div>
+      <input type="checkbox" value="a1567679546943" name="927621" id="a1567679546943">
+      <label for="a1567679546943"><p>标签值和预测值相差越大，则梯度越小。</p></label>
+    </div>
+  </form>
+
+  <details>
+    <summary><strong>SOLUTION:</strong></summary>
+    <ul>
+      <li>标签值和预测值越接近，则梯度越小。</li>
+      <li>标签值和预测值相差越大，则梯度越大。</li>
+  </ul>
+  </details>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>所以，一个小的梯度意味着我们的坐标会只改变一点，而一个大的梯度意味着我们的坐标会改变很多。如果这听起来像感知器算法，这不是巧合！我们一会儿再看。</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h1 id="梯度下降步骤">梯度下降步骤</h1>
+<p>因此，梯度下降的简单步骤包括减去每点的误差函数的梯度与学习速率的乘积，然后按以下方式更新权重：</p>
+<p><span class="mathquill ud-math">w_i' \leftarrow w_i -\alpha [-(y - \hat{y}) x_i],</span></p>
+<p>这相当于</p>
+<p><span class="mathquill ud-math">w_i' \leftarrow w_i + \alpha (y - \hat{y}) x_i.</span></p>
+<p>类似地，它以如下方式更新偏差：</p>
+<p><span class="mathquill ud-math">b' \leftarrow b + \alpha (y - \hat{y}),</span></p>
+<p><em>注意：</em>因为我们取了这些误差的平均值，我们要添加的这项应该是<br />
+<span class="mathquill ud-math">\frac{1}{m} \cdot \alpha</span><br />
+而不是<br />
+<span class="mathquill ud-math">\alpha,</span><br />
+但因为<br />
+<span class="mathquill ud-math">\alpha</span><br />
+是一个常量，为简化计算，我们仅取<br />
+<span class="mathquill ud-math">\frac{1}{m} \cdot \alpha</span><br />
+作为学习速率并且用这个符号来表示<br />
+<span class="mathquill ud-math">\alpha.</span></p>
+</div>
+
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+              <a href="24. 梯度下降算法推导与实现.html" class="btn btn-outline-primary mt-4" role="button">Next Concept</a>
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://us-udacity.github.io/" target="_blank">【udacity2.0 】If you need more courses, please add wechat：udacity6</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('23. 梯度下降')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>

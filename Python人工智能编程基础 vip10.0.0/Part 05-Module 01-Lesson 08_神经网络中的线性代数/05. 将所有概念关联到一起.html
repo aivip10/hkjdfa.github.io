@@ -1,0 +1,246 @@
+<!-- udacity2.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>将所有概念关联到一起</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>神经网络中的线性代数</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. 讲师.html">01. 讲师</a>
+    </li>
+    <li class="">
+      <a href="02. 简介.html">02. 简介</a>
+    </li>
+    <li class="">
+      <a href="03. 什么是神经网络？.html">03. 什么是神经网络？</a>
+    </li>
+    <li class="">
+      <a href="04. 神经元如何相连？.html">04. 神经元如何相连？</a>
+    </li>
+    <li class="">
+      <a href="05. 将所有概念关联到一起.html">05. 将所有概念关联到一起</a>
+    </li>
+    <li class="">
+      <a href="06. 前馈流程 - 计算 h.html">06. 前馈流程 - 计算 h</a>
+    </li>
+    <li class="">
+      <a href="07. 前馈流程 - 计算 y.html">07. 前馈流程 - 计算 y</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">05. 将所有概念关联到一起</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h1 id="将所有概念关联到一起">将所有概念关联到一起</h1>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>在下面的视频中，我们将使用下标以及上标作为权重矩阵的数字记法。</p>
+<p>例如：</p>
+<ul>
+<li><span class="mathquill ud-math"> W_k</span> 是权重矩阵 <span class="mathquill ud-math"> k</span> </li>
+<li><span class="mathquill ud-math">\ W_{ij}^k</span> 是权重矩阵 <span class="mathquill ud-math">k</span> 的第 <span class="mathquill ud-math"> ij</span> 个元素</li>
+</ul>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>线性代数 05 RNN FFNN 提醒 PAIND 82mp4 V1</p></h3>
+  <video controls>
+  <source src="05. 线性代数 05 RNN FFNN 提醒 PAIND 82mp4 V1-SSgQRH-V-1k.mp4" type="video/mp4">
+
+  <track default="true" kind="subtitles" srclang="en" src="05. 线性代数 05 RNN FFNN 提醒 PAIND 82mp4 V1-SSgQRH-V-1k.en.vtt" label="en">
+  <track default="false" kind="subtitles" srclang="BR" src="05. 线性代数 05 RNN FFNN 提醒 PAIND 82mp4 V1-SSgQRH-V-1k.pt-BR.vtt" label="BR">
+  <track default="false" kind="subtitles" srclang="CN" src="05. 线性代数 05 RNN FFNN 提醒 PAIND 82mp4 V1-SSgQRH-V-1k.zh-CN.vtt" label="CN">
+</video>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>注意，视频中提到了一个尚未介绍的概念，即<strong>激活函数</strong>。别担心，你将在下节课（神经网络入门）中学习这方面的知识。</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>在处理神经网络时，会涉及到 2 个主要阶段：</p>
+<ul>
+<li>训练</li>
+</ul>
+<p>和</p>
+<ul>
+<li>验证</li>
+</ul>
+<p>在训练阶段，我们会获取数据集（也称为训练集），其中包含很多输入和对应的目标（输出）对。我们的目标是找到一组能将输入以最佳方式映射到期望输出的权重。 </p>
+<p>在验证阶段，我们使用在训练阶段创建的网络，对其应用新的输入并期望获得理想的输出。</p>
+<p>训练阶段将包含两个步骤：</p>
+<ul>
+<li>前馈</li>
+</ul>
+<p>和</p>
+<ul>
+<li>反向传播</li>
+</ul>
+<p>我们将重复这些步骤很多次，直到我们认为系统已经达到最佳权重集合，能够带来可能的最佳输出。</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>为了展示与线性代数有何关联性，我们将重点讲解<strong>前馈</strong>流程。同样，我们将重点讲解数学计算。很快将会讲解所有这些新的概念（训练、评估、前馈、反向传播等）。</p>
+</div>
+
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+              <a href="06. 前馈流程 - 计算 h.html" class="btn btn-outline-primary mt-4" role="button">Next Concept</a>
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://us-udacity.github.io/" target="_blank">【udacity2.0 】If you need more courses, please add wechat：udacity6</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('05. 将所有概念关联到一起')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>
