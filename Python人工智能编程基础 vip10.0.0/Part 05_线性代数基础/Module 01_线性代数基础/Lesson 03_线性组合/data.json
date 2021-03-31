@@ -1,0 +1,983 @@
+{
+  "data": {
+    "lesson": {
+      "id": 592732,
+      "key": "7944df46-7a24-45ac-a27d-ac6620667108",
+      "title": "线性组合",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "zh-cn",
+      "summary": "了解如何伸缩向量和将向量相加，以及如何可视化求解过程。",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": false,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/7944df46-7a24-45ac-a27d-ac6620667108/592732/1544208300009/%E7%BA%BF%E6%80%A7%E7%BB%84%E5%90%88+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/7944df46-7a24-45ac-a27d-ac6620667108/592732/1544208297424/%E7%BA%BF%E6%80%A7%E7%BB%84%E5%90%88+Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 592710,
+          "key": "0cd89e19-1763-49a1-84a5-460b62b2b539",
+          "title": "线性组合（第 1 部分）",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "0cd89e19-1763-49a1-84a5-460b62b2b539",
+            "completed_at": "2018-08-01T07:22:52.956Z",
+            "last_viewed_at": "2018-08-01T07:22:51.727Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 592527,
+              "key": "f9aee0a2-7239-41e1-ad5b-0f2df0d16d53",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# 线性组合、张成和基本向量（第 1 部分）",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592528,
+              "key": "9b218a28-2016-42f5-b8ac-460bf40bf05c",
+              "title": "线性组合 1",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "fmal7UE7dEE",
+                "china_cdn_id": "fmal7UE7dEE.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 592711,
+          "key": "15f5d84d-9266-462e-b392-8ba5555956a9",
+          "title": "线性组合（第 2 部分）",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "15f5d84d-9266-462e-b392-8ba5555956a9",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 592529,
+              "key": "b0fbac80-7d89-4f71-8eb8-a1de8f88dfc3",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# 线性组合、张成和基本向量（第 2 部分）",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592530,
+              "key": "256135ed-906c-44e8-9745-6811f83cafe1",
+              "title": "线性组合 2",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "RsKJNDTb8nw",
+                "china_cdn_id": "RsKJNDTb8nw.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 592712,
+          "key": "29d25468-2ac0-4a9f-ac21-962c4765f498",
+          "title": "线性组合和张成",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "29d25468-2ac0-4a9f-ac21-962c4765f498",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 592531,
+              "key": "235a2dfc-cc19-4661-9b0c-c457d14fce2b",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# 线性组合和张成 - 理论性定义",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592532,
+              "key": "88576013-30e0-4901-ada3-0dc0366a4c49",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "一般来说，**线性组合**是指将标量与向量相乘，并将这些项相加。\n\n例如：\n\n如果 \n<span class=\"mathquill\">x</span>、<span class=\"mathquill\">y</span> 和 <span class=\"mathquill\">z</span> 是变量，\n\n 以及 <span class=\"mathquill\">a_1</span>、<span class=\"mathquill\">a_2</span> 和 <span class=\"mathquill\">a_3</span> 是标量，\n\n以下方程将是线性组合：\n\n<span class=\"mathquill\">v=a_1x+a_2y+a_3z</span>      _------方程 6_\n\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592533,
+              "key": "fc7ebcbf-8939-4a15-9fa8-c8726673365d",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "现在将它放到线性代数环境中。 \n\n我们的变量现在是向量：<span class=\"mathquill\">\\vec{x}</span>、<span class=\"mathquill\">\\vec{y}</span> 和 <span class=\"mathquill\">\\vec{z}</span> 是变量。\n\n标量可以保持不变：\n<span class=\"mathquill\">a_1</span>、<span class=\"mathquill\">a_2</span> 和 <span class=\"mathquill\">a_3</span>。\n\n标量与向量的线性组合成为新的向量：\n\n<span class=\"mathquill\">\\vec{v}=a_1\\vec{x}+a_2\\vec{y}+a_3\\vec{z}</span> \n\n_方程 7_\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592534,
+              "key": "86ee6315-f6d4-40c9-8450-5d077965e09e",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/January/5a6f7b0b_screen-shot-2018-01-29-at-11.49.47-am/screen-shot-2018-01-29-at-11.49.47-am.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/86ee6315-f6d4-40c9-8450-5d077965e09e",
+              "caption": "",
+              "alt": "",
+              "width": 300,
+              "height": 120,
+              "instructor_notes": null
+            },
+            {
+              "id": 592535,
+              "key": "7b7d38ec-de88-4cc0-b999-3182b2b4e7c2",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "线性组合可以只相加一次，也可以相加多次（如上面的方程 4 所示）。\n\n向量与标量的线性组合一般记法为：\n\n<span class=\"mathquill\">\\sum_{1}^{n}a_i\\vec{v_i}</span>  ------\n\n_方程 8_",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592536,
+              "key": "5373ac63-ddd3-4ab6-b40b-4a30bdb72cfe",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "什么是**张成**?",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592537,
+              "key": "200850e5-d223-4367-b29b-90dff112a763",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/January/5a6f7b75_screen-shot-2018-01-29-at-11.51.35-am/screen-shot-2018-01-29-at-11.51.35-am.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/200850e5-d223-4367-b29b-90dff112a763",
+              "caption": "",
+              "alt": "",
+              "width": 300,
+              "height": 100,
+              "instructor_notes": null
+            },
+            {
+              "id": 592538,
+              "key": "3ededc3b-0097-43c0-bae2-c82031d594e7",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "如果 <span class=\"mathquill\">\\vec{v_1}, \\vec{v_2},....., \\vec{v_n}\\in \\mathbb{R} </span> ，\n那么，\n\n这些向量的**张成**（有时候也称为线性张成）是指这些向量的所有可能的线性组合。\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592539,
+              "key": "14295a97-1744-4411-be69-240216e6bf4b",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "从数学角度来讲，向量集合 <span class=\"mathquill\">\\vec{v_1}, \\vec{v_2},....., \\vec{v_n}</span> 的张成表示为：\n\n <span class=\"mathquill\">Sp(\\vec{v_1}, \\vec{v_2},....., \\vec{v_n})</span> \n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592540,
+              "key": "15f884d2-b153-4cdb-87a9-9c1bee619065",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "例如：\n\n以下三个向量：<span class=\"mathquill\">\n\\vec{v_1}=\\begin{bmatrix} \n1\n\\\\0\n\\\\0\n\\end{bmatrix}</span> , <span class=\"mathquill\">\n\\vec{v_2}=\\begin{bmatrix} \n0\n\\\\1\n\\\\0\n\\end{bmatrix}</span>  和 <span class=\"mathquill\">\n\\vec{v_3}=\\begin{bmatrix} \n0\n\\\\0\n\\\\1\n\\end{bmatrix}</span>  张成 <span class=\"mathquill\">\n\\mathbb{R}^3</span> 空间中的任意向量。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592541,
+              "key": "cfa76585-eaf1-4f4c-8cb5-3ffc302394ff",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "为了证明这一点，我们用一个随机向量   <span class=\"mathquill\">\n\\vec{v}=\\begin{bmatrix} \np\n\\\\q\n\\\\t\n\\end{bmatrix}</span> 并证明它可以生成为   <span class=\"mathquill\">\n\\vec{v_1}, \\vec{v_2} </span> 和  <span class=\"mathquill\">\n\\vec{v_3} </span> 的线性组合。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592542,
+              "key": "eb448c1d-b489-412c-a11f-6a8efaf975be",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "快速观察后会发现：\n\n <span class=\"mathquill\">\n\\vec{v}= p\\begin{bmatrix} \n1\n\\\\0\n\\\\0\n\\end{bmatrix}+q\\begin{bmatrix} \n0\n\\\\1\n\\\\0\n\\end{bmatrix}+t\\begin{bmatrix} \n0\n\\\\0\n\\\\1\n\\end{bmatrix}</span>\n\n\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 592713,
+          "key": "08359098-b7d4-44b4-9106-f11cab49eb35",
+          "title": "线性组合 - 练习 1",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "08359098-b7d4-44b4-9106-f11cab49eb35",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 592543,
+              "key": "f259f983-b72a-4ad6-ad3e-9dbc2b140ebc",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "以下是一个三个向量集合：\n\n(1) <span class=\"mathquill\">\\vec{v_1}=\\begin{bmatrix} 1\n\\\\ 2\n\\\\ 3\n\n\\end{bmatrix} </span> \n\n(2)\n  <span class=\"mathquill\">\\vec{v_2}=\\begin{bmatrix} 2\n\\\\ 2\n\\\\ 2\n\n\\end{bmatrix}</span>  \n\n(3)   <span class=\"mathquill\">\\vec{v_3}=\\begin{bmatrix} 8\n\\\\ 8\n\\\\ 8\n\n\\end{bmatrix}</span>\n\n\n 所有三个向量都是 <span class=\"mathquill\">\\in\\mathbb{R^3}</span> \n\n\n\n\n\n\n\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592544,
+              "key": "c4f2062d-be97-4297-b732-4d83ba788103",
+              "title": "",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "c4f2062d-be97-4297-b732-4d83ba788103",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "上述哪些向量定义了线性组合形成的平面？",
+                "answers": [
+                  {
+                    "id": "a1517353378608",
+                    "text": "(1)、(2) 和 (3)",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1517353569841",
+                    "text": "(1) 和 (2)",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1517353579493",
+                    "text": "(1) 和 (3)",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1517353587835",
+                    "text": "(2) 和 (3)",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 592545,
+              "key": "766d5218-482e-4e5d-afb4-ebb941ac1109",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "这道练习中的问题有点奇怪。我们有三个向量，为何不能同时定义一个由所有这三个向量的线性组合张成的平面？",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592546,
+              "key": "f37b1b89-7247-4aa9-94cb-7fb2afc0dc64",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "简单观察下向量 <span class=\"mathquill\">\\vec{v_2} </span>  和 <span class=\"mathquill\">\\vec{v_3} </span> 后将发现，一个向量可以定义为另一个向量的线性组合。\n\n例如：\n\n<span class=\"mathquill\">\\vec{v_2} =0.25\\vec{v_3}</span> \n\n<span class=\"mathquill\">\\begin{bmatrix} 2\n\\\\ 2\n\\\\ 2\n\n\\end{bmatrix}=0.25\\begin{bmatrix} 8\n\\\\ 8\n\\\\ 8\n\n\\end{bmatrix}</span> \n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592547,
+              "key": "ec1e3650-b4d2-4dc8-bd42-e5fff4ee913f",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "换句话说，如果我们使用 <span class=\"mathquill\">\\vec{v_2}</span> 作为线性组合的一部分（以便创建所需的向量张成），我们不需要 <span class=\"mathquill\">\\vec{v_3}</span>。反之亦然：如果我们使用 <span class=\"mathquill\">\\vec{v_3}</span> 作为线性组合的一部分（以便创建所需的向量张成），我们不需要 <span class=\"mathquill\">\\vec{v_2}</span>。\n\n因此，要定义由上述向量的线性组合张成的平面，我们只需 <span class=\"mathquill\">\\vec{v_2}</span> 或 <span class=\"mathquill\">\\vec{v_3}</span>，并不同时需要二者。\n\n\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 592714,
+          "key": "fd7ae294-9671-4f53-88ef-230ec6913302",
+          "title": "线性相关性",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "fd7ae294-9671-4f53-88ef-230ec6913302",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 592548,
+              "key": "dddba4b2-2be1-406f-9db4-f97296ed01ae",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# 线性相关性 ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592549,
+              "key": "2ff71931-7ae5-42c9-a407-1bec7ed31dbb",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "我们再看看在之前的练习中看到的两个向量：\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592550,
+              "key": "e7c73794-49dc-421a-8e33-ec5a005cff96",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "  - <span class=\"mathquill\">\\vec{v_2}=\\begin{bmatrix} 2\n\\\\ 2\n\\\\ 2\n\n\\end{bmatrix}</span>  \n\n- <span class=\"mathquill\">\\vec{v_3}=\\begin{bmatrix} 8\n\\\\ 8\n\\\\ 8\n\n\\end{bmatrix}</span>\n\n我们提到一个向量可以通过简单的数学线性组合用另一个向量生成。 \n\n例如：\n\n<span class=\"mathquill\">4\\vec{v_2} =\\vec{v_3}</span> \n\n\n\n\n\n\n\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592551,
+              "key": "32122fba-37f3-4d1c-8075-96099495425e",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "当某个向量**可以**定义为其他向量的线性组合时，它们是一组**线性相关**的向量。\n\n当一组向量中的每个向量**都无法**定义为其他向量的线性组合时，它们是一组**线性不相关**的向量。\n\n\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592552,
+              "key": "3747f707-9fc4-4917-a37b-df7382015a48",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "在我们的示例中：\n\n-  {<span class=\"mathquill\">\\vec{v_2} </span>、<span class=\"mathquill\">\\vec{v_3} </span>} 是线性相关的集合\n\n-  {<span class=\"mathquill\">\\vec{v_1} </span>、<span class=\"mathquill\">\\vec{v_2} </span>} 是线性不相关的集合\n\n以及 \n\n-  {<span class=\"mathquill\">\\vec{v_1} </span>、<span class=\"mathquill\">\\vec{v_3} </span>} 是线性不相关的集合\n\n(<span class=\"mathquill\">\\vec{v_1} </span> 在之前的练习中定义为：<span class=\"mathquill\">\\begin{bmatrix} 1\n\\\\ 2\n\\\\ 3\n\n\\end{bmatrix} </span> )\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592553,
+              "key": "723c24df-43f0-40b3-b965-2d894aec4204",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "判断一组向量是否为线性相关集合的最简单方式是采用**行列式**。\n行列式已经超出了“线性代数基础知识”的范畴，我们将不再深入讲解这方面的知识。",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 592715,
+          "key": "852f9480-8058-4f61-bdc3-194408b72d92",
+          "title": "求解简化的方程组",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "852f9480-8058-4f61-bdc3-194408b72d92",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 592554,
+              "key": "13ba0d29-f861-475c-a8da-f79c2d8e55df",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# 求解简化的方程组",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592555,
+              "key": "33cdb1e3-c99a-4491-9bc1-95f73fe7bbfd",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "向量与标量的线性组合将延伸出以下这个重要概念：\n**线性方程组**。\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592556,
+              "key": "21e321fd-a9fc-42e8-a4ba-69cb7763cac5",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "在此线性代数课程中，我们将仅深入介绍有两个方程和两个变量的方程组。\n\n 在更宽泛的线性代数课程中，你将[详细了解](https://en.wikipedia.org/wiki/System_of_linear_equations) 含有<span class=\"mathquill\">n</span> 个线性方程的方程组，其中 <span class=\"mathquill\">n</span> 可以是任何数字。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592557,
+              "key": "cb1b71eb-76ab-4183-81af-c51d148c5b3d",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "假设有两个变量：\n\n- <span class=\"mathquill\">\\vec{x}=\\begin{bmatrix} \n-14\n\\\\2\n\n\\end{bmatrix}</span> \n\n\n-  <span class=\"mathquill\">\\vec{y}=\\begin{bmatrix} \n5\n\\\\-1\n\n\\end{bmatrix}</span> \n\n我们想要将新的变量：\n <span class=\"mathquill\">\\begin{bmatrix} \n-13\n\\\\3\n\n\\end{bmatrix}</span> 表示为 <span class=\"mathquill\">\\vec{x}</span> 和 \n<span class=\"mathquill\">\\vec{y}</span> 的线性组合。\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592558,
+              "key": "0d489da0-7f02-4801-863c-08404cafee9e",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "换句话说，我们要计算使以下方程成立的两个标量，称之为 <span class=\"mathquill\">a</span> 和 <span class=\"mathquill\">b</span>：",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592559,
+              "key": "ccd9966c-fc92-4aa1-b371-dfe705f9959f",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": " <span class=\"mathquill\">a\\begin{bmatrix} \n-14\n\\\\2\n\n\\end{bmatrix}+b\\begin{bmatrix} \n5\n\\\\-1\n\n\\end{bmatrix}=\\begin{bmatrix} \n-13\n\\\\3\n\n\\end{bmatrix}</span> \n\n_方程  9_",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592560,
+              "key": "accbd635-239a-4911-9bcb-ff6f6482d5c5",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "现在我们知道如何使向量与标量相乘，我们来计算下：",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592563,
+              "key": "a4191532-0116-4101-89ed-2893af0c8d87",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": " <span class=\"mathquill\">\\begin{bmatrix} \n(-14)a\n\\\\2a\n\n\\end{bmatrix}+\\begin{bmatrix} \n5b\n\\\\(-1)b\n\n\\end{bmatrix}=\\begin{bmatrix} \n-13\n\\\\3\n\n\\end{bmatrix}</span> \n\n_方程 10_",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592561,
+              "key": "847507f7-4306-47f2-97bc-9e2b6fb72b44",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "上述方程将得出两个单独的方程：\n \n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592562,
+              "key": "2c9e5af3-84d2-472f-88cd-9ad813292baf",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/January/5a6c1979_screen-shot-2018-01-26-at-10.16.48-pm/screen-shot-2018-01-26-at-10.16.48-pm.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/2c9e5af3-84d2-472f-88cd-9ad813292baf",
+              "caption": "",
+              "alt": "",
+              "width": 200,
+              "height": 100,
+              "instructor_notes": null
+            },
+            {
+              "id": 592564,
+              "key": "77945131-9bc7-4b15-ba35-bee01d22c8d3",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "上述方程组称为_有两个变量、由两个方程组成的方程组_。\n\n可以通过三种理论方法求解该方程组：\n- 图形法\n- 替代法\n- 消元法\n\n下面，我们将详细介绍这三种方法。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592565,
+              "key": "81426443-4b21-451b-ae39-b287616b111c",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "**图形法：**\n\n绘出这两条线（线性图）并找到交点。\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592566,
+              "key": "d44e6a95-1632-4302-9700-053cec5a6c64",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "交点是 <span class=\"mathquill\">(a,b)</span> 的解，因为它是同时位于这两条线上的唯一点。换句话说，它是唯一满足这两个方程的点。\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592567,
+              "key": "9ec17a04-ae83-4e7f-9686-e68d5cb40a49",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/January/5a6c24eb_screen-shot-2018-01-26-at-11.05.49-pm/screen-shot-2018-01-26-at-11.05.49-pm.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/9ec17a04-ae83-4e7f-9686-e68d5cb40a49",
+              "caption": "",
+              "alt": "",
+              "width": 300,
+              "height": 300,
+              "instructor_notes": null
+            },
+            {
+              "id": 592568,
+              "key": "c2afc0e6-52ad-43f6-bc4a-2b0c36f3c2b1",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "可以清晰地看出：\n\n <span class=\"mathquill\">a= -0.5</span> \n\n和\n\n <span class=\"mathquill\">b= -4</span> ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592569,
+              "key": "87890469-e993-45c0-a597-e1f9bf10bca0",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "**替代法：**\n\n在其中一个方程中分离出一个变量，然后在第二个方程中替换它\n\n这种方法将使方程组缩减成有一个变量的一个方程。\n\n在我们的示例中：",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592570,
+              "key": "ab0f4d2a-0a33-4bd7-9841-a8663d55d512",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": " (1) <span class=\"mathquill\">-14a+5b=-13</span> \n\n (2) <span class=\"mathquill\"> 2a-b=3</span> \n\n\n从 (1) 得出 <span class=\"mathquill\">2a-b=3\\Rightarrow b=2a-3</span> \n\n在方程 (2) 中替换 b\n\n <span class=\"mathquill\">-14a+5(2a-3)=-13</span> 并求解 <span class=\"mathquill\">a</span>。\n\n运用简单的代数知识后得出 <span class=\"mathquill\">a=-0.5</span>\n\n\n替换上述方程 (1) 或 (2) 中的 <span class=\"mathquill\">a</span>，得出 <span class=\"mathquill\">b=-4</span>。\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592571,
+              "key": "0964f1c2-0dc0-4b8e-a5cd-b4810b01bb3f",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "**消元法：**\n\n在此方法中，我们将通过乘以相同的数字，即某个标量（系数）的绝对值，消去其中一个变量。\n\n我们再看看这两个方程：",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592572,
+              "key": "e5f52b20-a0ea-4391-b2f6-d82b3664ab4a",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/January/5a6c27fb_screen-shot-2018-01-26-at-11.16.45-pm/screen-shot-2018-01-26-at-11.16.45-pm.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/e5f52b20-a0ea-4391-b2f6-d82b3664ab4a",
+              "caption": "",
+              "alt": "",
+              "width": 200,
+              "height": 100,
+              "instructor_notes": null
+            },
+            {
+              "id": 592573,
+              "key": "ebde17bd-17a7-49cb-bb03-b1c5080eb4de",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "如果使方程 2 两边乘以 5，将得出以下方程组：",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592575,
+              "key": "7a15e7b5-c34e-434d-be7b-83eb37cd382d",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/January/5a6c28b0_screen-shot-2018-01-26-at-11.21.42-pm/screen-shot-2018-01-26-at-11.21.42-pm.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/7a15e7b5-c34e-434d-be7b-83eb37cd382d",
+              "caption": "",
+              "alt": "",
+              "width": 200,
+              "height": 100,
+              "instructor_notes": null
+            },
+            {
+              "id": 592574,
+              "key": "787aca84-caa7-43bb-8843-e7b46e6c0c4e",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "（注意：两个方程乘以的标量 <span class=\"mathquill\">b</span> 即系数 <span class=\"mathquill\">b</span> 的绝对值都是 5）。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592576,
+              "key": "e59a4497-06da-4c76-833d-fecd01da46f1",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "现在将它们相加。\n\n得出有一个变量的以下单个方程：\n\n<span class=\"mathquill\">-4a+0b=2</span> \n\n或者：\n\n<span class=\"mathquill\">-4a=2\\Rightarrow a=-0.5</span> \n\n替换任何一个方程中的 <span class=\"mathquill\">a</span>，得出 <span class=\"mathquill\">b=-4</span>。\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592577,
+              "key": "6b36d03f-25e9-4782-b70a-efed98b9796d",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "最终答案：\n\n我们算出了将向量\n <span class=\"mathquill\">\\begin{bmatrix} \n-13\n\\\\3\n\n\\end{bmatrix}</span> 表示为 <span class=\"mathquill\">\\vec{x}</span> 和 \n<span class=\"mathquill\">\\vec{y}</span> 的线性组合的标量 <span class=\"mathquill\">a</span> 和 <span class=\"mathquill\">b</span>。\n\n\n <span class=\"mathquill\">a\\begin{bmatrix} \n-14\n\\\\2\n\n\\end{bmatrix}+b\\begin{bmatrix} \n5\n\\\\-1\n\n\\end{bmatrix}=\\begin{bmatrix} \n-13\n\\\\3\n\n\\end{bmatrix}</span> \n\n唯一的解是：\n\n<span class=\"mathquill\">a=-0.5</span> 和\n<span class=\"mathquill\">b=-4</span>",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592578,
+              "key": "208c1b0c-4cc4-4037-932b-92c3f5bf7ad5",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "在此示例中，两个系数均为负数。思考下，如果都是正数或一正一负，该怎么办？\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592579,
+              "key": "d0d8af37-1549-4a40-b1cc-2fd8e777d168",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "再思考另一个问题：\n\n有两个线性方程和两个变量的方程组始终有解吗？如果有解，始终是唯一解吗？\n\n接下来的几道练习将帮助你回答这个问题。\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 592716,
+          "key": "f6f8dcbc-04e2-432e-b3ff-5194a4cc239e",
+          "title": "线性组合 - 练习 2",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "f6f8dcbc-04e2-432e-b3ff-5194a4cc239e",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 592580,
+              "key": "279ca850-fe8f-439f-b48b-96aa19d8dcc4",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# 线性组合 - 练习 2",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592581,
+              "key": "42ed4fae-051d-4ab8-8739-ec35f183015e",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "思考以下问题：\n\n有两个线性方程和两个变量的方程组始终有解吗？如果有解，始终是唯一解吗？\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592582,
+              "key": "a7f5a620-6582-4b17-b85c-bad3d0632299",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "看看以下方程组：",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592583,
+              "key": "4a7ee533-a884-41e4-8848-ae90ab18dbf2",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/January/5a6c2ec9_screen-shot-2018-01-26-at-11.48.02-pm/screen-shot-2018-01-26-at-11.48.02-pm.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/4a7ee533-a884-41e4-8848-ae90ab18dbf2",
+              "caption": "",
+              "alt": "",
+              "width": 200,
+              "height": 100,
+              "instructor_notes": null
+            },
+            {
+              "id": 592584,
+              "key": "c19d6bfb-d0b9-46cf-b7bc-0348d2f6e4fa",
+              "title": "a 和 b 的解是什么？",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "c19d6bfb-d0b9-46cf-b7bc-0348d2f6e4fa",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "a 和 b 的解是什么？",
+                "answers": [
+                  {
+                    "id": "a1517039353680",
+                    "text": "a=0、b=2",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1517039391675",
+                    "text": "a=2、b=0",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1517039404483",
+                    "text": "没有解",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1517039415415",
+                    "text": "有无穷个解",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 592585,
+              "key": "786d2a65-4536-438f-8f35-b70e6523555a",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "这两个方程是**线性相关的**。\n\n试着绘出图形。看到什么规律了吗？有多少个交点？\n\n因为这两个方程是线性相关的，因此从图形上来讲，它们定义的是同一条线。因此这个方程组有无数个解。直线上的每个点（用蓝色 x 表示）都满足方程。  ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592586,
+              "key": "ea564847-f116-4ba1-949a-3b75154843b4",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/March/5abc28f4_screen-shot-2018-03-28-at-4.44.34-pm/screen-shot-2018-03-28-at-4.44.34-pm.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/ea564847-f116-4ba1-949a-3b75154843b4",
+              "caption": "",
+              "alt": "",
+              "width": 400,
+              "height": 300,
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 592717,
+          "key": "1bffc654-7ad7-41f9-9b46-c7158da6c0c4",
+          "title": "线性组合 - 练习 3",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1bffc654-7ad7-41f9-9b46-c7158da6c0c4",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 592587,
+              "key": "961a895f-2e28-4187-9dda-5162241a6935",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# 线性组合 - 练习 3",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592588,
+              "key": "790f71fd-ead1-44d2-9bb2-20b9a2ddcfbc",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "看看以下方程组：\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592589,
+              "key": "26b9b819-fe89-4f55-a85e-c4c31f0c14a4",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/March/5abc2ac6_screen-shot-2018-03-28-at-4.52.09-pm/screen-shot-2018-03-28-at-4.52.09-pm.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/26b9b819-fe89-4f55-a85e-c4c31f0c14a4",
+              "caption": "",
+              "alt": "",
+              "width": 200,
+              "height": 300,
+              "instructor_notes": null
+            },
+            {
+              "id": 592590,
+              "key": "f6c4bb49-6dac-402a-aeb0-ebcbfb403670",
+              "title": "a 和 b 的解是什么？",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "f6c4bb49-6dac-402a-aeb0-ebcbfb403670",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "a 和 b 的解是什么？",
+                "answers": [
+                  {
+                    "id": "a1517040096570",
+                    "text": "没有解",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1517040114096",
+                    "text": "a=0、b=0",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1517040119714",
+                    "text": "信息不足，无法求解",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1517040133866",
+                    "text": "有无穷个解",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 592593,
+              "key": "aa48f29c-7e40-445c-85c8-deae6afaf3f8",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "没有解是什么意思？为何会这样？\n\n试着绘出直线，看到什么规律了？",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592594,
+              "key": "56edd6e3-56a3-489f-a140-d66cc838bc47",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/March/5abc2f3f_screen-shot-2018-03-28-at-5.11.09-pm/screen-shot-2018-03-28-at-5.11.09-pm.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/56edd6e3-56a3-489f-a140-d66cc838bc47",
+              "caption": "",
+              "alt": "",
+              "width": 300,
+              "height": 400,
+              "instructor_notes": null
+            },
+            {
+              "id": 592595,
+              "key": "1c87cdb2-ad07-4611-810a-95c844a10ad4",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "因为这两条直线平行，不相交，因此没有解。（因为图中没有一个点能同时满足这两个方程）。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592596,
+              "key": "2ccabf2a-af12-41bc-9b3f-eb266f83aba9",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "作为对比，下图中的两条线表示有一个解的两个不相关线性方程。\n解是图中同时满足这两个方程的点（用蓝色 x 表示）。 ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592597,
+              "key": "20c5f2c7-179b-4c9b-a455-17a8450df2cf",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/March/5abc3057_screen-shot-2018-03-28-at-5.15.59-pm/screen-shot-2018-03-28-at-5.15.59-pm.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/20c5f2c7-179b-4c9b-a455-17a8450df2cf",
+              "caption": "",
+              "alt": "",
+              "width": 300,
+              "height": 400,
+              "instructor_notes": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    }
+  ]
+}

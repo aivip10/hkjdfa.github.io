@@ -1,0 +1,91 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.510 --> 00:00:03.605
+Este é o vídeo-solução
+para o laboratório de vetores,
+
+00:00:03.638 --> 00:00:05.416
+que fala da soma
+de dois vetores
+
+00:00:05.620 --> 00:00:07.430
+e de plotar o resultado.
+
+00:00:07.533 --> 00:00:11.822
+Primeiro, vamos substituir "none"
+pela definição do vetor vw,
+
+00:00:12.029 --> 00:00:15.147
+somando o vetor w
+com o vetor v.
+
+00:00:16.171 --> 00:00:20.741
+Aqui escrevemos:
+vw = v + w
+
+00:00:21.003 --> 00:00:23.193
+e marcamos que fizemos
+essa tarefa.
+
+00:00:23.694 --> 00:00:28.046
+A seguir, precisamos copiar
+a declaração arrow do vetor v,
+
+00:00:28.895 --> 00:00:30.128
+colocando-a aqui,
+
+00:00:30.799 --> 00:00:34.945
+substituindo o vetor v
+pelo vetor vw,
+
+00:00:35.438 --> 00:00:38.879
+color = 'b'
+por color = 'k'
+
+00:00:39.566 --> 00:00:44.454
+e linewidth = 2.5
+por linewidth = 3.5.
+
+00:00:45.249 --> 00:00:48.431
+Isso vai plotar o vetor vw
+
+00:00:48.543 --> 00:00:50.610
+como uma flecha cheia
+de cor preta
+
+00:00:51.176 --> 00:00:52.941
+no gráfico aqui de baixo,
+
+00:00:53.105 --> 00:00:55.815
+para que fique igual
+à solução, aqui.
+
+00:00:56.632 --> 00:01:00.243
+A seguir, clicamos em salvar
+para gravar o trabalho.
+
+00:01:00.668 --> 00:01:04.543
+Depois selecionamos Kernel,
+Restart &amp; Run All
+
+00:01:04.576 --> 00:01:06.877
+para rodar o código
+nas células
+
+00:01:06.910 --> 00:01:09.742
+e visualizar as mudanças
+feitas no gráfico.
+
+00:01:10.389 --> 00:01:14.186
+Por fim, comparamos
+nosso gráfico com a solução.
+
+00:01:15.266 --> 00:01:18.894
+Como eles são iguais,
+podemos ver que tudo está correto.
+
+00:01:19.136 --> 00:01:20.800
+Isso completa o laboratório.
+

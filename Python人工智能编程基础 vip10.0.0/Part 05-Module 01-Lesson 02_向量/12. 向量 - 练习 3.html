@@ -1,0 +1,284 @@
+<!-- udacity2.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>向量 - 练习 3</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>向量</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. 什么是向量（第 1 部分）.html">01. 什么是向量（第 1 部分）</a>
+    </li>
+    <li class="">
+      <a href="02. 什么是向量（第 2 部分）.html">02. 什么是向量（第 2 部分）</a>
+    </li>
+    <li class="">
+      <a href="03. 什么是向量（第 3 部分）.html">03. 什么是向量（第 3 部分）</a>
+    </li>
+    <li class="">
+      <a href="04. 向量 - 数学定义.html">04. 向量 - 数学定义</a>
+    </li>
+    <li class="">
+      <a href="05. 转置.html">05. 转置</a>
+    </li>
+    <li class="">
+      <a href="06. 大小和方向.html">06. 大小和方向</a>
+    </li>
+    <li class="">
+      <a href="07. 向量 - 练习 1.html">07. 向量 - 练习 1</a>
+    </li>
+    <li class="">
+      <a href="08. 场中的运算.html">08. 场中的运算</a>
+    </li>
+    <li class="">
+      <a href="09. 向量加法.html">09. 向量加法</a>
+    </li>
+    <li class="">
+      <a href="10. 向量 - 练习 2.html">10. 向量 - 练习 2</a>
+    </li>
+    <li class="">
+      <a href="11. 标量与向量乘法.html">11. 标量与向量乘法</a>
+    </li>
+    <li class="">
+      <a href="12. 向量 - 练习 3.html">12. 向量 - 练习 3</a>
+    </li>
+    <li class="">
+      <a href="13. 向量练习答案.html">13. 向量练习答案</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">12. 向量 - 练习 3</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h1 id="向量练习-3">向量练习 3</h1>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>请在 workspace 按顺序回答以下问题。</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>下面是一个<span class="mathquill ud-math">2D</span>向量：</p>
+<p><span class="mathquill ud-math">\vec{x}=\begin{bmatrix} a\\b\end{bmatrix}</span></p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>(a)</p>
+<p><span class="mathquill ud-math">\alpha\vec{x}</span> 的大小是多少？（换句话说，请算出 <span class="mathquill ud-math">\left |\alpha\vec{x}  \right |</span>)。</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>(b)</p>
+<p>如果 <span class="mathquill ud-math">\alpha>0</span>，生成的向量的方向会变化吗？</p>
+<p>yes / no（区分大小写）</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>(c)</p>
+<p>如果 <span class="mathquill ud-math">\alpha<0</span>，生成的向量的方向会变化多少度？</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>(d)</p>
+<p>如果 <span class="mathquill ud-math">-1<\alpha<1</span>，<span class="mathquill ud-math">\left |\alpha\vec{x}  \right |</span> 增大（increase）还是减小（decrease）？</p>
+<p>（答案区分大小写）</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div class="jumbotron">
+  <h3>Code</h3>
+
+  <p class="lead">If you need a code on the <a href="https://github.com/udacity"
+    target="_blank">https://github.com/udacity</a>. </p>
+
+  </ul>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>（你将在向量课程的末尾找到这道练习的答案）</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>知道如何<strong>将向量相加</strong>和<strong>将向量乘以标量</strong>后，我们就可以了解线性代数中的一个重要概念：<strong>线性组合</strong>。</p>
+<p>在深入学习<strong>人工智能</strong>（简称 AI）时，你将发现我们经常需要使用线性组合。但在学习人工神经网络模拟之前，我们先学习下节课。在下节课，Grant 将带着你感受<strong>线性组合</strong>的精彩图形表示。</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>提示：如果 workspace 遇到问题，请重置你的数据。</p>
+</div>
+
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+              <a href="13. 向量练习答案.html" class="btn btn-outline-primary mt-4" role="button">Next Concept</a>
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://us-udacity.github.io/" target="_blank">【udacity2.0 】If you need more courses, please add wechat：udacity6</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('12. 向量 - 练习 3')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>

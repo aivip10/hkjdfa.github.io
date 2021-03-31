@@ -1,0 +1,61 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.345
+This is the solutions video for the vector lab,
+
+00:00:03.345 --> 00:00:07.409
+covering adding two vectors and plotting their results.
+
+00:00:07.408 --> 00:00:11.910
+First, we need to replace none with the definition of vector v w
+
+00:00:11.910 --> 00:00:16.469
+by adding vector w to vector v. Here,
+
+00:00:16.469 --> 00:00:20.864
+we've coded v w equals v plus w,
+
+00:00:20.864 --> 00:00:23.324
+and we mark this task as done.
+
+00:00:23.324 --> 00:00:30.405
+Next, we need to copy the arrow statement from vector v and place it here,
+
+00:00:30.405 --> 00:00:39.260
+replacing vector v with vector v w. Color equals b with color equals k,
+
+00:00:39.259 --> 00:00:44.884
+linewidth equal 2.5 with linewidth equal 3.5.
+
+00:00:44.884 --> 00:00:48.920
+This will plot vector v w as
+
+00:00:48.920 --> 00:00:56.194
+the thick black arrow in the plot down here so that it matches our solution here.
+
+00:00:56.194 --> 00:01:00.469
+Next, we click on the "Save" icon to save our work.
+
+00:01:00.469 --> 00:01:02.615
+Then, we select "Kernel",
+
+00:01:02.615 --> 00:01:06.320
+"Restart &amp; Run All" to run all the code in
+
+00:01:06.319 --> 00:01:10.000
+the cells and visualize the changes that we've made to the plot.
+
+00:01:10.000 --> 00:01:15.194
+Finally, we compare our plot to the solution.
+
+00:01:15.194 --> 00:01:17.234
+And we can see, since they match,
+
+00:01:17.234 --> 00:01:19.049
+we've coded everything correctly.
+
+00:01:19.049 --> 00:01:20.929
+This completes this section of the lab.
+

@@ -1,0 +1,340 @@
+{
+  "id": 871,
+  "project_id": 290,
+  "upload_types": [
+    "repo",
+    "zip"
+  ],
+  "file_filter_regex": "\\A(?!(((.*/)?(__MACOSX|\\.git|node_modules|bower_components|jspm_packages|\\.idea|build|.ipynb_checkpoints|\\.Trash-0|logs)(\\Z|/))))((.*\\.(css|docx|gradle|htm|html|java|js|markdown|md|pdf|py|rmd|rst|sql|swift|txt|xml|yaml|yml)\\Z)|((.*/)?(README|Readme|readme|Makefile)\\Z))",
+  "nomination_eligible": false,
+  "stand_out": "",
+  "hide_criteria": false,
+  "created_at": "2017-03-24T07:17:28.103Z",
+  "updated_at": "2019-03-29T02:03:07.033Z",
+  "hashtag": "",
+  "max_upload_size_mb": 500,
+  "estimated_sla": null,
+  "project_assistant_enabled": false,
+  "available_for_cert_project": false,
+  "language": "zh-cn",
+  "ndkeys": [
+    "nd089-cn-ent",
+    "nd009-cn-basic",
+    "nd101-cn-basic",
+    "nd101-cn",
+    "ND101-cn-basic",
+    "nd009-cn-basic-vip",
+    "nd089-cn",
+    "nd089-cn-vip"
+  ],
+  "coursekeys": [],
+  "is_career": false,
+  "sections": [
+    {
+      "id": 2544,
+      "name": "基本要求",
+      "created_at": "2017-09-04T03:14:35.547Z",
+      "updated_at": "2017-09-04T03:16:16.416Z",
+      "deleted_at": null,
+      "position": 0,
+      "rubric_id": 871,
+      "rubric_items": [
+        {
+          "id": 7467,
+          "section_id": 2544,
+          "passed_description": "如果不符合基本要求，你的项目将不会得到批改，直接判为无法审阅。 \n\n提交了\nlinear_regression_project.ipynb\nlinear_regression_project.html\nlinear_regression_project.py",
+          "exceeded_description": null,
+          "created_at": "2017-09-04T03:16:16.796Z",
+          "updated_at": "2017-09-05T08:33:45.594Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 0,
+          "criteria": "提交代码",
+          "exceedable": false
+        },
+        {
+          "id": 7474,
+          "section_id": 2544,
+          "passed_description": "如果不符合基本要求，你的项目将不会得到批改，直接判为无法审阅。\n\n提交了 proof.pdf 或在 ipython notebook 中用 LATEX 完成了证明。",
+          "exceeded_description": null,
+          "created_at": "2017-09-05T08:31:23.658Z",
+          "updated_at": "2017-09-22T07:10:01.844Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 1,
+          "criteria": "提交证明（可选）",
+          "exceedable": false
+        }
+      ]
+    },
+    {
+      "id": 2143,
+      "name": "矩阵运算",
+      "created_at": "2017-03-24T07:37:21.102Z",
+      "updated_at": "2017-09-04T03:16:16.425Z",
+      "deleted_at": null,
+      "position": 1,
+      "rubric_id": 871,
+      "rubric_items": [
+        {
+          "id": 6330,
+          "section_id": 2143,
+          "passed_description": "学生正确的构建了一个 4*4 的单位矩阵",
+          "exceeded_description": null,
+          "created_at": "2017-03-24T07:37:31.230Z",
+          "updated_at": "2017-09-04T03:11:58.252Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 0,
+          "criteria": "1.1 单位矩阵",
+          "exceedable": false
+        },
+        {
+          "id": 6331,
+          "section_id": 2143,
+          "passed_description": "学生正确地实现了shape 函数",
+          "exceeded_description": null,
+          "created_at": "2017-03-24T07:39:02.742Z",
+          "updated_at": "2017-04-07T06:31:25.758Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 1,
+          "criteria": "1.2 返回矩阵的行数和列数",
+          "exceedable": false
+        },
+        {
+          "id": 6432,
+          "section_id": 2143,
+          "passed_description": "学生正确地实现了matxRound 函数",
+          "exceeded_description": null,
+          "created_at": "2017-04-07T06:31:28.540Z",
+          "updated_at": "2017-04-07T06:32:11.599Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 2,
+          "criteria": "1.3 每个元素四舍五入到特定小数数位",
+          "exceedable": false
+        },
+        {
+          "id": 6433,
+          "section_id": 2143,
+          "passed_description": "学生正确的实现了 transpose 函数",
+          "exceeded_description": null,
+          "created_at": "2017-04-07T06:32:12.590Z",
+          "updated_at": "2017-04-07T06:32:49.654Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 3,
+          "criteria": "1.4 计算矩阵的转置",
+          "exceedable": false
+        },
+        {
+          "id": 6434,
+          "section_id": 2143,
+          "passed_description": "学生正确地实现了 matxMultiply 函数",
+          "exceeded_description": null,
+          "created_at": "2017-04-07T06:32:50.203Z",
+          "updated_at": "2017-04-07T06:33:33.745Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 4,
+          "criteria": "1.5 计算矩阵乘法 AB",
+          "exceedable": false
+        }
+      ]
+    },
+    {
+      "id": 2144,
+      "name": "Gaussian Jordan 消元法",
+      "created_at": "2017-03-24T07:41:01.993Z",
+      "updated_at": "2017-09-04T03:16:16.445Z",
+      "deleted_at": null,
+      "position": 2,
+      "rubric_id": 871,
+      "rubric_items": [
+        {
+          "id": 6333,
+          "section_id": 2144,
+          "passed_description": "学生正确实现了增广矩阵",
+          "exceeded_description": null,
+          "created_at": "2017-03-24T07:41:26.898Z",
+          "updated_at": "2017-03-24T07:43:14.570Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 0,
+          "criteria": "2.1 增广矩阵",
+          "exceedable": false
+        },
+        {
+          "id": 6334,
+          "section_id": 2144,
+          "passed_description": "学生按要求正确实现了初等行变换",
+          "exceeded_description": null,
+          "created_at": "2017-03-24T07:43:14.869Z",
+          "updated_at": "2017-03-24T08:25:24.943Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 1,
+          "criteria": "2.2 初等行变换",
+          "exceedable": false
+        },
+        {
+          "id": 7638,
+          "section_id": 2144,
+          "passed_description": "学生正确推演了Gaussian Jordan消元法的两种情况",
+          "exceeded_description": null,
+          "created_at": "2017-09-22T07:10:02.493Z",
+          "updated_at": "2017-09-22T07:12:36.487Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 2,
+          "criteria": "2.3 算法推演",
+          "exceedable": false
+        },
+        {
+          "id": 6335,
+          "section_id": 2144,
+          "passed_description": "学生正确实现了Gaussian Jordan 消元法求解 Ax = b",
+          "exceeded_description": null,
+          "created_at": "2017-03-24T08:25:25.251Z",
+          "updated_at": "2017-09-22T07:12:36.496Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 3,
+          "criteria": "2.3 Gaussian Jordan 消元法求解 Ax = b",
+          "exceedable": false
+        },
+        {
+          "id": 6336,
+          "section_id": 2144,
+          "passed_description": "学生证明了算法正确判断了奇异矩阵\n\n如果没做，则通过。\n如果做了但是做错了，则不通过。",
+          "exceeded_description": null,
+          "created_at": "2017-03-24T08:26:34.249Z",
+          "updated_at": "2017-09-22T07:12:36.504Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 4,
+          "criteria": "2.4 证明算法正确判断了奇异矩阵（可选）",
+          "exceedable": false
+        }
+      ]
+    },
+    {
+      "id": 2145,
+      "name": "线性回归",
+      "created_at": "2017-03-24T08:33:38.346Z",
+      "updated_at": "2017-09-04T03:16:16.451Z",
+      "deleted_at": null,
+      "position": 3,
+      "rubric_id": 871,
+      "rubric_items": [
+        {
+          "id": 7639,
+          "section_id": 2145,
+          "passed_description": "猜测一条直线并正确计算MSE",
+          "exceeded_description": null,
+          "created_at": "2017-09-22T07:40:29.197Z",
+          "updated_at": "2017-09-22T07:42:00.368Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 0,
+          "criteria": "3.2 拟合一条直线",
+          "exceedable": false
+        },
+        {
+          "id": 6338,
+          "section_id": 2145,
+          "passed_description": "学生正确的证明了损失函数相对于参数的导数\n\n如果没做，则通过。\n如果做了但是做错了，则不通过。",
+          "exceeded_description": null,
+          "created_at": "2017-03-24T08:33:49.120Z",
+          "updated_at": "2017-09-22T07:52:03.965Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 1,
+          "criteria": "3.3 损失函数求导（可选）",
+          "exceedable": false
+        },
+        {
+          "id": 7640,
+          "section_id": 2145,
+          "passed_description": "用三个点 (1,1), (2,2), (3,2) 来拟合一条直线 y = m*x + b\n\n如果没做，则通过。\n如果做了但是做错了，则不通过。",
+          "exceeded_description": null,
+          "created_at": "2017-09-22T07:42:00.947Z",
+          "updated_at": "2017-09-22T07:52:03.978Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 2,
+          "criteria": "3.3 线性回归实例推演（可选）",
+          "exceedable": false
+        },
+        {
+          "id": 6339,
+          "section_id": 2145,
+          "passed_description": "学生正确地计算／证明了方程组的矩阵形式\n\n如果没做，则通过。\n如果做了但是做错了，则不通过。",
+          "exceeded_description": null,
+          "created_at": "2017-03-24T08:34:08.051Z",
+          "updated_at": "2017-09-22T07:52:03.987Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 3,
+          "criteria": "3.3 将导数写成矩阵形式（可选）",
+          "exceedable": false
+        },
+        {
+          "id": 7641,
+          "section_id": 2145,
+          "passed_description": "学生正确地计算了线性回归的最佳参数",
+          "exceeded_description": null,
+          "created_at": "2017-09-22T07:47:04.612Z",
+          "updated_at": "2017-09-22T07:50:16.102Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 4,
+          "criteria": "3.4 求解方程组",
+          "exceedable": false
+        }
+      ]
+    },
+    {
+      "id": 2546,
+      "name": "单元测试",
+      "created_at": "2017-09-05T08:35:15.420Z",
+      "updated_at": "2017-09-05T08:35:24.465Z",
+      "deleted_at": null,
+      "position": 4,
+      "rubric_id": 871,
+      "rubric_items": [
+        {
+          "id": 7475,
+          "section_id": 2546,
+          "passed_description": "学生成功通过了所有的单元测试",
+          "exceeded_description": null,
+          "created_at": "2017-09-05T08:35:24.817Z",
+          "updated_at": "2017-09-05T08:35:34.312Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 0,
+          "criteria": "成功通过所有单元测试",
+          "exceedable": false
+        }
+      ]
+    }
+  ],
+  "project": {
+    "id": 290,
+    "name": "Linear Regression",
+    "nanodegree_key": "nd009-cn-basic",
+    "is_cert_project": false,
+    "audit_project_id": null,
+    "hashtag": null,
+    "audit_rubric_id": 2899,
+    "entitlement_required": false,
+    "is_career": false,
+    "recruitment_family_id": 1,
+    "created_at": "2017-03-17T01:24:02.514Z",
+    "updated_at": "2019-01-30T22:27:51.584Z",
+    "price": "7.5",
+    "ungradeable_price": "3.0",
+    "audit_price": "0.0"
+  }
+}

@@ -1,0 +1,258 @@
+<!-- udacity2.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>矩阵加法</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>线性变换和矩阵</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. 什么是矩阵？.html">01. 什么是矩阵？</a>
+    </li>
+    <li class="">
+      <a href="02. 矩阵加法.html">02. 矩阵加法</a>
+    </li>
+    <li class="">
+      <a href="03. 矩阵加法练习.html">03. 矩阵加法练习</a>
+    </li>
+    <li class="">
+      <a href="04. 矩阵的标量乘法和练习.html">04. 矩阵的标量乘法和练习</a>
+    </li>
+    <li class="">
+      <a href="05. 方形矩阵的乘法.html">05. 方形矩阵的乘法</a>
+    </li>
+    <li class="">
+      <a href="06. 方形矩阵乘法练习.html">06. 方形矩阵乘法练习</a>
+    </li>
+    <li class="">
+      <a href="07. 矩阵乘法 - 一般情况.html">07. 矩阵乘法 - 一般情况</a>
+    </li>
+    <li class="">
+      <a href="08. 矩阵乘法练习.html">08. 矩阵乘法练习</a>
+    </li>
+    <li class="">
+      <a href="09. 线性变换和矩阵（第 1 部分）.html">09. 线性变换和矩阵（第 1 部分）</a>
+    </li>
+    <li class="">
+      <a href="10. 线性变换和矩阵（第 2 部分）.html">10. 线性变换和矩阵（第 2 部分）</a>
+    </li>
+    <li class="">
+      <a href="11. 线性变换和矩阵（第 3 部分）.html">11. 线性变换和矩阵（第 3 部分）</a>
+    </li>
+    <li class="">
+      <a href="12. 线性变换练习的答案.html">12. 线性变换练习的答案</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">02. 矩阵加法</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h1 id="矩阵加法">矩阵加法</h1>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>要将一个矩阵与另一个矩阵相加，我们需要：</p>
+<ul>
+<li>验证确保两个矩阵的维度相同</li>
+<li>按照相应的正确索引将元素相加</li>
+</ul>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>我们通过一个示例来理解这方面的要求：</p>
+<p>我们将侧重于在 <em>方程 11</em> 中看到的随机矩阵：</p>
+<p><span class="mathquill ud-math">A=\begin{bmatrix} a_{11} &a_{12} &a_{13}&..& a_{1n}\\ a_{21} &a_{22} &a_{23}&..& a_{2n}\\a_{31} &a_{32} &a_{33}&..& a_{3n}\\ :\\a_{m1} &a_{m2} &a_{m3}&……& a_{mn}\end{bmatrix}</span> </p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>矩阵 <span class="mathquill ud-math">A</span> 的维度为 <span class="mathquill ud-math">m</span>x<span class="mathquill ud-math">n</span>。<br />
+这意味着该矩阵具有 <span class="mathquill ud-math">m</span> 行和 <span class="mathquill ud-math">n</span> 列。 </p>
+<p>矩阵 <span class="mathquill ud-math">A</span> 只能与另一个具有 <span class="mathquill ud-math">m</span> 行和 <span class="mathquill ud-math">n</span> 列的矩阵相加。例如矩阵 <span class="mathquill ud-math">B</span>。</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p><span class="mathquill ud-math">B=\begin{bmatrix} b_{11} &b_{12} &b_{13}&..& b_{1n}\\ b_{21} &b_{22} &b_{23}&..& b_{2n}\\b_{31} &b_{32} &b_{33}&..& b_{3n}\\ :\\b_{m1} &b_{m2} &b_{m3}&……& b_{mn}\end{bmatrix}</span> </p>
+<p><em>方程 12</em></p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>只要维度相同，加法就很简单：</p>
+<p>只需将 <span class="mathquill ud-math">A</span> 中的元素 <span class="mathquill ud-math">a_{ij}</span> 与 <span class="mathquill ud-math">B</span> 中的相应元素 <span class="mathquill ud-math">b_{ij}</span> 相加即可。</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p><span class="mathquill ud-math">A+B=\begin{bmatrix} a_{11} &a_{12} &a_{13}&..& a_{1n}\\ a_{21} &a_{22} &a_{23}&..& a_{2n}\\a_{31} &a_{32} &a_{33}&..& a_{3n}\\ :\\a_{m1} &a_{m2} &a_{m3}&……& a_{mn}\end{bmatrix}+\begin{bmatrix} b_{11} &b_{12} &b_{13}&..& b_{1n}\\ b_{21} &b_{22} &b_{23}&..& b_{2n}\\b_{31} &b_{32} &b_{33}&..& b_{3n}\\ :\\b_{m1} &b_{m2} &b_{m3}&……& b_{mn}\end{bmatrix}</span> </p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p><span class="mathquill ud-math">A+B=\begin{bmatrix} a_{11}+ b_{11} &a_{12}+ b_{12} &a_{13}+ b_{13}&..& a_{1n}+ b_{1n}\\ a_{21}+ b_{21} &a_{22} + b_{22}&a_{23}+ b_{23}&..& a_{2n}+ b_{2n}\\a_{31}+ b_{31} &a_{32}+ b_{32} &a_{33}+ b_{33}&..& a_{3n}+ b_{3n}\\ :\\a_{m1}+ b_{m1} &a_{m2}+ b_{m2} &a_{m3}+ b_{m3}&……& a_{mn}+ b_{mn}\end{bmatrix}</span> </p>
+<p><em>方程 12</em></p>
+</div>
+
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+              <a href="03. 矩阵加法练习.html" class="btn btn-outline-primary mt-4" role="button">Next Concept</a>
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://us-udacity.github.io/" target="_blank">【udacity2.0 】If you need more courses, please add wechat：udacity6</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('02. 矩阵加法')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>

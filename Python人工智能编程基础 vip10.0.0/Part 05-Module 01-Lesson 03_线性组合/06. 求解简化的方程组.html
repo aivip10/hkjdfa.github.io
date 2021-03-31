@@ -1,0 +1,432 @@
+<!-- udacity2.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>求解简化的方程组</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>线性组合</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. 线性组合（第 1 部分）.html">01. 线性组合（第 1 部分）</a>
+    </li>
+    <li class="">
+      <a href="02. 线性组合（第 2 部分）.html">02. 线性组合（第 2 部分）</a>
+    </li>
+    <li class="">
+      <a href="03. 线性组合和张成.html">03. 线性组合和张成</a>
+    </li>
+    <li class="">
+      <a href="04. 线性组合 - 练习 1.html">04. 线性组合 - 练习 1</a>
+    </li>
+    <li class="">
+      <a href="05. 线性相关性.html">05. 线性相关性</a>
+    </li>
+    <li class="">
+      <a href="06. 求解简化的方程组.html">06. 求解简化的方程组</a>
+    </li>
+    <li class="">
+      <a href="07. 线性组合 - 练习 2.html">07. 线性组合 - 练习 2</a>
+    </li>
+    <li class="">
+      <a href="08. 线性组合 - 练习 3.html">08. 线性组合 - 练习 3</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">06. 求解简化的方程组</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h1 id="求解简化的方程组">求解简化的方程组</h1>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>向量与标量的线性组合将延伸出以下这个重要概念：<br />
+<strong>线性方程组</strong>。</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>在此线性代数课程中，我们将仅深入介绍有两个方程和两个变量的方程组。</p>
+<p>在更宽泛的线性代数课程中，你将<a href="https://en.wikipedia.org/wiki/System_of_linear_equations" rel="noopener noreferrer" target="_blank">详细了解</a> 含有<span class="mathquill ud-math">n</span> 个线性方程的方程组，其中 <span class="mathquill ud-math">n</span> 可以是任何数字。</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>假设有两个变量：</p>
+<ul>
+<li><p><span class="mathquill ud-math">\vec{x}=\begin{bmatrix} -14\\2\end{bmatrix}</span> </p></li>
+<li><p><span class="mathquill ud-math">\vec{y}=\begin{bmatrix} 5\\-1\end{bmatrix}</span> </p></li>
+</ul>
+<p>我们想要将新的变量：<br />
+ <span class="mathquill ud-math">\begin{bmatrix} -13\\3\end{bmatrix}</span> 表示为 <span class="mathquill ud-math">\vec{x}</span> 和 <br />
+<span class="mathquill ud-math">\vec{y}</span> 的线性组合。</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>换句话说，我们要计算使以下方程成立的两个标量，称之为 <span class="mathquill ud-math">a</span> 和 <span class="mathquill ud-math">b</span>：</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p><span class="mathquill ud-math">a\begin{bmatrix} -14\\2\end{bmatrix}+b\begin{bmatrix} 5\\-1\end{bmatrix}=\begin{bmatrix} -13\\3\end{bmatrix}</span> </p>
+<p><em>方程  9</em></p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>现在我们知道如何使向量与标量相乘，我们来计算下：</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p><span class="mathquill ud-math">\begin{bmatrix} (-14)a\\2a\end{bmatrix}+\begin{bmatrix} 5b\\(-1)b\end{bmatrix}=\begin{bmatrix} -13\\3\end{bmatrix}</span> </p>
+<p><em>方程 10</em></p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>上述方程将得出两个单独的方程：</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/screen-shot-2018-01-26-at-10.16.48-pm.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>上述方程组称为<em>有两个变量、由两个方程组成的方程组</em>。</p>
+<p>可以通过三种理论方法求解该方程组：</p>
+<ul>
+<li>图形法</li>
+<li>替代法</li>
+<li>消元法</li>
+</ul>
+<p>下面，我们将详细介绍这三种方法。</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p><strong>图形法：</strong></p>
+<p>绘出这两条线（线性图）并找到交点。</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>交点是 <span class="mathquill ud-math">(a,b)</span> 的解，因为它是同时位于这两条线上的唯一点。换句话说，它是唯一满足这两个方程的点。</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/screen-shot-2018-01-26-at-11.05.49-pm.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>可以清晰地看出：</p>
+<p><span class="mathquill ud-math">a= -0.5</span> </p>
+<p>和</p>
+<p><span class="mathquill ud-math">b= -4</span> </p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p><strong>替代法：</strong></p>
+<p>在其中一个方程中分离出一个变量，然后在第二个方程中替换它</p>
+<p>这种方法将使方程组缩减成有一个变量的一个方程。</p>
+<p>在我们的示例中：</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>(1) <span class="mathquill ud-math">-14a+5b=-13</span> </p>
+<p>(2) <span class="mathquill ud-math"> 2a-b=3</span> </p>
+<p>从 (1) 得出 <span class="mathquill ud-math">2a-b=3\Rightarrow b=2a-3</span> </p>
+<p>在方程 (2) 中替换 b</p>
+<p><span class="mathquill ud-math">-14a+5(2a-3)=-13</span> 并求解 <span class="mathquill ud-math">a</span>。</p>
+<p>运用简单的代数知识后得出 <span class="mathquill ud-math">a=-0.5</span></p>
+<p>替换上述方程 (1) 或 (2) 中的 <span class="mathquill ud-math">a</span>，得出 <span class="mathquill ud-math">b=-4</span>。</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p><strong>消元法：</strong></p>
+<p>在此方法中，我们将通过乘以相同的数字，即某个标量（系数）的绝对值，消去其中一个变量。</p>
+<p>我们再看看这两个方程：</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/screen-shot-2018-01-26-at-11.16.45-pm.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>如果使方程 2 两边乘以 5，将得出以下方程组：</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/screen-shot-2018-01-26-at-11.21.42-pm.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>（注意：两个方程乘以的标量 <span class="mathquill ud-math">b</span> 即系数 <span class="mathquill ud-math">b</span> 的绝对值都是 5）。</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>现在将它们相加。</p>
+<p>得出有一个变量的以下单个方程：</p>
+<p><span class="mathquill ud-math">-4a+0b=2</span> </p>
+<p>或者：</p>
+<p><span class="mathquill ud-math">-4a=2\Rightarrow a=-0.5</span> </p>
+<p>替换任何一个方程中的 <span class="mathquill ud-math">a</span>，得出 <span class="mathquill ud-math">b=-4</span>。</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>最终答案：</p>
+<p>我们算出了将向量<br />
+ <span class="mathquill ud-math">\begin{bmatrix} -13\\3\end{bmatrix}</span> 表示为 <span class="mathquill ud-math">\vec{x}</span> 和 <br />
+<span class="mathquill ud-math">\vec{y}</span> 的线性组合的标量 <span class="mathquill ud-math">a</span> 和 <span class="mathquill ud-math">b</span>。</p>
+<p><span class="mathquill ud-math">a\begin{bmatrix} -14\\2\end{bmatrix}+b\begin{bmatrix} 5\\-1\end{bmatrix}=\begin{bmatrix} -13\\3\end{bmatrix}</span> </p>
+<p>唯一的解是：</p>
+<p><span class="mathquill ud-math">a=-0.5</span> 和<br />
+<span class="mathquill ud-math">b=-4</span></p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>在此示例中，两个系数均为负数。思考下，如果都是正数或一正一负，该怎么办？</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>再思考另一个问题：</p>
+<p>有两个线性方程和两个变量的方程组始终有解吗？如果有解，始终是唯一解吗？</p>
+<p>接下来的几道练习将帮助你回答这个问题。</p>
+</div>
+
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+              <a href="07. 线性组合 - 练习 2.html" class="btn btn-outline-primary mt-4" role="button">Next Concept</a>
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://us-udacity.github.io/" target="_blank">【udacity2.0 】If you need more courses, please add wechat：udacity6</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('06. 求解简化的方程组')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>

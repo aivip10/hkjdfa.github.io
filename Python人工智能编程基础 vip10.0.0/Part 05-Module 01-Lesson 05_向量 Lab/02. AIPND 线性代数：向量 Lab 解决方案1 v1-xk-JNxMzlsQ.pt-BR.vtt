@@ -1,0 +1,115 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.340 --> 00:00:02.230
+Olá, alunos!
+Aqui é a Jennifer.
+
+00:00:02.802 --> 00:00:04.501
+Vou guiar vocês
+pelos vídeos-solução
+
+00:00:04.534 --> 00:00:07.137
+dos laboratórios de
+Álgebra Linear Básica.
+
+00:00:07.227 --> 00:00:09.829
+Este é o vídeo-solução
+do Laboratório de Vetores,
+
+00:00:09.862 --> 00:00:12.590
+cobrindo multiplicação
+de vetor por escalar
+
+00:00:12.623 --> 00:00:14.048
+e plotando o resultado.
+
+00:00:14.439 --> 00:00:18.399
+Primeiro, vamos substituir "none"
+pela definição do vetor av,
+
+00:00:18.757 --> 00:00:21.760
+multiplicando o vetor v
+pelo escalar a.
+
+00:00:23.269 --> 00:00:27.404
+Aqui dissemos que
+av = a vezes v
+
+00:00:27.575 --> 00:00:29.598
+e marcamos a tarefa
+como cumprida.
+
+00:00:30.061 --> 00:00:33.765
+A seguir, colocamos o vetor av
+no gráfico
+
+00:00:33.798 --> 00:00:35.491
+como uma flecha azul
+tracejada.
+
+00:00:36.066 --> 00:00:39.955
+Vamos copiar a declaração arrow
+do vetor v
+
+00:00:40.006 --> 00:00:41.398
+e vamos colocar aqui.
+
+00:00:41.950 --> 00:00:44.422
+Depois vamos mudar o vetor v
+
+00:00:44.623 --> 00:00:46.135
+para o vetor av
+
+00:00:46.433 --> 00:00:49.427
+e color = 'b'
+para color = 'c'.
+
+00:00:49.974 --> 00:00:52.658
+Depois fazemos
+linestyle = 'dotted'.
+
+00:00:53.219 --> 00:00:56.121
+Isso vai colocar o vetor av
+no nosso gráfico
+
+00:00:56.543 --> 00:00:58.389
+e o que temos aqui
+
+00:00:58.422 --> 00:01:02.430
+vai ficar como a solução
+que estamos vendo aqui.
+
+00:01:03.115 --> 00:01:05.394
+Depois vamos clicar
+em salvar
+
+00:01:05.427 --> 00:01:06.723
+para salvar o trabalho.
+
+00:01:07.476 --> 00:01:09.155
+Depois selecionamos Kernel,
+
+00:01:09.343 --> 00:01:11.112
+Restart &amp; Run All
+
+00:01:11.549 --> 00:01:13.472
+para rodar o código
+em todas as células
+
+00:01:13.505 --> 00:01:16.124
+para visualizar as mudanças feitas
+no gráfico.
+
+00:01:16.157 --> 00:01:19.637
+Por fim, comparamos
+nosso gráfico com a solução
+
+00:01:20.226 --> 00:01:23.600
+e vemos que escrevemos
+o código corretamente.
+
+00:01:23.722 --> 00:01:25.587
+Isso completa o laboratório.
+

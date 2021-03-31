@@ -1,0 +1,61 @@
+{
+  "data": {
+    "lesson": {
+      "id": 287667,
+      "key": "5eb10fac-fd66-48d6-a198-e37a75ee06c6",
+      "title": "实现线性回归",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "zh-cn",
+      "summary": "在本项目中，不借助任何库进行矩阵运算，并实现高斯消元法与线性回归，更深刻的理解神经网络中基于线性代数的本质。",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": false,
+      "resources": null,
+      "project": {
+        "key": "b4536952-7748-4e6a-bfad-f9e1828f798c",
+        "version": "1.0.0",
+        "locale": "zh-cn",
+        "duration": 30240,
+        "semantic_type": "Project",
+        "title": "线性回归",
+        "description": "# 线性回归项目\n\n欢迎来到线性回归项目，线性代数是很多机器学习算法的基础，在这个项目中，你将不借助任何库，用你之前所学来解决一个线性回归问题\n\n你可以在 https://github.com/nd009/linear_algebra 找到项目内容和提交指南。",
+        "is_public": true,
+        "summary": null,
+        "forum_path": "",
+        "rubric_id": "871",
+        "terminal_project_id": null,
+        "resources": null,
+        "image": null
+      },
+      "lab": null,
+      "concepts": [
+        {
+          "id": 287665,
+          "key": "1fb7f715-f71c-4174-955e-3fa834bb5764",
+          "title": "项目介绍",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1fb7f715-f71c-4174-955e-3fa834bb5764",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 390499,
+              "key": "771f7d8c-7a4f-4a6e-8221-bd10cef9a42f",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# 线性回归项目\n\n欢迎来到线性回归项目，线性代数是很多机器学习算法的基础，在这个项目中，你将不借助任何库，用你之前所学来解决一个线性回归问题\n\n你可以在 https://github.com/nd009/linear_algebra 找到项目内容和提交指南。",
+              "instructor_notes": ""
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

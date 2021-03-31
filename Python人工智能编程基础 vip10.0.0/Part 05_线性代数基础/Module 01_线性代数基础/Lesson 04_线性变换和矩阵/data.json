@@ -1,0 +1,1226 @@
+{
+  "data": {
+    "lesson": {
+      "id": 592733,
+      "key": "d9334d0c-1a33-4913-8b21-a643a8d7a2a0",
+      "title": "线性变换和矩阵",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "zh-cn",
+      "summary": "什么是线性变换，它与矩阵有何直接联系？你将学习如何运用数学知识并可视化这些概念。",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": null,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/d9334d0c-1a33-4913-8b21-a643a8d7a2a0/592733/1544207703451/%E7%BA%BF%E6%80%A7%E5%8F%98%E6%8D%A2%E5%92%8C%E7%9F%A9%E9%98%B5+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/d9334d0c-1a33-4913-8b21-a643a8d7a2a0/592733/1544207699499/%E7%BA%BF%E6%80%A7%E5%8F%98%E6%8D%A2%E5%92%8C%E7%9F%A9%E9%98%B5+Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 592718,
+          "key": "5c1144f8-57f6-4b7d-882a-5215bd21c2bd",
+          "title": "什么是矩阵？",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "5c1144f8-57f6-4b7d-882a-5215bd21c2bd",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 592598,
+              "key": "9da298f7-4bd9-43b5-b61c-19e0c0e69ae0",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# 什么是矩阵？",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592599,
+              "key": "3a0d6012-9fa7-4916-999c-3717160f8998",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "下一步是理解什么是**矩阵**。\n\n在观看视频之前，我们先介绍一些定义和计算公式！\n到底什么是[矩阵](https://en.wikipedia.org/wiki/The_Matrix)（这个网址在国外，国内可能打不开）？我说的不是黑客帝国 (Matrix)。我们说的矩阵早在 1999 年前就问世了。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592600,
+              "key": "fd084095-5014-42f1-a565-51293da05e33",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "**矩阵**是一个二维数组，和向量包含的元素一样。\n矩阵可以包含 <span class=\"mathquill\">m</span> 行和 <span class=\"mathquill\">n</span> 列。\n\n如果矩阵包含 <span class=\"mathquill\">m</span> 行和 <span class=\"mathquill\">n</span> 列，则称之为 <span class=\"mathquill\">m</span> x <span class=\"mathquill\">n</span> 矩阵。\n\n我们来看看以下方程中的矩阵 <span class=\"mathquill\">A</span>：",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592601,
+              "key": "e527f637-9a6e-4871-915a-1f725ceffa41",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<span class=\"mathquill\">A=\\begin{bmatrix} a_{11} &a_{12} &a_{13}&..& a_{1n}\n\\\\ a_{21} &a_{22} &a_{23}&..& a_{2n}\n\\\\a_{31} &a_{32} &a_{33}&..& a_{3n}\n\\\\ :\n\\\\a_{m1} &a_{m2} &a_{m3}&......& a_{mn}\n\\end{bmatrix}</span> \n\n_方程 11_",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592602,
+              "key": "7d76ca11-123b-4391-aa27-c1b1b47f6c70",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "_方程 11_ 中显示的矩阵中的每个元素 <span class=\"mathquill\">a_{ij}</span> 都是在行 <span class=\"mathquill\">i</span> 和列 <span class=\"mathquill\">j</span> 中显示的数字值。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592603,
+              "key": "3efbfc7e-52be-400b-b9f6-9147488dc334",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/February/5a84846d_screen-shot-2018-02-14-at-10.47.52-am/screen-shot-2018-02-14-at-10.47.52-am.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3efbfc7e-52be-400b-b9f6-9147488dc334",
+              "caption": "_元素 ij 矩阵 A_",
+              "alt": "",
+              "width": 300,
+              "height": 200,
+              "instructor_notes": null
+            },
+            {
+              "id": 592604,
+              "key": "928c6ef6-bca2-4e19-aa75-540c35b91701",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "下一步是了解如何应用**矩阵算法**执行以下运算：\n\n- 矩阵加法\n- 矩阵的标量乘法\n- 矩阵乘法\n\n在对矩阵执行任何数学运算时，我们需要确保处理的是正确的维度。还需要注意索引。了解这些知识后，剩下的就很简单了！我们来看看具体细节：\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 592719,
+          "key": "222a0172-4a59-452d-8567-024f07a7662b",
+          "title": "矩阵加法",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "222a0172-4a59-452d-8567-024f07a7662b",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 592605,
+              "key": "79061654-6cce-431a-b4e0-81726b261806",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# 矩阵加法",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592606,
+              "key": "f648ae8c-704a-45f9-9810-dd8327bb7c0b",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "\n要将一个矩阵与另一个矩阵相加，我们需要：\n- 验证确保两个矩阵的维度相同\n- 按照相应的正确索引将元素相加\n\n\n  \n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592607,
+              "key": "a9c98418-2edf-4337-bc07-f9bc4d3ae154",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "我们通过一个示例来理解这方面的要求：\n\n我们将侧重于在 _方程 11_ 中看到的随机矩阵：\n\n<span class=\"mathquill\">A=\\begin{bmatrix} a_{11} &a_{12} &a_{13}&..& a_{1n}\n\\\\ a_{21} &a_{22} &a_{23}&..& a_{2n}\n\\\\a_{31} &a_{32} &a_{33}&..& a_{3n}\n\\\\ :\n\\\\a_{m1} &a_{m2} &a_{m3}&......& a_{mn}\n\\end{bmatrix}</span> \n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592608,
+              "key": "3c428271-8c15-4178-ac0e-771af2593e7d",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "矩阵 <span class=\"mathquill\">A</span> 的维度为 <span class=\"mathquill\">m</span>x<span class=\"mathquill\">n</span>。\n这意味着该矩阵具有 <span class=\"mathquill\">m</span> 行和 <span class=\"mathquill\">n</span> 列。 \n\n矩阵 <span class=\"mathquill\">A</span> 只能与另一个具有 <span class=\"mathquill\">m</span> 行和 <span class=\"mathquill\">n</span> 列的矩阵相加。例如矩阵 <span class=\"mathquill\">B</span>。\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592609,
+              "key": "b5729fbe-e205-4933-97ae-4aedbcf0b6c2",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<span class=\"mathquill\">B=\\begin{bmatrix} b_{11} &b_{12} &b_{13}&..& b_{1n}\n\\\\ b_{21} &b_{22} &b_{23}&..& b_{2n}\n\\\\b_{31} &b_{32} &b_{33}&..& b_{3n}\n\\\\ :\n\\\\b_{m1} &b_{m2} &b_{m3}&......& b_{mn}\n\\end{bmatrix}</span> \n\n_方程 12_",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592610,
+              "key": "1cbe9a66-7937-405f-8943-d21c9d1c15da",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "只要维度相同，加法就很简单：\n\n只需将 <span class=\"mathquill\">A</span> 中的元素 <span class=\"mathquill\">a_{ij}</span> 与 <span class=\"mathquill\">B</span> 中的相应元素 <span class=\"mathquill\">b_{ij}</span> 相加即可。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592611,
+              "key": "480d8081-8257-41c1-abd1-f29724cb947c",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<span class=\"mathquill\">A+B=\\begin{bmatrix} a_{11} &a_{12} &a_{13}&..& a_{1n}\n\\\\ a_{21} &a_{22} &a_{23}&..& a_{2n}\n\\\\a_{31} &a_{32} &a_{33}&..& a_{3n}\n\\\\ :\n\\\\a_{m1} &a_{m2} &a_{m3}&......& a_{mn}\n\\end{bmatrix}+\\begin{bmatrix} b_{11} &b_{12} &b_{13}&..& b_{1n}\n\\\\ b_{21} &b_{22} &b_{23}&..& b_{2n}\n\\\\b_{31} &b_{32} &b_{33}&..& b_{3n}\n\\\\ :\n\\\\b_{m1} &b_{m2} &b_{m3}&......& b_{mn}\n\\end{bmatrix}</span> \n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592612,
+              "key": "f96d7e83-8666-47ce-9e86-543439018260",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<span class=\"mathquill\">A+B=\\begin{bmatrix} a_{11}+ b_{11} &a_{12}+ b_{12} &a_{13}+ b_{13}&..& a_{1n}+ b_{1n}\n\\\\ a_{21}+ b_{21} &a_{22} + b_{22}&a_{23}+ b_{23}&..& a_{2n}+ b_{2n}\n\\\\a_{31}+ b_{31} &a_{32}+ b_{32} &a_{33}+ b_{33}&..& a_{3n}+ b_{3n}\n\\\\ :\n\\\\a_{m1}+ b_{m1} &a_{m2}+ b_{m2} &a_{m3}+ b_{m3}&......& a_{mn}+ b_{mn}\n\\end{bmatrix}</span> \n\n_方程 12_",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 592720,
+          "key": "925dfdd4-d861-4a60-9789-ead96d9055d6",
+          "title": "矩阵加法练习",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "925dfdd4-d861-4a60-9789-ead96d9055d6",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 592613,
+              "key": "c8225d7a-61d7-4b97-b3ca-e972c76fbed2",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# 矩阵加法练习\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592614,
+              "key": "c2dab444-7a05-4679-9a51-5022d5c445c8",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "对于以下情形，矩阵 <span class=\"mathquill\">D</span> 的第 <span class=\"mathquill\">{ij}</span> 个元素的值是多少？\n\n<span class=\"mathquill\">D=A+B-C</span>\n\na. <span class=\"mathquill\">i=2</span>，<span class=\"mathquill\">j=3</span>\n\nb. <span class=\"mathquill\">i=3</span>，<span class=\"mathquill\">j=1</span>\n\n\n\n ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592615,
+              "key": "a5ce3117-7fdc-421b-836c-8c191e09ea33",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<span class=\"mathquill\">A=\\begin{bmatrix} 3 &0.6 &4&-3\n\\\\ -1.3 &4 &0&8.6\n\\\\7&0 &-8& 0.006\n\\end{bmatrix}</span> ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592616,
+              "key": "52f85993-0447-43dd-87a3-4ebf2b80a565",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<span class=\"mathquill\">B=\\begin{bmatrix} 3 &-5.76 &45&0\n\\\\ 2 &-2 &1.3&9\n\\\\-9&0 &0& 0\n\\end{bmatrix}</span> ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592617,
+              "key": "c68a25ff-a54f-40c0-9713-ac91bc851f6c",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<span class=\"mathquill\">C=\\begin{bmatrix} 0 &1009 &-66.7849&90\n\\\\ 0 &5 &4&-0.07\n\\\\-7.7&0 &0& 0\n\\end{bmatrix}</span> ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592618,
+              "key": "2e993729-e263-427b-9452-f25228ef281e",
+              "title": null,
+              "semantic_type": "WorkspaceAtom",
+              "is_public": true,
+              "workspace_id": "viewa2c5c3c4",
+              "pool_id": "webterminal",
+              "view_id": "a2c5c3c4-087b-42e6-a3f2-792ec0257e9c",
+              "gpu_capable": false,
+              "configuration": {
+                "id": "reserved",
+                "blueprint": {
+                  "conf": {
+                    "port": 3000,
+                    "ports": [],
+                    "daemons": [
+                      {
+                        "id": "daemon",
+                        "cmd": "cd /home/workspace/workspace-math-support && python server3.py\n"
+                      }
+                    ],
+                    "openFiles": [
+                      "/home/workspace/workspace-math-support/math/math.txt"
+                    ],
+                    "showFiles": false,
+                    "allowClose": false,
+                    "allowSubmit": false
+                  },
+                  "kind": "react-live"
+                },
+                "workspaceId": "reserved"
+              },
+              "starter_files": null
+            },
+            {
+              "id": 592619,
+              "key": "eee08d54-b517-43c2-8ed1-441a44d18b93",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "注意：如果你的 Workspace 遇到问题，请重置数据。",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 592721,
+          "key": "7684aecd-d2a7-4a09-8b47-35855299c23f",
+          "title": "矩阵的标量乘法和练习",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "7684aecd-d2a7-4a09-8b47-35855299c23f",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 592620,
+              "key": "8b421a51-4c5d-40fc-b1af-8c211b4a162f",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# 矩阵的标量乘法",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592621,
+              "key": "d5dc3646-3956-41a9-9397-08802e4a5627",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "要将矩阵与标量相乘，我们**不**需要验证维度或指数。\n\n只需将矩阵中的每个元素与标量相乘即可！",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592622,
+              "key": "c15d7655-c92f-4f3f-8467-b4ea3211cfa8",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "例如：\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592623,
+              "key": "cc1f47c5-1439-4302-be8f-6f97a21b5936",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<span class=\"mathquill\">\\alpha A=\\begin{bmatrix} \\alpha a_{11} &\\alpha a_{12} &\\alpha a_{13}&..& \\alpha a_{1n}\n\\\\ \\alpha a_{21} &\\alpha a_{22} &\\alpha a_{23}&..&\\alpha  a_{2n}\n\\\\\\alpha a_{31} &\\alpha a_{32} &\\alpha a_{33}&..&\\alpha  a_{3n}\n\\\\ :\n\\\\\\alpha a_{m1} &\\alpha a_{m2} &\\alpha a_{m3}&......&\\alpha  a_{mn}\n\\end{bmatrix}</span> \n\n_方程 13_\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592624,
+              "key": "cb65f4a8-4775-42f7-83a7-08bdc70e4fe4",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# 练习",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592625,
+              "key": "9954018c-3a35-491e-94f7-1a67d7fe2788",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "对于以下情形，矩阵 <span class=\"mathquill\">D</span> 的第 <span class=\"mathquill\">{ij}</span> 个元素的值是多少？\n\n<span class=\"mathquill\">D=0.2A+(-5)B-2C</span>\n\na. <span class=\"mathquill\">i=1</span>，<span class=\"mathquill\">j=1</span>\n\nb. <span class=\"mathquill\">i=2</span>，<span class=\"mathquill\">j=4</span>\n\n\n\n ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592626,
+              "key": "a929699f-0c25-47ca-82f8-0b5730c6d706",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<span class=\"mathquill\">A=\\begin{bmatrix} 3 &0.6 &4&-3\n\\\\ -1.3 &4 &0&8.6\n\\\\7&0 &-8& 0.006\n\\end{bmatrix}</span> ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592628,
+              "key": "e17e5d86-903d-4f48-b7f8-46964d4028d0",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<span class=\"mathquill\">B=\\begin{bmatrix} 3 &-5.76 &45&0\n\\\\ 2 &-2 &1.3&9\n\\\\-9&0 &0& 1\n\\end{bmatrix}</span> ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592627,
+              "key": "531bc99b-ce29-4c5c-9aac-d9dd0a064266",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<span class=\"mathquill\">C=\\begin{bmatrix} 0 &1009 &-66.7849&90\n\\\\ 0 &5 &4&-0.07\n\\\\0&0 &0& 0\n\\end{bmatrix}</span> ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592629,
+              "key": "3761577f-d2d7-42a7-8687-477fe9b2a9e1",
+              "title": null,
+              "semantic_type": "WorkspaceAtom",
+              "is_public": true,
+              "workspace_id": "view85c06ccb",
+              "pool_id": "webterminal",
+              "view_id": "85c06ccb-2781-4986-8b71-458cfa0fd5e9",
+              "gpu_capable": false,
+              "configuration": {
+                "id": "reserved",
+                "blueprint": {
+                  "conf": {
+                    "port": 3000,
+                    "ports": [],
+                    "daemons": [
+                      {
+                        "id": "daemon",
+                        "cmd": "cd /home/workspace/workspace-math-support && python server3.py\n"
+                      }
+                    ],
+                    "openFiles": [
+                      "/home/workspace/workspace-math-support/math/math.txt"
+                    ],
+                    "showFiles": false,
+                    "allowClose": false,
+                    "allowSubmit": false
+                  },
+                  "kind": "react-live"
+                },
+                "workspaceId": "reserved"
+              },
+              "starter_files": null
+            },
+            {
+              "id": 592631,
+              "key": "4d1da991-b89c-46e7-8850-0c1bed428b80",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "注意，方程 <span class=\"mathquill\">D=0.2A+(-5)B-2C</span> 表示矩阵和标量的**线性组合**。  ",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 592722,
+          "key": "b996e37a-d316-4c26-afe7-14e93b68b521",
+          "title": "方形矩阵的乘法",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "b996e37a-d316-4c26-afe7-14e93b68b521",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 592630,
+              "key": "2d3c11a1-2c55-4026-80b3-ebd7cc6b64bf",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# 方形矩阵的乘法",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592632,
+              "key": "36a383fd-e51d-4ecd-b25d-9e9bba2c4474",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "将两个矩阵相乘时，我们需要考虑每个矩阵的维度，如果维度不能合理匹配，则无法相乘。\n\n最简单的乘法是两个具有相同维度 <span class=\"mathquill\">n</span>x<span class=\"mathquill\">n</span> 的**方形矩阵*相乘。 \n\n方形矩阵是行数和列数相同的矩阵。\n\n下面是一个 <span class=\"mathquill\">m</span>x<span class=\"mathquill\">m</span> 方形矩阵。它有 <span class=\"mathquill\">m</span> 行和 <span class=\"mathquill\">m</span> 列。\n\n\n\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592633,
+              "key": "eccd84a9-0ed9-4e84-917c-73c4dd3aa0a2",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<span class=\"mathquill\">A=\\begin{bmatrix} a_{11} &a_{12} &a_{13}&..& a_{1m}\n\\\\ a_{21} &a_{22} &a_{23}&..& a_{2m}\n\\\\a_{31} &a_{32} &a_{33}&..& a_{3m}\n\\\\ :\n\\\\a_{m1} &a_{m2} &a_{m3}&......& a_{mm}\n\\end{bmatrix}</span> \n\n_方程 14_",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592634,
+              "key": "84389b04-5322-4824-8086-2abe056598cc",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "_方程 14_ 中的矩阵 <span class=\"mathquill\">A</span> 可以与其他维度相同的矩阵 <span class=\"mathquill\">m</span>x<span class=\"mathquill\">m</span> 相乘。\n\n结果是一个维度相同的新方形矩阵。  \n\n演示实际乘法过程的最简单方式是看一个示例：",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592635,
+              "key": "d8468e97-4d6a-4605-b0a6-b8155dcce567",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "假设 <span class=\"mathquill\">P</span> 和 <span class=\"mathquill\">Q</span> 是两个 <span class=\"mathquill\">3</span>x<span class=\"mathquill\">3</span> 方形矩阵。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592636,
+              "key": "60bfd986-e0c9-4871-9115-2edbbf37ed4c",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<span class=\"mathquill\">P=\\begin{bmatrix} p_{11} &p_{12} &p_{13}\n\\\\ p_{21} &p_{22} &p_{23}\n\\\\p_{31} &p_{32} &p_{33}\n\\end{bmatrix}</span> \n\n\n<span class=\"mathquill\">Q=\\begin{bmatrix} q_{11} &q_{12} &q_{13}\n\\\\ q_{21} &q_{22} &q_{23}\n\\\\q_{31} &q_{32} &q_{33}\n\\end{bmatrix}</span> \n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592637,
+              "key": "4ce5a536-9133-46d5-a399-e5e91c6ae6cb",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "要使 <span class=\"mathquill\">P</span> 与 <span class=\"mathquill\">Q</span> 相乘，我们需要执行以下操作：\n\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592638,
+              "key": "d43513b3-2f4c-41d0-984d-828ca7c01b5a",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<span class=\"mathquill\">P</span>x<span class=\"mathquill\">Q</span>= <span class=\"mathquill\">\\begin{bmatrix} p_{11}q_{11}+p_{12}q_{21}+p_{13}q_{31}  &p_{11}q_{12}+p_{12}q_{22}+p_{13}q_{32} &p_{11}q_{13}+p_{12}q_{23}+p_{13}q_{33} \n\\\\  p_{21}q_{11}+p_{22}q_{21}+p_{23}q_{31}  &p_{21}q_{12}+p_{22}q_{22}+p_{23}q_{32} &p_{21}q_{13}+p_{22}q_{23}+p_{23}q_{33} \n\\\\ p_{31}q_{11}+p_{32}q_{21}+p_{33}q_{31}  &p_{31}q_{12}+p_{32}q_{22}+p_{33}q_{32} &p_{31}q_{13}+p_{32}q_{23}+p_{33}q_{33} \n\\end{bmatrix}</span> \n\n_方程 15_",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592639,
+              "key": "f3705c25-1bdf-4b59-a307-3cae8b8ae031",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "注意在乘法结果中查找每个元素的规律。\n\n<span class=\"mathquill\">P</span>x<span class=\"mathquill\">Q</span> 中的每个元素 <span class=\"mathquill\">ij</span> 是将矩阵 <span class=\"mathquill\">P</span> 的行 <span class=\"mathquill\">i</span> 中的所有元素与矩阵 <span class=\"mathquill\">Q</span> 的列 j 中的相应 <span class=\"mathquill\">j</span> 元素相乘的结果。\n\n请看下图：",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592640,
+              "key": "1247683e-265d-49c2-8651-4e73b3fe8ab6",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/February/5a84cd95_screen-shot-2018-02-14-at-3.59.39-pm/screen-shot-2018-02-14-at-3.59.39-pm.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/1247683e-265d-49c2-8651-4e73b3fe8ab6",
+              "caption": "",
+              "alt": "",
+              "width": 400,
+              "height": 300,
+              "instructor_notes": null
+            },
+            {
+              "id": 592641,
+              "key": "07034bae-96d0-4695-8f4d-a52a1da91877",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "如果 A 是一个 n × m 矩阵，B 是一个 m × p 矩阵，它们的矩阵积 AB 是一个 n × p 矩阵，其中 A 的行上的 m 个元素与 B 的列上的 m 个元素相乘，得出矩阵积 AB。如果用矩阵表示两个线性变换，则矩阵积表示两个变换的合成结果。\n\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 592723,
+          "key": "56e34aae-1031-411b-b796-cd9c40f4e652",
+          "title": "方形矩阵乘法练习",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "56e34aae-1031-411b-b796-cd9c40f4e652",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 592642,
+              "key": "e480c47a-7ee2-4f70-ad84-11fe9923c0d1",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# 方形矩阵乘法练习",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592643,
+              "key": "85cc41f6-e2c4-4514-bde2-15e03aa79614",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "假设 <span class=\"mathquill\">A</span> 和 <span class=\"mathquill\">B</span> 是两个 <span class=\"mathquill\">3</span> x <span class=\"mathquill\">3</span> 方形矩阵。\n\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592644,
+              "key": "25b26c9d-8590-494a-a2b0-0e0f0bf92586",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<span class=\"mathquill\">A=\\begin{bmatrix} 3 &1 &2\n\\\\ -5 &4 &1\n\\\\0&3&-8\n\\end{bmatrix}</span> \n\n<span class=\"mathquill\">B=\\begin{bmatrix} 0 &5&-1\n\\\\ 3 &2 &-1\n\\\\10&0.5&4\n\\end{bmatrix}</span> ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592645,
+              "key": "63dd385f-26d4-4da6-bf76-ca73854a7b37",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "(a) 矩阵 <span class=\"mathquill\">C</span> 的元素 <span class=\"mathquill\">c_{23}</span> 的值是多少，其中 <span class=\"mathquill\">C=A</span> x <span class=\"mathquill\">B</span>\n\n\n(b) 矩阵 <span class=\"mathquill\">C</span> 的元素 <span class=\"mathquill\">c_{23}</span> 的值是多少，其中 <span class=\"mathquill\">C=B</span> x <span class=\"mathquill\">A</span>\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592646,
+              "key": "14eea63c-583a-4f6f-ab13-5d68ec42681a",
+              "title": null,
+              "semantic_type": "WorkspaceAtom",
+              "is_public": true,
+              "workspace_id": "view1dad47a7",
+              "pool_id": "webterminal",
+              "view_id": "1dad47a7-d3cd-453e-a000-eab5da796f30",
+              "gpu_capable": false,
+              "configuration": {
+                "id": "reserved",
+                "blueprint": {
+                  "conf": {
+                    "port": 3000,
+                    "ports": [],
+                    "daemons": [
+                      {
+                        "id": "daemon",
+                        "cmd": "cd /home/workspace/workspace-math-support && python server3.py\n"
+                      }
+                    ],
+                    "openFiles": [
+                      "/home/workspace/workspace-math-support/math/math.txt"
+                    ],
+                    "showFiles": false,
+                    "allowClose": false,
+                    "allowSubmit": false
+                  },
+                  "kind": "react-live"
+                },
+                "workspaceId": "reserved"
+              },
+              "starter_files": null
+            },
+            {
+              "id": 592647,
+              "key": "45543ac9-ad79-4b0c-a001-4bc14169d6c3",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "注意 <span class=\"mathquill\">A</span> x <span class=\"mathquill\">B\\neq</span><span class=\"mathquill\">B</span> x <span class=\"mathquill\">A</span>，因为 \n<span class=\"mathquill\">A</span> x <span class=\"mathquill\">B</span> 中的元素 <span class=\"mathquill\">c_{23}</span> 与 <span class=\"mathquill\">B</span> x <span class=\"mathquill\">A</span> 中的元素 <span class=\"mathquill\">c_{23}</span> 不同。\n\n因为 <span class=\"mathquill\">A</span> x <span class=\"mathquill\">B\\neq</span><span class=\"mathquill\">B</span> x <span class=\"mathquill\">A</span>，我们称之为不满足[**交换律**](https://en.wikipedia.org/wiki/Commutative_property)。这是一个有趣的现象，标量乘法肯定是满足交换律的。\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 592724,
+          "key": "9652ac6e-3f5c-46d7-9b0a-15abb7b306f2",
+          "title": "矩阵乘法 - 一般情况",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "9652ac6e-3f5c-46d7-9b0a-15abb7b306f2",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 592648,
+              "key": "db20d345-3e37-46a6-812e-80b5290d895e",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "到目前为止，我们仅讲解了方形矩阵乘法。但是，矩阵乘法不限于方形矩阵乘法。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592649,
+              "key": "cc2cc561-44fe-4464-83e7-f833677cf44a",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "我们再来看看表示乘法 <span class=\"mathquill\">P</span> x <span class=\"mathquill\">Q</span> 的图形：\n\n**注意，这里的顺序很重要，因为矩阵乘法是不满足交换律的** ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592650,
+              "key": "68a64a35-2671-4d06-99d4-681d5d4bd6f5",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/February/5a84eb9d_screen-shot-2018-02-14-at-6.07.26-pm/screen-shot-2018-02-14-at-6.07.26-pm.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/68a64a35-2671-4d06-99d4-681d5d4bd6f5",
+              "caption": "",
+              "alt": "",
+              "width": 400,
+              "height": 300,
+              "instructor_notes": null
+            },
+            {
+              "id": 592651,
+              "key": "9080442b-5479-41cd-a37a-6cb973d1a461",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "如果你仔细观察表示乘法 <span class=\"mathquill\">P</span> x <span class=\"mathquill\">Q</span> 的图形，你将发现 <span class=\"mathquill\">P</span> 中的列数等于 <span class=\"mathquill\">Q</span> 中的行数。（在我们的示例中，数量为 <span class=\"mathquill\">3</span>）。\n\n矩阵 <span class=\"mathquill\">P</span> 中的行数是多少？矩阵 <span class=\"mathquill\">Q</span> 中的列数是多少？这两个数字决定了乘法结果的维数。\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592652,
+              "key": "706bcd8d-9bd5-4971-af0d-f76e278d09c4",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "换句话说，如果 <span class=\"mathquill\">P</span> 是一个维度为 <span class=\"mathquill\">t</span> x <span class=\"mathquill\">m</span> 的矩阵，<span class=\"mathquill\">Q</span> 是一个维度为 <span class=\"mathquill\">m</span> x <span class=\"mathquill\">v</span> 的矩阵，那么：\n\n-  <span class=\"mathquill\">P</span>x<span class=\"mathquill\">Q</span> 是可行的，因为维度匹配。（<span class=\"mathquill\">P</span> 有 <span class=\"mathquill\">m</span> 列，<span class=\"mathquill\">Q</span> 有 <span class=\"mathquill\">m</span> 行）。\n\n\n- <span class=\"mathquill\">P</span>x<span class=\"mathquill\">Q</span> 将是一个 <span class=\"mathquill\">t</span>x<span class=\"mathquill\">v</span> 矩阵。（有 <span class=\"mathquill\">t</span> 行和 <span class=\"mathquill\">v</span> 列）。\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592653,
+              "key": "e233f397-3ca7-48bc-b436-fba7e94c763a",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "我们来看一个示例：\n\n<span class=\"mathquill\">P=\\begin{bmatrix} p_{11} &p_{12} &p_{13}\n\\\\ p_{21} &p_{22} &p_{23}\n\\end{bmatrix}</span> \n\n\n<span class=\"mathquill\">Q=\\begin{bmatrix} q_{11} &q_{12}&q_{13}&q_{14}\n\\\\ q_{21} &q_{22}&q_{23}&q_{24} \n\\\\q_{31} &q_{32}&q_{33}&q_{34}\n\\end{bmatrix}</span> ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592654,
+              "key": "134442d7-590c-4072-a368-c6279450b0b1",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "我们想要计算 <span class=\"mathquill\">P</span>x<span class=\"mathquill\">Q</span>。\n\n第一步是检查计算是否可行。我们将查看矩阵的维度。\n \n矩阵 <span class=\"mathquill\">P</span> 有 <span class=\"mathquill\">3</span> 列，矩阵 <span class=\"mathquill\">Q</span> 有 <span class=\"mathquill\">3</span> 行。很棒！可以相乘。\n\n相乘的结果 <span class=\"mathquill\">P</span>x<span class=\"mathquill\">Q</span> 维度为 <span class=\"mathquill\">2</span>x<span class=\"mathquill\">4</span>（有 <span class=\"mathquill\">2</span> 行和 <span class=\"mathquill\">4</span> 列）。\n  \n\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592655,
+              "key": "61e7fee8-bdd7-4779-acdd-38ea4beefcde",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<span class=\"mathquill\">P</span>x<span class=\"mathquill\">Q</span>= <span class=\"mathquill\">\\begin{bmatrix} p_{11}q_{11}+p_{12}q_{21}+p_{13}q_{31}  &p_{11}q_{12}+p_{12}q_{22}+p_{13}q_{32} &p_{11}q_{13}+p_{12}q_{23}+p_{13}q_{33} &p_{11}q_{14}+p_{12}q_{24}+p_{13}q_{34}\n\\\\  p_{21}q_{11}+p_{22}q_{21}+p_{23}q_{31}  &p_{21}q_{12}+p_{22}q_{22}+p_{23}q_{32} &p_{21}q_{13}+p_{22}q_{23}+p_{23}q_{33}&p_{21}q_{14}+p_{22}q_{24}+p_{23}q_{34}\n\n\\end{bmatrix}</span> \n\n_方程 16_",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 592725,
+          "key": "0bdd2955-58fa-4d53-a07d-450d5b89185d",
+          "title": "矩阵乘法练习",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "0bdd2955-58fa-4d53-a07d-450d5b89185d",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 592656,
+              "key": "83b0dcbe-1c2b-41fa-805f-77cd097bc682",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# 矩阵乘法练习",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592657,
+              "key": "01fda613-9a82-4e6a-8a58-33b3042f2ae0",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "假设 <span class=\"mathquill\">A</span> 是一个 <span class=\"mathquill\">1</span> x <span class=\"mathquill\">5</span> 矩阵，<span class=\"mathquill\">B</span> 是一个 <span class=\"mathquill\">5</span> x <span class=\"mathquill\">3</span> 矩阵。\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592658,
+              "key": "ae98efd6-a7d0-4ded-951a-85b8d8824af8",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<span class=\"mathquill\">A=\\begin{bmatrix} 0.6 &-15 &2&5&98\n\n\\end{bmatrix}</span> \n\n<span class=\"mathquill\">B=\\begin{bmatrix} 2&2&-4\n\\\\ 9 &-14 &0\n\\\\13&-0.5&44\n\\\\1&9&4\n\\\\0&0&5\n\\end{bmatrix}</span> ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592659,
+              "key": "d2b3bd42-cfcf-4772-832f-fa78792940a2",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "注意 <span class=\"mathquill\">A</span> 实际上是一个行向量！**只有一行或一列的矩阵是一个向量**\n\n- 只有一行的矩阵是行向量\n- 只有一列的矩阵是列向量",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592660,
+              "key": "bd8bc0f8-797e-4b4d-aa72-98ec136a509a",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": " 如果 <span class=\"mathquill\">C=A</span>x<span class=\"mathquill\">B</span>\n\n(a) <span class=\"mathquill\">C</span> 将有多少行？\n\n(b) <span class=\"mathquill\">C</span> 将有多少列？\n\n(c) <span class=\"mathquill\">c_{13}</span> 的值将是多少？\n\n\n(d) 如果 <span class=\"mathquill\">C=B</span>x<span class=\"mathquill\">A</span>，<span class=\"mathquill\">c_{13}</span> 的值将是多少？\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 626222,
+              "key": "6110bb08-9efa-4b80-8503-adc970c842da",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "无解的填'error'.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592661,
+              "key": "788e027e-8831-42c1-8c5e-85b642087bd0",
+              "title": null,
+              "semantic_type": "WorkspaceAtom",
+              "is_public": true,
+              "workspace_id": "viewbd6c5899",
+              "pool_id": "webterminal",
+              "view_id": "bd6c5899-cabf-4617-b600-128ee16273b9",
+              "gpu_capable": false,
+              "configuration": {
+                "id": "reserved",
+                "blueprint": {
+                  "conf": {
+                    "port": 3000,
+                    "ports": [],
+                    "daemons": [
+                      {
+                        "id": "daemon",
+                        "cmd": "cd /home/workspace/workspace-math-support && python server3.py\n"
+                      }
+                    ],
+                    "openFiles": [
+                      "/home/workspace/workspace-math-support/math/math.txt"
+                    ],
+                    "showFiles": false,
+                    "allowClose": false,
+                    "allowSubmit": false
+                  },
+                  "kind": "react-live"
+                },
+                "workspaceId": "reserved"
+              },
+              "starter_files": null
+            },
+            {
+              "id": 592662,
+              "key": "b2ea78e1-967a-475d-95ea-70bf2b413408",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "注意，对于这道练习，我们将向量与矩阵相乘，生成了另一个向量。\n本质上，原始向量 <span class=\"mathquill\">\\begin{bmatrix} 0.6 &-15 &2&5&98\\end{bmatrix}</span> 通过以下变换矩阵经过线性变换，变成另一个向量：<span class=\"mathquill\">\\begin{bmatrix} 2&2&-4\n\\\\ 9 &-14 &0\n\\\\13&-0.5&44\n\\\\1&9&4\n\\\\0&0&5\n\\end{bmatrix}</span> .",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592663,
+              "key": "3875194d-ada7-4c19-86d4-70583d2081eb",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "后续视频中的内容。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592664,
+              "key": "a5d9240a-944f-4757-8410-5cb6f2045c28",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "注意：如果你的 Workspace 遇到问题，请重置数据。",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 592726,
+          "key": "302286d4-4d8f-40aa-aba1-998fa7136446",
+          "title": "线性变换和矩阵（第 1 部分）",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "302286d4-4d8f-40aa-aba1-998fa7136446",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 592665,
+              "key": "1a516ddf-d0ee-47f3-bf55-dc4dd569c084",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# 线性变换和矩阵（第 1 部分）",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592666,
+              "key": "ea0753e5-302c-4105-89c2-675e8dc9aac4",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# 终于到了视频部分！",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592667,
+              "key": "c1783201-5b92-40d0-a5d2-5a1ae4af04ed",
+              "title": "线性变换 1",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "99jYIxBRDww",
+                "china_cdn_id": "99jYIxBRDww.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 592727,
+          "key": "164d3a00-6118-4eb6-b31a-a76ee46670d0",
+          "title": "线性变换和矩阵（第 2 部分）",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "164d3a00-6118-4eb6-b31a-a76ee46670d0",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 592668,
+              "key": "798c90bf-c6aa-41cf-92c4-8f1847421cfd",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# 线性变换和矩阵（第 2 部分）",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592670,
+              "key": "96833caa-eced-4feb-9654-a94c138a4452",
+              "title": "线性变换 2",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "imtEd8M6__s",
+                "china_cdn_id": "imtEd8M6__s.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 592728,
+          "key": "c3e69911-a624-4ac6-9985-601c5c4ec171",
+          "title": "线性变换和矩阵（第 3 部分）",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "c3e69911-a624-4ac6-9985-601c5c4ec171",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 592669,
+              "key": "6d642a40-9b0d-43df-bbff-64111acd1974",
+              "title": "线性变换 3",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "g_yTyRwMzXU",
+                "china_cdn_id": "g_yTyRwMzXU.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 592729,
+          "key": "ff085330-0fd6-45e4-9240-41a2f8c15be1",
+          "title": "线性变换练习的答案",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "ff085330-0fd6-45e4-9240-41a2f8c15be1",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 592671,
+              "key": "e5fcaf6e-69d3-4c47-88e1-df7440bcf402",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# 矩阵加法练习的答案",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592672,
+              "key": "42451223-cd4a-4e1e-9f5f-a8f965ba3442",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "要计算矩阵 <span class=\"mathquill\">D</span> 的第 <span class=\"mathquill\">{ij}</span> 个元素的值，我们需要计算：\n\n<span class=\"mathquill\">D=A+B-C</span>\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592673,
+              "key": "e817652f-70f6-4a2b-ab7f-04943463df8f",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<span class=\"mathquill\">D=\\begin{bmatrix} 3 &0.6 &4&-3\n\\\\ -1.3 &4 &0&8.6\n\\\\7&0 &-8& 0.006\n\\end {bmatrix}+\\begin{bmatrix} 3 &-5.76 &45&0\n\\\\ 2 &-2 &1.3&9\n\\\\-9&0 &0& 0\n\\end{bmatrix}-\\begin{bmatrix} 0 &1009 &-66.7849&90\n\\\\ 0 &5 &4&-0.07\n\\\\-7.7&0 &0& 0\n\\end{bmatrix}</span> ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592674,
+              "key": "52b388a6-05c6-43d3-9351-42b6fb5e12ef",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "我们可以计算矩阵 <span class=\"mathquill\">D</span> 的所有 <span class=\"mathquill\">12</span> 个元素的值，但是只计算相关元素的值更简单。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592675,
+              "key": "8f382094-d642-4e83-8a05-516d86eeff57",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "我们仅计算矩阵 <span class=\"mathquill\">D</span> 的必要元素的值：\n\n<span class=\"mathquill\">D_{23}</span> 和 <span class=\"mathquill\">D_{31}</span>",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592676,
+              "key": "738c1eed-6828-414d-8b57-06caf5609732",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<span class=\"mathquill\">D_{23}=0+1.3-4=-2.7</span> \n\n<span class=\"mathquill\">D_{31}=7-9-(-7.7)=5.7</span>",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592677,
+              "key": "dff68ddf-3a84-433d-9cc0-2811e0f5d5d0",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# 矩阵标量乘法练习的答案",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592678,
+              "key": "b9b44bff-ff0a-4eaf-ad13-85afb86fd568",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "要计算矩阵 <span class=\"mathquill\">D</span> 的第 <span class=\"mathquill\">{ij}</span> 个元素的值，我们需要计算：\n\n<span class=\"mathquill\">D=0.2A+(-5)B-2C</span>\n\n\n\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592679,
+              "key": "c762360e-f85b-4fab-a023-e423f1044e00",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<span class=\"mathquill\">D=0.2\\begin{bmatrix} 3 &0.6 &4&-3\n\\\\ -1.3 &4 &0&8.6\n\\\\7&0 &-8& 0.006\n\\end{bmatrix}-5\\begin{bmatrix} 3 &-5.76 &45&0\n\\\\ 2 &-2 &1.3&9\n\\\\-9&0 &0& 1\n\\end{bmatrix}-2\\begin{bmatrix} 0 &1009 &-66.7849&90\n\\\\ 0 &5 &4&-0.07\n\\\\0&0 &0& 0\n\\end{bmatrix}</span>\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592680,
+              "key": "8fd965df-d7ce-4535-9e6a-cc1d73e8c4a9",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "同样，我们可以计算矩阵 <span class=\"mathquill\">D</span> 的所有 <span class=\"mathquill\">12</span> 个元素的值，但是只计算相关元素的值更简单。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592681,
+              "key": "6af711d5-3a66-4f3b-8d5e-5501d10b1398",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "我们仅计算矩阵 <span class=\"mathquill\">D</span> 的必要元素的值：\n\n<span class=\"mathquill\">D_{11}</span> 和 <span class=\"mathquill\">D_{24}</span>",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592682,
+              "key": "2a523711-983d-4abc-9857-46dd94a5f3fc",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<span class=\"mathquill\">D_{11}=0.2 \\cdot 3-5\\cdot 3-2\\cdot 0=-14.4</span> \n\n<span class=\"mathquill\">D_{24}=0.2 \\cdot 8.6-5\\cdot 9-2\\cdot (-0.07)=-43.14</span> \n ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592683,
+              "key": "b015cf63-18cc-4817-b353-86a0ee1000a6",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# 方形矩阵乘法练习的答案",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592684,
+              "key": "ee658951-d6df-4a04-95f0-386a89039e1b",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "\n<span class=\"mathquill\">A=\\begin{bmatrix} 3 &1 &2\n\\\\ -5 &4 &1\n\\\\0&3&-8\n\\end{bmatrix}</span> \n\n<span class=\"mathquill\">B=\\begin{bmatrix} 0 &5&-1\n\\\\ 3 &2 &-1\n\\\\10&0.5&4\n\\end{bmatrix}</span> \n\nIf \n <span class=\"mathquill\">C=A</span> x <span class=\"mathquill\">B=\\begin{bmatrix} 3 &1 &2\n\\\\ -5 &4 &1\n\\\\0&3&-8\n\\end{bmatrix}</span>x<span class=\"mathquill\">\\begin{bmatrix} 0 &5&-1\n\\\\ 3 &2 &-1\n\\\\10&0.5&4\n\\end{bmatrix}=\\begin{bmatrix} 23 & 18 &4\n\\\\ 22 &-16.5 &5\n\\\\-71&2&-35\n\\end{bmatrix}</span>\n\nThen <span class=\"mathquill\">c_{23}=5</span>\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592685,
+              "key": "2b84fd9e-f606-49d2-b8c6-cf10a85dcfde",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "If \n <span class=\"mathquill\">C=B</span> x <span class=\"mathquill\">A=</span><span class=\"mathquill\">\\begin{bmatrix} 0 &5&-1\n\\\\ 3 &2 &-1\n\\\\10&0.5&4\n\\end{bmatrix}</span>x <span class=\"mathquill\">\\begin{bmatrix} 3 &1 &2\n\\\\ -5 &4 &1\n\\\\0&3&-8\n\\end{bmatrix}=\\begin{bmatrix} -25 & 17 &13\n\\\\ -1 &8 &16\n\\\\27.5&24&-11.5\n\\end{bmatrix}</span>\n\nThen <span class=\"mathquill\">c_{23}=16</span>\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592686,
+              "key": "cb043ec1-4c18-4a10-92ee-6c1605c78d05",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "注意，矩阵乘法不满足[交换律](https://en.wikipedia.org/wiki/Commutative_property)（这个网址在国外，国内可能打不开）。\n <span class=\"mathquill\">B</span> x <span class=\"mathquill\">A\\not =A</span> x <span class=\"mathquill\">B</span>. ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592687,
+              "key": "151d123c-27da-4f1a-bfb0-ded2634c86d6",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# 矩阵乘法练习的答案",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592688,
+              "key": "132a8339-f233-49f8-8709-a43b400cafed",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": " If: <span class=\"mathquill\">A=\\begin{bmatrix} 0.6 &-15 &2&5&98\n\n\\end{bmatrix}</span> \n\n<span class=\"mathquill\">B=\\begin{bmatrix} 2&2&-4\n\\\\ 9 &-14 &0\n\\\\13&-0.5&44\n\\\\1&9&4\n\\\\0&0&5\n\\end{bmatrix}</span> ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592689,
+              "key": "79149267-9dd0-4493-9e57-872dc64ae8b9",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<span class=\"mathquill\">C=A</span>x<span class=\"mathquill\">B</span>=<span class=\"mathquill\">\\begin{bmatrix} 0.6 &-15 &2&5&98\n\n\\end{bmatrix} </span>x<span class=\"mathquill\">\\begin{bmatrix} 2&2&-4\n\\\\ 9 &-14 &0\n\\\\13&-0.5&44\n\\\\1&9&4\n\\\\0&0&5\n\\end{bmatrix}= \\begin{bmatrix} -102.8 &255.2 &595.6\n\n\\end{bmatrix}</span> ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592690,
+              "key": "48212781-9837-4694-bf55-c607b6106ca8",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "结果是一个包含 3 个元素的行向量。因此行数是 <span class=\"mathquill\">1</span>，列数是 <span class=\"mathquill\">3</span>。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592691,
+              "key": "0885a292-8a9a-4038-aef0-36595e0ec0e4",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<span class=\"mathquill\">c_{13}</span> 的值是 595.6。\n\n第 (d) 部分没有有效答案，因为 <span class=\"mathquill\">B</span> 和 <span class=\"mathquill\">A </span> 的维度不匹配。",
+              "instructor_notes": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    }
+  ]
+}

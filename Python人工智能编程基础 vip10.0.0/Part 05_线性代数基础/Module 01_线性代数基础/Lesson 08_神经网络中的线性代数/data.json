@@ -1,0 +1,694 @@
+{
+  "data": {
+    "lesson": {
+      "id": 592392,
+      "key": "9030e3b5-5e66-4e2b-97a3-351758b5f1f6",
+      "title": "神经网络中的线性代数",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "zh-cn",
+      "summary": "简单了解神经网络以及它与线性代数之间的直接关系！",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": null,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/9030e3b5-5e66-4e2b-97a3-351758b5f1f6/592392/1544294317772/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E4%B8%AD%E7%9A%84%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/9030e3b5-5e66-4e2b-97a3-351758b5f1f6/592392/1544294314556/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E4%B8%AD%E7%9A%84%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0+Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 592382,
+          "key": "d4e4f5c9-0c55-4e6c-9f6d-1fec57cfb218",
+          "title": "讲师",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "d4e4f5c9-0c55-4e6c-9f6d-1fec57cfb218",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 592326,
+              "key": "f4f6ec53-d9ef-419f-9bf6-4bec310d634e",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/April/5ac2cd93_cp1a9390/cp1a9390.jpg",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/f4f6ec53-d9ef-419f-9bf6-4bec310d634e",
+              "caption": "_Ortal Arel_",
+              "alt": "",
+              "width": 300,
+              "height": 300,
+              "instructor_notes": null
+            },
+            {
+              "id": 592327,
+              "key": "13e86c72-e63e-4dd7-97e0-88057f99e2bd",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "大家好！\n\n\nOrtal 将介绍如何可以完美地利用**线性代数**定义人工神经网络。\n\n（图片加载速度可能较慢，请耐心等待或刷新）",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 592383,
+          "key": "89f57299-949b-44f8-afc7-cf1ddfd58b6c",
+          "title": "简介",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "89f57299-949b-44f8-afc7-cf1ddfd58b6c",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 592329,
+              "key": "d2d429fa-2311-4718-8a4b-1324a99adfb5",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# 简介",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592330,
+              "key": "863758e6-6418-484f-bba4-3623a37a05e9",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "你可能会疑问，为何要花时间学习线性代数。我们在简介部分强调了线性代数是一个重要的数学分支，可以帮助我们运用和理解很多学科，例如统计学、计算科学、经济学，但是在这节课我们将重点讲解其在**神经网络**中的运用！",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592331,
+              "key": "8f14d67f-f301-4cac-94e4-74c1ee8239b8",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "该纳米学位课程的下一节课将阐述神经网络的知识。但是在深入学习之前，我们先了解知识梗概。\n\n在这节课，我们将简单介绍什么是神经网络，从而帮助你理解线性代数可以如何完美地运用到神经网络中。简而言之，请重点学习数学知识及其应用方式。如果某些与神经网络直接相关的知识点不太明白，也没关系，因为马上就会学习整个神经网络课程。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592333,
+              "key": "b1edde75-7638-4896-8b5c-b2869fad303a",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/January/5a720ed9_screen-shot-2018-01-31-at-10.45.20-am/screen-shot-2018-01-31-at-10.45.20-am.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/b1edde75-7638-4896-8b5c-b2869fad303a",
+              "caption": "",
+              "alt": "",
+              "width": 400,
+              "height": 300,
+              "instructor_notes": null
+            },
+            {
+              "id": 690091,
+              "key": "13be032c-b440-4e23-a576-0e81e9ec17ac",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "\n（图片加载速度可能较慢，请耐心等待或刷新）",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 592384,
+          "key": "7dd7917d-de4c-43d5-b520-e024aaf8d6cb",
+          "title": "什么是神经网络？",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "7dd7917d-de4c-43d5-b520-e024aaf8d6cb",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 592332,
+              "key": "3b5bf45a-2f92-429c-8b6d-176d2a969db0",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# 什么是神经网络？",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592334,
+              "key": "b3b3264e-f95c-4bb0-ac1a-b6590183de6f",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "神经网络是神经科学的一个重要研究领域。对于计算机科学家、工程师或纯粹神经科学领域之外的其他专业人士来说，神经网络实际上是指**人工神经网络**。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592335,
+              "key": "a95952ff-85e5-4f24-a0de-64a1f0725685",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "下面是一个很有趣的简短视频，直观地呈现了这些**生物**神经网络。\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592336,
+              "key": "621e13ee-3c15-46b6-8f86-7aa716b612ab",
+              "title": "Dolly Inside Head  1 ",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "tyam5ZncjNw",
+                "china_cdn_id": "tyam5ZncjNw.mp4"
+              }
+            },
+            {
+              "id": 592337,
+              "key": "77f2dd4b-927e-4c9e-981b-18003b84e73d",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "**人工神经网络**的设计灵感来自生物大脑结构。下面的人工网络中使用的神经元本质上是数学函数。 \n\n每个网络都具有：\n- 输入神经元 - 称之为神经元的_输入层_\n- 输出神经元 - 称之为神经元的_输出层_\n\n以及 \n- 内部神经元 - 称之为神经元的_隐藏层_。每个神经网络可以有很多个隐藏层\n\n\n下图是一个简单的神经网络，其中只有一个隐藏层。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592339,
+              "key": "4372785a-e45c-445b-9df9-20e0b6dc149e",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/January/5a7241d0_screen-shot-2018-01-31-at-2.22.49-pm/screen-shot-2018-01-31-at-2.22.49-pm.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/4372785a-e45c-445b-9df9-20e0b6dc149e",
+              "caption": "_简化的人工神经网络_",
+              "alt": "",
+              "width": 400,
+              "height": 300,
+              "instructor_notes": null
+            },
+            {
+              "id": 592338,
+              "key": "79af17e9-2132-442a-80b5-3602dc5b2015",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "这个简化的人工神经网络由以下部分组成：\n\n-  一个输入向量 <span class=\"mathquill\">\\vec{x}=\\begin{bmatrix} x_1\n& x_2\n& x_3\n& ...\n&x_n\n\\end{bmatrix}</span>\n\n\n- 一个隐藏层向量 <span class=\"mathquill\">\\vec{h}=\\begin{bmatrix} h_1\n& h_2\n& h_3\n& ...\n&h_m\n\\end{bmatrix}</span>\n\n以及 \n-  一个输出向量 <span class=\"mathquill\">\\vec{y}=\\begin{bmatrix} y_1\n& y_2\n& y_3\n& ...\n&y_k\n\\end{bmatrix}</span>",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592340,
+              "key": "32f44f83-2202-4e45-8af8-2fc643566f42",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "向量中的每个元素都是一个数学参数，稍后我们会详细讲解。\n\n注意，输入数量和隐藏层中的隐藏神经元数量或输出数量没有联系。\n\n（此处用到的记法是行向量，这些向量也可以表示为列向量）\n ",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 592385,
+          "key": "eed82d5f-99d2-4793-a6f2-cba704e9b2e8",
+          "title": "神经元如何相连？",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "eed82d5f-99d2-4793-a6f2-cba704e9b2e8",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 592341,
+              "key": "7bb0a021-2da5-4f11-9113-6d6cf491e37f",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# 神经元如何相连？",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592342,
+              "key": "b6a8bd1d-aeaf-4b2e-8377-107d832198a9",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "再回到我们刚刚看到的图片：",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592343,
+              "key": "f4ad4813-b92c-49a9-9631-308777de9d25",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/January/5a724492_screen-shot-2018-01-31-at-2.22.49-pm/screen-shot-2018-01-31-at-2.22.49-pm.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/f4ad4813-b92c-49a9-9631-308777de9d25",
+              "caption": "_简化的人工神经网络_",
+              "alt": "",
+              "width": 400,
+              "height": 300,
+              "instructor_notes": null
+            },
+            {
+              "id": 592344,
+              "key": "24edc87a-60b4-47d1-b8d8-0582484fb905",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "注意到连接不同神经元的“线条”了吗？ \n\n- 在实际操作中，这些线条表示以数学方式将一个神经元与另一个神经元相连的系数（标量）。这些系数称之为**权重**。\n\n-  这些“线条”将特定层中的每个神经元与下个层中的**所有**神经元相连。例如，在我们的示例中，可以看出隐藏层中的每个神经元都与输出层中的神经元相连。\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592345,
+              "key": "154f4754-ddd7-41fb-8e0a-9824a3727b2e",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "因为有太多的**权重**将一个层与另一个层相连，因此我们以数学方式将这些系数整理为一个矩阵，称之为**权重矩阵**。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592346,
+              "key": "e17f2435-b7e6-4db2-9b10-96c0d02f53df",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/January/5a7248c3_screen-shot-2018-01-31-at-2.52.19-pm/screen-shot-2018-01-31-at-2.52.19-pm.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/e17f2435-b7e6-4db2-9b10-96c0d02f53df",
+              "caption": "_具有一个权重矩阵的简化人工神经网络_",
+              "alt": "",
+              "width": 400,
+              "height": 300,
+              "instructor_notes": null
+            },
+            {
+              "id": 592347,
+              "key": "e6766693-f3f0-4ce5-a7d9-0cc65ac02247",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "知识提醒：\n\n稍后你将学习：当我们训练人工神经网络时，实际上是寻找带来期望结果的一组最佳权重。在线性代数课程中，我们不会重点讲解这方面的知识。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592348,
+              "key": "87e8e95d-24ad-4937-8e8c-d5d9e3b06593",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "那么所有这些与线性代数有何关系？我们来一探究竟！",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 592386,
+          "key": "ebc4a2f1-066c-4805-ae3a-6e1e2e7738bf",
+          "title": "将所有概念关联到一起",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "ebc4a2f1-066c-4805-ae3a-6e1e2e7738bf",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 592349,
+              "key": "fc5691bc-242f-4f01-abad-e90fb2b0ee85",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "\n#  将所有概念关联到一起",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592350,
+              "key": "9cfd27a2-9455-4bb6-b25f-7f19176087ae",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "在下面的视频中，我们将使用下标以及上标作为权重矩阵的数字记法。\n\n例如：\n-  <span class=\"mathquill\"> W_k</span> 是权重矩阵 <span class=\"mathquill\"> k</span> \n- <span class=\"mathquill\">\\ W_{ij}^k</span> 是权重矩阵 <span class=\"mathquill\">k</span> 的第 <span class=\"mathquill\"> ij</span> 个元素",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592351,
+              "key": "b7f7e0d8-2bdf-48bb-884a-479ad946ae11",
+              "title": "线性代数 05 RNN FFNN 提醒 PAIND 82mp4 V1",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "SSgQRH-V-1k",
+                "china_cdn_id": "SSgQRH-V-1k.mp4"
+              }
+            },
+            {
+              "id": 592352,
+              "key": "f60cd541-9c32-43d1-b21a-e2f91ff26de9",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "注意，视频中提到了一个尚未介绍的概念，即**激活函数**。别担心，你将在下节课（神经网络入门）中学习这方面的知识。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592353,
+              "key": "4a3aca1a-1ce4-4604-ba4f-9424c93df38d",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "在处理神经网络时，会涉及到 2 个主要阶段：\n\n- 训练\n\n和\n\n- 验证\n\n在训练阶段，我们会获取数据集（也称为训练集），其中包含很多输入和对应的目标（输出）对。我们的目标是找到一组能将输入以最佳方式映射到期望输出的权重。 \n\n在验证阶段，我们使用在训练阶段创建的网络，对其应用新的输入并期望获得理想的输出。\n\n训练阶段将包含两个步骤：\n\n- 前馈\n\n和\n\n- 反向传播\n\n我们将重复这些步骤很多次，直到我们认为系统已经达到最佳权重集合，能够带来可能的最佳输出。\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592354,
+              "key": "edfdc846-f99e-45c2-a807-c3bd17817898",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "为了展示与线性代数有何关联性，我们将重点讲解**前馈**流程。同样，我们将重点讲解数学计算。很快将会讲解所有这些新的概念（训练、评估、前馈、反向传播等）。",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 592387,
+          "key": "0137eb63-d76c-49ef-a205-f07892a6db42",
+          "title": "前馈流程 - 计算 h",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "0137eb63-d76c-49ef-a205-f07892a6db42",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 592355,
+              "key": "0e7f6594-0828-4352-81f9-757b283c5160",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# 前馈流程 - 计算 <span class=\"mathquill\">\\vec{h} </span>\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592356,
+              "key": "58f24322-78cb-4707-aad3-0d1d6ef88508",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "在此部分，我们将深入学习**前馈**流程的数学原理。借助线性代数工具，这些计算变得非常简单！",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592357,
+              "key": "cdf835a7-0074-4a84-a0bb-07c04b8de0f2",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "假设有一个隐藏层，我们将需要完成两个计算步骤。第一步是计算隐藏状态的值，第二步是计算输出的值。\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592358,
+              "key": "98cae810-5804-4e02-8699-b4f6d5a6a428",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/February/5a725c10_screen-shot-2018-01-31-at-4.14.50-pm/screen-shot-2018-01-31-at-4.14.50-pm.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/98cae810-5804-4e02-8699-b4f6d5a6a428",
+              "caption": "",
+              "alt": "",
+              "width": 394,
+              "height": 248,
+              "instructor_notes": null
+            },
+            {
+              "id": 592359,
+              "key": "f056081f-236e-421d-816a-56bee1c27cc9",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "注意，隐藏层和输出层都显示为向量，因为它们都由多个神经元表示。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592360,
+              "key": "9009d8d3-fd1a-4129-a396-7bdbc457ac7c",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": " 第一个视频将帮助你理解第一步：**计算隐藏状态的值**。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592361,
+              "key": "f423b4c3-104f-4291-8b2c-4612fd8fae18",
+              "title": "线性代数 06 前馈 A V7 PAIND83 V1",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "kQ6rNndcA1I",
+                "china_cdn_id": "kQ6rNndcA1I.mp4"
+              }
+            },
+            {
+              "id": 592362,
+              "key": "5c282b1e-ac98-4bce-aebf-3e33bb5c2acb",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "正如你在上个视频中看到的，隐藏层的向量 <span class=\"mathquill\">\\vec{h'} </span> 的计算方式为，如下所示地将输入向量与权重矩阵 <span class=\"mathquill\">W^{1}</span> 相乘：\n\n<span class=\"mathquill\">\\vec{h'} = (\\bar{x}  W^1 )</span>\n\n通过向量和矩阵乘法，我们可以按如下方式理解此计算过程：",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592363,
+              "key": "3067f735-8430-4e24-a383-3effeb6be08f",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/February/5a725e7c_screen-shot-2018-01-31-at-4.25.16-pm/screen-shot-2018-01-31-at-4.25.16-pm.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3067f735-8430-4e24-a383-3effeb6be08f",
+              "caption": "_方程 17_",
+              "alt": "",
+              "width": 400,
+              "height": 100,
+              "instructor_notes": null
+            },
+            {
+              "id": 592364,
+              "key": "3aa58dc8-00d0-4a3f-96d0-7c927040011a",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "\n算出 <span class=\"mathquill\">\\vec{h'} </span> 后，我们需要激活函数。\n\n激活函数的符号是希腊字母 Φ：<span class=\"mathquill\">\n \\Phi</span>。\n\n此激活函数会确定隐藏层值的计算结果。 \n\n我们可以使用以下两个方程表示最后的隐藏向量 <span class=\"mathquill\">\\vec{h'} </span>：\n\n<span class=\"mathquill\">\\vec{h} = \\Phi(\\vec{x}  W^1 )</span> \n\n或\n \n <span class=\"mathquill\"> \\vec{h} = \\Phi(\\vec{h'})</span>\n\n\n因为 <span class=\"mathquill\">W_{ij}</span> 表示权重矩阵的权重部分，将输入中的神经元 **i** 与隐藏层中的神经元 **j** 相连，我们还可以使用**线性组合**表示这些计算过程（注意，在此示例中，我们有 *n* 个输入，只有 3 个隐藏神经元）\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592365,
+              "key": "f1266e88-f85b-4655-b3bf-49914a4661df",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/February/5a725f86_screen-shot-2018-01-31-at-4.29.38-pm/screen-shot-2018-01-31-at-4.29.38-pm.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/f1266e88-f85b-4655-b3bf-49914a4661df",
+              "caption": "_方程 18_",
+              "alt": "",
+              "width": 300,
+              "height": 200,
+              "instructor_notes": null
+            },
+            {
+              "id": 592366,
+              "key": "28eca468-559f-4619-ab2c-38419824978c",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "你可以在下节课（神经网络入门）中详细了解激活函数及如何使用这些激活函数。",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 592389,
+          "key": "8d26152b-c8d9-41a1-9cd3-95a3ac6aec8f",
+          "title": "前馈流程 - 计算 y",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8d26152b-c8d9-41a1-9cd3-95a3ac6aec8f",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 592368,
+              "key": "68b7aeb2-241a-4937-bf75-091d9ab8b645",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# 前馈流程 - 计算 <span class=\"mathquill\">\\vec{y} </span>\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592369,
+              "key": "19041b5e-7a6a-440e-a452-0a0a1a3b842b",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "我们已经完成第一步：计算 <span class=\"mathquill\">\\vec{h} </span>，现在我们需要计算输出 <span class=\"mathquill\">\\vec{y} </span>\n\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592370,
+              "key": "9835a252-dac9-4d46-83e8-bd6729d8c1f6",
+              "title": "线性代数 07 前馈 PAIND85 V3",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "pvF6jpS_-cU",
+                "china_cdn_id": "pvF6jpS_-cU.mp4"
+              }
+            },
+            {
+              "id": 592371,
+              "key": "0ff82674-debe-439e-9d1c-b48d41cdb34e",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "正如你在上个视频中看到的，计算输出向量的流程在数学上和计算隐藏层向量相似。我们同样会使用矩阵乘法。向量是新计算的隐藏层，矩阵是将隐藏层与输出相连的矩阵。\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592373,
+              "key": "4160d058-500e-4d71-b93c-ee6c7e301c69",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/February/5a8743de_screen-shot-2018-02-16-at-12.49.05-pm/screen-shot-2018-02-16-at-12.49.05-pm.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/4160d058-500e-4d71-b93c-ee6c7e301c69",
+              "caption": "",
+              "alt": "",
+              "width": 200,
+              "height": 200,
+              "instructor_notes": null
+            },
+            {
+              "id": 592374,
+              "key": "346ceaa6-7de3-4d64-8856-dd8a0c146783",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "本质上，神经网络中的每个新层都通过向量与矩阵相乘计算得出，其中向量表示新层的输入，矩阵表示将这些新输入与下个层相连的矩阵。\n\n在我们的示例中，输入向量为 <span class=\"mathquill\">\\vec{h}</span>，矩阵为 <span class=\"mathquill\">W^2</span>，因此 <span class=\"mathquill\">\\vec{y}=\\vec{h}W^2</span>。 ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592375,
+              "key": "6f43f6f6-b26a-499b-83ff-b1bd085e34cd",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/February/5a874420_screen-shot-2018-02-16-at-12.50.25-pm/screen-shot-2018-02-16-at-12.50.25-pm.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/6f43f6f6-b26a-499b-83ff-b1bd085e34cd",
+              "caption": "_方程 19_",
+              "alt": "",
+              "width": 300,
+              "height": 100,
+              "instructor_notes": null
+            },
+            {
+              "id": 592376,
+              "key": "0f80ea29-9c08-4342-8884-3991637ebc2e",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "上述视频还泛化了我们一直在讨论的模型。\n\n\n下节课 **神经网络** 将详细讲解这方面的知识。",
+              "instructor_notes": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    }
+  ]
+}

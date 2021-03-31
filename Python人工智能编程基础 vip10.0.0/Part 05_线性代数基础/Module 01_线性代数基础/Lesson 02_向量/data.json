@@ -1,0 +1,1117 @@
+{
+  "data": {
+    "lesson": {
+      "id": 592731,
+      "key": "1f834b40-6d19-4add-a193-6f4a419821ac",
+      "title": "向量",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "zh-cn",
+      "summary": "了解线性代数的基本概念——向量。\n",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": null,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/1f834b40-6d19-4add-a193-6f4a419821ac/592731/1544208015204/%E5%90%91%E9%87%8F+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/1f834b40-6d19-4add-a193-6f4a419821ac/592731/1544208012743/%E5%90%91%E9%87%8F+Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 592697,
+          "key": "62a442e2-10c4-4e3f-a0b4-a54bbccec4bd",
+          "title": "什么是向量（第 1 部分）",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "62a442e2-10c4-4e3f-a0b4-a54bbccec4bd",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 592445,
+              "key": "39becacd-d04d-4f8d-aae4-6059ea9e1619",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# 什么是向量（第 1 部分）",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592446,
+              "key": "3bf82187-2fab-4cf8-9d6d-b86f8d24498e",
+              "title": "向量 1",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "oPBz-MLVUHk",
+                "china_cdn_id": "oPBz-MLVUHk.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 592698,
+          "key": "7f969ff5-07bb-48dd-9cc8-1be463f4442d",
+          "title": "什么是向量（第 2 部分）",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "7f969ff5-07bb-48dd-9cc8-1be463f4442d",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 592447,
+              "key": "f6f12ee4-cf27-443b-b28d-f163c58f8e5a",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# 什么是向量（第 2 部分）",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592448,
+              "key": "984ff27f-cf7c-44a7-b6e3-c21cddc3efe4",
+              "title": "向量 2",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "R7WiQYixvRQ",
+                "china_cdn_id": "R7WiQYixvRQ.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 592699,
+          "key": "120d0c7b-9cd9-4947-86cf-6ddca4d400dc",
+          "title": "什么是向量（第 3 部分）",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "120d0c7b-9cd9-4947-86cf-6ddca4d400dc",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 592449,
+              "key": "f6488c72-71e6-4669-aee2-4550bd46f0b4",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# 什么是向量（第 3 部分）",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592450,
+              "key": "f6ec811b-50c1-4d11-ab0e-0ed1e545e0d3",
+              "title": "向量 3",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "mWV_MpEjz9c",
+                "china_cdn_id": "mWV_MpEjz9c.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 592700,
+          "key": "0393209e-3dbf-45f4-aa81-6e38b5b66a08",
+          "title": "向量 - 数学定义",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "0393209e-3dbf-45f4-aa81-6e38b5b66a08",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 592451,
+              "key": "e5bffa21-4f39-4d15-8a98-e2919d1699e4",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# 向量 - 数学定义 ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592452,
+              "key": "26914a7e-5b20-4081-9924-40f12ea89e7d",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "什么是向量？简单解释下，向量是有序的数字列表。 \n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592453,
+              "key": "8cfd07de-c5a3-4680-8424-376a88cd1b4e",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/January/5a6783cb_screen-shot-2018-01-23-at-10.49.16-am/screen-shot-2018-01-23-at-10.49.16-am.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/8cfd07de-c5a3-4680-8424-376a88cd1b4e",
+              "caption": "_n 维向量_",
+              "alt": "",
+              "width": 80,
+              "height": 150,
+              "instructor_notes": null
+            },
+            {
+              "id": 592454,
+              "key": "ff361dd0-e93c-486e-beb3-0726f6c92479",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "向量中的每个**元素**（亦称为**组件**或**坐标**）是一个数字，此处用 <span class=\"mathquill\">a_i</span> 表示。\n\n这个向量（上图中）有 <span class=\"mathquill\">n</span> 个元素，可以位于向量空间或是实数 <span class=\"mathquill\">\\mathbb{R}</span> 中。\n\n具有 <span class=\"mathquill\">n</span> 个真实元素的向量定义了 <span class=\"mathquill\">n</span> 维向量，属于向量空间 <span class=\"mathquill\">\\mathbb{R}^n</span>。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592455,
+              "key": "8d311c5c-7ee4-4ade-9a46-e15b2caa3bfc",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "我们使用以下数学记法定义向量：<span class=\"mathquill\">\\vec{x}</span>\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592456,
+              "key": "4b8f9775-618b-47fa-b820-04ed413fc99e",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "在上述示例中：\n-   向量 <span class=\"mathquill\">\\vec{x}</span> 位于向量空间 <span class=\"mathquill\">\\mathbb{R}^n</span> 中。或者用数学记法表示为：<span class=\"mathquill\">\\vec{x}\\in\\mathbb{R}^n</span>    \n\n\n-    <span class=\"mathquill\">\\vec{x}=\\begin{bmatrix} x_1\n\\\\ x_2\n\\\\ x_3\n\\\\ :\n\\\\x_n\n\\end{bmatrix}</span>",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592457,
+              "key": "59693e65-8962-494a-a6df-78b40192f260",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "和视频中一样，我们以更直观的方式讲解，并重点研究实数域<span class=\"mathquill\">2D</span>向量(即二维平面向量)。换句话说，我们将重点查看 <span class=\"mathquill\">\\mathbb{R}^2</span> 中的向量，该向量定义了平面上的所有点。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592458,
+              "key": "71a239ac-1ec2-425d-8a03-5b42fdf4fa8c",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "我们来看看下图：",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592459,
+              "key": "a99bbdfd-2998-48f7-be4e-7025662850e2",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/January/5a678d60_screen-shot-2018-01-23-at-11.30.13-am/screen-shot-2018-01-23-at-11.30.13-am.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/a99bbdfd-2998-48f7-be4e-7025662850e2",
+              "caption": "",
+              "alt": "",
+              "width": 300,
+              "height": 220,
+              "instructor_notes": null
+            },
+            {
+              "id": 592460,
+              "key": "31a13af0-d0ab-4f71-9f87-ddf5ae0e0f84",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "要从点 B 到点 A，我们需要向右走 4 步，再向上走 2 步。\n\n这样就定义了向量 <span class=\"mathquill\">\\vec{x}=\\begin{bmatrix} \n4\n\\\\2\n\n\\end{bmatrix}</span>。 ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592461,
+              "key": "eff6aed3-1f71-4633-8f94-c837d1bbee0c",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "下面的绿色箭头定义了向量 <span class=\"mathquill\">\\vec{x}</span>。\n\n用图形表示时，我们使用箭头表示向量，如下图所示。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592462,
+              "key": "10239b3a-b564-4c54-8abb-0063a05d614d",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/January/5a690865_screen-shot-2018-01-24-at-2.27.07-pm/screen-shot-2018-01-24-at-2.27.07-pm.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/10239b3a-b564-4c54-8abb-0063a05d614d",
+              "caption": "",
+              "alt": "",
+              "width": 300,
+              "height": 220,
+              "instructor_notes": null
+            },
+            {
+              "id": 592463,
+              "key": "ba760d25-c67f-4ad8-ad7b-24fc1d01ee3e",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "我们可以用角度或弧度来表示夹角，计算运动方向。在此实例中，我们采用弧度来表达（点击[此处](http://www.mathwarehouse.com/trigonometry/radians/convert-degee-to-radians.php)查看弧度与角度之间相互转换的计算公式）。",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 592701,
+          "key": "5fa5ca3b-15c9-4285-b69c-4e158ee8ef2b",
+          "title": "转置",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "5fa5ca3b-15c9-4285-b69c-4e158ee8ef2b",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 592464,
+              "key": "4780ff1f-b4a7-4b62-b962-650ed7fb3848",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# 向量转置",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592465,
+              "key": "5d1feb83-d575-4162-916c-14d972d8165c",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "需要注意的是，在这节课中，我们重点讲解**列向量**。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592466,
+              "key": "148d05b7-0ff1-4d6f-9d38-b97222327430",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "向量 <span class=\"mathquill\">\\vec{x}=\\begin{bmatrix} a_1\n\\\\ a_2\n\\\\ a_3\n\\\\ :\n\\\\a_n\n\\end{bmatrix}</span> 是一个列向量。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592467,
+              "key": "e8d281df-eef4-4a37-b437-2c6580d1b324",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "向量还可以表示为**行向量**。\n\n向量  <span class=\"mathquill\">\\vec{y}= \\begin{bmatrix}\n a_1&a_2  &a_3&  ...& a_n \n\\end{bmatrix}</span> 是行向量。\n\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592468,
+              "key": "3c3626bf-ef29-46ac-86bc-ee6376167f68",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "如果你仔细观察 <span class=\"mathquill\">\\vec{x}</span> 和  <span class=\"mathquill\">\\vec{y}</span> 这两个向量，你会发现，它们的元素是一样的，只是一个排成列，一个排成行。 \n\n就好像一个向量倾斜了 <span class=\"mathquill\">90^{\\circ}</span>。\n\n在线性代数中，我们将这种变化称为**转置**。转置的数学符号是 <span class=\"mathquill\">T</span>，用法如下：\n ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592469,
+              "key": "785bf10c-2f1b-4c0c-ad61-0f09dc542576",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": " <span class=\"mathquill\">\\begin{bmatrix} a_1\n\\\\ a_2\n\\\\ a_3\n\\\\ :\n\\\\a_n\n\\end{bmatrix}^T=  \\begin{bmatrix}\n a_1&a_2  &a_3&  ...& a_n \n\\end{bmatrix}</span>\n\nOr:\n\n <span class=\"mathquill\"> \\begin{bmatrix}\n a_1&a_2  &a_3&  ...& a_n \n\\end{bmatrix}^T=\\begin{bmatrix} a_1\n\\\\ a_2\n\\\\ a_3\n\\\\ :\n\\\\a_n\n\\end{bmatrix} </span> \n\n_方程 1_",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592470,
+              "key": "49811f8f-5d9f-47bb-9c47-65706c09cffb",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "简言之：  \n\n<span class=\"mathquill\">\\large\\vec{x}^T=\\vec{y}</span>  \n\n 或\n\n <span class=\"mathquill\">\\large\\vec{y}^T=\\vec{x}</span>\n\n_方程 2_",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 592702,
+          "key": "58c729f7-3b80-4259-abeb-327e1ec1d695",
+          "title": "大小和方向",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "58c729f7-3b80-4259-abeb-327e1ec1d695",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 592471,
+              "key": "a65e0bf3-a192-41af-861f-23f2c072547f",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# 大小和方向",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592472,
+              "key": "badafc5a-13d3-4712-96bc-7acaeb215fd3",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "每个向量都包含运动的大小和方向。 \n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592473,
+              "key": "84ec9fee-9707-40af-80c5-e2c5d2c6de59",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "我们来计算下向量 <span class=\"mathquill\">\\vec{x}=\\begin{bmatrix} \n4\n\\\\2\n\n\\end{bmatrix}</span> 的大小和方向。\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592474,
+              "key": "b10c1d9c-16ea-45a2-8de0-557cc8aa9d8b",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "**大小**的符号是 <span class=\"mathquill\">\\left \\|    \\right \\|</span>。\n\n要计算二维向量的**大小**，我们将使用[**勾股定理**](https://en.wikipedia.org/wiki/Pythagorean_theorem)（这个网址在国外，国内可能打不开）。\n\n在示例中，向量大小的计算方式如下所示：\n\n<span class=\"mathquill\">\\left \\|\\vec{x}  \\right \\|=\\sqrt{4^2+2^2}</span>\n\n其中 4 是向量的水平分量，2 是向量的垂直分量。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592475,
+              "key": "7cad55ff-cf06-4f36-b679-270c75b277a6",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "要计算**运动方向**，我们将使用夹角。我们可以用度数或弧度来表示。在此示例中，我们将采用度数（我们始终可以[将度数转换为弧度，反之亦然](http://www.mathwarehouse.com/trigonometry/radians/convert-degee-to-radians.php)）。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592476,
+              "key": "5fe6cb75-62ab-4db1-9cf3-017408b4ccb9",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "我们再次看看向量 <span class=\"mathquill\">\\vec{x}</span>。它与水平轴的夹角为 <span class=\"mathquill\">\\theta</span>。 \n\n请看下图： ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592477,
+              "key": "3a8a95de-ea9f-46b9-adee-598c04396531",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/January/5a691f30_screen-shot-2018-01-24-at-3.13.49-pm/screen-shot-2018-01-24-at-3.13.49-pm.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3a8a95de-ea9f-46b9-adee-598c04396531",
+              "caption": "",
+              "alt": "",
+              "width": 300,
+              "height": 220,
+              "instructor_notes": null
+            },
+            {
+              "id": 592478,
+              "key": "717e159c-955d-4ac9-bb3b-9cb54da472fe",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "要计算 <span class=\"mathquill\">\\theta</span>，我们将运用三角学知识！\n\n对于下图中表示的夹角 <span class=\"mathquill\">\\theta</span>，计算方式如下所示：\n\n<span class=\"mathquill\">\\theta=tan^{-1}\\frac{y}{x}</span> \n\n_方程 3_",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592479,
+              "key": "290e6fb4-61a5-4948-bf18-db5f84fe5634",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/March/5ab2d176_screen-shot-2018-03-21-at-2.40.42-pm/screen-shot-2018-03-21-at-2.40.42-pm.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/290e6fb4-61a5-4948-bf18-db5f84fe5634",
+              "caption": "",
+              "alt": "",
+              "width": 300,
+              "height": 220,
+              "instructor_notes": null
+            },
+            {
+              "id": 592480,
+              "key": "0d46fc8d-40d2-4666-bfbc-96b0f698b3c2",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "因此，在我们的示例中\n\n  <span class=\"mathquill\">\\theta=tan^{-1}\\frac{2}{4}=26.56505^{\\circ}</span> ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592481,
+              "key": "2b2a1a6a-ee53-4f63-b41b-4cbc5fd9a043",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "要详细了解二维向量的大小和方向，请访问以下[链接](http://www.softschools.com/math/pre_calculus/direction_angles_of_vectors/)。",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 592703,
+          "key": "aa1a4872-c9d5-49c5-aec7-fcb4f07a65d8",
+          "title": "向量 - 练习 1",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "aa1a4872-c9d5-49c5-aec7-fcb4f07a65d8",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 592483,
+              "key": "43d19d46-22e9-4b10-9aa7-7a35e0c36887",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# 向量 - 练习 1",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592482,
+              "key": "6d26d8e3-b87a-40d4-8331-d1bc3b66a642",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "如何计算任何维度的任何向量的大小？你能猜测答案吗？",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592484,
+              "key": "4195f9b1-3761-4b5e-a44e-71564827f078",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "我们来看一个三维向量：\n\n<span class=\"mathquill\">\\vec{x}=\\begin{bmatrix} \na\n\\\\b\n\\\\c\n\\end{bmatrix}</span>. \n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592485,
+              "key": "6dd6e328-7e7b-4066-84ba-51e22b94b017",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "向量 <span class=\"mathquill\">\\vec{x}</span> 的大小是多少？\n\n<span class=\"mathquill\">\\left \\|  x  \\right \\|</span>=\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592486,
+              "key": "e9fc6650-f76d-4347-a115-46da67060a88",
+              "title": null,
+              "semantic_type": "WorkspaceAtom",
+              "is_public": true,
+              "workspace_id": "viewf3ad744c",
+              "pool_id": "webterminal",
+              "view_id": "f3ad744c-80c2-4a53-b57d-91057f9a4ad4",
+              "gpu_capable": false,
+              "configuration": {
+                "id": "reserved",
+                "blueprint": {
+                  "conf": {
+                    "port": 3000,
+                    "ports": [],
+                    "daemons": [
+                      {
+                        "id": "daemon",
+                        "cmd": "cd /home/workspace/workspace-math-support && python server3.py"
+                      }
+                    ],
+                    "openFiles": [
+                      "/home/workspace/workspace-math-support/math/math.txt"
+                    ],
+                    "showFiles": false,
+                    "allowClose": false,
+                    "allowSubmit": false
+                  },
+                  "kind": "react-live"
+                },
+                "workspaceId": "reserved"
+              },
+              "starter_files": null
+            },
+            {
+              "id": 592487,
+              "key": "e1123b70-21c8-4101-8e55-d6db588e77e2",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "（你将在向量课程的末尾找到这道练习的答案）",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592488,
+              "key": "00d7f2ca-a317-4feb-9364-ffbcab451011",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "提示：如果 workspace 遇到问题，请重置你的数据。",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 592704,
+          "key": "83b857a9-9ea7-45d6-9f63-49c818a86a5a",
+          "title": "场中的运算",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "83b857a9-9ea7-45d6-9f63-49c818a86a5a",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 592489,
+              "key": "9443e602-0e4c-4d61-9f87-b1fb282da2e9",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# 实数域 <span class=\"mathquill\">\\mathbb{R^n}</span> 中的运算",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592490,
+              "key": "2ff3d39a-9fef-4ad7-9311-f82a25dcd127",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "\n与任何场一样，我们可以定义实数域 <span class=\"mathquill\">\\mathbb{R^n}</span> 的数学运算。\n\n这些**运算**包括：\n- 加法\n- 乘法\n\n\n我们还需要定义域中的元素 **0** 和 **1**。\n- 元素 ** 0**。在实数域 <span class=\"mathquill\">\\mathbb{R^n}</span> 中，它是由元素0组成的向量：<span class=\"mathquill\">\\vec{x}=\\begin{bmatrix} 0\n\\\\ 0\n\\\\ 0\n\\\\ :\n\\\\0\n\\end{bmatrix}</span>\n\n\n- 元素** 1**。在实数域<span class=\"mathquill\">\\mathbb{R^n}</span> 中，它是由元素1组成的向量：<span class=\"mathquill\">\\vec{x}=\\begin{bmatrix} 1\n\\\\ 1\n\\\\ 1\n\\\\ :\n\\\\1\n\\end{bmatrix}</span>\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592491,
+              "key": "72cee840-d437-40f6-9982-c0efc9ec0044",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "上述运算遵守[**实数域公理**](http://mathworld.wolfram.com/FieldAxioms.html)：\n- 结合律\n- 交换律\n- 分配律\n- 单元性（定义_加上零_和_乘以一_）\n- 逆元（定义_加减逆元_和_乘除逆元_）\n\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592492,
+              "key": "b7286380-dced-469d-9462-c45e9e5ee4f7",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "在这节课，我们将重点讲解**向量加法**和**标量与向量乘法**。",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 592705,
+          "key": "fba2a16b-ed8b-4a00-a064-17a007e28b19",
+          "title": "向量加法",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "fba2a16b-ed8b-4a00-a064-17a007e28b19",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 592493,
+              "key": "2688f8dc-fdf7-4aa3-b3ff-811e9033ec4c",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# 向量加法",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592494,
+              "key": "cdfa5159-2fe5-44b9-9798-b6edb0779a05",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "\n<span class=\"mathquill\">\\mathbb{R^n}</span> **向量加法**的数学定义是逐个将元素相加。 \n\n我们来看看下面两个向量示例：",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592495,
+              "key": "07815dfd-5691-49f2-b501-365d1c6a6acc",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "\n-  <span class=\"mathquill\">\\vec{x}=\\begin{bmatrix} a_1\n\\\\ a_2\n\\\\ a_3\n\\\\ :\n\\\\a_n\n\\end{bmatrix}\\in\\mathbb{R^n}</span>\n\n\n-  <span class=\"mathquill\">\\vec{y}=\\begin{bmatrix} b_1\n\\\\ b_2\n\\\\ b_3\n\\\\ :\n\\\\b_n\n\\end{bmatrix}\\in\\mathbb{R^n}</span>\n\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592496,
+              "key": "8bdd8c6f-1111-4868-ad4a-6fcfb91b6595",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "结果 <span class=\"mathquill\">\\vec{x}+\\vec{y}</span> 将位于相同的实数域 <span class=\"mathquill\">\\mathbb{R^n}</span>。\n\n从数学角度：",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592497,
+              "key": "16e95f94-0268-4265-974b-d93186f50d99",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<span class=\"mathquill\">\\vec{x}+\\vec{y}=\\begin{bmatrix} a_1+b_1\n\\\\ a_2+b_2\n\\\\ a_3+b_3\n\\\\ :\n\\\\a_n+b_n\n\\end{bmatrix}\\in\\mathbb{R^n}</span>\n\n_方程 4_",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 592706,
+          "key": "1f15b4ff-06c6-43d0-a21a-a6cfa0fcfbfe",
+          "title": "向量 - 练习 2",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1f15b4ff-06c6-43d0-a21a-a6cfa0fcfbfe",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 592498,
+              "key": "433ee200-c982-4fc3-99ba-dd35c5401d3a",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# 向量 - 练习 2",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592499,
+              "key": "12339941-7081-48d9-8390-5ba09ee4c37d",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "这道练习侧重于二维空间，即位于实数域 <span class=\"mathquill\">\\mathbb{R^2}</span> 中。\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592500,
+              "key": "d83de8fc-90e3-435f-9286-1112e17ac7ad",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "我们来看看下面的两个向量：",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592501,
+              "key": "2c31aff9-e2a3-4be1-9045-ee86ab1f169d",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<span class=\"mathquill\">\\vec{x}=\\begin{bmatrix} \n5\n\\\\1\n\n\\end{bmatrix}</span>\n\n<span class=\"mathquill\">\\vec{y}=\\begin{bmatrix} \n-4\n\\\\-1\n\n\\end{bmatrix}</span>",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592502,
+              "key": "3a94bcbd-88e9-4a0d-9239-96482665284f",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<span class=\"mathquill\">\\vec{x}+\\vec{y}</span> 的大小和方向是什么？\n\n请将你的答案填写在 workspace：\n\n- 答案 (1) 处仅填写数值大小\n- 答案 (2) 处仅填写与正水平轴的夹角（度数） ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592503,
+              "key": "144cba49-f7cd-4475-8e43-bffcf9c4db73",
+              "title": null,
+              "semantic_type": "WorkspaceAtom",
+              "is_public": true,
+              "workspace_id": "view721978e1",
+              "pool_id": "webterminal",
+              "view_id": "721978e1-2c34-43ef-8742-1e248560594d",
+              "gpu_capable": false,
+              "configuration": {
+                "id": "reserved",
+                "blueprint": {
+                  "conf": {
+                    "port": 3000,
+                    "ports": [],
+                    "daemons": [
+                      {
+                        "id": "daemon",
+                        "cmd": "cd /home/workspace/workspace-math-support && python server3.py\n"
+                      }
+                    ],
+                    "openFiles": [
+                      "/home/workspace/workspace-math-support/math/math.txt"
+                    ],
+                    "showFiles": false,
+                    "allowClose": false,
+                    "allowSubmit": false
+                  },
+                  "kind": "react-live"
+                },
+                "workspaceId": "reserved"
+              },
+              "starter_files": null
+            },
+            {
+              "id": 592504,
+              "key": "5ab556ba-335c-4a38-bd22-06a47361831a",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "（你将在向量课程的末尾找到这道练习的答案）",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592505,
+              "key": "d7018a3c-22b1-40ac-a4ba-515925f912e8",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "提示：如果 workspace 遇到问题，请重置你的数据。",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 592707,
+          "key": "a52bbf17-7658-4b5a-9886-3ef642c2d6a5",
+          "title": "标量与向量乘法",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "a52bbf17-7658-4b5a-9886-3ef642c2d6a5",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 592506,
+              "key": "abb6046b-37fa-4629-9cdb-fdc29ed29da5",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# 标量与向量乘法",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592507,
+              "key": "29020406-8fb5-4c4e-ad3a-fdc93188b56e",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "\n标量与向量乘法还定义为逐项乘以向量。\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592508,
+              "key": "72b62a0a-8102-4215-b96a-70a920fcb500",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "如果  \n\n<span class=\"mathquill\">\\alpha\\in\\mathbb{R} </span>\n\n以及 \n\n <span class=\"mathquill\">\\vec{x}=\\begin{bmatrix} a_1\n\\\\ a_2\n\\\\ a_3\n\\\\ :\n\\\\a_n\n\\end{bmatrix}\\in\\mathbb{R^n}</span>\n\n那么\n\n <span class=\"mathquill\">\\vec{}y=\\alpha\\vec{x}=\\begin{bmatrix}\\alpha a_1\n\\\\\\alpha a_2\n\\\\ \\alpha a_3\n\\\\ :\n\\\\\\alpha a_n\n\\end{bmatrix}\\in\\mathbb{R^n}</span>\n\n_方程 5_\n\n（注意，向量的每个元素都乘以相同的标量 α）。 ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592509,
+              "key": "3dbef054-4a95-420a-b665-6fc0b3dd393b",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "思考下，向量乘以标量后，在图形上会发生什么变化？\n\n我们将在下道练习中解释这个问题。",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 592708,
+          "key": "8e3349cf-f6ab-46c5-bea6-01ef25ec7368",
+          "title": "向量 - 练习 3",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8e3349cf-f6ab-46c5-bea6-01ef25ec7368",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 592510,
+              "key": "db1904fd-08f7-4bf5-bcff-235beb213522",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# 向量练习 3",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592511,
+              "key": "b4d730c8-09f4-41bb-bd77-678d5c209bae",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "请在 workspace 按顺序回答以下问题。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592512,
+              "key": "d50ea644-d719-409e-8b3c-bbe742e15188",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "下面是一个<span class=\"mathquill\">2D</span>向量：\n\n<span class=\"mathquill\">\\vec{x}=\\begin{bmatrix} \na\n\\\\b\n\n\\end{bmatrix}</span>\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592513,
+              "key": "d038f883-a865-4075-b051-d9c9d5868b3d",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "\n\n\n\n\n\n(a)\n\n<span class=\"mathquill\">\\alpha\\vec{x}</span> 的大小是多少？（换句话说，请算出 <span class=\"mathquill\">\\left \\|\\alpha\\vec{x}  \\right \\|</span>)。\n\n\n\n ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592514,
+              "key": "91a576d6-c755-4a75-a3ff-03e448fe147e",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "(b)\n\n如果 <span class=\"mathquill\">\\alpha>0</span>，生成的向量的方向会变化吗？\n\nyes / no（区分大小写）",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592515,
+              "key": "6c854d16-f3c8-472d-8254-871839086bdf",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "(c)\n\n如果 <span class=\"mathquill\">\\alpha<0</span>，生成的向量的方向会变化多少度？\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592516,
+              "key": "1856b390-5c11-4794-a33c-8019b1900a67",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "(d)\n\n如果 <span class=\"mathquill\">-1<\\alpha<1</span>，<span class=\"mathquill\">\\left \\|\\alpha\\vec{x}  \\right \\|</span> 增大（increase）还是减小（decrease）？\n\n（答案区分大小写）\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592517,
+              "key": "50984493-5a23-49b9-a74f-7d081feb7f43",
+              "title": null,
+              "semantic_type": "WorkspaceAtom",
+              "is_public": true,
+              "workspace_id": "view2434ac35",
+              "pool_id": "webterminal",
+              "view_id": "2434ac35-4754-4032-bef3-5c5be63a9712",
+              "gpu_capable": false,
+              "configuration": {
+                "id": "reserved",
+                "blueprint": {
+                  "conf": {
+                    "port": 3000,
+                    "ports": [],
+                    "daemons": [
+                      {
+                        "id": "daemon",
+                        "cmd": "cd /home/workspace/workspace-math-support && python server3.py\n"
+                      }
+                    ],
+                    "openFiles": [
+                      "/home/workspace/workspace-math-support/math/math.txt"
+                    ],
+                    "showFiles": false,
+                    "allowClose": false,
+                    "allowSubmit": false
+                  },
+                  "kind": "react-live"
+                },
+                "workspaceId": "reserved"
+              },
+              "starter_files": null
+            },
+            {
+              "id": 592518,
+              "key": "74f745c7-be04-42fa-9e0c-ae903e993457",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "（你将在向量课程的末尾找到这道练习的答案）",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592519,
+              "key": "5292fdee-a89e-4fb3-9d85-5dbbaf102ab0",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "\n知道如何**将向量相加**和**将向量乘以标量**后，我们就可以了解线性代数中的一个重要概念：**线性组合**。\n\n在深入学习**人工智能**（简称 AI）时，你将发现我们经常需要使用线性组合。但在学习人工神经网络模拟之前，我们先学习下节课。在下节课，Grant 将带着你感受**线性组合**的精彩图形表示。\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592520,
+              "key": "2b48ea20-f07d-454d-9362-6a725733cdea",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "提示：如果 workspace 遇到问题，请重置你的数据。",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 592709,
+          "key": "e6de0b10-d465-468a-bf95-c6d18192330b",
+          "title": "向量练习答案",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "e6de0b10-d465-468a-bf95-c6d18192330b",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 592521,
+              "key": "28f3915f-ab71-4488-9ac9-ab71de4999d6",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# 练习 1 的答案",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592522,
+              "key": "6b5fe976-88eb-483b-a9db-7109ed7e6f78",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "向量的大小是：\n\n<span class=\"mathquill\">\\sqrt{a^2+b^2+c^2} </span>。\n\n\n在 workspace 中需要使用以下格式：`\\sqrt{a^2+b^2+c^2}`。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592523,
+              "key": "e146e974-3462-4cc0-b226-ce11a37dd144",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# 练习 2 的答案",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592524,
+              "key": "06ba0714-41fc-4161-82d9-922217c5e3ab",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "算出加法结果后，可视化向量。绘出图形后，你将发现很容易就能找到答案。 \n\n- 大小：<span class=\"mathquill\">1</span> \n- 方向：<span class=\"mathquill\">0{^\\circ}</span>（请在 workspace 填写 <span class=\"mathquill\">0</span>） ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592525,
+              "key": "5c98402f-d6ab-4513-8a02-e663dd5c8cbf",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# 练习 3 的答案",
+              "instructor_notes": ""
+            },
+            {
+              "id": 592526,
+              "key": "43560040-9027-4e3d-ab80-1cbac4ce2f40",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": " (a) 大小现在是：\n\n<span class=\"mathquill\">|\\alpha|\\sqrt{a^2 + b^2}</span>.\n\n在 workspace 中需要使用以下格式：`\\alpha\\sqrt{a^2 + b^2}`。\n\n (b) 方向会改变吗？\n\n不会\n\n (c) 方向将改变 <span class=\"mathquill\">180{^\\circ}</span> \n\n（仅在 workspace 填写 <span class=\"mathquill\">180</span>）\n\n\n\n(d) 大小将\n\n**减小**",
+              "instructor_notes": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    }
+  ]
+}

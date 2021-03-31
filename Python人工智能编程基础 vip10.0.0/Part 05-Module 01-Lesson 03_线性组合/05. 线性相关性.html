@@ -1,0 +1,239 @@
+<!-- udacity2.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>线性相关性</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>线性组合</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. 线性组合（第 1 部分）.html">01. 线性组合（第 1 部分）</a>
+    </li>
+    <li class="">
+      <a href="02. 线性组合（第 2 部分）.html">02. 线性组合（第 2 部分）</a>
+    </li>
+    <li class="">
+      <a href="03. 线性组合和张成.html">03. 线性组合和张成</a>
+    </li>
+    <li class="">
+      <a href="04. 线性组合 - 练习 1.html">04. 线性组合 - 练习 1</a>
+    </li>
+    <li class="">
+      <a href="05. 线性相关性.html">05. 线性相关性</a>
+    </li>
+    <li class="">
+      <a href="06. 求解简化的方程组.html">06. 求解简化的方程组</a>
+    </li>
+    <li class="">
+      <a href="07. 线性组合 - 练习 2.html">07. 线性组合 - 练习 2</a>
+    </li>
+    <li class="">
+      <a href="08. 线性组合 - 练习 3.html">08. 线性组合 - 练习 3</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">05. 线性相关性</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h1 id="线性相关性">线性相关性</h1>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>我们再看看在之前的练习中看到的两个向量：</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <ul>
+<li><p><span class="mathquill ud-math">\vec{v_2}=\begin{bmatrix} 2\\ 2\\ 2\end{bmatrix}</span>  </p>
+<ul>
+<li><span class="mathquill ud-math">\vec{v_3}=\begin{bmatrix} 8\\ 8\\ 8\end{bmatrix}</span></li></ul></li>
+</ul>
+<p>我们提到一个向量可以通过简单的数学线性组合用另一个向量生成。 </p>
+<p>例如：</p>
+<p><span class="mathquill ud-math">4\vec{v_2} =\vec{v_3}</span> </p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>当某个向量<strong>可以</strong>定义为其他向量的线性组合时，它们是一组<strong>线性相关</strong>的向量。</p>
+<p>当一组向量中的每个向量<strong>都无法</strong>定义为其他向量的线性组合时，它们是一组<strong>线性不相关</strong>的向量。</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>在我们的示例中：</p>
+<ul>
+<li><p>{<span class="mathquill ud-math">\vec{v_2} </span>、<span class="mathquill ud-math">\vec{v_3} </span>} 是线性相关的集合</p></li>
+<li><p>{<span class="mathquill ud-math">\vec{v_1} </span>、<span class="mathquill ud-math">\vec{v_2} </span>} 是线性不相关的集合</p></li>
+</ul>
+<p>以及 </p>
+<ul>
+<li>{<span class="mathquill ud-math">\vec{v_1} </span>、<span class="mathquill ud-math">\vec{v_3} </span>} 是线性不相关的集合</li>
+</ul>
+<p>(<span class="mathquill ud-math">\vec{v_1} </span> 在之前的练习中定义为：<span class="mathquill ud-math">\begin{bmatrix} 1\\ 2\\ 3\end{bmatrix} </span> )</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>判断一组向量是否为线性相关集合的最简单方式是采用<strong>行列式</strong>。<br />
+行列式已经超出了“线性代数基础知识”的范畴，我们将不再深入讲解这方面的知识。</p>
+</div>
+
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+              <a href="06. 求解简化的方程组.html" class="btn btn-outline-primary mt-4" role="button">Next Concept</a>
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://us-udacity.github.io/" target="_blank">【udacity2.0 】If you need more courses, please add wechat：udacity6</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('05. 线性相关性')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>
