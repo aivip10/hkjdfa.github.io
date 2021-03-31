@@ -1,0 +1,191 @@
+{
+  "data": {
+    "lesson": {
+      "id": 591270,
+      "key": "50af5aa7-c2e0-4212-a463-5843d425b4f7",
+      "title": "简介",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "zh-cn",
+      "summary": "让我们带领你开启通往人工智能世界的大门，一起探索这个神奇的领域吧！在这节课，我们将介绍这门纳米学位和课程讲师，以及我们提供的支持工具。",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": false,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/50af5aa7-c2e0-4212-a463-5843d425b4f7/591270/1544208022248/%E7%AE%80%E4%BB%8B+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/50af5aa7-c2e0-4212-a463-5843d425b4f7/591270/1544208019824/%E7%AE%80%E4%BB%8B+Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 591265,
+          "key": "b65844f0-ed91-4ed4-bd0a-437e5c425ee1",
+          "title": "欢迎学习这门纳米学位",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "b65844f0-ed91-4ed4-bd0a-437e5c425ee1",
+            "completed_at": "2018-07-06T09:29:31.126Z",
+            "last_viewed_at": "2018-07-06T09:29:30.421Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 591246,
+              "key": "87be6f35-2e71-4984-940f-d49f5cbc7d2a",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "在这门纳米学位中，你将学习**人工智能** (AI) 的基础知识，来构建和训练神经网络。\n\n- 编程入门 \n- 基础数学\n- 什么是神经网络\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 591242,
+              "key": "d050abc8-3c5c-413c-ab7c-ac3fdb98e72b",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "这门纳米学位没有任何先修条件，因此你可以立即加入学习。但为了顺利毕业，我们建议你可以掌握基本的代数知识，同时能够熟练操作计算机，知道如何下载和安装课程所需的应用。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 591243,
+              "key": "007e8cb1-4f07-4256-bac5-31e4291ffb25",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "**通往神奇的 AI 世界的大门就在你眼前，让我们帮助你开启这扇大门吧！**",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 591267,
+          "key": "2d1eb869-c2f9-4b62-b483-6f1612d6056a",
+          "title": "讲师与社区指南",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2d1eb869-c2f9-4b62-b483-6f1612d6056a",
+            "completed_at": "2018-07-06T09:33:30.491Z",
+            "last_viewed_at": "2018-07-06T09:33:29.744Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 591244,
+              "key": "de5b06c9-0d01-4709-b4d6-a3032452c1fd",
+              "title": "AIPND 讲师 FINAL V5",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "h0_y3eb_3m4",
+                "china_cdn_id": "h0_y3eb_3m4.mp4"
+              }
+            },
+            {
+              "id": 831721,
+              "key": "ff163d3d-737f-4a11-8eb9-2a7addfa6b0b",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## 社区指南\n\n我们希望你能在纳米学位课程和社区中度过充实、愉快的时光。因此，我们建立了以下体系，用于举报不符合优达学城标准的行为，以便我们的员工能够快速处理此类行为。\n\n所有关于 [TOU](https://cn.udacity.com/legal/terms-of-service)、[社区行为准则](https://cn.udacity.com/legal/community-guidelines)或[荣誉准则](https://cn.udacity.com/legal/community-guidelines)的违规行为举报信都应该提交给 report@udacity.com，我们会审阅你提交的内容。如果你发现或遇到任何政策违规行为，请与我们联系。我们的[社区行为准则](https://cn.udacity.com/legal/community-guidelines)列出了以下禁止出现的行为：\n\n- **骚扰：**不当、骚扰性、侮辱性、歧视性或暴力言论和行为 \n- **歧视：**发表关于性别、性别认同、性取向、民族、种族、宗教信仰、国籍、残疾或疾病的冒犯性言论\n- **传播不当内容：**分享色情、暴力或诽谤性图片\n- **欺凌：**故意恐吓、用肢体或语言暴力威胁他人\n- **性骚扰：**令人反感的性挑逗\n- **诽谤：**诽谤、辱骂、骚扰、歧视或威胁他人的淫秽、欺诈、下流或中伤言论\n- **剽窃：**不得在在线课程的任何家庭作业、项目或考试中作弊，尤其是不得剽窃他人的作品\n- **自残或自杀：**我们建议不要在 Slack 或论坛上发表关于自残或自杀的帖子。如果你或你认识的人有自残或自杀的倾向，请访问[自杀干预热线网站](https://suicidepreventionlifeline.org/)（美国境内）或 [Befrienders.org](https://www.befrienders.org/)（全球范围）。\n\n如果我们收到疑似违规行为的举报信，我们将全力调查并作出对各方都公平合理的决定。\n\n此致 \n\n优达学城团队敬上",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 591266,
+          "key": "80713f62-0300-4c5a-b630-35babe33f266",
+          "title": "社区指南",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "80713f62-0300-4c5a-b630-35babe33f266",
+            "completed_at": "2018-07-06T09:36:24.592Z",
+            "last_viewed_at": "2018-07-06T09:36:24.017Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 591247,
+              "key": "e82f61bc-9c62-4734-b1c8-5ad00b43976a",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## 社区指南\n\n我们希望你能在纳米学位课程和社区中度过充实、愉快的时光。因此，我们建立了以下体系，用于举报不符合优达学城标准的行为，以便我们的员工能够快速处理此类行为。\n\n所有关于 [TOU](https://cn.udacity.com/legal/terms-of-service)、[社区行为准则](https://cn.udacity.com/legal/community-guidelines)或[荣誉准则](https://cn.udacity.com/legal/community-guidelines)的违规行为举报信都应该提交给 report@udacity.com，我们会审阅你提交的内容。如果你发现或遇到任何政策违规行为，请与我们联系。我们的[社区行为准则](https://cn.udacity.com/legal/community-guidelines)列出了以下禁止出现的行为：\n\n- **骚扰：**不当、骚扰性、侮辱性、歧视性或暴力言论和行为 \n- **歧视：**发表关于性别、性别认同、性取向、民族、种族、宗教信仰、国籍、残疾或疾病的冒犯性言论\n- **传播不当内容：**分享色情、暴力或诽谤性图片\n- **欺凌：**故意恐吓、用肢体或语言暴力威胁他人\n- **性骚扰：**令人反感的性挑逗\n- **诽谤：**诽谤、辱骂、骚扰、歧视或威胁他人的淫秽、欺诈、下流或中伤言论\n- **剽窃：**不得在在线课程的任何家庭作业、项目或考试中作弊，尤其是不得剽窃他人的作品\n- **自残或自杀：**我们建议不要在 Slack 或论坛上发表关于自残或自杀的帖子。如果你或你认识的人有自残或自杀的倾向，请访问[自杀干预热线网站](https://suicidepreventionlifeline.org/)（美国境内）或 [Befrienders.org](https://www.befrienders.org/)（全球范围）。\n\n如果我们收到疑似违规行为的举报信，我们将全力调查并作出对各方都公平合理的决定。\n\n此致 \n\n优达学城团队敬上",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 634601,
+          "key": "a962ed52-65fe-44c8-84e8-6a9e695ca1c4",
+          "title": "截止时间政策",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "a962ed52-65fe-44c8-84e8-6a9e695ca1c4",
+            "completed_at": "2018-07-06T09:37:26.754Z",
+            "last_viewed_at": "2018-07-16T02:32:35.678Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 634602,
+              "key": "aa30f6c5-1e68-4242-ba58-aba6d30e936a",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## 截止时间政策\n\n本课程以项目为基础，每个项目都有相应的建议截止时间。我们给你提供了较为灵活的项目完成时间，只要在课程有效期内均可提交。不过为了保证满足毕业要求，我们强烈建议你按时完成项目。\n\n#### 如果我没有按时完成项目怎么办？\n\n要想成功毕业，你必须在开始上课的16周内完成和提交项目，并达到项目要求。虽然错过截止日期并不会受到惩罚，但在错过一个截止日期后，倘若你没能保持进度，在学期结束前没能完成所有要求的项目，你将可能被取消学习资格 。最后，推荐你可以从论坛和微信群中获取社群助教和导师对你的帮助，与你的同学共同进步。\n\n#### 如果我没有在学期结束前完成课程学习会怎么样？\n\n如果你没能在规定的16周内完成本学期的学习，你将被取消学习资格，并无法学习课程内容。为了恢复课程学习，你需要再次缴纳学费。课程恢复后，你的进度将被保留，你可以从停滞的部分继续学习。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 634603,
+              "key": "909e253d-87db-49a1-a0dc-ce4375a47ea7",
+              "title": "你是否已经了解了该纳米学位的截止时间政策？",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "909e253d-87db-49a1-a0dc-ce4375a47ea7",
+                "completed_at": "2018-07-06T09:38:08.298Z",
+                "last_viewed_at": "2018-07-06T09:38:08.298Z",
+                "unstructured": "{\"selected_ids\":[\"a1528101708397\"],\"is_correct\":true}"
+              },
+              "question": {
+                "prompt": "你是否已经了解了该纳米学位的截止时间政策？",
+                "answers": [
+                  {
+                    "id": "a1528101708397",
+                    "text": "是的，我已经了解。",
+                    "is_correct": true
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
