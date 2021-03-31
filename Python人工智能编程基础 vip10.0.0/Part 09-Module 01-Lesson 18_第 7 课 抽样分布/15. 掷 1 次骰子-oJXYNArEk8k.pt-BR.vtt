@@ -1,0 +1,112 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:04.000
+Vamos lá, vamos jogar
+um dado uma vez.
+
+00:00:04.033 --> 00:00:07.300
+Saiu um 5.
+Vamos jogar de novo.
+
+00:00:07.934 --> 00:00:09.601
+Saiu um 3.
+
+00:00:09.634 --> 00:00:14.400
+Continue a jogar
+e veja o que sai.
+
+00:00:15.234 --> 00:00:18.501
+Não queremos fazer isso
+100 vezes.
+
+00:00:19.667 --> 00:00:23.133
+Então vamos mudar isto
+e selecionar 100.
+
+00:00:23.167 --> 00:00:26.133
+Agora vamos jogar um dado
+100 vezes.
+
+00:00:26.167 --> 00:00:30.934
+Aleatoriamente, por simulação,
+tiramos mais 6 do que 5.
+
+00:00:30.968 --> 00:00:32.467
+Vamos tentar de novo.
+
+00:00:32.500 --> 00:00:35.701
+Nossa distribuição
+parece bem uniforme.
+
+00:00:37.734 --> 00:00:39.767
+Vamos tentar mil.
+
+00:00:40.734 --> 00:00:43.400
+Parece mais uniforme ainda.
+
+00:00:43.434 --> 00:00:45.501
+Quanto mais
+você joga o dado,
+
+00:00:45.534 --> 00:00:50.901
+os números 1, 2, 3, 4, 5 e 6
+têm a mesma chance de sair,
+
+00:00:50.934 --> 00:00:53.501
+e nossa distribuição
+é uniforme.
+
+00:00:53.534 --> 00:00:56.400
+Neste caso, o tamanho
+de nossa amostra foi 1,
+
+00:00:56.434 --> 00:00:59.501
+então não temos
+médias amostrais.
+
+00:00:59.534 --> 00:01:02.467
+Assim, basicamente,
+o erro padrão
+
+00:01:02.501 --> 00:01:05.601
+é apenas o desvio padrão
+populacional
+
+00:01:05.634 --> 00:01:07.968
+dividido
+pela raiz quadrada de 1,
+
+00:01:08.000 --> 00:01:11.100
+que é apenas
+o desvio padrão populacional.
+
+00:01:11.133 --> 00:01:13.701
+Quando pegamos amostras
+de tamanho 1,
+
+00:01:13.734 --> 00:01:18.100
+estamos só sorteando
+membros da população real.
+
+00:01:18.133 --> 00:01:22.267
+E quando fazemos um gráfico
+da distribuição de médias amostrais,
+
+00:01:22.300 --> 00:01:26.033
+estamos fazendo um gráfico
+de nossa população real.
+
+00:01:26.067 --> 00:01:29.133
+E temos uma distribuição
+aproximadamente igual
+
+00:01:29.167 --> 00:01:32.334
+à distribuição da população,
+que é uniforme,
+
+00:01:32.367 --> 00:01:36.901
+como só temos
+1, 2, 3, 4, 5, e 6.
+

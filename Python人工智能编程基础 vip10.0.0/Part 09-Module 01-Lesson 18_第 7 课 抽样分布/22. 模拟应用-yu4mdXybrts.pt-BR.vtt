@@ -1,0 +1,180 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:03.100
+Agora você já experimentou
+o miniaplicativo dos dados
+
+00:00:03.133 --> 00:00:06.033
+e viu como
+a distribuição amostral muda
+
+00:00:06.067 --> 00:00:08.634
+quando temos amostras
+de tamanhos maiores.
+
+00:00:08.667 --> 00:00:10.467
+Mas tente outro miniaplicativo.
+
+00:00:10.501 --> 00:00:14.067
+Agora temos uma distribuição
+de população real,
+
+00:00:14.100 --> 00:00:18.467
+em vez de apenas os valores
+1, 2, 3, 4, 5 e 6,
+
+00:00:18.501 --> 00:00:20.501
+como fizemos com os dados.
+
+00:00:20.534 --> 00:00:22.834
+Desta vez, você pode começar
+
+00:00:22.868 --> 00:00:25.934
+com uma população original
+distribuída normalmente,
+
+00:00:25.968 --> 00:00:30.400
+ou com uma distribuição uniforme
+para a população,
+
+00:00:30.434 --> 00:00:32.300
+ou assimétrica,
+
+00:00:32.334 --> 00:00:33.734
+ou como você quiser.
+
+00:00:33.767 --> 00:00:37.033
+Você pode fazer
+uma distribuição bimodal.
+
+00:00:37.434 --> 00:00:40.701
+E então pode simular sortear,
+por exemplo,
+
+00:00:40.734 --> 00:00:44.067
+5 valores desta população,
+
+00:00:44.100 --> 00:00:47.267
+achar a média,
+e fazer um gráfico.
+
+00:00:47.300 --> 00:00:49.467
+Eu cliquei em "animação",
+
+00:00:49.501 --> 00:00:53.467
+e ele achou 5 valores aleatórios
+desta população
+
+00:00:53.501 --> 00:00:55.767
+e plotou a média amostral.
+
+00:00:55.801 --> 00:00:59.234
+Vamos fazer a mesma coisa
+mil vezes.
+
+00:00:59.267 --> 00:01:02.501
+Aqui está a distribuição
+de médias amostrais.
+
+00:01:02.534 --> 00:01:06.701
+Você pode até calcular
+o desvio padrão desta distribuição,
+
+00:01:06.734 --> 00:01:10.968
+porque temos os parâmetros
+da população aqui.
+
+00:01:11.000 --> 00:01:14.267
+O desvio padrão
+desta distribuição
+
+00:01:14.300 --> 00:01:19.300
+deve ser 7,88,
+o desvio padrão da população,
+
+00:01:19.334 --> 00:01:22.100
+dividido pela raiz quadrada de 5.
+
+00:01:22.133 --> 00:01:26.167
+Tente.
+Encontrou 3,54?
+
+00:01:26.200 --> 00:01:28.834
+Vai conseguir algo
+bem perto disso,
+
+00:01:28.868 --> 00:01:34.133
+talvez porque este desvio padrão
+está tratando isto como uma amostra.
+
+00:01:34.167 --> 00:01:36.934
+Está usando
+o fator de correção de Bessel.
+
+00:01:36.968 --> 00:01:40.868
+Significa que este desvio padrão
+seria um pouco maior
+
+00:01:40.901 --> 00:01:44.767
+do que se o calculássemos
+tratando isto como uma população.
+
+00:01:44.801 --> 00:01:48.000
+Mas isso não importa muito.
+Brinque com isto.
+
+00:01:48.033 --> 00:01:51.334
+Vai familiarizá-los
+com distribuições amostrais.
+
+00:01:51.367 --> 00:01:55.467
+E vamos usá-las
+por todo o curso.
+
+00:01:55.501 --> 00:01:59.834
+O importante é aprender
+que você pode ter qualquer população
+
+00:01:59.868 --> 00:02:01.334
+de qualquer forma.
+
+00:02:01.367 --> 00:02:04.801
+E se você plotar a distribuição
+de médias amostrais,
+
+00:02:04.834 --> 00:02:07.567
+terá uma distribuição normal.
+
+00:02:07.601 --> 00:02:11.567
+E será cada vez mais normal,
+conforme n aumenta.
+
+00:02:11.601 --> 00:02:14.067
+Mas lembre-se
+de que se n for 1,
+
+00:02:14.100 --> 00:02:19.901
+a distribuição das médias parecerá
+com a distribuição da população.
+
+00:02:19.934 --> 00:02:22.267
+Não precisamos usar
+só miniaplicativos
+
+00:02:22.300 --> 00:02:25.033
+para demonstrar
+o Teorema Central do Limite.
+
+00:02:25.067 --> 00:02:27.200
+Podemos usar
+materiais de verdade.
+
+00:02:27.234 --> 00:02:31.067
+Os professores Laraway e Rogers
+prepararam este exemplo.
+
+00:02:31.100 --> 00:02:32.501
+Vejam só.
+

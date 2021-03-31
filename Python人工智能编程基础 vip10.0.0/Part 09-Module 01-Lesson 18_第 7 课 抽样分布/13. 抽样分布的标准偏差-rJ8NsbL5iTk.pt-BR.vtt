@@ -1,0 +1,35 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:06.367
+Bem, vamos multiplicar os dois lados
+da equação pelo erro padrão.
+
+00:00:06.400 --> 00:00:10.868
+Deste lado da equação,
+o erro padrão é cancelado.
+
+00:00:10.901 --> 00:00:13.634
+E vamos multiplicar
+os dois lados da equação
+
+00:00:13.667 --> 00:00:15.667
+por 1 sobre raiz de n.
+
+00:00:15.701 --> 00:00:20.400
+Aqui, a raiz de n dividida
+por raiz de n é cancelada.
+
+00:00:20.434 --> 00:00:24.701
+Então deste lado, ficamos com sigma
+dividido por raiz de n,
+
+00:00:24.734 --> 00:00:27.167
+e aqui, ficamos
+com o erro padrão.
+
+00:00:27.200 --> 00:00:30.334
+Então o erro padrão
+é sigma dividido por raiz de n.
+

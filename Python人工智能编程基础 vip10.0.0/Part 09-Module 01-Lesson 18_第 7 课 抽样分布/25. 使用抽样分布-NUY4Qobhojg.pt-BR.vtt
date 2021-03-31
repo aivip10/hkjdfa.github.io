@@ -1,0 +1,77 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:03.467
+Como vimos brevemente, antes,
+ao achar a probabilidade
+
+00:00:03.501 --> 00:00:07.934
+de jogar uma média de pelo menos 3
+com o dado tetraédrico,
+
+00:00:07.968 --> 00:00:11.934
+o Teorema Central de Limite
+não é só incrível, mas importante,
+
+00:00:11.968 --> 00:00:15.033
+pois permite que saibamos
+onde qualquer média amostral cai
+
+00:00:15.067 --> 00:00:17.667
+na distribuição
+de médias amostrais.
+
+00:00:17.701 --> 00:00:20.234
+No exemplo
+do dado tetraédrico,
+
+00:00:20.267 --> 00:00:25.667
+queríamos saber a probabilidade
+de obter pelo menos um 3 de média,
+
+00:00:25.701 --> 00:00:27.767
+se o jogássemos duas vezes.
+
+00:00:27.801 --> 00:00:30.834
+E vimos que,
+ao olhar para o histograma,
+
+00:00:30.868 --> 00:00:34.601
+esta probabilidade
+era pelo menos 6/16.
+
+00:00:34.634 --> 00:00:38.467
+Agora vamos estender
+este conceito às populações.
+
+00:00:38.501 --> 00:00:41.667
+Numa distribuição
+de médias amostrais
+
+00:00:41.701 --> 00:00:44.667
+onde as amostras podem ser
+de qualquer tamanho,
+
+00:00:44.701 --> 00:00:48.367
+onde uma média amostral específica
+desse mesmo tamanho
+
+00:00:48.400 --> 00:00:50.300
+cai na distribuição?
+
+00:00:50.334 --> 00:00:53.100
+Se soubermos onde ela cai
+na distribuição,
+
+00:00:53.133 --> 00:00:55.834
+podemos decidir
+se esta amostra é típica
+
+00:00:55.868 --> 00:00:58.200
+ou se algo estranho
+está acontecendo.
+
+00:00:58.234 --> 00:01:00.634
+Vamos usar outro exemplo.
+

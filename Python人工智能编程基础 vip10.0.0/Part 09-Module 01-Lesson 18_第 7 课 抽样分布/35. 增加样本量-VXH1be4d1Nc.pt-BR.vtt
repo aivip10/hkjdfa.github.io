@@ -1,0 +1,34 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.033 --> 00:00:01.234
+Seguindo em frente,
+
+00:00:01.267 --> 00:00:05.367
+e se, em vez de uma amostra
+de tamanho 35,
+
+00:00:05.400 --> 00:00:08.267
+nossa amostra contivesse
+250 pessoas?
+
+00:00:08.300 --> 00:00:11.234
+com um escore Klout médio
+de 40.
+
+00:00:11.267 --> 00:00:14.234
+Qual a probabilidade
+de selecionar aleatoriamente
+
+00:00:14.267 --> 00:00:16.434
+desta população Klout
+
+00:00:16.467 --> 00:00:21.133
+uma amostra igual a 250
+cuja média seja ao menos 40?
+
+00:00:21.133 --> 00:00:24.033
+Primeiro, vamos descobrir
+o erro padrão.
+

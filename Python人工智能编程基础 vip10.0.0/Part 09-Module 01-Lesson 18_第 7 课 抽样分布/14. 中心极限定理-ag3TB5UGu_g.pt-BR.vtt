@@ -1,0 +1,123 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:03.133
+Lembrem-se do que estamos
+tentando encontrar.
+
+00:00:03.167 --> 00:00:07.167
+Queremos saber onde,
+na distribuição de médias amostrais,
+
+00:00:07.200 --> 00:00:09.567
+nossa amostra está.
+
+00:00:09.601 --> 00:00:12.367
+Não só para uma população
+simples como esta,
+
+00:00:12.400 --> 00:00:14.267
+mas para
+uma população enorme.
+
+00:00:14.300 --> 00:00:15.934
+Agora podemos fazer isso,
+
+00:00:15.968 --> 00:00:19.000
+porque já sabemos que
+a distribuição das médias,
+
+00:00:19.033 --> 00:00:22.968
+onde cada uma é a média
+de uma amostra de tamanho N,
+
+00:00:23.000 --> 00:00:26.067
+esta distribuição
+tem um desvio padrão
+
+00:00:26.100 --> 00:00:31.400
+igual ao desvio padrão da população
+dividido por raiz de N.
+
+00:00:31.434 --> 00:00:34.200
+Isto se chama
+Teorema Central do Limite,
+
+00:00:34.234 --> 00:00:37.634
+e não é válido só
+para populações simples,
+
+00:00:37.667 --> 00:00:39.400
+mas para
+qualquer população.
+
+00:00:39.434 --> 00:00:41.901
+Por causa do
+Teorema Central do Limite,
+
+00:00:41.934 --> 00:00:44.834
+podemos ter uma população
+de qualquer formato,
+
+00:00:44.868 --> 00:00:47.267
+e digamos que tiremos
+uma amostra dela
+
+00:00:47.300 --> 00:00:48.667
+e calculemos a média.
+
+00:00:48.701 --> 00:00:52.000
+Depois tiramos outra amostra
+e calculamos sua média.
+
+00:00:52.033 --> 00:00:55.467
+Continuamos fazendo isso,
+digamos, 100 vezes.
+
+00:00:55.501 --> 00:00:58.534
+Se o tamanho da amostra
+for grande o suficiente,
+
+00:00:58.567 --> 00:01:01.167
+plotando
+a distribuição das médias
+
+00:01:01.200 --> 00:01:04.132
+vamos obter algo
+relativamente normal,
+
+00:01:04.167 --> 00:01:09.133
+com um desvio padrão igual
+ao desvio padrão da população
+
+00:01:09.167 --> 00:01:12.334
+dividido pela raiz quadrada
+do tamanho da amostra.
+
+00:01:12.367 --> 00:01:18.534
+Estamos chamando isso de SE,
+o erro padrão.
+
+00:01:18.567 --> 00:01:20.434
+Isso é muito legal,
+
+00:01:20.467 --> 00:01:24.267
+mas eu entendo que também é
+muito complicado,
+
+00:01:24.300 --> 00:01:27.567
+então vamos ver outras formas
+de estudar isso,
+
+00:01:27.601 --> 00:01:30.133
+usando apps e demonstrações,
+
+00:01:30.167 --> 00:01:32.267
+e finalmente,
+no final da aula,
+
+00:01:32.300 --> 00:01:36.133
+vamos ver um exemplo
+usando isso na vida real.
+

@@ -1,0 +1,93 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:01.169
+Fica mais estreita.
+
+00:00:01.202 --> 00:00:03.337
+Quando o tamanho da amostra
+é pequeno,
+
+00:00:03.370 --> 00:00:06.269
+o erro padrão é grande
+
+00:00:06.302 --> 00:00:09.569
+e a distribuição amostral
+é mais espalhada.
+
+00:00:09.602 --> 00:00:11.935
+Quando o tamanho da amostra
+é grande,
+
+00:00:11.968 --> 00:00:14.536
+o erro padrão é menor
+
+00:00:14.569 --> 00:00:17.402
+e a distribuição de amostras
+é mais estreita.
+
+00:00:17.436 --> 00:00:19.803
+Vemos que quando n aumenta,
+
+00:00:19.835 --> 00:00:25.035
+temos um erro padrão menor
+e um intervalo menor
+
+00:00:25.069 --> 00:00:29.536
+onde temos certeza de que está
+a média da população.
+
+00:00:29.569 --> 00:00:33.000
+Lembre-se de que a média
+da distribuição amostral
+
+00:00:33.034 --> 00:00:35.202
+é igual à média
+da população.
+
+00:00:35.235 --> 00:00:38.602
+Especificamente, devemos
+multiplicar n por 4
+
+00:00:38.636 --> 00:00:41.402
+para conseguir a metade
+do erro de medição.
+
+00:00:41.436 --> 00:00:42.843
+Vejamos isto.
+
+00:00:42.868 --> 00:00:46.235
+Digamos que em vez
+de uma amostra de tamanho n
+
+00:00:46.269 --> 00:00:50.368
+usemos uma de 4n, quadruplicando
+nosso tamanho de amostra.
+
+00:00:50.402 --> 00:00:54.855
+É o mesmo que sigma
+dividido pela raiz de 4,
+
+00:00:54.888 --> 00:00:56.368
+vezes raiz de n,
+
+00:00:56.402 --> 00:00:59.435
+devido às propriedades
+dos radicais.
+
+00:00:59.468 --> 00:01:01.934
+E a raiz quadrada de 4 é 2.
+
+00:01:01.968 --> 00:01:07.869
+Isto é igual a 1/2 vezes
+o nosso erro padrão original.
+
+00:01:07.901 --> 00:01:12.502
+Então, se quadruplicarmos n,
+temos metade do erro de medição.
+
+00:01:12.535 --> 00:01:16.743
+Isto não é muito importante,
+mas é bom saber.
+

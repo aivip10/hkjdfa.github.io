@@ -1,0 +1,91 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:02.400
+Podemos facilmente
+calcular a probabilidade
+
+00:00:02.434 --> 00:00:04.567
+de amostras discretas
+como esta,
+
+00:00:04.601 --> 00:00:07.033
+em uma população discreta.
+
+00:00:07.067 --> 00:00:10.601
+Mas e na vida real,
+com grandes populações?
+
+00:00:10.634 --> 00:00:12.601
+Não podemos
+calcular a média
+
+00:00:12.634 --> 00:00:15.267
+de cada amostra possível
+de tamanho n,
+
+00:00:15.300 --> 00:00:17.400
+e mesmo que pudéssemos,
+não iríamos querer.
+
+00:00:17.434 --> 00:00:20.067
+Tivemos 16 amostras
+
+00:00:20.100 --> 00:00:22.934
+só com uma população
+de tamanho 4.
+
+00:00:22.968 --> 00:00:28.033
+E se tivéssemos uma população
+de 350 milhões, que é comum?
+
+00:00:28.067 --> 00:00:32.400
+Já vimos que a distribuição
+de médias de amostras é normal.
+
+00:00:32.433 --> 00:00:35.200
+E sabemos que a média de
+todas essas médias de amostras
+
+00:00:35.234 --> 00:00:37.300
+é a média da população.
+
+00:00:37.334 --> 00:00:40.701
+Lembre que a média
+da população é 2,5,
+
+00:00:40.734 --> 00:00:45.133
+e a média de todas as médias de
+amostras possíveis também é 2,5.
+
+00:00:45.167 --> 00:00:48.934
+Se temos uma amostra aleatória
+e tiramos a média,
+
+00:00:48.968 --> 00:00:51.000
+como saber onde ela cai
+
+00:00:51.033 --> 00:00:53.200
+nesta distribuição
+de médias de amostras?
+
+00:00:53.234 --> 00:00:55.367
+Estamos esquecendo
+de uma coisa importante.
+
+00:00:55.400 --> 00:00:58.467
+Precisamos saber
+o número total da população?
+
+00:00:58.501 --> 00:01:02.901
+O desvio padrão da distribuição
+de médias de amostras?
+
+00:01:02.934 --> 00:01:04.534
+Que é esse aqui...
+
+00:01:04.566 --> 00:01:07.367
+Ou o número total
+de amostras possíveis?
+

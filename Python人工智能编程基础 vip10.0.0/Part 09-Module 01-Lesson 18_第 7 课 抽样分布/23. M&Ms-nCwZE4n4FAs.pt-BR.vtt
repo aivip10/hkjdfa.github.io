@@ -1,0 +1,124 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:02.601
+Temos aqui hoje
+uma doce demonstração
+
+00:00:02.634 --> 00:00:04.767
+da distribuição amostral
+da média,
+
+00:00:04.801 --> 00:00:07.434
+ou distribuição
+de médias amostrais.
+
+00:00:07.467 --> 00:00:11.167
+Dispusemos aqui 48 pratos,
+cada um com um saquinho de M&amp;Ms.
+
+00:00:11.200 --> 00:00:15.100
+Vamos pôr os M&amp;Ms,
+o dr. Rogers está fazendo isso,
+
+00:00:15.133 --> 00:00:17.033
+nos 48 pratos.
+
+00:00:17.067 --> 00:00:21.467
+É um processo entediante,
+então vamos acelerá-lo um pouco.
+
+00:00:22.801 --> 00:00:26.033
+Feito isso,
+vamos separá-los por cor.
+
+00:00:26.067 --> 00:00:28.400
+Estamos interessados
+nos azuis.
+
+00:00:28.434 --> 00:00:30.534
+Escolha a cor que quiser.
+
+00:00:30.567 --> 00:00:33.534
+Laranja, verde, amarelo.
+Nós escolhemos azul.
+
+00:00:34.067 --> 00:00:37.467
+Depois de separar os azuis,
+vamos contá-los.
+
+00:00:38.067 --> 00:00:39.801
+Estou ajudando.
+
+00:00:39.834 --> 00:00:44.300
+O dr. Rogers cansou de me ver
+sentado e pediu minha ajuda.
+
+00:00:44.334 --> 00:00:50.000
+Depois de separá-los, veremos
+a média de M&amp;Ms azuis por saquinho,
+
+00:00:50.033 --> 00:00:51.934
+ou por prato, no caso.
+
+00:00:52.434 --> 00:00:56.434
+Então, vamos pegar
+amostras aleatórias de n=5
+
+00:00:56.467 --> 00:00:58.400
+e computar uma média.
+
+00:00:58.801 --> 00:01:02.934
+Depois, faremos isso 50 vezes,
+pegando 50 amostras aleatórias,
+
+00:01:02.968 --> 00:01:05.200
+cada uma com n=5 pratos.
+
+00:01:05.233 --> 00:01:07.434
+Então construiremos
+um histograma.
+
+00:01:07.467 --> 00:01:11.200
+Ele será a distribuição
+das médias amostrais.
+
+00:01:12.767 --> 00:01:15.534
+Lembrem-se de que o Teorema Central
+de Limite diz
+
+00:01:15.567 --> 00:01:20.133
+que a distribuição de médias amostrais
+será aproximadamente normal,
+
+00:01:20.167 --> 00:01:24.701
+e que teremos um valor esperado
+da média igual a média da população.
+
+00:01:24.734 --> 00:01:29.467
+Computamos a média real da população
+tirando os M&amp;Ms azuis dos pratos
+
+00:01:29.501 --> 00:01:32.367
+e dividindo-os por 48,
+o número de pratos.
+
+00:01:32.400 --> 00:01:34.400
+O Teorema também diz
+
+00:01:34.434 --> 00:01:38.434
+que o desvio padrão
+da distribuição de médias amostrais
+
+00:01:38.467 --> 00:01:41.367
+é igual a sigma,
+o desvio padrão da população,
+
+00:01:41.400 --> 00:01:43.934
+dividido pela raiz
+do tamanho da amostra.
+
+00:01:43.968 --> 00:01:45.133
+Vejamos os dados.
+

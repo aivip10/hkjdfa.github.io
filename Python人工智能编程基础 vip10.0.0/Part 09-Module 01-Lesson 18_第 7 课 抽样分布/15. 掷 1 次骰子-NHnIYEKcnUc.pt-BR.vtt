@@ -1,0 +1,56 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:03.033
+Vamos brincar
+com este app bem legal.
+
+00:00:03.067 --> 00:00:05.334
+Clique o link abaixo
+para abri-lo.
+
+00:00:05.367 --> 00:00:08.300
+Você precisa ter
+o Java instalado.
+
+00:00:08.334 --> 00:00:11.300
+O que acontece
+se você jogar um dado
+
+00:00:11.334 --> 00:00:13.501
+pelo menos 100 vezes?
+
+00:00:13.534 --> 00:00:17.834
+Para se acostumar,
+tente jogar um dado uma vez.
+
+00:00:17.868 --> 00:00:19.501
+Tente jogar de novo,
+
+00:00:19.534 --> 00:00:23.067
+e você verá a distribuição
+começar a se formar.
+
+00:00:23.100 --> 00:00:25.400
+Então você pode mudar
+esta parte aqui,
+
+00:00:25.434 --> 00:00:28.734
+de forma a jogar um dado
+[]100 vezes
+
+00:00:28.767 --> 00:00:33.167
+e ele vai plotar todos
+os valores onde o dado vai cair,
+
+00:00:33.200 --> 00:00:34.767
+o dado simulado.
+
+00:00:34.801 --> 00:00:37.801
+O que acontece quando o joga
+pelo menos 100 vezes?
+
+00:00:37.834 --> 00:00:39.634
+Como fica a distribuição?
+

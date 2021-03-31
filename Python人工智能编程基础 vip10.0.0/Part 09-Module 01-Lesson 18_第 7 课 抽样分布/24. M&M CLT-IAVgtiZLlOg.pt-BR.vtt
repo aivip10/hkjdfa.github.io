@@ -1,0 +1,89 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:04.200
+Muito bem! A média deve ser
+a mesma que a média da população,
+
+00:00:04.234 --> 00:00:08.100
+e o erro padrão deve ser
+o desvio padrão da população
+
+00:00:08.132 --> 00:00:11.667
+dividido pela raiz quadrada
+do tamanho da amostra,
+
+00:00:11.701 --> 00:00:14.067
+que dá aproximadamente 1,56.
+
+00:00:14.100 --> 00:00:17.567
+Como estes são a média
+e erro padrão teóricos,
+
+00:00:17.601 --> 00:00:22.033
+baseado em todas as amostras
+possíveis de tamanho 5,
+
+00:00:22.067 --> 00:00:25.501
+eles não devem encontrar
+exatamente o mesmo erro médio
+
+00:00:25.534 --> 00:00:27.167
+do que o que encontramos,
+
+00:00:27.200 --> 00:00:29.000
+mas devem chegar perto.
+
+00:00:29.033 --> 00:00:30.834
+Vamos ver o que encontraram!
+
+00:00:30.868 --> 00:00:34.367
+O erro padrão da média,
+calculado com esta fórmula,
+
+00:00:34.400 --> 00:00:36.267
+do Teorema Central do Limite,
+
+00:00:36.300 --> 00:00:40.968
+é sigma, 3,49, dividido pela
+raiz do tamanho da amostra, 5.
+
+00:00:41.000 --> 00:00:50.334
+Então é 3,49 sobre raiz de 5,
+que dá aproximadamente 1,56.
+
+00:00:50.367 --> 00:00:52.534
+O erro padrão real da média,
+
+00:00:52.567 --> 00:00:56.601
+calculando o desvio padrão
+de todas as nossas amostras,
+
+00:00:56.634 --> 00:01:00.200
+tem o valor de 1,57.
+
+00:01:00.234 --> 00:01:04.167
+Muito perto daquele
+que encontramos com a fórmula.
+
+00:01:04.200 --> 00:01:09.334
+A distribuição de médias amostrais
+era aproximadamente normal.
+
+00:01:09.367 --> 00:01:12.267
+Não era perfeitamente normal,
+mas bem próximo.
+
+00:01:12.300 --> 00:01:15.400
+Vemos que o Teorema Central
+do Limite funciona.
+
+00:01:15.434 --> 00:01:19.000
+É uma ferramenta útil
+que usaremos por todo o semestre.
+
+00:01:19.033 --> 00:01:21.434
+Viva
+o Teorema Central do Limite!
+
