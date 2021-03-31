@@ -1,0 +1,296 @@
+<!-- udacity2.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>饼图</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>Matplotlib 和 Seaborn（第 1 部分）</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. 讲师.html">01. 讲师</a>
+    </li>
+    <li class="">
+      <a href="02. 简介.html">02. 简介</a>
+    </li>
+    <li class="">
+      <a href="03. 整洁的数据.html">03. 整洁的数据</a>
+    </li>
+    <li class="">
+      <a href="04. 条形图.html">04. 条形图</a>
+    </li>
+    <li class="">
+      <a href="05. 绝对频率与相对频率.html">05. 绝对频率与相对频率</a>
+    </li>
+    <li class="">
+      <a href="06. 缺失值统计.html">06. 缺失值统计</a>
+    </li>
+    <li class="">
+      <a href="07. 条形图练习.html">07. 条形图练习</a>
+    </li>
+    <li class="">
+      <a href="08. 饼图.html">08. 饼图</a>
+    </li>
+    <li class="">
+      <a href="09. 直方图.html">09. 直方图</a>
+    </li>
+    <li class="">
+      <a href="10. 直方图练习.html">10. 直方图练习</a>
+    </li>
+    <li class="">
+      <a href="11. 为离散数据选择图表.html">11. 为离散数据选择图表</a>
+    </li>
+    <li class="">
+      <a href="12. 描述统计量、异常值和坐标轴范围.html">12. 描述统计量、异常值和坐标轴范围</a>
+    </li>
+    <li class="">
+      <a href="13. 标尺和变换.html">13. 标尺和变换</a>
+    </li>
+    <li class="">
+      <a href="14. 标尺和变换练习.html">14. 标尺和变换练习</a>
+    </li>
+    <li class="">
+      <a href="15. 课程总结.html">15. 课程总结</a>
+    </li>
+    <li class="">
+      <a href="16. 补充内容：核密度估计.html">16. 补充内容：核密度估计</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">08. 饼图</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3><p>L3 071 饼图 V3</p></h3>
+  <video controls>
+  <source src="08. L3 071 饼图 V3-kSrJGJHTKV8.mp4" type="video/mp4">
+
+  <track default="true" kind="subtitles" srclang="en" src="08. L3 071 饼图 V3-kSrJGJHTKV8.en.vtt" label="en">
+  <track default="false" kind="subtitles" srclang="BR" src="08. L3 071 饼图 V3-kSrJGJHTKV8.pt-BR.vtt" label="BR">
+  <track default="false" kind="subtitles" srclang="CN" src="08. L3 071 饼图 V3-kSrJGJHTKV8.zh-CN.vtt" label="CN">
+</video>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <hr>
+<h2 id="饼图">饼图</h2>
+<p><strong>饼图</strong>是一种常见的单变量图表，用于描绘分类变量各类别的相对频率。饼图中的扇区代表频率大小；角度或面积越大，该类别就出现地越频繁。</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/l3-c07-piecharts2.png" alt="饼图（左）和条形图（右）" class="img img-fluid">
+    <figcaption class="figure-caption">
+      <p>饼图（左）和条形图（右）</p>
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>遗憾的是，饼图是一种应用场合很有限的图表类型，图表创建者很容易将饼图绘制得难以看懂。如果你要使用饼图，请尝试遵守下面的规则：</p>
+<ul>
+<li>确保你关心的是相对频率。每个扇区应该表示整体的一部分，而不是单独的数值（除非变量能够求和成某个整体）。</li>
+<li>将扇区限制在一定数量内。饼图最好只包含两到三个扇区，如果扇区足以明确区分，也可以包含四到五个。如果你有很多个类别，并且某些类别所占的比例很小，那可以将它们组合到一起，或者将这些比例很小的类别放到 "其他" 类别中。</li>
+<li>系统地绘制数据。绘制饼图的一种常见方法是从圆圈的顶部开始，然后沿着顺时针方向绘制每个分类级别，从最常见的到最不常见的排列。如果有三个类别，并且想要对比其中两个，一种常见绘制方法是将这两个类别放在 12 点钟方向的两侧，第三个类别填充在底部剩余部分。</li>
+</ul>
+<p>如果无法满足这些规则，则建议使用条形图。通常选择条形图更保险。长条高度比面积或角度更精确，并且条形图比饼图更紧凑。对于值很多的变量来说，条形图更灵活。</p>
+<p>你可以使用 matplotlib 的 <a href="https://matplotlib.org/api/_as_gen/matplotlib.pyplot.pie.html" rel="noopener noreferrer" target="_blank"><code>pie</code></a> 函数创建饼图。此函数需要数据为汇总的形式：函数的主要参数是扇区大小     。</p>
+<pre><code class="python language-python"># code for the pie chart seen above
+sorted_counts = df['cat_var'].value_counts()
+plt.pie(sorted_counts, labels = sorted_counts.index, startangle = 90,
+        counterclock = False);
+plt.axis('square')</code></pre>
+<p>为了遵守上面提到的规则，我们可以添加 "startangle = 90" 和 "counterclock = False"这两个参数，在垂直上方开始第一个扇区，然后按照顺时针方向有序地绘制每个扇区。<a href="https://matplotlib.org/api/_as_gen/matplotlib.pyplot.axis.html" rel="noopener noreferrer" target="_blank"><code>axis</code></a> 函数的使用和 "square" 参数的设定， 将使 x 和 y 轴的长度相等。不调用此函数的话，最终的图形可能看起来更像椭圆而不是正圆。</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h2 id="其他版本">其他版本</h2>
+<p>饼图的一种变体形式是<strong>环形图</strong>。它看起来很像饼图，但是图形中间有个洞。从视觉感知上来看，环形图和饼图没有什么太大的区别，所以应该按照饼图的相同规则使用环形图。选择饼图还是环形图的原因之一可能是看起来是否美观。比如，你可能会在一些报告中看到，在环形图中间的空白处展示一些统计数据，充分利用空间。</p>
+<p>要创建环形图，可以在 <code>pie</code> 函数调用中添加 "wedgeprops" 参数。默认情况下，饼图（圆形）的半径是 1；将扇区宽度属性设为小于 1 的值会删除圆形中心的颜色。</p>
+<pre><code class="python language-python">sorted_counts = df['cat_var'].value_counts()
+plt.pie(sorted_counts, labels = sorted_counts.index, startangle = 90,
+        counterclock = False, wedgeprops = {'width' : 0.4});
+plt.axis('square')</code></pre>
+<p>（文档：<a href="https://matplotlib.org/api/_as_gen/matplotlib.patches.Wedge.html" rel="noopener noreferrer" target="_blank">Wedge patches</a>）</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/l3-c07-piecharts3.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h2 id="扩展资料">扩展资料</h2>
+<ul>
+<li>Eager Eyes：<a href="https://eagereyes.org/pie-charts" rel="noopener noreferrer" target="_blank">理解饼图</a></li>
+<li>Eager Eyes：<a href="https://eagereyes.org/blog/2016/an-illustrated-tour-of-the-pie-chart-study-results" rel="noopener noreferrer" target="_blank">饼图研究结果的图形分析</a> - 如何准确地理解饼图的不同形式？</li>
+<li>Datawrapper：<a href="https://academy.datawrapper.de/article/127-what-to-consider-when-creating-a-pie-chart" rel="noopener noreferrer" target="_blank">在创建饼图时要注意的事项</a></li>
+</ul>
+</div>
+
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+              <a href="09. 直方图.html" class="btn btn-outline-primary mt-4" role="button">Next Concept</a>
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://us-udacity.github.io/" target="_blank">【udacity2.0 】If you need more courses, please add wechat：udacity6</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('08. 饼图')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>

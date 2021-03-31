@@ -1,0 +1,385 @@
+<!-- udacity2.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>条形图</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>Matplotlib 和 Seaborn（第 1 部分）</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. 讲师.html">01. 讲师</a>
+    </li>
+    <li class="">
+      <a href="02. 简介.html">02. 简介</a>
+    </li>
+    <li class="">
+      <a href="03. 整洁的数据.html">03. 整洁的数据</a>
+    </li>
+    <li class="">
+      <a href="04. 条形图.html">04. 条形图</a>
+    </li>
+    <li class="">
+      <a href="05. 绝对频率与相对频率.html">05. 绝对频率与相对频率</a>
+    </li>
+    <li class="">
+      <a href="06. 缺失值统计.html">06. 缺失值统计</a>
+    </li>
+    <li class="">
+      <a href="07. 条形图练习.html">07. 条形图练习</a>
+    </li>
+    <li class="">
+      <a href="08. 饼图.html">08. 饼图</a>
+    </li>
+    <li class="">
+      <a href="09. 直方图.html">09. 直方图</a>
+    </li>
+    <li class="">
+      <a href="10. 直方图练习.html">10. 直方图练习</a>
+    </li>
+    <li class="">
+      <a href="11. 为离散数据选择图表.html">11. 为离散数据选择图表</a>
+    </li>
+    <li class="">
+      <a href="12. 描述统计量、异常值和坐标轴范围.html">12. 描述统计量、异常值和坐标轴范围</a>
+    </li>
+    <li class="">
+      <a href="13. 标尺和变换.html">13. 标尺和变换</a>
+    </li>
+    <li class="">
+      <a href="14. 标尺和变换练习.html">14. 标尺和变换练习</a>
+    </li>
+    <li class="">
+      <a href="15. 课程总结.html">15. 课程总结</a>
+    </li>
+    <li class="">
+      <a href="16. 补充内容：核密度估计.html">16. 补充内容：核密度估计</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">04. 条形图</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3><p>L3 031 条形图V3</p></h3>
+  <video controls>
+  <source src="04. L3 031 条形图V3-ybXcduB6cXA.mp4" type="video/mp4">
+
+  <track default="true" kind="subtitles" srclang="en" src="04. L3 031 条形图V3-ybXcduB6cXA.en.vtt" label="en">
+  <track default="false" kind="subtitles" srclang="BR" src="04. L3 031 条形图V3-ybXcduB6cXA.pt-BR.vtt" label="BR">
+  <track default="false" kind="subtitles" srclang="CN" src="04. L3 031 条形图V3-ybXcduB6cXA.zh-CN.vtt" label="CN">
+</video>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <hr>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>DataVis L3 03 V2</p></h3>
+  <video controls>
+  <source src="04. DataVis L3 03 V2-srRhFrSPdvs.mp4" type="video/mp4">
+
+  <track default="true" kind="subtitles" srclang="en" src="04. DataVis L3 03 V2-srRhFrSPdvs.en.vtt" label="en">
+  <track default="false" kind="subtitles" srclang="BR" src="04. DataVis L3 03 V2-srRhFrSPdvs.pt-BR.vtt" label="BR">
+  <track default="false" kind="subtitles" srclang="CN" src="04. DataVis L3 03 V2-srRhFrSPdvs.zh-CN.vtt" label="CN">
+</video>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <hr>
+<h2 id="条形图">条形图</h2>
+<p><strong>条形图</strong>（也被称为柱形图、柱状图等）用于展示分类变量的分布情况。在条形图中，分类变量的每个类别用长条表示，高度表示数据该类别的出现频率。我们可以通过 seaborn 的 <a href="https://seaborn.pydata.org/generated/seaborn.countplot.html" rel="noopener noreferrer" target="_blank"><code>countplot</code></a> 函数创建基本的频率条形图：</p>
+<pre><code class="python language-python">sb.countplot(data = df, x = 'cat_var')</code></pre>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/l3-c03-barchart1.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>对于给出的示例，可以看出，Beta 类别频率最高，超过 100 次，然后是 Gamma      和 Alpha，Delta 的频率最低，大约为 50。默认情况下，每个类别都用不同的颜色标注。当我们探索更多变量时，添加颜色标注可能会对建立这些类别之间的关联性有帮助。其他情况下，建议简化图表，将所有长条都用相同的颜色标注，可以减少不必要的干扰。我们可以使用 "color" 参数设置长条颜色：</p>
+<pre><code class="python language-python">base_color = sb.color_palette()[0]
+sb.countplot(data = df, x = 'cat_var', color = base_color)</code></pre>
+<p><a href="https://seaborn.pydata.org/generated/seaborn.color_palette.html" rel="noopener noreferrer" target="_blank"><code>color_palette</code></a> 返回一个 RGB 元组列表，每个元组由三个数字组成，分别对应红绿蓝通道值，这三个值确定一个颜色。在没有任何参数的情况下调用此函数会返回当前/默认的调色板，我们将默认调色板的第一个颜色设为所有长条的颜色。</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/l3-c03-barchart2.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>对于条形图，我们可能想要执行的一个操作是以某种方式对数据进行排序。对于无序分类数据，一种常见操作是按照频率对数据排序。我们的数据是 pandas DataFrame 类型，因此我们可以使用各种 DataFrame 的方法来计算和得出排序方式，然后使用 "order" 参数设置排序方式：</p>
+<pre><code class="python language-python">base_color = sb.color_palette()[0]
+cat_order = df['cat_var'].value_counts().index
+sb.countplot(data = df, x = 'cat_var', color = base_color, order = cat_order)</code></pre>
+<p>（文档：<a href="https://pandas.pydata.org/pandas-docs/stable/generated/pandas.Series.value_counts.html" rel="noopener noreferrer" target="_blank"><code>Series.value_counts()</code></a>）</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/l3-c03-barchart3.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>对于有序分类数据，我们可能需要根据固有的变量顺序对长条排序。虽然我们也可以像上面的示例一样按照频率对各级别进行排序，但是我们通常更关心的是高频率的数值属于较高级别还是较低级别。在这种情况下，最佳的做法是将该列转换为有序类别（ordered category）数据类型。默认情况下，pandas 会将字符串数据读取为 object 类型，并按照看到唯一值的先后顺序绘制长条。通过将数据转换为 ordered 类型，类别的顺序将变成该特征的固有排序，不用在每次需要绘图时都指定 "order" 参数。</p>
+<pre><code class="python language-python"># 本方法要求 pandas 0.21 或更高版本
+level_order = ['Alpha', 'Beta', 'Gamma', 'Delta']
+ordered_cat = pd.api.types.CategoricalDtype(ordered = True, categories = level_order)
+df['cat_var'] = df['cat_var'].astype(ordered_cat)
+
+## 如果你的 pandas 为 0.20.3 或更低版本，请使用这种方法：
+# df['cat_var'] = df['cat_var'].astype('category', ordered = True,
+#                                      categories = level_order)
+
+base_color = sb.color_palette()[0]
+sb.countplot(data = df, x = 'cat_var', color = base_color)</code></pre>
+<p>（文档：<a href="https://pandas.pydata.org/pandas-docs/version/0.23/generated/pandas.api.types.CategoricalDtype.html" rel="noopener noreferrer" target="_blank">CategoricalDtype</a>）</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/l3-c03-barchart4.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>如果你发现需要按照不同的顺序对有序分类数据排序，则可以通过设置 "order" 参数临时覆盖数据类型，如上所示。</p>
+<h2 id="其他版本">其他版本</h2>
+<p>如果数据是 pandas Series、一维 NumPy 数组或列表形式，你可以将其设为 <code>countplot</code> 函数的第一个参数，比如 Series 数据 <code>data_var</code>，就可以像下面这样绘制：</p>
+<pre><code class="python language-python">sb.countplot(data_var)</code></pre>
+<p>如果有很多个分类级别，或者类别名称很长，那么刻度标记可能会紧挨在一起。一种解决方式是创建横向条形图。在横向条形图中，每个长条的长度（而不是高度）表示频率。在代码中，你可以在参数 "y" 上设置变量，而不是在参数 "x" 上设置变量：</p>
+<pre><code class="python language-python">base_color = sb.color_palette()[0]
+sb.countplot(data = df, y = 'cat_var', color = base_color)</code></pre>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/l3-c03-barchart5.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>此外，你还可以使用 matplotlib 的 <a href="https://matplotlib.org/api/_as_gen/matplotlib.pyplot.xticks.html" rel="noopener noreferrer" target="_blank"><code>xticks</code></a> 函数及其 "rotation" 参数更改绘制刻度标记的方向（与水平方向的逆时针夹角度数）：</p>
+<pre><code class="python language-python">base_color = sb.color_palette()[0]
+sb.countplot(data = df, x = 'cat_var', color = base_color)
+plt.xticks(rotation = 90)</code></pre>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/l3-c03-barchart6.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+              <a href="05. 绝对频率与相对频率.html" class="btn btn-outline-primary mt-4" role="button">Next Concept</a>
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://us-udacity.github.io/" target="_blank">【udacity2.0 】If you need more courses, please add wechat：udacity6</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('04. 条形图')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>

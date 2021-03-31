@@ -1,0 +1,272 @@
+<!-- udacity2.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>补充内容：核密度估计</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>Matplotlib 和 Seaborn（第 1 部分）</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. 讲师.html">01. 讲师</a>
+    </li>
+    <li class="">
+      <a href="02. 简介.html">02. 简介</a>
+    </li>
+    <li class="">
+      <a href="03. 整洁的数据.html">03. 整洁的数据</a>
+    </li>
+    <li class="">
+      <a href="04. 条形图.html">04. 条形图</a>
+    </li>
+    <li class="">
+      <a href="05. 绝对频率与相对频率.html">05. 绝对频率与相对频率</a>
+    </li>
+    <li class="">
+      <a href="06. 缺失值统计.html">06. 缺失值统计</a>
+    </li>
+    <li class="">
+      <a href="07. 条形图练习.html">07. 条形图练习</a>
+    </li>
+    <li class="">
+      <a href="08. 饼图.html">08. 饼图</a>
+    </li>
+    <li class="">
+      <a href="09. 直方图.html">09. 直方图</a>
+    </li>
+    <li class="">
+      <a href="10. 直方图练习.html">10. 直方图练习</a>
+    </li>
+    <li class="">
+      <a href="11. 为离散数据选择图表.html">11. 为离散数据选择图表</a>
+    </li>
+    <li class="">
+      <a href="12. 描述统计量、异常值和坐标轴范围.html">12. 描述统计量、异常值和坐标轴范围</a>
+    </li>
+    <li class="">
+      <a href="13. 标尺和变换.html">13. 标尺和变换</a>
+    </li>
+    <li class="">
+      <a href="14. 标尺和变换练习.html">14. 标尺和变换练习</a>
+    </li>
+    <li class="">
+      <a href="15. 课程总结.html">15. 课程总结</a>
+    </li>
+    <li class="">
+      <a href="16. 补充内容：核密度估计.html">16. 补充内容：核密度估计</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">16. 补充内容：核密度估计</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>在每次课的末尾，你将发现一些和课程主体内容不太一致的补充内容。这次的内容将介绍你可能会感兴趣或在自己的研究中可能见过的其他单变量图表。虽然条形图和直方图应该能够满足常见需求，但是此部分的图表可能对探索和解释数据图表来说都很有用。</p>
+<hr>
+<h2 id="核密度估计">核密度估计</h2>
+<p>在之前的课上，你通过使用 seaborn 的 <a href="https://seaborn.pydata.org/generated/seaborn.distplot.html#seaborn.distplot" rel="noopener noreferrer" target="_blank"><code>distplot</code></a> 函数见到了<a href="https://en.wikipedia.org/wiki/Kernel_density_estimation" rel="noopener noreferrer" target="_blank">核密度估计</a>（KDE）示例，该函数在直方图上绘制了 KDE。</p>
+<pre><code class="python language-python">sb.distplot(df['num_var'])</code></pre>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/l3-c08-histograms4.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>核密度估计是估计变量的概率密度函数的一种方式。在 KDE 图表中，你可以将每个观测值看做一个小的块状区域。将这些块状区域都堆叠到一起可以生成最终的密度曲线。默认设置使用正态分布内核，但是能够生成 KDE 图形的大部分软件还包括其他内核函数选项。</p>
+<p>Seaborn 的 <code>distplot</code> 函数会调用另一个函数 <a href="https://seaborn.pydata.org/generated/seaborn.kdeplot.html" rel="noopener noreferrer" target="_blank"><code>kdeplot</code></a> 来生成 KDE。以下演示代码还使用了被 <code>distplot</code> 调用的第三个函数 <a href="https://seaborn.pydata.org/generated/seaborn.rugplot.html" rel="noopener noreferrer" target="_blank"><code>rugplot</code></a>。在轴须图（rugplot）中，数据点被描绘成数值轴上的短竖线     。</p>
+<pre><code class="python language-python">data = [0.0, 3.0, 4.5, 8.0]
+plt.figure(figsize = [12, 5])
+
+# left plot: showing kde lumps with the default settings
+plt.subplot(1, 3, 1)
+sb.distplot(data, hist = False, rug = True, rug_kws = {'color' : 'r'})
+
+# central plot: kde with narrow bandwidth to show individual probability lumps
+plt.subplot(1, 3, 2)
+sb.distplot(data, hist = False, rug = True, rug_kws = {'color' : 'r'},
+            kde_kws = {'bw' : 1})
+
+# right plot: choosing a different, triangular kernel function (lump shape)
+plt.subplot(1, 3, 3)
+sb.distplot(data, hist = False, rug = True, rug_kws = {'color' : 'r'},
+            kde_kws = {'bw' : 1.5, 'kernel' : 'tri'})</code></pre>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/l3-c15-kde1.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>根据这种图表解释概率比标准直方图稍微复杂些。纵轴表示的是数据密度，而不是直接的概率。在 KDE 图表中，x 坐标轴和曲线之间的总面积为 1。位于两个值之间的概率可以通过计算这两个值之间的曲线下方面积得出。不借助计算机判断面积大小很难，也很可能不准确。</p>
+<p>虽然通过 KDE 做出具体的概率判断没有直方图直观，但是使用核密度估计依然存在一定的理由。如果数据点相对较少，则 KDE 可以对整体数据分布提供平滑的估计。这些信息可能无法通过直方图轻松地呈现出来，大量的不连续跳跃性数据，在直方图中可能会造成误导。</p>
+<p>另外要注意的是，KDE 中的带宽参数（bandwidth）会指定密度块体的宽度是多少。和直方图的组距（bin_width）类似，我们需要选择最能表示数据规律的带宽大小。带宽太小的话，数据看起来比实际的噪点更多，带宽太大的话，可能会遮蔽数据的有用特征。记住有这个设置方法，以防可视化软件所选的默认带宽看起来不太合适，或者你想要进一步展开调查。</p>
+</div>
+
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://us-udacity.github.io/" target="_blank">【udacity2.0 】If you need more courses, please add wechat：udacity6</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('16. 补充内容：核密度估计')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>

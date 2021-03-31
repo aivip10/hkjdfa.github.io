@@ -1,0 +1,325 @@
+<!-- udacity2.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>散点图和相关性</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>Matplotlib 和 Seaborn（第 2 部分）</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. 课程简介.html">01. 课程简介</a>
+    </li>
+    <li class="">
+      <a href="02. 散点图和相关性.html">02. 散点图和相关性</a>
+    </li>
+    <li class="">
+      <a href="03. 重叠、透明度和抖动.html">03. 重叠、透明度和抖动</a>
+    </li>
+    <li class="">
+      <a href="04. 热图.html">04. 热图</a>
+    </li>
+    <li class="">
+      <a href="05. 散点图练习.html">05. 散点图练习</a>
+    </li>
+    <li class="">
+      <a href="06. 小提琴图.html">06. 小提琴图</a>
+    </li>
+    <li class="">
+      <a href="07. 箱线图.html">07. 箱线图</a>
+    </li>
+    <li class="">
+      <a href="08. 小提琴图和箱线图练习.html">08. 小提琴图和箱线图练习</a>
+    </li>
+    <li class="">
+      <a href="09. 分组条形图.html">09. 分组条形图</a>
+    </li>
+    <li class="">
+      <a href="10. 分类图表练习.html">10. 分类图表练习</a>
+    </li>
+    <li class="">
+      <a href="11. 分面.html">11. 分面</a>
+    </li>
+    <li class="">
+      <a href="12. 调整单变量图表.html">12. 调整单变量图表</a>
+    </li>
+    <li class="">
+      <a href="13. 折线图.html">13. 折线图</a>
+    </li>
+    <li class="">
+      <a href="14. 其他图表练习.html">14. 其他图表练习</a>
+    </li>
+    <li class="">
+      <a href="15. 课程总结.html">15. 课程总结</a>
+    </li>
+    <li class="">
+      <a href="16. 附录：多变量可视化.html">16. 附录：多变量可视化</a>
+    </li>
+    <li class="">
+      <a href="17. 补充内容：蜂群图.html">17. 补充内容：蜂群图</a>
+    </li>
+    <li class="">
+      <a href="18. 补充内容：轴须图和带状图.html">18. 补充内容：轴须图和带状图</a>
+    </li>
+    <li class="">
+      <a href="19. 补充内容：堆积图.html">19. 补充内容：堆积图</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">02. 散点图和相关性</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3><p>L4 021 散点图和相关性 V2</p></h3>
+  <video controls>
+  <source src="02. L4 021 散点图和相关性 V2-wqMwTDVT9_Y.mp4" type="video/mp4">
+
+  <track default="true" kind="subtitles" srclang="en" src="02. L4 021 散点图和相关性 V2-wqMwTDVT9_Y.en.vtt" label="en">
+  <track default="false" kind="subtitles" srclang="BR" src="02. L4 021 散点图和相关性 V2-wqMwTDVT9_Y.pt-BR.vtt" label="BR">
+  <track default="false" kind="subtitles" srclang="CN" src="02. L4 021 散点图和相关性 V2-wqMwTDVT9_Y.zh-CN.vtt" label="CN">
+</video>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <hr>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>Data Vis L4 C02 V1</p></h3>
+  <video controls>
+  <source src="02. Data Vis L4 C02 V1-wBDC5AmYgyg.mp4" type="video/mp4">
+
+  <track default="true" kind="subtitles" srclang="en" src="02. Data Vis L4 C02 V1-wBDC5AmYgyg.en.vtt" label="en">
+  <track default="false" kind="subtitles" srclang="BR" src="02. Data Vis L4 C02 V1-wBDC5AmYgyg.pt-BR.vtt" label="BR">
+  <track default="false" kind="subtitles" srclang="CN" src="02. Data Vis L4 C02 V1-wBDC5AmYgyg.zh-CN.vtt" label="CN">
+</video>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <hr>
+<h2 id="散点图">散点图</h2>
+<p>如果我们想研究两个数值变量之间的关系，通常会选择<strong>散点图</strong>。在散点图中，每个数据点都单独表示为一个点，x 轴对应一个特征值，y 轴对应另一个特征值。创建散点图的一个基本方式是利用 Matplotlib 的 <a href="https://matplotlib.org/api/_as_gen/matplotlib.pyplot.scatter.html" rel="noopener noreferrer" target="_blank"><code>scatter</code></a> 函数：</p>
+<pre><code class="python language-python">plt.scatter(data = df, x = 'num_var1', y = 'num_var2')</code></pre>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/l4-c02-scatterplot1.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>可以在这两个变量之间看到一个大致上的正向关系，x 轴的值越高，y 轴上的变量值也增大。</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h2 id="替代方法">替代方法</h2>
+<p>Seaborn 的 <a href="https://seaborn.pydata.org/generated/seaborn.regplot.html" rel="noopener noreferrer" target="_blank"><code>regplot</code></a> 函数可以创建具有回归拟合的散点图：</p>
+<pre><code class="python language-python">sb.regplot(data = df, x = 'num_var1', y = 'num_var2')</code></pre>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/l4-c02-scatterplot2.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>默认的回归函数是线性回归，并且包含回归估计置信区间（阴影部分）。因为上面图表的情况看起来像 <span class="mathquill ud-math">\text{log}(y) \propto x</span> 关系（也就是 x 与 log(y) 存在线性相关），因此用原始单位绘制回归线不合适。如果我们不关心回归线，那么可以在 <code>regplot</code> 函数调用中设置 <code>reg_fit = False</code>。如果我们想对观察到的数据相关性拟合回归线，需要变换数据，如上节课中所述。</p>
+<pre><code class="python language-python">def log_trans(x, inverse = False):
+    if not inverse:
+        return np.log10(x)
+    else:
+        return np.power(10, x)
+
+sb.regplot(df['num_var1'], df['num_var2'].apply(log_trans))
+tick_locs = [10, 20, 50, 100, 200, 500]
+plt.yticks(log_trans(tick_locs), tick_locs)</code></pre>
+<p>在此例中，<code>regplot</code> 的参数 x 和 y 直接设为了从 DataFrame 中提取的 Series。</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/l4-c02-scatterplot3.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+              <a href="03. 重叠、透明度和抖动.html" class="btn btn-outline-primary mt-4" role="button">Next Concept</a>
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://us-udacity.github.io/" target="_blank">【udacity2.0 】If you need more courses, please add wechat：udacity6</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('02. 散点图和相关性')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,529 @@
+<!-- udacity2.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>课程经理小贴士：查询函数文档</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>NumPy</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. 课程讲师.html">01. 课程讲师</a>
+    </li>
+    <li class="">
+      <a href="02. NumPy 简介.html">02. NumPy 简介</a>
+    </li>
+    <li class="">
+      <a href="03. 为何要使用 NumPy.html">03. 为何要使用 NumPy</a>
+    </li>
+    <li class="">
+      <a href="04. 创建和保存 NumPy ndarray.html">04. 创建和保存 NumPy ndarray</a>
+    </li>
+    <li class="">
+      <a href="05. 使用内置函数创建 ndarray.html">05. 使用内置函数创建 ndarray</a>
+    </li>
+    <li class="">
+      <a href="06. 创建 ndarray.html">06. 创建 ndarray</a>
+    </li>
+    <li class="">
+      <a href="07. 访问和删除 ndarray 中的元素及向其中插入元素.html">07. 访问和删除 ndarray 中的元素及向其中插入元素</a>
+    </li>
+    <li class="">
+      <a href="08. ndarray 切片.html">08. ndarray 切片</a>
+    </li>
+    <li class="">
+      <a href="09. 布尔型索引、集合运算和排序.html">09. 布尔型索引、集合运算和排序</a>
+    </li>
+    <li class="">
+      <a href="10. 操纵 ndarray.html">10. 操纵 ndarray</a>
+    </li>
+    <li class="">
+      <a href="11. 算术运算和广播.html">11. 算术运算和广播</a>
+    </li>
+    <li class="">
+      <a href="12. 通过广播创建 ndarray.html">12. 通过广播创建 ndarray</a>
+    </li>
+    <li class="">
+      <a href="13. 为迷你项目做准备.html">13. 为迷你项目做准备</a>
+    </li>
+    <li class="">
+      <a href="14. 迷你项目：均值标准化和数据分离.html">14. 迷你项目：均值标准化和数据分离</a>
+    </li>
+    <li class="">
+      <a href="15. 课程经理小贴士：查询函数文档.html">15. 课程经理小贴士：查询函数文档</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">15. 课程经理小贴士：查询函数文档</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/classroom-top.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h1 id="碰到一个陌生的函数时应该怎么做">碰到一个陌生的函数时应该怎么做</h1>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>不论是在优达的课程、作业和项目中，还是我们日常学习中，我们都会接触许许多多的函数。在课程中，我们会讲解较为关键的一部分，但更多的函数还是需要你自己去探究（因为他们实在是太多啦，光Numpy这一个库就至少有2300多个！！！）。因此，在这最开始的一节，我们希望能跟你讨论一下<strong><em>碰到一个陌生的函数时应该怎么做</em></strong>。</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>首先我们需要明确的一个问题，就是我们<strong>不可能了解全部函数</strong>（依旧是那个原因，他们太多了，不论是数量还是用法），<strong>任何一个想要将全部函数都学会的行为都是及其愚蠢且浪费时间的</strong>。那么，当我们碰到一个陌生的函数，或者某个你已经熟悉的函数的一种比较陌生的用法时，我们应怎么办呢？感谢软件工程这一学科的规范化，任何一个成熟的函数库都会把他们<strong>所有函数的信息（包括定义、功能、输入、输出等）</strong>写进一份document（文档，一般是一个网站）中。因此，当我们碰到一个陌生函数时，我们需要做的就是去<strong>查询</strong>。</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h1 id="例子">例子</h1>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>下面，我们以这一段代码来举个例子（这一段代码出自 <em>人工智能编程基础</em> 这一纳米学位中的课程：<em>Lab:我的微信好友</em> 中的一段代码） </p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <pre><code class="python language-python">plt.pie([sex['male'], sex['female'], sex['unknown']],
+        labels=['Male','Female','Unknown'],
+        labeldistance = 1.1,
+        autopct = '%3.1f%%',
+        shadow = False,
+        startangle = 90,
+        pctdistance = 0.6 
+)</code></pre>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h2 id="定位函数全称、查询">定位函数全称、查询</h2>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>首先我们要做的，就是<strong>定位陌生函数隶属的库与其本身的函数名</strong>，观察开头，我们可以发现<code>plt.pie</code>，考虑到在lab的最开头有</p>
+<pre><code class="python language-python">import matplotlib.pyplot as plt</code></pre>
+<p>因此，我们可以知道<code>pie</code>这一函数是隶属于<code>matplotlib.pyplot</code>这一个库的，接下来我们就可以把这个完整的名称（<code>matplotlib.pyplot.pie</code>）丢进百度/谷歌，蹦出来的第一个妥妥就是啦</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/001.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>点进这个<a href="https://matplotlib.org/api/_as_gen/matplotlib.pyplot.pie.html" rel="noopener noreferrer" target="_blank">网址</a></p>
+<p>我们接下来会逐步解释这个网页上的内容，以便于你理解它们并将这一方法扩展到其他库函数</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h2 id="内容详解">内容详解</h2>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p><strong>1. 函数名与全部参数</strong></p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/002.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>这一部分表明了<strong>函数的全称</strong>与<strong>函数的所有参数</strong>，因此，当你想要使用这一函数时，这一部分是你<strong>必须认真察看</strong>的内容。</p>
+<p>在我们的例子中，它对应了我们所定位的函数全称<code>matplotlib.pyplot.pie</code>，并且告诉了我们这一函数所需要的所有参数(包括关键字参数对应的默认值)</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p><strong>2. 函数说明</strong></p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/003.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>这一部分一般会放在函数名与参数下方，用简明的语言概述这个<strong>函数的功能</strong></p>
+<p>在例子中，可以看到，我们查询的这个函数的功能就是根据我们的输入参数绘制一个饼图</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p><strong>3. 参数的详细解释</strong></p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/004.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>这一部分十分重要，详细阐述了<strong>每一个参数的功能与格式</strong>，当我们使用这一函数时，就需要我们配合着函数的全部参数与这一部分详细解释，来具体填写我们需要的函数中的参数</p>
+<p>而我们的例子中的代码的各个参数的功能也可以在这一部分一一对应</p>
+<table>
+<thead>
+<tr>
+<th id="参数">参数</th>
+<th id="含义" style="text-align:right;">含义</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>labels=['Male','Female','Unknown']</code></td>
+<td style="text-align:right;">饼图每一个部分的标签</td>
+</tr>
+<tr>
+<td><code>labeldistance = 1.1</code></td>
+<td style="text-align:right;">标签与饼图中心的距离</td>
+</tr>
+<tr>
+<td><code>autopct = '%3.1f%%'</code></td>
+<td style="text-align:right;">给出饼图上数字的格式</td>
+</tr>
+<tr>
+<td><code>shadow = False</code></td>
+<td style="text-align:right;">饼图背景中是否需要阴影，False为不需要</td>
+</tr>
+<tr>
+<td><code>startangle = 90</code></td>
+<td style="text-align:right;">饼图的起始角度，这里赋值为90，代表了希望将饼图逆时针旋转90度</td>
+</tr>
+<tr>
+<td><code>pctdistance = 0.6</code></td>
+<td style="text-align:right;">饼图上数字与饼图中心的距离</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p><strong>4. 返回值的解释</strong></p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/005.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>在Python中，每一个函数都会有返回值，这一部分就被用来解释这一个函数的返回值的意义与格式</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p><strong>5. 注意事项和例子</strong></p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/006.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>这一部分一般会是作者给出的一些例子或者注意事项，可以供我们来参考使用</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>根据上面的内容，我们再来仔细看看那我们想要查询的函数</p>
+<pre><code class="python language-python">plt.pie([sex['male'], sex['female'], sex['unknown']],
+        labels=['Male','Female','Unknown'],
+        labeldistance = 1.1,
+        autopct = '%3.1f%%',
+        shadow = False,
+        startangle = 90,
+        pctdistance = 0.6 
+)</code></pre>
+<p>根据前面提到的参数与函数功能，这一段函数的意思也就呼之欲出了，也就是根据sex['male'], sex['female'], sex['unknown']这三个数值绘制一个统计学中经常出现的饼图，后面的一系列参数则规定了绘图的各类格式，包括饼图上的标签、表示的数值、背景等。</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>到这里，我们已经根据这个函数的文档充分了解了目标代码的含义了。我们在这里再总结一下：</p>
+<p><strong>当你碰到一个陌生函数时</strong></p>
+<ol>
+<li><p>** 不要慌！**</p></li>
+<li><p><strong>定位这一陌生函数的全称，在搜索引擎中搜索</strong></p></li>
+<li><p><strong>找到函数的官方文档，查看每一部分对应的解释</strong></p></li>
+</ol>
+<p>而一个函数的官方文档，一般都会包含以下几部分</p>
+<ul>
+<li><strong>函数名与全部参数</strong></li>
+<li><strong>函数说明</strong></li>
+<li><strong>参数的详细解释</strong></li>
+<li><strong>返回值的解释</strong></li>
+<li><strong>注意事项和例子</strong></li>
+</ul>
+<p>需要注意的是，我们以<code>matplotlib</code>这一函数库作为例子进行了匹配与讲解，可惜的是，并不是所有的函数库文档的形式都与<code>matplotlib</code>是相同的。但是大多数库函数的文档在编写的时候都会包含这些部分，只是需要你去一一对应，活学活用，这样子，就能无往而不利了~</p>
+<p><strong>Enjoy coding and have fun !</strong></p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/classroom-end.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://us-udacity.github.io/" target="_blank">【udacity2.0 】If you need more courses, please add wechat：udacity6</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('15. 课程经理小贴士：查询函数文档')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,359 @@
+<!-- udacity2.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>热图</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>Matplotlib 和 Seaborn（第 2 部分）</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. 课程简介.html">01. 课程简介</a>
+    </li>
+    <li class="">
+      <a href="02. 散点图和相关性.html">02. 散点图和相关性</a>
+    </li>
+    <li class="">
+      <a href="03. 重叠、透明度和抖动.html">03. 重叠、透明度和抖动</a>
+    </li>
+    <li class="">
+      <a href="04. 热图.html">04. 热图</a>
+    </li>
+    <li class="">
+      <a href="05. 散点图练习.html">05. 散点图练习</a>
+    </li>
+    <li class="">
+      <a href="06. 小提琴图.html">06. 小提琴图</a>
+    </li>
+    <li class="">
+      <a href="07. 箱线图.html">07. 箱线图</a>
+    </li>
+    <li class="">
+      <a href="08. 小提琴图和箱线图练习.html">08. 小提琴图和箱线图练习</a>
+    </li>
+    <li class="">
+      <a href="09. 分组条形图.html">09. 分组条形图</a>
+    </li>
+    <li class="">
+      <a href="10. 分类图表练习.html">10. 分类图表练习</a>
+    </li>
+    <li class="">
+      <a href="11. 分面.html">11. 分面</a>
+    </li>
+    <li class="">
+      <a href="12. 调整单变量图表.html">12. 调整单变量图表</a>
+    </li>
+    <li class="">
+      <a href="13. 折线图.html">13. 折线图</a>
+    </li>
+    <li class="">
+      <a href="14. 其他图表练习.html">14. 其他图表练习</a>
+    </li>
+    <li class="">
+      <a href="15. 课程总结.html">15. 课程总结</a>
+    </li>
+    <li class="">
+      <a href="16. 附录：多变量可视化.html">16. 附录：多变量可视化</a>
+    </li>
+    <li class="">
+      <a href="17. 补充内容：蜂群图.html">17. 补充内容：蜂群图</a>
+    </li>
+    <li class="">
+      <a href="18. 补充内容：轴须图和带状图.html">18. 补充内容：轴须图和带状图</a>
+    </li>
+    <li class="">
+      <a href="19. 补充内容：堆积图.html">19. 补充内容：堆积图</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">04. 热图</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3><p>L4 041 热图 V4</p></h3>
+  <video controls>
+  <source src="04. L4 041 热图 V4-RyCdvsmBjtE.mp4" type="video/mp4">
+
+  <track default="true" kind="subtitles" srclang="en" src="04. L4 041 热图 V4-RyCdvsmBjtE.en.vtt" label="en">
+  <track default="false" kind="subtitles" srclang="BR" src="04. L4 041 热图 V4-RyCdvsmBjtE.pt-BR.vtt" label="BR">
+  <track default="false" kind="subtitles" srclang="CN" src="04. L4 041 热图 V4-RyCdvsmBjtE.zh-CN.vtt" label="CN">
+</video>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <hr>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>Data Vis L4 C04 V1</p></h3>
+  <video controls>
+  <source src="04. Data Vis L4 C04 V1-O6ElT4IFXc0.mp4" type="video/mp4">
+
+  <track default="true" kind="subtitles" srclang="en" src="04. Data Vis L4 C04 V1-O6ElT4IFXc0.en.vtt" label="en">
+  <track default="false" kind="subtitles" srclang="BR" src="04. Data Vis L4 C04 V1-O6ElT4IFXc0.pt-BR.vtt" label="BR">
+  <track default="false" kind="subtitles" srclang="CN" src="04. Data Vis L4 C04 V1-O6ElT4IFXc0.zh-CN.vtt" label="CN">
+</video>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <hr>
+<h2 id="热图">热图</h2>
+<p><strong>热图</strong>是直方图的二维版本，可以替代散点图。和散点图一样，要绘制的两个数值变量位于两个坐标轴上。和直方图类似，图表区域被划分为网格，累计每个网格的数据点数量。因为没有空间表示条形的高度，因此用网格颜色表示计数。你可以通过 Matplotlib 的 <a href="https://matplotlib.org/api/_as_gen/matplotlib.pyplot.hist2d.html" rel="noopener noreferrer" target="_blank"><code>hist2d</code></a> 函数实现热图。</p>
+<pre><code class="python language-python">plt.figure(figsize = [12, 5])
+
+# left plot: scatterplot of discrete data with jitter and transparency
+plt.subplot(1, 2, 1)
+sb.regplot(data = df, x = 'disc_var1', y = 'disc_var2', fit_reg = False,
+           x_jitter = 0.2, y_jitter = 0.2, scatter_kws = {'alpha' : 1/3})
+
+# right plot: heat map with bin edges between values
+plt.subplot(1, 2, 2)
+bins_x = np.arange(0.5, 10.5+1, 1)
+bins_y = np.arange(-0.5, 10.5+1, 1)
+plt.hist2d(data = df, x = 'disc_var1', y = 'disc_var2',
+           bins = [bins_x, bins_y])
+plt.colorbar();</code></pre>
+<p>注意，因为有两个变量，因此 "bins" 参数为一个列表，其中的两个值分别指定两个维度的分组边界。和单变量直方图一样，选择合适的分组区间很重要。我们添加了 <a href="https://matplotlib.org/api/_as_gen/matplotlib.pyplot.colorbar.html" rel="noopener noreferrer" target="_blank"><code>colorbar</code></a> 函数调用，在图表的一侧添加色条，显示计数与颜色的映射。</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/l4-c04-heatmap1.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>随着热图中的颜色越来越亮，从蓝色变成黄色，相应单元格中的数据量越来越多。</p>
+<p>热图还可以用作条形图的二维版本，按照两个分类变量（而不是数值变量）的计数绘制图表。seaborn 中的函数 <code>heatmap</code> 专门用于绘制分类热图。稍后我们将在这节课的“分组条形图”部分详细讲解这方面的知识。</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h2 id="其他版本">其他版本</h2>
+<p>要选择其他调色板，可以在 <code>hist2d</code> 中设置 "cmap" 参数。设置调色板的最简单方式是使用字符串引用内置 Matplotlib 调色板。你可以在 Pyplot API 文档的<a href="https://matplotlib.org/api/pyplot_summary.html#colors-in-matplotlib" rel="noopener noreferrer" target="_blank">此部分</a>找到有效字符串列表。下节课将详细讨论图表中的颜色。暂时我们先通过一个示例了解，设置 <code>cmap = 'viridis_r'</code> 可以将默认的 "viridis" 修改为反向的调色板。</p>
+<p>此外，我想区分计数为零的单元格和计数非零的单元格。"cmin" 参数指定了单元格要绘制出来的最小数据量。在 <code>hist2d</code> 调用中添加 <code>cmin = 0.5</code> 参数后，只有包含一个数据点以上的单元格才会有颜色。</p>
+<pre><code class="python language-python">bins_x = np.arange(0.5, 10.5+1, 1)
+bins_y = np.arange(-0.5, 10.5+1, 1)
+plt.hist2d(data = df, x = 'disc_var1', y = 'disc_var2',
+           bins = [bins_x, bins_y], cmap = 'viridis_r', cmin = 0.5)
+plt.colorbar()</code></pre>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/l4-c04-heatmap2.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>如果你有大量数据，可能需要向图表中的单元格添加注释，表示每个单元格的数据量。在<code>hist2d</code> 调用中，我们必须挨个地添加文本标注，就像在上节课挨个地向条形图中添加文本标注一样。我们可以直接通过 <code>hist2d</code> 返回的结果得出要标注的计数，该函数返回的结果不仅包括图表对象，还包括计数的数组和两个分组区间的向量。</p>
+<pre><code class="python language-python"># hist2d returns a number of different variables, including an array of counts
+bins_x = np.arange(0.5, 10.5+1, 1)
+bins_y = np.arange(-0.5, 10.5+1, 1)
+h2d = plt.hist2d(data = df, x = 'disc_var1', y = 'disc_var2',
+               bins = [bins_x, bins_y], cmap = 'viridis_r', cmin = 0.5)
+counts = h2d[0]
+
+# loop through the cell counts and add text annotations for each
+for i in range(counts.shape[0]):
+    for j in range(counts.shape[1]):
+        c = counts[i,j]
+        if c &gt;= 7: # increase visibility on darkest cells
+            plt.text(bins_x[i]+0.5, bins_y[j]+0.5, int(c),
+                     ha = 'center', va = 'center', color = 'white')
+        elif c &gt; 0:
+            plt.text(bins_x[i]+0.5, bins_y[j]+0.5, int(c),
+                     ha = 'center', va = 'center', color = 'black')</code></pre>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/l4-c04-heatmap3.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>如果热图中有太多的单元格，注释将太多，无法看清。在这种情形下，建议不要添加注释，直接通过数据和色条传达信息。通常你会在单元格较少的分类热图中看到注释。实际上，seaborn 的 <code>heatmap</code> 函数中内置了一个添加注释的参数，稍后我们将讲解。</p>
+</div>
+
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+              <a href="05. 散点图练习.html" class="btn btn-outline-primary mt-4" role="button">Next Concept</a>
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://us-udacity.github.io/" target="_blank">【udacity2.0 】If you need more courses, please add wechat：udacity6</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('04. 热图')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>

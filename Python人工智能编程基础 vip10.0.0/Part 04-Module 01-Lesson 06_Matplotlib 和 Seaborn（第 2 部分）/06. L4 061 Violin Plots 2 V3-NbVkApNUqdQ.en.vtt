@@ -1,0 +1,88 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:04.820 --> 00:00:07.200
+As we saw previously,
+
+00:00:07.200 --> 00:00:09.030
+when we have two numeric variables,
+
+00:00:09.030 --> 00:00:10.770
+at least one of them discrete.
+
+00:00:10.770 --> 00:00:15.750
+Jitter and transparency, can be used to make the trends in the data clearer.
+
+00:00:15.750 --> 00:00:20.175
+If we want to plot a quantitative variable against a qualitative variable,
+
+00:00:20.175 --> 00:00:21.825
+we can take the same approach.
+
+00:00:21.825 --> 00:00:24.525
+Just mapping each level of the qualitative variable,
+
+00:00:24.525 --> 00:00:26.280
+to an arbitrary number.
+
+00:00:26.280 --> 00:00:31.245
+For example, let's say that we have a number of game scores from three different teams.
+
+00:00:31.245 --> 00:00:33.945
+North, Central and South.
+
+00:00:33.945 --> 00:00:37.650
+If we associate one with North, two with Central,
+
+00:00:37.650 --> 00:00:38.985
+and three with South,
+
+00:00:38.985 --> 00:00:42.405
+then we could use a jittered scatter plot with team on the x -axis,
+
+00:00:42.405 --> 00:00:44.890
+and score on the y-axis.
+
+00:00:44.890 --> 00:00:50.120
+A more common visualization for this quantitative versus qualitative comparison,
+
+00:00:50.120 --> 00:00:52.390
+is the violin plot.
+
+00:00:52.390 --> 00:00:55.365
+Instead of plotting data points individually,
+
+00:00:55.365 --> 00:00:58.610
+we have a curve for each level of the categorical variable,
+
+00:00:58.610 --> 00:01:01.850
+whose area depicts the distribution of points.
+
+00:01:01.850 --> 00:01:03.755
+Where the curve is wider,
+
+00:01:03.755 --> 00:01:05.620
+there are more data points.
+
+00:01:05.620 --> 00:01:08.090
+It's basically a smooth histogram,
+
+00:01:08.090 --> 00:01:10.910
+or a density curve turned on its side.
+
+00:01:10.910 --> 00:01:16.015
+For North, you can see that they scored more points in the 50's, than the 60's.
+
+00:01:16.015 --> 00:01:21.965
+You can also see that Central tends to score more points than either North or South.
+
+00:01:21.965 --> 00:01:24.635
+Compared to the jittered scatter plot,
+
+00:01:24.635 --> 00:01:29.170
+having the distinct curves makes it easier to remember that the variable is categorical,
+
+00:01:29.170 --> 00:01:31.880
+and easier to compare their distributions.
+

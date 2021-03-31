@@ -1,0 +1,357 @@
+<!-- udacity2.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>分组条形图</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>Matplotlib 和 Seaborn（第 2 部分）</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. 课程简介.html">01. 课程简介</a>
+    </li>
+    <li class="">
+      <a href="02. 散点图和相关性.html">02. 散点图和相关性</a>
+    </li>
+    <li class="">
+      <a href="03. 重叠、透明度和抖动.html">03. 重叠、透明度和抖动</a>
+    </li>
+    <li class="">
+      <a href="04. 热图.html">04. 热图</a>
+    </li>
+    <li class="">
+      <a href="05. 散点图练习.html">05. 散点图练习</a>
+    </li>
+    <li class="">
+      <a href="06. 小提琴图.html">06. 小提琴图</a>
+    </li>
+    <li class="">
+      <a href="07. 箱线图.html">07. 箱线图</a>
+    </li>
+    <li class="">
+      <a href="08. 小提琴图和箱线图练习.html">08. 小提琴图和箱线图练习</a>
+    </li>
+    <li class="">
+      <a href="09. 分组条形图.html">09. 分组条形图</a>
+    </li>
+    <li class="">
+      <a href="10. 分类图表练习.html">10. 分类图表练习</a>
+    </li>
+    <li class="">
+      <a href="11. 分面.html">11. 分面</a>
+    </li>
+    <li class="">
+      <a href="12. 调整单变量图表.html">12. 调整单变量图表</a>
+    </li>
+    <li class="">
+      <a href="13. 折线图.html">13. 折线图</a>
+    </li>
+    <li class="">
+      <a href="14. 其他图表练习.html">14. 其他图表练习</a>
+    </li>
+    <li class="">
+      <a href="15. 课程总结.html">15. 课程总结</a>
+    </li>
+    <li class="">
+      <a href="16. 附录：多变量可视化.html">16. 附录：多变量可视化</a>
+    </li>
+    <li class="">
+      <a href="17. 补充内容：蜂群图.html">17. 补充内容：蜂群图</a>
+    </li>
+    <li class="">
+      <a href="18. 补充内容：轴须图和带状图.html">18. 补充内容：轴须图和带状图</a>
+    </li>
+    <li class="">
+      <a href="19. 补充内容：堆积图.html">19. 补充内容：堆积图</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">09. 分组条形图</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3><p>L4 091 集群条形图 V4</p></h3>
+  <video controls>
+  <source src="09. L4 091 集群条形图 V4-0rFp55TtEJM.mp4" type="video/mp4">
+
+  <track default="true" kind="subtitles" srclang="en" src="09. L4 091 集群条形图 V4-0rFp55TtEJM.en.vtt" label="en">
+  <track default="false" kind="subtitles" srclang="BR" src="09. L4 091 集群条形图 V4-0rFp55TtEJM.pt-BR.vtt" label="BR">
+  <track default="false" kind="subtitles" srclang="CN" src="09. L4 091 集群条形图 V4-0rFp55TtEJM.zh-CN.vtt" label="CN">
+</video>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <hr>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>Data Vis L4 C09 V1</p></h3>
+  <video controls>
+  <source src="09. Data Vis L4 C09 V1-OnzWhpgM9Vs.mp4" type="video/mp4">
+
+  <track default="true" kind="subtitles" srclang="en" src="09. Data Vis L4 C09 V1-OnzWhpgM9Vs.en.vtt" label="en">
+  <track default="false" kind="subtitles" srclang="BR" src="09. Data Vis L4 C09 V1-OnzWhpgM9Vs.pt-BR.vtt" label="BR">
+  <track default="false" kind="subtitles" srclang="CN" src="09. Data Vis L4 C09 V1-OnzWhpgM9Vs.zh-CN.vtt" label="CN">
+</video>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <hr>
+<h2 id="分组条形图">分组条形图</h2>
+<p>为了描绘两个分类变量之间的关系，我们可以将在上节课见到的单变量条形图扩展为<strong>分组条形图</strong>（也被称为簇状柱形图、簇状条形图等）。和标准条形图一样，我们依然想要描绘每组的数据数量，只是现在每组是两个变量的标签组合。因此我们需要按照某种顺序整理长条，使图表容易解释。在分组条形图中，根据第一个变量的级别将长条分成多组，然后在每个组内根据第二个变量对长条进行排序。使用 seaborn 的 <a href="https://seaborn.pydata.org/generated/seaborn.countplot.html" rel="noopener noreferrer" target="_blank"><code>countplot</code></a> 函数通过一个示例来讲解最容易理解。要使其从单变量图表变成双变量图表，我们用 "hue" 参数添加第二个变量：</p>
+<pre><code class="python language-python">sb.countplot(data = df, x = 'cat_var1', hue = 'cat_var2')</code></pre>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/l4-c09-clusteredbar1.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>第一个分类变量用常规的 x 轴位置表示（对照组 Control、实验 A 组 Experiment A、实验 B 组 Experiment B）。在每组中绘制三个长条，分别对应第二个分类变量的每个级别（低 Low、中 Medium、高 High），用颜色区分每个级别，并在图表的右上角用图例标记。图表告诉我们三个 "cat_var1" 组在 "cat_var2" 级别的频率分布很平衡，虽然 "Experiment A" 组与另外两组相比，Medium 点（橙色中心长条）的计数稍微低些。</p>
+<p>但是，该示例中的图例位置有点干扰性。我们可以使用 <a href="https://matplotlib.org/api/axes_api.html" rel="noopener noreferrer" target="_blank">Axes 方法</a>设置 <code>countplot</code> 返回的 Axes 对象的 legend 属性。</p>
+<pre><code class="python language-python">ax = sb.countplot(data = df, x = 'cat_var1', hue = 'cat_var2')
+ax.legend(loc = 8, ncol = 3, framealpha = 1, title = 'cat_var2')</code></pre>
+<p>文档：<a href="https://matplotlib.org/api/_as_gen/matplotlib.axes.Axes.legend.html" rel="noopener noreferrer" target="_blank"><code>Axes.legend</code></a></p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/l4-c09-clusteredbar2.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h2 id="其他方法（热图）">其他方法（热图）</h2>
+<p>描绘两个分类变量之间关系的另一种方式是热图。之前我们介绍热图是直方图的二维版本；现在我们将其当做条形图的二维版本。seaborn 函数 <a href="https://seaborn.pydata.org/generated/seaborn.heatmap.html" rel="noopener noreferrer" target="_blank"><code>heatmap</code></a> 可以轻松地实现这种类型的热图，但是输入参数与我们在这门课程中介绍的大部分可视化函数不一样。我们需要将计数汇总为一个矩阵，然后进行绘制，而不是提供原始 DataFrame。</p>
+<pre><code class="python language-python">ct_counts = df.groupby(['cat_var1', 'cat_var2']).size()
+ct_counts = ct_counts.reset_index(name = 'count')
+ct_counts = ct_counts.pivot(index = 'cat_var2', columns = 'cat_var1', values = 'count')</code></pre>
+<p>（文档：<a href="https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.reset_index.html" rel="noopener noreferrer" target="_blank">Series <code>reset_index</code></a>, <a href="https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.pivot.html" rel="noopener noreferrer" target="_blank">DataFrame <code>pivot</code></a>）</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/l4-c09-clusteredbar3.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <pre><code class="python language-python">sb.heatmap(ct_counts)</code></pre>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/l4-c09-clusteredbar4.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>热图和分组条形图传达的信息相似：每行上的相似颜色表示 "cat_var1" 群组的大小相似，并且在 "cat_var2" 级别上的分布相似。Experiment A 的 Medium 观测值的数量稍微少些，而 Control 的 High 级别数据点的数量多些，Experiment B 的 Low 级别数据点的数量稍微多些。但是与分组条形图相比，差异程度的描绘不够精确。因此，我们可能需要在图表中添加注释，注明每个单元格的计数。</p>
+<pre><code class="python language-python">sb.heatmap(ct_counts, annot = True, fmt = 'd')</code></pre>
+<p><code>annot = True</code> 可以在每个单元格中显示注释，但是默认的字符串格式精度只能达到小数点后两位。添加 <code>fmt = 'd'</code> 表示注释将变成整数形式。为了避免有些类别没有数量，要显示出 NaN 值，你可以设置 <code>fmt = '.0f'</code>。</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/l4-c09-clusteredbar5.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+              <a href="10. 分类图表练习.html" class="btn btn-outline-primary mt-4" role="button">Next Concept</a>
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://us-udacity.github.io/" target="_blank">【udacity2.0 】If you need more courses, please add wechat：udacity6</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('09. 分组条形图')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>

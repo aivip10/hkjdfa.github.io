@@ -1,0 +1,373 @@
+<!-- udacity2.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>调整单变量图表</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>Matplotlib 和 Seaborn（第 2 部分）</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. 课程简介.html">01. 课程简介</a>
+    </li>
+    <li class="">
+      <a href="02. 散点图和相关性.html">02. 散点图和相关性</a>
+    </li>
+    <li class="">
+      <a href="03. 重叠、透明度和抖动.html">03. 重叠、透明度和抖动</a>
+    </li>
+    <li class="">
+      <a href="04. 热图.html">04. 热图</a>
+    </li>
+    <li class="">
+      <a href="05. 散点图练习.html">05. 散点图练习</a>
+    </li>
+    <li class="">
+      <a href="06. 小提琴图.html">06. 小提琴图</a>
+    </li>
+    <li class="">
+      <a href="07. 箱线图.html">07. 箱线图</a>
+    </li>
+    <li class="">
+      <a href="08. 小提琴图和箱线图练习.html">08. 小提琴图和箱线图练习</a>
+    </li>
+    <li class="">
+      <a href="09. 分组条形图.html">09. 分组条形图</a>
+    </li>
+    <li class="">
+      <a href="10. 分类图表练习.html">10. 分类图表练习</a>
+    </li>
+    <li class="">
+      <a href="11. 分面.html">11. 分面</a>
+    </li>
+    <li class="">
+      <a href="12. 调整单变量图表.html">12. 调整单变量图表</a>
+    </li>
+    <li class="">
+      <a href="13. 折线图.html">13. 折线图</a>
+    </li>
+    <li class="">
+      <a href="14. 其他图表练习.html">14. 其他图表练习</a>
+    </li>
+    <li class="">
+      <a href="15. 课程总结.html">15. 课程总结</a>
+    </li>
+    <li class="">
+      <a href="16. 附录：多变量可视化.html">16. 附录：多变量可视化</a>
+    </li>
+    <li class="">
+      <a href="17. 补充内容：蜂群图.html">17. 补充内容：蜂群图</a>
+    </li>
+    <li class="">
+      <a href="18. 补充内容：轴须图和带状图.html">18. 补充内容：轴须图和带状图</a>
+    </li>
+    <li class="">
+      <a href="19. 补充内容：堆积图.html">19. 补充内容：堆积图</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">12. 调整单变量图表</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3><p>L4 121 调整单变量图形 V3</p></h3>
+  <video controls>
+  <source src="12. L4 121 调整单变量图形 V3-MXcqplnUB0o.mp4" type="video/mp4">
+
+  <track default="true" kind="subtitles" srclang="en" src="12. L4 121 调整单变量图形 V3-MXcqplnUB0o.en.vtt" label="en">
+  <track default="false" kind="subtitles" srclang="BR" src="12. L4 121 调整单变量图形 V3-MXcqplnUB0o.pt-BR.vtt" label="BR">
+  <track default="false" kind="subtitles" srclang="CN" src="12. L4 121 调整单变量图形 V3-MXcqplnUB0o.zh-CN.vtt" label="CN">
+</video>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <hr>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>Data Vis L4 C12 V2</p></h3>
+  <video controls>
+  <source src="12. Data Vis L4 C12 V2-aJncRqqJUYI.mp4" type="video/mp4">
+
+  <track default="true" kind="subtitles" srclang="en" src="12. Data Vis L4 C12 V2-aJncRqqJUYI.en.vtt" label="en">
+  <track default="false" kind="subtitles" srclang="BR" src="12. Data Vis L4 C12 V2-aJncRqqJUYI.pt-BR.vtt" label="BR">
+  <track default="false" kind="subtitles" srclang="CN" src="12. Data Vis L4 C12 V2-aJncRqqJUYI.zh-CN.vtt" label="CN">
+</video>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <hr>
+<h2 id="调整后的条形图">调整后的条形图</h2>
+<p>在上节课，我们提到直方图和条形图分别可以描绘数值变量和分类变量的分布情况，长条的高度（或长度）表示落入每个长条的值范围内的数据点数量。这些图表可以经过调整，用作双变量可视化，调整后的长条高度不再代表每个值的数量，而用来表示第二个变量的均值或其他统计量。</p>
+<p>例如，我们可以调整条形图，使长条高度表示数值变量的均值，从而绘制数值变量和分类变量的关系。这就是 seaborn 的  <a href="https://seaborn.pydata.org/generated/seaborn.barplot.html" rel="noopener noreferrer" target="_blank"><code>barplot</code></a> 函数的作用：</p>
+<pre><code class="python language-python">base_color = sb.color_palette()[0]
+sb.barplot(data = df, x = 'cat_var', y = 'num_var', color = base_color)</code></pre>
+<p>系统会自动为每个分类级别分配不同的色调，除非在 “color” 参数中设置了固定的颜色，就像 <code>countplot</code> 和 <code>violinplot</code> 一样。</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/l4-c12-adaptations1.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>长条高度表示数值变量的均值，并伴有误差线的绘制，表示基于方差和样本大小的均值不确定性。Delta 的长条因为均值为负数，跑到了 0 轴下方。</p>
+<p>此外，可以使用 <a href="https://seaborn.pydata.org/generated/seaborn.pointplot.html" rel="noopener noreferrer" target="_blank"><code>pointplot</code></a> 函数将平均值绘制为点，而不是长条。如果 0 基线不太重要或者容易让人困惑，那么这么设置会很有用。</p>
+<pre><code class="python language-python">sb.pointplot(data = df, x = 'cat_var', y = 'num_var', linestyles = "")
+plt.ylabel('Avg. value of num_var')</code></pre>
+<p>默认情况下，<code>pointplot</code> 将用折线连接值。如果分类变量本身是有序的，那么这样连接没什么问题，但是对于无序分类数据来说，建议通过  <code>linestyles = ""</code> 删除该折线。</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/l4-c12-adaptations2.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>如果箱线图和小提琴图都不适合描绘数据，那么上述图表可能会比较合适。例如，如果数值变量本身是二元变量，值仅包括 0 和 1，那么箱线图或小提琴图将无法呈现足够的信息，而调整后的条形图最适合显示这些数据。</p>
+<pre><code class="python language-python">plt.figure(figsize = [12, 5])
+base_color = sb.color_palette()[0]
+
+# left plot: violin plot
+plt.subplot(1, 3, 1)
+sb.violinplot(data = df, x = 'condition', y = 'binary_out', inner = None,
+              color = base_color)
+plt.xticks(rotation = 10) # include label rotation due to small subplot size
+
+# center plot: box plot
+plt.subplot(1, 3, 2)
+sb.boxplot(data = df, x = 'condition', y = 'binary_out', color = base_color)
+plt.xticks(rotation = 10)
+
+# right plot: adapted bar chart
+plt.subplot(1, 3, 3)
+sb.barplot(data = df, x = 'condition', y = 'binary_out', color = base_color)
+plt.xticks(rotation = 10)</code></pre>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/l4-c12-adaptations3.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h2 id="调整后的直方图">调整后的直方图</h2>
+<p>我们还可以调整 Matplotlib 的 <code>hist</code> 函数，以便通过 “weights” 参数使长条高度表示除数据点数量以外的其他值。默认情况下，每个数据点的权重是 1，以便每个长条中的数据点权重之和等于数据点的数量。如果我们将权重更改为表示每个点在第二个变量上的值的函数，那么和将表示计数之外的值。</p>
+<pre><code class="python language-python">bin_edges = np.arange(0, df['num_var'].max()+1/3, 1/3)
+
+# count number of points in each bin
+bin_idxs = pd.cut(df['num_var'], bin_edges, right = False, include_lowest = True,
+                  labels = False).astype(int)
+pts_per_bin = df.groupby(bin_idxs).size()
+
+num_var_wts = df['binary_out'] / pts_per_bin[bin_idxs].values
+
+# plot the data using the calculated weights
+plt.hist(data = df, x = 'num_var', bins = bin_edges, weights = num_var_wts)</code></pre>
+<p>要获取每个分组中 y 变量（“binary_out”）的均值，每个点的权重应该等于 y 变量除以 x 分组内的数据量（<code>num_var_wts</code>）。在计算过程中，我们使用 pandas 的 <code>cut</code> 函数使每个数据点进入特定的分组（<code>bin_idxs</code> ）。<code>labels = False</code> 这个设置使每个 cut 分组都是数值索引，而不是字符串索引。我们对 <code>pts_per_bin</code> 使用这些数值索引进行引用，最后需要用 <code>.values</code>  结尾，使<code>num_var_wts</code> 表达式的元素级相除运算成功。</p>
+<p>（文档：<a href="https://pandas.pydata.org/pandas-docs/stable/generated/pandas.cut.html" rel="noopener noreferrer" target="_blank">pandas <code>cut</code></a>）</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/l4-c12-adaptations4.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>此图表明 y 变量 “binary_out” 的平均结果基本上随着 x 变量 “num_var” 的增大而增大。</p>
+<p>更常见的情形是，你会见到图表将某个数值变量的值与第二个数值变量的关系汇总为折线图，而不是调整后的直方图。下个页面将讲解这方面的知识。</p>
+</div>
+
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+              <a href="13. 折线图.html" class="btn btn-outline-primary mt-4" role="button">Next Concept</a>
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://us-udacity.github.io/" target="_blank">【udacity2.0 】If you need more courses, please add wechat：udacity6</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('12. 调整单变量图表')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>

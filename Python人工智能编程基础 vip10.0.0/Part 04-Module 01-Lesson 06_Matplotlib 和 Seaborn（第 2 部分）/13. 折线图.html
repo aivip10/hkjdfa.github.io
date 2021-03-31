@@ -1,0 +1,411 @@
+<!-- udacity2.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>折线图</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>Matplotlib 和 Seaborn（第 2 部分）</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. 课程简介.html">01. 课程简介</a>
+    </li>
+    <li class="">
+      <a href="02. 散点图和相关性.html">02. 散点图和相关性</a>
+    </li>
+    <li class="">
+      <a href="03. 重叠、透明度和抖动.html">03. 重叠、透明度和抖动</a>
+    </li>
+    <li class="">
+      <a href="04. 热图.html">04. 热图</a>
+    </li>
+    <li class="">
+      <a href="05. 散点图练习.html">05. 散点图练习</a>
+    </li>
+    <li class="">
+      <a href="06. 小提琴图.html">06. 小提琴图</a>
+    </li>
+    <li class="">
+      <a href="07. 箱线图.html">07. 箱线图</a>
+    </li>
+    <li class="">
+      <a href="08. 小提琴图和箱线图练习.html">08. 小提琴图和箱线图练习</a>
+    </li>
+    <li class="">
+      <a href="09. 分组条形图.html">09. 分组条形图</a>
+    </li>
+    <li class="">
+      <a href="10. 分类图表练习.html">10. 分类图表练习</a>
+    </li>
+    <li class="">
+      <a href="11. 分面.html">11. 分面</a>
+    </li>
+    <li class="">
+      <a href="12. 调整单变量图表.html">12. 调整单变量图表</a>
+    </li>
+    <li class="">
+      <a href="13. 折线图.html">13. 折线图</a>
+    </li>
+    <li class="">
+      <a href="14. 其他图表练习.html">14. 其他图表练习</a>
+    </li>
+    <li class="">
+      <a href="15. 课程总结.html">15. 课程总结</a>
+    </li>
+    <li class="">
+      <a href="16. 附录：多变量可视化.html">16. 附录：多变量可视化</a>
+    </li>
+    <li class="">
+      <a href="17. 补充内容：蜂群图.html">17. 补充内容：蜂群图</a>
+    </li>
+    <li class="">
+      <a href="18. 补充内容：轴须图和带状图.html">18. 补充内容：轴须图和带状图</a>
+    </li>
+    <li class="">
+      <a href="19. 补充内容：堆积图.html">19. 补充内容：堆积图</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">13. 折线图</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3><p>L4 131 折线图 V1</p></h3>
+  <video controls>
+  <source src="13. L4 131 折线图 V1-kSntEWPuOa0.mp4" type="video/mp4">
+
+  <track default="true" kind="subtitles" srclang="en" src="13. L4 131 折线图 V1-kSntEWPuOa0.en.vtt" label="en">
+  <track default="false" kind="subtitles" srclang="BR" src="13. L4 131 折线图 V1-kSntEWPuOa0.pt-BR.vtt" label="BR">
+  <track default="false" kind="subtitles" srclang="CN" src="13. L4 131 折线图 V1-kSntEWPuOa0.zh-CN.vtt" label="CN">
+</video>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <hr>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>Data Vis L4 C13 V1</p></h3>
+  <video controls>
+  <source src="13. Data Vis L4 C13 V1-Z7NjwA6jbjU.mp4" type="video/mp4">
+
+  <track default="true" kind="subtitles" srclang="en" src="13. Data Vis L4 C13 V1-Z7NjwA6jbjU.en.vtt" label="en">
+  <track default="false" kind="subtitles" srclang="BR" src="13. Data Vis L4 C13 V1-Z7NjwA6jbjU.pt-BR.vtt" label="BR">
+  <track default="false" kind="subtitles" srclang="CN" src="13. Data Vis L4 C13 V1-Z7NjwA6jbjU.zh-CN.vtt" label="CN">
+</video>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <hr>
+<h2 id="折线图">折线图</h2>
+<p><strong>折线图</strong>是一种很常见的图表，用于描绘一个数值变量相对于第二个数值变量的变化趋势。与绘制出所有数据点的散点图相比，在折线图中，每个唯一 x 值或 x 值的分组区间仅绘制一个点（就像直方图一样）。如果一个 x 分组区间中有多个观测值，那么该点在折线图中绘制的 y 值将为该数据点在分组中的概括统计值（例如均值或中位数）。绘制的点用线条连接起来，强调 x 值的顺序或相连特性。</p>
+<p>如果 x 变量表示时间，则数据的折线图通常称之为<strong>时间序列</strong>图表。通常，在每个时间段内，我们只有一个观测值，例如股票图表或货币汇率图表。虽然 seaborn 函数 <a href="https://seaborn.pydata.org/generated/seaborn.tsplot.html" rel="noopener noreferrer" target="_blank"><code>tsplot</code></a> 可以用于时间序列数据，但是它很专业化的（撰写本课程时为 seaborn 0.8 版本），且未来即将出现很大的变化。</p>
+<p>我们将使用 Matplotlib 的 <a href="https://matplotlib.org/api/_as_gen/matplotlib.pyplot.errorbar.html" rel="noopener noreferrer" target="_blank"><code>errorbar</code></a> 函数，并且为了使数据符合函数要求的样式，会先演示对数据的必要操作步骤。</p>
+<pre><code class="python language-python">plt.errorbar(data = df, x = 'num_var1', y = 'num_var2')</code></pre>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/l4-c13-lineplot1.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>如果我们直接将 DataFrame 传入该函数中，不考虑数据结构，那么可能会遇到上面的混乱情况。该函数将所有数据点都绘制成一条线，将 DataFrame 第一行的值与最后一行的值相连。为了按照预期方式创建折线图，我们需要对数据进行额外的处理，先汇总数据。</p>
+<pre><code class="python language-python"># set bin edges, compute centers
+xbin_edges = np.arange(0.5, df['num_var1'].max()+0.25, 0.25)
+xbin_centers = (xbin_edges + 0.25/2)[:-1]
+
+# compute statistics in each bin
+data_xbins = pd.cut(df['num_var1'], xbin_edges, right = False, include_lowest = True)
+y_means = df['num_var2'].groupby(data_xbins).mean()
+y_sems = df['num_var2'].groupby(data_xbins).sem()
+
+# plot the summarized data
+plt.errorbar(x = xbin_centers, y = y_means, yerr = y_sems)</code></pre>
+<p>因为 x 变量（'num_var1'）是连续的，我们首先设置数据分组采用的区间。除了常见的分组区间边界之外，还会计算每个分组区间的中心，以便稍后绘制出来。对于每个分组区间中的数据点，我们都计算均值和均值的标准差。注意这里的 <code>cut</code> 函数调用比上一页的代码要简单，因为我们不需要计算每个点的权重。</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/l4-c13-lineplot2.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>上述数据汇总的一个有趣的方面是，随着 x 值的增大，均值的不确定性也在增大。但是对于两个最大的数据点，没有误差线。从默认的 <code>errorbar</code> 图表（或下面的散点图）可以看出，这是因为最后两个分组区间分别只有一个数据点。</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h2 id="其他版本">其他版本</h2>
+<p>你还可以通过使用 pandas 的 <a href="https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.rolling.html" rel="noopener noreferrer" target="_blank"><code>rolling</code></a> 函数以移动窗口的形式计算概括统计值，而不是通过固定分组区间计算。因为移动窗口将通过 DataFrame 的连续行进行计算，我们应该使用<a href="https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.sort_values.html" rel="noopener noreferrer" target="_blank"><code>sort_values</code></a> 先使 x 值按升序排序。</p>
+<pre><code class="python language-python"># compute statistics in a rolling window
+df_window = df.sort_values('num_var1').rolling(15)
+x_winmean = df_window.mean()['num_var1']
+y_median = df_window.median()['num_var2']
+y_q1 = df_window.quantile(.25)['num_var2']
+y_q3 = df_window.quantile(.75)['num_var2']
+
+# plot the summarized data
+base_color = sb.color_palette()[0]
+line_color = sb.color_palette('dark')[0]
+plt.scatter(data = df, x = 'num_var1', y = 'num_var2')
+plt.errorbar(x = x_winmean, y = y_median, c = line_color)
+plt.errorbar(x = x_winmean, y = y_q1, c = line_color, linestyle = '--')
+plt.errorbar(x = x_winmean, y = y_q3, c = line_color, linestyle = '--')
+plt.savefig('L4_C13_Lineplot3.png')</code></pre>
+<p>注意，在绘制图表时，我们是可以绘制多条折线的。挨个调用多个 Matplotlib 函数，所有图表都会在同一个坐标轴上绘制。我们将在散点图上绘制三条四分位数统计量的线条，没有绘制均值和误差条。</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/l4-c13-lineplot3.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>折线图的另一种双变量应用是针对分类变量的不同级别绘制数值变量的分布情况。这是使用小提琴图、箱线图和分面直方图的另一种替代方式。使用折线图，对每个分类级别绘制一条线，就像相互堆叠地绘制直方图。要实现这一点，可以使用上述方法多次调用 <code>errorbar</code>，或者多次调用 <a href="https://matplotlib.org/api/_as_gen/matplotlib.pyplot.hist.html" rel="noopener noreferrer" target="_blank"><code>hist</code></a>，设置 “histtype = step” 参数，以便将长条描绘为未填充的线条。</p>
+<pre><code class="python language-python">bin_edges = np.arange(-3, df['num_var'].max()+1/3, 1/3)
+g = sb.FacetGrid(data = df, hue = 'cat_var', size = 5)
+g.map(plt.hist, "num_var", bins = bin_edges, histtype = 'step')
+g.add_legend()</code></pre>
+<p>注意，我通过使用 <a href="https://seaborn.pydata.org/generated/seaborn.FacetGrid.html" rel="noopener noreferrer" target="_blank">FacetGrid</a> ，在 “hue” 参数（而不是 “col” 参数）上设置分类变量多次调用 <code>hist</code>。你将在下节课多次见到 FacetGrid 的这一参数。我还调用了 <code>add_legend</code> 方法，以便标识每条线与哪个级别相关。</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/l4-c13-lineplot4.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>遗憾的是，“Alpha” 曲线是被其他三条曲线覆盖了，因为计数相对较低，导致出现很多重叠的地方。或许用一条线连接长条的中心会更好，就像在第一个 <code>errorbar</code> 示例中那样。</p>
+<p>提供给 FacetGrid 对象的 <code>map</code> 方法的函数并非必须是内置函数。我在下面写了一个函数来进行如上所示的汇总运算，以便为分类变量的每个级别绘制一个<code>errorbar</code> 线条，然后将该函数 (<code>freq_poly</code>) 提供给 <code>map</code>。</p>
+<pre><code class="python language-python">def freq_poly(x, bins = 10, **kwargs):
+    """ Custom frequency polygon / line plot code. """
+    # set bin edges if none or int specified
+    if type(bins) == int:
+        bins = np.linspace(x.min(), x.max(), bins+1)
+    bin_centers = (bin_edges[1:] + bin_edges[:-1]) / 2
+
+    # compute counts
+    data_bins = pd.cut(x, bins, right = False,
+                       include_lowest = True)
+    counts = x.groupby(data_bins).count()
+
+    # create plot
+    plt.errorbar(x = bin_centers, y = counts, **kwargs)
+
+bin_edges = np.arange(-3, df['num_var'].max()+1/3, 1/3)
+g = sb.FacetGrid(data = df, hue = 'cat_var', size = 5)
+g.map(freq_poly, "num_var", bins = bin_edges)
+g.add_legend()</code></pre>
+<p><code>**kwargs</code> 用于为 <code>errorbar</code> 函数设置其他关键字参数。</p>
+<p>（文档：<a href="https://docs.scipy.org/doc/numpy/reference/generated/numpy.linspace.html" rel="noopener noreferrer" target="_blank">numpy <code>linspace</code></a>）</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/l4-c13-lineplot5.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+              <a href="14. 其他图表练习.html" class="btn btn-outline-primary mt-4" role="button">Next Concept</a>
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://us-udacity.github.io/" target="_blank">【udacity2.0 】If you need more courses, please add wechat：udacity6</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('13. 折线图')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>

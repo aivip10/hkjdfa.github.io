@@ -1,0 +1,397 @@
+<!-- udacity2.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>附录：多变量可视化</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>Matplotlib 和 Seaborn（第 2 部分）</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. 课程简介.html">01. 课程简介</a>
+    </li>
+    <li class="">
+      <a href="02. 散点图和相关性.html">02. 散点图和相关性</a>
+    </li>
+    <li class="">
+      <a href="03. 重叠、透明度和抖动.html">03. 重叠、透明度和抖动</a>
+    </li>
+    <li class="">
+      <a href="04. 热图.html">04. 热图</a>
+    </li>
+    <li class="">
+      <a href="05. 散点图练习.html">05. 散点图练习</a>
+    </li>
+    <li class="">
+      <a href="06. 小提琴图.html">06. 小提琴图</a>
+    </li>
+    <li class="">
+      <a href="07. 箱线图.html">07. 箱线图</a>
+    </li>
+    <li class="">
+      <a href="08. 小提琴图和箱线图练习.html">08. 小提琴图和箱线图练习</a>
+    </li>
+    <li class="">
+      <a href="09. 分组条形图.html">09. 分组条形图</a>
+    </li>
+    <li class="">
+      <a href="10. 分类图表练习.html">10. 分类图表练习</a>
+    </li>
+    <li class="">
+      <a href="11. 分面.html">11. 分面</a>
+    </li>
+    <li class="">
+      <a href="12. 调整单变量图表.html">12. 调整单变量图表</a>
+    </li>
+    <li class="">
+      <a href="13. 折线图.html">13. 折线图</a>
+    </li>
+    <li class="">
+      <a href="14. 其他图表练习.html">14. 其他图表练习</a>
+    </li>
+    <li class="">
+      <a href="15. 课程总结.html">15. 课程总结</a>
+    </li>
+    <li class="">
+      <a href="16. 附录：多变量可视化.html">16. 附录：多变量可视化</a>
+    </li>
+    <li class="">
+      <a href="17. 补充内容：蜂群图.html">17. 补充内容：蜂群图</a>
+    </li>
+    <li class="">
+      <a href="18. 补充内容：轴须图和带状图.html">18. 补充内容：轴须图和带状图</a>
+    </li>
+    <li class="">
+      <a href="19. 补充内容：堆积图.html">19. 补充内容：堆积图</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">16. 附录：多变量可视化</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>在上个页面的视频末尾，我们提到在下节课将介绍向图形中添加第三个变量或更多变量的技巧。此纳米学位课程没有包含这些内容。你刚刚所学的课程属于<a href="https://www.udacity.com/course/nd002" rel="noopener noreferrer" target="_blank">数据分析师纳米学位</a>课程的内容。相关课程不仅介绍了单变量和双变量可视化，还介绍了多变量可视化，并详细讲解了如何完善图形以向他人传递信息。</p>
+<p>本页面将概述多变量可视化技巧。如果你想了解三个变量或多个变量之间的关系，可以利用本页面介绍的技巧作为出发点。</p>
+<h2 id="使用颜色表示第三个变量">使用颜色表示第三个变量</h2>
+<p>在 matplotlib 和 seaborn 中，向图形中添加第三个变量的最常见方式是使用颜色。你已经在这节课的集群条形图和热图中见过这种方式。<code>violinplot</code>、<code>boxplot</code> 和 <code>barplot</code> 函数都可以通过添加“hue”参数显示第三个变量集群。可以调整热图的代码，以便描绘第三个变量（而不是计数），只需更改 <code>hist2d</code> 的“weights”参数，或者要馈送给 <code>heatmap</code> 的数据整合函数。</p>
+<p>对于散点图来说，可以通过两种不同的方式设置颜色，取决于变量类型。对于数字变量来说，你可以直接在 <code>scatter</code> 函数调用中设置“color”或“c”参数。</p>
+<pre><code class="python language-python">plt.scatter(data = df, x = 'num_var1', y = 'num_var2', c = 'num_var3')
+plt.colorbar()</code></pre>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/l5-c03-color2.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>如果你有一个定性变量，可以通过 seaborn 的 <strong>FacetGrid</strong> 类上的“hue”参数为分类变量的不同级别设置不同的颜色。</p>
+<pre><code class="python language-python">g = sb.FacetGrid(data = df, hue = 'cat_var1', size = 5)
+g.map(plt.scatter, 'num_var1', 'num_var2')
+g.add_legend()</code></pre>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/l5-c03-color1.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h2 id="调色板类型">调色板类型</h2>
+<p>根据你的变量类型，你可能需要选择默认调色板之外的其他调色板。有三种主要调色板类型：定性、连续和发散调色板。</p>
+<p><strong>定性调色板</strong>面向的是名目型数据。这是默认调色板采用的调色板类。在定性调色板中，连续性颜色值是有区别的，因此并没暗含任何固有的顺序。好的定性调色板的颜色应该尝试避免在亮度和饱和度方面出现剧烈变化，导致读者认为某个类别比其他类别更重要，除非要故意这么强调。</p>
+<pre><code class="python language-python">sb.palplot(sb.color_palette(n_colors=9))</code></pre>
+<p>（文档：seaborn <a href="https://seaborn.pydata.org/generated/seaborn.palplot.html" rel="noopener noreferrer" target="_blank"><code>palplot</code></a>, <a href="https://seaborn.pydata.org/generated/seaborn.color_palette.html" rel="noopener noreferrer" target="_blank"><code>color_palette</code></a>）</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/l5-c03-color3.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>对于其他类型的数据（名目和数字），可能需要在连续尺度和发散尺度之间做出选择。在<strong>连续调色板</strong>中，连续的颜色值应该相互之间保持系统性。通常，在单个或小范围的色调之间保持从浅到深的顺序，其中浅色表示值较低，深色表示值很高。默认的连续色图“viridis”采用的是相反的表示法，深色表示较低的值，浅色表示很高的值。</p>
+<pre><code class="python language-python">sb.palplot(sb.color_palette('viridis', 9))</code></pre>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/l5-c03-color4.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>大多数情况下，连续调色板可以很好地描绘有序或数字数据。但是，如果变量有一个有意义的零或中心值，你可能需要考虑使用<strong>发散调色板</strong>。在发散调色板中，将两个具有不同色调的连续调色板放在一起，并用一个共同的颜色（通常是白色或灰色）连接它们。一个色调表示大于中心点的值，另一个色调表示小于中心点的值。</p>
+<pre><code class="python language-python">sb.palplot(sb.color_palette('vlag', 9))</code></pre>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/l5-c03-color5.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h2 id="设置调色板">设置调色板</h2>
+<p>如果你想要（或需要）更改图形的色图，最简单的方式是使用 matplotlib 或 seaborn 中的某个内置函数。matplotlib 文档的<a href="https://matplotlib.org/api/pyplot_summary.html" rel="noopener noreferrer" target="_blank">此部分</a>具有一个可以当做颜色映射的字符串列表。对于大部分情况，请使用 matplotlib 的内置调色板（’viridis' 等）或来自 ColorBrewer 的调色板；剩余的调色板看起来可能不够一致。Seaborn 还增加了以下多个调色板：</p>
+<ul>
+<li><strong>定性</strong>（全部多达 6 种颜色）：'deep’、’pastel’、’dark’、’muted’、’bright’、’colorblind'</li>
+<li><strong>有序</strong>：’rocket' (white-orange-red-purple-black)、’mako' (mint-green-blue-purple-black)</li>
+<li><strong>发散</strong>：’vlag' (blue-white-red)、’icefire' (blue-black-orange)</li>
+</ul>
+<p>对于所有这些字符串，在后面附加 '_r' 会颠倒调色板，如果序列或发散调色板的呈现方式与你预期的相反，这么设置很有用。</p>
+<p>设置调色板的方式取决于所使用的绘图函数。请参阅相关文档，了解具体详情。例如，在 <strong>FacetGrid</strong> 中可以通过“palette”参数设置调色板，在 <code>scatter</code> 中可以通过“cmap”参数设置。在使用发散调色板时，你可能需要指定“vmin”和“vmax”参数，以便调色板中的中性点与刻度的中心点为同一个点。此外，创建其他标准化函数的解决方案（例如在<a href="https://stackoverflow.com/questions/20144529/shifted-colorbar-matplotlib" rel="noopener noreferrer" target="_blank">此 Stack Overflow 会话</a>中发布的解决方案）可以用于精细地控制色图。发散颜色刻度对热图来说很常见，专门有一个“center”参数用于设置中心值。</p>
+<p>最后，请注意透明度和重叠对图形可解释性的影响。如果定性刻度上具有不同颜色的点重叠了，可能会形成无法与调色板中的颜色匹配的第三种颜色。如果定性刻度上有多个点重叠了，那么可能会形成一个实际上不存在于数据中的值。为了保险起见，避免或尽量不使用透明度。你可能需要仅绘制示例数据点，确保第三个变量的效果很明显。</p>
+<pre><code class="python language-python">plt.figure(figsize = [5,5])
+
+# left: qualitative points
+plt.scatter(0,0.5,s = 1e4, c = sb.color_palette()[0], alpha = 0.5)
+plt.scatter(0,-0.5,s = 1e4, c = sb.color_palette()[1], alpha = 0.5)
+
+# right: quantitative points
+plt.scatter(1,0.5,s = 1e4, c = sb.color_palette('Blues')[2], alpha = 0.5)
+plt.scatter(1,-0.5,s = 1e4, c = sb.color_palette('Blues')[4], alpha = 0.5)
+
+# set axes for point overlap
+plt.xlim(-0.5,1.5)
+plt.ylim(-3.5,3.5)
+plt.xticks([])
+plt.yticks([])</code></pre>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/l5-c03-color8.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h2 id="在两个变量之间进行分面">在两个变量之间进行分面</h2>
+<p>之前在这节课，你了解了可以如何使用 <strong>FacetGrid</strong> 根据分类变量的不同级别对数据集分组，然后为每个子集创建一个图形。之前演示的分面图形是单变量图形，实际上你可以使用任何图形类型，并使用分面双变量图形创建多变量图形。</p>
+<p>借助 <strong>FacetGrid</strong>，不仅可以根据列对变量进行分面，还可以根据行分面。我们可以在两个分面坐标轴的每个轴上设置分类变量，这是描绘多变量趋势的另外一种方法。</p>
+<pre><code class="python language-python">g = sb.FacetGrid(data = df, col = 'cat_var2', row = 'cat_var1', size = 2.5,
+                margin_titles = True)
+g.map(plt.scatter, 'num_var1', 'num_var2')</code></pre>
+<p>设置 <code>margin_titles = True</code> 表示不再将每个分面标记为行和列变量的组合，而是将标签单独放在分面网格的顶部和右侧边缘。这种方式效果很棒，因为默认的图形标题通常很长。</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/l5-c05-faceting2.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+              <a href="17. 补充内容：蜂群图.html" class="btn btn-outline-primary mt-4" role="button">Next Concept</a>
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://us-udacity.github.io/" target="_blank">【udacity2.0 】If you need more courses, please add wechat：udacity6</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('16. 附录：多变量可视化')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>
