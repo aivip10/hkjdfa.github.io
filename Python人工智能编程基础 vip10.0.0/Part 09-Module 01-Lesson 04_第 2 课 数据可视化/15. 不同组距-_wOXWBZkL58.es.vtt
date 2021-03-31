@@ -1,0 +1,64 @@
+WEBVTT
+Kind: captions
+Language: es
+
+00:00:00.012 --> 00:00:03.987
+Acabas de crear un histograma con intervalos de 20, pero
+
+00:00:04.097 --> 00:00:11.660
+podemos crearlo del intervalo que queramos. Esto es un sw para generar histogramas interactivos,
+
+00:00:11.720 --> 00:00:15.202
+que me gusta mucho. Ponemos aquí los datos,
+
+00:00:15.302 --> 00:00:21.010
+Y puedes ver como cambia la configuración del histograma, cuando cambias los intervalos.
+
+00:00:21.180 --> 00:00:26.252
+Aqui estamos creando intervalos cada vez más grandes. Ves que hay
+
+00:00:26.344 --> 00:00:34.026
+más observaciones ahora en cada intervalo. Si seguimos aumentando los intervalos,
+
+00:00:34.086 --> 00:00:38.499
+será más difícil ver la forma del histograma,
+
+00:00:38.579 --> 00:00:45.303
+porque los histogramas serán demasiado grandes. Aquí, el tamaño del intervalo es 23.
+
+00:00:45.502 --> 00:00:51.183
+Y si seguimos aumentando, tendremos demasiados datos en el intevalo,
+
+00:00:51.283 --> 00:00:55.291
+y la forma del hstograma será irreconocible.
+
+00:00:56.303 --> 00:01:03.359
+Así que eligamos un intervalo menor, para que podamos ver la forma del histograma.
+
+00:01:03.495 --> 00:01:10.533
+El pico está en torno a los 20 años. Realmente depende de tí, elegir el tamaño del intervalo,
+
+00:01:10.823 --> 00:01:15.200
+depende de la pregunta que quieras responder, de cuánto detalle necesites.
+
+00:01:15.322 --> 00:01:18.463
+Porque en un determinado momento, el intervalo será,
+
+00:01:18.583 --> 00:01:26.838
+o muy pequeño o muy grande. En este sw también puedes ver
+
+00:01:26.958 --> 00:01:31.090
+que el tamaño de la muestra es 50. Puedes ver la media.
+
+00:01:31.220 --> 00:01:36.880
+Y sacaremos la estadística más adelante. El enlace al sw, está a la derecha,
+
+00:01:36.950 --> 00:01:39.769
+Puedes pinchar en el y subir los datos.
+
+00:01:39.829 --> 00:01:43.904
+Compartimos los datos en las hojas de cálculo de Google. Y luego, puedes comprobar por tí mismo,
+
+00:01:43.994 --> 00:01:47.597
+cómo cambia la forma del histograma, cuando cambias el tamaño del intervalo.
+

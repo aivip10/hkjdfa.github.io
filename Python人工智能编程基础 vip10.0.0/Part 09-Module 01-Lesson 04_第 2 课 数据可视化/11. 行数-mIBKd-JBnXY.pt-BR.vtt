@@ -1,0 +1,86 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.008 --> 00:00:03.552
+Agora você já sabe que a Udacity
+tem ampla diversidade de alunos.
+
+00:00:03.585 --> 00:00:05.980
+Eles são do mundo todo.
+
+00:00:06.013 --> 00:00:09.712
+Acho que mais de 146 países,
+na verdade.
+
+00:00:09.745 --> 00:00:12.700
+O que mais queremos saber
+sobre os alunos da Udacity?
+
+00:00:12.733 --> 00:00:16.638
+Ron, Shawn e eu achamos que as pessoas
+devem estar sempre aprendendo.
+
+00:00:16.671 --> 00:00:21.313
+E muitos dos nossos alunos valorizam
+o aprendizado além da escola e faculdade.
+
+00:00:21.346 --> 00:00:26.461
+E outros querem começar a aprender coisas
+que só aprenderiam daqui a alguns anos.
+
+00:00:26.494 --> 00:00:31.500
+Por isso temos alunos
+de 13 a 85 anos.
+
+00:00:31.533 --> 00:00:34.614
+Assim como analisamos
+os países dos nossos alunos,
+
+00:00:34.647 --> 00:00:37.198
+que tal analisarmos suas idades?
+
+00:00:37.231 --> 00:00:39.916
+Aqui está uma amostra
+das idades dos alunos.
+
+00:00:39.949 --> 00:00:41.588
+E, novamente, são 50.
+
+00:00:41.621 --> 00:00:45.709
+Como vamos analisar esses dados
+da mesma forma que analisamos os dos países?
+
+00:00:45.742 --> 00:00:48.624
+Ao invés de países
+nos dados de frequência,
+
+00:00:48.657 --> 00:00:50.440
+nós temos idades.
+
+00:00:50.473 --> 00:00:52.494
+Como criaremos essa tabela?
+
+00:00:52.527 --> 00:00:54.146
+Quantas linhas colocaria?
+
+00:00:54.179 --> 00:00:58.085
+Precisamos de 50,
+uma para cada aluno da amostra?
+
+00:00:58.118 --> 00:01:04.885
+66 linhas, uma para cada idade
+de 10 anos até 75?
+
+00:01:04.918 --> 00:01:08.815
+De 8 a 10 linhas,
+porque é mais fácil de entender?
+
+00:01:08.848 --> 00:01:11.626
+Depende de como
+você organiza os dados?
+
+00:01:11.659 --> 00:01:17.587
+Ou 2 linhas, uma para
+menos de 50 anos e outra para mais?
+

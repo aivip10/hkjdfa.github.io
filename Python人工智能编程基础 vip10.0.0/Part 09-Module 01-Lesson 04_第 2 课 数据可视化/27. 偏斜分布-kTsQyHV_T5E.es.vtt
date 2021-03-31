@@ -1,0 +1,37 @@
+WEBVTT
+Kind: captions
+Language: es
+
+00:00:00.012 --> 00:00:04.931
+Como viste antes, la distribución de edades de los estudiantes de Udacity,
+
+00:00:05.036 --> 00:00:09.283
+está positivamente sesgada, con menos estudiantes de mayor edad.
+
+00:00:09.383 --> 00:00:12.813
+Aqui tenemos otro ejemplo de este tipo de distribución,
+
+00:00:12.873 --> 00:00:17.455
+en la que puedes ver que la mayor parte de los valores están a la izquierda.
+
+00:00:17.575 --> 00:00:19.297
+Esta es la distribución de ingresos
+
+00:00:19.397 --> 00:00:25.980
+en EEUU en 2005. Puedes ver que aquí dice que el 98% de hogares
+
+00:00:26.030 --> 00:00:32.510
+tienen ingresos inferiores a 250 000. Y parece que la mayor frecuencia
+
+00:00:32.610 --> 00:00:37.457
+de ingresos incluso inferior a 25 000 por año.
+
+00:00:37.547 --> 00:00:42.199
+¿Qué podemos decir de esta distribución? ¿Es simétrica?
+
+00:00:42.279 --> 00:00:50.162
+El valor más común de ingresos es inferior a 25 000 por año. Muchos hogares ganan menos de 100 000.
+
+00:00:50.254 --> 00:00:54.632
+Finalmente, no hay hogares con ingresos superiores a 250 000.
+

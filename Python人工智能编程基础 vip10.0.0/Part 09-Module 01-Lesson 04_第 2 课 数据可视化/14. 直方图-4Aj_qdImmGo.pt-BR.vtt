@@ -1,0 +1,83 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:05.266
+Temos 19 pessoas de 0 a 19 anos,
+o que é mais ou menos aqui.
+
+00:00:05.299 --> 00:00:09.456
+E 21 pessoas de 20 a 39 anos,
+o que é mais ou menos aqui.
+
+00:00:09.927 --> 00:00:16.265
+5 pessoas de 40 a 59 anos
+e 5 pessoas de 60 a 79 anos.
+
+00:00:16.298 --> 00:00:18.939
+Isso significa que nosso gráfico de barras
+vai ficar assim.
+
+00:00:18.972 --> 00:00:20.727
+Temos os eixos.
+
+00:00:20.760 --> 00:00:23.794
+A frequência
+sempre fica no eixo Y.
+
+00:00:23.827 --> 00:00:26.746
+E a variável sempre fica
+no eixo X.
+
+00:00:26.779 --> 00:00:28.615
+Nesse caso, a idade.
+
+00:00:28.648 --> 00:00:33.770
+Lembre-se que a variável independente
+também é chamada de variável preditora.
+
+00:00:33.803 --> 00:00:38.374
+E a variável dependente, que fica no eixo Y,
+também é chamada de resultado,
+
+00:00:38.407 --> 00:00:39.960
+mas não nesse caso.
+
+00:00:39.993 --> 00:00:43.026
+Esse é um gráfico especial
+chamado "histograma".
+
+00:00:43.059 --> 00:00:46.768
+E a variável no eixo Y
+é a frequência.
+
+00:00:46.803 --> 00:00:50.421
+Aqui na intercessão dos eixos
+é a origem.
+
+00:00:50.454 --> 00:00:54.984
+As coordenadas cartesianas
+são (0,0).
+
+00:00:55.017 --> 00:00:59.543
+Porque daqui vamos
+do 0 para a direita e do 0 para cima.
+
+00:00:59.576 --> 00:01:02.280
+Todo eixo
+vai do menor pro maior.
+
+00:01:02.313 --> 00:01:06.460
+Então, começamos no 0
+e os valores vão subindo.
+
+00:01:06.493 --> 00:01:08.852
+A mesma coisa no eixo Y.
+
+00:01:08.885 --> 00:01:10.776
+Agora temos um histograma
+
+00:01:10.809 --> 00:01:13.853
+para a nossa amostra
+de 50 alunos da Udacity.
+

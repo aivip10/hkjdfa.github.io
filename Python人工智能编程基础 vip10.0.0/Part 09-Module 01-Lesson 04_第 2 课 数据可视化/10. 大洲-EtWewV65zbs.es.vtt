@@ -1,0 +1,67 @@
+WEBVTT
+Kind: captions
+Language: es
+
+00:00:00.012 --> 00:00:04.775
+Para hacer esto, todo lo que tenemos que hacer es sumar las frecuencias de los países
+
+00:00:04.835 --> 00:00:13.468
+de los distintos continentes. Hay dos estudiantes de Canadá, 3 de Méjico y 10 de USA.
+
+00:00:13.548 --> 00:00:17.195
+Si los sumamos, tenemos 15 estudiantes de Norte América.
+
+00:00:17.265 --> 00:00:27.238
+Y de forma similar, 4% de Canadá, 6% de Méjico y 20% de USA. Si lo sumamos,
+
+00:00:27.328 --> 00:00:35.136
+tenemos un 30%. Tenemos 12 estudiantes de China, 8 de la India, 8 de Japón y 1 de Pakistán.
+
+00:00:35.336 --> 00:00:39.155
+Si lo sumamos, tenemos 29 estudiantes de Asia.
+
+00:00:39.202 --> 00:00:52.440
+24 más 16 más 2 son 58. Y finalmente tenemos 2 de Inglaterra, 3 de Alemania y 1 de Suecia,
+
+00:00:52.540 --> 00:01:00.551
+que hacen 6 de Europa. 4% más 6% más 2% es 12%.
+
+00:01:00.651 --> 00:01:07.109
+Ahora tenemos datos muchos más simplificados. Esta es información es interesante y nueva.
+
+00:01:07.229 --> 00:01:10.930
+Pero ahora no podemos saber de qué países son las personas,
+
+00:01:11.060 --> 00:01:12.998
+sólo mirando la tabla.
+
+00:01:13.118 --> 00:01:19.812
+Nos interesaba crear esta tabla para tener menos categorías que mirar. Tres en este caso.
+
+00:01:19.902 --> 00:01:25.711
+Pero perdemos información en el proceso. En otras palabras, información específica de los países.
+
+00:01:25.781 --> 00:01:30.206
+Cuando creamos la tabla de distribución de frecuencias, todavía
+
+00:01:30.296 --> 00:01:33.691
+puede haber relación entre conveniencia y capacidad informativa.
+
+00:01:33.781 --> 00:01:40.763
+Pero no hay una única forma correcta de presentar datos. Depende de la pregunta que quieras responder.
+
+00:01:40.873 --> 00:01:44.858
+En este caso, si quieres saber cuántos alumnos hay de Norte América,
+
+00:01:44.948 --> 00:01:47.715
+organizarlo de esta forma, es mejor.
+
+00:01:47.815 --> 00:01:54.572
+Pero si quieres saber, cuántos son de India, o de otro país, organizarlo de esta manera es mejor.
+
+00:01:54.682 --> 00:01:58.160
+La clave para saber cómo organizar tus datos,
+
+00:01:58.260 --> 00:01:59.742
+es basarte en la pregunta que quieres responder.
+

@@ -1,0 +1,22 @@
+WEBVTT
+Kind: captions
+Language: es
+
+00:00:00.012 --> 00:00:04.017
+Una forma de hacerlo, sería mirar aqui a la tabla original,
+
+00:00:04.067 --> 00:00:09.932
+y contar el número de estudiantes que tienen 20, 21, 22, hasta 39.
+
+00:00:09.982 --> 00:00:16.345
+Pero sería realmente tedioso. En su lugar, sabemos que todos estos tienen que sumar 50,
+
+00:00:16.397 --> 00:00:22.395
+porque es el tamaño de la muestra. 19 más 5, más 5, es 29
+
+00:00:22.475 --> 00:00:31.407
+y 50 menos 29 es 21. En otras palabras, hacemos 50 menos 19, más 5, más 5,
+
+00:00:31.419 --> 00:00:32.723
+en paréntesis.
+

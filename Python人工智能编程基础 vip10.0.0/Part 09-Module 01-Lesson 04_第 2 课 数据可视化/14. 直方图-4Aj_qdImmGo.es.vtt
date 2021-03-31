@@ -1,0 +1,43 @@
+WEBVTT
+Kind: captions
+Language: es
+
+00:00:00.012 --> 00:00:05.648
+Hay 19 personas con edad comprendida entre 0 y 19, lo que está aquí más o menos.
+
+00:00:05.718 --> 00:00:10.010
+Y hay 21 personas entre 20 y 39, que es aquí.
+
+00:00:10.080 --> 00:00:16.322
+Y luego 5 entre 40 y 59, y 5 entre 60 y 79.
+
+00:00:16.392 --> 00:00:20.729
+Esto significa que nuestra gráfica de barras será así. Entonces tenemos el eje X.
+
+00:00:20.729 --> 00:00:29.063
+La frecuencia está siempre en el eje Y, y la variable está en el eje x. En este caso la edad.
+
+00:00:29.165 --> 00:00:33.893
+A veces se le llama variable independiente o predictiva.
+
+00:00:33.953 --> 00:00:38.686
+Y a la variable dependiente, en el eje Y o de salida.
+
+00:00:38.786 --> 00:00:43.399
+Pero no en este caso. Este es un tipo especial de gráfica llamada histograma,
+
+00:00:43.489 --> 00:00:51.448
+y la variable del eje Y es la frecuencia. Aqui, la intersección de los ejes, es el origen.
+
+00:00:51.460 --> 00:00:56.844
+En coordenadas cartesianas es el 0,0. Porque desde aquí, tenemos
+
+00:00:56.904 --> 00:01:02.752
+cero a la derecha y cero arriba. Cada eje va de menos a más.
+
+00:01:02.822 --> 00:01:08.652
+Empezamos en 0 y luego sube. Lo mismo en el eje y.
+
+00:01:08.762 --> 00:01:12.695
+Entonces, ahora tenemos un histograma para nuestra muestra de 50 estudiantes de Udacity.
+

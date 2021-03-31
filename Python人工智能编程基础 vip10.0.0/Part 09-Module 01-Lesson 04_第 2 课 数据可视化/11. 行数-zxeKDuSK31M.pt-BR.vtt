@@ -1,0 +1,81 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.001 --> 00:00:02.679
+Nós podemos organizar esses dados
+do jeito que quisermos.
+
+00:00:02.711 --> 00:00:05.535
+Na verdade, podemos ter
+apenas 2 linhas.
+
+00:00:05.568 --> 00:00:11.344
+Uma para os alunos
+com menos de 50 anos e outra com mais.
+
+00:00:11.377 --> 00:00:13.097
+Mas nós não precisamos.
+
+00:00:13.130 --> 00:00:16.033
+Podemos ter uma linha
+para cada idade.
+
+00:00:16.065 --> 00:00:19.701
+Escreveríamos 10, 11, 12...
+
+00:00:19.734 --> 00:00:23.854
+E depois contaríamos para ver
+quantos alunos tem 10 anos,
+
+00:00:24.240 --> 00:00:26.458
+quantos alunos tem 11 anos.
+
+00:00:26.491 --> 00:00:29.214
+Mas esse não é o modo
+mais conveniente,
+
+00:00:29.247 --> 00:00:33.081
+por que a frequência provavelmente
+seria 1 para todos eles.
+
+00:00:33.114 --> 00:00:35.122
+Talvez 2 para alguns.
+
+00:00:35.155 --> 00:00:36.479
+Ao invés de fazer isso,
+
+00:00:36.512 --> 00:00:38.935
+que tal escolhermos um intervalo
+para cada linha?
+
+00:00:38.968 --> 00:00:42.363
+Por exemplo, 0 a 19 anos.
+
+00:00:42.396 --> 00:00:45.420
+E 20 a 39.
+
+00:00:45.453 --> 00:00:50.209
+Então podemos contar quantos alunos
+tem de 0 a 19 anos,
+
+00:00:50.242 --> 00:00:53.001
+entre 20 e 39, etc.
+
+00:00:53.034 --> 00:00:55.123
+Isso se chama "intervalo".
+
+00:00:55.156 --> 00:00:58.027
+Ou "compartimento" ou "balde".
+
+00:00:58.060 --> 00:01:01.258
+Normalmente chamamos
+de intervalo ou compartimento.
+
+00:01:01.291 --> 00:01:04.803
+Nesse caso,
+o compartimento é 20.
+
+00:01:04.836 --> 00:01:06.726
+Isso porque inclui o 0.
+

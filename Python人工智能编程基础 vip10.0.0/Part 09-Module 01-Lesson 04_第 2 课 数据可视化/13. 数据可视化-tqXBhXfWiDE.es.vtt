@@ -1,0 +1,16 @@
+WEBVTT
+Kind: captions
+Language: es
+
+00:00:00.012 --> 00:00:05.206
+Dado un grupo desordenado de datos, podemos fácilmente visualizarlos usando la tabla de frecuencias.
+
+00:00:05.685 --> 00:00:10.337
+En este caso, hemos hecho cuatro intervalos de 20, y podemos contar,
+
+00:00:10.419 --> 00:00:16.928
+cuántos estudiantes caen dentro de cada intervalo. Pero ahora, vamos a ver más formas
+
+00:00:17.028 --> 00:00:18.735
+de visualización de datos.
+

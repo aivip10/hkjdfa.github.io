@@ -1,0 +1,129 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.246 --> 00:00:03.616
+Você acabou de criar um histograma
+com compartimento tamanho 20,
+
+00:00:03.649 --> 00:00:06.736
+mas podemos criar histogramas
+com compartimentos de qualquer tamanho.
+
+00:00:06.769 --> 00:00:08.649
+Também chamados
+de tamanho de intervalo.
+
+00:00:08.682 --> 00:00:13.235
+Esse é um software interativo de histogramas
+que eu gosto muito.
+
+00:00:13.268 --> 00:00:15.738
+Você pode colocar os dados aqui.
+
+00:00:15.771 --> 00:00:19.298
+E você pode ver
+como o formato do histograma muda
+
+00:00:19.331 --> 00:00:21.370
+quando você muda
+o tamanho do compartimento.
+
+00:00:21.403 --> 00:00:24.641
+Os compartimentos
+estão aumentando.
+
+00:00:24.674 --> 00:00:31.160
+E vemos que existem mais observações
+em cada intervalo agora.
+
+00:00:31.687 --> 00:00:34.584
+Se continuarmos aumentando
+o tamanho do compartimento,
+
+00:00:34.617 --> 00:00:38.333
+eventualmente vai ficar difícil
+ver a forma do histograma.
+
+00:00:38.366 --> 00:00:40.703
+Porque os compartimentos
+ficam muito grandes.
+
+00:00:40.736 --> 00:00:44.011
+Aqui o tamanho do compartimento
+é 23.
+
+00:00:45.380 --> 00:00:47.651
+E, claro,
+se continuarmos,
+
+00:00:47.684 --> 00:00:51.197
+eventualmente nós vamos ter
+dados demais em cada compartimento.
+
+00:00:51.230 --> 00:00:55.440
+E o formato do histograma
+fica irreconhecível.
+
+00:00:56.287 --> 00:00:59.416
+Vamos diminuir o tamanho
+do compartimento.
+
+00:01:00.396 --> 00:01:03.426
+Agora você pode ver melhor
+a forma do histograma.
+
+00:01:03.459 --> 00:01:06.462
+O pico está no 20 anos.
+
+00:01:06.873 --> 00:01:10.692
+O tamanho do compartimento
+depende de você.
+
+00:01:10.725 --> 00:01:13.502
+Tudo depende das perguntas
+que você quer responder.
+
+00:01:13.535 --> 00:01:15.428
+E da quantidade de detalhes
+que você quer.
+
+00:01:15.461 --> 00:01:20.022
+Porque eventualmente
+o compartimento pode ficar pequeno demais.
+
+00:01:21.006 --> 00:01:24.855
+Mas o compartimento
+também pode ficar grande demais.
+
+00:01:24.888 --> 00:01:29.082
+E nesse software você pode ver
+que o tamanho da amostra é 50.
+
+00:01:29.115 --> 00:01:31.300
+Você pode ver a média.
+
+00:01:31.333 --> 00:01:34.227
+E vamos aprender essa parte
+mais tarde.
+
+00:01:34.260 --> 00:01:36.776
+O link para esse software
+está do lado direito.
+
+00:01:36.809 --> 00:01:39.537
+Então você pode clicar nele
+e colocar os dados.
+
+00:01:39.570 --> 00:01:42.671
+Nós compartilhamos esses dados com você
+em uma planilha do Google.
+
+00:01:42.704 --> 00:01:45.968
+E você pode ver por si mesmo
+como o tamanho do histograma muda
+
+00:01:46.001 --> 00:01:48.053
+quando você muda
+o tamanho do compartimento.
+

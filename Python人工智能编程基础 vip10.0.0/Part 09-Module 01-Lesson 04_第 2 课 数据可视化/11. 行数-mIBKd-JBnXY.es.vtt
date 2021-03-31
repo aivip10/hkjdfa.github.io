@@ -1,0 +1,49 @@
+WEBVTT
+Kind: captions
+Language: es
+
+00:00:00.012 --> 00:00:03.256
+Hemos visto lo diversos que son los estudiantes de Udacity.
+
+00:00:03.346 --> 00:00:09.702
+Son de todo el mundo. Creo que, de 146 países en realidad.
+
+00:00:09.792 --> 00:00:12.787
+¿Qué más queremos saber sobre los estudiantes de Udacity?
+
+00:00:12.857 --> 00:00:18.130
+Ron, Shawn y yo pensamos que la gente debe aprender a lo largo de la vida, y muchos estudiantes
+
+00:00:18.200 --> 00:00:26.596
+valoran aprender después del instituto y la universidad. Y otros muchos quieren obtener ventaja por unos años.
+
+00:00:26.666 --> 00:00:31.627
+Como resultado, tenemos alumnos desde 13 hasta 85 años.
+
+00:00:31.707 --> 00:00:34.932
+Al igual que cuando analizamos países,
+
+00:00:35.002 --> 00:00:41.335
+¿Cómo analizaremos las edades? Aqui tenemos una muestra de las edades, y de nuevo tenemos 50.
+
+00:00:41.445 --> 00:00:45.480
+¿Cómo podemos analizar estos datos, igual que con los países?
+
+00:00:45.570 --> 00:00:50.405
+En vez de tener países en la tabla de frecuencias, tenemos edades.
+
+00:00:50.495 --> 00:00:58.145
+¿Cómo podemos crear esta tabla? ¿Cuántas filas tienes? ¿Necesitarás 50, una por alumno en la muestra?
+
+00:00:58.235 --> 00:01:04.580
+¿o quizá 66 filas, una por año desde 10 hasta 75 años?
+
+00:01:04.690 --> 00:01:09.499
+¿8 o 10 filas porque es la forma más sencilla de comprender?
+
+00:01:09.569 --> 00:01:11.781
+¿Depende de tu grupo de datos?
+
+00:01:11.851 --> 00:01:16.725
+O dos, una para los mayores de 50 y otra para los menos de 50.
+

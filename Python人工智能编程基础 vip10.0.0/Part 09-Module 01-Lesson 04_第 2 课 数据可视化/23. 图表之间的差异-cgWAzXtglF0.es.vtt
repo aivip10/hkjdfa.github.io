@@ -1,0 +1,70 @@
+WEBVTT
+Kind: captions
+Language: es
+
+00:00:00.012 --> 00:00:04.397
+Mientras que esta se llama histograma, esta otra se llama gráfica de barras.
+
+00:00:04.477 --> 00:00:10.400
+Los espacios entre columnas aqui significan que cada barra representa una categoría distinta.
+
+00:00:10.512 --> 00:00:15.885
+Europa es completamente distinta a Norte América, completamente distinta a Asia.
+
+00:00:15.987 --> 00:00:21.994
+Y no podemos mezclarlas. Pero con la edad, podemos elegir cualquier tamaño de intervalo.
+
+00:00:22.084 --> 00:00:24.894
+Y la siguiente diferencia importante,
+
+00:00:25.004 --> 00:00:29.191
+puedes cambiar el tamaño de intervalo de la edad, pero no el de los datos de países.
+
+00:00:29.281 --> 00:00:32.665
+Podemos hacer nuestros intervalos de 0 a 80,
+
+00:00:32.725 --> 00:00:37.614
+en ese caso, todos los estudiantes estaría en el mismo intervalo. Pero no podemos hacer lo mismo,
+
+00:00:37.706 --> 00:00:42.114
+a no ser que el intervalo sea 'el mundo entero', o algo distinto,
+
+00:00:42.194 --> 00:00:51.184
+podemos dividirlo en hemisferios, pero tendremos todavía muchas restricciones con este tipo de datos.
+
+00:00:51.264 --> 00:00:55.538
+Y finalmente, el orden de los continentes no importa.
+
+00:00:55.618 --> 00:01:00.592
+En cualquier caso, la edad sólo tiene un orden, de menos a más.
+
+00:01:00.662 --> 00:01:05.052
+Con el gráfico de barras, podemos elegir el orden de las categorías,
+
+00:01:05.132 --> 00:01:10.582
+en función de la pregunta que queramos responder. Como, ¿De dónde son la mayoría de estudiantes?.
+
+00:01:10.672 --> 00:01:15.570
+En ese caso ordenaremos de menos a más, por la frecuencia de las barras de países.
+
+00:01:15.632 --> 00:01:19.825
+O podemos elegir por orden alfabético, de esta forma se puede enontrar fácilmente
+
+00:01:19.915 --> 00:01:23.914
+el continente o país o lo que sea que se está buscando e el eje X.
+
+00:01:24.004 --> 00:01:32.254
+Finalmente, la forma del histograma es muy importante. Mientras que en el gráfico de barras es arbitraria,
+
+00:01:32.370 --> 00:01:36.497
+depende de cómo elijamos el órden de las categorías en el eje X.
+
+00:01:36.587 --> 00:01:45.899
+Una cosa a recordar en los histogramas, es que la variable del eje X es numérica y cuantitativa.
+
+00:01:46.029 --> 00:01:50.211
+Mientras que en la gráfica de barras, eje X es a menudo
+
+00:01:50.313 --> 00:01:51.702
+categórica o cualitativa.
+

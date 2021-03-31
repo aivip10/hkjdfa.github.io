@@ -1,0 +1,40 @@
+WEBVTT
+Kind: captions
+Language: es
+
+00:00:00.012 --> 00:00:05.653
+Podemos agrupar estos datos de la forma que queramos. De hecho, podemos tener sólo dos filas,
+
+00:00:05.735 --> 00:00:11.581
+una para los menores de 50 años y una para los mayores de 50.
+
+00:00:11.661 --> 00:00:15.994
+Pero no tenemos por qué. Incluso podemos tener una fila por año.
+
+00:00:16.104 --> 00:00:21.258
+Aqui puedes tener 10, 11, 12 y luego podemos contar
+
+00:00:21.338 --> 00:00:26.255
+cuántos estudiantes tienen 10 años, cuántos tienen 11.
+
+00:00:26.375 --> 00:00:33.407
+Pero esta no es la forma más conveniente. Eso es porque la frecuencia lo más probable es que sea 1 para todos ellos,
+
+00:00:33.567 --> 00:00:36.488
+o 2 para algunos. En lugar de hacerlo así,
+
+00:00:36.588 --> 00:00:45.597
+¿Por qué no elegir un intervalo de fila? Por ejemplo de 0 a 19, de 20 a 39,
+
+00:00:45.717 --> 00:00:53.125
+y luego contamos cuanántos estudiantes hay de 0 a 19, de 20 a 39, etc.
+
+00:00:53.235 --> 00:01:01.036
+A esto se le llama intervalo o rango. En la mayoría de los casos lo llamaremos intervalo
+
+00:01:01.226 --> 00:01:04.924
+y su tamaño es de 20.
+
+00:01:05.014 --> 00:01:05.733
+Eso es porque incluye el 0.
+
