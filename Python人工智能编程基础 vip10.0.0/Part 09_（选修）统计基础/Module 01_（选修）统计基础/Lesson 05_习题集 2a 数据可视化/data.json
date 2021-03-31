@@ -1,0 +1,2234 @@
+{
+  "data": {
+    "lesson": {
+      "id": 178211,
+      "key": "4578005935",
+      "title": "习题集 2a: 数据可视化",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "zh-cn",
+      "summary": "检验你对数据可视化知识的掌握程度。",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": null,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/4578005935/178211/1544466332301/%E4%B9%A0%E9%A2%98%E9%9B%86+2a%3A+%E6%95%B0%E6%8D%AE%E5%8F%AF%E8%A7%86%E5%8C%96+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/4578005935/178211/1544466329645/%E4%B9%A0%E9%A2%98%E9%9B%86+2a%3A+%E6%95%B0%E6%8D%AE%E5%8F%AF%E8%A7%86%E5%8C%96+Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 176701,
+          "key": "594537740923",
+          "title": "1. 血型",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "594537740923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174358,
+              "key": "59453774",
+              "title": "1. 血型",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 填空：每一种血型的频率、比例和百分比是多少？请填入表格中。\n\n\nΣ 号表示总和，它是希腊字母大写西格玛。<em>f</em> 代表频率（计数），<em>p</em> 代表比例。\n\n用数字输入每个答案，不需要添加任何特殊字符，如 % 号。用小数输入比例。",
+              "user_state": {
+                "node_key": "59453774",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "qhhrjvLF8H8",
+                  "china_cdn_id": "qhhrjvLF8H8.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "1. 血型",
+                "alt_text": null,
+                "background_image": "//lh4.ggpht.com/P4nYnbs1NE2XCyVlQ4so3Ioy1fEKOE_luDM1escuR5PzQ_GwmvhBnK_XdrtukrDYQswxjzb4cNFjb3Ya_g=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/59453774",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "67411904",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06430155210643015,
+                      "width": 0.05361596009975062,
+                      "x": 0.6381746186970174,
+                      "y": 0.20360826711734673
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0.07760532150776053,
+                      "width": 0.057356608478802994,
+                      "x": 0.6381746186970174,
+                      "y": 0.30219074135929513
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0.07760532150776053,
+                      "width": 0.059850374064837904,
+                      "x": 0.6381746186970174,
+                      "y": 0.41237115374735506
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0.07317073170731707,
+                      "width": 0.059850374064837904,
+                      "x": 0.6381746186970174,
+                      "y": 0.5148196073713407
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "4",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 5,
+                    "placement": {
+                      "height": 0.06208425720620843,
+                      "width": 0.05860349127182045,
+                      "x": 0.6392611815366621,
+                      "y": 0.6192010506863448
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "5",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 6,
+                    "placement": {
+                      "height": 0.06651884700665188,
+                      "width": 0.057356608478802994,
+                      "x": 0.7131474546325027,
+                      "y": 0.20360826711734673
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "6",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 7,
+                    "placement": {
+                      "height": 0.07538802660753881,
+                      "width": 0.059850374064837904,
+                      "x": 0.7131474546325027,
+                      "y": 0.30219074135929513
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "7",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 8,
+                    "placement": {
+                      "height": 0.06651884700665188,
+                      "width": 0.059850374064837904,
+                      "x": 0.7131474546325027,
+                      "y": 0.4143041434383737
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "8",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 9,
+                    "placement": {
+                      "height": 0.06873614190687362,
+                      "width": 0.059850374064837904,
+                      "x": 0.7131474546325027,
+                      "y": 0.5186855867533778
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "9",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 10,
+                    "placement": {
+                      "height": 0.06430155210643015,
+                      "width": 0.059850374064837904,
+                      "x": 0.7131474546325027,
+                      "y": 0.6192010506863448
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "10",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 11,
+                    "placement": {
+                      "height": 0.06651884700665188,
+                      "width": 0.06359102244389027,
+                      "x": 0.7870337277283433,
+                      "y": 0.20554125680836532
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "11",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 12,
+                    "placement": {
+                      "height": 0.07760532150776053,
+                      "width": 0.06359102244389027,
+                      "x": 0.7863093967142687,
+                      "y": 0.30219074135929513
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "12",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 13,
+                    "placement": {
+                      "height": 0.06651884700665188,
+                      "width": 0.059850374064837904,
+                      "x": 0.7870337277283433,
+                      "y": 0.4143041434383737
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "13",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 14,
+                    "placement": {
+                      "height": 0.06873614190687362,
+                      "width": 0.06109725685785536,
+                      "x": 0.7884825223935581,
+                      "y": 0.5141752578109465
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "14",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 15,
+                    "placement": {
+                      "height": 0.06430155210643015,
+                      "width": 0.06733167082294264,
+                      "x": 0.784860602049054,
+                      "y": 0.6166237114349321
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "Ee2o-0arldg",
+                  "china_cdn_id": "Ee2o-0arldg.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176700,
+          "key": "2527424850923",
+          "title": "2. 罕见血型",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2527424850923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174359,
+              "key": "252742485",
+              "title": "2. 罕见血型",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 选择：下面哪一种血型最罕见？\n\n- □ O\n- □ A\n- □ B\n- □ AB\n",
+              "user_state": {
+                "node_key": "252742485",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "2. 罕见血型",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/nZ-3B2tW7GIO1J0XaLAX0A9dq1bNp1u1hJxOOL_9hlb0ze2vVQJaztlkg5Da-ogRgbV9bjbnUM9Ro3I4w4I=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252742485",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "56648262",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 0,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.7134587554269175,
+                      "y": 0.596401028277635
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.7134587554269175,
+                      "y": 0.5038560411311054
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.7105643994211288,
+                      "y": 0.4138817480719794
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.7076700434153401,
+                      "y": 0.3264781491002571
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176702,
+          "key": "2527424860923",
+          "title": "3. 常见血型",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2527424860923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174360,
+              "key": "252742486",
+              "title": "3. 常见血型",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 选择：下面哪一种血型最常见？\n\n- □ O\n- □ A\n- □ B\n- □ AB",
+              "user_state": {
+                "node_key": "252742486",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "3. 常见血型",
+                "alt_text": null,
+                "background_image": "//lh4.ggpht.com/x0sY2YTJDKd0tpi7OWuj8ODcp0pMN58Nh5RUwQeP6nSZCyimOgukDJ6_Zc5db8GqG70qB1n-mOwTNDzimuU=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252742486",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "56648263",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 0,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6931982633863966,
+                      "y": 0.6195372750642674
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6931982633863966,
+                      "y": 0.5167095115681234
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6917510853835022,
+                      "y": 0.42159383033419023
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6903039073806078,
+                      "y": 0.3444730077120823
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176703,
+          "key": "2527424870923",
+          "title": "4. A 型血",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2527424870923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174361,
+              "key": "252742487",
+              "title": "4. A 型血",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## A 型血献血者的比例是多少？请填入数字。",
+              "user_state": {
+                "node_key": "252742487",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "4. A 型血",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/r4OGB-b0OF-meULyWAoP0YtLD2dT0QjC6dbDhwpkMROabdiFDfiZV9B4V2xTE2iZiMA0Up_sxIRFV8K7HIM=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252742487",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "56648264",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "0",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 0,
+                    "placement": {
+                      "height": 0.07760532150776053,
+                      "width": 0.15087281795511223,
+                      "x": 0.6425470332850941,
+                      "y": 0.2647814910025707
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176704,
+          "key": "2527424880923",
+          "title": "5. 猜测",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2527424880923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174362,
+              "key": "252742488",
+              "title": "5. 猜测",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 如果献血者的血型准确反映了该城市中居民的血型，那么百分之多少的居民为 O 型血？\n\n\n输入答案时，请去掉百分号。",
+              "user_state": {
+                "node_key": "252742488",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "5. 猜测",
+                "alt_text": null,
+                "background_image": "//lh5.ggpht.com/leuIFBMfKtaGy6XYYExgVeqMKJByc37bl477WF1BtN8_KGoR4l1H-OKaVQJMT7ke3z-Nw_pEdJc-2QBd5wk=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252742488",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "56648265",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "0",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 0,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.613603473227207,
+                      "y": 0.3856041131105398
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176706,
+          "key": "2527424890923",
+          "title": "6. 分析事物",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2527424890923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174363,
+              "key": "252742489",
+              "title": "6. 分析事物",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## O、A 和 B 型血都可以向至少另外一种血型献血，但是只有AB 型血不可以这样。基于这一点，人口中不可以献血给其他血型的人的比例是多少？",
+              "user_state": {
+                "node_key": "252742489",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "6. 分析事物",
+                "alt_text": "",
+                "background_image": "//lh4.ggpht.com/eJUB2PKyjTgG7bewWPytyp4U8Vnt83F0h8xJN4xyho89gLCNHRgNqG8OK6QplG7Ep-Xj7ZKcBznBY8PYi8Cj=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252742489",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "56648266",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "0",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 0,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.6150506512301013,
+                      "y": 0.40359897172236503
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176705,
+          "key": "2527425010923",
+          "title": "18. 计算组距",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2527425010923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174364,
+              "key": "252742501",
+              "title": "18. 计算组距",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 假设你有一些 15 到 105 的数据，如果你想要 10 个分组，组距应该是多少？\n\n- □ 1\n- □ 9\n- □ 10\n- □ 90\n\n说明：在回答此问题时，假定我们有最高至 105（不含 105）的值。",
+              "user_state": {
+                "node_key": "252742501",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "18. 计算组距",
+                "alt_text": null,
+                "background_image": "//lh4.ggpht.com/MTJDKnPRC-vX6eQAOTBiiExlbwo0aQjmkzghI65GnlQur-iwpj1EZG9pBin8EHNdIXAPiEi03UaaXU2szadA=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252742501",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "62143594",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 0,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5309446254071661,
+                      "y": 0.6988416988416989
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5255157437567861,
+                      "y": 0.6138996138996139
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.34093376764386535,
+                      "y": 0.694980694980695
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.33659066232356133,
+                      "y": 0.6138996138996139
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176707,
+          "key": "2527425040923",
+          "title": "21. 通勤时间",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2527425040923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174365,
+              "key": "252742504",
+              "title": "21. 通勤时间",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 这幅直方图表示某家公司的员工的平均通勤时间（单位为分钟）。频率最大的通勤时间是多少？\n\n- □ 30 分钟\n- □ 40 分钟\n- □ 50 分钟\n- □ 60 分钟",
+              "user_state": {
+                "node_key": "252742504",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "21. 通勤时间",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/4m3tZxKdIzZhYL5tUzl9JKIb7GQCylsTAQ-fNT2SvPVZ0xVkbJB_1hiNd273BIE1x601PwWSxp8tr98sM9_C=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252742504",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "62143598",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 0,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5950054288816504,
+                      "y": 0.7355212355212355
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5906623235613464,
+                      "y": 0.6428571428571429
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5874049945711184,
+                      "y": 0.5598455598455598
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5841476655808904,
+                      "y": 0.4768339768339768
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176709,
+          "key": "2527425050923",
+          "title": "22. 通勤一小时",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2527425050923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174366,
+              "key": "252742505",
+              "title": "22. 通勤一小时",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 这幅直方图表示某家公司的员工的平均通勤时间（单位为分钟）。有多少员工的通勤时间超过59分钟？",
+              "user_state": {
+                "node_key": "252742505",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "22. 通勤一小时",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/yMShtSnn3j6v08rdMxKnNRGY_F46RLBqzqhNxTXwgOhQSH0q9NGSg5F9i-m_L8yTftRUCpxjfoa_RlmONjSr=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252742505",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "62143599",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "0",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 0,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.6536373507057546,
+                      "y": 0.5579150579150579
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176708,
+          "key": "2527425060923",
+          "title": "23. 找到组宽",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2527425060923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174367,
+              "key": "252742506",
+              "title": "23. 找到组宽",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 这幅直方图表示某家公司的员工的平均通勤时间（单位为分钟）。组宽（组距）是多少分钟？",
+              "user_state": {
+                "node_key": "252742506",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "23. 找到组宽",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/pL-tjh2e6gEzra-AB2UIgtVFHDYDQvSOXtYd2HQetudZx84C9dBC2NeF5U4Rpxa3cEHLAI9DoLg6IW1dwPI=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252742506",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "62143600",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "0",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 0,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.5993485342019544,
+                      "y": 0.4498069498069498
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176710,
+          "key": "2527425070923",
+          "title": "24. 分析直方图",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2527425070923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174368,
+              "key": "252742507",
+              "title": "24. 分析直方图",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 这幅直方图表示某家公司的员工的平均通勤时间（单位为分钟）。对于这个直方图，下面哪个说法是正确的（选择所有正确的选项）？\n\n- □ 所有员工的通勤时间都超过 60 分钟\n- □ 所有员工的通勤时间都超过 20 分钟\n- □ 大部分员工乘坐公共交通工具通勤\n- □ 大部分员工的通勤时间在 50 - 60 分钟之间",
+              "user_state": {
+                "node_key": "252742507",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "24. 分析直方图",
+                "alt_text": "",
+                "background_image": "//lh5.ggpht.com/qCUTaMGC73d0dpcWC5p7Zd7NG0eZsIFbB2zhLdexddSyeJ_LVfZTWj5SuYBeEx-Y9HFV3A6JUO3QuFDBL40=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252742507",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "62143601",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 0,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5700325732899023,
+                      "y": 0.888030888030888
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5667752442996743,
+                      "y": 0.752895752895753
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5646036916395223,
+                      "y": 0.6216216216216216
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5613463626492943,
+                      "y": 0.5057915057915058
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176712,
+          "key": "2527425080923",
+          "title": "25. 频率和组距",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2527425080923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174369,
+              "key": "252742508",
+              "title": "25. 频率和组距",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 通常，当我们使用直方图做数据可视化时，如果我们增大组距，频率会怎样？\n\n- □ 变大\n- □ 变小",
+              "user_state": {
+                "node_key": "252742508",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "25. 频率和组距",
+                "alt_text": null,
+                "background_image": "//lh3.ggpht.com/C3CgPNztK6a1Ho5mOqRqbukrc4BLY0sIxgC4-VjMZhNEt2pu4jimzfkGUlS8a4TXeoNzn8G1dWf8yEzRJ9w=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252742508",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "62143602",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 0,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.3474484256243214,
+                      "y": 0.44015444015444016
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.34201954397394135,
+                      "y": 0.32432432432432434
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176711,
+          "key": "2527425100923",
+          "title": "27. 什么的分布？",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2527425100923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174370,
+              "key": "252742510",
+              "title": "27. 什么的分布？",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 在一次《统计学入门》课程期末考试中，分数低于75和高于75的人一样多。如果我们想了解学生的成绩，我们应该查看什么的分布？\n\n- □ 学生的分布\n- □ 期末考试分数的分布",
+              "user_state": {
+                "node_key": "252742510",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "27. 什么的分布？",
+                "alt_text": null,
+                "background_image": "//lh5.ggpht.com/5iw-4Ph3KHfWPGdydJ3fPXGUvgY8rhrXBDGliE02Hxj5Mj9CRSFz8vKQBhW-0UmLgSWBNFUt0dhwKdvafQ-r=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252742510",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "62143604",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 0,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.31053203040173727,
+                      "y": 0.6756756756756757
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.30618892508143325,
+                      "y": 0.5945945945945946
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176713,
+          "key": "2527425110923",
+          "title": "28. 思考分布",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2527425110923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174371,
+              "key": "252742511",
+              "title": "28. 思考分布",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 在一次《统计学入门》课程期末考试中，分数低于75和高于75的人一样多。如果考试分数的分布图如下，75分应该位于 X 轴上的哪个位置？",
+              "user_state": {
+                "node_key": "252742511",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "28. 思考分布",
+                "alt_text": null,
+                "background_image": "//lh5.ggpht.com/V_KSHh4j66B2yb0jR7VcNTvj5tG2BI8Zx0HEiLUq7AaT1CCZ2_VGSW248x4bFtCJZa_HJzWTX5CKxO93s2jF=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252742511",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "62143605",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 0,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.7882736156351792,
+                      "y": 0.8803088803088803
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.7285559174809989,
+                      "y": 0.8822393822393823
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6666666666666666,
+                      "y": 0.8803088803088803
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5602605863192183,
+                      "y": 0.8822393822393823
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "4",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.49294245385450597,
+                      "y": 0.8783783783783784
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "5",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 5,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.44733984799131377,
+                      "y": 0.888030888030888
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176714,
+          "key": "2527425120923",
+          "title": "29. 频率轴",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2527425120923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174372,
+              "key": "252742512",
+              "title": "29. 频率轴",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 哪一个轴代表频率？\n\n- □ X 轴\n- □ Y 轴",
+              "user_state": {
+                "node_key": "252742512",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "29. 频率轴",
+                "alt_text": null,
+                "background_image": "//lh3.ggpht.com/X0fB8-j5qrVAv-pUNWtrVUwcVHZ02AgtC5GPiQy5AnIudO0GYdYEbXvtnB5zo3D0Osfpp8e3ZWdjZdLZ4jdg=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252742512",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "62143606",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 0,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5971769815418024,
+                      "y": 0.3996138996138996
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5939196525515744,
+                      "y": 0.30694980694980695
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176715,
+          "key": "2527425130923",
+          "title": "30. X 轴代表！",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2527425130923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174373,
+              "key": "252742513",
+              "title": "30. X 轴代表！",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 这个直方图的 X 轴可能代表什么？选择所有可能的选项。\n\n- □ 频率\n- □ 国家\n- □ 年龄\n- □ 颜色\n- □ 价格（美元）\n- □ 长度（米）\n\n\n----\n<br />\n提示：直方图的 X 轴应该代表类别数据，还是数值数据？",
+              "user_state": {
+                "node_key": "252742513",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "30. X 轴代表！",
+                "alt_text": null,
+                "background_image": "//lh5.ggpht.com/JiA8KrQScuzkYdJQ-DnpezBtDn1P0MmI43DnBFtZ440hCvusJ30sfJ71MpMp2QGPqcWiW5CgCc-NKoHt3cTu=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252742513",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "62143607",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 0,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6351791530944625,
+                      "y": 0.861003861003861
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6373507057546145,
+                      "y": 0.7644787644787645
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6319218241042345,
+                      "y": 0.6776061776061776
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6286644951140065,
+                      "y": 0.581081081081081
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "4",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6297502714440825,
+                      "y": 0.4980694980694981
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "5",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 5,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6275787187839305,
+                      "y": 0.4092664092664093
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176716,
+          "key": "2527425140923",
+          "title": "31. 偏度",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2527425140923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174374,
+              "key": "252742514",
+              "title": "31. 偏度",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 这个直方图分布是：\n\n- □ 正偏斜分布\n- □ 负偏斜分布\n- □ 正态分布",
+              "user_state": {
+                "node_key": "252742514",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "31. 偏度",
+                "alt_text": null,
+                "background_image": "//lh4.ggpht.com/S5Vpah0_YqM0JrXsr4TQy2G9V_rR3j34ooZhsnibIJZH8h3w6uF220793ykVif6MeKTcIveeCtdfoYMgOTc=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252742514",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "62143608",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 0,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6558089033659066,
+                      "y": 0.3861003861003861
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6547231270358306,
+                      "y": 0.2915057915057915
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6471226927252985,
+                      "y": 0.19111969111969113
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176717,
+          "key": "2527425150923",
+          "title": "32. 负偏斜",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2527425150923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174375,
+              "key": "252742515",
+              "title": "32. 负偏斜",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 请在下方的方框中描述负偏斜分布应该是什么样子。你可以想出一些负偏斜分布的例子吗？",
+              "user_state": {
+                "node_key": "252742515",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "32. 负偏斜",
+                "alt_text": null,
+                "background_image": "//lh3.ggpht.com/m72_rY8fB7Ek2qoidMMgp0fbDP7tVvxO8K19ougbivOXefN3ukDAl0sKNE_VoA4rJsCJ2cxKFguYAmk9fko=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252742515",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "62143609",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "TextInputWidget",
+                    "is_text_area": true,
+                    "tabindex": 0,
+                    "placement": {
+                      "height": 0.3281853281853282,
+                      "width": 0.3963083604777416,
+                      "x": 0.2964169381107492,
+                      "y": 0.4092664092664093
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176719,
+          "key": "2527425160923",
+          "title": "33. 正态分布",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2527425160923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174376,
+              "key": "252742516",
+              "title": "33. 正态分布",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 请在下方的方框中描述正态分布应该是什么样子。你可以想出一些正态分布的例子吗？",
+              "user_state": {
+                "node_key": "252742516",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "33. 正态分布",
+                "alt_text": "",
+                "background_image": "//lh6.ggpht.com/TFYvM46iDsMpKdLYe0iSszWy3XhkanIUWAcqmXvZPlkg9PniIq-mpi8-Gn2dJm6f4oxLNCEDwFxNRZUClQ=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252742516",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "62143610",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "TextInputWidget",
+                    "is_text_area": true,
+                    "tabindex": 0,
+                    "placement": {
+                      "height": 0.3532818532818533,
+                      "width": 0.4256243213897937,
+                      "x": 0.2681867535287731,
+                      "y": 0.3764478764478765
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176718,
+          "key": "2527425170923",
+          "title": "34. 表格与直方图",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2527425170923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174377,
+              "key": "252742517",
+              "title": "34. 表格与直方图",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 勾选关于频率表和直方图所有正确的选项。\n\n- □ 可以很好地可视化分布的形状 \n- □ 可以很好地得出样本或总体的总数\n- □ 可以从根据频率表创建直方图，也可以根据直方图创建频率表",
+              "user_state": {
+                "node_key": "252742517",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "34. 表格与直方图",
+                "alt_text": null,
+                "background_image": "//lh3.ggpht.com/YcGtmOngl4KifUM3yjOx_8WXbaABbFXWPtjtNW6xeO4Y1XwcQDkWqnnNISovzoVLFrMfFpxATaYhzO6MSIk=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252742517",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "62143611",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 0,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.2247557003257329,
+                      "y": 0.7046332046332047
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.22258414766558088,
+                      "y": 0.49613899613899615
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.4169381107491857,
+                      "y": 0.7065637065637066
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.4169381107491857,
+                      "y": 0.49613899613899615
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "4",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6210640608034745,
+                      "y": 0.49613899613899615
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "5",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 5,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6188925081433225,
+                      "y": 0.7046332046332047
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    }
+  ]
+}

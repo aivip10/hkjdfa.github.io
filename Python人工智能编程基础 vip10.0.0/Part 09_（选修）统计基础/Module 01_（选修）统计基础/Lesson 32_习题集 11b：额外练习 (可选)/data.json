@@ -1,0 +1,1044 @@
+{
+  "data": {
+    "lesson": {
+      "id": 178236,
+      "key": "4581055810",
+      "title": "习题集 11b：额外练习 (可选)",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "zh-cn",
+      "summary": "使用一个独立的 t 检验样本，进行额外练习。",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": null,
+      "resources": {
+        "files": [],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 177157,
+          "key": "2529164870923",
+          "title": "1. t 检验",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2529164870923",
+            "completed_at": "2019-03-08T05:46:39.298Z",
+            "last_viewed_at": "2019-03-08T05:46:38.786Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174887,
+              "key": "252916487",
+              "title": "1. t 检验",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "<a href=\"https://s3.amazonaws.com/udacity-hosted-downloads/t-table.jpg\" target=\"_blank\">t 表格链接</a>",
+              "user_state": {
+                "node_key": "252916487",
+                "completed_at": "2019-03-08T08:07:25.407Z",
+                "last_viewed_at": "2019-03-08T08:07:25.407Z",
+                "unstructured": "{\"0\":false,\"1\":true,\"2\":\"15.25\",\"3\":\"1.684\"}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "1. t 检验",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/NRVRU20PPoHWXGZprdKaS6MA0bdBqRO5j-mmGXTV7Y-xih2bzQdoMhHhrX9xHYRB5S5y20n6S5P8NZ9Gnrw=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252916487",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "153974156",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.27949712819235667,
+                      "y": 0.698795154603294
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.2823343803254822,
+                      "y": 0.8017543316554495
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0.0694980694980695,
+                      "width": 0.0998914223669924,
+                      "x": 0.39941978828120966,
+                      "y": 0.4139415065544488
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0.06177606177606178,
+                      "width": 0.09229098805646037,
+                      "x": 0.38636369543637755,
+                      "y": 0.5404475306767907
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177159,
+          "key": "2529164880923",
+          "title": "2. t 检验",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2529164880923",
+            "completed_at": "2019-03-08T08:07:31.563Z",
+            "last_viewed_at": "2019-03-08T08:07:31.227Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174888,
+              "key": "252916488",
+              "title": "2. t 检验",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "<a href=\"https://s3.amazonaws.com/udacity-hosted-downloads/t-table.jpg\" target=\"_blank\">t 表格链接</a>\n\n提示：确保仔细查看零假设所假设的差异，以及该检验是单尾检验还是双尾检验？",
+              "user_state": {
+                "node_key": "252916488",
+                "completed_at": "2019-03-08T08:09:07.890Z",
+                "last_viewed_at": "2019-03-08T08:09:56.492Z",
+                "unstructured": "{\"0\":true,\"1\":false,\"2\":\"2.31\",\"3\":\"1.984\"}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "2. t 检验",
+                "alt_text": null,
+                "background_image": "//lh5.ggpht.com/OoFr8sZZgIYqgVaXNujveOPdildFQzmg8b3sWLiDvxBw72rmyUZteH30V-8awdV_BR6U6u3K5X92naL3Ius=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252916488",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "153974157",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.2770793037069927,
+                      "y": 0.6996558448533092
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.2790135987122024,
+                      "y": 0.8037866012988087
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0.06563706563706563,
+                      "width": 0.10640608034744843,
+                      "x": 0.3892650494018958,
+                      "y": 0.41135975096011523
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 5,
+                    "placement": {
+                      "height": 0.07142857142857142,
+                      "width": 0.11509229098805646,
+                      "x": 0.4066731731950053,
+                      "y": 0.5275387527051232
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177160,
+          "key": "2529164930923",
+          "title": "7. t 统计量",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2529164930923",
+            "completed_at": "2019-03-08T08:20:23.676Z",
+            "last_viewed_at": "2019-03-08T08:20:23.269Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174889,
+              "key": "252916493",
+              "title": "7. t 统计量",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "输入正的 t 统计量。\n<a href=\"https://s3.amazonaws.com/udacity-hosted-downloads/t-table.jpg\" target=\"_blank\">t 表格链接</a>",
+              "user_state": {
+                "node_key": "252916493",
+                "completed_at": "2019-03-08T08:21:52.015Z",
+                "last_viewed_at": "2019-03-08T08:21:52.015Z",
+                "unstructured": "{\"0\":\"0.78\"}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "7. t 统计量",
+                "alt_text": null,
+                "background_image": "//lh5.ggpht.com/CELx3xGxRk6fK93SA1x-EQC55jnTsdPH7kuhxGTuKLKv9AU4jDdiE5iUt7lGEnbkHdrI8OaqO2iGIXxnkRKV=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252916493",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "153974163",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.34527687296416937,
+                      "y": 0.4768339768339768
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177161,
+          "key": "2529164950923",
+          "title": "9. 平方和",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2529164950923",
+            "completed_at": "2019-03-08T08:23:17.965Z",
+            "last_viewed_at": "2019-03-08T08:25:49.206Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174890,
+              "key": "252916495",
+              "title": "9. 平方和",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "你可以使用偏差列与平方偏差列计算平方和，但只有平方和会被评分。\n<a href=\"https://s3.amazonaws.com/udacity-hosted-downloads/t-table.jpg\" target=\"_blank\">t 表格链接</a>",
+              "user_state": {
+                "node_key": "252916495",
+                "completed_at": "2019-03-08T08:23:49.687Z",
+                "last_viewed_at": "2019-03-08T08:25:35.916Z",
+                "unstructured": "{\"0\":\"58\",\"1\":\"18\",\"2\":\"-1\",\"3\":\"-6\",\"4\":\"2\",\"5\":\"1\",\"6\":\"4\",\"7\":\"1\",\"8\":\"36\",\"9\":\"4\",\"10\":\"1\",\"11\":\"16\",\"12\":\"-2\",\"13\":\"1\",\"14\":\"3\",\"15\":\"-2\",\"16\":\"4\",\"17\":\"1\",\"18\":\"9\",\"19\":\"4\"}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "9. 平方和",
+                "alt_text": null,
+                "background_image": "//lh5.ggpht.com/a_TLKnoWqhO9WHGNYEj29DrDCR1NQ19Vy7jRZLXUaSjwPOhXfbkAeIsZ0QWhBmflhtFMsgTGRIKOLDEG9s8=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252916495",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "153974165",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.075,
+                      "x": 0.242,
+                      "y": 0.6526315748500031
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.075,
+                      "x": 0.242,
+                      "y": 0.764385955446931
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "TextInputWidget",
+                    "is_text_area": false,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.075,
+                      "x": 0.202,
+                      "y": 0.119
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "TextInputWidget",
+                    "is_text_area": false,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.075,
+                      "x": 0.202,
+                      "y": 0.183
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": "Empty",
+                    "marker": "4",
+                    "model": "TextInputWidget",
+                    "is_text_area": false,
+                    "tabindex": 5,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.075,
+                      "x": 0.202,
+                      "y": 0.248
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": "Empty",
+                    "marker": "5",
+                    "model": "TextInputWidget",
+                    "is_text_area": false,
+                    "tabindex": 6,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.075,
+                      "x": 0.202,
+                      "y": 0.312
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": "Empty",
+                    "marker": "6",
+                    "model": "TextInputWidget",
+                    "is_text_area": false,
+                    "tabindex": 7,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.075,
+                      "x": 0.202,
+                      "y": 0.377
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": "Empty",
+                    "marker": "7",
+                    "model": "TextInputWidget",
+                    "is_text_area": false,
+                    "tabindex": 8,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.075,
+                      "x": 0.337,
+                      "y": 0.119
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": "Empty",
+                    "marker": "8",
+                    "model": "TextInputWidget",
+                    "is_text_area": false,
+                    "tabindex": 9,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.075,
+                      "x": 0.337,
+                      "y": 0.183
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": "Empty",
+                    "marker": "9",
+                    "model": "TextInputWidget",
+                    "is_text_area": false,
+                    "tabindex": 10,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.075,
+                      "x": 0.337,
+                      "y": 0.248
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": "Empty",
+                    "marker": "10",
+                    "model": "TextInputWidget",
+                    "is_text_area": false,
+                    "tabindex": 11,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.075,
+                      "x": 0.337,
+                      "y": 0.312
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": "Empty",
+                    "marker": "11",
+                    "model": "TextInputWidget",
+                    "is_text_area": false,
+                    "tabindex": 12,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.075,
+                      "x": 0.337,
+                      "y": 0.377
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": "Empty",
+                    "marker": "12",
+                    "model": "TextInputWidget",
+                    "is_text_area": false,
+                    "tabindex": 13,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.075,
+                      "x": 0.633,
+                      "y": 0.141
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": "Empty",
+                    "marker": "13",
+                    "model": "TextInputWidget",
+                    "is_text_area": false,
+                    "tabindex": 14,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.075,
+                      "x": 0.633,
+                      "y": 0.205
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": "Empty",
+                    "marker": "14",
+                    "model": "TextInputWidget",
+                    "is_text_area": false,
+                    "tabindex": 15,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.075,
+                      "x": 0.633,
+                      "y": 0.269
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": "Empty",
+                    "marker": "15",
+                    "model": "TextInputWidget",
+                    "is_text_area": false,
+                    "tabindex": 16,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.075,
+                      "x": 0.633,
+                      "y": 0.333
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": "Empty",
+                    "marker": "16",
+                    "model": "TextInputWidget",
+                    "is_text_area": false,
+                    "tabindex": 17,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.075,
+                      "x": 0.795,
+                      "y": 0.141
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": "Empty",
+                    "marker": "17",
+                    "model": "TextInputWidget",
+                    "is_text_area": false,
+                    "tabindex": 18,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.075,
+                      "x": 0.795,
+                      "y": 0.205
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": "Empty",
+                    "marker": "18",
+                    "model": "TextInputWidget",
+                    "is_text_area": false,
+                    "tabindex": 19,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.075,
+                      "x": 0.795,
+                      "y": 0.269
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": "Empty",
+                    "marker": "19",
+                    "model": "TextInputWidget",
+                    "is_text_area": false,
+                    "tabindex": 20,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.075,
+                      "x": 0.795,
+                      "y": 0.333
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177162,
+          "key": "2529164960923",
+          "title": "10. 合并方差",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2529164960923",
+            "completed_at": "2019-03-08T08:25:40.337Z",
+            "last_viewed_at": "2019-03-08T08:26:28.537Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174891,
+              "key": "252916496",
+              "title": "10. 合并方差",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "<a href=\"https://s3.amazonaws.com/udacity-hosted-downloads/t-table.jpg\" target=\"_blank\">t 表格链接</a>",
+              "user_state": {
+                "node_key": "252916496",
+                "completed_at": "2019-03-08T08:26:35.735Z",
+                "last_viewed_at": "2019-03-08T08:26:35.735Z",
+                "unstructured": "{\"0\":\"10.86\"}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "10. 合并方差",
+                "alt_text": null,
+                "background_image": "//lh3.ggpht.com/XrvlKruGfa3nSAguvi0TI17RSA2d9N_UptRLsfqNsfhGRA2EVfqd1IB2fPibMyHnQyt155rtG77L17pWRg=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252916496",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "153974166",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.13355048859934854,
+                      "y": 0.6814671814671814
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177163,
+          "key": "2529164970923",
+          "title": "11. 标准误差",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2529164970923",
+            "completed_at": "2019-03-08T08:26:41.934Z",
+            "last_viewed_at": "2019-03-08T08:26:41.446Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174892,
+              "key": "252916497",
+              "title": "11. 标准误差",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "<a href=\"https://s3.amazonaws.com/udacity-hosted-downloads/t-table.jpg\" target=\"_blank\">t 表格链接</a>",
+              "user_state": {
+                "node_key": "252916497",
+                "completed_at": "2019-03-08T08:27:37.134Z",
+                "last_viewed_at": "2019-03-08T08:27:37.134Z",
+                "unstructured": "{\"0\":\"2.21\"}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "11. 标准误差",
+                "alt_text": null,
+                "background_image": "//lh3.ggpht.com/mn75IfjmrurjsHSHiQ7IT3CydvaRsUlrVS8TU-GJWfOhKOg3m28sIF_jY6LGN6dWwq_9yy8eMfQ9oc-3fz8Z=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252916497",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "153974167",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.15200868621064062,
+                      "y": 0.6853281853281853
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177164,
+          "key": "2529164980923",
+          "title": "12. t 统计量",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2529164980923",
+            "completed_at": "2019-03-08T08:27:42.915Z",
+            "last_viewed_at": "2019-03-08T08:27:42.453Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174893,
+              "key": "252916498",
+              "title": "12. t 统计量",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "按这个方向计算 t 统计量：<span class=\"mathquill\">\\overline{x} - \\overline{y}</span>.\n\n<a href=\"https://s3.amazonaws.com/udacity-hosted-downloads/t-table.jpg\" target=\"_blank\">t 表格链接</a>",
+              "user_state": {
+                "node_key": "252916498",
+                "completed_at": "2019-03-08T08:29:07.627Z",
+                "last_viewed_at": "2019-03-08T08:29:07.627Z",
+                "unstructured": "{\"0\":\"-4.07\"}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "12. t 统计量",
+                "alt_text": null,
+                "background_image": "//lh5.ggpht.com/6UfsS6_siJuRAKau4FvLYeSm8duoH_iqX4u8_RfCaTgyBHJ5F3EtOQowtOeIhRfIw8KqpK48-HyZN1fYEg=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252916498",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "153974168",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.059845559845559844,
+                      "width": 0.1498371335504886,
+                      "x": 0.16395222584147665,
+                      "y": 0.667953667953668
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177165,
+          "key": "2529164990923",
+          "title": "13. 决策",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2529164990923",
+            "completed_at": "2019-03-08T08:29:13.089Z",
+            "last_viewed_at": "2019-03-08T08:29:12.610Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174894,
+              "key": "252916499",
+              "title": "13. 决策",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "填写 α=0.01，双尾检验的 t 临界值。\n\n我们要接受还是拒绝零假设？\n\n1. 接受零假设。两个总体没有显著差异。\n2. 拒绝零假设。两个总体之间有显著差异。\n\n<a href=\"https://s3.amazonaws.com/udacity-hosted-downloads/t-table.jpg\" target=\"_blank\">t 表格链接</a>",
+              "user_state": {
+                "node_key": "252916499",
+                "completed_at": "2019-03-08T08:30:03.940Z",
+                "last_viewed_at": "2019-03-08T08:30:03.940Z",
+                "unstructured": "{\"0\":\"3.499\",\"1\":true,\"2\":false}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "13. 决策",
+                "alt_text": "",
+                "background_image": "//lh4.ggpht.com/iOBgJN8xgNaMOjKo_Uq4UkH8ZRvi5VuPRO4AJUTaD3-FePP2R6SdNm7t3rwR98kS6x0OA5rsudnX8VqQpK4=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252916499",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "153974169",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.7915309446254072,
+                      "y": 0.5444015444015444
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.21715526601520088,
+                      "y": 0.8494208494208494
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.21389793702497287,
+                      "y": 0.7046332046332047
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 486218,
+          "key": "cff6b3fd-be46-43dd-a9af-17fb957aa7bc",
+          "title": "开始你的第一个项目",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "cff6b3fd-be46-43dd-a9af-17fb957aa7bc",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 486219,
+              "key": "3871a8f9-cc85-49dc-970b-739fdde3c8e6",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# 项目弹性进度提示\n教室内第一个项目测试心理学现象的建议完成时间是在2周内，考虑到不同背景的学员学习难度，我们给出了额外2周去给进度稍慢的学员作调整，超过教室截止期2周完成不影响毕业进度。\n\n建议有初级统计基础的学员以教室内建议学习计划安排为参考；完全零基础学员可以课程大纲课表安排为参考。记得查询你的课程大纲哦！\n\n\n",
+              "instructor_notes": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    }
+  ]
+}

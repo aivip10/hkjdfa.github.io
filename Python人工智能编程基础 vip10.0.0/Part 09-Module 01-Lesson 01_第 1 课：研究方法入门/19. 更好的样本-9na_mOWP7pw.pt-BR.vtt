@@ -1,0 +1,107 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:01.967
+A resposta
+é uma amostra maior.
+
+00:00:02.000 --> 00:00:04.767
+Se escolhermos esta também
+
+00:00:04.800 --> 00:00:08.867
+e estas duas, dobramos
+o tamanho da amostra.
+
+00:00:08.900 --> 00:00:13.100
+Veja que temos
+este valor pequeno, 32%,
+
+00:00:13.133 --> 00:00:17.700
+e isso vai puxar a estatística
+x-linha, a média, para baixo.
+
+00:00:17.733 --> 00:00:21.133
+Então isso fica mais perto
+da média populacional mu.
+
+00:00:21.167 --> 00:00:24.333
+E, é claro, idealmente,
+queremos toda a população,
+
+00:00:24.367 --> 00:00:26.700
+mas muitas vezes isso
+é muito difícil,
+
+00:00:26.733 --> 00:00:29.500
+porque a população
+pode ser enorme.
+
+00:00:29.533 --> 00:00:31.300
+É aí que usamos amostras.
+
+00:00:31.333 --> 00:00:34.067
+Mas uma amostra maior
+se aproxima melhor
+
+00:00:34.100 --> 00:00:36.433
+do parâmetro da população.
+
+00:00:36.467 --> 00:00:39.233
+Outro exemplo onde amostras
+podem ser enganosas
+
+00:00:39.267 --> 00:00:42.333
+é ao prever o resultado
+de uma eleição presidencial.
+
+00:00:42.367 --> 00:00:45.500
+Nesta última eleição
+com o Presidente Obama
+
+00:00:45.533 --> 00:00:46.867
+contra Mitt Romney,
+
+00:00:46.900 --> 00:00:48.267
+muitas pesquisas
+foram feitas
+
+00:00:48.300 --> 00:00:50.433
+e cada uma obteve
+um resultado próprio.
+
+00:00:50.467 --> 00:00:52.833
+Algumas apontaram
+a vitória de Romney,
+
+00:00:52.867 --> 00:00:55.533
+que sabemos
+que não aconteceu.
+
+00:00:55.567 --> 00:00:56.600
+Cada amostra
+
+00:00:56.633 --> 00:01:00.000
+pode não prever perfeitamente
+parâmetros populacionais.
+
+00:01:00.033 --> 00:01:02.867
+A estatística amostral
+pode nos dar um intervalo
+
+00:01:02.900 --> 00:01:05.667
+onde o parâmetro populacional
+reside,
+
+00:01:05.700 --> 00:01:08.000
+contanto que a amostra
+seja tão aleatória
+
+00:01:08.033 --> 00:01:10.833
+e imparcial quanto
+for possível.
+
+00:01:10.867 --> 00:01:13.467
+Veremos amostras mais a fundo
+depois.
+

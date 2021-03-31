@@ -1,0 +1,955 @@
+{
+  "data": {
+    "lesson": {
+      "id": 178225,
+      "key": "4604118901",
+      "title": "习题集 8a：估计",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "zh-cn",
+      "summary": "检验你对总体参数估计的掌握程度。",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": null,
+      "resources": {
+        "files": [],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 176951,
+          "key": "16264785760923",
+          "title": "1. 点估计值",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "16264785760923",
+            "completed_at": "2019-03-05T07:25:10.365Z",
+            "last_viewed_at": "2019-07-16T18:06:32.981Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174681,
+              "key": "1626478576",
+              "title": "1. 点估计值",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 总体参数点估计的主要问题是什么？\n\n- □ 没问题，点估计对各自总体参数的估计是 100% 准确的\n- □ 点估计不考虑抽样误差\n- □ 点估计不会告诉我们他们估计的总体参数的任何信息\n- □ 我们无法使用它们估计总体均值",
+              "user_state": {
+                "node_key": "1626478576",
+                "completed_at": "2019-03-05T07:27:25.298Z",
+                "last_viewed_at": "2019-03-05T07:30:20.857Z",
+                "unstructured": "{\"radio1\":false,\"radio2\":false,\"radio3\":true,\"radio4\":false}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "1. 点估计值",
+                "alt_text": "",
+                "background_image": "//lh3.ggpht.com/l8qmRxQ91-cH55qhdF7d_agsqttGHY8cyQ24-vpDQAE_E1Sxt1Y0PCRTrXplrQAqFnmuZCtswsYTLNu4E1us=s0#w=889&h=500",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/1626478576",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "1595258618",
+                "widgets": [
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.1354036783042394,
+                      "y": 0.5794068736141907
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.13610504987531172,
+                      "y": 0.5164564855875832
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.1370986596009975,
+                      "y": 0.4478589246119734
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio4",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.14015741895261846,
+                      "y": 0.3115992239467849
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176952,
+          "key": "2521527190923",
+          "title": "2. 更大范围",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2521527190923",
+            "completed_at": "2019-03-05T07:30:28.125Z",
+            "last_viewed_at": "2019-03-05T07:30:27.782Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174680,
+              "key": "252152719",
+              "title": "2. 更大范围",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 当总体和均值不变时，下面哪一个范围更大？\n\n- □ 95% 置信区间\n- □ 98% 置信区间",
+              "user_state": {
+                "node_key": "252152719",
+                "completed_at": "2019-03-05T07:32:07.879Z",
+                "last_viewed_at": "2019-03-05T07:32:37.303Z",
+                "unstructured": "{\"0\":true,\"1\":false}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "2. 更大范围",
+                "alt_text": "",
+                "background_image": "//lh6.ggpht.com/4hScDcbLj8jcc92gV7SwcI3wvTfid4P6U1DOl2cLnMlxh8ENTX9tkAbVwf90zW71b9oSnqq_YlrpWk1s-zk=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252152719",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "127181460",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.2703583061889251,
+                      "y": 0.4826254826254826
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.2714440825190011,
+                      "y": 0.35135135135135137
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176953,
+          "key": "2521527200923",
+          "title": "3. 增大样本量",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2521527200923",
+            "completed_at": "2019-03-05T07:32:41.309Z",
+            "last_viewed_at": "2019-03-05T07:32:40.834Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174682,
+              "key": "252152720",
+              "title": "3. 增大样本量",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 样本量增大时，置信区间会怎样？\n\n- □ 减小\n- □ 增大\n- □ 不变",
+              "user_state": {
+                "node_key": "252152720",
+                "completed_at": "2019-03-05T07:32:54.369Z",
+                "last_viewed_at": "2019-03-05T07:33:47.899Z",
+                "unstructured": "{\"0\":false,\"1\":false,\"2\":true}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "3. 增加样本量",
+                "alt_text": "",
+                "background_image": "//lh3.ggpht.com/YzXeuXifJ8R5qnk3pgrYcSN6DVJnFHKzw_IeKVXP8yCOToTtp1H5Xr_lc6MqZQ6vwiwZkeAIn22o2Z97ABM=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252152720",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "127181461",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.2008686210640608,
+                      "y": 0.5308880308880309
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.2008686210640608,
+                      "y": 0.44787644787644787
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.2008686210640608,
+                      "y": 0.3590733590733591
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176955,
+          "key": "2521527210923",
+          "title": "4. 增大总体标准偏差",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2521527210923",
+            "completed_at": "2019-03-05T07:33:51.298Z",
+            "last_viewed_at": "2019-07-16T18:06:35.635Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174683,
+              "key": "252152721",
+              "title": "4. 增大总体标准偏差",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 当总体标准偏差增大时，置信区间的范围会怎样？\n\n- □ 减小\n- □ 增大\n- □ 不变",
+              "user_state": {
+                "node_key": "252152721",
+                "completed_at": "2019-03-05T07:34:37.591Z",
+                "last_viewed_at": "2019-03-05T07:35:33.305Z",
+                "unstructured": "{\"0\":false,\"1\":true,\"2\":false}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "4. 增加总体标准偏差",
+                "alt_text": "",
+                "background_image": "//lh5.ggpht.com/t76tCE-qF1AY8cUQn6eyPINDPq2ybz8IvRt1zJdnxpbaEGC6idKdV8F9kjbGj4XsciJw1dA4FHYRNdyvrw=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252152721",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "127181462",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.23344191096634093,
+                      "y": 0.5907335907335908
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.23235613463626492,
+                      "y": 0.4922779922779923
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.23235613463626492,
+                      "y": 0.38803088803088803
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176954,
+          "key": "2521527230923",
+          "title": "6. 95% 置信区间的临界值",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2521527230923",
+            "completed_at": "2019-03-05T07:42:10.022Z",
+            "last_viewed_at": "2019-07-16T09:49:11.620Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174684,
+              "key": "252152723",
+              "title": "6. 95% 置信区间的临界值",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 一名化学老师希望通过在课堂上引入更多互动性的教学活动，来提高学生的成绩。之前，她教的班级的平均分为 68%，标准偏差为 10%。在对她现在教的班级引入互动活动后，平均分提高到 75%。班上有 25 名学生。她想计算出，如果她对其他所有班级都引入互动活动，目标平均分的 95% 置信区间。\n\n## 对于 95% 置信区间，临界 Z 值是多少？\n\n[Z-表格链接](https://s3.amazonaws.com/udacity-hosted-downloads/ZTable.jpg)",
+              "user_state": {
+                "node_key": "252152723",
+                "completed_at": "2019-03-05T07:47:37.447Z",
+                "last_viewed_at": "2019-03-05T07:47:37.447Z",
+                "unstructured": "{\"0\":\"1.96\"}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "6. 95% 置信区间的临界值",
+                "alt_text": "",
+                "background_image": "//lh6.ggpht.com/XbfEyLMMGpX93pezLJpBre--QG0EZOTx8GeOGHkZ1EBxCQ5A_Eg2k4w4U4tDR1uDryJv_2KJZshO4ZP3ovQ=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252152723",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "127181464",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.055984555984555984,
+                      "width": 0.13029315960912052,
+                      "x": 0.24321389793702497,
+                      "y": 0.805019305019305
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176957,
+          "key": "2521527240923",
+          "title": "7. 标准误差",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2521527240923",
+            "completed_at": "2019-03-05T07:47:40.300Z",
+            "last_viewed_at": "2019-03-05T07:47:39.887Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174685,
+              "key": "252152724",
+              "title": "7. 标准误差",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 一名化学老师希望通过在课堂上引入更多互动性的教学活动，来提高学生的成绩。之前，她教的班级的平均分为 68%，标准偏差为 10%。在对她现在教的班级引入互动活动后，平均分提高到 75%。班上有 25 名学生。她想计算出，如果她对其他所有班级都引入互动活动，目标平均分的 95% 置信区间。\n\n## 均值的标准误差是多少？\n\n注意：请牢记标准误差以百分比为单位，因为这是我们测量的变量（测试分数）的单位，所以不要被 % 符号困扰，用你通常使用的方法计算标准误差即可。",
+              "user_state": {
+                "node_key": "252152724",
+                "completed_at": "2019-03-05T07:48:18.751Z",
+                "last_viewed_at": "2019-03-05T07:48:18.751Z",
+                "unstructured": "{\"0\":\"2\"}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "7. 标准误差",
+                "alt_text": "",
+                "background_image": "//lh6.ggpht.com/vj9VJ-jFV3U9DMrcD5WvmECQYuTk2r1KFlkx5Lrltl4lNr6AJ_waik5cRgh7KEWFE0tPsMjWYW6vlnpm9nE=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252152724",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "127181465",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06651884700665188,
+                      "width": 0.08728179551122195,
+                      "x": 0.6829533116178067,
+                      "y": 0.7355212355212355
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176956,
+          "key": "2521527250923",
+          "title": "8. 概率",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2521527250923",
+            "completed_at": "2019-03-05T07:48:29.660Z",
+            "last_viewed_at": "2019-03-05T07:48:28.951Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174686,
+              "key": "252152725",
+              "title": "8. 概率",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 一名化学老师希望通过在课堂上引入更多互动性的教学活动，来提高学生的成绩。之前，她教的班级的平均分为 68%，标准偏差为 10%。在对她现在教的班级引入互动活动后，平均分提高到 75%。班上有 25 名学生。她想计算出，如果她对其他所有班级都引入互动活动，目标平均分的 95% 置信区间是多少。\n\n## 得到 75% 或更高的平均分的概率是多少？\n\n<a href=\"https://s3.amazonaws.com/udacity-hosted-downloads/ZTable.jpg\" target=\"_blank\">z-表格链接</a>\n\n以比例的形式表示概率。\n提示：理论上，z 值可以是正无穷到负无穷之间的任意一个数字。非常高或非常低的 z 值代表什么概率？",
+              "user_state": {
+                "node_key": "252152725",
+                "completed_at": "2019-03-05T07:50:23.508Z",
+                "last_viewed_at": "2019-03-05T07:53:40.116Z",
+                "unstructured": "{\"0\":\"0.0002\"}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "8. 概率",
+                "alt_text": "",
+                "background_image": "//lh4.ggpht.com/VMb9IfqazM_f67p39464QWCxvIxV_zTdSNeTNzfJQEyhfIJS-XD8K0W3QDArO3fqD9lRZR7whVyZskvSX3o=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252152725",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "127181474",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.08903365906623235,
+                      "y": 0.8127413127413128
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176959,
+          "key": "2521527260923",
+          "title": "9. 误差范围",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2521527260923",
+            "completed_at": "2019-03-05T07:53:55.986Z",
+            "last_viewed_at": "2019-03-05T07:53:55.834Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174688,
+              "key": "252152726",
+              "title": "9. 误差范围",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 一名化学老师希望通过在课堂上引入更多互动性的教学活动，来提高学生的成绩。之前，她教的班级的平均分为 68%，标准偏差为 10%。在对她现在教的班级引入互动活动后，平均分提高到 75%。班上有 25 名学生。她想计算出，如果她对其他所有班级都引入互动活动，目标平均分的 95% 置信区间。\n\n## 误差范围是多少？（即 95% 置信区间的一半）\n\n注意：和标准差一样，误差范围也是以百分比为单位，因为这是我们测量的变量（测试分数）的单位，所以不要被 % 符号困扰。",
+              "user_state": {
+                "node_key": "252152726",
+                "completed_at": "2019-03-05T07:56:00.611Z",
+                "last_viewed_at": "2019-03-05T07:56:00.611Z",
+                "unstructured": "{\"0\":\"3.92\"}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "9. 误差范围",
+                "alt_text": "",
+                "background_image": "//lh3.ggpht.com/qFFPKuCjQqfjmPFWkVZau_l7HxGh7HJ9_2Ub3IqGUtvwqj780GoVyqyOKUNxR7F1iMAJQFQr5CioFU2eJuk=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252152726",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "127181466",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.057989690730557875,
+                      "width": 0.12726613489134975,
+                      "x": 0.38327904451682954,
+                      "y": 0.8185328185328186
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176958,
+          "key": "2521527270923",
+          "title": "10. 95% 置信区间",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2521527270923",
+            "completed_at": "2019-03-05T07:56:08.292Z",
+            "last_viewed_at": "2019-03-05T07:56:08.127Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174687,
+              "key": "252152727",
+              "title": "10. 95% 置信区间",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 一名化学老师希望通过在课堂上引入更多互动性的教学活动，来提高学生的成绩。之前，她教的班级的平均分为 68%，标准偏差为 10%。在对她现在教的班级引入互动活动后，平均分提高到 75%。班上有 25 名学生。她想计算出，如果她对其他所有班级都引入互动活动，目标平均分的 95% 置信区间。\n\n## 置信区间的范围是多少？",
+              "user_state": {
+                "node_key": "252152727",
+                "completed_at": "2019-03-05T07:56:22.778Z",
+                "last_viewed_at": "2019-03-05T07:59:54.303Z",
+                "unstructured": "{\"0\":\"0.7108\",\"1\":\"0.7892\"}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "10. 95% 置信区间",
+                "alt_text": "",
+                "background_image": "//lh6.ggpht.com/D10Ms2WZk2Lzj4wecEc4sN_DjtNxXKmQf3_WsqcJV-JrBcAA47kUkvD4bTQxpXg7y6UlQEALageG0qBvsgg=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252152727",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "127181467",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.05791505791505792,
+                      "width": 0.1281216069489685,
+                      "x": 0.5667752442996743,
+                      "y": 0.7181467181467182
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0.059845559845559844,
+                      "width": 0.1248642779587405,
+                      "x": 0.7231270358306189,
+                      "y": 0.7162162162162162
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176960,
+          "key": "2521527280923",
+          "title": "11. 解读置信区间",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2521527280923",
+            "completed_at": "2019-03-05T08:00:03.967Z",
+            "last_viewed_at": "2019-07-16T18:06:25.297Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174689,
+              "key": "252152728",
+              "title": "11. 解读置信区间",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 对于上述例子，置信区间可以告诉我们关于新教学法（引入更多互动性的教学活动）的哪些信息？（勾选所有正确的选项）\n\n- □ 新教学法可能并不比旧教学法更有效\n- □ 新教学法可能比旧教学法更有效\n- □ 如果她对未来的班级采用新教学法，平均分可能在 71% 到 79% 之间\n- □ 如果她对未来的班级采用新教学法，平均分可能大于 79%\n- □ 如果她对未来的班级采用新教学法，平均分可能小于 71%",
+              "user_state": {
+                "node_key": "252152728",
+                "completed_at": "2019-03-05T08:00:58.146Z",
+                "last_viewed_at": "2019-03-05T08:00:58.146Z",
+                "unstructured": "{\"0\":false,\"1\":false,\"2\":true,\"3\":true,\"4\":false}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "11. 解读置信区间",
+                "alt_text": "",
+                "background_image": "//lh3.ggpht.com/nLT8i8cNwFY0ZyIxs0LGmC5ya9U-WcRr-wKJu1zMOdAyP6I-ZZxxn7mpaaEy9cWAWjIvFU2WvD5j_TD1mU0=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252152728",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "127181468",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.0749185667752443,
+                      "y": 0.8359073359073359
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.0749185667752443,
+                      "y": 0.6602316602316602
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.07709011943539631,
+                      "y": 0.49613899613899615
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.0781758957654723,
+                      "y": 0.41312741312741313
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "4",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 5,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.07600434310532031,
+                      "y": 0.3223938223938224
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    }
+  ]
+}

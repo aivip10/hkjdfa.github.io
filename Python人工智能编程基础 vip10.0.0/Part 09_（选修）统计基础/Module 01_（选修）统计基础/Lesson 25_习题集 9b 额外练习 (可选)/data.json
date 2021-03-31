@@ -1,0 +1,487 @@
+{
+  "data": {
+    "lesson": {
+      "id": 178229,
+      "key": "4591178936",
+      "title": "习题集 9b: 额外练习 (可选)",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "zh-cn",
+      "summary": "继续练习假设检验。",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": null,
+      "resources": {
+        "files": [],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 177014,
+          "key": "2522318600923",
+          "title": "10. 假说",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2522318600923",
+            "completed_at": "2019-03-05T23:29:17.564Z",
+            "last_viewed_at": "2019-03-05T23:29:17.248Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174743,
+              "key": "252231860",
+              "title": "10. 假说",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 有一项新的训练技术，希望可以缩短职业短跑运动员完成 200 米比赛的用时（即提高奔跑速度）。一名教练随机挑选了一些女性短跑动员，让她们接受此项新训练技术，然后记录他们完成 200 米比赛的用时。\n\n如果我们关注的变量是完成 200 米比赛的用时，下面哪一个选项正确表示了单尾检验的零假设和对立假设？（µ-I 代表训练后成绩的均值 ）",
+              "user_state": {
+                "node_key": "252231860",
+                "completed_at": "2019-03-05T23:31:23.450Z",
+                "last_viewed_at": "2019-03-05T23:31:23.450Z",
+                "unstructured": "{\"0\":false,\"1\":true,\"2\":false,\"3\":false,\"4\":false,\"5\":false}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "10. 假说",
+                "alt_text": "",
+                "background_image": "//lh4.ggpht.com/nk8k3Rj1yrvUkzGW2RQ_D-8Yz2c7NcjveR1xz-o4w2pDGNKgyJewtD1mqLibsvfD9QeLIpM1T74Gw8nAWw=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252231860",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "140035956",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6565032730673317,
+                      "y": 0.7668722283813747
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6493336970074813,
+                      "y": 0.5424750554323725
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.4219334476309227,
+                      "y": 0.7673226164079823
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.4051784600997506,
+                      "y": 0.5244595343680709
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "4",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 5,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.1529184850374065,
+                      "y": 0.7904656319290465
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "5",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 6,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.15130143391521197,
+                      "y": 0.5383869179600886
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177016,
+          "key": "2522318610923",
+          "title": "11. 标准误差",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2522318610923",
+            "completed_at": "2019-03-05T23:31:34.070Z",
+            "last_viewed_at": "2019-03-05T23:31:33.732Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174746,
+              "key": "252231861",
+              "title": "11. 标准误差",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 有一项新的训练技术，希望可以缩短职业短跑运动员完成 200 米比赛的用时（即提高奔跑速度）。一名教练随机挑选了一些女性短跑动员，让她们接受此项新训练技术，然后记录他们完成 200 米比赛的用时。\n\n教练发现女性短跑动员总体完成 200 米比赛的平均用时为 22.965 秒，标准偏差为 0.360 秒。\n\n- µ = 22.965\n- σ = 0.360\n\n接受此项新训练的女性短跑动员样本的用时为 22.793 秒（样本量 n = 16）。\n\n样本均值分布的标准误差是多少？",
+              "user_state": {
+                "node_key": "252231861",
+                "completed_at": "2019-03-05T23:33:39.334Z",
+                "last_viewed_at": "2019-03-05T23:33:39.334Z",
+                "unstructured": "{\"0\":\"0.09\"}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "11. 标准误差",
+                "alt_text": "",
+                "background_image": "//lh6.ggpht.com/QtXP9T_BrYegn5vLjVXDiZDd_jkBYc3JWkDUaGX-Say_w4ZyUJj-E8zpqaiMOA2bYGFmnRQ6b6IkDyUDqyw=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252231861",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "133709638",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.056587596471553626,
+                      "width": 0.15367268043597837,
+                      "x": 0.11485181397304889,
+                      "y": 0.8799656349524366
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177015,
+          "key": "2522318620923",
+          "title": "12. Z-值",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2522318620923",
+            "completed_at": "2019-03-05T23:33:43.268Z",
+            "last_viewed_at": "2019-03-05T23:33:42.948Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174744,
+              "key": "252231862",
+              "title": "12. Z-值",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 有一项新的训练技术，希望可以缩短职业短跑运动员完成 200 米比赛的用时（即提高奔跑速度）。一名教练随机挑选了一些女性短跑动员，让她们接受此项新训练技术，然后记录他们完成 200 米比赛的用时。\n\n教练发现女性短跑动员总体完成 200 米比赛的平均用时为 22.965 秒，标准偏差为 0.360 秒。\n\n- µ = 22.965\n- σ = 0.360\n\n接受此项新训练的女性短跑动员样本的用时为 22.793 秒（样本量 n = 16）。\n\n样本均值的 Z 值是多少？\n\n这意味着什么？\n\n接受该训练后，女性短跑动员（显著／不显著）比之前（更快/更慢）？\n\n提示：请牢记你选作零假设和对立假设的内容。",
+              "user_state": {
+                "node_key": "252231862",
+                "completed_at": "2019-03-05T23:35:37.011Z",
+                "last_viewed_at": "2019-03-05T23:35:37.011Z",
+                "unstructured": "{\"0\":\"-1.91\",\"1\":false,\"2\":true,\"3\":false,\"4\":true}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "12. Z-值",
+                "alt_text": "",
+                "background_image": "//lh3.ggpht.com/rsjyeHKR9H23gyJBauJRE3t8P7yq3XBL8I7az96bbpTb-tTTJ1kYkDefBMZQ3qiSOA7zITQG7wz-E_UxEA=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252231862",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "133709639",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.6309600614750139,
+                      "y": 0.6859103125920559
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.3434278744310798,
+                      "y": 0.903686715563405
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.34230030694301294,
+                      "y": 0.8373820745150835
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6182346000834584,
+                      "y": 0.9062589575355845
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "4",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 5,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6192010801814267,
+                      "y": 0.8376679576748589
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177017,
+          "key": "2522318630923",
+          "title": "13. 情人节",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2522318630923",
+            "completed_at": "2019-03-05T23:35:41.450Z",
+            "last_viewed_at": "2019-03-05T23:35:41.113Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174745,
+              "key": "252231863",
+              "title": "13. 情人节",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 一间花店发现，他们在情人节的销售额均值为 7895 美元，标准偏差为 230 美元。过去 5 年里，他们实施了一项新的营销策略，希望可以提高销售额。过去 5 年里在情人节的平均销售额为 9640 美元。\n\n- 零假设 H0: µ = µi\n- 对立假设 Ha: µ ≠ µi\n\nα = 0.01 时， 均值不低于 9640 美元的概率是多少？（输入 p 值的答案，精确到小数点后四位或更多。）\n\n你的统计学结论是什么？\n\n- 接受零假设，新营销策略无效。\n- 拒绝零假设，新营销策略提高了销售额。",
+              "user_state": {
+                "node_key": "252231863",
+                "completed_at": "2019-03-05T23:47:12.636Z",
+                "last_viewed_at": "2019-03-05T23:47:12.636Z",
+                "unstructured": "{\"0\":true,\"1\":false,\"2\":\"0\"}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "13. 情人节",
+                "alt_text": "",
+                "background_image": "//lh3.ggpht.com/EZQQdUxcmCZc1vaSDYsMFP_w9WlRkhnxApsoGccDu_rx2aHOHi36NT4FABUNtfj7aF4spww8yKVSUhvbbg=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252231863",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "133709641",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.10154937800646162,
+                      "y": 0.8128070023838503
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.09771986970684039,
+                      "y": 0.7316602316602316
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0.07317073170731707,
+                      "width": 0.10972568578553615,
+                      "x": 0.761129207383279,
+                      "y": 0.637065637065637
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    }
+  ]
+}

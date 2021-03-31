@@ -1,0 +1,1002 @@
+{
+  "data": {
+    "lesson": {
+      "id": 178227,
+      "key": "4624718636",
+      "title": "习题集 9a: 假设检验",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "zh-cn",
+      "summary": "通过练习熟悉假设检验的相关概念。",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": null,
+      "resources": {
+        "files": [],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 177006,
+          "key": "2522318510923",
+          "title": "1. 真或假？",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2522318510923",
+            "completed_at": "2019-03-05T23:15:30.886Z",
+            "last_viewed_at": "2019-03-05T23:15:30.649Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174734,
+              "key": "252231851",
+              "title": "1. 真或假？",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 真或假？\n\n如果临界区域更小，α 水平也更小。\n\n临界区域代表当零假设为真时，可能性很低的值。\n\n当 Z 值很大（大于 3.00）时，我们接受零假设。\n\n如果我们决定不拒绝零假设，意味着你认为对于你的样本，处理是无效的。\n\n当样本量（n）较大时，处理效果（若有）更容易被检测到。\n\n当标准偏差（σ）较大时，处理效果（若有）更不容易被检测到。",
+              "user_state": {
+                "node_key": "252231851",
+                "completed_at": "2019-03-05T23:18:14.795Z",
+                "last_viewed_at": "2019-03-05T23:18:34.651Z",
+                "unstructured": "{\"0\":false,\"1\":true,\"2\":true,\"3\":false,\"4\":true,\"5\":false,\"6\":false,\"7\":true,\"8\":false,\"9\":true,\"10\":false,\"11\":true}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "1. 真或假？",
+                "alt_text": "",
+                "background_image": "//lh6.ggpht.com/XacgCgXNsDPx8aI7Wlv5rzaA-nk3hZIZi5iiwv6d5TDuNdJuDob9o_7vxYhFlz2v4_o7ugZzu3v0A2rLFQ=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252231851",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "133709640",
+                "widgets": [
+                  {
+                    "group": "group3",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "4",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 5,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.816,
+                      "y": 0.137
+                    }
+                  },
+                  {
+                    "group": "group3",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "5",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 6,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.888,
+                      "y": 0.137
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 7,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.888,
+                      "y": 0.267
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 8,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.816,
+                      "y": 0.267
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 9,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.888,
+                      "y": 0.424
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 10,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.816,
+                      "y": 0.424
+                    }
+                  },
+                  {
+                    "group": "group2",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "6",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 11,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.888,
+                      "y": 0.577
+                    }
+                  },
+                  {
+                    "group": "group2",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "7",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 12,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.816,
+                      "y": 0.577
+                    }
+                  },
+                  {
+                    "group": "group4",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "8",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 13,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.888,
+                      "y": 0.724
+                    }
+                  },
+                  {
+                    "group": "group4",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "9",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 14,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.816,
+                      "y": 0.724
+                    }
+                  },
+                  {
+                    "group": "group5",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "10",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 15,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.888,
+                      "y": 0.874
+                    }
+                  },
+                  {
+                    "group": "group5",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "11",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 16,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.816,
+                      "y": 0.874
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177005,
+          "key": "2522318520923",
+          "title": "2. 零假设",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2522318520923",
+            "completed_at": "2019-03-05T23:19:00.815Z",
+            "last_viewed_at": "2019-03-05T23:19:00.341Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174735,
+              "key": "252231852",
+              "title": "2. 零假设",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 许多研究表明，学习时听音乐可以改善记忆力。为了验证这个现象，一名研究者征集了 36 名大学生（样本），让他们一边听背景音乐，一边进行一个标准化记忆力测试。在没有音乐时，记忆力测试的分数为标准分布，均值为 25，标准偏差为 6。这次测试的样本均值为 28。使用 α = 0.05，单尾检验。\n\n下面哪个选项最好地代表了这项研究的零假设？\n\n- □ 学习时听音乐对记忆力没有影响。\n- □ 学习时听音乐可能会降低记忆力。\n- □ 学习时听音乐可能会改善记忆力。\n- □ 学习时听音乐可能不会改善记忆力，而且可能会降低记忆力。",
+              "user_state": {
+                "node_key": "252231852",
+                "completed_at": "2019-03-05T23:21:30.056Z",
+                "last_viewed_at": "2019-03-05T23:21:30.056Z",
+                "unstructured": "{\"0\":false,\"1\":false,\"2\":false,\"3\":true}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "2. 零假设",
+                "alt_text": "",
+                "background_image": "//lh5.ggpht.com/9lKDGBa_gYqVF96RQQ-EUtC8wpWnGtEiyQSOouqX6W5YsgNJiZ3mEP0zZvP-oOLhdDnJsHAw2e5vcstFk8FH=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252231852",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "133709626",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.023887079261672096,
+                      "y": 0.5945945945945946
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.021715526601520086,
+                      "y": 0.6563706563706564
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.02280130293159609,
+                      "y": 0.7162162162162162
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.02280130293159609,
+                      "y": 0.7857142857142857
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177007,
+          "key": "2522318530923",
+          "title": "3. 对立假设",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2522318530923",
+            "completed_at": "2019-03-05T23:21:38.975Z",
+            "last_viewed_at": "2019-03-05T23:21:38.756Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174736,
+              "key": "252231853",
+              "title": "3. 对立假设",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 许多研究表明，学习时听音乐可以改善记忆力。为了验证这个现象，一名研究者征集了 36 名大学生（样本），让他们一边听背景音乐，一边进行一个标准化记忆力测试。在没有音乐时，记忆力测试的分数为标准分布，均值为 25，标准偏差为 6。这次测试的样本均值为 28。使用 α = 0.05，单尾检验。\n\n下面哪个选项最好地代表了这项研究的对立假设？\n\n- □ 学习时听音乐对记忆力没有影响。\n- □ 学习时听音乐可能会降低记忆力。\n- □ 学习时听音乐可能会改善记忆力。\n- □ 学习时听音乐可能不会改善记忆力，而且可能会降低记忆力。",
+              "user_state": {
+                "node_key": "252231853",
+                "completed_at": "2019-03-05T23:21:50.153Z",
+                "last_viewed_at": "2019-03-05T23:21:50.153Z",
+                "unstructured": "{\"0\":false,\"1\":true,\"2\":false,\"3\":false}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "3. 对立假设",
+                "alt_text": "",
+                "background_image": "//lh4.ggpht.com/OYgrepZ3xXqqPE4fXg6UlZgidKpLm716glBTGKdtZWR1cFUz7UNpsbr8NjodbvM66U92L94RJw5MTp7WMAQ=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252231853",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "133709627",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.024869236106250272,
+                      "y": 0.7852631524422382
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.023783674081260284,
+                      "y": 0.7177192928015911
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.024869236106250272,
+                      "y": 0.661754380527912
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.02595479813124026,
+                      "y": 0.5999999945707488
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177008,
+          "key": "2522318540923",
+          "title": "4. 标准误差",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2522318540923",
+            "completed_at": "2019-03-05T23:21:55.219Z",
+            "last_viewed_at": "2019-03-05T23:21:54.967Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174737,
+              "key": "252231854",
+              "title": "4. 标准误差",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 许多研究表明，学习时听音乐可以改善记忆力。为了验证这个现象，一名研究者征集了 36 名大学生（样本），让他们一边听背景音乐，一边进行一个标准化记忆力测试。在没有音乐时，记忆力测试的分数为标准分布，均值为 25，标准偏差为 6。这次测试的样本均值为 28。使用 α = 0.05，单尾检验。\n\n样本均值分布的标准误差是多少？",
+              "user_state": {
+                "node_key": "252231854",
+                "completed_at": "2019-03-05T23:23:16.058Z",
+                "last_viewed_at": "2019-03-05T23:23:16.058Z",
+                "unstructured": "{\"0\":\"1\"}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "4. 标准误差",
+                "alt_text": "",
+                "background_image": "//lh5.ggpht.com/qhl5Os35_p9KOV1W-c1CqXn0-ItMBIkB5_oGKGWkstoNmgkArq9NxEPLpjk8nCEMq0mAb1BbsxqMd8BLZFw=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252231854",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "133709628",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.08674627153067957,
+                      "y": 0.6192982549057553
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177011,
+          "key": "2522318550923",
+          "title": "5. Z-值",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2522318550923",
+            "completed_at": "2019-03-05T23:23:22.709Z",
+            "last_viewed_at": "2019-03-05T23:23:22.429Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174738,
+              "key": "252231855",
+              "title": "5. Z-值",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 许多研究表明，学习时听音乐可以改善记忆力。为了验证这个现象，一名研究者征集了 36 名大学生（样本），让他们一边听背景音乐，一边进行一个标准化记忆力测试。在没有音乐时，记忆力测试的分数为标准分布，均值为 25，标准偏差为 6。这次测试的样本均值为 28。使用 α = 0.05，单尾检验。\n\n计算样本均值为 28 时的 Z 值。",
+              "user_state": {
+                "node_key": "252231855",
+                "completed_at": "2019-03-05T23:24:19.778Z",
+                "last_viewed_at": "2019-03-05T23:24:19.778Z",
+                "unstructured": "{\"0\":\"3\"}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "5. Z-值",
+                "alt_text": "",
+                "background_image": "//lh3.ggpht.com/LmSya3t8ZZuqjDz70j8qzl3QzaP4dGFhTJ3qdOgGWFw08f0lKhaJXU6_a3gxbpOs-9qpZIpsQER-hJwC05c=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252231855",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "133709629",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.1269120664553091,
+                      "y": 0.6038596584164645
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177012,
+          "key": "2522318560923",
+          "title": "6. Z-临界值",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2522318560923",
+            "completed_at": "2019-03-05T23:24:26.480Z",
+            "last_viewed_at": "2019-03-05T23:24:26.195Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174739,
+              "key": "252231856",
+              "title": "6. Z-临界值",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 许多研究表明，学习时听音乐可以改善记忆力。为了验证这个现象，一名研究者征集了 36 名大学生（样本），让他们一边听背景音乐，一边进行一个标准化记忆力测试。在没有音乐时，记忆力测试的分数为标准分布，均值为 25，标准偏差为 6。这次测试的样本均值为 28。使用 α = 0.05，单尾检验。\n\n α = 0.05 时（单尾检验）的 Z 临界值是多少？\n\n<a href=\"https://s3.amazonaws.com/udacity-hosted-downloads/ZTable.jpg\" target=\"_blank\">z-表格链接</a>",
+              "user_state": {
+                "node_key": "252231856",
+                "completed_at": "2019-03-05T23:27:15.355Z",
+                "last_viewed_at": "2019-03-05T23:27:35.649Z",
+                "unstructured": "{\"0\":\"1.65\"}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "6. Z-临界值",
+                "alt_text": "",
+                "background_image": "//lh5.ggpht.com/7E2DGVZZ1bBHteHTH5JiDYx5QK_mnn_U7ndXlzMNV6FXinU1Oeev3Wy_TI6uYITcPoYNfHRPDgFDE05_QZwX=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252231856",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "133709630",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.1714201094798986,
+                      "y": 0.6000000092941418
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177013,
+          "key": "2522318570923",
+          "title": "7. 统计决策",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2522318570923",
+            "completed_at": "2019-03-05T23:27:56.552Z",
+            "last_viewed_at": "2019-03-05T23:27:56.309Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174740,
+              "key": "252231857",
+              "title": "7. 统计决策",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 许多研究表明，学习时听音乐可以改善记忆力。为了验证这个现象，一名研究者征集了 36 名大学生（样本），让他们一边听背景音乐，一边进行一个标准化记忆力测试。在没有音乐时，记忆力测试的分数为标准分布，均值为 25，标准偏差为 6。这次测试的样本均值为 28。使用 α = 0.05，单尾检验。\n\n你的统计学结论是什么？\n\n- □ 拒绝零假设失败\n- □ 拒绝零假设\n",
+              "user_state": {
+                "node_key": "252231857",
+                "completed_at": "2019-03-05T23:28:05.787Z",
+                "last_viewed_at": "2019-03-05T23:28:05.787Z",
+                "unstructured": "{\"0\":false,\"1\":true}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "7. 统计决策",
+                "alt_text": "",
+                "background_image": "//lh3.ggpht.com/ss6pW-KVsHnv2NHRJoWN1Xb7-DdPqNSo_wVASppQo6-KOuXIz436SQ3J3-5_-Uqhntmh_1j3Gp0PobN9dhkF=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252231857",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "133709631",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.1019441398805394,
+                      "y": 0.5942105356106577
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.10302970190552939,
+                      "y": 0.6714035180571116
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177009,
+          "key": "2522318580923",
+          "title": "8. 结论",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2522318580923",
+            "completed_at": "2019-03-05T23:28:08.643Z",
+            "last_viewed_at": "2019-03-05T23:28:08.374Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174741,
+              "key": "252231858",
+              "title": "8. 结论",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 许多研究表明，学习时听音乐可以改善记忆力。为了验证这个现象，一名研究者征集了 36 名大学生（样本），让他们一边听背景音乐，一边进行一个标准化记忆力测试。在没有音乐时，记忆力测试的分数为标准分布，均值为 25，标准偏差为 6。这次测试的样本均值为 28。使用 α = 0.05，单尾检验。\n\n我们可以得出什么结论？\n\n- □ 听音乐不能改善记忆力\n- □ 听音乐能显著地改善记忆力（p < 0.05）。",
+              "user_state": {
+                "node_key": "252231858",
+                "completed_at": "2019-03-05T23:28:16.173Z",
+                "last_viewed_at": "2019-03-05T23:28:16.173Z",
+                "unstructured": "{\"0\":true,\"1\":false}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "8. 结论",
+                "alt_text": "",
+                "background_image": "//lh3.ggpht.com/K_n0Y1PdDNz4qihxDnIcLQzz6Koe5slZG5zG01bzR_RhSbJjI9ioyqv_8OIcBF-OXjxgSikvM7dm5WeN02lj=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252231858",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "133709632",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.03463929433116016,
+                      "y": 0.6463157987620142
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.03463929433116016,
+                      "y": 0.5807017636825283
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177010,
+          "key": "2522318590923",
+          "title": "9. I 型误差",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2522318590923",
+            "completed_at": "2019-03-05T23:28:20.790Z",
+            "last_viewed_at": "2019-03-05T23:28:20.013Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174742,
+              "key": "252231859",
+              "title": "9. I 型误差",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 许多研究表明，学习时听音乐可以改善记忆力。为了验证这个现象，一名研究者征集了 36 名大学生（样本），让他们一边听背景音乐，一边进行一个标准化记忆力测试。在没有音乐时，记忆力测试的分数为标准分布，均值为 25，标准偏差为 6。这次测试的样本均值为 28。使用 α = 0.05，单尾检验。\n\n如果我们犯了 I 型错误，这意味着什么？\n\n- □ 你得出结论听音乐可以改善记忆力，你是对的。\n- □ 你得出结论听音乐可以改善记忆力，但实际上，听音乐不能改善记忆力。\n- □ 你得出结论听音乐不能改善记忆力，但实际上，听音乐可以改善记忆力。",
+              "user_state": {
+                "node_key": "252231859",
+                "completed_at": "2019-03-05T23:29:14.639Z",
+                "last_viewed_at": "2019-03-05T23:29:14.639Z",
+                "unstructured": "{\"0\":false,\"1\":true,\"2\":false}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "9. I 型误差",
+                "alt_text": "",
+                "background_image": "//lh5.ggpht.com/B8t-nARdv5Rzv05l9Fdmaf_F9QZ7q_tpTB7P_63pRD2joHTsrVqHtJONld-19zcV_ZodaUt5bIKfvY7hUZE=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252231859",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "133709633",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.03681041838114014,
+                      "y": 0.8315789566335036
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.037895980406130125,
+                      "y": 0.7157894829638226
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.04549491458106004,
+                      "y": 0.5807017636825283
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    }
+  ]
+}

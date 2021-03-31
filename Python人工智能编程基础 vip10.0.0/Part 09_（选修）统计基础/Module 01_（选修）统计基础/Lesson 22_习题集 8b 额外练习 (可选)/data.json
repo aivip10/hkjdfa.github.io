@@ -1,0 +1,616 @@
+{
+  "data": {
+    "lesson": {
+      "id": 178226,
+      "key": "4576262813",
+      "title": "习题集 8b: 额外练习 (可选)",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "zh-cn",
+      "summary": "继续练习估计。",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": null,
+      "resources": {
+        "files": [],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 176961,
+          "key": "2521527220923",
+          "title": "5. 95% 置信区间",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2521527220923",
+            "completed_at": "2019-03-05T07:35:35.790Z",
+            "last_viewed_at": "2019-03-05T07:35:35.433Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174690,
+              "key": "252152722",
+              "title": "5. 95% 置信区间",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 一个正态分布的总体的标准偏差为 2.8。请计算均值的 95% 置信区间，根据下方的随机取样（样本量 = 6）：\n\n8， 9，12，13，14，16\n\n\n（提示：请首先计算样本均值）",
+              "user_state": {
+                "node_key": "252152722",
+                "completed_at": "2019-03-05T07:42:06.070Z",
+                "last_viewed_at": "2019-03-05T07:42:06.070Z",
+                "unstructured": "{\"0\":\"9.76\",\"1\":\"14.24\"}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "5. 95% 置信区间",
+                "alt_text": "",
+                "background_image": "//lh3.ggpht.com/Jg28e2bLhIEYucPcNld_7fuZPdd5u4ud_Dy5cbQ9QUa4KJCoE-2vUTUNAyeHdWizU6hf96uEi4yHq1ukCw=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252152722",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "127181463",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.3355048859934853,
+                      "y": 0.7297297297297297
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.5504885993485342,
+                      "y": 0.7297297297297297
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176963,
+          "key": "2521527290923",
+          "title": "12. 临界值 99% 置信区间",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2521527290923",
+            "completed_at": "2019-03-05T08:01:02.134Z",
+            "last_viewed_at": "2019-07-16T18:06:38.807Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174691,
+              "key": "252152729",
+              "title": "12. 临界值 99% 置信区间",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 一名医生想通过教高度敏感的病人冥想，来降低他们的血压。他发现二期高度敏感病人（血压高）的平均收缩压为 180 毫米汞柱（µ = 180），标准偏差为 18 毫米汞柱（σ = 18）。在教 9 名病人冥想后，这些病人的样本平均收缩压为 175 毫米汞柱。如果他教所有病人冥想，病人的平均收缩压会降低吗？为了回答这个问题，他决定计算该均值的 99% 置信区间。\n\nZ 临界值是多少？\n\n<a href=\"https://s3.amazonaws.com/udacity-hosted-downloads/ZTable.jpg\" target=\"_blank\">z-表格链接</a>",
+              "user_state": {
+                "node_key": "252152729",
+                "completed_at": "2019-03-05T08:03:19.735Z",
+                "last_viewed_at": "2019-03-05T08:04:45.452Z",
+                "unstructured": "{\"0\":\"2.58\"}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "12. 临界值 99% 置信区间",
+                "alt_text": "",
+                "background_image": "//lh5.ggpht.com/3a-YaOWMWl4VSg6PTDndxWDgM3tviybh4vinw7MoSbZkRW0fz4l1_T-Y0JsLGsr2NCOjY-Um1PHi6rL0j1I=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252152729",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "127181469",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06208425720620843,
+                      "width": 0.11097256857855362,
+                      "x": 0.6384364820846905,
+                      "y": 0.6447876447876448
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176962,
+          "key": "2521527300923",
+          "title": "13. 标准误差",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2521527300923",
+            "completed_at": "2019-03-05T08:04:50.883Z",
+            "last_viewed_at": "2019-07-16T18:06:43.333Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174692,
+              "key": "252152730",
+              "title": "13. 标准误差",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 一名医生想通过教高度敏感的病人冥想，来降低他们的血压。他发现二期高度敏感病人（血压高）的平均收缩压为 180 毫米汞柱（µ = 180），标准偏差为 18 毫米汞柱（σ = 18）。在教 9 名病人冥想后，这些病人的样本平均收缩压为 175 毫米汞柱。如果他教所有病人冥想，病人的平均收缩压会降低吗？为了回答这个问题，他决定计算该均值的 99% 置信区间。\n\n均值的标准误差是多少？",
+              "user_state": {
+                "node_key": "252152730",
+                "completed_at": "2019-03-05T08:05:00.131Z",
+                "last_viewed_at": "2019-03-05T08:05:00.131Z",
+                "unstructured": "{\"0\":\"6\"}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "13. 准误差",
+                "alt_text": "",
+                "background_image": "//lh6.ggpht.com/7YojIsP_kiCTUPu2PX1vFnNpDdTOTOuI8MiiRUB4M09tnAAFPTUFr1mVXEx-4es9XV_XJ-CQFT73Kz7Fv-k=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252152730",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "127181470",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06756756756756757,
+                      "width": 0.15200868621064062,
+                      "x": 0.6069489685124865,
+                      "y": 0.6467181467181468
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176964,
+          "key": "2521527310923",
+          "title": "14. 概率",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2521527310923",
+            "completed_at": "2019-03-05T08:05:03.324Z",
+            "last_viewed_at": "2019-07-16T18:06:46.442Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174693,
+              "key": "252152731",
+              "title": "14. 概率",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 一名医生想通过教高度敏感的病人冥想，来降低他们的血压。他发现二期高度敏感病人（血压高）的平均收缩压为 180 毫米汞柱（µ = 180），标准偏差为 18 毫米汞柱（σ = 18）。在教 9 名病人冥想后，这些病人的样本平均收缩压为 175 毫米汞柱。如果他教所有病人冥想，病人的平均收缩压会降低吗？为了回答这个问题，他决定计算该均值的 99% 置信区间。\n\n均值小于等于 175 毫米汞柱的概率是多少？\n\n<a href=\"https://s3.amazonaws.com/udacity-hosted-downloads/ZTable.jpg\" target=\"_blank\">z-表格链接</a>",
+              "user_state": {
+                "node_key": "252152731",
+                "completed_at": "2019-03-05T08:08:04.241Z",
+                "last_viewed_at": "2019-03-05T08:21:00.646Z",
+                "unstructured": "{\"0\":\"0.2033\"}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "14. 概率",
+                "alt_text": "",
+                "background_image": "//lh6.ggpht.com/a54kMvdP8nEymKv3aPCsNoWjlyYlu-nf-j38AcMrdzMHM4YQ68ZRQS6KIi-BCLkw68w0BJ5e2Uka-NCMbWM=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252152731",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "127181475",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.1780673181324647,
+                      "y": 0.7297297297297297
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176965,
+          "key": "2521527320923",
+          "title": "15. 误差范围",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2521527320923",
+            "completed_at": "2019-03-05T08:21:05.286Z",
+            "last_viewed_at": "2019-07-16T18:06:49.600Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174694,
+              "key": "252152732",
+              "title": "15. 误差范围",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "一名医生想通过教高度敏感的病人冥想，来降低他们的血压。他发现二期高度敏感病人（血压高）的平均收缩压为 180 毫米汞柱（µ = 180），标准偏差为 18 毫米汞柱（σ = 18）。在教 9 名病人冥想后，这些病人的样本平均收缩压为 175 毫米汞柱。如果他教所有病人冥想，病人的平均收缩压会降低吗？为了回答这个问题，他决定计算该均值的 99% 置信区间。\n\n误差范围是多少？（即置信区间的一半）\n",
+              "user_state": {
+                "node_key": "252152732",
+                "completed_at": "2019-03-05T08:21:50.097Z",
+                "last_viewed_at": "2019-03-05T08:21:50.097Z",
+                "unstructured": "{\"0\":\"15.48\"}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "15. 误差范围",
+                "alt_text": "",
+                "background_image": "//lh5.ggpht.com/R7akrz3yueFR0_RsB7WQIAeV7hgAy5J5E3U24xQK8JMu0Ylad8crhjCC_0DEJXONzkQgXWQmp-gHwKgIZjFt=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252152732",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "127181471",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06680682082509135,
+                      "width": 0.15458366166133874,
+                      "x": 0.07709011943539631,
+                      "y": 0.7239382239382239
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176966,
+          "key": "2521527330923",
+          "title": "16. 99% 置信区间",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2521527330923",
+            "completed_at": "2019-03-05T08:21:53.967Z",
+            "last_viewed_at": "2019-03-05T08:21:53.697Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174695,
+              "key": "252152733",
+              "title": "16. 99% 置信区间",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "一名医生想通过教高度敏感的病人冥想，来降低他们的血压。他发现二期高度敏感病人（血压高）的平均收缩压为 180 毫米汞柱（µ = 180），标准偏差为 18 毫米汞柱（σ = 18）。在教 9 名病人冥想后，这些病人的样本平均收缩压为 175 毫米汞柱。如果他教所有病人冥想，病人的平均收缩压会降低吗？为了回答这个问题，他决定计算该均值的 99% 置信区间。\n\n置信区间的范围是多少？",
+              "user_state": {
+                "node_key": "252152733",
+                "completed_at": "2019-03-05T08:22:16.316Z",
+                "last_viewed_at": "2019-03-05T08:22:16.316Z",
+                "unstructured": "{\"0\":\"159.52\",\"1\":\"190.48\"}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "16. 99% 置信区间",
+                "alt_text": "",
+                "background_image": "//lh5.ggpht.com/DEDPQx3H2HvaSWP-GAqDYyxGHQ9DuPzIVZWVBai3Fi-n3sGi1mWcEgmLnm_eW0z0p4bCo0EeEojPgnBnQSX8=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252152733",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "127181472",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.059845559845559844,
+                      "width": 0.13355048859934854,
+                      "x": 0.21606948968512488,
+                      "y": 0.7123552123552124
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0.06177606177606178,
+                      "width": 0.13572204125950055,
+                      "x": 0.3756786102062975,
+                      "y": 0.7104247104247104
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176968,
+          "key": "2521527340923",
+          "title": "17. 解释置信区间",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2521527340923",
+            "completed_at": "2019-03-05T08:22:20.703Z",
+            "last_viewed_at": "2019-07-16T09:48:59.203Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174696,
+              "key": "252152734",
+              "title": "17. 解释置信区间",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 对于上述例子，置信区间可以告诉我们关于冥想对血压（收缩压）的影响的哪些信息？（勾选所有正确的选项）\n\n- □ 有足够的证据表明冥想可以降低血压\n- □ 证据不足以表明冥想可以降低血压\n- □ 如果医生教他所有的病人冥想，他们的平均血压可能会降到 160 -190 毫米汞柱\n- □ 如果医生教他所有的病人冥想，他们的平均血压可能会降到 160 毫米汞柱以下",
+              "user_state": {
+                "node_key": "252152734",
+                "completed_at": "2019-03-05T08:22:52.544Z",
+                "last_viewed_at": "2019-03-05T08:22:52.544Z",
+                "unstructured": "{\"0\":false,\"1\":true,\"2\":true,\"3\":false}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "17. 解释置信区间",
+                "alt_text": "",
+                "background_image": "//lh3.ggpht.com/UXpn5hua8uAND5DvXsz2Pa85BWCAkttrq4qLchAsHr3b4PvnzzZyw2FyIDK4QslbITwDKcKEQunvfo-aqXTG=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252152734",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "127181473",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.0738327904451683,
+                      "y": 0.7992277992277992
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.08143322475570032,
+                      "y": 0.5752895752895753
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.08360477741585233,
+                      "y": 0.41312741312741313
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.09229098805646037,
+                      "y": 0.2471042471042471
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    }
+  ]
+}

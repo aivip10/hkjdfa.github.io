@@ -1,0 +1,3216 @@
+{
+  "data": {
+    "lesson": {
+      "id": 178222,
+      "key": "4577183869",
+      "title": "第 7 课: 抽样分布",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "zh-cn",
+      "summary": "学习中心极限定理，抽样分布，以及将概率知识和归一化应用到样本数据集上。",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": null,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/4577183869/178222/1544466586242/%E7%AC%AC+7+%E8%AF%BE%3A+%E6%8A%BD%E6%A0%B7%E5%88%86%E5%B8%83+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/4577183869/178222/1544466571947/%E7%AC%AC+7+%E8%AF%BE%3A+%E6%8A%BD%E6%A0%B7%E5%88%86%E5%B8%83+Subtitles.zip"
+          },
+          {
+            "name": "Lesson7.pdf",
+            "uri": "https://video.udacity-data.com/topher/2017/May/59192556_lesson7/lesson7.pdf"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 176858,
+          "key": "1177086970923",
+          "title": "比较样本均值",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1177086970923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174586,
+              "key": "117708697",
+              "title": "比较样本均值",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 我们如何将总体中的某个特定样本与其他样本相比较？具体问题如，投掷一枚六面骰子，以下哪种情况的概率较大：投两次的平均点数在 3 以上，投四次的平均点数在 5 以上？\n\n- □ 通过算出该样本的均值\n- □ 通过算出总体中其他样本的均值\n- □ 通过将该样本的均值与其他样本的均值进行对比",
+              "user_state": {
+                "node_key": "117708697",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "QheTapjHFdU",
+                  "china_cdn_id": "QheTapjHFdU.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "比较样本均值",
+                "alt_text": "",
+                "background_image": "//lh3.ggpht.com/XELLBMtsWUTR-e_X75_ZRZYVwAAb3Il7cyQZI-PbMAnp8GM0zeC88OkPyisuLEbixFfvzJ_PEb4WEqdZYDs=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/117708697",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "117640003",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5422500913057104,
+                      "y": 0.5146300535223837
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5465958180082869,
+                      "y": 0.6514631000220598
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.549492969143338,
+                      "y": 0.8141137024650709
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "l9Sy4qoLHVo",
+                  "china_cdn_id": "l9Sy4qoLHVo.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176860,
+          "key": "1177086980923",
+          "title": "在拉斯维加斯赌博",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1177086980923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174588,
+              "key": "117708698",
+              "title": "在拉斯维加斯赌博",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 你的两次投掷结果平均值至少为 3 的概率是多少？随便猜一下:)\n\n正四面体骰子每次抛出的结果为 1、2、3 或 4。如果你想知道原理所在，请参阅[这个帖子](http://rpg.stackexchange.com/questions/25135/how-do-i-read-a-4-sided-die)。\n\n写下比例形式的答案。",
+              "user_state": {
+                "node_key": "117708698",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "qbcBbbm3lt8",
+                  "china_cdn_id": "qbcBbbm3lt8.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "在拉斯维加斯赌博",
+                "alt_text": null,
+                "background_image": "//lh4.ggpht.com/VtElbXtbzJj3QFwMjIiX_K9fymJai96t6e4I-4B1OsM0K1LVUVYalVdNn5Z8CNhZvdLphLG6hVRQ8Gl0GEQz=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/117708698",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "117640006",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": null,
+                    "marker": "numeric1",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.07095343680709534,
+                      "width": 0.1596009975062344,
+                      "x": 0.5954573481457489,
+                      "y": 0.4725609925263737
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176859,
+          "key": "1177086990923",
+          "title": "正四面体骰子",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1177086990923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174587,
+              "key": "117708699",
+              "title": "正四面体骰子",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 总体的均值是多少？\n\n“总体”指掷出正四面体骰子的所有可能结果。",
+              "user_state": {
+                "node_key": "117708699",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "l7p3uldaCks",
+                  "china_cdn_id": "l7p3uldaCks.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "正四面体骰子",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/O8vf2m02qo-mCk4qv4CzMHBfFn8uG4FHVy94dEhCrd93Bi6Y3kCl19oO_bWpcjddGZMgcFoa1Mv8jzGeew=s0#w=1720&h=968",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/117708699",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "117640008",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.5610815736835423,
+                      "y": 0.2306369381456976
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "WtGcIl_o_40",
+                  "china_cdn_id": "WtGcIl_o_40.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176861,
+          "key": "1177087000923",
+          "title": "样本总数",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1177087000923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174589,
+              "key": "117708700",
+              "title": "样本总数",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 我们可以从该总体中选择多少种可能的组合，即样本量为 2 的情况？",
+              "user_state": {
+                "node_key": "117708700",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "q5JgPXsHSrA",
+                  "china_cdn_id": "q5JgPXsHSrA.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "样本总数",
+                "alt_text": null,
+                "background_image": "//lh4.ggpht.com/KxQ5gKqBAU_YZV6P6SsGo_gtgXPVxaiAcsOytfIQZCObh1Xf0PEdaYgr__lc7WTW69wFpj_NypH2WrmyOkE=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/117708700",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "117640011",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.1308546301284606,
+                      "y": 0.8115317892928813
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "s0J73PTr9Rw",
+                  "china_cdn_id": "s0J73PTr9Rw.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176862,
+          "key": "1177087010923",
+          "title": "每个样本的均值",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1177087010923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174590,
+              "key": "117708701",
+              "title": "每个样本的均值",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "117708701",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "SAdBKdiDE6w",
+                  "china_cdn_id": "SAdBKdiDE6w.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "每个样本的均值",
+                "alt_text": null,
+                "background_image": "//lh3.ggpht.com/AaO_mI1ND9RmjJPgfYIFIWyNe6n7s-Kh0OGaBEymk_KBaAtzmurrsiT6y3zMwlgYrdAIVpuLEl4ctMPXhdM=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/117708701",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "117640014",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.07095343680709534,
+                      "width": 0.15087281795511223,
+                      "x": 0.10719459199688904,
+                      "y": 0.4044749380603458
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0.07317073170731707,
+                      "width": 0.15211970074812967,
+                      "x": 0.1033316943454756,
+                      "y": 0.5301204295105286
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0.07982261640798226,
+                      "width": 0.1433915211970075,
+                      "x": 0.11347172331815428,
+                      "y": 0.6592082092272041
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0.07538802660753881,
+                      "width": 0.1596009975062344,
+                      "x": 0.10622884548052665,
+                      "y": 0.7960412557268802
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "4",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 5,
+                    "placement": {
+                      "height": 0.08425720620842572,
+                      "width": 0.1546134663341646,
+                      "x": 0.34379523855471317,
+                      "y": 0.39328738301085264
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "5",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 6,
+                    "placement": {
+                      "height": 0.07538802660753881,
+                      "width": 0.15087281795511223,
+                      "x": 0.34958954082481525,
+                      "y": 0.5249569183218616
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "6",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 7,
+                    "placement": {
+                      "height": 0.082039911308204,
+                      "width": 0.15336658354114713,
+                      "x": 0.34524381412223865,
+                      "y": 0.6566264536328706
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "7",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 8,
+                    "placement": {
+                      "height": 0.07982261640798226,
+                      "width": 0.15211970074812967,
+                      "x": 0.3466923896897642,
+                      "y": 0.8141135448872148
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "8",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 9,
+                    "placement": {
+                      "height": 0.07760532150776053,
+                      "width": 0.15586034912718205,
+                      "x": 0.5958473873041549,
+                      "y": 0.36230631587885054
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "9",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 10,
+                    "placement": {
+                      "height": 0.082039911308204,
+                      "width": 0.15586034912718205,
+                      "x": 0.5900530850340528,
+                      "y": 0.48364882881252547
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "10",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 11,
+                    "placement": {
+                      "height": 0.082039911308204,
+                      "width": 0.15586034912718205,
+                      "x": 0.5915016606015784,
+                      "y": 0.6256453865008685
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "11",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 12,
+                    "placement": {
+                      "height": 0.07760532150776053,
+                      "width": 0.15336658354114713,
+                      "x": 0.6103331429794102,
+                      "y": 0.7882959889438796
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "12",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 13,
+                    "placement": {
+                      "height": 0.07982261640798226,
+                      "width": 0.15211970074812967,
+                      "x": 0.8247223269731883,
+                      "y": 0.35197929350151647
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "13",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 14,
+                    "placement": {
+                      "height": 0.08647450110864745,
+                      "width": 0.15336658354114713,
+                      "x": 0.8232737514056627,
+                      "y": 0.4681582952465244
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "14",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 15,
+                    "placement": {
+                      "height": 0.08869179600886919,
+                      "width": 0.15211970074812967,
+                      "x": 0.8247223269731883,
+                      "y": 0.623063630906535
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "15",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 16,
+                    "placement": {
+                      "height": 0.07760532150776053,
+                      "width": 0.15087281795511223,
+                      "x": 0.8305166292432904,
+                      "y": 0.7908777445382131
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "n7II63ei3LU",
+                  "china_cdn_id": "n7II63ei3LU.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176863,
+          "key": "1177087020923",
+          "title": "样本均值的均值",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1177087020923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174591,
+              "key": "117708702",
+              "title": "样本均值的均值",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 样本均值的均值是多少？也就是说，如果我们投掷四面体骰子两次，平均结果预计会是多少？这就是样本均值的均值。",
+              "user_state": {
+                "node_key": "117708702",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "7iOMOs56gZE",
+                  "china_cdn_id": "7iOMOs56gZE.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "样本均值的均值",
+                "alt_text": null,
+                "background_image": "//lh3.ggpht.com/TQvKeiQ-izAUDqpRSpCesy0OZ2k6DSgeIuiVkuj1_-psA4JftemaPq7FvSIVETOpbdDMTUDXAx_iATLFfQ=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/117708702",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "117640017",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.6436503810324973,
+                      "y": 0.1454390035326918
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "TpsMv7isR6U",
+                  "china_cdn_id": "TpsMv7isR6U.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176864,
+          "key": "1177087030923",
+          "title": "抽样分布",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1177087030923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174592,
+              "key": "117708703",
+              "title": "抽样分布",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 该抽样分布的形状会如何？\n- □ 均匀分布\n- □ 双峰分布\n- □ 正态分布\n- □ 偏斜分布\n\n\n每个样本的均值: 1, 1.5, 2, 2.5, 1.5, 2, 2.5, 3, 2, 2.5, 3, 3.5, 2.5, 3, 3.5, 4\n\n将样本均值复制并粘贴到 <a href=\"http://www.wolframalpha.com\" target=\"_blank\">WolframAlpha</a> 中，然后按 Enter 键。特别注意显示每个均值频率的直方图。（直方图英文：Histogram）",
+              "user_state": {
+                "node_key": "117708703",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "7tlVeUW2t7Q",
+                  "china_cdn_id": "7tlVeUW2t7Q.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "抽样分布",
+                "alt_text": "",
+                "background_image": "//lh4.ggpht.com/2rt7VOnmbGXkzL3aMPxed9NLpEDvHsZuHNlyE1qpweNEuw82cvWW2Kyj_Or-F2pC8pSIS0ln4BppjBvnzxs=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/117708703",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "117640020",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.47561561519953616,
+                      "y": 0.8115319468707374
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.4741670396320106,
+                      "y": 0.734079279040732
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.4683727373619085,
+                      "y": 0.6462995888333927
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 5,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.4799613419021127,
+                      "y": 0.9044751482667437
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "kQevFvu_dL0",
+                  "china_cdn_id": "kQevFvu_dL0.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176866,
+          "key": "1177087040923",
+          "title": "概率均值 >= 3",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1177087040923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174593,
+              "key": "117708704",
+              "title": "概率均值 >= 3",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 两次投掷的平均值大于等于 3 的概率是多少？\n\n写下比例形式的答案。",
+              "user_state": {
+                "node_key": "117708704",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "twcNden__9M",
+                  "china_cdn_id": "twcNden__9M.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "概率均值 >= 3",
+                "alt_text": null,
+                "background_image": "//lh3.ggpht.com/SsSI5PPA11GgZ-iFWobUhCyZguUX88LV_OGz0AObEYf7XJGbj8j3iXmu4TXErv0EwJ2lMWxTQt7O0yJImPc=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/117708704",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "117640023",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.5842587827639507,
+                      "y": 0.7056798099252073
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "JSlSjQwhIAI",
+                  "china_cdn_id": "JSlSjQwhIAI.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176865,
+          "key": "1177087050923",
+          "title": "我们在比较均值时需要什么信息",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1177087050923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174594,
+              "key": "117708705",
+              "title": "我们在比较均值时需要什么信息",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 如果给出某个随机样本，我们算出它的均值。我们该如何判断该均值位于这一样本均值分布的何处？\n\n- □ 总体数量\n- □ 样本均值分布的标准偏差\n- □ 可能的样本的总数",
+              "user_state": {
+                "node_key": "117708705",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "y27MBpbnP48",
+                  "china_cdn_id": "y27MBpbnP48.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "我们在比较均值时需要什么",
+                "alt_text": "",
+                "background_image": "//lh5.ggpht.com/L-nxmzIlAyUj2Z8a2Nk8LHrUcwJYDHrO8V03v5ME08tNzoVKd1MN_0SMVQVy0dlBlb99PRdeb_FtsuHOaMHe=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/117708705",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "117640026",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5842587827639507,
+                      "y": 0.728915689063137
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5861902757966755,
+                      "y": 0.7882960677328077
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5857073583314762,
+                      "y": 0.8425129352138114
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "SAjAfP-Y9O8",
+                  "china_cdn_id": "SAjAfP-Y9O8.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176867,
+          "key": "1177087060923",
+          "title": "计算标准偏差",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1177087060923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174595,
+              "key": "117708706",
+              "title": "计算标准偏差",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 请算出该总体的标准偏差及所有样本均值的标准偏差，样本量为 2。\n\n每个样本的均值: 1, 1.5, 2, 2.5, 1.5, 2, 2.5, 3, 2, 2.5, 3, 3.5, 2.5, 3, 3.5, 4",
+              "user_state": {
+                "node_key": "117708706",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "x-VMDl-3p7M",
+                  "china_cdn_id": "x-VMDl-3p7M.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "计算标准偏差",
+                "alt_text": null,
+                "background_image": "//lh4.ggpht.com/N8goalfGto86Xgp6W1F6nCd7A9S-U63JTp_NPIRegIeBnzfU8otNB0QPm-y2jd4SWn1IifPsfI3z-K4kiQ=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/117708706",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "117640029",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.7146305838412482,
+                      "y": 0.11445785761176162
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.7044905548685695,
+                      "y": 0.24870914851710413
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "bjk5m0wrj3w",
+                  "china_cdn_id": "bjk5m0wrj3w.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176868,
+          "key": "1177087070923",
+          "title": "标准偏差之间的关系",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1177087070923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174596,
+              "key": "117708707",
+              "title": "标准偏差之间的关系",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 我们已经算出总体参数和样本均值分布的参数。你认为总体的标准偏差与样本均值分布的标准偏差之间有联系吗？",
+              "user_state": {
+                "node_key": "117708707",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "8mHK1E3mR4E",
+                  "china_cdn_id": "8mHK1E3mR4E.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "标准偏差之间的关系",
+                "alt_text": null,
+                "background_image": "//lh4.ggpht.com/vPcelXazUPLX0R5kxloFcT7MW7dfgZgDGPGhMyhbx6JHQlYpCGmBulJkJTwao1nSS5diPNg-wRifFobvET61=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/117708707",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "117640032",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.7247706128139269,
+                      "y": 0.470740129629786
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.730564915084029,
+                      "y": 0.5533563086484583
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "nG9l9ba7TrE",
+                  "china_cdn_id": "nG9l9ba7TrE.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176869,
+          "key": "1177087080923",
+          "title": "标准偏差的比率",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1177087080923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174597,
+              "key": "117708708",
+              "title": "标准偏差的比率",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 总体标准偏差 σ 与所有样本均值的标准偏差之比是多少？也就是说 σ/SE 等于多少？你知道这个数值是什么吗？",
+              "user_state": {
+                "node_key": "117708708",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "E14J3Thd0lc",
+                  "china_cdn_id": "E14J3Thd0lc.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "标准偏差的比率",
+                "alt_text": null,
+                "background_image": "//lh4.ggpht.com/rEUoj1cE_GRe9-3OfBaeLZxxveaCN3u-buU7b8H7axddeNwQZeLsLBl3jCBdQHP9Sdnct8rKEo53Cm61TzJo=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/117708708",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "117640035",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.05992268042157647,
+                      "width": 0.15119651922989416,
+                      "x": 0.7498793149270601,
+                      "y": 0.247848615844945
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "TextInputWidget",
+                    "is_text_area": true,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0.2943201377540201,
+                      "width": 0.3375181072334479,
+                      "x": 0.6233703230871399,
+                      "y": 0.5585198198371253
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "L4Jgcf9FNKA",
+                  "china_cdn_id": "L4Jgcf9FNKA.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176870,
+          "key": "1177087090923",
+          "title": "抽样分布的标准偏差",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1177087090923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174598,
+              "key": "117708709",
+              "title": "抽样分布的标准偏差",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 如何计算样本均值分布的标准偏差 SE？\n\n- □ SE=σ\n- □ SE=√n￣\n- □ SE=σ^2/n\n- □ SE=σ/√n￣",
+              "user_state": {
+                "node_key": "117708709",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "tPVKll2xFUw",
+                  "china_cdn_id": "tPVKll2xFUw.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "抽样分布的标准偏差",
+                "alt_text": "",
+                "background_image": "//lh6.ggpht.com/Pw3IjYw6rzxysb9X-fqlVnh0u9zSLmxlVNpkOfFFcyG7BdKfrdOa4q4NsRuez8uURW80XySiCBlDlESOuQ=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/117708709",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "117640038",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.601641689574257,
+                      "y": 0.5197934071331947
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6030902651417825,
+                      "y": 0.37005158266185106
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6030902651417825,
+                      "y": 0.26936311448284417
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6001931140067315,
+                      "y": 0.19191044665283888
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "rJ8NsbL5iTk",
+                  "china_cdn_id": "rJ8NsbL5iTk.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176872,
+          "key": "1176400410923",
+          "title": "中心极限定理",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1176400410923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174599,
+              "key": "117640041",
+              "title": "中心极限定理",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "ag3TB5UGu_g",
+                "china_cdn_id": "ag3TB5UGu_g.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 176871,
+          "key": "1177087100923",
+          "title": "掷 1 次骰子",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1177087100923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174600,
+              "key": "117708710",
+              "title": "掷 1 次骰子",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "注：遗憾的是，在视频中使用的掷骰子模拟已经不再可用。但别担心，没有这个模拟，你也可以回答这个问题。你还可以在[此处](http://www.randomservices.org/random/dist/index.html找到另一个模拟。",
+              "user_state": {
+                "node_key": "117708710",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "NHnIYEKcnUc",
+                  "china_cdn_id": "NHnIYEKcnUc.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "掷 1 次骰子",
+                "alt_text": "",
+                "background_image": "//lh4.ggpht.com/xnBhVr4junfzn0ZuDpMdNaHdrczlsuNLY-Pug-AS82pJfwsS3S-9M2aL4dhNJqmiRDZ4j63mVDiPNb0CIQ=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/117708710",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "117640042",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.4437469527139745,
+                      "y": 0.728915689063137
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.4437469527139745,
+                      "y": 0.6488812656387982
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.20618055963978804,
+                      "y": 0.7366609558461376
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.20328340850473697,
+                      "y": 0.6540447768274652
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "oJXYNArEk8k",
+                  "china_cdn_id": "oJXYNArEk8k.mp4"
+                }
+              }
+            },
+            {
+              "id": 174601,
+              "key": "407abe66-7efd-4656-9cf1-6dbb80181ebb",
+              "title": "掷 1 次骰子 - 注释",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Normal: 正态分布\nUniform: 均匀分布\nSkewed: 偏斜分布\nBimodal: 双峰分布\n\n注：遗憾的是，在视频中使用的掷骰子模拟已经不再可用。但别担心，没有这个模拟，你也可以回答这个问题。你还可以在[此处](http://www.randomservices.org/random/dist/index.html)找到另一个模拟。",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 176873,
+          "key": "1177087110923",
+          "title": "掷 2 次骰子",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1177087110923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174602,
+              "key": "117708711",
+              "title": "掷 2 次骰子",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 如果投掷两个骰子至少 100 次，然后取两个骰子的平均值，这些平均值的分布会是怎样的？\n\n- □ 正态分布\n- □ 偏斜分布\n- □ 均匀分布\n- □ 双峰分布\n\n注：如果你没有 Java，无法打开这个小应用，不必担心！现在你已经有充足的信息来回答这个问题了，没有它也行。尽最大努力尝试一下，然后你会在解决方案视频中看到如何使用此小应用程序。\n\n[掷骰子模拟](http://www.math.uah.edu/stat/apps/DiceExperiment.html)",
+              "user_state": {
+                "node_key": "117708711",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "D4bQbaCAUoE",
+                  "china_cdn_id": "D4bQbaCAUoE.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "掷 2 次骰子",
+                "alt_text": "",
+                "background_image": "//lh5.ggpht.com/NHvJW8SgG9e_QLLdFTif9HpR0eofd8apLL4SkF12NWokKbIF4_daEEHDZJMIsjTHyXZWtGCbdZuKXmmBLYQ=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/117708711",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "117640045",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.4437469527139745,
+                      "y": 0.7263339334688035
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.4408498015789235,
+                      "y": 0.6488812656387982
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.20328340850473697,
+                      "y": 0.7366609558461376
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.20183483293721147,
+                      "y": 0.6514630212331317
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "OVeEr0CSe8U",
+                  "china_cdn_id": "OVeEr0CSe8U.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176876,
+          "key": "1177087120923",
+          "title": "找到标准误差",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1177087120923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174603,
+              "key": "117708712",
+              "title": "找到标准误差",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 这个抽样分布的均值和标准偏差是多少？\n\n提示下：记住总体是什么。换句话说，如果我们从该总体中取出所有样本量为 2 的可能样本，然后绘制出每个样本的均值，也就是这个分布标准偏差会是多少？\n\n### “抽样分布的标准偏差”也称为标准误差。\n\n该均值的求解方式为：将不同结果（1、2、3、4、5、6）加起来，然后除以结果的数量 (6)，得出的结果为 3.5。",
+              "user_state": {
+                "node_key": "117708712",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "ctx--oGjVgs",
+                  "china_cdn_id": "ctx--oGjVgs.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "找到标准误差",
+                "alt_text": null,
+                "background_image": "//lh3.ggpht.com/6P1YzspKADNnxnEVf6Nk_METVk8Jd6rx80RFPbK26CRlKsu9akp4tq1Dyr8HHU-iBcSWegxF_xMMKX-lTSg=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/117708712",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "117640048",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.6624818634103292,
+                      "y": 0.3829605182113747
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.7320134906515545,
+                      "y": 0.5301205870883847
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "YNuoRW6EyEo",
+                  "china_cdn_id": "YNuoRW6EyEo.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176874,
+          "key": "1177087130923",
+          "title": "掷 5 次骰子",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1177087130923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174605,
+              "key": "117708713",
+              "title": "掷 5 次骰子",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 如果投掷 5 个骰子，然后画出平均值的分布图，会怎样呢？你认为这个 n 等于 5 的新样本均值分布会比这个 n 等于 2 的分布窄些还是宽些？<br>\nSkinner: 更窄    Wider: 更宽\n\n注：如果你没有 Java，无法打开这个小应用，不必担心！现在你已经有充足的信息来回答这个问题了，没有它也行。尽最大努力尝试一下，然后你会在解决方案视频中看到如何使用此小应用程序。\n\n[掷骰子模拟](http://www.math.uah.edu/stat/apps/DiceExperiment.html)",
+              "user_state": {
+                "node_key": "117708713",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "GVoO-G6g3i0",
+                  "china_cdn_id": "GVoO-G6g3i0.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "掷 5 次骰子",
+                "alt_text": "",
+                "background_image": "//lh3.ggpht.com/DGLj0oCK-n6-cc2MIBt5YgAsv8cxQ0CRS4Ef-MZZ12SDDnTwi5DmlrEY5QFqiiRjBJXXcPG8LT_lQ4t1Ww=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/117708713",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "117640051",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.629164625357242,
+                      "y": 0.6437177544501311
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6243360696035023,
+                      "y": 0.5636833310257924
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "BgBEqvjLNig",
+                  "china_cdn_id": "BgBEqvjLNig.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176877,
+          "key": "1177087140923",
+          "title": "平均 5 次骰子的标准误差",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1177087140923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174604,
+              "key": "117708714",
+              "title": "平均 5 次骰子的标准误差",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 如果从该总体中取出样本量为 5 的所有可能样本，该分布的标准误差会是多少？",
+              "user_state": {
+                "node_key": "117708714",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "18DMT9dnLPE",
+                  "china_cdn_id": "18DMT9dnLPE.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "平均 5 次骰子的标准误差",
+                "alt_text": "",
+                "background_image": "//lh6.ggpht.com/mpuhFR8u8SChqbNjWbEz3jI21wPEEP53V3AKUlKq2_x_5RzMS_ZvwREvHWvZHNiTZ8TYMDjtjCaZVW9aTxk=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/117708714",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "117640054",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.5886045094665273,
+                      "y": 0.4655765396521909
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "RQ_AHYQTSDA",
+                  "china_cdn_id": "RQ_AHYQTSDA.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176875,
+          "key": "1177087150923",
+          "title": "n 增加时的标准误差",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1177087150923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174606,
+              "key": "117708715",
+              "title": "n 增加时的标准误差",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 随着样本量的增大，标准误差是增大还是减小了？<br>\nincrease: 增大     decrease: 减小",
+              "user_state": {
+                "node_key": "117708715",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "mbCavcKeZqo",
+                  "china_cdn_id": "mbCavcKeZqo.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "n 增加时的标准误差",
+                "alt_text": "",
+                "background_image": "//lh5.ggpht.com/BTKu-KObSZ7IlScTaBU5k-Ce37zmWkBD9vLMf2j_VFbxrtxqba0ydCtS_R_u4tbmAfwlTYTc1p8sVdDeCXc=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/117708715",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "117640057",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6074359918443591,
+                      "y": 0.4578312728691904
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6045388407093081,
+                      "y": 0.3803786050391851
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "dU3LgB8i6XM",
+                  "china_cdn_id": "dU3LgB8i6XM.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176878,
+          "key": "1177087160923",
+          "title": "n 增加时分布的形状",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1177087160923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174607,
+              "key": "117708716",
+              "title": "n 增加时分布的形状",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 随着 n 的增大，抽样分布的形状是越来越宽还是越来越窄？<br>\nskinner: 窄    wider: 宽",
+              "user_state": {
+                "node_key": "117708716",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "YT3sdKcl3Vg",
+                  "china_cdn_id": "YT3sdKcl3Vg.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "n 增加时分布的形状",
+                "alt_text": "",
+                "background_image": "//lh6.ggpht.com/WxGGU6h_39491x3s3HPc0BT3yY1bI_MJmFhI3F4C_fwvvAIq9E_ZAeN0JXMhPWEl1E-dpa2hSvScHnnpRWk=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/117708716",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "117640060",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6378560787623953,
+                      "y": 0.5662650866201259
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6378560787623953,
+                      "y": 0.465576618441119
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "kJ4Y8a1rOkY",
+                  "china_cdn_id": "kJ4Y8a1rOkY.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176882,
+          "key": "1176400630923",
+          "title": "模拟应用",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1176400630923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174608,
+              "key": "117640063",
+              "title": "模拟应用",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "[一个很棒的模拟应用](http://onlinestatbook.com/stat_sim/sampling_dist/index.html)<br>\n备注：点击页面左上方的“BEGIN”，就能进入小程序页面",
+              "video": {
+                "youtube_id": "yu4mdXybrts",
+                "china_cdn_id": "yu4mdXybrts.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 176879,
+          "key": "1212213620923",
+          "title": "M&Ms",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1212213620923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174609,
+              "key": "121221362",
+              "title": "M&Ms",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "nCwZE4n4FAs",
+                "china_cdn_id": "nCwZE4n4FAs.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 176881,
+          "key": "1212623850923",
+          "title": "M&M CLT",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1212623850923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174610,
+              "key": "121262385",
+              "title": "M&M CLT",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 根据中心极限定理，该样本均值分布的均值和标准偏差大约是多少？",
+              "user_state": {
+                "node_key": "121262385",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "DqC-pgcEam4",
+                  "china_cdn_id": "DqC-pgcEam4.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "M&M CLT",
+                "alt_text": null,
+                "background_image": "//lh4.ggpht.com/D_NiuaeJ-Rh0WD90_7eq-lbq8l682vAMNmIdN504QUy3eO4yCm8ACz8QuyRgrDNlP_AwEfUhfKp_AW48aEkF=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/121262385",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "120976996",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.738327904451683,
+                      "y": 0.637065637065637
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.741585233441911,
+                      "y": 0.7335907335907336
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "IAVgtiZLlOg",
+                  "china_cdn_id": "IAVgtiZLlOg.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176880,
+          "key": "1176400640923",
+          "title": "使用抽样分布",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1176400640923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174611,
+              "key": "117640064",
+              "title": "使用抽样分布",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "NUY4Qobhojg",
+                "china_cdn_id": "NUY4Qobhojg.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 176884,
+          "key": "1179433900923",
+          "title": "Klout",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1179433900923",
+            "completed_at": "2019-02-25T14:10:11.711Z",
+            "last_viewed_at": "2019-07-16T07:29:52.829Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174612,
+              "key": "117943390",
+              "title": "Klout",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "<a href=\"http://klout.com/corp/score\" target=\"_blank\">Klout 是什么？它的原理是什么？</a>",
+              "video": {
+                "youtube_id": "3q0oPuWxFpA",
+                "china_cdn_id": "3q0oPuWxFpA.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 176883,
+          "key": "1177087170923",
+          "title": "Klout 参数",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1177087170923",
+            "completed_at": "2019-02-25T14:12:26.755Z",
+            "last_viewed_at": "2019-07-16T13:10:54.433Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174613,
+              "key": "117708717",
+              "title": "Klout 参数",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "请打开 Klout 分数表格并计算均值和标准偏差。请将其当做总体而不是样本。\n\n数据下载：[Klout 数据](https://s3.cn-north-1.amazonaws.com.cn/static-documents/nd002/Klout+scores+Lesson+7.xlsx)",
+              "user_state": {
+                "node_key": "117708717",
+                "completed_at": "2019-02-25T14:14:36.846Z",
+                "last_viewed_at": "2019-03-04T05:53:35.257Z",
+                "unstructured": "{\"0\":\"37.72\",\"1\":\"16.04\"}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "CLGwm6tBHlk",
+                  "china_cdn_id": "CLGwm6tBHlk.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Klout 参数",
+                "alt_text": null,
+                "background_image": "//lh3.ggpht.com/82d6rSZp0QQUcTbqqYcj5pse75yG_JR5SaVUM8LCpivGT8FOuTNdMuUCkaOTb_9mIn1XxMKU0uhzZ0hni9Y=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/117708717",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "117640065",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.26142136408000005,
+                      "y": 0.4007732156012435
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.43110954393513307,
+                      "y": 0.4877577516970803
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "wV-6gQepmn0",
+                  "china_cdn_id": "wV-6gQepmn0.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176885,
+          "key": "1177087180923",
+          "title": "Klout 抽样分布（均值）",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1177087180923",
+            "completed_at": "2019-02-25T14:15:57.399Z",
+            "last_viewed_at": "2019-07-16T13:12:51.686Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174614,
+              "key": "117708718",
+              "title": "Klout 抽样分布（均值）",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 该分布的均值会是多少？",
+              "user_state": {
+                "node_key": "117708718",
+                "completed_at": "2019-02-25T14:16:42.289Z",
+                "last_viewed_at": "2019-03-04T05:57:23.257Z",
+                "unstructured": "{\"0\":\"37.72\"}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "8o5Elsb2pFY",
+                  "china_cdn_id": "8o5Elsb2pFY.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Klout 抽样分布（均值）",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/4OVoByWXAjIVN_QOFmqOIoZ9K_g-AtPSPvuuxn2MhVtDfXVtT1bZuNAkDNhxxFAcmLtGG_9pOh0jGgJ7eQ=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/117708718",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "117640068",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.7443800298215325,
+                      "y": 0.6887886795630143
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "_yD3iz4bFhc",
+                  "china_cdn_id": "_yD3iz4bFhc.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176887,
+          "key": "1177087190923",
+          "title": "Klout 抽样分布（标准偏差）",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1177087190923",
+            "completed_at": "2019-02-25T14:16:58.584Z",
+            "last_viewed_at": "2019-07-16T13:13:45.206Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174616,
+              "key": "117708719",
+              "title": "Klout 抽样分布（标准偏差）",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 该分布的标准偏差是多少呢？",
+              "user_state": {
+                "node_key": "117708719",
+                "completed_at": "2019-02-25T14:17:14.090Z",
+                "last_viewed_at": "2019-03-04T05:59:13.042Z",
+                "unstructured": "{\"0\":\"2.71\"}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "ylUUpaUfFEY",
+                  "china_cdn_id": "ylUUpaUfFEY.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Klout 抽样分布（标准偏差）",
+                "alt_text": null,
+                "background_image": "//lh3.ggpht.com/2dYT2UdJVHpI376fbM1_eM65XLQlVtnmp3vWwxr3BkWJYLjJX1x7YuuRFGhsmN6es19kkOcCxmEXjEM1uwg=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/117708719",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "117640071",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.7280638586816158,
+                      "y": 0.7042525970911631
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "Qlg5L4TWcZs",
+                  "china_cdn_id": "Qlg5L4TWcZs.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176890,
+          "key": "1177087200923",
+          "title": "抽样分布形状",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1177087200923",
+            "completed_at": "2019-02-25T14:18:21.106Z",
+            "last_viewed_at": "2019-07-16T14:14:12.135Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174620,
+              "key": "117708720",
+              "title": "抽样分布形状",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 在这几个分布中，哪个是正确的 klout 分数的总体抽样分布？<br>\n（提示：横轴每个宽度单位大约是5）",
+              "user_state": {
+                "node_key": "117708720",
+                "completed_at": "2019-02-25T14:19:24.992Z",
+                "last_viewed_at": "2019-03-04T06:00:16.002Z",
+                "unstructured": "{\"0\":false,\"1\":true,\"2\":false}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "UMEckGyua6o",
+                  "china_cdn_id": "UMEckGyua6o.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "抽样分布形状",
+                "alt_text": "",
+                "background_image": "//lh3.ggpht.com/glicN2ni_Z8KfLdcO78V0DQYg5RvCFoi3vACsvAxBawQHp-0lMLNikTT9v9MVN2vTbEZZYRdjYUvUaKdDK0=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/117708720",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "117640074",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.3038434090437833,
+                      "y": 0.642396867988404
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.3625816251474832,
+                      "y": 0.3814432597008936
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.4985497179801218,
+                      "y": 0.42203604321228416
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "FJjI93XvC50",
+                  "china_cdn_id": "FJjI93XvC50.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176891,
+          "key": "1179433910923",
+          "title": "获得高 Klout 分数有什么好处？",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1179433910923",
+            "completed_at": "2019-02-25T14:20:01.194Z",
+            "last_viewed_at": "2019-07-16T13:15:41.135Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174619,
+              "key": "117943391",
+              "title": "获得高 Klout 分数有什么好处？",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "7N7MBPJKCfw",
+                "china_cdn_id": "7N7MBPJKCfw.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 176886,
+          "key": "1177087210923",
+          "title": "分布中均值的位置",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1177087210923",
+            "completed_at": "2019-02-25T14:22:12.209Z",
+            "last_viewed_at": "2019-07-16T14:14:16.208Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174615,
+              "key": "117708721",
+              "title": "分布中均值的位置",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 假设这些人的平均 Klout 分数是 40 分，对于这个样本量为 35 的样本的均值分布，该均值会位于何处？\n\n换句话说，离均值多少个标准偏差？或，Z-值是多少？",
+              "user_state": {
+                "node_key": "117708721",
+                "completed_at": "2019-02-25T14:26:44.671Z",
+                "last_viewed_at": "2019-03-04T06:05:33.546Z",
+                "unstructured": "{\"0\":\"0.84\"}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "_kADa-a_UD8",
+                  "china_cdn_id": "_kADa-a_UD8.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "分布中均值的位置",
+                "alt_text": "",
+                "background_image": "//lh6.ggpht.com/IjFy0YtBcUcCOEqGMll9lLgAENUC57ryhroP407petklGFeij1qNsvUFtxWlJP6JBY_yi_Ly4XXBKfCzNhUk=s0#w=1718&h=967",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/117708721",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "117640077",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.6889050479458159,
+                      "y": 0.7893040845058173
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "k3RUgrtFIl4",
+                  "china_cdn_id": "k3RUgrtFIl4.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176889,
+          "key": "1177087220923",
+          "title": "获得均值的概率",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1177087220923",
+            "completed_at": "2019-02-25T14:28:58.030Z",
+            "last_viewed_at": "2019-07-16T14:14:39.148Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174618,
+              "key": "117708722",
+              "title": "获得均值的概率",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "<a href=\"https://s3.amazonaws.com/udacity-hosted-downloads/ZTable.jpg\" target=\"_blank\">z 表格链接</a>",
+              "user_state": {
+                "node_key": "117708722",
+                "completed_at": "2019-03-04T06:10:07.607Z",
+                "last_viewed_at": "2019-03-04T06:12:22.982Z",
+                "unstructured": "{\"0\":\"0.2005\"}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "wQ3iwH9b10w",
+                  "china_cdn_id": "wQ3iwH9b10w.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "获得均值的概率",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/5K1suRrZ2tfqvNypIn-S6wv073AxaWAq-qGBZHjVrfjJgK-Pw27HjZuiIVX0G0UPew1NgzTRqMkXNF0m4g=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/117708722",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "117640080",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.7759246273587046,
+                      "y": 0.5554123318925672
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "-boAkUs-amM",
+                  "china_cdn_id": "-boAkUs-amM.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176892,
+          "key": "1177087230923",
+          "title": "低概率 = 因果关系吗？",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1177087230923",
+            "completed_at": "2019-02-25T14:31:21.981Z",
+            "last_viewed_at": "2019-07-16T14:20:37.073Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174621,
+              "key": "117708723",
+              "title": "低概率 = 因果关系吗？",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 可以说使用 Bieber Tweeter 这款推文软件导致这些人的 Klout 分数变高了吗？",
+              "user_state": {
+                "node_key": "117708723",
+                "completed_at": "2019-02-25T14:31:42.554Z",
+                "last_viewed_at": "2019-03-04T16:33:38.708Z",
+                "unstructured": "{\"0\":true,\"1\":false}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "l86zVvAfjNA",
+                  "china_cdn_id": "l86zVvAfjNA.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "低概率 = 因果关系吗？",
+                "alt_text": "",
+                "background_image": "//lh6.ggpht.com/K1B2CrXPvptu6Db95ZpQowvH6S2LP3IWtDozNqrrO6I5Ajdbom3XXUjQwDjAyzejPB8qmj5a9Rk1bVGrFQ=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/117708723",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "117640083",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.7204496454829881,
+                      "y": 0.5960051154039577
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.7193619007403269,
+                      "y": 0.5302834659093255
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "KaBa9N2TdnQ",
+                  "china_cdn_id": "KaBa9N2TdnQ.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176888,
+          "key": "1177087240923",
+          "title": "增加样本量",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1177087240923",
+            "completed_at": "2019-02-25T14:32:00.561Z",
+            "last_viewed_at": "2019-07-16T14:20:42.431Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174617,
+              "key": "117708724",
+              "title": "增加样本量",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 假设样本量不是 35 人，而是 250 人，他们的 Klout 分数均值也是 40。我们想知道从 Klout 总体中随机选择出一个样本，该样本符合上述描述的概率是多少。第一步，我们先计算标准误差，请把答案写在方框中。",
+              "user_state": {
+                "node_key": "117708724",
+                "completed_at": "2019-02-25T14:33:46.648Z",
+                "last_viewed_at": "2019-03-04T16:35:59.289Z",
+                "unstructured": "{\"0\":\"1.014\"}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "VXH1be4d1Nc",
+                  "china_cdn_id": "VXH1be4d1Nc.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "增加样本量",
+                "alt_text": "",
+                "background_image": "//lh5.ggpht.com/cmw7q7d2UoFBlpWFLl691gZJQ85l_RumiOcpNYnNheXGYP354WyE7nlAisaPRCw3TKIM0KMms1BkJWxQEqsF=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/117708724",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "117640086",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.6138506607021994,
+                      "y": 0.5283504762183069
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "kKT56up4n_o",
+                  "china_cdn_id": "kKT56up4n_o.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176896,
+          "key": "1177087250923",
+          "title": "均值位置",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1177087250923",
+            "completed_at": "2019-02-25T14:34:19.741Z",
+            "last_viewed_at": "2019-07-16T14:21:45.816Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174622,
+              "key": "117708725",
+              "title": "均值位置",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "请计算，均值为40的这个样本，对于样本量为250的样本的均值分布，它的 z 值是多少？",
+              "user_state": {
+                "node_key": "117708725",
+                "completed_at": "2019-02-25T14:34:42.454Z",
+                "last_viewed_at": "2019-03-04T16:39:39.231Z",
+                "unstructured": "{\"0\":\"2.249\"}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "p3e965clFyU",
+                  "china_cdn_id": "p3e965clFyU.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "均值位置",
+                "alt_text": "",
+                "background_image": "//lh4.ggpht.com/5O-UvM7J70awnpTkhdohQxZD7nLYL6jD6XCF9ViNy9Ft94eANaPYOdlObG5j36VxCcANtqXSv75_DYF973s=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/117708725",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "117640089",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.6704133873205771,
+                      "y": 0.47229377517876764
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "potr9cTBlxI",
+                  "china_cdn_id": "potr9cTBlxI.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176893,
+          "key": "1177087260923",
+          "title": "均值概率",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1177087260923",
+            "completed_at": "2019-02-25T14:36:02.313Z",
+            "last_viewed_at": "2019-07-16T14:23:17.259Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174623,
+              "key": "117708726",
+              "title": "均值概率",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 现在已经算出了 z 值 那么随机选择一个样本，其中均值至少为 40 的概率是多少？\n\n<a href=\"https://s3.amazonaws.com/udacity-hosted-downloads/ZTable.jpg\" target=\"_blank\">z 表格链接</a>",
+              "user_state": {
+                "node_key": "117708726",
+                "completed_at": "2019-02-25T14:37:29.625Z",
+                "last_viewed_at": "2019-03-04T16:45:48.813Z",
+                "unstructured": "{\"0\":\"0.0119\"}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "dB5wr3taV7Y",
+                  "china_cdn_id": "dB5wr3taV7Y.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "均值概率",
+                "alt_text": null,
+                "background_image": "//lh5.ggpht.com/noomVrqNk-xNnRgwr8eOak6roBNuGsasD1p3HMdZtRpxYhEhEDnKd1rlaBookUU2qR3jUkdrG3eD5Ll1UkM=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/117708726",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "117640092",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06185567011259507,
+                      "width": 0.15445975345787746,
+                      "x": 0.6791153452618659,
+                      "y": 0.8086339814160033
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "RNgSdHPE4aA",
+                  "china_cdn_id": "RNgSdHPE4aA.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176894,
+          "key": "1177087270923",
+          "title": "全民参与的小实验",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1177087270923",
+            "completed_at": "2019-02-25T14:38:49.735Z",
+            "last_viewed_at": "2019-07-16T14:24:34.339Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174624,
+              "key": "117708727",
+              "title": "全民参与的小实验",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "1. 选择一个数字 在 1 到 1048 之间的任何数字，打开 Klout 分数数据。然后在你所选的数字所在行找到对应的 Klout 分数，记下来。\n\n2. 接着在 1 到 1048 之间选择 5 个数字，找到这些行对应的 Klout 分数，取出平均值 然后记下该数字。\n\n3. 重复这一流程，不过这次选择 10 个数字。\n\n4. 在 [Google Form](https://docs.google.com/forms/d/1B1qKyyMYIKS-Uryi4vOm0DHwPQnQcc10XPvbnXxmQdE/viewform)（需要 VPN 访问）中依次写出这3个数字。\n\n这就是这节课的最后一道测试题，是不是很棒啊？\n\n[Klout 数据下载](https://s3.cn-north-1.amazonaws.com.cn/static-documents/nd002/Klout+scores+Lesson+7.xlsx)\n\n[学员的均值样本数据](https://s3.cn-north-1.amazonaws.com.cn/static-documents/nd002/Sampling+Distributions+-+Lesson+7+Responses.xlsx)",
+              "user_state": {
+                "node_key": "117708727",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "7kOZs5PLtqs",
+                  "china_cdn_id": "7kOZs5PLtqs.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "有趣的事",
+                "alt_text": "",
+                "background_image": "//lh5.ggpht.com/jvIUlS2UNrNtDmyzpov7REU0HqjUsUMiD2HgFwVpMxbvpgYQwEz9YaXcuaS5ZIuP8Me1eLoYIprviZwtsIc=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/117708727",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "117640095",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.8031182459252324,
+                      "y": 0.5824741875668276
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.7965917774692657,
+                      "y": 0.5206185174542325
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "S3UsHyKkoww",
+                  "china_cdn_id": "S3UsHyKkoww.mp4"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    }
+  ]
+}

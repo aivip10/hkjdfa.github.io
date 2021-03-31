@@ -1,0 +1,3572 @@
+{
+  "data": {
+    "lesson": {
+      "id": 178912,
+      "key": "4612348621",
+      "title": "第 4 课：差异性",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "zh-cn",
+      "summary": "学习如何使用方差和标准偏差定量分析数据的分布。并学习如何使用箱线图和四分位距找出异常值。",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": null,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/4612348621/178912/1544466179803/%E7%AC%AC+4+%E8%AF%BE%EF%BC%9A%E5%B7%AE%E5%BC%82%E6%80%A7+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/4612348621/178912/1544466165350/%E7%AC%AC+4+%E8%AF%BE%EF%BC%9A%E5%B7%AE%E5%BC%82%E6%80%A7+Subtitles.zip"
+          },
+          {
+            "name": "Lesson4.pdf",
+            "uri": "https://video.udacity-data.com/topher/2017/May/59192169_lesson4/lesson4.pdf"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 152408,
+          "key": "838774480923",
+          "title": "社交网络工作人员的薪酬",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "838774480923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 150949,
+              "key": "83877448",
+              "title": "社交网络工作人员的薪酬",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 请在方框中输入大于、小于或等号。\n\n- 均值 1 □ 均值 2\n- 众数 1 □ 众数 2\n- 中位数 1 □ 中位数 2",
+              "user_state": {
+                "node_key": "83877448",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "jNUbORceQPA",
+                  "china_cdn_id": "jNUbORceQPA.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "社交网络工作人员的薪酬",
+                "alt_text": null,
+                "background_image": "//lh4.ggpht.com/YSKEZaxZUSJPbKem4NcOJhdxStVpao3-lB9H2qcPqwFV725FdrQEOSGdpIi8qHHDFnFz3vqKoQPC0nAoSw=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/83877448",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "83664001",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "TextInputWidget",
+                    "is_text_area": false,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.07095343680709534,
+                      "width": 0.06483790523690773,
+                      "x": 0.8038497125715983,
+                      "y": 0.14084863768448586
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "TextInputWidget",
+                    "is_text_area": false,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0.07095343680709534,
+                      "width": 0.06483790523690773,
+                      "x": 0.8046998668489908,
+                      "y": 0.22106805027456347
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "TextInputWidget",
+                    "is_text_area": false,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0.07095343680709534,
+                      "width": 0.0685785536159601,
+                      "x": 0.8182667948658627,
+                      "y": 0.30024817354663247
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "4nYdxMABeBc",
+                  "china_cdn_id": "4nYdxMABeBc.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 152409,
+          "key": "838774470923",
+          "title": "你应该注册帐号吗？",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "838774470923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 150950,
+              "key": "83877447",
+              "title": "你应该注册帐号吗？",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 你应该注册一个社交网络账号吗？",
+              "user_state": {
+                "node_key": "83877447",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "pZ_GUg7z548",
+                  "china_cdn_id": "pZ_GUg7z548.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "你应该注册帐号吗？",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/JegisflfNx_wpeGANN0UXEeGCOzhDxRuxK48-IFUSd921rBU0GO1Df9TnMt1ofDsx5OxoEwMSTcoQCALFoE5=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/83877447",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "83664004",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "TextInputWidget",
+                    "is_text_area": true,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.29922779922779924,
+                      "width": 0.26492942453854507,
+                      "x": 0.7176981541802389,
+                      "y": 0.6583011583011583
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 152411,
+          "key": "838774460923",
+          "title": "有什么不同？",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "838774460923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 150952,
+              "key": "83877446",
+              "title": "有什么不同？",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 这两个分布有什么区别？\n\n- □ 有社交网络帐号的人的工资更一致\n- □ 一般大众的工资更为一致\n- □ 工资非常高的人没有社交网络帐号\n- □ 工资非常低的人有社交网络帐号\n- □ 一般大众的工资分布图更分散",
+              "user_state": {
+                "node_key": "83877446",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "CJ_C0FZBCPY",
+                  "china_cdn_id": "CJ_C0FZBCPY.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "有什么不同？",
+                "alt_text": null,
+                "background_image": "//lh4.ggpht.com/jPhS8EAMh5qmObgbI_5PpDlqfV8bt-1-f9UM_lL8gm-R-YusXcjgj_vCDZLyvMZB25Zw7MFHc7L3yYKUS9BM=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/83877446",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "83664006",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6547231270358306,
+                      "y": 0.7374517374517374
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6547231270358306,
+                      "y": 0.637065637065637
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6514657980456026,
+                      "y": 0.5019305019305019
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6492942453854506,
+                      "y": 0.40540540540540543
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "4",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 5,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6503800217155266,
+                      "y": 0.25675675675675674
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "gUXB5GofFKM",
+                  "china_cdn_id": "gUXB5GofFKM.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 152410,
+          "key": "838774450923",
+          "title": "量化数据的分布形态",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "838774450923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 150951,
+              "key": "83877445",
+              "title": "量化数据的分布形态",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "这两个分布的范围（最大值和最小值之间的差）分别是多少？范围是观察到的最大值和最小值之间的差。",
+              "user_state": {
+                "node_key": "83877445",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "ydpbvqLmLQI",
+                  "china_cdn_id": "ydpbvqLmLQI.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "量化数据的分布形态",
+                "alt_text": null,
+                "background_image": "//lh3.ggpht.com/I6Ew7QlV0nhN7Go82wFjcZlZXawaTjRrGzwnkAq7-rphdKWa4AgEX9znUb4YgXHnwJZD979gA0agvI5OP-g=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/83877445",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "83664009",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "TextInputWidget",
+                    "is_text_area": false,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.7596450616570344,
+                      "y": 0.21019473804151173
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "TextInputWidget",
+                    "is_text_area": false,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.7639750386495642,
+                      "y": 0.6778789466557597
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "hAPJsh81L98",
+                  "china_cdn_id": "hAPJsh81L98.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 152412,
+          "key": "838774440923",
+          "title": "值域是否改变？",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "838774440923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 150953,
+              "key": "83877444",
+              "title": "值域是否改变？",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 当我们向数据集中添加值时，值域是会怎样变化？\n\n- □ 总会改变\n- □ 有时会改变\n- □ 永远不会改变",
+              "user_state": {
+                "node_key": "83877444",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "SLl0i0SKwHU",
+                  "china_cdn_id": "SLl0i0SKwHU.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "值域是否改变？",
+                "alt_text": null,
+                "background_image": "//lh3.ggpht.com/LPsa5eoAAXjp0wgjv7iTSx5-VxQ9ZE4ZdezvuYrHFieVIXt25bResUYvyRJCLpz2rWZOgaqbB-YQvufnpEHp=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/83877444",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "83664012",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.7400290176555528,
+                      "y": 0.522551566135415
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.7345902939422473,
+                      "y": 0.4471649681856898
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.7335025491995862,
+                      "y": 0.360180432089853
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "sCHCU42thsI",
+                  "china_cdn_id": "sCHCU42thsI.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 152415,
+          "key": "838774430923",
+          "title": "扎克伯格的薪酬：一个异常值",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "838774430923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 150954,
+              "key": "83877443",
+              "title": "扎克伯格的薪酬：一个异常值",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 假定我们将扎克伯格（薪资为1000万）包含进来，那么这个分布图的值域是多少？\n\n输入数字作为答案，不含任何特殊字符（例如 $ 或逗号）。",
+              "user_state": {
+                "node_key": "83877443",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "_UyoOnmH1X8",
+                  "china_cdn_id": "_UyoOnmH1X8.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "扎克伯格的薪酬：一个异常值",
+                "alt_text": null,
+                "background_image": "//lh5.ggpht.com/8O6r923OImHbaI8acicf-gNhHTmjaP9OLBrmKRPje4w_lSwf7VGO2hP1XQxJrNbpIvY5viO_Dya-utLlHxHr=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/83877443",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "83664015",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.057989690730557875,
+                      "width": 0.15119651922989416,
+                      "x": 0.5989847937556074,
+                      "y": 0.20103092786593396
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "SADDVcUMQXM",
+                  "china_cdn_id": "SADDVcUMQXM.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 152416,
+          "key": "844348990923",
+          "title": "砍掉尾巴",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "844348990923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 150955,
+              "key": "84434899",
+              "title": "砍掉尾巴",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "NmlhFjNHmXc",
+                "china_cdn_id": "NmlhFjNHmXc.mp4"
+              }
+            },
+            {
+              "id": 325961,
+              "key": "78a671ab-9a56-4ae1-9f0f-1c744be72fc7",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "虽然 Katie 建议去除上下各 25% 的数据点，但我们在去除数据点时还需要特别谨慎，特别是在数据量不大的情况下，去除一半的数据点会让我们丢失大量数据的信息。\n\n一般来说，在去除数据点前，我们建议首先将数据点通过图像表述出来（直方图、散点图、箱线图等），这样可以帮助你获得对数据整理分析的了解。然后，基于项目的背景，判断你更关心数据的哪一部分（大多数正常数据，还是小部分异常数据），因为在一些项目背景下，你可能更关心那些异常值，比如在 数据分析（进阶）课程的安然数据分析中，那些工资异常高的人更有可能腐败。最后，是基于现有的数据量作出决定，究竟是直接丢弃部分数据还是对部分作出调整，亦或是有保留地接受所有数据。特别记住一点，没有一种分析方法100%正确，但我们总可以尝试根据不同的需求找到一种最合理的方法。",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 152414,
+          "key": "838774420923",
+          "title": "Q1 在哪里？",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "838774420923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 150956,
+              "key": "83877442",
+              "title": "Q1 在哪里？",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 第一个（如图示薪资）四分位会是？\n\n- □ 在 $25,000 处\n- □ 在 $25,000 的左边\n- □ 在 $25,000 的右边\n\n第一个四分位是 25% 的数据低于该点、75% 的数据高于该点的位置。",
+              "user_state": {
+                "node_key": "83877442",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "eLyI7n6GtbU",
+                  "china_cdn_id": "eLyI7n6GtbU.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Q1 在哪里？",
+                "alt_text": "",
+                "background_image": "//lh6.ggpht.com/cN9KJxz9Ltplo3rE-ZBg1dGcoL0r966qFtImQZ99g7D2dWVt_y_hpT2YNih1r3N1aBLIKFrKUJfPEUHDSWg=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/83877442",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "83664019",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.761129207383279,
+                      "y": 0.8378378378378378
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.761129207383279,
+                      "y": 0.7760617760617761
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.760043431053203,
+                      "y": 0.7181467181467182
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "0ZTaV6UATBI",
+                  "china_cdn_id": "0ZTaV6UATBI.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 152413,
+          "key": "838774410923",
+          "title": "Q3 - Q1",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "838774410923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 150958,
+              "key": "83877441",
+              "title": "Q3 - Q1",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 对于这个分布，第三个四分位减第一个四分位的值是多少？\n\n输入数字作为答案，不含任何特殊字符（包括 $ 或逗号）。",
+              "user_state": {
+                "node_key": "83877441",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "bFDJ_FstSZ4",
+                  "china_cdn_id": "bFDJ_FstSZ4.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Q3 - Q1",
+                "alt_text": null,
+                "background_image": "//lh4.ggpht.com/XXGdwjJ6SEAeq_ASVhIhIwrhblwYlR913vJIKFLMkIjo-tqLwnQbmnM8ABO7m72NzPpq3UcSHCcUrX2Tew=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/83877441",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "83664022",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.082039911308204,
+                      "width": 0.13466334164588528,
+                      "x": 0.8219725323918051,
+                      "y": 0.19072168884061072
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "tYaQItpvXUo",
+                  "china_cdn_id": "tYaQItpvXUo.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 152417,
+          "key": "838774400923",
+          "title": "IQR",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "838774400923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 150957,
+              "key": "83877440",
+              "title": "IQR",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 错误还是正确？\n\n- 几乎 50% 的数据在 IQR 间。\n- IQR 受到数据集中每一个值的影响。\n- IQR 不受异常值的影响。",
+              "user_state": {
+                "node_key": "83877440",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "9dYN_oIly9I",
+                  "china_cdn_id": "9dYN_oIly9I.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "IQR",
+                "alt_text": null,
+                "background_image": "//lh4.ggpht.com/HZ1qaNNdcpd1mSIuPEq49sPp-rp34b15au3rivD-e1hkzCLIYRqyBPT_F_x3Vn1m2GGurHme05jXGqGwhFA=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/83877440",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "83664025",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.9158129720025455,
+                      "y": 0.320953041170955
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.8174251458432478,
+                      "y": 0.3206902342814999
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.9172576791208757,
+                      "y": 0.5599159002760894
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.816128180837757,
+                      "y": 0.5599159002760894
+                    }
+                  },
+                  {
+                    "group": "group2",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "4",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 5,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.9172576791208757,
+                      "y": 0.7808923076206223
+                    }
+                  },
+                  {
+                    "group": "group2",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "5",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 6,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.8146834737194267,
+                      "y": 0.7783228145119649
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "d7J0y_PSP2I",
+                  "china_cdn_id": "d7J0y_PSP2I.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 152418,
+          "key": "834179200923",
+          "title": "哪些是异常值？",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "834179200923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 150959,
+              "key": "83417920",
+              "title": "哪些是异常值？",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 这个数据集中哪些是异常值？\n\n- □ $ 60,000\n- □ $ 80,000\n- □ $ 100,000\n- □ $ 200,000",
+              "user_state": {
+                "node_key": "83417920",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "XP3F26GGuhE",
+                  "china_cdn_id": "XP3F26GGuhE.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "哪些是异常值？",
+                "alt_text": "",
+                "background_image": "//lh4.ggpht.com/OxT7zv8tvZX60R-bszyty5kftHYKUgj_lrMVEQ8eALPuySyMuEmqVIwVFj_E14WsnJFU4rgm-rOipbvVSM4=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/83417920",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "83664028",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6080347448425625,
+                      "y": 0.61003861003861
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6058631921824105,
+                      "y": 0.5386100386100386
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6036916395222585,
+                      "y": 0.46332046332046334
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6015200868621065,
+                      "y": 0.38996138996138996
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "GRLrzWwTz58",
+                  "china_cdn_id": "GRLrzWwTz58.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 152421,
+          "key": "834179190923",
+          "title": "定义异常值",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "834179190923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 150960,
+              "key": "83417919",
+              "title": "定义异常值",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 你认为这个数据集中哪些是异常值？\n\n- □ $ 60,000\n- □ $ 80,000\n- □ $ 100,000\n- □ $ 120,000",
+              "user_state": {
+                "node_key": "83417919",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "jxatUS0YvtU",
+                  "china_cdn_id": "jxatUS0YvtU.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "定义异常值",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/jYcZZEefYazFrN9y5VpXZTdJwzib3A44GdY_4KO0tAVKUkWwEtcV6TDDYN4eyrdKtwr-BpjXuBzoK_YvDz0=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/83417919",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "83664031",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6084119037935587,
+                      "y": 0.6114690329321065
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6051486695655753,
+                      "y": 0.541881404055437
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6051486695655753,
+                      "y": 0.46456181641469324
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6007976905949309,
+                      "y": 0.389175218464968
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "7rLkGwsbMUY",
+                  "china_cdn_id": "7rLkGwsbMUY.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 152419,
+          "key": "834179180923",
+          "title": "匹配对应的箱线图",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "834179180923",
+            "completed_at": "2019-03-24T22:06:26.759Z",
+            "last_viewed_at": "2019-03-24T22:06:26.566Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 150961,
+              "key": "83417918",
+              "title": "匹配对应的箱型图",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "请将右侧的箱线图与左侧的分布图一一对应起来，记住箱线图外面的点表示异常值。在此上下文中，“min”和“max”是指样本中不包括异常值在内的最小值和最大值。",
+              "user_state": {
+                "node_key": "83417918",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "imNv6Q8GiQM",
+                  "china_cdn_id": "imNv6Q8GiQM.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "匹配对应的箱型图",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/bMt4elbK1Ak8brm164VYXgRLqloUUX78etWjqfVIM8JQZTCU9luIRT3gSBAoZDtohyb3C7LHCF-w7uWsphs=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/83417918",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "83664034",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "TextInputWidget",
+                    "is_text_area": false,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.05543237250554324,
+                      "width": 0.09476309226932668,
+                      "x": 0.496199782844734,
+                      "y": 0.7451737451737451
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "TextInputWidget",
+                    "is_text_area": false,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0.05543237250554324,
+                      "width": 0.0798004987531172,
+                      "x": 0.5135722041259501,
+                      "y": 0.20463320463320464
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "TextInputWidget",
+                    "is_text_area": false,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0.05543237250554324,
+                      "width": 0.08229426433915212,
+                      "x": 0.503800217155266,
+                      "y": 0.11776061776061776
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "xg4WOp3v-CM",
+                  "china_cdn_id": "xg4WOp3v-CM.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 152420,
+          "key": "834179170923",
+          "title": "均值在 IQR 中吗？",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "834179170923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 150963,
+              "key": "83417917",
+              "title": "均值在 IQR 中吗？",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 均值是否总会在 Q1 和 Q3 之间？\n\n- □ 是的\n- □ 不是 \n",
+              "user_state": {
+                "node_key": "83417917",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "o2n0nea_1T0",
+                  "china_cdn_id": "o2n0nea_1T0.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "平均值在 IQR 中吗？",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/1PzqF0rkJa9-GA0kfHkp4T4M_l8Cn7sGkbf0-lfq6SduT6ZwLBcMPfN7sucrEeY8gcW1Bip5TEeR_JJrgg=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/83417917",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "83664037",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.7530819545674862,
+                      "y": 0.5940721847031031
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.750906465082164,
+                      "y": 0.5148196073713407
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "sl51Cpwy5RA",
+                  "china_cdn_id": "sl51Cpwy5RA.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 152422,
+          "key": "836640400923",
+          "title": "IQR 的不足",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "836640400923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 150962,
+              "key": "83664040",
+              "title": "IQR 的不足",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "h5l2EP3DR-4",
+                "china_cdn_id": "h5l2EP3DR-4.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 152424,
+          "key": "834179160923",
+          "title": "衡量差异性的方法",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "834179160923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 150964,
+              "key": "83417916",
+              "title": "衡量差异性的方法",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 下列哪个是衡量差异性最好的选项？选择您最认为**最好**的选项。\n\n- □ 找出任意两个值之间差的平均值\n- □ 找出每个值与最大值或最小值之间差的平均值\n- □ 找出每个值与数据集均值之间差的平均值\n",
+              "user_state": {
+                "node_key": "83417916",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "j5fGEYLUOD4",
+                  "china_cdn_id": "j5fGEYLUOD4.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "衡量差异性的方法",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/GuHpB3iTb075aHXVdi_PMaJWO1Rj6tTfsrWRq1gUxe6megjbcTm4S3swERyuP5NkodVBGQGQUgr9ApO3ow=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/83417916",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "83664041",
+                "widgets": [
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.6575163653366584,
+                      "y": 0.26101718403547675
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.6587048004987531,
+                      "y": 0.39083287139689576
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.6622506234413965,
+                      "y": 0.5819013303769401
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "g_V6OCICUUc",
+                  "china_cdn_id": "g_V6OCICUUc.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 152425,
+          "key": "834179150923",
+          "title": "计算均值",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "834179150923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 150966,
+              "key": "83417915",
+              "title": "计算均值",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 均值是多少？\n\n输入数字作为答案，不含任何特殊字符（包括 $ 或逗号）。",
+              "user_state": {
+                "node_key": "83417915",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "dXS9vjgXyg4",
+                  "china_cdn_id": "dXS9vjgXyg4.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "计算均值",
+                "alt_text": null,
+                "background_image": "//lh4.ggpht.com/QOeRqDZ7wrIInlczaC7xV94bpGaeUmOQC791l_leGG9bQTrlKCkdQ4C0LCME79KlTVZGQxcDMo-uRdPKaXCz=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/83417915",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "83664044",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.46047861879164786,
+                      "y": 0.3582474423988344
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "vsID16a_suU",
+                  "china_cdn_id": "vsID16a_suU.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 152427,
+          "key": "834179140923",
+          "title": "离均差",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "834179140923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 150967,
+              "key": "83417914",
+              "title": "与均值的偏差",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 请输入该值与均值的差（离均差）。",
+              "user_state": {
+                "node_key": "83417914",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "M43NnIroHws",
+                  "china_cdn_id": "M43NnIroHws.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "与均值的偏差",
+                "alt_text": null,
+                "background_image": "//lh4.ggpht.com/2kxt5x7Sc8zeGqBmewIp9JZUs3tnch7EwzjTr6qmuKQpURgaF6FoHVNLvg4ETvrNQSSw2qt5vmyknhi3jPA=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/83417914",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "83664047",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "TextInputWidget",
+                    "is_text_area": false,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0.05543237250554324,
+                      "width": 0.13840399002493767,
+                      "x": 0.24085976488412447,
+                      "y": 0.1740028222445372
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "TextInputWidget",
+                    "is_text_area": false,
+                    "tabindex": 5,
+                    "placement": {
+                      "height": 0.05543237250554324,
+                      "width": 0.14463840399002495,
+                      "x": 0.2396900406239798,
+                      "y": 0.3620649309094727
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "TextInputWidget",
+                    "is_text_area": false,
+                    "tabindex": 6,
+                    "placement": {
+                      "height": 0.057649667405764965,
+                      "width": 0.1483790523690773,
+                      "x": 0.235355919268989,
+                      "y": 0.7115159936868736
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "seTkSLAS43o",
+                  "china_cdn_id": "seTkSLAS43o.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 152423,
+          "key": "834179130923",
+          "title": "平均偏差",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "834179130923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 150965,
+              "key": "83417913",
+              "title": "平均偏差",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "输入数字作为答案，不含任何特殊字符（例如 $ 或逗号）。",
+              "user_state": {
+                "node_key": "83417913",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "4e4jMjA9pVk",
+                  "china_cdn_id": "4e4jMjA9pVk.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "平均偏差",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/YfOQGW9LGu7JRVRLgq4IzwvjU5GzSKUOs-abWhvDaeXODS_zhli7NZ4J4m1GkXhiZjiqsrlQkTw9NAMl1bo8=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/83417913",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "83664050",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.6449511400651465,
+                      "y": 0.7567567567567568
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "OCLlqMAbxBM",
+                  "china_cdn_id": "OCLlqMAbxBM.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 152426,
+          "key": "834179120923",
+          "title": "平均偏差的公式",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "834179120923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 150968,
+              "key": "83417912",
+              "title": "平均偏差的公式",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 你会用下列哪个公式来计算平均差？",
+              "user_state": {
+                "node_key": "83417912",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "9jdZ9pfYP6A",
+                  "china_cdn_id": "9jdZ9pfYP6A.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "平均偏差的公式",
+                "alt_text": null,
+                "background_image": "//lh5.ggpht.com/TN9S_4JXzsczwkY0TDlfIWBmjli1I1ji1xmQ1ksVcDqJRvJ2950sTSWdAu7H7ugr2YsuOLL19BL9ywovtOXd=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/83417912",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "83664053",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6753528773072747,
+                      "y": 0.6583011583011583
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6775244299674267,
+                      "y": 0.5347490347490348
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6818675352877307,
+                      "y": 0.39768339768339767
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6775244299674267,
+                      "y": 0.2644787644787645
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "dYbYjtCzQPo",
+                  "china_cdn_id": "dYbYjtCzQPo.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 152428,
+          "key": "834179110923",
+          "title": "摆脱负值，开心起来",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "834179110923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 150969,
+              "key": "83417911",
+              "title": "摆脱负值，开心起来",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 我们如何阻止负偏差和正偏差相互抵消？\n\n- □ 忽略负号\n- □ 将偏差乘2\n- □ 将偏差平方\n- □ 我们什么都做不了",
+              "user_state": {
+                "node_key": "83417911",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "_afLozDIcLw",
+                  "china_cdn_id": "_afLozDIcLw.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "摆脱负值，开心起来",
+                "alt_text": null,
+                "background_image": "//lh4.ggpht.com/8-RLIkSaZx3sS5FNhqWgBoBmLQKE4m7tMD3IJhapLbJKW50Ya5zbRZqBAz4TJkuGf6K_3LES_wVrd6R3JA=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/83417911",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "83664056",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.7024972855591748,
+                      "y": 0.861003861003861
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.7046688382193268,
+                      "y": 0.777992277992278
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.7046688382193268,
+                      "y": 0.6756756756756757
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.7024972855591748,
+                      "y": 0.61003861003861
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "_ULZYGI6LPQ",
+                  "china_cdn_id": "_ULZYGI6LPQ.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 152430,
+          "key": "835106730923",
+          "title": "绝对偏差",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "835106730923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 150971,
+              "key": "83510673",
+              "title": "绝对偏差",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "输入这三个数据的绝对值。输入数字作为答案，不含任何特殊字符，包括 $ 或逗号。",
+              "user_state": {
+                "node_key": "83510673",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "baWB4xYNMIs",
+                  "china_cdn_id": "baWB4xYNMIs.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "绝对偏差",
+                "alt_text": null,
+                "background_image": "//lh3.ggpht.com/XbJ0iRS7B_lOoWqqbgZaz-JKNhGKnCsEj4M3b8DxVDZSrRiCpuAd0QtbJqZ8lbNOmmxXPCoXkQ3IWiGQrA=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/83510673",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "83664059",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06208425720620843,
+                      "width": 0.27805486284289277,
+                      "x": 0.6366932671027475,
+                      "y": 0.24033507124670003
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0.06430155210643015,
+                      "width": 0.2793017456359102,
+                      "x": 0.6356055223600864,
+                      "y": 0.36404641147189015
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0.05543237250554324,
+                      "width": 0.2793017456359102,
+                      "x": 0.6377810118454086,
+                      "y": 0.5573453805737497
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "pFyPTDVN41Q",
+                  "china_cdn_id": "pFyPTDVN41Q.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 152429,
+          "key": "835106740923",
+          "title": "平均绝对偏差",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "835106740923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 150970,
+              "key": "83510674",
+              "title": "平均绝对偏差",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "绝对偏差的平均值是多少？输入数字作为答案，不含任何特殊字符，包括 $ 或逗号。",
+              "user_state": {
+                "node_key": "83510674",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "MNJlXsuCuyo",
+                  "china_cdn_id": "MNJlXsuCuyo.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "平均绝对偏差",
+                "alt_text": null,
+                "background_image": "//lh3.ggpht.com/5_Tec1W9JR7HTnWHJhPptNWc3KCLXrrIrDFqRauo_5CnyHhqOb5nacF1yCS3B_269R_BR4AYF9JPQmKIqLg=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/83510674",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "83664062",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.07152061856768804,
+                      "width": 0.1087744742661109,
+                      "x": 0.8738216210028693,
+                      "y": 0.8376288857714461
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "-S35dQNbjhc",
+                  "china_cdn_id": "-S35dQNbjhc.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 152431,
+          "key": "835106750923",
+          "title": "平均绝对偏差的公式",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "835106750923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 150972,
+              "key": "83510675",
+              "title": "平均绝对偏差的公式",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 下面哪一个公式是你用来计算平均偏差的公式？",
+              "user_state": {
+                "node_key": "83510675",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "_c780DW5Wuw",
+                  "china_cdn_id": "_c780DW5Wuw.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "平均绝对偏差的公式",
+                "alt_text": null,
+                "background_image": "//lh5.ggpht.com/4i9xo4oVVuBLaSkF7gP0Z2EQrtO9YM03f7qSiWVolrQsYbJ_e5DfxnwvWvaGmp1PUdeek8pZjU4evVaTiTM=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/83510675",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "83664065",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6921682489784641,
+                      "y": 0.8298968680172079
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6834662910371752,
+                      "y": 0.6965205793369248
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6827412053311832,
+                      "y": 0.5831185961173857
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.681290801551853,
+                      "y": 0.4529638782685817
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "4",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 5,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6791153120665308,
+                      "y": 0.31378862051524276
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "ihC1Pm8E8gU",
+                  "china_cdn_id": "ihC1Pm8E8gU.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 152433,
+          "key": "835106760923",
+          "title": "平方偏差",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "835106760923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 150974,
+              "key": "83510676",
+              "title": "平方偏差",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "在方框中输入离均差的平方值。输入数字作为答案，不含任何特殊字符，包括 $ 或逗号。",
+              "user_state": {
+                "node_key": "83510676",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "oA37LlWNYCw",
+                  "china_cdn_id": "oA37LlWNYCw.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "平方偏差",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/QJiGimHhd4byzpg3XROyAic7U4Vyidj8coUQto1RP4brTJ7veQDoyE25fNGfaD1KpeVRmOHjQC07gllh6pk=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/83510676",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "83664068",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06208425720620843,
+                      "width": 0.15835411471321695,
+                      "x": 0.3811074918566775,
+                      "y": 0.361003861003861
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0.05543237250554324,
+                      "width": 0.15336658354114713,
+                      "x": 0.38219326818675353,
+                      "y": 0.4942084942084942
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0.05543237250554324,
+                      "width": 0.15211970074812967,
+                      "x": 0.38318435883495355,
+                      "y": 0.6175966714313811
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "mVBWg3aPPhI",
+                  "china_cdn_id": "mVBWg3aPPhI.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 152435,
+          "key": "835106770923",
+          "title": "平方和",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "835106770923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 150976,
+              "key": "83510677",
+              "title": "平方和",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "下列哪个公式描述的是平方差的和？",
+              "user_state": {
+                "node_key": "83510677",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "Vr3knoVJvlk",
+                  "china_cdn_id": "Vr3knoVJvlk.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "平方和",
+                "alt_text": null,
+                "background_image": "//lh3.ggpht.com/cBBzH9Uy7KrKSt5XjMjoiqnu0_i5Hs3gODP6ZTeD2N8NYUc6oR3WI2GgH-yhaE-T59Iumo8bU6H489xMjA8=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/83510677",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "83664071",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6290790539041198,
+                      "y": 0.752577339366628
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6279913091614586,
+                      "y": 0.6597938341977353
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.632342288132103,
+                      "y": 0.5650773393378241
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6345177776174253,
+                      "y": 0.46649486509587573
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "4",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 5,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6301667986467808,
+                      "y": 0.3814433186910575
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "fktfjG1SnkI",
+                  "china_cdn_id": "fktfjG1SnkI.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 152432,
+          "key": "839344330923",
+          "title": "平均平方偏差",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "839344330923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 150973,
+              "key": "83934433",
+              "title": "平均平方偏差",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "输入数字作为答案，不含任何特殊字符，包括 $ 或逗号。",
+              "user_state": {
+                "node_key": "83934433",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "kmVqaJ6n9Vk",
+                  "china_cdn_id": "kmVqaJ6n9Vk.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "平均平方偏差",
+                "alt_text": null,
+                "background_image": "//lh5.ggpht.com/o7U9uqIcQDfWEX7iY81onOVDjk-dKydjC7pAvMP0otaBKVMWvWTlij7f-1yVVZtsXMP51cZ6EjZWVGiVDg=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/83934433",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "83664074",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06958762887666944,
+                      "width": 0.13814358231796084,
+                      "x": 0.5993485342019544,
+                      "y": 0.861003861003861
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "xW3JXTmUlEE",
+                  "china_cdn_id": "xW3JXTmUlEE.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 152436,
+          "key": "839344320923",
+          "title": "用语言解释平均平方偏差",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "839344320923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 150977,
+              "key": "83934432",
+              "title": "用语言解释平均平方偏差",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 我们要如何用语言描述方差？\n\n- □ 平方偏差的均值\n- □ 平方偏差之和除以n\n- □ 平均平方偏差的平方",
+              "user_state": {
+                "node_key": "83934432",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "-_I23DcNTF0",
+                  "china_cdn_id": "-_I23DcNTF0.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "用语言解释平均平方偏差",
+                "alt_text": null,
+                "background_image": "//lh5.ggpht.com/lgZsIoMnCHTufKOuox_M-G-YXsp-w1exYXTevAi3xeJ7O3r2NQTcRJTPAyhUcBuzhaDI71YqipUX8Nc9YQ=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/83934432",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "83664077",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6471226927252985,
+                      "y": 0.32432432432432434
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6482084690553745,
+                      "y": 0.22393822393822393
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6449511400651465,
+                      "y": 0.16795366795366795
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "kgc_y-oJObM",
+                  "china_cdn_id": "kgc_y-oJObM.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 152438,
+          "key": "839344310923",
+          "title": "一维的数据",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "839344310923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 150979,
+              "key": "83934431",
+              "title": "一维的数据",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 我们如何将平均平方的维度从二维（$<sup>2</sup>）降为一维（$）？\n\n- □ 求平方根\n- □ 除以2\n- □ 减去一个 $ ",
+              "user_state": {
+                "node_key": "83934431",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "vsqelq1aYy8",
+                  "china_cdn_id": "vsqelq1aYy8.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "一维的数据",
+                "alt_text": "",
+                "background_image": "//lh3.ggpht.com/7sZe9Nzkk8lSmrQ6StB1u5bMobub5G0ciQfYYPl8lDh3_D1z80IpUb0cqtwvfWmpxmUj0kKkV_tTaVVOso0=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/83934431",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "83664080",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6373507057546145,
+                      "y": 0.6872586872586872
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6351791530944625,
+                      "y": 0.6312741312741312
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6340933767643865,
+                      "y": 0.5579150579150579
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "kPlyl6JlLjY",
+                  "china_cdn_id": "kPlyl6JlLjY.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 152434,
+          "key": "836640830923",
+          "title": "标准偏差",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "836640830923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 150975,
+              "key": "83664083",
+              "title": "标准偏差",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "0seYYIPBXxI",
+                "china_cdn_id": "0seYYIPBXxI.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 152439,
+          "key": "839344240923",
+          "title": "计算标准偏差",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "839344240923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 150980,
+              "key": "83934424",
+              "title": "计算标准偏差",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "输入数字作为答案，不含任何特殊字符，例如 $ 或逗号。",
+              "user_state": {
+                "node_key": "83934424",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "E1iDHrumLoo",
+                  "china_cdn_id": "E1iDHrumLoo.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "计算标准偏差",
+                "alt_text": null,
+                "background_image": "//lh3.ggpht.com/jlti_O8Y9hYM9vyB2bja79OM7wilBu0pMQ70G4PRwOLpHpfcZKqf3RiFcWmH9ZRDEAbn4OiOL4CFnvc3vA=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/83934424",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "83664084",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.05791505791505792,
+                      "width": 0.1281216069489685,
+                      "x": 0.8208469055374593,
+                      "y": 0.1718146718146718
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "ZzEF7yc5208",
+                  "china_cdn_id": "ZzEF7yc5208.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 152437,
+          "key": "839344250923",
+          "title": "社交网络工作人员薪酬的标准偏差",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "839344250923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 150978,
+              "key": "83934425",
+              "title": "社交网络工作人员薪酬的标准偏差",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "输入数字作为答案，不含任何特殊字符，例如 $ 或逗号。",
+              "user_state": {
+                "node_key": "83934425",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "R6KT9-ZbQ4c",
+                  "china_cdn_id": "R6KT9-ZbQ4c.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "社交网络工作人员薪酬的SD值",
+                "alt_text": null,
+                "background_image": "//lh5.ggpht.com/xS1IAU8gJZAqYrpqABVn8pCO7qhNWXY1-yL9_PJHWFYxd_KDiQyMHR-w2KplzziH4V5VCaDIr5DvSka2PYtA=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/83934425",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "83664087",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06185567011259507,
+                      "width": 0.15445975345787746,
+                      "x": 0.6693256093825808,
+                      "y": 0.4780927442518234
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "cy8BwWl36Q4",
+                  "china_cdn_id": "cy8BwWl36Q4.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 152441,
+          "key": "839344260923",
+          "title": "用语言解释标准偏差",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "839344260923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 150981,
+              "key": "83934426",
+              "title": "用语言解释标准偏差",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 如何用语言解释标准偏差？\n\n- □ 平均平方偏差的平方根\n- □ 平均平方偏差的平方\n- □ 平方偏差的和\n- □ 绝对偏差平方的和 \n- □ 平方偏差的和除以n，再开平方",
+              "user_state": {
+                "node_key": "83934426",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "zxnijlBCSpE",
+                  "china_cdn_id": "zxnijlBCSpE.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "用语言解释标准偏差",
+                "alt_text": null,
+                "background_image": "//lh3.ggpht.com/I-Z2mSqfh_6TYxpStarxwNiOAd3gY331A6o7XLaNojPCDAITGcgiAGfZh2mCBJjD6nczMAPhKdW-tmH_hbY=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/83934426",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "83664090",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.32356134636264927,
+                      "y": 0.6177606177606177
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.32030401737242126,
+                      "y": 0.5328185328185329
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.31813246471226925,
+                      "y": 0.4517374517374517
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.31921824104234525,
+                      "y": 0.37065637065637064
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "4",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 5,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.31704668838219324,
+                      "y": 0.29343629343629346
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "M_8000Yz_DA",
+                  "china_cdn_id": "M_8000Yz_DA.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 152444,
+          "key": "839344270923",
+          "title": "用电子表格计算标准偏差",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "839344270923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 150983,
+              "key": "83934427",
+              "title": "用电子表格计算标准偏差",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "单击此处下载数据：[社交网络工作人员的薪酬示例](https://s3.cn-north-1.amazonaws.com.cn/static-documents/nd002/Sample_Social_Networkers_Salary_n%3D100_Lesson_4.xlsx)\n\n计算标准偏差，输入数字作为答案，不含任何特殊字符，例如 $ 或逗号。",
+              "user_state": {
+                "node_key": "83934427",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "gqXiI9v7h8A",
+                  "china_cdn_id": "gqXiI9v7h8A.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "用电子表格计算标准偏差",
+                "alt_text": "",
+                "background_image": "//lh5.ggpht.com/DjeS_3_fd1AYNSPXmSgnIFVHD94rjDxR917ptVN4aKCe4KKrpiapJU_O42javI9SzoGWllBFgWgL9-X6o2Vw=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/83934427",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "83664093",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.056056701039539275,
+                      "width": 0.15337200871521636,
+                      "x": 0.7795504210373515,
+                      "y": 0.38337627888699416
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "sXeVydVAv7Q",
+                  "china_cdn_id": "sXeVydVAv7Q.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 152440,
+          "key": "836640960923",
+          "title": "标准偏差的重要性",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "836640960923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 150982,
+              "key": "83664096",
+              "title": "标准偏差的重要性",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "d-_ZKyocTDw",
+                "china_cdn_id": "d-_ZKyocTDw.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 152443,
+          "key": "839344280923",
+          "title": "找到偏差对应的值",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "839344280923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 150985,
+              "key": "83934428",
+              "title": "找到偏差对应的值",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 标准偏差到底有什么好？\n\n**如果均值为60，标准偏差为13，那么：**\n\n均值一个标准偏差以下的值是多少？\n□ \n\n均值两个标准偏差以上的值是多少？\n□ \n\n均值两个标准偏差以下的值是多少？\n□\n",
+              "user_state": {
+                "node_key": "83934428",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "JP-mQPN9Sl4",
+                  "china_cdn_id": "JP-mQPN9Sl4.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "找到偏差对应的值",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/N_VBj5hxZjGgwg3Hy9CNSlz7P_ZVjRBkcbol1y-MvBNPdP4Scf7t_BonWsv29l235v2I_7jG6ePJ4m8Jqlva=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/83934428",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "83664097",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.07760532150776053,
+                      "width": 0.16209476309226933,
+                      "x": 0.738327904451683,
+                      "y": 0.8552123552123552
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0.07760532150776053,
+                      "width": 0.16708229426433915,
+                      "x": 0.7372421281216069,
+                      "y": 0.7239382239382239
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0.07538802660753881,
+                      "width": 0.1708229426433915,
+                      "x": 0.7361563517915309,
+                      "y": 0.5772200772200772
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "fUI1XABUTrY",
+                  "china_cdn_id": "fUI1XABUTrY.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 152442,
+          "key": "839344290923",
+          "title": "所选样本的标准偏差",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "839344290923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 150984,
+              "key": "83934429",
+              "title": "所选样本的标准偏差",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 这个样本的标准偏差是多少？",
+              "user_state": {
+                "node_key": "83934429",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "UbnrfnB8vcs",
+                  "china_cdn_id": "UbnrfnB8vcs.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "所选样本的SD值",
+                "alt_text": null,
+                "background_image": "//lh3.ggpht.com/gnQTA4Dfish1zCN1jpXps2MStcaaphTSEZwDHg7WrByK_5rg1wVnOZMUhLaP1Jl0iYdhDs8fAG7dhuFfProq=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/83934429",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "83664100",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06765463918565086,
+                      "width": 0.10224800581014425,
+                      "x": 0.7991313789359392,
+                      "y": 0.36486486486486486
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "1SL8FGhaKqA",
+                  "china_cdn_id": "1SL8FGhaKqA.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 152445,
+          "key": "839344300923",
+          "title": "贝塞耳校正",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "839344300923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 150986,
+              "key": "83934430",
+              "title": "贝塞耳校正",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 贝塞耳校正会如何影响原始标准偏差和方差？\n\n- □ 它们会更大\n- □ 它们会更小",
+              "user_state": {
+                "node_key": "83934430",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "bHVPpomkUYs",
+                  "china_cdn_id": "bHVPpomkUYs.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "贝塞耳校正",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/FZPYIut1zt-SXFhxwouhHE3gCyAathsaI6EGsoWzAIHb6sS8tnMg3urt40f3B8ZpUhGhcUnxjnxe9IbNxg=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/83934430",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "83664103",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.3322475570032573,
+                      "y": 0.8706563706563707
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.3246471226927253,
+                      "y": 0.805019305019305
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "fghrG_GXWhw",
+                  "china_cdn_id": "fghrG_GXWhw.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 152446,
+          "key": "2308601260923",
+          "title": "样本标准偏差",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2308601260923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 150987,
+              "key": "230860126",
+              "title": "澄清样本SD值的真正含义",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "iRudjk53deY",
+                "china_cdn_id": "iRudjk53deY.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 152447,
+          "key": "849233230923",
+          "title": "举例：果冻豆",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "849233230923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 150988,
+              "key": "84923323",
+              "title": "举例：果冻豆",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "1HmiArFN-EI",
+                "china_cdn_id": "1HmiArFN-EI.mp4"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    }
+  ]
+}

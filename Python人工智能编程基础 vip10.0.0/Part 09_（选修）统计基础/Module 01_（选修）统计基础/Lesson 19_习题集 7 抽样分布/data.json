@@ -1,0 +1,2146 @@
+{
+  "data": {
+    "lesson": {
+      "id": 178223,
+      "key": "4578175606",
+      "title": "习题集 7: 抽样分布",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "zh-cn",
+      "summary": "练习你在第 7 课中学习的概念。",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": null,
+      "resources": {
+        "files": [],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 176895,
+          "key": "2518247570923",
+          "title": "1. 中心极限定理",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2518247570923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174625,
+              "key": "251824757",
+              "title": "1. 中心极限定理",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 对于样本均值分布，根据中心极限定理可以得出哪些结论？（勾选所有正确的项）\n\n- □ 分布的预测形状\n- □ 分布的预期均值\n- □ 分布的标准偏差（标准误差）\n- □ 以上全部",
+              "user_state": {
+                "node_key": "251824757",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "1. 中心极限定理",
+                "alt_text": null,
+                "background_image": "//lh4.ggpht.com/emmCQ6nB8x16lWCz6-PESpFh5TUH2vh34WbY5fKPuQWm8zQEUVwrQtEV-4ccmc6K4eHH0WaLWkbkQwz_DQ=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/251824757",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "116446967",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.2290988056460369,
+                      "y": 0.36486486486486486
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.23127035830618892,
+                      "y": 0.44594594594594594
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.23235613463626492,
+                      "y": 0.5193050193050193
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.23561346362649294,
+                      "y": 0.6814671814671814
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176897,
+          "key": "2518247580923",
+          "title": "2. 样本均值的位置",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2518247580923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174626,
+              "key": "251824758",
+              "title": "2. 样本均值的位置",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 以下哪一个统计量可以最好地描述一个抽样分布的样本均值的位置？\n\n- □ 总体的标准偏差\n- □ 样本均值与总体均值的绝对差\n- □ 标准误差",
+              "user_state": {
+                "node_key": "251824758",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "2. 样本均值的位置",
+                "alt_text": null,
+                "background_image": "//lh3.ggpht.com/WZbOui_klm89MJdibQwp906xi740cKeY66i5Ise2ymVqAWioHj5juPzMMCw3VXC6ORZH0R0lslA3sdbOPjU=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/251824758",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "116446968",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.19543973941368079,
+                      "y": 0.31467181467181465
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.19543973941368079,
+                      "y": 0.4189189189189189
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.1986970684039088,
+                      "y": 0.5888030888030888
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176898,
+          "key": "2518247590923",
+          "title": "3. 平均差异",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2518247590923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174627,
+              "key": "251824759",
+              "title": "3. 平均差异",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 从一个均值为 100，标准偏差为 18 的总体中随机取出 36 个值为样本。平均来看，你认为这个样本的均值与总体均值的偏离程度是多大？（换句话说，对于一个抽样分布，它由样本量为 36 的样本均值构成，其标准误差是多少？）\n\n- □ 0\n- □ 3\n- □ 6\n- □ 18",
+              "user_state": {
+                "node_key": "251824759",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "3. 平均差异",
+                "alt_text": "",
+                "background_image": "//lh5.ggpht.com/riQj6JVdNEtUUsJRMhXiOsNExL73SVV5xvYavcCL9kDylcF4-MxymycgzyXm3PZ3E41k8W4EqXPxOATDYWc=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/251824759",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "116446969",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.4364820846905538,
+                      "y": 0.8204633204633205
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.43539630836047777,
+                      "y": 0.7548262548262549
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.43539630836047777,
+                      "y": 0.693050193050193
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.43539630836047777,
+                      "y": 0.6312741312741312
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176899,
+          "key": "2518247600923",
+          "title": "4. 增加样本量",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2518247600923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174628,
+              "key": "251824760",
+              "title": "4. 增加样本量",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 当样本量增大， 标准误差会怎样？\n\n- □ 增大\n- □ 减小\n- □ 不变\n- □ 与标准偏差一致",
+              "user_state": {
+                "node_key": "251824760",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "4. 增加样本量",
+                "alt_text": null,
+                "background_image": "//lh3.ggpht.com/u8LTI-di_vVMuixb5cnwBmqMhLUo_fGA0IXKjCoA8EqwPnsDLRlC6ilHJuAVIn_gnVuHr5atXLM9jW1ETKg=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/251824760",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "116446970",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.25841476655808904,
+                      "y": 0.28378378378378377
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.26058631921824105,
+                      "y": 0.3745173745173745
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.26058631921824105,
+                      "y": 0.46525096525096526
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.26167209554831705,
+                      "y": 0.5521235521235521
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176906,
+          "key": "2518247610923",
+          "title": "5. 标准误差",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2518247610923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174635,
+              "key": "251824761",
+              "title": "5. 标准误差",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 对于某个特定总体，当样本量为 4 时，其抽样分布的标准误差为 10。对于同一个总体，当样本量为 16 时，其抽样分布的标准误差会是多少？\n\n- □ 5\n- □ 20\n- □ 2.5\n- □ 10",
+              "user_state": {
+                "node_key": "251824761",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "5. 标准误差",
+                "alt_text": null,
+                "background_image": "//lh3.ggpht.com/ooZGVTZvM1jaDHXFYhQn3PpB-FSkrkjPyKwwT-um8SgpRyGqt3QLr81lwRTRVrAs5UskTkb4iSsKx0ME3qLt=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/251824761",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "116446971",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.3279044516829533,
+                      "y": 0.5444015444015444
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.3268186753528773,
+                      "y": 0.6447876447876448
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.3268186753528773,
+                      "y": 0.7316602316602316
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.3268186753528773,
+                      "y": 0.8301158301158301
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176901,
+          "key": "2518247620923",
+          "title": "6. n 和 σ",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2518247620923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174629,
+              "key": "251824762",
+              "title": "6. n 和 σ",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 当抽样样本量、总体的标准偏差分别为多少时，抽样分布的标准误差为 4？\n\n- □ n = 5, σ = 20\n- □ n = 25, σ = 20\n- □ n = 4, σ = 64\n- □ n = 4, σ = 16",
+              "user_state": {
+                "node_key": "251824762",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "6. n 和 σ",
+                "alt_text": null,
+                "background_image": "//lh4.ggpht.com/jAO_Hx_RLN2ktcflmEAe1R_kcQiv9oXS3ZIAeVwwSSnCZuP0CLD3O0s8LAJHc-Gj16nkm-_Dvvpcwxu9xFEk=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/251824762",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "116446972",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.21932681867535286,
+                      "y": 0.36486486486486486
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.22041259500542887,
+                      "y": 0.4517374517374517
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.22258414766558088,
+                      "y": 0.5540540540540541
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.22366992399565688,
+                      "y": 0.6486486486486487
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176900,
+          "key": "2518247630923",
+          "title": "7. n 和 x-bar",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2518247630923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174630,
+              "key": "251824763",
+              "title": "7. n 和 x-bar",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 从一个均值为 100，标准偏差为 20 的总体中取样。按照下列选项绘制取样分布，哪一个取样分布的均值的 Z-值最接近于 0？\n\n- □ n = 25，x-bar = 104\n- □ n = 100，x-bar = 104\n- □ n = 100，x-bar = 102\n- □ n = 25，x-bar = 102",
+              "user_state": {
+                "node_key": "251824763",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "7. n 和 x-bar",
+                "alt_text": "",
+                "background_image": "//lh5.ggpht.com/0_YoWtB9UkVtTv5yWaTXCmjH5oGq5jjY1WLLfYTkl6EPCPz2Oo--jZ5pJOc3DdG4n47s8z-7dPmKiVVmDbDv=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/251824763",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "116446973",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.24212812160694897,
+                      "y": 0.4594594594594595
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.24104234527687296,
+                      "y": 0.5540540540540541
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.24212812160694897,
+                      "y": 0.6486486486486487
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.24212812160694897,
+                      "y": 0.747104247104247
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176903,
+          "key": "2518247640923",
+          "title": "8. 样本均值的均值",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2518247640923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174631,
+              "key": "251824764",
+              "title": "8. 样本均值的均值",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 一个正态分布的总体的均值为 100，标准偏差为 20。当样本量为 4 时，样本均值的分布的均值是多少？",
+              "user_state": {
+                "node_key": "251824764",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "8. 样本均值的均值",
+                "alt_text": null,
+                "background_image": "//lh3.ggpht.com/RYQwDBQ8ocmCEwEZzYm0iwJc3OEgFwp-eXMLPpGWFwVLU_4HHfxUP0pgEVVJpwp2mk56fg01guOIoJiYWg=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/251824764",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "116446974",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.1454940282301846,
+                      "y": 0.5733590733590733
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176902,
+          "key": "2518247650923",
+          "title": "9. 标准误差",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2518247650923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174632,
+              "key": "251824765",
+              "title": "9. 标准误差",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 一个正态分布的总体的均值为 100，标准偏差为 20。当样本量为 4 时，取样分布的标准误差是多少？",
+              "user_state": {
+                "node_key": "251824765",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "9. 标准误差",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/UllnJttQKDIs4x8eLXKMsZX58nwfEueiOr_WbTvdQ3SOCuOwypKa9GaEjK3Yri9M-jDiWip1q56Sr_RzRlDF=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/251824765",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "116446975",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.14332247557003258,
+                      "y": 0.581081081081081
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176904,
+          "key": "2518247660923",
+          "title": "10. Z 值",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2518247660923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174633,
+              "key": "251824766",
+              "title": "10. Z 值",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 一个正态分布的总体的均值为 100，标准偏差为 20。当样本量为 4 时，样本均值 = 110 的 Z-值是多少？",
+              "user_state": {
+                "node_key": "251824766",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "10. Z 值",
+                "alt_text": null,
+                "background_image": "//lh4.ggpht.com/cLxiciMVOFg6LhrcBzUHltcgsvow3ekTTYYxYIYsWBdL65v7bMcQczJrrBfLajAYsFvy4DqtSWeZ3XJmFBs=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/251824766",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "116446976",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.14332247557003258,
+                      "y": 0.5772200772200772
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176905,
+          "key": "2518247670923",
+          "title": "11. 概率",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2518247670923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174634,
+              "key": "251824767",
+              "title": "11. 概率",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 一个正态分布的总体的均值为 100，标准偏差为 20。当样本量为 4 时，随机取一个样本，其均值大于 110 的概率是多少？\n\n<a href=\"https://s3.amazonaws.com/udacity-hosted-downloads/ZTable.jpg\" target=\"_blank\">z 表格链接</a>\n\n回答时，请在两个框内都填写答案。前者为小数，后者为百分数（不需要输入百分比）。",
+              "user_state": {
+                "node_key": "251824767",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "11. 概率",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/c-UzC-vbzbQOsNMsbAHtc5Jv0vAdj_-dgFnooTaw1I7IQcPj7sT6dSAaTVIuu_61I6ufB6iUgWVshgFLZg=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/251824767",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "116446977",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06873614190687362,
+                      "width": 0.14962593516209477,
+                      "x": 0.2964169381107492,
+                      "y": 0.6196911196911197
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0.06651884700665188,
+                      "width": 0.1172069825436409,
+                      "x": 0.5190010857763301,
+                      "y": 0.6158301158301158
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176908,
+          "key": "2518247680923",
+          "title": "12. 均值 n = 25",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2518247680923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174636,
+              "key": "251824768",
+              "title": "12. 均值 n = 25",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 一个正态分布的总体的均值为 100，标准偏差为 20。如果我们把样本量增大到 25，样本均值的分布的均值是多少？",
+              "user_state": {
+                "node_key": "251824768",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "12. 均值 n = 25",
+                "alt_text": null,
+                "background_image": "//lh5.ggpht.com/C7TPCirleNpk4bYr9xC_RPp33rFgbbcyGHo2-31G_uTjUCG8E5dPSCwLnib6k7gYvaab-9Hij1ysXO4qyXw=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/251824768",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "116446978",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.1444082519001086,
+                      "y": 0.5714285714285714
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176907,
+          "key": "2518247690923",
+          "title": "13. 标准误差",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2518247690923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174637,
+              "key": "251824769",
+              "title": "13. 标准误差",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 一个正态分布的总体的均值为 100，标准偏差为 20。如果我们把样本量增大到 25，样本均值的分布的标准误差是多少？",
+              "user_state": {
+                "node_key": "251824769",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "13. 标准误差",
+                "alt_text": null,
+                "background_image": "//lh3.ggpht.com/60cd-vdQRpWzyfqjh9Ng0sFNYVG55fREq0zDfJASucAAkJ2YqPDp-CiypoiYqfY4P5XxIjOBz32rjynBWg=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/251824769",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "116446979",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.14332247557003258,
+                      "y": 0.5733590733590733
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176909,
+          "key": "2518247700923",
+          "title": "14. 概率",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2518247700923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174638,
+              "key": "251824770",
+              "title": "14. 概率",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 一个正态分布的总体的均值为 100，标准偏差为 20。当样本量为 25 时，随机取一个样本，其均值大于 110 的概率是多少？\n\n<a href=\"https://s3.amazonaws.com/udacity-hosted-downloads/ZTable.jpg\" target=\"_blank\">z 表格链接</a>\n\n回答时，请在两个框内都填写答案。前者为小数，后者为百分数（不需要输入百分比）。",
+              "user_state": {
+                "node_key": "251824770",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "14. 概率",
+                "alt_text": null,
+                "background_image": "//lh5.ggpht.com/fgLiKCVdlpmwwM35zh9_gP2rkl_bM1qHzPTXRpyc-vhIHLlWqJBe0Ty_3vgPKEDBVqH0Kf6l2V8iPHDCie8=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/251824770",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "116446980",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.055984555984555984,
+                      "width": 0.11509229098805646,
+                      "x": 0.248642779587405,
+                      "y": 0.5212355212355212
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0.055984555984555984,
+                      "width": 0.10314875135722042,
+                      "x": 0.4386536373507057,
+                      "y": 0.527027027027027
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176910,
+          "key": "2518247710923",
+          "title": "15. 概率减小",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2518247710923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174639,
+              "key": "251824771",
+              "title": "15. 概率减小",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 为什么当样本量从 4 增大到 25 时，随机取一个样本，其均值大于 110 的概率会减小？（勾选所有正确的选项）\n\n- □ 样本量越大，样本均值的 Z-值也增大\n- □ 样本量越大，标准误差越大\n- □ Z-值越大，大于该 Z-值对应样本均值的样本均值的比例越小\n- □ 样本量越大，取样分布越窄",
+              "user_state": {
+                "node_key": "251824771",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "15. 概率下降",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/IziNuUNbUsfPqOm-B2_FLpwov2FePCFhgmKQF1sIwWjzFQH3-wi3g_nry1okqBMdaNSmsJlY0eho47QbhA=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/251824771",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "116446981",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.11834961997828447,
+                      "y": 0.37258687258687256
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.11726384364820847,
+                      "y": 0.5501930501930502
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.11726384364820847,
+                      "y": 0.6505791505791506
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.12269272529858849,
+                      "y": 0.832046332046332
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176912,
+          "key": "2518247720923",
+          "title": "16. 总体分布形状",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2518247720923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174640,
+              "key": "251824772",
+              "title": "16. 总体分布形状",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 这是 [Facebook 好友数](https://s3.cn-north-1.amazonaws.com.cn/static-documents/nd002/Facebook+Friends+-+Problem+Set+7.xlsx)数据的直方图。这个分布为\n\n- □ 正偏斜\n- □ 负偏斜\n- □ 正态分布\n- □ 均匀分布\n\n\n数据下载：[Facebook 好友数](https://s3.cn-north-1.amazonaws.com.cn/static-documents/nd002/Facebook+Friends+-+Problem+Set+7.xlsx)",
+              "user_state": {
+                "node_key": "251824772",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "16. 总体分布形状",
+                "alt_text": null,
+                "background_image": "//lh4.ggpht.com/CzFr-bgtwfPD7JSYskYk_dbmV5LAULH5pI2SN9KGIwAeiDpsx6lTpttWMBkVBvhTsicwr2j3VTfwMBws7T0=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/251824772",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "116446982",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5906623235613464,
+                      "y": 0.4517374517374517
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5928338762214984,
+                      "y": 0.5482625482625483
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5939196525515744,
+                      "y": 0.640926640926641
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5950054288816504,
+                      "y": 0.7355212355212355
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176913,
+          "key": "2518247730923",
+          "title": "17. 抽样分布形状",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2518247730923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174642,
+              "key": "251824773",
+              "title": "17. 抽样分布形状",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 这是 [Facebook 好友数](https://s3.cn-north-1.amazonaws.com.cn/static-documents/nd002/Facebook+Friends+-+Problem+Set+7.xlsx)数据的直方图。如果我们以样本量 = 10 抽样，得出每个样本的均值，再绘出这些样本均值的分布图，这个分布图为：\n\n- □ 正偏斜\n- □ 负偏斜\n- □ 正态分布\n- □ 均匀分布\n\n数据下载：[Facebook 好友数](https://s3.cn-north-1.amazonaws.com.cn/static-documents/nd002/Facebook+Friends+-+Problem+Set+7.xlsx)",
+              "user_state": {
+                "node_key": "251824773",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "17. 抽样分布形状",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/HzKgdqoSg8WTXd_-0trLp0OS6FJHZXejFkk57vMqtWcMXrPMepnZVdRNRc-dhSUx5uTrHEfutBeoEtcRNw=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/251824773",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "116446983",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5743756786102063,
+                      "y": 0.640926640926641
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5765472312703583,
+                      "y": 0.7393822393822393
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5776330076004343,
+                      "y": 0.833976833976834
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5787187839305103,
+                      "y": 0.9247104247104247
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176914,
+          "key": "2518247740923",
+          "title": "18. 抽样分布均值",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2518247740923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174641,
+              "key": "251824774",
+              "title": "18. 抽样分布均值",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 这是 [Facebook 好友数](https://s3.cn-north-1.amazonaws.com.cn/static-documents/nd002/Facebook+Friends+-+Problem+Set+7.xlsx)数据的直方图。如果我们以样本量 = 10 抽样，得出每个样本的均值，再绘出这些样本均值的分布图，这个分布的均值是多少？\n\n数据下载：[Facebook 好友数](https://s3.cn-north-1.amazonaws.com.cn/static-documents/nd002/Facebook+Friends+-+Problem+Set+7.xlsx)",
+              "user_state": {
+                "node_key": "251824774",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "18. 抽样分布均值",
+                "alt_text": null,
+                "background_image": "//lh3.ggpht.com/Kh9GdaPWja6eC-TgWt9slhF2S2yIUdlJjKvzrzilsyWv64qfUWeuwRCZTMTrpt8tEUF524REMQQ6hNAdUUgO=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/251824774",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "116446984",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.5439739413680782,
+                      "y": 0.5154440154440154
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176911,
+          "key": "2518247750923",
+          "title": "19. 抽样分布的标准偏差",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2518247750923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174643,
+              "key": "251824775",
+              "title": "19. 抽样分布的标准偏差",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 这是 [Facebook 好友数](https://s3.cn-north-1.amazonaws.com.cn/static-documents/nd002/Facebook+Friends+-+Problem+Set+7.xlsx)数据的直方图。如果我们以样本量 = 10 抽样，得出每个样本的均值，再绘出这些样本均值的分布图，这个分布的标准偏差是多少？\n\n数据下载：[Facebook 好友数](https://s3.cn-north-1.amazonaws.com.cn/static-documents/nd002/Facebook+Friends+-+Problem+Set+7.xlsx)",
+              "user_state": {
+                "node_key": "251824775",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "19. 抽样分布的标准偏差",
+                "alt_text": null,
+                "background_image": "//lh3.ggpht.com/vVIJ2mluJHQUtJ6Fnue_O6IPzKRF1qhGNBOutWx1lS1eZOLsrHlecAXLcBz5B3U27RSg6CrwH8hjJNyPhmY=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/251824775",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "116446985",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.5884907709011944,
+                      "y": 0.5
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176915,
+          "key": "2518247760923",
+          "title": "20. 哪个分布？",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2518247760923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174644,
+              "key": "251824776",
+              "title": "20. 哪个分布？",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 这是 [Facebook 好友数](https://s3.cn-north-1.amazonaws.com.cn/static-documents/nd002/Facebook+Friends+-+Problem+Set+7.xlsx)数据的直方图。如果我们以样本量 = 10 抽样，得出每个样本的均值，再绘出这些样本均值的分布图，这个分布图的形状最接近哪一个颜色的曲线？\n\n数据下载：[Facebook 好友数](https://s3.cn-north-1.amazonaws.com.cn/static-documents/nd002/Facebook+Friends+-+Problem+Set+7.xlsx)",
+              "user_state": {
+                "node_key": "251824776",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "20. 哪个分布？",
+                "alt_text": null,
+                "background_image": "//lh3.ggpht.com/4QArqmale7vfQLWGI0PNiZoM56eVBO_Z8sDQw7vrwDNrSXQRhv6khEBoSROM3s8Wt46MDKicxZaexqPfkZc=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/251824776",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "116446986",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.15852334419109662,
+                      "y": 0.583011583011583
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.15960912052117263,
+                      "y": 0.7239382239382239
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.2888165038002172,
+                      "y": 0.6872586872586872
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176916,
+          "key": "2518247770923",
+          "title": "21. 更多还是更少？",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2518247770923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174645,
+              "key": "251824777",
+              "title": "21. 更多还是更少？",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 这是 [Facebook 好友数](https://s3.cn-north-1.amazonaws.com.cn/static-documents/nd002/Facebook+Friends+-+Problem+Set+7.xlsx)数据的直方图。如果我们以样本量 = 50 抽样，得出每个样本的均值，再绘出这些样本均值的分布图，这个分布的标准偏差会：\n\n- □ 大于样本量 = 10 时的标准偏差\n- □ 小于样本量 = 10 时的标准偏差\n\n数据下载：[Facebook 好友数](https://s3.cn-north-1.amazonaws.com.cn/static-documents/nd002/Facebook+Friends+-+Problem+Set+7.xlsx)",
+              "user_state": {
+                "node_key": "251824777",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "21. 更多还是更少？",
+                "alt_text": null,
+                "background_image": "//lh5.ggpht.com/fspRKj9mDgDEJHT4DjL-5Cl9SBTwTZfYrncXJ8FAPDzYFSzGY39et15NUS1DqW0S6fswfCgCK87eBpA7pHk=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/251824777",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "116446987",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.494028230184582,
+                      "y": 0.7644787644787645
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.496199782844734,
+                      "y": 0.5386100386100386
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176918,
+          "key": "2518247780923",
+          "title": "挑战 22. 样本量是多少？",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2518247780923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174646,
+              "key": "251824778",
+              "title": "挑战 22. 样本量是多少？",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 蓝色的抽样分布为样本量 = 25 时的样本均值的分布。如果我们想让标准误差为当前的三分之一（红色曲线表示），样本量应为多少？",
+              "user_state": {
+                "node_key": "251824778",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "挑战 22. 样本量是多少？",
+                "alt_text": null,
+                "background_image": "//lh3.ggpht.com/5zq9BfLjn-Y2ZuZHUPLFtkjMYSqImc64FsS1jlxMkBvv2lhL40LTHnoIHE3UA1oMVbyFzNHZ6ceXvdInKg6f=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/251824778",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "116446988",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.747014115092291,
+                      "y": 0.6003861003861004
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    }
+  ]
+}

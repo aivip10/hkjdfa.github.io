@@ -1,0 +1,96 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:04.667
+Digamos que temos uma amostra
+de 10 pessoas e cada uma delas
+
+00:00:04.700 --> 00:00:07.233
+nos disse quantas horas dormiram
+na noite anterior
+
+00:00:07.267 --> 00:00:10.833
+e o resultado de sua memória
+temporal no teste da BBC.
+
+00:00:10.867 --> 00:00:14.667
+Essas duas variáveis
+estão relacionadas?
+
+00:00:14.700 --> 00:00:17.833
+Bom, é muito difícil
+julgar relações com base
+
+00:00:17.867 --> 00:00:19.733
+apenas em listas de dados.
+
+00:00:19.767 --> 00:00:21.433
+Então vamos visualizá-la.
+
+00:00:22.467 --> 00:00:25.767
+Este gráfico de dispersão
+visualiza os dados da tabela.
+
+00:00:25.800 --> 00:00:29.367
+Cada ponto representa
+uma linha da tabela.
+
+00:00:29.400 --> 00:00:31.900
+Aqui você vê
+que as horas de sono
+
+00:00:31.933 --> 00:00:35.167
+foram cerca de 5
+e a pontuação da memória
+
+00:00:35.200 --> 00:00:36.733
+parece ser 55.
+
+00:00:36.767 --> 00:00:41.167
+Isso deve corresponder
+a esta linha, 56.
+
+00:00:41.200 --> 00:00:48.567
+As horas de sono estão no eixo X
+e a pontuação da memória, no Y.
+
+00:00:48.600 --> 00:00:52.000
+Chamamos a variável
+no eixo X
+
+00:00:52.033 --> 00:00:56.333
+de variável independente
+ou preditora;
+
+00:00:56.367 --> 00:01:00.933
+e a variável no eixo Y
+de variável dependente,
+
+00:01:00.967 --> 00:01:01.967
+ou o resultado.
+
+00:01:02.000 --> 00:01:04.200
+Estamos tentando
+prever o resultado
+
+00:01:04.233 --> 00:01:07.733
+da memória temporal
+usando horas de sono.
+
+00:01:07.767 --> 00:01:10.700
+Agora que visualizou
+os dados,
+
+00:01:10.733 --> 00:01:13.100
+o que podemos dizer da relação
+entre horas de sono
+
+00:01:13.133 --> 00:01:15.500
+e o desempenho
+da memória temporal?
+
+00:01:16.400 --> 00:01:19.467
+Agora esta pergunta deve ficar
+mais fácil de responder.
+

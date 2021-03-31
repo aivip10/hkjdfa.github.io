@@ -1,0 +1,3611 @@
+{
+  "data": {
+    "lesson": {
+      "id": 178209,
+      "key": "4590838740",
+      "title": "习题集 1b: 附加练习 (可选)",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "zh-cn",
+      "summary": "通过附加练习，掌握研究与试验方法中的术语。",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": null,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/4590838740/178209/1544466124493/%E4%B9%A0%E9%A2%98%E9%9B%86+1b%3A+%E9%99%84%E5%8A%A0%E7%BB%83%E4%B9%A0+%28%E5%8F%AF%E9%80%89%29+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/4590838740/178209/1544466121793/%E4%B9%A0%E9%A2%98%E9%9B%86+1b%3A+%E9%99%84%E5%8A%A0%E7%BB%83%E4%B9%A0+%28%E5%8F%AF%E9%80%89%29+Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 176645,
+          "key": "2514367180923",
+          "title": "4. 样本特点",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2514367180923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174302,
+              "key": "251436718",
+              "title": "4. 样本特点",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 用来描述样本的数字叫做？\n\n- □ 参数\n- □ 统计量\n- □ 变量\n- □ 常数",
+              "user_state": {
+                "node_key": "251436718",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "4. 样本特点",
+                "alt_text": null,
+                "background_image": "//lh3.ggpht.com/W4urQySV0DHTmexD1_ehE-EJ1hoThuib0fRoQDtIrjjLYUH9Gk7dtjI4EaSNCUi-bqC2x4MUHB3G25fhUw=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/251436718",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "56631174",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 0,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.17655571635311143,
+                      "y": 0.46272493573264784
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.17655571635311143,
+                      "y": 0.5372750642673522
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.17655571635311143,
+                      "y": 0.6143958868894601
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.17655571635311143,
+                      "y": 0.6915167095115681
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176646,
+          "key": "2514367190923",
+          "title": "5. 大一学生体重情况",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2514367190923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174303,
+              "key": "251436719",
+              "title": "5. 大一学生体重情况",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## Freidman 博士在一所大学任教，她记录了所在大学每位大一新生第一学期的体重变化（增加或减少）。然后计算得出学生的平均体重变化为 4磅。这个平均值可以被看作是以下哪项：\n\n- □ 参数\n- □ 统计\n- □ 变量\n- □ 常量",
+              "user_state": {
+                "node_key": "251436719",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "5. 大一学生体重情况",
+                "alt_text": null,
+                "background_image": "//lh5.ggpht.com/MGAZ1aT2BPPvJJjIylyaom-R2uQZfKctJqVjaKhSCGduIYr3hhRehtPu6cE4HGtujKsetUTrJxnWGZL5Pw=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/251436719",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "56631175",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 0,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.12110916108501006,
+                      "y": 0.5700478253195178
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.12110916108501006,
+                      "y": 0.6342851530359519
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.12125280292435088,
+                      "y": 0.6936536331996013
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.12125280292435088,
+                      "y": 0.7553725157814299
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176644,
+          "key": "2514367220923",
+          "title": "8. SAT 分数",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2514367220923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174304,
+              "key": "251436722",
+              "title": "8. SAT 分数",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 大一新生整个班级的SAT阅读部分平均分数为 530。但是，如果选择 80 名新生样本，然后计算他们的 SAT 阅读部分平均分数，得到的结果可能不是正好 530。哪个统计概念用于解释样本平均值和相应总体平均值之间的自然差异？\n\n- □ 统计误差\n- □ 抽样误差\n- □ 参数误差\n- □ 推理误差\n",
+              "user_state": {
+                "node_key": "251436722",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "8. SAT 分数",
+                "alt_text": null,
+                "background_image": "//lh4.ggpht.com/ImGgxlfvVgYQb5jkkr3N6hM16wrCCPs-I6Uu2-cNkOjTBq_IkfjR0wG6I-0mp-v4gV4K8NexrsExqZByLgw=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/251436722",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "56631178",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 0,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.08393632416787265,
+                      "y": 0.6323907455012854
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.08393632416787265,
+                      "y": 0.5655526992287918
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.08393632416787265,
+                      "y": 0.7634961439588689
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.08393632416787265,
+                      "y": 0.699228791773779
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176647,
+          "key": "2514367250923",
+          "title": "11. 哪些不是抽象概念？",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2514367250923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174305,
+              "key": "251436725",
+              "title": "11. 哪些不是抽象概念？",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 以下哪些项不属于抽象概念？多选。\n\n- □ 你的社会性智力水平\n- □ 你对历史事件日期的记忆\n- □ 你这学期购买的课本的数量\n- □ 你拥有的 Facebook 好友的数量\n- □ 你每天所走的距离\n- □ 与你同住的兄弟姐妹的数量\n- □ 你的年龄（用年计算）\n- □ Google 股票的每股价格（美元）\n",
+              "user_state": {
+                "node_key": "251436725",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "11. 哪些不是抽象概念？",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/3Q_U5MBso1gHxOzeUsetXLEuLdwdyDr34YJcxGkAwDy142iGXZoo311EkNVvVCNbJ4TurWrWunQkhvp6M5tN=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/251436725",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "56631181",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 0,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.06367583212735166,
+                      "y": 0.7146529562982005
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.06222865412445731,
+                      "y": 0.6503856041131105
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.06222865412445731,
+                      "y": 0.5861182519280206
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.060781476121562955,
+                      "y": 0.519280205655527
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "4",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.060781476121562955,
+                      "y": 0.455012853470437
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "5",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 5,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.059334298118668596,
+                      "y": 0.390745501285347
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "6",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 6,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.059334298118668596,
+                      "y": 0.33161953727506427
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "7",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 7,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.059334298118668596,
+                      "y": 0.2750642673521851
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176648,
+          "key": "2514367290923",
+          "title": "15. 变量关系",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2514367290923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174306,
+              "key": "251436729",
+              "title": "15. 变量关系",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 下面哪个是关于变量关系的正确表述：\n\n- □ 瞎猜\n- □ 假设\n- □ 抽象概念\n- □ 理论\n- □ 操作定义\n",
+              "user_state": {
+                "node_key": "251436729",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "15. 变量关系",
+                "alt_text": null,
+                "background_image": "//lh3.ggpht.com/THs1OFjCLl9u1te7CAlss6qykPw8kKuNcwb41q88Wlwr2MJ6Bt5U0HECth20o0WN0ksg4aXFnKFow-RZpZOR=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/251436729",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "56631185",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 0,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.11259686103486531,
+                      "y": 0.667966014284426
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.11115215391653503,
+                      "y": 0.6011372765488162
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.11115215391653503,
+                      "y": 0.5317536700473459
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.11115215391653503,
+                      "y": 0.46492495191541267
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "4",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.11259686103486531,
+                      "y": 0.3980962337834795
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176650,
+          "key": "2514367330923",
+          "title": "19. n",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2514367330923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174307,
+              "key": "251436733",
+              "title": "19. n",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 我们用符号 n 表示：\n\n- □ 样本平均值\n- □ 总体平均值\n- □ 样本大小\n- □ 总体大小\n- □ 抽样误差",
+              "user_state": {
+                "node_key": "251436733",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "19. n",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/2gjprWvzNOsdMLNZr2S19SQrH8Xhv_IIvU_7ja1M1_CgluZnm1KZPCeBoVLH7BSDd67zgTMIU2V8qo2pB6Y=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/251436733",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "56631189",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 0,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.25470332850940663,
+                      "y": 0.6426735218508998
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.25470332850940663,
+                      "y": 0.5732647814910026
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.25470332850940663,
+                      "y": 0.5089974293059126
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.25470332850940663,
+                      "y": 0.442159383033419
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "4",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.25470332850940663,
+                      "y": 0.37275064267352187
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176649,
+          "key": "2514367340923",
+          "title": "20. 哪些是对的？",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2514367340923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174308,
+              "key": "251436734",
+              "title": "20. 哪些是对的？",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 一位研究者报告她测定了 50 个人的年龄（以年来度量）n = 50 。以下哪个说法是对的？多选。\n\n- □ 她的样本为 50 人。\n- □ 她收集了 50 个年龄。\n- □ 总体中有 50 人。\n- □ “以年来度量”是她对“年龄”的可操作定义。\n",
+              "user_state": {
+                "node_key": "251436734",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "20. 哪些是对的？",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/oswmBwgjePUHBE3xZjJFrpOLMkN-egVlHIWnTl7UXT26_2fHC_frtKm0arsdXHCbSLROWeMUF-QEk9bJnA=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/251436734",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "56631190",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 0,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.1891540374858735,
+                      "y": 0.6242772898603376
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.18916223803287086,
+                      "y": 0.5651716557934966
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.1891540374858735,
+                      "y": 0.5137599159171843
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.19045095840240192,
+                      "y": 0.4518438987627493
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176651,
+          "key": "594049280923",
+          "title": "24. 古典音乐",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "594049280923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174309,
+              "key": "59404928",
+              "title": "24. 古典音乐",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 一名研究者发现在小学时听古典音乐的学生一般在高中时成绩更好。其研究中既没有对样本可能的状态的随机分配也没有对自变量的控制改变。这名研究者建议儿童听古典音乐，因为这会使他们在学校的成绩提高。这个逻辑有何问题？多选。\n\n- □ 它错把相关性当成因果关系。\n- □ 它忽略了可能的潜在变量。\n- □ 此逻辑没有问题；有科学依据作为支持。",
+              "user_state": {
+                "node_key": "59404928",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "3hSAWKrdO5s",
+                  "china_cdn_id": "3hSAWKrdO5s.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "古典音乐",
+                "alt_text": null,
+                "background_image": "//lh5.ggpht.com/7D88HfvQ08uObgUgmBucffTRwzm5d_fzcjd9JXqJxVawloyM2-VQ8jJG7Z9eV0I-dWG8uOZJ4OmSI75CoXs=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/59404928",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "56480593",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 0,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.08683068017366136,
+                      "y": 0.6118251928020566
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.08683068017366136,
+                      "y": 0.5655526992287918
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.08683068017366136,
+                      "y": 0.5141388174807198
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176652,
+          "key": "594049290923",
+          "title": "25. 咖啡因",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "594049290923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174310,
+              "key": "59404929",
+              "title": "25. 咖啡因",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 从这幅图中，你可以得出什么结论？**请选择所有适用项**。\n\n- □ 饮用含咖啡因的饮品会导致失眠\n- □ 报道中，饮用更多含咖啡因饮品的人，睡得更少\n- □ 饮用含咖啡因的饮品会让人睡得更多\n- □ 报道中，饮用更多含咖啡因饮品的人，睡得也更多\n- □ 这两个变量之间没有什么关系",
+              "user_state": {
+                "node_key": "59404929",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "-D3nyKUK1kY",
+                  "china_cdn_id": "-D3nyKUK1kY.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "25. 咖啡因",
+                "alt_text": "",
+                "background_image": "//lh3.ggpht.com/MRxaF8TFKmfEaUTHX0CZyDA08Xdd9K4NOzEv7JGLaEiPCsZZwgq7Ua5Ex3K50eLNnvs6uwf5nQSUD8tLJBI=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/59404929",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "59595435",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 0,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5282199710564399,
+                      "y": 0.5809768637532133
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5282199710564399,
+                      "y": 0.506426735218509
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5267727930535456,
+                      "y": 0.4267352185089974
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5267727930535456,
+                      "y": 0.3496143958868895
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "4",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5282199710564399,
+                      "y": 0.2750642673521851
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176654,
+          "key": "595394890923",
+          "title": "27. 英语教学",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "595394890923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174311,
+              "key": "59539489",
+              "title": "27. 英语教学",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 假设研究者调查了使用两种英语阅读教学方法（双语教学和只用英语教学）的有效性，调查对象为一所低收入小学中的以西班牙语为母语的英语学习者。研究者将三年级学生随意分配到两个组，每组只用一种教学方法。然后研究者记录阅读得分（阅读理解测试中的正确率）。在全英文教学组进行测试的当日，气温为舒适的 72℉（22℃），但是双语教学组进行测试那天的气温达到 100℉（38℃）。最后双语组的平均成绩为 55%，而全英语组的平均成绩为 70%。\n\n**在这个例子中，教学方法是：**\n\n- □ 自变量\n- □ 额外变量或潜在变量\n- □ 因变量\n- □ 定量变量\n- □ 预测变量",
+              "user_state": {
+                "node_key": "59539489",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "HmsNljRIsr4",
+                  "china_cdn_id": "HmsNljRIsr4.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "英语教学",
+                "alt_text": "",
+                "background_image": "//lh3.ggpht.com/ACKgpZnJ6uR-aiwSoDcyobO9QqUgfTHTY0LyhyH8rL5L_RnTO3xVkLcDPSYt-5DW5cpsMFwTWKNacjSSbD_p=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/59539489",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "56480596",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 0,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5890014471780028,
+                      "y": 0.38817480719794345
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5890014471780028,
+                      "y": 0.34704370179948585
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5890014471780028,
+                      "y": 0.3059125964010283
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5890014471780028,
+                      "y": 0.2647814910025707
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "4",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5890014471780028,
+                      "y": 0.2236503856041131
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176653,
+          "key": "2514367380923",
+          "title": "28. 阅读分数",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2514367380923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174312,
+              "key": "251436738",
+              "title": "28. 阅读分数",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 假设研究者调查了使用两种英语阅读教学方法（双语教学和只用英语教学）的有效性，调查对象为一所低收入小学中的以西班牙语为母语的英语学习者。研究者将三年级学生随意分配到两个组，每组只用一种教学方法。然后研究者记录阅读得分（阅读理解测试中的正确率）。在全英文教学组进行测试的当日，气温为舒适的 72℉（22℃），但是双语教学组进行测试那天的气温达到 100℉（38℃）。最后双语组的平均成绩为 55%，而全英语组的平均成绩为 70%。\n\n**在这个例子中，阅读得分是：**\n\n- □ 自变量\n- □ 额外变量或潜在变量\n- □ 因变量\n- □ 定量变量\n- □ 预测变量",
+              "user_state": {
+                "node_key": "251436738",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "28. 阅读分数",
+                "alt_text": null,
+                "background_image": "//lh3.ggpht.com/nDWnq_-zHvkDU7pCP7xe5UdQxANmsaaoD84wMgjaq8sxDpdX1bO-NS3zNApLnh-iCId7a2tLkRoecMJ6vdmR=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/251436738",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "56480597",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 0,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5600578871201157,
+                      "y": 0.38303341902313626
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5600578871201157,
+                      "y": 0.3444730077120823
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5600578871201157,
+                      "y": 0.3059125964010283
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5600578871201157,
+                      "y": 0.2647814910025707
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "4",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5600578871201157,
+                      "y": 0.2262210796915167
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176656,
+          "key": "2514367390923",
+          "title": "29. 高温",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2514367390923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174313,
+              "key": "251436739",
+              "title": "29. 高温",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 假设研究者调查了使用两种英语阅读教学方法（双语教学和只用英语教学）的有效性，调查对象为一所低收入小学中的以西班牙语为母语的英语学习者。研究者将三年级学生随意分配到两个组，每组只用一种教学方法。然后研究者记录阅读得分（阅读理解测试中的正确率）。在全英文教学组进行测试的当日，气温为舒适的 72℉（22℃），但是双语教学组进行测试那天的气温达到 100℉（38℃）。最后双语组的平均成绩为 55%，而全英语组的平均成绩为 70%。\n\n**在这个例子中，高温是：**\n\n- □ 自变量\n- □ 额外变量或潜在变量\n- □ 因变量\n- □ 定量变量\n- □ 预测变量",
+              "user_state": {
+                "node_key": "251436739",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "29. 高温",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/AVKLZ7sq9PJXFX7ZjkjKbtn218BGtCoc2nj8DTb5LCyrINVp6dSSZLAPl-DPvqpxgspjHN-qIwBga91nQw=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/251436739",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "56480598",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 0,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5904486251808972,
+                      "y": 0.3856041131105398
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5904486251808972,
+                      "y": 0.34704370179948585
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5904486251808972,
+                      "y": 0.30848329048843187
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5904486251808972,
+                      "y": 0.2699228791773779
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "4",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5904486251808972,
+                      "y": 0.22879177377892032
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176655,
+          "key": "2514367400923",
+          "title": "30. 教学方法",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2514367400923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174314,
+              "key": "251436740",
+              "title": "30. 教学方法",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 假设研究者调查了使用两种英语阅读教学方法（双语教学和只用英语教学）的有效性，调查对象为一所低收入小学中的以西班牙语为母语的英语学习者。研究者将三年级学生随意分配到两个组，每组只用一种教学方法。然后研究者记录阅读得分（阅读理解测试中的正确率）。在全英文教学组进行测试的当日，气温为舒适的 72℉（22℃），但是双语教学组进行测试那天的气温达到 100℉（38℃）。最后双语组的平均成绩为 55%，而全英语组的平均成绩为 70%。\n\n**在这个例子中，教学方法的可操作定义是：**\n\n- □ 阅读得分\n- □ 温度（单位为摄氏度）\n- □ 温度（单位为华氏度）\n- □ 阅读理解测试中的正确率\n- □ 双语教学 VS 只用英语教学\n- □ 三年级",
+              "user_state": {
+                "node_key": "251436740",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "30. 教学方法",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/7K8TXw_JyW3-zd8Sn9uKFIpNap9Yl0GFE6jREFPD-yNpHGx6qzBvSCAeE1U5WORNJiWmxarvhIq-CQ2antM=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/251436740",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "56480599",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 0,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5687409551374819,
+                      "y": 0.46272493573264784
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5687409551374819,
+                      "y": 0.4241645244215938
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5687409551374819,
+                      "y": 0.3856041131105398
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5687409551374819,
+                      "y": 0.34704370179948585
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "4",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5687409551374819,
+                      "y": 0.30848329048843187
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "5",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 5,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5687409551374819,
+                      "y": 0.2699228791773779
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176657,
+          "key": "2514367410923",
+          "title": "31. 阅读分数",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2514367410923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174315,
+              "key": "251436741",
+              "title": "31. 阅读分数",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 假设研究者调查了使用两种英语阅读教学方法（双语教学和只用英语教学）的有效性，调查对象为一所低收入小学中的以西班牙语为母语的英语学习者。研究者将三年级学生随意分配到两个组，每组只用一种教学方法。然后研究者记录阅读得分（阅读理解测试中的正确率）。在全英文教学组进行测试的当日，气温为舒适的 72℉（22℃），但是双语教学组进行测试那天的气温达到 100℉（38℃）。最后双语组的平均成绩为 55%，而全英语组的平均成绩为 70%。\n\n**在这个例子中，阅读分数的操作定义是：**\n\n- □ 阅读得分\n- □ 温度（单位为摄氏度）\n- □ 温度（单位为华氏度）\n- □ 阅读理解测试中的正确率\n- □ 双语教学 VS 只用英语教学\n- □ 三年级",
+              "user_state": {
+                "node_key": "251436741",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "31. 阅读分数",
+                "alt_text": "",
+                "background_image": "//lh6.ggpht.com/RcMknNI62-yO6d2SP9Aih7yl9F-77A3zSINH7CLs5pIy1rds5kD9J12D2VG-dU8dQEdM2ObsabdHjNxDVKRl=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/251436741",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "56480600",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 0,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5701881331403763,
+                      "y": 0.46272493573264784
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5701881331403763,
+                      "y": 0.42159383033419023
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5701881331403763,
+                      "y": 0.38303341902313626
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5701881331403763,
+                      "y": 0.34704370179948585
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "4",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5701881331403763,
+                      "y": 0.30848329048843187
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "5",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 5,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5701881331403763,
+                      "y": 0.2699228791773779
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176658,
+          "key": "2514367420923",
+          "title": "32. 哪一种教学方法更好？",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2514367420923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174316,
+              "key": "251436742",
+              "title": "32. 哪一种教学方法更好？",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 假设研究者调查了使用两种英语阅读教学方法（双语教学和只用英语教学）的有效性，调查对象为一所低收入小学中的以西班牙语为母语的英语学习者。研究者将三年级学生随意分配到两个组，每组只用一种教学方法。然后研究者记录阅读得分（阅读理解测试中的正确率）。在全英文教学组进行测试的当日，气温为舒适的 72℉（22℃），但是双语教学组进行测试那天的气温达到 100℉（38℃）。最后双语组的平均成绩为 55%，而全英语组的平均成绩为 70%。\n\n**你可以从研究中得出这样的结论吗：只用英语教学方法比双语教学方法更好？**\n\n- □ 可以。因为英语组在阅读测试中的得分更高。\n- □ 不可以。因为高温可能会影响双语组的在阅读测试中的得分。",
+              "user_state": {
+                "node_key": "251436742",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "32. 哪一种教学方法更好？",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/M32Hj2Eibgd5aT1UQg9kdJaTJD5pQA1X9s34ps6pUvBXea6x2SVRp_g-1kedkR9RVPHp3LTlXJChiF3Asg=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/251436742",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "56480601",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 0,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5600578871201157,
+                      "y": 0.43444730077120824
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5600578871201157,
+                      "y": 0.2802056555269923
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176659,
+          "key": "595394900923",
+          "title": "34. 地雷",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "595394900923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174317,
+              "key": "59539490",
+              "title": "34. 地雷",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## Poling、Weetjens、Cox、Beyene 和 Sully（2010 年）描述了培训非洲囊鼠用利用嗅觉探测地雷的方法。他们的培训方法是当囊鼠在装有 TNT（大多数地雷中使用的一种爆炸物）的小不锈钢球附近抓扒时，便奖励它们食物。当它们在未装有 TNT 的小不锈钢球附近抓扒时，便不会获得食物奖励。抓扒被视为“指示反应”。研究者们发现这个培训成功地教会了老鼠探测地里的真地雷，度量成功的标准为计算了清除了爆炸物的地的平方米数和发现的爆炸装置数量。\n\n**这个例子中的自变量是：**\n\n- □ 奖励正确指示反应和不奖励错误反应的训练过程\n- □ 清除了爆炸物的地的平方米数\n- □ 探测到的爆炸装置数量\n",
+              "user_state": {
+                "node_key": "59539490",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "8ScnVyC24s8",
+                  "china_cdn_id": "8ScnVyC24s8.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "34. 地雷",
+                "alt_text": null,
+                "background_image": "//lh3.ggpht.com/xDfTlz-PCB7he-cISDKgH3GvSJ_vjLlcQS6pSiy5fBk8k1jxmDZ5nKD8DhFitGsrqrXQWn0kUPPVGT5nYQ=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/59539490",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "56480603",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5206527288622652,
+                      "y": 0.44392372913424244
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5220850910711371,
+                      "y": 0.3643059056044729
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.520648672677729,
+                      "y": 0.20502658155331016
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176661,
+          "key": "2029002150923",
+          "title": "35. 地雷",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2029002150923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174318,
+              "key": "202900215",
+              "title": "35. 地雷",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## Poling、Weetjens、Cox、Beyene 和 Sully（2010 年）描述了培训非洲囊鼠用利用嗅觉探测地雷的方法。他们的培训方法是当囊鼠在装有 TNT（大多数地雷中使用的一种爆炸物）的小不锈钢球附近抓扒时，便奖励它们食物。当它们在未装有 TNT 的小不锈钢球附近抓扒时，便不会获得食物奖励。抓扒被视为“指示反应”。研究者们发现这个培训成功地教会了老鼠探测地里的真地雷，度量成功的标准为计算了清除了爆炸物的地的平方米数和发现的爆炸装置数量。\n\n**这个例子中的因变量是哪个／些：** \n\n- □ 奖励正确指示反应和不奖励错误反应的训练过程\n- □ 清除了爆炸物的平方米数\n- □ 探测到的爆炸装置数量",
+              "user_state": {
+                "node_key": "202900215",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "35. 地雷",
+                "alt_text": null,
+                "background_image": "//lh3.ggpht.com/AawOMIIlUnZHjm5Dcbhj16pH--HVRFTN6Ni2voabwoP9zFlP9lkcKdGzC5Mhs-MgnQ18S1clUdhNn_gnfjLP=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/202900215",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "202900216",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5241578013692005,
+                      "y": 0.528819176082746
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5228526358167125,
+                      "y": 0.3980378344306758
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5241660019161979,
+                      "y": 0.21793238763837067
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176660,
+          "key": "596901060923",
+          "title": "39. SAD",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "596901060923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174319,
+              "key": "59690106",
+              "title": "39. SAD",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 一些小型研究发现模拟曙光可以有效治疗季节性情绪失调症 (SAD)。近期的一项研究将此治疗方法与亮光疗法和安慰剂控制条件（Avery 等人，2001 年）做了比较。患有 SAD 的 95 个 SAD 患者被随机分到了以下三种条件中的一个：\n\n1.\t亮光疗法（10,000勒克斯 – 国际标准照明单位，持续 30 分钟，从上午 6:00 至 6:30），人数 n = 33\n2.\t曙光模拟（凌晨 4:30 至 6:00 一个半小时的曙光信号治疗，峰值 250勒克斯），人数 n = 31\n3.\t安慰剂条件：暗红光（从凌晨 4:30 到 6:00 一个半小时的曙光信号治疗，峰值 0.5勒克斯），人数 n = 31\n\n在之后的 6 周时间内，由一名精神病医生使用汉密尔顿抑郁量表结构性面试指南-季节性情绪失调症版本 (SIGH - SAD) 对这些研究对象进行盲评，可测量出研究对象的此种抑郁症的水平，分数在 0 到 89 之间，分数越高表明情况越严重。研究者报告相比安慰剂和亮光疗法，曙光模拟法的康复率更高。\n（来源：http://dx.doi.org/10.1016/S0006-3223(01)01200-8）\n\n**此研究中的自变量是什么？**\n\n- □ SAD 的严重程度\n- □ 光疗法的类型\n- □ 患者在 SIGH-SAD 中的得分。\n- □ 以勒克斯为单位的光的强度\n",
+              "user_state": {
+                "node_key": "59690106",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "tya_avP-hKc",
+                  "china_cdn_id": "tya_avP-hKc.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "SAD",
+                "alt_text": null,
+                "background_image": "//lh5.ggpht.com/6yWBqu6yZCQbSQQBi8cWS-2yXYFGMBoAEl7Ow9tF6gD_7VsgaNfu2oc-5ZNmIo1JWzx0cZDT3koMkXimqrlL=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/59690106",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "56480607",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 0,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6920680573246438,
+                      "y": 0.45695370490733883
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6922116991639846,
+                      "y": 0.34668443509613717
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6922116991639846,
+                      "y": 0.2721691741524271
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6922116991639846,
+                      "y": 0.19249297087353046
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176662,
+          "key": "2514367460923",
+          "title": "40. 随机分配",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2514367460923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174320,
+              "key": "251436746",
+              "title": "40. 随机分配",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 一些小型研究发现模拟曙光可以有效治疗季节性情绪失调症 (SAD)。近期的一项研究将此治疗方法与亮光疗法和安慰剂控制条件（Avery 等人，2001 年）做了比较。患有 SAD 的 95 个 SAD 患者被随机分到了以下三种条件中的一个：\n\n1.\t亮光疗法（10,000勒克斯 – 国际标准照明单位，持续 30 分钟，从上午 6:00 至 6:30），人数 n = 33\n2.\t曙光模拟（凌晨 4:30 至 6:00 一个半小时的曙光信号治疗，峰值 250勒克斯），人数 n = 31\n3.\t安慰剂条件：暗红光（从凌晨 4:30 到 6:00 一个半小时的曙光信号治疗，峰值 0.5勒克斯），人数 n = 31\n\n在之后的 6 周时间内，由一名精神病医生使用汉密尔顿抑郁量表结构性面试指南-季节性情绪失调症版本 (SIGH - SAD) 对这些研究对象进行盲评，可测量出研究对象的此种抑郁症的水平，分数在 0 到 89 之间，分数越高表明情况越严重。研究者报告相比安慰剂和亮光疗法，曙光模拟法的康复率更高。\n（来源：http://dx.doi.org/10.1016/S0006-3223(01)01200-8）\n\n**为什么研究者要将受试者随机分配到三种治疗条件下？**\n\n- □ 尽可能减少潜在变量的影响\n- □ 让总体中的每一个人都有平等机会参与此研究\n- □ 确保每个分组有相同数量的被试者\n- □ 确保最严重的 SAD 患者被分到亮光疗法条件\n",
+              "user_state": {
+                "node_key": "251436746",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "40. 随机分配",
+                "alt_text": null,
+                "background_image": "//lh4.ggpht.com/o05uTtdYLqk32vH9W0ehAjYStg2eNiP3339Vi49M6Gml7k4LFVNMXVUjhoLUgmdG8g7vo8PZ3O0YFP1EHlA=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/251436746",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "56480608",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 0,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6589752348953911,
+                      "y": 0.6165469132275236
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6589752348953911,
+                      "y": 0.49832835252612
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.66187699404151,
+                      "y": 0.3467136739798924
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6618687053165879,
+                      "y": 0.23617434391886724
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176663,
+          "key": "2514367470923",
+          "title": "41. 安慰剂控制条件",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2514367470923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174321,
+              "key": "251436747",
+              "title": "41. 安慰剂控制条件",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 一些小型研究发现模拟曙光可以有效治疗季节性情绪失调症 (SAD)。近期的一项研究将此治疗方法与亮光疗法和安慰剂控制条件（Avery 等人，2001 年）做了比较。患有 SAD 的 95 个 SAD 患者被随机分到了以下三种条件中的一个：\n\n1.\t亮光疗法（10,000勒克斯 – 国际标准照明单位，持续 30 分钟，从上午 6:00 至 6:30），人数 n = 33\n2.\t曙光模拟（凌晨 4:30 至 6:00 一个半小时的曙光信号治疗，峰值 250勒克斯），人数 n = 31\n3.\t安慰剂条件：暗红光（从凌晨 4:30 到 6:00 一个半小时的曙光信号治疗，峰值 0.5勒克斯），人数 n = 31\n\n在之后的 6 周时间内，由一名精神病医生使用汉密尔顿抑郁量表结构性面试指南-季节性情绪失调症版本 (SIGH - SAD) 对这些研究对象进行盲评，可测量出研究对象的此种抑郁症的水平，分数在 0 到 89 之间，分数越高表明情况越严重。研究者报告相比安慰剂和亮光疗法，曙光模拟法的康复率更高。\n（来源：http://dx.doi.org/10.1016/S0006-3223(01)01200-8）\n\n**安慰剂控制条件是什么？**\n\n- □ 没有患被研究的疾病的分组\n- □ 一个和治疗组所有方面都相同的分组\n- □ 认为自己患病，但实际上正常的人的分组\n- □  与治疗组相比，除了没有接受被研究的治疗疗法，其他方面都相同的组\n",
+              "user_state": {
+                "node_key": "251436747",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "41. 安慰剂控制条件",
+                "alt_text": null,
+                "background_image": "//lh3.ggpht.com/cCc2pKM9V4khjAGVkrrG1b1ERln1V91pjJYZkJ9hfpWNMA6B3OhlJAKnpvhI_QikottDKrZ95c0LYnaBmCo=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/251436747",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "56480609",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 0,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6589792910799275,
+                      "y": 0.5445646286437515
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6618810502260464,
+                      "y": 0.3878109638802092
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6618810502260464,
+                      "y": 0.27730815546882265
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6618810502260464,
+                      "y": 0.1590749704246222
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176664,
+          "key": "2514367480923",
+          "title": "42. 为何使用安慰剂？",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2514367480923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174322,
+              "key": "251436748",
+              "title": "42. 为何使用安慰剂？",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 一些小型研究发现模拟曙光可以有效治疗季节性情绪失调症 (SAD)。近期的一项研究将此治疗方法与亮光疗法和安慰剂控制条件（Avery 等人，2001 年）做了比较。患有 SAD 的 95 个 SAD 患者被随机分到了以下三种条件中的一个：\n\n1.\t亮光疗法（10,000勒克斯 – 国际标准照明单位，持续 30 分钟，从上午 6:00 至 6:30），人数 n = 33\n2.\t曙光模拟（凌晨 4:30 至 6:00 一个半小时的曙光信号治疗，峰值 250勒克斯），人数 n = 31\n3.\t安慰剂条件：暗红光（从凌晨 4:30 到 6:00 一个半小时的曙光信号治疗，峰值 0.5勒克斯），人数 n = 31\n\n在之后的 6 周时间内，由一名精神病医生使用汉密尔顿抑郁量表结构性面试指南-季节性情绪失调症版本 (SIGH - SAD) 对这些研究对象进行盲评，可测量出研究对象的此种抑郁症的水平，分数在 0 到 89 之间，分数越高表明情况越严重。研究者报告相比安慰剂和亮光疗法，曙光模拟法的康复率更高。\n（来源：http://dx.doi.org/10.1016/S0006-3223(01)01200-8）\n\n**安慰剂控制条件是什么？**\n\n- □ 为了添加一个健康的分组作为比较\n- □ 确保病人不是假装自己有病\n- □ 帮助识别出潜在变量（例如随时间自行康复）\n- □  确保有一组病人保持患病状态\n",
+              "user_state": {
+                "node_key": "251436748",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "42. 为何使用安慰剂？",
+                "alt_text": null,
+                "background_image": "//lh5.ggpht.com/ynFdbFuaQzprvLus4fVkVpFyYEHX7LIqyJHukOy4sY93TtmsC9ECaPUHbfkI60T9hNKvHWXFLLeRqh5-ayU=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/251436748",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "56480610",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 0,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6502987916384121,
+                      "y": 0.583143502814978
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6502987916384121,
+                      "y": 0.43151423913330694
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6517434987567424,
+                      "y": 0.31071156098044916
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6517434987567424,
+                      "y": 0.19763198649636018
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176666,
+          "key": "2514367490923",
+          "title": "43. 测量抽象概念",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2514367490923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174323,
+              "key": "251436749",
+              "title": "43. 度量抽象概念",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 一些小型研究发现模拟曙光可以有效治疗季节性情绪失调症 (SAD)。近期的一项研究将此治疗方法与亮光疗法和安慰剂控制条件（Avery 等人，2001 年）做了比较。患有 SAD 的 95 个 SAD 患者被随机分到了以下三种条件中的一个：\n\n1.\t亮光疗法（10,000勒克斯 – 国际标准照明单位，持续 30 分钟，从上午 6:00 至 6:30），人数 n = 33\n2.\t曙光模拟（凌晨 4:30 至 6:00 一个半小时的曙光信号治疗，峰值 250勒克斯），人数 n = 31\n3.\t安慰剂条件：暗红光（从凌晨 4:30 到 6:00 一个半小时的曙光信号治疗，峰值 0.5勒克斯），人数 n = 31\n\n在之后的 6 周时间内，由一名精神病医生使用汉密尔顿抑郁量表结构性面试指南-季节性情绪失调症版本 (SIGH - SAD) 对这些研究对象进行盲评，可测量出研究对象的此种抑郁症的水平，分数在 0 到 89 之间，分数越高表明情况越严重。研究者报告相比安慰剂和亮光疗法，曙光模拟法的康复率更高。\n（来源：http://dx.doi.org/10.1016/S0006-3223(01)01200-8）\n\n**“亮光疗法”和“曙光模拟”的可操作定义有何不同？**\n\n- □ 两者没有什么实质上的区别。\n- □ “曙光模拟”的光照强度更低，持续时间更长，每天的治疗时间更早。\n- □ 参与“曙光模拟”的病人的 SIGH - SAD 得分应该更高。\n- □  “亮光疗法”应该有效，而“曙光模拟”无效。\n",
+              "user_state": {
+                "node_key": "251436749",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "43. 度量抽象概念",
+                "alt_text": null,
+                "background_image": "//lh4.ggpht.com/5TxNH4jefNnYUE9L4zGUQZy8J68O_Nq3PHyKeKBi9oL5MQjk6ooUB0_x5YjkaeQbDfpHVOgWWI-O86vM8q8=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/251436749",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "56480611",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 0,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6517598998507371,
+                      "y": 0.6602429204174955
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6517598998507371,
+                      "y": 0.5420170279410168
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.65319640642207,
+                      "y": 0.39038043248427073
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6546411135404003,
+                      "y": 0.2747605743697646
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176667,
+          "key": "2514367500923",
+          "title": "44. 参与者",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2514367500923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174325,
+              "key": "251436750",
+              "title": "44. 参与者",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 一些小型研究发现模拟曙光可以有效治疗季节性情绪失调症 (SAD)。近期的一项研究将此治疗方法与亮光疗法和安慰剂控制条件（Avery 等人，2001 年）做了比较。患有 SAD 的 95 个 SAD 患者被随机分到了以下三种条件中的一个：\n\n1.\t亮光疗法（10,000勒克斯 – 国际标准照明单位，持续 30 分钟，从上午 6:00 至 6:30），人数 n = 33\n2.\t曙光模拟（凌晨 4:30 至 6:00 一个半小时的曙光信号治疗，峰值 250勒克斯），人数 n = 31\n3.\t安慰剂条件：暗红光（从凌晨 4:30 到 6:00 一个半小时的曙光信号治疗，峰值 0.5勒克斯），人数 n = 31\n\n在之后的 6 周时间内，由一名精神病医生使用汉密尔顿抑郁量表结构性面试指南-季节性情绪失调症版本 (SIGH - SAD) 对这些研究对象进行盲评，可测量出研究对象的此种抑郁症的水平，分数在 0 到 89 之间，分数越高表明情况越严重。研究者报告相比安慰剂和亮光疗法，曙光模拟法的康复率更高。\n（来源：http://dx.doi.org/10.1016/S0006-3223(01)01200-8）\n\n**试验中的95个受试者可以被看作：**\n\n- □ 样本\n- □ 统计量\n- □ 参数\n- □ 总体",
+              "user_state": {
+                "node_key": "251436750",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "44. 参与者",
+                "alt_text": null,
+                "background_image": "//lh3.ggpht.com/fihCIedy8-tevlXGjNuCILSut2PwZY1VIHbZ30kbqiwj2QZNGLzEuNyxWdU1BVshpmUY2ezYG8mme3ASuw=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/251436750",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "56480612",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 0,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.669088184723703,
+                      "y": 0.42891554634824774
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.669088184723703,
+                      "y": 0.35696973930584164
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6676434776053727,
+                      "y": 0.2773154529374635
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6676434776053727,
+                      "y": 0.20533315365093388
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176665,
+          "key": "2514367510923",
+          "title": "45. 比例如何？",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2514367510923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174324,
+              "key": "251436751",
+              "title": "45. 比例是多少？",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 一些小型研究发现模拟曙光可以有效治疗季节性情绪失调症 (SAD)。近期的一项研究将此治疗方法与亮光疗法和安慰剂控制条件（Avery 等人，2001 年）做了比较。患有 SAD 的 95 个 SAD 患者被随机分到了以下三种条件中的一个：\n\n1.\t亮光疗法（10,000勒克斯 – 国际标准照明单位，持续 30 分钟，从上午 6:00 至 6:30），人数 n = 33\n2.\t曙光模拟（凌晨 4:30 至 6:00 一个半小时的曙光信号治疗，峰值 250勒克斯），人数 n = 31\n3.\t安慰剂条件：暗红光（从凌晨 4:30 到 6:00 一个半小时的曙光信号治疗，峰值 0.5勒克斯），人数 n = 31\n\n在之后的 6 周时间内，由一名精神病医生使用汉密尔顿抑郁量表结构性面试指南-季节性情绪失调症版本 (SIGH - SAD) 对这些研究对象进行盲评，可测量出研究对象的此种抑郁症的水平，分数在 0 到 89 之间，分数越高表明情况越严重。研究者报告相比安慰剂和亮光疗法，曙光模拟法的康复率更高。\n（来源：http://dx.doi.org/10.1016/S0006-3223(01)01200-8）\n\n**接受亮光疗法的受试者比例大概是多少**\n\n- □ 0.33\n- □ 0.35\n- □ 1.00\n",
+              "user_state": {
+                "node_key": "251436751",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "45. 比例是多少？",
+                "alt_text": null,
+                "background_image": "//lh4.ggpht.com/AQKslsARUYV-uuKj0kMvBEx_DVvaQv228mu4dzNY6QwcuIKQj8UtjgRaBdjkvBaZk2uXKVL6GDtw_A2tFg=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/251436751",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "56480613",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 0,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.7196611344122598,
+                      "y": 0.3852487682401927
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.7182164272939295,
+                      "y": 0.31073346808912927
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.7167717201755992,
+                      "y": 0.2336267775225667
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176668,
+          "key": "2514367520923",
+          "title": "46. 单盲/双盲研究",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2514367520923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174326,
+              "key": "251436752",
+              "title": "46. 单盲/双盲研究",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 一些小型研究发现模拟曙光可以有效治疗季节性情绪失调症 (SAD)。近期的一项研究将此治疗方法与亮光疗法和安慰剂控制条件（Avery 等人，2001 年）做了比较。患有 SAD 的 95 个 SAD 患者被随机分到了以下三种条件中的一个：\n\n1.\t亮光疗法（10,000勒克斯 – 国际标准照明单位，持续 30 分钟，从上午 6:00 至 6:30），人数 n = 33\n2.\t曙光模拟（凌晨 4:30 至 6:00 一个半小时的曙光信号治疗，峰值 250勒克斯），人数 n = 31\n3.\t安慰剂条件：暗红光（从凌晨 4:30 到 6:00 一个半小时的曙光信号治疗，峰值 0.5勒克斯），人数 n = 31\n\n在之后的 6 周时间内，由一名精神病医生使用汉密尔顿抑郁量表结构性面试指南-季节性情绪失调症版本 (SIGH - SAD) 对这些研究对象进行盲评，可测量出研究对象的此种抑郁症的水平，分数在 0 到 89 之间，分数越高表明情况越严重。研究者报告相比安慰剂和亮光疗法，曙光模拟法的康复率更高。\n（来源：http://dx.doi.org/10.1016/S0006-3223(01)01200-8）\n\n**受试者接受精神病医生的盲评，这里盲评是什么意思？**\n\n- □ 精神病医生不可以看到受试者\n- □ 精神病医生的视力不好\n- □ 精神病医生不知受试者接受的是哪一种疗法。\n- □ 受试者不知道自己接受的是哪一种疗法。",
+              "user_state": {
+                "node_key": "251436752",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "46. 单盲/双盲研究",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/MGbMti9kjsBU3GNPDfFxogBUK9URsgbyvG-5SthHLLYZOiDFyJw980O6dAJVgkCtS7fBB2JH4wXfXNNBHQI=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/251436752",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "56480615",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 0,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6734305066256911,
+                      "y": 0.6191018212007376
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6734305066256911,
+                      "y": 0.4674725575190665
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6748752137440214,
+                      "y": 0.3569843538468001
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6748752137440214,
+                      "y": 0.2361816756939423
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176669,
+          "key": "2514367530923",
+          "title": "47. 因果关系？",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2514367530923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174327,
+              "key": "251436753",
+              "title": "47. 因果关系？",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 一些小型研究发现模拟曙光可以有效治疗季节性情绪失调症 (SAD)。近期的一项研究将此治疗方法与亮光疗法和安慰剂控制条件（Avery 等人，2001 年）做了比较。患有 SAD 的 95 个 SAD 患者被随机分到了以下三种条件中的一个：\n\n1.\t亮光疗法（10,000勒克斯 – 国际标准照明单位，持续 30 分钟，从上午 6:00 至 6:30），人数 n = 33\n2.\t曙光模拟（凌晨 4:30 至 6:00 一个半小时的曙光信号治疗，峰值 250勒克斯），人数 n = 31\n3.\t安慰剂条件：暗红光（从凌晨 4:30 到 6:00 一个半小时的曙光信号治疗，峰值 0.5勒克斯），人数 n = 31\n\n在之后的 6 周时间内，由一名精神病医生使用汉密尔顿抑郁量表结构性面试指南-季节性情绪失调症版本 (SIGH - SAD) 对这些研究对象进行盲评，可测量出研究对象的此种抑郁症的水平，分数在 0 到 89 之间，分数越高表明情况越严重。研究者报告相比安慰剂和亮光疗法，曙光模拟法的康复率更高。\n（来源：http://dx.doi.org/10.1016/S0006-3223(01)01200-8）\n\n**试验结果是否可以证明曙光疗法导致抑郁水平降低**\n\n- □ 可以，经过精心设计和控制的试验可以得出因果关系的结论。\n- □ 可以，相关关系能够推出因果关系。\n- □ 不可以，经过精心设计和控制的试验也不可以得出因果关系的结论。\n- □ 不可以，其他分组接受了不同疗法。",
+              "user_state": {
+                "node_key": "251436753",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "47. 因果关系？",
+                "alt_text": null,
+                "background_image": "//lh3.ggpht.com/q8ytaA26rTzWfByXMfpGaKSgmtd79TFDtqOyV8_yKdlcx5CjtUZE8xYuHHoZmHP5tUuyOvT1-_PBbBEJn-E=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/251436753",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "56480616",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 0,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6763157764998906,
+                      "y": 0.6602502423907323
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6777604836182209,
+                      "y": 0.5111903934030119
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6777604836182209,
+                      "y": 0.39552674067482213
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6777604836182209,
+                      "y": 0.23878036847900153
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176671,
+          "key": "2027219170923",
+          "title": "48. 抑郁症",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2027219170923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174328,
+              "key": "202721917",
+              "title": "48. 抑郁症",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 研究：\nBlumenthal 和同事（1999年）比较了三种为诊断为患有冠心病和抑郁症状的患者治疗抑郁症的方案。参与者（n = 101）被随机分配到了三个组中。一组服用了药物舍曲林；另一组每周进行三次有氧运动；第三组服用了安慰剂药片。在四个月后，使用汉密尔顿忧郁分级量表对各组的抑郁严重性进行了衡量。\n\n## 结果：\n运动组的抑郁严重性降低程度最大。舍曲林组的抑郁水平降低程度较安慰剂组较大。安慰剂组的抑郁水平得分没有变化。\n\n**对于这个研究的下面两个结论哪个是对的？**\n\n- □ 这个研究为实验性研究，因此我们可以对安慰剂相比运动和舍曲林的有效性得出因果结论。\n- □ 这是一项观察性研究，因此我们不可以对安慰剂相比运动和舍曲林的有效性得出因果结论。\n",
+              "user_state": {
+                "node_key": "202721917",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "48. 抑郁症",
+                "alt_text": null,
+                "background_image": "//lh4.ggpht.com/G9F-MIQpoY4naVEOxE2APBZXK3Pw_cD1DT7WVIPoY2sMySGd8UU4w1sLzSmw0GxwHMXJmvf-mNMDYNiZCWNm=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/202721917",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "202721918",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5560808995383086,
+                      "y": 0.4365802310605362
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5546361924199783,
+                      "y": 0.17963092019480023
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176670,
+          "key": "2027219190923",
+          "title": "49. 抑郁症",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2027219190923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174329,
+              "key": "202721919",
+              "title": "49. 抑郁症",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 研究：\nBlumenthal 和同事（1999年）比较了三种为诊断为患有冠心病和抑郁症状的患者治疗抑郁症的方案。参与者（n = 101）被随机分配到了三个组中。一组服用了药物舍曲林；另一组每周进行三次有氧运动；第三组服用了安慰剂药片。在四个月后，使用汉密尔顿忧郁分级量表对各组的抑郁严重性进行了衡量。\n\n## 结果：\n运动组的抑郁严重性降低程度最大。舍曲林组的抑郁水平降低程度较安慰剂组较大。安慰剂组的抑郁水平得分没有变化。\n\n**自变量是？**\n\n- □ 汉密尔顿忧郁分级量表得分。\n- □ 疗法类型（运动，舍曲林或安慰剂）\n- □ 测量疗法效果之前经过的时间。\n- □ 冠心病\n\n**因变量是？**\n\n- □ 汉密尔顿忧郁分级量表得分。\n- □ 疗法类型（运动，舍曲林或安慰剂）\n- □ 测量疗法效果之前经过的时间。\n- □ 冠心病\n",
+              "user_state": {
+                "node_key": "202721919",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "49. 抑郁症",
+                "alt_text": null,
+                "background_image": "//lh5.ggpht.com/hrXnLteRwseLAstijrQuPgnPwq9YDCpaFK9uziVIUphiw_lVzUua3fjwUSy1v4eae2R3bSEMMZE24fczNMU=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/202721919",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "202721920",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5127396859884006,
+                      "y": 0.42630225862590676
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5127396859884006,
+                      "y": 0.3415089860402139
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5127396859884006,
+                      "y": 0.2592852065631784
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5141843931067308,
+                      "y": 0.1693529477601708
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "4",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 5,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5127396859884006,
+                      "y": 0.8939500044015461
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "5",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 6,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5127396859884006,
+                      "y": 0.8117262249245106
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "6",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 7,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5127396859884006,
+                      "y": 0.7243634592301604
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "7",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 8,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5127396859884006,
+                      "y": 0.6421396797531249
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176672,
+          "key": "2027219210923",
+          "title": "50. 抑郁症",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2027219210923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174330,
+              "key": "202721921",
+              "title": "50. 抑郁症",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 研究：\nBlumenthal 和同事（1999年）比较了三种为诊断为患有冠心病和抑郁症状的患者治疗抑郁症的方案。参与者（n = 101）被随机分配到了三个组中。一组服用了药物舍曲林；另一组每周进行三次有氧运动；第三组服用了安慰剂药片。在四个月后，使用汉密尔顿忧郁分级量表对各组的抑郁严重性进行了衡量。\n\n## 结果：\n运动组的抑郁严重性降低程度最大。舍曲林组的抑郁水平降低程度较安慰剂组较大。安慰剂组的抑郁水平得分没有变化。\n\n**对于这项研究，哪一项是正确的？选择所有适用的选项。**\n\n- □ 治疗抑郁方面，运动和舍曲林并不比安慰剂更加有效。\n- □ 治疗抑郁方面，运动和舍曲林比安慰剂更加有效。\n- □ 抑郁程度由汉密尔顿忧郁分级量表进行可操作定义。\n- □ 运动的可操作定义是受试者每周进行三次有氧运动。\n",
+              "user_state": {
+                "node_key": "202721921",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "50. 抑郁症",
+                "alt_text": null,
+                "background_image": "//lh5.ggpht.com/gT2qYRNr7S9wPvMUz_4KW4JXeF9BggTz3_qzSexpLbOHppmkRPQcmjv7DBNjpD9xlr4zu2oZP0DPD4agQyGO=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/202721921",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "202721922",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.46795376532016225,
+                      "y": 0.5984582969059498
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.46795376532016225,
+                      "y": 0.46741414836442446
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.46795376532016225,
+                      "y": 0.3415089860402139
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.46768283864651294,
+                      "y": 0.2125379263066759
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    }
+  ]
+}

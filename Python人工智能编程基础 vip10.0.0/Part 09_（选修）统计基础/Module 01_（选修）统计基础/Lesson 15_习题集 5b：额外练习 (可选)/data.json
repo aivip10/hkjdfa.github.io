@@ -1,0 +1,807 @@
+{
+  "data": {
+    "lesson": {
+      "id": 178219,
+      "key": "4582174182",
+      "title": "习题集 5b：额外练习 (可选)",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "zh-cn",
+      "summary": "通过额外练习熟悉归一化概念。",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": null,
+      "resources": {
+        "files": [],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 176816,
+          "key": "2515351810923",
+          "title": "7. 均值和标准偏差",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2515351810923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174544,
+              "key": "251535181",
+              "title": "7. 均值和标准偏差",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 请计算均值和标准偏差。\n\n下载[IQ 分数](https://s3.cn-north-1.amazonaws.com.cn/static-documents/nd002/IQ+scores+Problem+Set+5.xlsx)数据集，其中包括70个IQ分数，我们将其视为总体。\n\n提示：要找到标准偏差，从 B 列均值 (=a1-[mean]) 和 C 列平方偏差 (=b1^2) 计算偏差，然后计算平均平方偏差 (=average(c1:c70)) ——这是方差，然后取平方根获得标准偏差。",
+              "user_state": {
+                "node_key": "251535181",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "7. 均值和标准偏差",
+                "alt_text": null,
+                "background_image": "//lh3.ggpht.com/0Tjfy_TfTP4JoYs2YhWgqWdWTtWBaXqz-CEHjQLKlJY9OOOvbetY0veUYRWvAZYP7L7XxqSpteyd1rI0Og=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/251535181",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "81459580",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.28013029315960913,
+                      "y": 0.2915057915057915
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.33984799131378934,
+                      "y": 0.5637065637065637
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176812,
+          "key": "2515351820923",
+          "title": "8. IQ 125",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2515351820923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174540,
+              "key": "251535182",
+              "title": "8. IQ 125",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## IQ＝125 是均值的多少个标准方差以上？（换句话说，IQ＝125 的 Z-值是多少？）\n\n下载[IQ 分数](https://s3.cn-north-1.amazonaws.com.cn/static-documents/nd002/IQ+scores+Problem+Set+5.xlsx)数据集，其中包括70个IQ分数，我们将其视为总体。",
+              "user_state": {
+                "node_key": "251535182",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "8. IQ 125",
+                "alt_text": null,
+                "background_image": "//lh4.ggpht.com/a2E-4yZusvkumkXcHuX0etDv_a9nbBRHmhf4fKnMbIN13WX9-EP7gajHOoud7dK0NuaJiesw_BnySDCK70s=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/251535182",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "81459581",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06756756756756757,
+                      "width": 0.1563517915309446,
+                      "x": 0.252985884907709,
+                      "y": 0.5173745173745173
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176813,
+          "key": "2515351830923",
+          "title": "9. IQ 150",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2515351830923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174541,
+              "key": "251535183",
+              "title": "9. IQ 150",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## IQ＝150 是均值的多少个标准方差以上？（换句话说，IQ＝150 的 Z-值是多少？）\n\n下载[IQ 分数](https://s3.cn-north-1.amazonaws.com.cn/static-documents/nd002/IQ+scores+Problem+Set+5.xlsx)数据集，其中包括70个IQ分数，我们将其视为总体。\n",
+              "user_state": {
+                "node_key": "251535183",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "9. IQ 150",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/_aaC56nqAAwWWkeGZi6kbRZo08DjpEjkcFuxSEqxi5VAYi3qX3h4QD3FjuqzMbrRcOVFDP8_kuu76bW7i4Lp=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/251535183",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "81459582",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.26601520086862107,
+                      "y": 0.5193050193050193
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176814,
+          "key": "2515351880923",
+          "title": "14. 圣何塞州立大学 (SJSU) 橄榄球队",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2515351880923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174542,
+              "key": "251535188",
+              "title": "14. 圣何塞州立大学 (SJSU) 橄榄球队",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 圣何塞州立大学 (SJSU) 橄榄球队在上个赛季进行了12场比赛（N＝12），每场比赛的平均得分为24.5分，标准偏差为9.5。在新赛季的第一场比赛中，他们得了33分，与上赛季比较，这场比赛的得分：\n\n- □ 远高于上赛季平均分\n- □ 稍稍高于上赛季平均分\n- □ 高于上赛季平均分，但无法得知高出多少\n- □ 没有足够的信息让我们把这场比赛的得分与上赛季比较",
+              "user_state": {
+                "node_key": "251535188",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "14. 圣何塞州立大学 (SJSU) 足球队",
+                "alt_text": null,
+                "background_image": "//lh5.ggpht.com/WRmRs-pLjd3Zo--ZGTHH71_p9X4QraRHMC8sFo-ecT2wzEJ5aaclMewleeKNR3lcyqvJEf_lXx0yh9wI68E=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/251535188",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "102415392",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.24104234527687296,
+                      "y": 0.5
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.24321389793702497,
+                      "y": 0.581081081081081
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.24538545059717698,
+                      "y": 0.667953667953668
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.247557003257329,
+                      "y": 0.752895752895753
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176815,
+          "key": "2515351920923",
+          "title": "18. 离均值最远",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2515351920923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174543,
+              "key": "251535192",
+              "title": "18. 离均值最远",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 下面哪一个Z值离均值最远？\n\n- □ ＋0.10\n- □ －0.02\n- □ ＋2.00\n- □ －1.75\n- □ ＋0.05",
+              "user_state": {
+                "node_key": "251535192",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "18. 离均值最远",
+                "alt_text": null,
+                "background_image": "//lh4.ggpht.com/XDCGlTo4b_0emfj44EAkSQ2sqtBj3638thX3qJxxD7lXAnjMW_7tnoc2KwHEUqbR5R-4CmLC_DBJb4u65aU=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/251535192",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "102415396",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.2920738327904452,
+                      "y": 0.5424710424710425
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.2920738327904452,
+                      "y": 0.46525096525096526
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.2909880564603692,
+                      "y": 0.4034749034749035
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.2909880564603692,
+                      "y": 0.33783783783783783
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "4",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 5,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.2909880564603692,
+                      "y": 0.27606177606177607
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176818,
+          "key": "2515351940923",
+          "title": "20. BBC - 睡眠",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2515351940923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174546,
+              "key": "251535194",
+              "title": "20. BBC - 睡眠",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## BBC睡眠与记忆研究\n\n截止2013年2月19日，1146名优达学城学员输入了他们在 BBC 睡眠与记忆研究中的得分（可在下方下载原数据，但对回答本题不是必须的）。假设睡眠时间、识别得分和短时记忆得分均为正态分布，如果你的睡眠时间为8小时，你的 Z-值是多少？\n\n[BBC 数据下载](https://s3.cn-north-1.amazonaws.com.cn/static-documents/nd002/BBC+Results+-+Lesson+1.xlsx)（对回答此问题不是必须的）",
+              "user_state": {
+                "node_key": "251535194",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "20. BBC - 睡眠",
+                "alt_text": null,
+                "background_image": "//lh3.ggpht.com/SWIuo-hRN-hMbPWyp5mpRSjjxseNBCKw65UcdnRW5Tk69PH3HF9gJyFx9bX7P28AoBjbEJmK0w8cjtlHsjHL=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/251535194",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "102415398",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.6688382193268186,
+                      "y": 0.6583011583011583
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176817,
+          "key": "2515351950923",
+          "title": "21. BBC - 识别",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2515351950923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174545,
+              "key": "251535195",
+              "title": "21. BBC - 识别",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## BBC睡眠与记忆研究\n\n截止2013年2月19日，1146名优达学城学员输入了他们在 BBC 睡眠与记忆研究中的得分（可在下方下载原数据，但对回答本题不是必须的）。假设睡眠时间、识别得分和短时记忆得分均为正态分布，如果你的识别得分为92%，你的 Z-值是多少？\n\n[BBC 数据下载](https://s3.cn-north-1.amazonaws.com.cn/static-documents/nd002/BBC+Results+-+Lesson+1.xlsx)（对回答此问题不是必须的）",
+              "user_state": {
+                "node_key": "251535195",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "21. BBC - 认出",
+                "alt_text": null,
+                "background_image": "//lh4.ggpht.com/dYax01hxRWpp9rxKQnEc-x75W24GZI__uOiz6kNLKtstrWZ0PhmdBfYClNVc2aPNQRg2hffM5l5V7q1oR4EZ=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/251535195",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "102415399",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.6655808903365906,
+                      "y": 0.6853281853281853
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176819,
+          "key": "2515351960923",
+          "title": "22. BBC - 短时",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2515351960923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174547,
+              "key": "251535196",
+              "title": "22. BBC - 短时",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## BBC睡眠与记忆研究\n\n截止2013年2月19日，1146名优达学城学员输入了他们在 BBC 睡眠与记忆研究中的得分（可在下方下载原数据，但对回答本题不是必须的）。假设睡眠时间、识别得分和短时记忆得分均为正态分布，如果你的短时记忆得分为92%，你的 Z-值是多少？\n\n[BBC 数据下载](https://s3.cn-north-1.amazonaws.com.cn/static-documents/nd002/BBC+Results+-+Lesson+1.xlsx)（对回答此问题不是必须的）",
+              "user_state": {
+                "node_key": "251535196",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "22. BBC - 暂时",
+                "alt_text": null,
+                "background_image": "//lh3.ggpht.com/kjlT4dVFE51WAV-0Y74iJvJH2aPXROe043ZjiktQ9b2xZ1P46mHMLGE5syNgcl4D184upvI0fzeKJKYUaNY=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/251535196",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "102415400",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.6634093376764386,
+                      "y": 0.6853281853281853
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176821,
+          "key": "2515351970923",
+          "title": "23. BBC - 分数是多少？",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2515351970923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174548,
+              "key": "251535197",
+              "title": "23. BBC - 分数是多少？",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## BBC睡眠与记忆研究\n\n截止2013年2月19日，1146名优达学城学员输入了他们在 BBC 睡眠与记忆研究中的得分（可在下方下载原数据，但对回答本题不是必须的）。假设睡眠时间、识别得分和短时记忆得分均为正态分布，如果一个人的识别得分在均值的1.2个标准方差以下，他的识别得分是多少？\n\n[BBC 数据下载](https://s3.cn-north-1.amazonaws.com.cn/static-documents/nd002/BBC+Results+-+Lesson+1.xlsx)（对回答此问题不是必须的）",
+              "user_state": {
+                "node_key": "251535197",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "23. BBC - 分数是多少？",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/6pMzask3PPg0y1fUXr1qr9ocfCXCyDVPVJMDZDWy1FtLeLwITeZ5fB9wYh3HwS3udn9dlu2LP5OXLUfLDA=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/251535197",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "102415401",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.07317073170731707,
+                      "width": 0.11346633416458853,
+                      "x": 0.6373507057546145,
+                      "y": 0.8223938223938224
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    }
+  ]
+}

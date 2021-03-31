@@ -1,0 +1,2542 @@
+{
+  "data": {
+    "lesson": {
+      "id": 178224,
+      "key": "4590858858",
+      "title": "第 8 课：估计",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "zh-cn",
+      "summary": "学习如何使用置信区间估计总体参数，并估计某种处理的效果。",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": null,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/4590858858/178224/1544465660799/%E7%AC%AC+8+%E8%AF%BE%EF%BC%9A%E4%BC%B0%E8%AE%A1+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/4590858858/178224/1544465647484/%E7%AC%AC+8+%E8%AF%BE%EF%BC%9A%E4%BC%B0%E8%AE%A1+Subtitles.zip"
+          },
+          {
+            "name": "Lesson8.pdf",
+            "uri": "https://video.udacity-data.com/topher/2017/May/591925b4_lesson8/lesson8.pdf"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 176917,
+          "key": "1260047770923",
+          "title": "概述",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1260047770923",
+            "completed_at": "2019-02-25T14:39:53.464Z",
+            "last_viewed_at": "2019-07-16T14:32:28.454Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174647,
+              "key": "126004777",
+              "title": "总结",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "51hx5u2EMZA",
+                "china_cdn_id": "51hx5u2EMZA.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 176919,
+          "key": "1261316940923",
+          "title": "所处理的总体的均值",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1261316940923",
+            "completed_at": "2019-02-25T14:43:27.938Z",
+            "last_viewed_at": "2019-07-16T14:34:41.104Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174648,
+              "key": "126131694",
+              "title": "所处理的总体的均值",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 如果 Klout 总体中的每个人都开始使用 Bieber Tweeter，Klout 均值分数最可能是多少？（先大胆猜猜~）\n\n- □ 30\n- □ 37.72\n- □ 40\n- □ 60",
+              "user_state": {
+                "node_key": "126131694",
+                "completed_at": "2019-02-25T14:44:12.537Z",
+                "last_viewed_at": "2019-03-04T17:23:55.416Z",
+                "unstructured": "{\"0\":false,\"1\":false,\"2\":true,\"3\":false}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "jC4--44m3-I",
+                  "china_cdn_id": "jC4--44m3-I.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "所处理的总体的均值",
+                "alt_text": "",
+                "background_image": "//lh4.ggpht.com/-WzrF00fxpckwcZek3w7IV-zoZn9EOFmFoBdWZ7HfkDjvw5js-eYCQbNXH5x4mqTSVUKKwaknZvk6lDWO-o=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/126131694",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "126004778",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.8175895765472313,
+                      "y": 0.6505791505791506
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.8186753528773073,
+                      "y": 0.6988416988416989
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.8208469055374593,
+                      "y": 0.752895752895753
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.8230184581976113,
+                      "y": 0.7972972972972973
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "ecy3VY8eNGM",
+                  "china_cdn_id": "ecy3VY8eNGM.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176920,
+          "key": "1261316950923",
+          "title": "总体均值和样本均值",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1261316950923",
+            "completed_at": "2019-02-25T14:45:30.368Z",
+            "last_viewed_at": "2019-07-16T14:39:23.147Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174649,
+              "key": "126131695",
+              "title": "总体均值和样本均值",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "##第二个问题，如果每个人都开始使用 Bieber Twitter，你认为该均值会正好等于 40 吗？\n\n- □ 是\n- □ 否",
+              "user_state": {
+                "node_key": "126131695",
+                "completed_at": "2019-02-25T15:27:35.625Z",
+                "last_viewed_at": "2019-03-04T17:25:24.929Z",
+                "unstructured": "{\"0\":true,\"1\":false}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "dsje3j3gn_s",
+                  "china_cdn_id": "dsje3j3gn_s.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "总体均值和样本均值",
+                "alt_text": "",
+                "background_image": "//lh6.ggpht.com/wObTGmzqE0IzVTzVGCHSGILY5i7r_86yT1qrU98dEgrauZxedrnNtXmJGB6doVJYcOzFXxDO1pEqBtg1Ew=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/126131695",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "126004781",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.8002171552660152,
+                      "y": 0.37258687258687256
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.7958740499457112,
+                      "y": 0.3030888030888031
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "DM1zSW5aoCc",
+                  "china_cdn_id": "DM1zSW5aoCc.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176922,
+          "key": "1261316960923",
+          "title": "样本均值的百分比",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1261316960923",
+            "completed_at": "2019-02-25T15:29:18.556Z",
+            "last_viewed_at": "2019-07-16T14:43:46.880Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174650,
+              "key": "126131696",
+              "title": "样本均值的百分比",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 大约有多少百分比的样本均值会落在距离总体均值的多少距离内？",
+              "user_state": {
+                "node_key": "126131696",
+                "completed_at": "2019-02-25T15:29:58.415Z",
+                "last_viewed_at": "2019-03-04T17:29:35.373Z",
+                "unstructured": "{\"0\":false,\"1\":false,\"2\":false,\"3\":true}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "kuTOS0wZJd4",
+                  "china_cdn_id": "kuTOS0wZJd4.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "样本均值的百分比",
+                "alt_text": "",
+                "background_image": "//lh5.ggpht.com/Zh9UYXszQjxFYMN4HqikQUvbAOdzAYX7Eg6ys9tePycGF9pLfiXMwSAg98R8QtyfUMmDC72eSxoOxXSs2fci=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/126131696",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "126004784",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.7937024972855592,
+                      "y": 0.5965250965250966
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.7915309446254072,
+                      "y": 0.6583011583011583
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.7937024972855592,
+                      "y": 0.7200772200772201
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.7937024972855592,
+                      "y": 0.777992277992278
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "AocpFl2wt6k",
+                  "china_cdn_id": "AocpFl2wt6k.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176921,
+          "key": "1260047870923",
+          "title": "大概的误差范围",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1260047870923",
+            "completed_at": "2019-02-25T15:53:15.704Z",
+            "last_viewed_at": "2019-07-16T14:49:47.156Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174651,
+              "key": "126004787",
+              "title": "大概的误差范围",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "P4gLGxQrKjY",
+                "china_cdn_id": "P4gLGxQrKjY.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 176923,
+          "key": "1260047880923",
+          "title": "总体均值的区间估计",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1260047880923",
+            "completed_at": "2019-02-25T15:54:43.319Z",
+            "last_viewed_at": "2019-07-16T15:08:06.797Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174652,
+              "key": "126004788",
+              "title": "总体均值的区间估计",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "ECRw3cSiy6o",
+                "china_cdn_id": "ECRw3cSiy6o.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 176924,
+          "key": "1261316970923",
+          "title": "置信区间边界",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1261316970923",
+            "completed_at": "2019-02-25T15:57:34.574Z",
+            "last_viewed_at": "2019-07-16T15:31:19.893Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174653,
+              "key": "126131697",
+              "title": "置信区间边界",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "126131697",
+                "completed_at": "2019-03-04T17:42:06.206Z",
+                "last_viewed_at": "2019-03-04T17:42:06.206Z",
+                "unstructured": "{\"0\":\"34.58\",\"1\":\"45.42\"}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "Bs-wLbPOAfs",
+                  "china_cdn_id": "Bs-wLbPOAfs.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "置信区间边界",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/vcSiz2lpzixvrLFaDIUTAmz6JG6LB52rIBJfc87Bl7ZzNB91w5FSyiT6rrqRMD3RLBGqGjNcWKGtsEjXNlo=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/126131697",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "126004789",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06873614190687362,
+                      "width": 0.10723192019950124,
+                      "x": 0.5863192182410424,
+                      "y": 0.2548262548262548
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0.06430155210643015,
+                      "width": 0.12219451371571072,
+                      "x": 0.8154180238870793,
+                      "y": 0.24903474903474904
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "WeS0ogG86nk",
+                  "china_cdn_id": "WeS0ogG86nk.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176925,
+          "key": "1261316980923",
+          "title": "精确的 Z 值",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1261316980923",
+            "completed_at": "2019-02-26T02:36:50.938Z",
+            "last_viewed_at": "2019-07-16T15:34:59.565Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174654,
+              "key": "126131698",
+              "title": "精确的 Z 值",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 要包括总体数值的 95%， Z 值需要等于多少？\n\n四舍五入到小数点后两位。\n\n<a href=\"https://s3.amazonaws.com/udacity-hosted-downloads/ZTable.jpg\" target=\"_blank\">z 表格链接</a>",
+              "user_state": {
+                "node_key": "126131698",
+                "completed_at": "2019-03-04T17:47:01.268Z",
+                "last_viewed_at": "2019-03-04T17:47:01.268Z",
+                "unstructured": "{\"0\":\"-1.96\",\"1\":\"1.96\"}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "8XZqX03Y6Vk",
+                  "china_cdn_id": "8XZqX03Y6Vk.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "精确的 Z 值",
+                "alt_text": "",
+                "background_image": "//lh5.ggpht.com/fcPHUz6C2EkHCptvEhSJtw32mc3p3GezCFGiv-rpy7CjaVRcVaWXVaGoZLhwfahkCYNpIkxJzHS67uGFYg=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/126131698",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "126004792",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.082039911308204,
+                      "width": 0.09102244389027432,
+                      "x": 0.31378935939196523,
+                      "y": 0.8146718146718147
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0.07538802660753881,
+                      "width": 0.08728179551122195,
+                      "x": 0.5494028230184582,
+                      "y": 0.8127413127413128
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "2OKqKX7DnMQ",
+                  "china_cdn_id": "2OKqKX7DnMQ.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176926,
+          "key": "1260047950923",
+          "title": "抽样分布",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1260047950923",
+            "completed_at": "2019-03-04T17:48:37.785Z",
+            "last_viewed_at": "2019-07-16T15:36:31.449Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174655,
+              "key": "126004795",
+              "title": "抽样分布",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "XUA8rsit0J4",
+                "china_cdn_id": "XUA8rsit0J4.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 176927,
+          "key": "1261316990923",
+          "title": "95% 置信区间 - 精确的 Z 值",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1261316990923",
+            "completed_at": "2019-03-04T23:22:23.346Z",
+            "last_viewed_at": "2019-07-16T15:40:33.777Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174656,
+              "key": "126131699",
+              "title": "95% 置信区间 - 精确的 Z 值",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 如果每个人都开始使用 Bieber Tweeter，总体均值的可能值范围是多少？\n\n提示：95% 置信区间应该在点估计值 40（样本均值）附近。40 应该正好是上限值和下限值的中间值。",
+              "user_state": {
+                "node_key": "126131699",
+                "completed_at": "2019-03-04T23:25:44.712Z",
+                "last_viewed_at": "2019-03-04T23:25:44.712Z",
+                "unstructured": "{\"0\":\"34.6884\",\"1\":\"45.3116\"}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "Ipj62kdE3Lo",
+                  "china_cdn_id": "Ipj62kdE3Lo.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "95% 置信区间 - 精确的 Z 值",
+                "alt_text": "",
+                "background_image": "//lh6.ggpht.com/2JYNlsql36GGKJXORwSsqTDt3-ZIBLPd5yyCq56AbJj3-8FFvL8i2hWjD3D3_p_ZDThXIVSznzPqnBtZAHY=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/126131699",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "126004796",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.055984555984555984,
+                      "width": 0.08794788273615635,
+                      "x": 0.753528773072747,
+                      "y": 0.2413127413127413
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0.059845559845559844,
+                      "width": 0.08686210640608034,
+                      "x": 0.8621064060803475,
+                      "y": 0.23938223938223938
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "apqUAtnsLZE",
+                  "china_cdn_id": "apqUAtnsLZE.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176929,
+          "key": "1261317000923",
+          "title": "泛化点估计值",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1261317000923",
+            "completed_at": "2019-03-04T23:28:14.528Z",
+            "last_viewed_at": "2019-07-16T15:45:02.097Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174657,
+              "key": "126131700",
+              "title": "泛化点估计值",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 干预后，我们对总体均值的点估计是多少？ \n\n- □ μ\n- □ μI\n- □ 1.96\n- □ X[bar]I\n\n“干预因素”是指我们预计会改变总体参数的因素。在我们的示例中，“干预因素”为 Bieber Tweeter。",
+              "user_state": {
+                "node_key": "126131700",
+                "completed_at": "2019-03-04T23:30:39.781Z",
+                "last_viewed_at": "2019-03-04T23:30:39.781Z",
+                "unstructured": "{\"0\":true,\"1\":false,\"2\":false,\"3\":false}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "i4lFgFq8Kpo",
+                  "china_cdn_id": "i4lFgFq8Kpo.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "泛化点估计值",
+                "alt_text": "",
+                "background_image": "//lh4.ggpht.com/2QViKNqeej4UkhMPVPZUmxE_OQH7eX_Y1qMdoQxH53Ivvfd5Q5EAoU8UGx1Iixdpfl6V-aBJc15ACngDemFC=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/126131700",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "126004799",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.18023887079261672,
+                      "y": 0.8803088803088803
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.18241042345276873,
+                      "y": 0.8204633204633205
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.0738327904451683,
+                      "y": 0.8764478764478765
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.0727470141150923,
+                      "y": 0.8166023166023166
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "JveZxEnq9bI",
+                  "china_cdn_id": "JveZxEnq9bI.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176930,
+          "key": "1261317010923",
+          "title": "泛化置信区间",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1261317010923",
+            "completed_at": "2019-03-04T23:31:02.047Z",
+            "last_viewed_at": "2019-07-16T15:46:13.053Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174658,
+              "key": "126131701",
+              "title": "泛化置信区间",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 在干预后，总体均值的区间估计是多少？\n\n更正：第三个选项应为 (xbar_I - 1.96 * sigma / sqrt(n), xbar_I + 1.96 * sigma / sqrt(n))。视频中第二个 xbar 少了 I。",
+              "user_state": {
+                "node_key": "126131701",
+                "completed_at": "2019-03-04T23:31:57.220Z",
+                "last_viewed_at": "2019-03-04T23:31:57.220Z",
+                "unstructured": "{\"0\":false,\"1\":true,\"2\":false,\"3\":false}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "HgumODgJSdQ",
+                  "china_cdn_id": "HgumODgJSdQ.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "泛化置信区间",
+                "alt_text": "",
+                "background_image": "//lh3.googleusercontent.com/4qXClQKEGERdiiUS-fwc2xp_oK-EiqIXJmTTcBVCGS8jOkqQw7riTgd5GvkwJhbFepkI_BDbJnO2OAp-Og=s0#w=1440&h=810",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/126131701",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "126004802",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.31704668838219324,
+                      "y": 0.9401544401544402
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.31813246471226925,
+                      "y": 0.8359073359073359
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.0781758957654723,
+                      "y": 0.8996138996138996
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.07600434310532031,
+                      "y": 0.8281853281853282
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "7JS9PPQ6cN4",
+                  "china_cdn_id": "7JS9PPQ6cN4.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176928,
+          "key": "1261317020923",
+          "title": "更大样本量的置信区间范围",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1261317020923",
+            "completed_at": "2019-03-04T23:33:22.157Z",
+            "last_viewed_at": "2019-07-16T15:57:23.862Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174659,
+              "key": "126131702",
+              "title": "更大样本量的置信区间范围",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 现在如果需要找出每个人使用 Bieber Twitter 时 Klout 分数均值的 95% 置信区间。与样本量是 35 时相比，计算的区间会更大还是更小？\n\n- □ 更大\n- □ 更小",
+              "user_state": {
+                "node_key": "126131702",
+                "completed_at": "2019-03-04T23:34:54.241Z",
+                "last_viewed_at": "2019-03-04T23:34:54.241Z",
+                "unstructured": "{\"0\":true,\"1\":false}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "rS6udGwrN90",
+                  "china_cdn_id": "rS6udGwrN90.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "更大样本量的置信区间范围",
+                "alt_text": "",
+                "background_image": "//lh3.ggpht.com/6_wkrt4OGBz7fsT6qFOeDG_zWtrNWOUsCiFmaBQuuEpU0t2Jl1OXkOuJ2VkIDyEcfhhv2fp_UotmsXG5_e0=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/126131702",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "126004805",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.8393051031487514,
+                      "y": 0.44594594594594594
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.8371335504885994,
+                      "y": 0.38996138996138996
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "tl4mqs0SqX4",
+                  "china_cdn_id": "tl4mqs0SqX4.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176931,
+          "key": "1261317030923",
+          "title": "n = 250 时的置信区间",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1261317030923",
+            "completed_at": "2019-03-04T23:35:19.475Z",
+            "last_viewed_at": "2019-07-16T16:17:53.269Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174660,
+              "key": "126131703",
+              "title": "n = 250 时的置信区间",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 当样本量等于 250，均值为 40 时，请计算出 uBT 的 95% 置信区间的范围。",
+              "user_state": {
+                "node_key": "126131703",
+                "completed_at": "2019-03-04T23:36:09.147Z",
+                "last_viewed_at": "2019-03-04T23:36:09.147Z",
+                "unstructured": "{\"0\":\"38.0204\",\"1\":\"41.9796\"}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "mCp7zkPv6o4",
+                  "china_cdn_id": "mCp7zkPv6o4.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "n = 250 时的置信区间",
+                "alt_text": "",
+                "background_image": "//lh4.ggpht.com/8n5cImkOeuQ6OtTSZ5351OyZUkATRzGJvfMqeDMFk00h54eTPkiJnc9iEHf6EjnAaqw6w7tgU7BEEtogyg=s0#w=1320&h=742",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/126131703",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "126004808",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.059845559845559844,
+                      "width": 0.09663409337676439,
+                      "x": 0.7643865363735071,
+                      "y": 0.26640926640926643
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0.059845559845559844,
+                      "width": 0.0988056460369164,
+                      "x": 0.8794788273615635,
+                      "y": 0.26640926640926643
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "mPcWDYTRDs8",
+                  "china_cdn_id": "mPcWDYTRDs8.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176932,
+          "key": "1260048110923",
+          "title": "样本越大，置信区间越小",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1260048110923",
+            "completed_at": "2019-03-04T23:37:33.638Z",
+            "last_viewed_at": "2019-07-16T16:21:36.135Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174661,
+              "key": "126004811",
+              "title": "样本越大，置信区间越小",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "“处理效应”会在干预因素影响到总体均值时显现出来。当样本均值位于抽样分布尾侧的远端，因而不可能是偶然事件时，这表明存在处理效应的证据。",
+              "video": {
+                "youtube_id": "DRarpjC23kc",
+                "china_cdn_id": "DRarpjC23kc.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 176933,
+          "key": "1261317040923",
+          "title": "98% 置信区间的 Z 值",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1261317040923",
+            "completed_at": "2019-03-04T23:39:12.155Z",
+            "last_viewed_at": "2019-07-16T16:24:18.014Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174662,
+              "key": "126131704",
+              "title": "98% 置信区间的 Z 值",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 98% 的样本均值在总体均值的多少个标准误差之内？\n\n<a href=\"https://s3.amazonaws.com/udacity-hosted-downloads/ZTable.jpg\" target=\"_blank\">z 表格链接</a>",
+              "user_state": {
+                "node_key": "126131704",
+                "completed_at": "2019-03-04T23:41:27.345Z",
+                "last_viewed_at": "2019-03-04T23:41:27.345Z",
+                "unstructured": "{\"0\":\"2.33\"}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "fFY4isvV-Sk",
+                  "china_cdn_id": "fFY4isvV-Sk.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "98% 置信区间的 Z 值",
+                "alt_text": "",
+                "background_image": "//lh4.ggpht.com/mx3l8bWXSRXvDZB8688JGgbwO7NZZtDpwRiVHzg0bbzqLM_vLlSwjywdjIYEswMQpdAN85UwHQClRGMxK0M=s0#w=1320&h=741",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/126131704",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "126004813",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.05609284332688588,
+                      "width": 0.0738327904451683,
+                      "x": 0.24321389793702497,
+                      "y": 0.4274661508704062
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "llyWJTM8V5o",
+                  "china_cdn_id": "llyWJTM8V5o.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176936,
+          "key": "1261317050923",
+          "title": "查找 98% 置信区间",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1261317050923",
+            "completed_at": "2019-03-04T23:42:29.436Z",
+            "last_viewed_at": "2019-07-16T16:28:47.039Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174663,
+              "key": "126131705",
+              "title": "查找 98% 置信区间",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 假设每个人都使用了 Bieber Tweeter 应用，Klout 值均值的 98% 置信区间范围是多少？",
+              "user_state": {
+                "node_key": "126131705",
+                "completed_at": "2019-03-04T23:43:43.736Z",
+                "last_viewed_at": "2019-03-04T23:43:43.736Z",
+                "unstructured": "{\"0\":\"37.6467\",\"1\":\"42.3533\"}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "guhmjr4BqSo",
+                  "china_cdn_id": "guhmjr4BqSo.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "查找 98% 置信区间",
+                "alt_text": "",
+                "background_image": "//lh4.ggpht.com/BL8Xb4GeVUqE48blEsZywJ4VAkywmzhGBrEdG9vS29Oz5ltycHlIbILe5061yh-Bf8UW_N7ytx2No8ly3GI=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/126131705",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "126004815",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06430155210643015,
+                      "width": 0.09102244389027432,
+                      "x": 0.7643865363735071,
+                      "y": 0.24324324324324326
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0.06873614190687362,
+                      "width": 0.09975062344139651,
+                      "x": 0.8729641693811075,
+                      "y": 0.2413127413127413
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "L_JV4fbRAfA",
+                  "china_cdn_id": "L_JV4fbRAfA.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176935,
+          "key": "1260048180923",
+          "title": "Z 的临界值",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1260048180923",
+            "completed_at": "2019-03-04T23:45:37.060Z",
+            "last_viewed_at": "2019-07-16T16:32:56.837Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174664,
+              "key": "126004818",
+              "title": "Z 的临界值",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "_vKCQnll45c",
+                "china_cdn_id": "_vKCQnll45c.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 176934,
+          "key": "1261317060923",
+          "title": "参与率",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1261317060923",
+            "completed_at": "2019-03-04T23:47:46.938Z",
+            "last_viewed_at": "2019-07-16T16:49:34.029Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174665,
+              "key": "126131706",
+              "title": "参与率",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 请算出这些数据的均值和标准偏差，四舍五入到最接近的千分位或保留三位小数\n\n点此下载[参与率数据](https://s3.cn-north-1.amazonaws.com.cn/static-documents/nd002/Engagement+ratio+-+Lesson+8.xlsx)\n打开下载好的文档开始计算。\n用数字输入你的答案，不包含任何特殊字符（包括逗号）。",
+              "user_state": {
+                "node_key": "126131706",
+                "completed_at": "2019-03-04T23:51:17.499Z",
+                "last_viewed_at": "2019-03-04T23:52:45.141Z",
+                "unstructured": "{\"0\":\"0.077\",\"1\":\"0.107\"}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "vpwCy5Gphrw",
+                  "china_cdn_id": "vpwCy5Gphrw.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "参与率",
+                "alt_text": "",
+                "background_image": "//lh6.ggpht.com/WMVTtNfz8LbM3qFtI2Hi2VyHbcndmPHAh6VggzVVziFXY843myuEYv2JZXMMy6FJEuVvgTCu6WWTmD2dtw=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/126131706",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "126004819",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.055984555984555984,
+                      "width": 0.09011943539630836,
+                      "x": 0.6427795874049945,
+                      "y": 0.4034749034749035
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0.05791505791505792,
+                      "width": 0.09663409337676439,
+                      "x": 0.8013029315960912,
+                      "y": 0.4613899613899614
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "EdIcXVIYX88",
+                  "china_cdn_id": "EdIcXVIYX88.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176937,
+          "key": "1260048220923",
+          "title": "假设检验歌曲",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1260048220923",
+            "completed_at": "2019-03-04T23:57:01.640Z",
+            "last_viewed_at": "2019-07-16T16:51:58.113Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174666,
+              "key": "126004822",
+              "title": "假设检验歌曲",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "ER5AITzr77g",
+                "china_cdn_id": "ER5AITzr77g.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 176938,
+          "key": "1261317070923",
+          "title": "点估计值参与率",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1261317070923",
+            "completed_at": "2019-03-05T00:01:11.860Z",
+            "last_viewed_at": "2019-07-16T16:52:28.268Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174667,
+              "key": "126131707",
+              "title": "点估计值参与率",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 根据这个样本，如果我们让所有 8,702 名学员都能观看到这节课的内容，那么参与度比值的点估计会是多少？",
+              "user_state": {
+                "node_key": "126131707",
+                "completed_at": "2019-03-05T00:01:58.121Z",
+                "last_viewed_at": "2019-03-05T04:58:24.668Z",
+                "unstructured": "{\"0\":\"0.13\"}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "R2a1wC3k0JM",
+                  "china_cdn_id": "R2a1wC3k0JM.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "点估计值参与率",
+                "alt_text": "",
+                "background_image": "//lh3.ggpht.com/cXC1pCO0g6ExIeRNkpRgzaEmMIjpkv3Y80J4-BI81lJDYjf32m1thSffAfto3kn1x3gocnzYH5mNLxzLFcS7=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/126131707",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "126004823",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.7046688382193268,
+                      "y": 0.5501930501930502
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "XtDLvgt7LQk",
+                  "china_cdn_id": "XtDLvgt7LQk.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176939,
+          "key": "1261317080923",
+          "title": "标准误差",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1261317080923",
+            "completed_at": "2019-03-05T00:02:53.225Z",
+            "last_viewed_at": "2019-07-16T16:52:32.536Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174668,
+              "key": "126131708",
+              "title": "标准误差",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 我们知道总体均值将可能为 0.13 左右的某个值，均值的标准误差会是多少？请四舍五入到最接近的千分位。",
+              "user_state": {
+                "node_key": "126131708",
+                "completed_at": "2019-03-05T05:03:52.585Z",
+                "last_viewed_at": "2019-03-05T05:03:52.585Z",
+                "unstructured": "{\"0\":\"0.024\"}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "w-7MoreKqaU",
+                  "china_cdn_id": "w-7MoreKqaU.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "标准误差",
+                "alt_text": "",
+                "background_image": "//lh3.ggpht.com/Pa1JiprARGVEfYi-sgAuErJCY73zt7QSQ4isW1x0YdO65NE0q-cqE1v_kFxyKJFjwEo5Y0EmBdelvz0hEOiq=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/126131708",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "126004826",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.7263843648208469,
+                      "y": 0.806949806949807
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "FpeMuGuo74k",
+                  "china_cdn_id": "FpeMuGuo74k.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176941,
+          "key": "1261317090923",
+          "title": "置信区间边界",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1261317090923",
+            "completed_at": "2019-03-05T05:05:55.701Z",
+            "last_viewed_at": "2019-07-16T16:54:43.664Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174669,
+              "key": "126131709",
+              "title": "置信区间边界",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## μI 的下限和上限的值分别是多少？",
+              "user_state": {
+                "node_key": "126131709",
+                "completed_at": "2019-03-05T05:14:03.942Z",
+                "last_viewed_at": "2019-03-05T05:15:51.023Z",
+                "unstructured": "{\"0\":\"0.083\",\"1\":\"0.177\"}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "T9VX2KvzJ-k",
+                  "china_cdn_id": "T9VX2KvzJ-k.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "置信区间边界",
+                "alt_text": "",
+                "background_image": "//lh4.ggpht.com/NWtJqbkIGkGGhti6NcQQIMaQspdy6I5sZSFafS06l5fq8qBanvk8zsP65MwnZFz1-XOQ3I8Ny--NyGn_wD0=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/126131709",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "126004829",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.2258414766558089,
+                      "y": 0.918918918918919
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.509229098805646,
+                      "y": 0.918918918918919
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "6MdZ5NUfen0",
+                  "china_cdn_id": "6MdZ5NUfen0.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176940,
+          "key": "1261317100923",
+          "title": "泛化置信区间",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1261317100923",
+            "completed_at": "2019-03-05T05:21:49.849Z",
+            "last_viewed_at": "2019-07-16T17:33:42.937Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174670,
+              "key": "126131710",
+              "title": "泛化置信区间",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 以下哪个公式可以用来计算总体均值 μI 的 95% 置信区间？请选中所有正确的选项。",
+              "user_state": {
+                "node_key": "126131710",
+                "completed_at": "2019-03-05T05:22:31.139Z",
+                "last_viewed_at": "2019-03-05T05:22:51.869Z",
+                "unstructured": "{\"0\":false,\"1\":true,\"2\":false,\"3\":true}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "kjk--LHqtCw",
+                  "china_cdn_id": "kjk--LHqtCw.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "泛化置信区间",
+                "alt_text": "",
+                "background_image": "//lh6.ggpht.com/pdN2osiwTqMFT76BR5TmLRsPKzTG7PqQjBA5lJoL7esLVXFRALJnL8Lfpxhj_HVYWPrdImkg2kp9yB4l1bU=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/126131710",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "126004832",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.738327904451683,
+                      "y": 0.8783783783783784
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6199782844733985,
+                      "y": 0.6698841698841699
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6167209554831705,
+                      "y": 0.5694980694980695
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6156351791530945,
+                      "y": 0.46525096525096526
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "Hb2q-o4ElV4",
+                  "china_cdn_id": "Hb2q-o4ElV4.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176942,
+          "key": "1302357950923",
+          "title": "泛化置信区间",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1302357950923",
+            "completed_at": "2019-03-05T05:24:43.801Z",
+            "last_viewed_at": "2019-07-16T17:40:04.567Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174671,
+              "key": "130235795",
+              "title": "泛化置信区间",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "误差范围是置信区间宽度的一半。",
+              "video": {
+                "youtube_id": "slBW5Neh2cs",
+                "china_cdn_id": "slBW5Neh2cs.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 176943,
+          "key": "1261317110923",
+          "title": "对参与和学习进行打分",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1261317110923",
+            "completed_at": "2019-03-05T05:27:25.629Z",
+            "last_viewed_at": "2019-07-16T17:42:30.286Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174672,
+              "key": "126131711",
+              "title": "对参与和学习进行打分",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "请通过点击下面的链接 来告诉我你的参与和学习程度。\n\n对你在本课程中的参与和学习进行打分：<a href=\"https://gdgdocs.org/forms/d/1ZF6Py2S3StxGtDdc_AhOhIHb6sDE92PRgdG_atskoCQ/viewform\" target=\"_blank\">Google Form 链接</a>。",
+              "user_state": {
+                "node_key": "126131711",
+                "completed_at": "2019-03-05T05:28:38.301Z",
+                "last_viewed_at": "2019-03-05T05:28:44.229Z",
+                "unstructured": "{\"0\":false,\"1\":true}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "BRL0ZuvBm0U",
+                  "china_cdn_id": "BRL0ZuvBm0U.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "对参与和学习进行打分",
+                "alt_text": "",
+                "background_image": "//lh4.ggpht.com/n4zbpU42KWjq-RHzoJpOctjZjd9_9cXdF01NWR4wYNor8DgjjaIlHypuQXhU0H9TnPAjdga9ESmj4KiWjw=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/126131711",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "126004835",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.11726384364820847,
+                      "y": 0.6274131274131274
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.11292073832790445,
+                      "y": 0.5193050193050193
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "4hoT_su75AQ",
+                  "china_cdn_id": "4hoT_su75AQ.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176944,
+          "key": "1260048380923",
+          "title": "样本结果",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1260048380923",
+            "completed_at": "2019-03-05T05:30:01.990Z",
+            "last_viewed_at": "2019-07-16T17:46:04.251Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174673,
+              "key": "126004838",
+              "title": "样本结果",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "ypIyvJyZAs8",
+                "china_cdn_id": "ypIyvJyZAs8.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 176946,
+          "key": "1261317120923",
+          "title": "是什么统计数据？",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1261317120923",
+            "completed_at": "2019-03-05T05:31:25.312Z",
+            "last_viewed_at": "2019-07-16T17:48:26.307Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174674,
+              "key": "126131712",
+              "title": "是什么统计数据？",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 我们想知道，听这首关于第九节课提到的假设检验的歌曲是否会提高参与度和学习程度，我们应该计算哪些统计信息来判断这一点呢？\n\n- □ 样本均值是否小于或大于总体均值\n- □ 对于每种衡量指标应该计算总体均值和样本均值之间的差别\n- □ 算出每个样本均值应该落在每个总体的样本均值分布上的哪个位置\n- □ 算出每个样本均值 距离总体均值多少个总体标准偏差",
+              "user_state": {
+                "node_key": "126131712",
+                "completed_at": "2019-03-05T05:32:48.446Z",
+                "last_viewed_at": "2019-03-05T05:33:43.117Z",
+                "unstructured": "{\"0\":false,\"1\":true,\"2\":false,\"3\":false}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "JKZF4qHztv0",
+                  "china_cdn_id": "JKZF4qHztv0.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "是什么统计数据？",
+                "alt_text": "",
+                "background_image": "//lh5.ggpht.com/1Z--sJ_zlrcSFlPnGeX5A82t38_bPwxKrItVEaG6-dhrJVmkdcrBzUOO5elcAlorqG_RL50Yt7xuYkeyTZM=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/126131712",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "126004839",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.1498371335504886,
+                      "y": 0.8011583011583011
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.15200868621064062,
+                      "y": 0.640926640926641
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.15200868621064062,
+                      "y": 0.5135135135135135
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.1465798045602606,
+                      "y": 0.38223938223938225
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "sbQXPn9xLvI",
+                  "china_cdn_id": "sbQXPn9xLvI.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176947,
+          "key": "1261317130923",
+          "title": "抽样分布",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1261317130923",
+            "completed_at": "2019-03-05T05:34:48.162Z",
+            "last_viewed_at": "2019-07-16T17:50:03.658Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174675,
+              "key": "126131713",
+              "title": "抽样分布",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 假设这是每个总体的所有样本量为 20 的样本均值的分布图 , 每个抽样分布的均值和标准偏差会是多少？",
+              "user_state": {
+                "node_key": "126131713",
+                "completed_at": "2019-03-05T05:53:24.989Z",
+                "last_viewed_at": "2019-03-05T05:53:24.989Z",
+                "unstructured": "{\"0\":\"7.5\",\"1\":\"0.143\",\"2\":\"8.2\",\"3\":\"0.163\"}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "jJSkp9n3kA8",
+                  "china_cdn_id": "jJSkp9n3kA8.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "抽样分布",
+                "alt_text": "",
+                "background_image": "//lh3.ggpht.com/htNjOC2hHpbhIWTOuCJv7A0RrEc81JivNLJKMDDLAr2mnyfiaHWinDjHUJcOi9iEwNRxbjljzi1HfeV0owE=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/126131713",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "126004842",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.059845559845559844,
+                      "width": 0.1454940282301846,
+                      "x": 0.20846905537459284,
+                      "y": 0.7277992277992278
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.2008686210640608,
+                      "y": 0.8416988416988417
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.6938110749185668,
+                      "y": 0.750965250965251
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.6948968512486428,
+                      "y": 0.861003861003861
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "9JHRpVTMuK4",
+                  "china_cdn_id": "9JHRpVTMuK4.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176945,
+          "key": "1261317140923",
+          "title": "样本均值的 Z 值",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1261317140923",
+            "completed_at": "2019-03-05T05:54:12.816Z",
+            "last_viewed_at": "2019-07-16T17:53:19.542Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174676,
+              "key": "126131714",
+              "title": "样本均值的 Z 值",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 我们在 20 名学员中测试了这节歌曲形式的课程，并获得了这些均值 。这些均值位于抽样分布的绿色区域的哪个位置？也就是每个样本的 z 值是多少？\n\n\n<a href=\"https://s3.amazonaws.com/udacity-hosted-downloads/ZTable.jpg\" target=\"_blank\">z 表格链接</a>",
+              "user_state": {
+                "node_key": "126131714",
+                "completed_at": "2019-03-05T05:57:30.887Z",
+                "last_viewed_at": "2019-03-05T05:57:30.887Z",
+                "unstructured": "{\"0\":\"10.3\",\"1\":\"0.9375\"}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "AM-d6qA5nnI",
+                  "china_cdn_id": "AM-d6qA5nnI.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "样本均值的 Z 值",
+                "alt_text": "",
+                "background_image": "//lh3.ggpht.com/UA9yZWyWT-mU2YDDZv2Y55AqpI2RIljE9iC-SZM5lzP6alfnRMup8Hs7lNiSGSs0F7trPgdpR-cSkWRFJw=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/126131714",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "126004845",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.059845559845559844,
+                      "width": 0.15092290988056462,
+                      "x": 0.0738327904451683,
+                      "y": 0.6525096525096525
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0.0637065637065637,
+                      "width": 0.15309446254071662,
+                      "x": 0.5841476655808904,
+                      "y": 0.6640926640926641
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "BngCW1fjvFk",
+                  "china_cdn_id": "BngCW1fjvFk.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176948,
+          "key": "1261317150923",
+          "title": "概率样本均值至少为…",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1261317150923",
+            "completed_at": "2019-03-05T05:58:46.741Z",
+            "last_viewed_at": "2019-07-16T17:58:43.898Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174677,
+              "key": "126131715",
+              "title": "概率样本均值至少为…",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 随机选择一个样本数为20的样本，参与和学习的均值分别至少为 8.94 和 8.35 的概率是多少？\n\n<a href=\"https://s3.amazonaws.com/udacity-hosted-downloads/ZTable.jpg\" target=\"_blank\">z 表格链接</a>",
+              "user_state": {
+                "node_key": "126131715",
+                "completed_at": "2019-03-05T06:00:49.953Z",
+                "last_viewed_at": "2019-03-05T06:00:49.953Z",
+                "unstructured": "{\"0\":\"0\",\"1\":\"0.8212\"}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "0r9S6UNDRu8",
+                  "china_cdn_id": "0r9S6UNDRu8.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "概率样本均值至少为…",
+                "alt_text": "",
+                "background_image": "//lh4.ggpht.com/t72A1njSG020E3lt_wAQkUNlcJWbpfeXWbAS8xLPF8f7eDU-cz_d2Im_Je8IouE6mAZLzkCnalkbQMyy5VWB=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/126131715",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "126004848",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.10097719869706841,
+                      "y": 0.7316602316602316
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.6026058631921825,
+                      "y": 0.750965250965251
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "tjEua8efugg",
+                  "china_cdn_id": "tjEua8efugg.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176950,
+          "key": "1261317160923",
+          "title": "这是什么意思？",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1261317160923",
+            "completed_at": "2019-03-05T06:02:09.931Z",
+            "last_viewed_at": "2019-07-16T18:19:45.535Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174678,
+              "key": "126131716",
+              "title": "这是什么意思？",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 我们可以得出什么结论？选中所有正确的选项。\n\n- □ 听歌对学习效果有影响，但对参与度没有影响。\n- □ 听歌对参与度有影响，但对学习效果没有影响。\n- □ 听歌可以改善学习效果和提高参与度。 \n- □ 听歌可以提高参与度，但是对学习效果没有影响。",
+              "user_state": {
+                "node_key": "126131716",
+                "completed_at": "2019-03-05T06:02:45.132Z",
+                "last_viewed_at": "2019-03-05T06:04:37.168Z",
+                "unstructured": "{\"0\":false,\"1\":true,\"2\":false,\"3\":false}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "Hqk1_dUlmo4",
+                  "china_cdn_id": "Hqk1_dUlmo4.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "这是什么意思？",
+                "alt_text": "",
+                "background_image": "//lh6.ggpht.com/yj0IJ3kRmzDTFbzTykZQS4Cpe6Kdqt75BrMwJpvto_9IIhypts3qwaWA3bibMb-St-jPj-ArhxnfRQbNiA=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/126131716",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "126004851",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.07600434310532031,
+                      "y": 0.4247104247104247
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.07709011943539631,
+                      "y": 0.5019305019305019
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.07709011943539631,
+                      "y": 0.5772200772200772
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.07709011943539631,
+                      "y": 0.6621621621621622
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "ZULplTNbIIs",
+                  "china_cdn_id": "ZULplTNbIIs.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176949,
+          "key": "1260048540923",
+          "title": "小结",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1260048540923",
+            "completed_at": "2019-03-05T06:05:50.109Z",
+            "last_viewed_at": "2019-07-16T18:05:20.476Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174679,
+              "key": "126004854",
+              "title": "小结",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "6iSCMFK3EYc",
+                "china_cdn_id": "6iSCMFK3EYc.mp4"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    }
+  ]
+}

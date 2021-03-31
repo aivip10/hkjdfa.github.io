@@ -1,0 +1,3104 @@
+{
+  "data": {
+    "lesson": {
+      "id": 178228,
+      "key": "4577134255",
+      "title": "第 9 课：假设检验",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "zh-cn",
+      "summary": "学习假设检验的基础知识，包括如何设置假设检验。",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": null,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/4577134255/178228/1544465881160/%E7%AC%AC+9+%E8%AF%BE%EF%BC%9A%E5%81%87%E8%AE%BE%E6%A3%80%E9%AA%8C+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/4577134255/178228/1544465868694/%E7%AC%AC+9+%E8%AF%BE%EF%BC%9A%E5%81%87%E8%AE%BE%E6%A3%80%E9%AA%8C+Subtitles.zip"
+          },
+          {
+            "name": "Lesson9.pdf",
+            "uri": "https://video.udacity-data.com/topher/2017/May/591925f4_lesson9/lesson9.pdf"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 176967,
+          "key": "1364883720923",
+          "title": "可能或不可能",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1364883720923",
+            "completed_at": "2019-02-20T04:31:13.409Z",
+            "last_viewed_at": "2020-05-19T06:57:42.398Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174697,
+              "key": "136488372",
+              "title": "可能或不可能",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "136488372",
+                "completed_at": "2019-02-20T11:01:31.253Z",
+                "last_viewed_at": "2019-04-06T14:06:22.240Z",
+                "unstructured": "{\"0\":\"Likely\",\"1\":\"Unlikely\"}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "oIFRsiD2mQE",
+                  "china_cdn_id": "oIFRsiD2mQE.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "可能或不可能",
+                "alt_text": null,
+                "background_image": "//lh4.ggpht.com/syjnb0P5nmN27pLrCPHtDgqa5jYWjRNQ6K_MjFMNSdC2NQBDwQdfa5GBCPrATZ-zc2Y7WvxV08LLepOkSZo=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/136488372",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "135919216",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "TextInputWidget",
+                    "is_text_area": false,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.7793348434742917,
+                      "y": 0.35877192442558037
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "TextInputWidget",
+                    "is_text_area": false,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.7815059675242717,
+                      "y": 0.44561402967784103
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "9jGIDxEr9A4",
+                  "china_cdn_id": "9jGIDxEr9A4.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176969,
+          "key": "1364883730923",
+          "title": "α 水平",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1364883730923",
+            "completed_at": "2019-02-20T11:02:04.226Z",
+            "last_viewed_at": "2020-05-19T06:57:44.056Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174698,
+              "key": "136488373",
+              "title": "α 水平",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 以下哪些说法是正确的？\n\n- □ 如果达到特定样本均值的概率小于 α 水平, 它“不太可能”发生。\n- □ 如果样本均值的 z 值大于 z* 那么“不太可能”发生。\n- □ 第三个选项是如果达到特定样本均值的概率是“不太可能”，那么样本均值位于橘色区域。\n- □ α 水平对应的是橘色区域。",
+              "user_state": {
+                "node_key": "136488373",
+                "completed_at": "2019-02-20T11:06:03.163Z",
+                "last_viewed_at": "2019-04-06T14:08:53.649Z",
+                "unstructured": "{\"0\":false,\"1\":false,\"2\":true,\"3\":true}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "pjBOYFAkNME",
+                  "china_cdn_id": "pjBOYFAkNME.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Alpha 级别",
+                "alt_text": "",
+                "background_image": "//lh3.ggpht.com/rJxsJbaiVec5WsJvs_xfz2FZcPkzbGVtpaK9l8anNLhWgG2RljhfSTM9MzuDtlHamM8YuTCTtStDTHCF2w=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/136488373",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "135919219",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.07806177533075967,
+                      "y": 0.8296491173489492
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.07263396520580973,
+                      "y": 0.6829824507006867
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.07154840318081974,
+                      "y": 0.5459649068582311
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.0672061550808598,
+                      "y": 0.4070175384546141
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "VuEwqXDd1Rs",
+                  "china_cdn_id": "VuEwqXDd1Rs.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176970,
+          "key": "1364883740923",
+          "title": "Z 临界值 0.05",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1364883740923",
+            "completed_at": "2019-02-20T11:07:23.971Z",
+            "last_viewed_at": "2019-10-10T18:40:11.295Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174699,
+              "key": "136488374",
+              "title": "Z 临界值 0.05",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "<a href=\"https://s3.amazonaws.com/udacity-hosted-downloads/ZTable.jpg\" target=\"_blank\">z 表格链接</a>",
+              "user_state": {
+                "node_key": "136488374",
+                "completed_at": "2019-02-20T11:12:27.375Z",
+                "last_viewed_at": "2019-04-06T14:13:35.395Z",
+                "unstructured": "{\"0\":\"1.65\"}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "oCQnqFE4uxQ",
+                  "china_cdn_id": "oCQnqFE4uxQ.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Z 临界值 0.05",
+                "alt_text": null,
+                "background_image": "//lh4.ggpht.com/jmQ8I3Y8lyWEjX7fl-nTbgpRcmJOmu_l2ZKLzhUTPJVNeiedF11qhFtbclvAo3Acx4a-eK3MFzHuuvh9csI=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/136488374",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "135919222",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.3788611467215057,
+                      "y": 0.856140325673069
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "TyqZdKR8J_w",
+                  "china_cdn_id": "TyqZdKR8J_w.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176971,
+          "key": "1364883750923",
+          "title": "Z 临界值 0.01",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1364883750923",
+            "completed_at": "2019-02-20T11:14:49.094Z",
+            "last_viewed_at": "2019-10-10T02:39:41.229Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174700,
+              "key": "136488375",
+              "title": "Z 临界值 0.01",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 我们决定样本均值概率小于 0.01 时，被视为不太可能发生，那么表示这个临界值的 Z 值是多少？\n\n<a href=\"https://s3.amazonaws.com/udacity-hosted-downloads/ZTable.jpg\" target=\"_blank\">z 表格链接</a>",
+              "user_state": {
+                "node_key": "136488375",
+                "completed_at": "2019-02-20T12:12:04.541Z",
+                "last_viewed_at": "2019-03-12T07:41:49.883Z",
+                "unstructured": "{\"0\":\"2.33\"}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "6RNfHbEL4ZQ",
+                  "china_cdn_id": "6RNfHbEL4ZQ.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Z 临界值 0.01",
+                "alt_text": "",
+                "background_image": "//lh5.ggpht.com/yF2e7NRLSesQAjThtiytEg9Wgo7OaSx58-VmEnWAa_95-ZwLj26Ko9hrcfQPzUdbNXATidBswDfbFtGsZT4=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/136488375",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "135919225",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.48840422077697504,
+                      "y": 0.47456139809526127
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "9EFRrU4WBs4",
+                  "china_cdn_id": "9EFRrU4WBs4.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176973,
+          "key": "1364883760923",
+          "title": "Z 临界值 0.001",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1364883760923",
+            "completed_at": "2019-02-20T13:12:10.638Z",
+            "last_viewed_at": "2019-10-10T01:36:56.864Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174701,
+              "key": "136488376",
+              "title": "Z 临界值 0.001",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 我们决定样本均值概率小于 0.001 时被视为不太可能发生，那么表示这个临界值的 Z 值是多少？\n\n<a href=\"https://s3.amazonaws.com/udacity-hosted-downloads/ZTable.jpg\" target=\"_blank\">z 表格链接</a>",
+              "user_state": {
+                "node_key": "136488376",
+                "completed_at": "2019-02-20T13:12:59.589Z",
+                "last_viewed_at": "2019-04-02T12:50:25.236Z",
+                "unstructured": "{\"0\":\"3.1\"}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "h72200GCyaI",
+                  "china_cdn_id": "h72200GCyaI.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Z 临界值 0.001",
+                "alt_text": "",
+                "background_image": "//lh4.ggpht.com/-gWVYqYXFnzVorfB4b2twUtlr7YCe5FRtcupP8D0OL2lyc5DDmKn9teM7xvj27IWr89ZVlxjP4ie0HGF0j8=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/136488376",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "135919226",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.46777854230216526,
+                      "y": 0.46684209985061587
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "AdLGLYYYVao",
+                  "china_cdn_id": "AdLGLYYYVao.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176972,
+          "key": "1359192320923",
+          "title": "临界区域",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1359192320923",
+            "completed_at": "2019-02-20T13:13:58.020Z",
+            "last_viewed_at": "2019-12-13T02:34:17.808Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174702,
+              "key": "135919232",
+              "title": "临界区域",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "注意，在构建假设检验时，最好在执行检验前选择一个显著性水平。在获得结果后你可以报告结果在特定临界水平为显著的，但是确保在看到样本中的结果前，不要使用荧光原位杂交 (FISH) 检测结果，这一点很重要。[此文章](http://blog.minitab.com/blog/adventures-in-statistics/understanding-hypothesis-tests:-significance-levels-alpha-and-p-values-in-statistics) 提供了更多关于假设测试中显著性水平和 p 值的信息，可帮助你加深理解。",
+              "video": {
+                "youtube_id": "UF3japjNx98",
+                "china_cdn_id": "UF3japjNx98.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 176974,
+          "key": "1364883770923",
+          "title": "显著性",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1364883770923",
+            "completed_at": "2019-02-20T13:18:13.708Z",
+            "last_viewed_at": "2019-10-10T02:42:29.337Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174703,
+              "key": "136488377",
+              "title": "显著性",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "输入 Alpha 级别：0.05、0.01 或 0.001。",
+              "user_state": {
+                "node_key": "136488377",
+                "completed_at": "2019-02-20T13:19:52.994Z",
+                "last_viewed_at": "2019-04-02T12:54:04.163Z",
+                "unstructured": "{\"0\":\"0.001\",\"1\":\"0.05\",\"2\":\"0.01\",\"3\":\"0.001\"}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "f0ZWCaOKW1Q",
+                  "china_cdn_id": "f0ZWCaOKW1Q.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "显著性",
+                "alt_text": null,
+                "background_image": "//lh5.ggpht.com/USu8l9chqMR_GQw7ZxqmwNU-pWlCjOmom7nH09GvO8cGg1fe7PuwaQaLbsPgrquHuzD6a-5XdEiYp1lNj4Xa=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/136488377",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "135919233",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06208425720620843,
+                      "width": 0.12344139650872818,
+                      "x": 0.23053391117195518,
+                      "y": 0.26771931159692236
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0.057649667405764965,
+                      "width": 0.1259351620947631,
+                      "x": 0.22895489680436795,
+                      "y": 0.35754384621935426
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0.05543237250554324,
+                      "width": 0.12967581047381546,
+                      "x": 0.23181682100526016,
+                      "y": 0.44543855628062484
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0.057649667405764965,
+                      "width": 0.12718204488778054,
+                      "x": 0.2332971449043279,
+                      "y": 0.534385959491263
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "FGtU7YDLX2Y",
+                  "china_cdn_id": "FGtU7YDLX2Y.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176975,
+          "key": "1359192130923",
+          "title": "Darts 设计",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1359192130923",
+            "completed_at": "2019-02-20T13:26:09.011Z",
+            "last_viewed_at": "2019-10-10T14:53:38.754Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174704,
+              "key": "135919213",
+              "title": "Darts 设计",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "fSj1dwh7Kxc",
+                "china_cdn_id": "fSj1dwh7Kxc.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 176976,
+          "key": "1364883780923",
+          "title": "Z 值",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1364883780923",
+            "completed_at": "2019-02-20T13:28:24.832Z",
+            "last_viewed_at": "2019-10-10T14:58:07.735Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174705,
+              "key": "136488378",
+              "title": "Z 值",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 该样本均值的 z 值应该是多少？",
+              "user_state": {
+                "node_key": "136488378",
+                "completed_at": "2019-02-20T13:49:13.688Z",
+                "last_viewed_at": "2019-04-02T12:56:24.792Z",
+                "unstructured": "{\"0\":\"-2.587\"}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "1xXceRXrsg8",
+                  "china_cdn_id": "1xXceRXrsg8.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Z 值",
+                "alt_text": "",
+                "background_image": "//lh4.ggpht.com/c57DUM6tbawLy_-Gtw6qUEXVfeENWSiH7DvrF2Pj6Ebg6X9rkGTJT4lc8KzmnDGQlzn21w3yTHBtxgdMGw=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/136488378",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "135919236",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.41784268915262585,
+                      "y": 0.6308771875493304
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "1V7JzqCfe9o",
+                  "china_cdn_id": "1V7JzqCfe9o.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176978,
+          "key": "1364883790923",
+          "title": "双尾临界值 0.05",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1364883790923",
+            "completed_at": "2019-02-20T13:50:42.650Z",
+            "last_viewed_at": "2019-10-10T14:58:22.725Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174706,
+              "key": "136488379",
+              "title": "双尾临界值 0.05",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## z 的临界值是多少？\n\n<a href=\"https://s3.amazonaws.com/udacity-hosted-downloads/ZTable.jpg\" target=\"_blank\">z 表格链接</a>",
+              "user_state": {
+                "node_key": "136488379",
+                "completed_at": "2019-02-20T14:07:06.850Z",
+                "last_viewed_at": "2019-04-02T12:58:17.388Z",
+                "unstructured": "{\"0\":\"1.96\"}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "VCdJJTk2Izk",
+                  "china_cdn_id": "VCdJJTk2Izk.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "双尾临界值 0.05",
+                "alt_text": "",
+                "background_image": "//lh6.ggpht.com/OjSNTGoI8ccdJhqkfyIdbs7RkL-BaD44YLWudwr2OBuVc_NUjS7pjQ7jRQAZAd86NBUqv3tNOCu9U7EC60JD=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/136488379",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "135919239",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.05789473683484043,
+                      "width": 0.14763643539863833,
+                      "x": 0.666436392875333,
+                      "y": 0.914561405401745
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "X5GWgtZEsgc",
+                  "china_cdn_id": "X5GWgtZEsgc.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176977,
+          "key": "1364883800923",
+          "title": "双尾检验",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1364883800923",
+            "completed_at": "2019-02-20T14:35:10.420Z",
+            "last_viewed_at": "2019-11-04T08:17:14.841Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174707,
+              "key": "136488380",
+              "title": "双尾检验",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 对于样本均值  x-bar = 7.13（z 值等于 - 2.59），我们可以得出什么结论？\n\n- □ 不太可能获得 7.13 的参与度均值\n- □ 参与度均值 7.13 不在临界区内\n- □ 可以证明我唱的歌降低了学员的参与度\n- □ 参与度均值 7.13 在概率小于 0.05 时具有统计显著意义",
+              "user_state": {
+                "node_key": "136488380",
+                "completed_at": "2019-02-20T14:36:09.959Z",
+                "last_viewed_at": "2019-03-12T08:06:32.263Z",
+                "unstructured": "{\"0\":true,\"1\":true,\"2\":false,\"3\":true}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "4fWHT1f72B8",
+                  "china_cdn_id": "4fWHT1f72B8.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "双尾检验",
+                "alt_text": "",
+                "background_image": "//lh5.ggpht.com/uOEU-d3UL-H9doGukEqAOfSbW-iw62f0Ba-8GrBeJrBeKTzIPCDzO66MBNf5vCjxDuXUcUKQ30OCA-GShU33=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/136488380",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "135919242",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6316984080756534,
+                      "y": 0.771754384194957
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6230139118757335,
+                      "y": 0.582631577201145
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6219283498507435,
+                      "y": 0.4185964895024304
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6186716637757735,
+                      "y": 0.26228070004836124
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "VFS9mGdkU-M",
+                  "china_cdn_id": "VFS9mGdkU-M.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176979,
+          "key": "1364883810923",
+          "title": "双尾概率",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1364883810923",
+            "completed_at": "2019-02-20T14:40:13.006Z",
+            "last_viewed_at": "2019-10-10T18:36:13.210Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174708,
+              "key": "136488381",
+              "title": "双尾概率",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 如果两个临界区之和等于 1%，那么以上两处的百分比应该是多少？",
+              "user_state": {
+                "node_key": "136488381",
+                "completed_at": "2019-02-20T14:40:47.418Z",
+                "last_viewed_at": "2019-04-02T13:36:35.191Z",
+                "unstructured": "{\"0\":\"0.5\",\"1\":\"0.5\"}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "68_OkDcn6dI",
+                  "china_cdn_id": "68_OkDcn6dI.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "双尾概率",
+                "alt_text": "",
+                "background_image": "//lh6.ggpht.com/zi7O5gLlvbUhYFd0y4aO-bEKazVrw2ruxR7GeeUaaCgdMmUSyxKblupVKB3i4FgsuoxbZKh6cT3pdEmbKSA=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/136488381",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "135919245",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06368421051832447,
+                      "width": 0.07490377972430916,
+                      "x": 0.23235613463626492,
+                      "y": 0.61003861003861
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0.07526315788529256,
+                      "width": 0.07924602782426911,
+                      "x": 0.7100977198697068,
+                      "y": 0.5926640926640927
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "KwbK0InYgvE",
+                  "china_cdn_id": "KwbK0InYgvE.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176980,
+          "key": "1364883820923",
+          "title": "双尾临界值 0.01",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1364883820923",
+            "completed_at": "2019-02-20T14:41:20.708Z",
+            "last_viewed_at": "2019-07-15T15:38:53.416Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174709,
+              "key": "136488382",
+              "title": "双尾临界值 0.01",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "##  α = 0.01 时， Z 临界值是多少？\n\n<a href=\"https://s3.amazonaws.com/udacity-hosted-downloads/ZTable.jpg\" target=\"_blank\">z 表格链接</a>",
+              "user_state": {
+                "node_key": "136488382",
+                "completed_at": "2019-02-20T14:42:07.421Z",
+                "last_viewed_at": "2019-03-12T08:09:25.683Z",
+                "unstructured": "{\"0\":\"2.57\"}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "Kb_OuJuCFH0",
+                  "china_cdn_id": "Kb_OuJuCFH0.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "双尾临界值 0.01",
+                "alt_text": "",
+                "background_image": "//lh4.ggpht.com/RNqUpLgTFmDX9nqR0fqVXULviykMPDUCKOf20dwJwmKtMYdRrDUzmunm1cQ0Ey7il7E3krbJg4cBHGvISjE=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/136488382",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "135919248",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.057989690730557875,
+                      "width": 0.08801159001122187,
+                      "x": 0.11605644620540924,
+                      "y": 0.4089473777391684
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "Fzich-V7ZO0",
+                  "china_cdn_id": "Fzich-V7ZO0.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176981,
+          "key": "1364883830923",
+          "title": "双尾临界值 0.001",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1364883830923",
+            "completed_at": "2019-02-20T15:31:56.406Z",
+            "last_viewed_at": "2019-07-15T15:40:17.481Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174710,
+              "key": "136488383",
+              "title": "双尾临界值 0.001",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "##  α = 0.001 时， Z 临界值是多少？\n\n<a href=\"https://s3.amazonaws.com/udacity-hosted-downloads/ZTable.jpg\" target=\"_blank\">z 表格链接</a>",
+              "user_state": {
+                "node_key": "136488383",
+                "completed_at": "2019-02-20T15:32:42.275Z",
+                "last_viewed_at": "2019-03-12T08:12:15.291Z",
+                "unstructured": "{\"0\":\"3.29\"}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "sqOOrXKazFw",
+                  "china_cdn_id": "sqOOrXKazFw.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "双尾临界值 0.001",
+                "alt_text": "",
+                "background_image": "//lh6.ggpht.com/RqwNulF0rTBKaV3wm536Qp-SjRNEBcBcKodQH4tAYAKduG3BkOolmgZIf2VZ7cEbxuv3ZpJok8CWAtBdhZk=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/136488383",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "135919251",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06765463918565086,
+                      "width": 0.11300253532305031,
+                      "x": 0.13451100063023902,
+                      "y": 0.4282456086273889
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "KD_AqWVG4Cc",
+                  "china_cdn_id": "KD_AqWVG4Cc.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176983,
+          "key": "1359192540923",
+          "title": "假设",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1359192540923",
+            "completed_at": "2019-02-20T15:35:38.658Z",
+            "last_viewed_at": "2019-10-10T19:05:34.920Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174711,
+              "key": "135919254",
+              "title": "假设",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "DepOzUJw_bQ",
+                "china_cdn_id": "DepOzUJw_bQ.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 176982,
+          "key": "1364883840923",
+          "title": "拒绝零假设失败",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1364883840923",
+            "completed_at": "2019-02-20T23:08:43.932Z",
+            "last_viewed_at": "2019-10-10T19:05:51.282Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174712,
+              "key": "136488384",
+              "title": "拒绝零假设失败",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 我们能证明零假设为真吗（多数狗都有四条腿）？",
+              "user_state": {
+                "node_key": "136488384",
+                "completed_at": "2019-02-20T23:10:16.837Z",
+                "last_viewed_at": "2019-03-16T03:07:39.224Z",
+                "unstructured": "{\"0\":false,\"1\":true}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "7AGEhuipHl4",
+                  "china_cdn_id": "7AGEhuipHl4.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "拒绝零假设失败",
+                "alt_text": "",
+                "background_image": "//lh3.ggpht.com/7aaXd85UHqC_XOQ208Q3C817EnS3SE_1jmYIKO7GVCp5iLvjPciMWQksZ-B7kdd5kBMnrsYbEA3htoN_UDA=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/136488384",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "135919255",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.2332971449043279,
+                      "y": 0.6887719391075638
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.2343827069293179,
+                      "y": 0.7717543952375018
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "qUcZFxEXz2I",
+                  "china_cdn_id": "qUcZFxEXz2I.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176984,
+          "key": "1364883850923",
+          "title": "拒绝零假设证据",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1364883850923",
+            "completed_at": "2019-02-20T23:10:48.151Z",
+            "last_viewed_at": "2019-10-10T19:07:17.764Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174713,
+              "key": "136488385",
+              "title": "拒绝零假设证据",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 这样能拒绝零假设——即大多数狗有 4 条腿吗？\n\n请注意我们是基于之前视频中的陈述拒绝零假设，即我们将取 50% 作为我们的显著性水平。在典型的统计检验下（如使用 5% 显著水平），获得六只少于四条腿的狗可作为拒绝零假设的证据，但是却不足以作为拒绝零假设的充分信息。\n\n另一方面，如果我们将零假设的定义更改为表明有更高比例的狗有四条腿（如，至少 70% 的狗有四条腿），那么在 5% 的显著性水平下我们当前的证据将足以拒绝零假设。",
+              "user_state": {
+                "node_key": "136488385",
+                "completed_at": "2019-02-20T23:11:45.293Z",
+                "last_viewed_at": "2019-03-12T08:16:51.421Z",
+                "unstructured": "{\"0\":true,\"1\":false}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "BHRLT1tJXHU",
+                  "china_cdn_id": "BHRLT1tJXHU.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "拒绝零假设证据",
+                "alt_text": "",
+                "background_image": "//lh4.ggpht.com/Ci0GLWkAcRkCorKFXLZkLCfTVQzdw4IkkIN1ZtBbYTrahqWgbwIv4ZSPsv6OWeDSix8CMXMyHQ13FAdv_jzc=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/136488385",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "135919258",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.36139346385314647,
+                      "y": 0.7196491173627524
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.3679068360030864,
+                      "y": 0.8045613980538517
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "a5RRRMRZl8I",
+                  "china_cdn_id": "a5RRRMRZl8I.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176985,
+          "key": "1364883860923",
+          "title": "均值和标准偏差",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1364883860923",
+            "completed_at": "2019-02-20T23:12:01.441Z",
+            "last_viewed_at": "2019-10-10T19:09:36.546Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174714,
+              "key": "136488386",
+              "title": "均值和标准偏差",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "下载[学习和参与数据](https://s3.cn-north-1.amazonaws.com.cn/static-documents/nd002/Engagement+and+Learning+Results+-+Lesson+9.xlsx)，使用此数据完成练习。",
+              "user_state": {
+                "node_key": "136488386",
+                "completed_at": "2019-02-20T23:17:04.272Z",
+                "last_viewed_at": "2019-03-12T08:21:38.529Z",
+                "unstructured": "{\"0\":\"7.47\",\"1\":\"2.41\"}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "0XM5ILuCg1k",
+                  "china_cdn_id": "0XM5ILuCg1k.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "均值和标准偏差",
+                "alt_text": null,
+                "background_image": "//lh5.ggpht.com/TbBI_lzy4SjpJXr6dEilKxaJNMNaEWr84o4uvnqcyDOUWB0gK48nAhnN9tp-D67qSbsaiZflHaAmPl9BS5c=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/136488386",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "135919261",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06430155210643015,
+                      "width": 0.12219451371571072,
+                      "x": 0.1649067373299587,
+                      "y": 0.36842104723138713
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0.06208425720620843,
+                      "width": 0.11970074812967581,
+                      "x": 0.1725056715048886,
+                      "y": 0.4571929770448091
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "e6pJfNbQEKk",
+                  "china_cdn_id": "e6pJfNbQEKk.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176986,
+          "key": "1364883870923",
+          "title": "零假设",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1364883870923",
+            "completed_at": "2019-02-20T23:22:24.331Z",
+            "last_viewed_at": "2019-10-10T19:11:47.757Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174715,
+              "key": "136488387",
+              "title": "零假设",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 基于零假设，以下哪些选项是对的？\n\n在课堂上唱歌会：\n\n- □ 让学生参与的更高\n- □ 不会让学生参与度更高\n- □ 改变高参与度学生的人数\n- □ 参与度不变\n- □ 让学生参与度更低",
+              "user_state": {
+                "node_key": "136488387",
+                "completed_at": "2019-02-20T23:24:32.973Z",
+                "last_viewed_at": "2019-03-12T08:23:11.756Z",
+                "unstructured": "{\"0\":false,\"1\":true,\"2\":false,\"3\":true,\"4\":false}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "Klv_8052hoA",
+                  "china_cdn_id": "Klv_8052hoA.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "零假设",
+                "alt_text": "",
+                "background_image": "//lh3.ggpht.com/xn73kf29AHZz8FTENECaWkjyLWZf8aIOPJdCbbaqrEP_LYQFGlNYwqE3mu0QwCvw49ZFuTPCot7U-z7yrw=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/136488387",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "135919264",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.48297641065202507,
+                      "y": 0.7736842050752701
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.48297641065202507,
+                      "y": 0.700350871751139
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.48731865875198505,
+                      "y": 0.6270175384270077
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.48514753470200506,
+                      "y": 0.5556140296640378
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "4",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 5,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.48514753470200506,
+                      "y": 0.49578946826803605
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "ldiOcCeZvx4",
+                  "china_cdn_id": "ldiOcCeZvx4.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176988,
+          "key": "1364883880923",
+          "title": "对立假设",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1364883880923",
+            "completed_at": "2019-02-20T23:25:33.810Z",
+            "last_viewed_at": "2019-10-10T19:13:52.800Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174716,
+              "key": "136488388",
+              "title": "对立假设",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 对立假设是什么？\n\n在课堂上唱歌会：\n\n- □ 让学生参与的更高\n- □ 不会让学生参与度更高\n- □ 改变高参与度学生的人数\n- □ 参与度不变\n- □ 让学生参与度更低",
+              "user_state": {
+                "node_key": "136488388",
+                "completed_at": "2019-02-20T23:26:02.586Z",
+                "last_viewed_at": "2019-03-12T08:24:38.883Z",
+                "unstructured": "{\"0\":true,\"1\":false,\"2\":true,\"3\":false,\"4\":true}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "ferT-sqV3A0",
+                  "china_cdn_id": "ferT-sqV3A0.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "对立假设",
+                "alt_text": "",
+                "background_image": "//lh3.ggpht.com/sHrrqZ1pxSYRsY6Sc6x_Pz6f4CggMAijXMNPU2VECRg6RUvIoVS0PNSvrquOKGxSoGqYdkei7vjOuBSP6yAM=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/136488388",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "135919267",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.48406197267701506,
+                      "y": 0.7717543805141088
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.48514753470200506,
+                      "y": 0.6984210471899776
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.48731865875198505,
+                      "y": 0.6270175384270077
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.48406197267701506,
+                      "y": 0.5536842051028765
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "4",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 5,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.48623309672699505,
+                      "y": 0.4919298191457134
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "EH59aCNpHS8",
+                  "china_cdn_id": "EH59aCNpHS8.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176987,
+          "key": "1359192700923",
+          "title": "单尾或双尾",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1359192700923",
+            "completed_at": "2019-02-20T23:27:27.390Z",
+            "last_viewed_at": "2019-10-10T19:14:13.492Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174717,
+              "key": "135919270",
+              "title": "单尾或双尾",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "Cf8PvkUR1NQ",
+                "china_cdn_id": "Cf8PvkUR1NQ.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 176989,
+          "key": "1364883890923",
+          "title": "进行假设检验",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1364883890923",
+            "completed_at": "2019-02-20T23:30:25.788Z",
+            "last_viewed_at": "2019-10-10T19:16:17.413Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174718,
+              "key": "136488389",
+              "title": "进行假设检验",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 拒绝零假设的意思是什么？\n\n- □ 样本均值在临界区域之内还是之外？\n- □ 样本均值的 Z 值小于还是大于 Z 临界值？\n- □ 得到样本均值的概率小于还是大于 α 水平？",
+              "user_state": {
+                "node_key": "136488389",
+                "completed_at": "2019-02-20T23:33:48.544Z",
+                "last_viewed_at": "2019-03-12T08:27:28.328Z",
+                "unstructured": "{\"0\":false,\"1\":true,\"2\":true,\"3\":false,\"4\":false,\"5\":true}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "HTuI3iFzOdU",
+                  "china_cdn_id": "HTuI3iFzOdU.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "进行假设检验",
+                "alt_text": "",
+                "background_image": "//lh5.ggpht.com/yp47KOWyuR8hSVRbeSaTB8vF6wTtdU6wpvPl3MEGqBLDHfeLNpx94yOhvMkAh9_CijJ6clQxq59_fVQccFM=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/136488389",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "135919271",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.7825915295492617,
+                      "y": 0.4321052577497116
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6979176916000427,
+                      "y": 0.4282456086273889
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5958748612509838,
+                      "y": 0.6443859742008528
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.43195499547749566,
+                      "y": 0.6424561496396914
+                    }
+                  },
+                  {
+                    "group": "group2",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "4",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 5,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6219283498507435,
+                      "y": 0.8161403454208198
+                    }
+                  },
+                  {
+                    "group": "group2",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "5",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 6,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.47754860052707515,
+                      "y": 0.8180701699819811
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "EeI8F1_7zbQ",
+                  "china_cdn_id": "EeI8F1_7zbQ.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176990,
+          "key": "1364883900923",
+          "title": "临界值 0.05",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1364883900923",
+            "completed_at": "2019-02-20T23:35:28.246Z",
+            "last_viewed_at": "2019-10-10T19:19:39.309Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174719,
+              "key": "136488390",
+              "title": "临界值 0.05",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "<a href=\"https://s3.amazonaws.com/udacity-hosted-downloads/ZTable.jpg\" target=\"_blank\">z 表格链接</a>",
+              "user_state": {
+                "node_key": "136488390",
+                "completed_at": "2019-02-20T23:36:38.809Z",
+                "last_viewed_at": "2019-03-12T08:32:57.895Z",
+                "unstructured": "{\"0\":\"-1.96\",\"1\":\"+1.96\"}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "KQZnIM7YWAg",
+                  "china_cdn_id": "KQZnIM7YWAg.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "临界值 0.05",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/bftM8DjEI9Q4E0NZbW1kfHIiyhgDm3GTPruhK3KgdiAhvRZCNMu-zKZqJOzFHLZdtNIIUVA2-iwXLqGYUeo=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/136488390",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "135919274",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06430155210643015,
+                      "width": 0.0685785536159601,
+                      "x": 0.47863416255206515,
+                      "y": 0.6347368366716531
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0.07095343680709534,
+                      "width": 0.07855361596009976,
+                      "x": 0.7048589463840399,
+                      "y": 0.6286377494456763
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "P-CGd_Vzpk0",
+                  "china_cdn_id": "P-CGd_Vzpk0.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176991,
+          "key": "1364883910923",
+          "title": "样本均值的 Z 值",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1364883910923",
+            "completed_at": "2019-02-20T23:37:10.408Z",
+            "last_viewed_at": "2019-10-10T19:20:43.523Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174720,
+              "key": "136488391",
+              "title": "样本均值的 Z 值",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 在这个样本分布中，这个样本的均值 Z 值 是多少？",
+              "user_state": {
+                "node_key": "136488391",
+                "completed_at": "2019-02-21T00:12:37.371Z",
+                "last_viewed_at": "2019-03-12T08:36:33.093Z",
+                "unstructured": "{\"0\":\"1.886\"}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "-IGW7WH6CIA",
+                  "china_cdn_id": "-IGW7WH6CIA.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "样本均值的 Z 值",
+                "alt_text": "",
+                "background_image": "//lh5.ggpht.com/BltyXa7p0hvJ4vSkuhDqaR9iHsT5L8cTzaLXHeEcTNPZSU6k5L7Z0D1DdIpdYhW7tflSb_zqczs2LhYwfA=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/136488391",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "135919277",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.07095343680709534,
+                      "width": 0.12344139650872818,
+                      "x": 0.38246181421446385,
+                      "y": 0.7214176829268293
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "Hj2HADsZ-rM",
+                  "china_cdn_id": "Hj2HADsZ-rM.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176992,
+          "key": "1364883920923",
+          "title": "假设检验的结果",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1364883920923",
+            "completed_at": "2019-02-21T00:12:41.020Z",
+            "last_viewed_at": "2019-10-10T19:22:06.608Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174721,
+              "key": "136488392",
+              "title": "假设检验的结果",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 现在我们已经算出该样本均值的 Z 值，那么在 α 水平 0.05 这里，对于双尾检验，我们是拒绝零假设还是不能拒绝零假设呢？",
+              "user_state": {
+                "node_key": "136488392",
+                "completed_at": "2019-02-21T00:13:12.596Z",
+                "last_viewed_at": "2019-03-12T08:37:01.466Z",
+                "unstructured": "{\"0\":true,\"1\":false}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "-Ecdsb39FnM",
+                  "china_cdn_id": "-Ecdsb39FnM.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "假设检验的结果",
+                "alt_text": "",
+                "background_image": "//lh5.ggpht.com/TWmX-Z8Gv7AOAaBmyCQ22-2ZSR6HGfvMirV0twkrS-BgesJTHMIh8v7nIFBJ3SmEA0hN4ahfecOuhJNwRQ=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/136488392",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "135919280",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5719924967012041,
+                      "y": 0.8778947461013759
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5709069346762141,
+                      "y": 0.7852631671656312
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "zqj1NZbe5os",
+                  "china_cdn_id": "zqj1NZbe5os.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176993,
+          "key": "1364883930923",
+          "title": "增加样本量",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1364883930923",
+            "completed_at": "2019-02-21T00:13:50.818Z",
+            "last_viewed_at": "2019-10-10T19:23:07.058Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174722,
+              "key": "136488393",
+              "title": "增加样本量",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "136488393",
+                "completed_at": "2019-02-21T00:19:57.792Z",
+                "last_viewed_at": "2019-03-12T10:57:01.786Z",
+                "unstructured": "{\"0\":\"2.44\"}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "_Oh9-SQDtYg",
+                  "china_cdn_id": "_Oh9-SQDtYg.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "增加样本量",
+                "alt_text": null,
+                "background_image": "//lh4.ggpht.com/T0_CV7bieoUwcMVG8xui91WEqhWBTD4F9_12px5lTjva1ZGUmXTMjuc5WdHsxKR7ouxEsH5a_187j64D4A=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/136488393",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "135919283",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.05982456139600178,
+                      "width": 0.10855620249899878,
+                      "x": 0.3396822233533467,
+                      "y": 0.7698245559529474
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "tX7p7HXlKBQ",
+                  "china_cdn_id": "tX7p7HXlKBQ.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176994,
+          "key": "1364883940923",
+          "title": "拒绝或拒绝失败",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1364883940923",
+            "completed_at": "2019-02-21T00:20:27.592Z",
+            "last_viewed_at": "2019-10-10T19:23:37.376Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174723,
+              "key": "136488394",
+              "title": "拒绝或拒绝失败",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 现在我们已经算出该样本均值的 Z 值，那么在 α 水平 0.05 这里，对于双尾检验，我们是拒绝零假设还是不能拒绝零假设呢？",
+              "user_state": {
+                "node_key": "136488394",
+                "completed_at": "2019-02-21T00:20:56.176Z",
+                "last_viewed_at": "2019-03-12T10:58:05.740Z",
+                "unstructured": "{\"0\":false,\"1\":true}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "Nl5RzE-RQHA",
+                  "china_cdn_id": "Nl5RzE-RQHA.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "拒绝或拒绝失败",
+                "alt_text": "",
+                "background_image": "//lh3.ggpht.com/3801g0aJNt2LwlydK5pjUc3XwvZw4k_4x2ux_BE2hV0IngTaG7Pn9a1ebDxMb_qsTiiMiAoLLIdDgMF-zNo=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/136488394",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "135919286",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5405111979764944,
+                      "y": 0.889473678744951
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5372545119015245,
+                      "y": 0.8161403454208198
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "K2OncV6Bzo8",
+                  "china_cdn_id": "K2OncV6Bzo8.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176996,
+          "key": "1364883950923",
+          "title": "获得均值的概率",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1364883950923",
+            "completed_at": "2019-02-21T00:21:47.676Z",
+            "last_viewed_at": "2019-10-10T19:24:19.110Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174724,
+              "key": "136488395",
+              "title": "获得均值的概率",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "<a href=\"https://s3.amazonaws.com/udacity-hosted-downloads/ZTable.jpg\" target=\"_blank\">z 表格链接</a>\n\n使用 z 表格 中的准确数值。",
+              "user_state": {
+                "node_key": "136488395",
+                "completed_at": "2019-02-21T00:23:49.938Z",
+                "last_viewed_at": "2019-03-12T10:59:55.342Z",
+                "unstructured": "{\"0\":\"0.0073\"}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "00SWFc0sFIg",
+                  "china_cdn_id": "00SWFc0sFIg.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "获得均值的概率",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/PRxDKBjWGv8SR6RPABiexbU1NRg0TqfkdBOAaUbxbKIMPnGmG21qmMqlvtFPVojLu_NEl3LiJAkPjyu7Q5yL=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/136488395",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "135919289",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.5112010233017648,
+                      "y": 0.8817543952236986
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "ErwocwQVgYE",
+                  "china_cdn_id": "ErwocwQVgYE.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176995,
+          "key": "1364883960923",
+          "title": "决策失误",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1364883960923",
+            "completed_at": "2019-02-21T00:27:20.213Z",
+            "last_viewed_at": "2019-10-10T19:27:03.078Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174725,
+              "key": "136488396",
+              "title": "决策失误",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 这个图表中的哪些区域进行了错误的统计决策？",
+              "user_state": {
+                "node_key": "136488396",
+                "completed_at": "2019-02-21T00:29:09.181Z",
+                "last_viewed_at": "2019-03-12T11:01:56.922Z",
+                "unstructured": "{\"0\":true,\"1\":false,\"2\":false,\"3\":true}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "4QMqg8izUac",
+                  "china_cdn_id": "4QMqg8izUac.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "决策失误",
+                "alt_text": "",
+                "background_image": "//lh5.ggpht.com/mr-hPRaM60R4VC7XInnmUFe-_XmQYihV8MUW6esuq1uSujShnHzVc6fGDN_YI_k4yt9Up2gZe65secspGA=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/136488396",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "135919292",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.7608802890494619,
+                      "y": 0.7350877285754361
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5730780587261941,
+                      "y": 0.7370175531365974
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.7587091649994819,
+                      "y": 0.5247368514088493
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5752491827761741,
+                      "y": 0.5247368514088493
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "TJ_p0xBI9bI",
+                  "china_cdn_id": "TJ_p0xBI9bI.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176997,
+          "key": "1364883970923",
+          "title": "热饮料",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1364883970923",
+            "completed_at": "2019-02-21T01:40:39.218Z",
+            "last_viewed_at": "2019-10-10T19:29:26.610Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174726,
+              "key": "136488397",
+              "title": "热饮料",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 对立假设则是饮料太烫不能喝。\n\n- □ 你认为这杯饮料可以喝，但实际上太烫了把你的舌头烫到了\n- □ 你认为这杯饮料现在可以喝了，实际上是可以喝的你愉快地喝下了这杯饮料\n- □ 你认为饮料太烫了，等着冷了再喝，但实际上是可以喝的，等到你去喝的时候已经变冷了 \n- □ 你认为饮料太烫了, 实际上是很烫 所以你等了会，等到再去喝的时候温度变得刚刚好 \n\n现在请将 A B C 或 D 填到对应的方框中",
+              "user_state": {
+                "node_key": "136488397",
+                "completed_at": "2019-02-21T01:45:56.848Z",
+                "last_viewed_at": "2019-03-12T11:07:52.214Z",
+                "unstructured": "{\"0\":\"C\",\"1\":\"B\",\"2\":\"D\",\"3\":\"A\"}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "0O_5vNJycJg",
+                  "china_cdn_id": "0O_5vNJycJg.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "热饮料",
+                "alt_text": "",
+                "background_image": "//lh6.ggpht.com/ef0-uFByePz7_b_cajfBmNdFYpSwXqRc-r6w7A_cnD0e5lE4mjhEca5x28MgZWvJ6vJkkEiodcB3-XVnlsMw=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/136488397",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "135919295",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "TextInputWidget",
+                    "is_text_area": false,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.05543237250554324,
+                      "width": 0.07231920199501247,
+                      "x": 0.6726153366583542,
+                      "y": 0.3959603658536585
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "TextInputWidget",
+                    "is_text_area": false,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0.05543237250554324,
+                      "width": 0.0685785536159601,
+                      "x": 0.8569981296758105,
+                      "y": 0.39038248337028825
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "TextInputWidget",
+                    "is_text_area": false,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0.05543237250554324,
+                      "width": 0.07107231920199501,
+                      "x": 0.660633572319202,
+                      "y": 0.603519955654102
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "TextInputWidget",
+                    "is_text_area": false,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0.05543237250554324,
+                      "width": 0.0685785536159601,
+                      "x": 0.8507637157107232,
+                      "y": 0.6042821507760532
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "r-TWqzDJZJs",
+                  "china_cdn_id": "r-TWqzDJZJs.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176998,
+          "key": "1364883980923",
+          "title": "下雨",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1364883980923",
+            "completed_at": "2019-02-21T01:47:12.758Z",
+            "last_viewed_at": "2019-10-10T19:37:28.289Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174727,
+              "key": "136488398",
+              "title": "下雨",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "#### 不下雨☀️  \n#### 下雨☔️\n\n- □ A. 不会下雨 ☀️\n- □ B. 不带雨伞\n- □ C. 带雨伞🌂\n- □ D. 下雨啦",
+              "user_state": {
+                "node_key": "136488398",
+                "completed_at": "2019-02-21T01:49:29.121Z",
+                "last_viewed_at": "2019-03-12T11:24:35.114Z",
+                "unstructured": "{\"0\":\"C\",\"1\":\"B\",\"2\":\"A\",\"3\":\"D\"}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "R5Jgz8SaVqM",
+                  "china_cdn_id": "R5Jgz8SaVqM.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "下雨",
+                "alt_text": "",
+                "background_image": "//lh5.ggpht.com/aJqYpT-6LERhqgJhre5kbqrRY03UQ8U1wd0rsisOm4iVedd11zB3IfvIBnLeU_L6f3mH6YK_3sAJQcKLPpGm=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/136488398",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "135919298",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "TextInputWidget",
+                    "is_text_area": false,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.05543237250554324,
+                      "width": 0.0399002493765586,
+                      "x": 0.7611763273262964,
+                      "y": 0.3159649256259561
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "TextInputWidget",
+                    "is_text_area": false,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0.05543237250554324,
+                      "width": 0.03740648379052369,
+                      "x": 0.9562814535476597,
+                      "y": 0.3201754332023534
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "TextInputWidget",
+                    "is_text_area": false,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0.05543237250554324,
+                      "width": 0.04114713216957606,
+                      "x": 0.5611368764513042,
+                      "y": 0.5189473630019722
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "TextInputWidget",
+                    "is_text_area": false,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0.05543237250554324,
+                      "width": 0.04239401496259352,
+                      "x": 0.5589657524013242,
+                      "y": 0.7698245559529474
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "UNASgS676Hc",
+                  "china_cdn_id": "UNASgS676Hc.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176999,
+          "key": "1364883990923",
+          "title": "发生了什么？",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1364883990923",
+            "completed_at": "2019-02-21T01:50:03.860Z",
+            "last_viewed_at": "2019-10-10T19:39:52.587Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174728,
+              "key": "136488399",
+              "title": "发生了什么？",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "136488399",
+                "completed_at": "2019-02-21T01:56:05.408Z",
+                "last_viewed_at": "2019-04-02T14:16:21.183Z",
+                "unstructured": "{\"0\":false,\"1\":false,\"2\":true,\"3\":false}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "vD9iXeq3PKc",
+                  "china_cdn_id": "vD9iXeq3PKc.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "发生了什么？",
+                "alt_text": null,
+                "background_image": "//lh5.ggpht.com/NLHaF1oXZwnIxiRBXXVuKBlY5a-WI1PiAED9g2m6NHuThMNwr5CArR_NT95hZMqKOcQ14Mj7m-P4Tr_4KwMn=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/136488399",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "135919301",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.8813776738233505,
+                      "y": 0.6482456085997825
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6957465675500627,
+                      "y": 0.6385964857939758
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.8824632358483405,
+                      "y": 0.4282456086273889
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6979176916000427,
+                      "y": 0.42631578406622755
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "NSuT87J4V-g",
+                  "china_cdn_id": "NSuT87J4V-g.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177000,
+          "key": "1364884000923",
+          "title": "发生了什么？",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1364884000923",
+            "completed_at": "2019-02-21T02:00:14.302Z",
+            "last_viewed_at": "2019-10-10T20:00:10.859Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174729,
+              "key": "136488400",
+              "title": "发生了什么？",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "136488400",
+                "completed_at": "2019-02-21T02:02:06.015Z",
+                "last_viewed_at": "2019-03-05T23:12:27.484Z",
+                "unstructured": "{\"0\":false,\"1\":false,\"2\":false,\"3\":true}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "6mxt0l8IpOM",
+                  "china_cdn_id": "6mxt0l8IpOM.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "发生了什么？",
+                "alt_text": null,
+                "background_image": "//lh3.ggpht.com/Nc5WzZsEHpadc947rz8wes_HfxdWi0UTrPSuSXsqMVphkQpb2dVOqz1jMbjY1_DOCd7XIqkbniRkcaqCzc-h=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/136488400",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "135919304",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.8802921117983606,
+                      "y": 0.6463158134854071
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6957465675500627,
+                      "y": 0.6424561643630844
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.8846343598983205,
+                      "y": 0.4378947608799815
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6979176916000427,
+                      "y": 0.4282456380741748
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "LOwWWIXvnhU",
+                  "china_cdn_id": "LOwWWIXvnhU.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177001,
+          "key": "1359193070923",
+          "title": "容易产生误解",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1359193070923",
+            "completed_at": "2019-02-21T02:04:02.907Z",
+            "last_viewed_at": "2019-10-10T20:00:33.618Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174730,
+              "key": "135919307",
+              "title": "容易产生误解",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "DUVB_GCcado",
+                "china_cdn_id": "DUVB_GCcado.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 177002,
+          "key": "1404163730923",
+          "title": "结束这节课...",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1404163730923",
+            "completed_at": "2019-02-21T02:04:43.250Z",
+            "last_viewed_at": "2019-10-10T20:01:05.986Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174731,
+              "key": "140416373",
+              "title": "结束这节课...",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "vwRvT9b7IEE",
+                "china_cdn_id": "vwRvT9b7IEE.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 177003,
+          "key": "1404163750923",
+          "title": "假设检验",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1404163750923",
+            "completed_at": "2019-02-21T02:04:53.128Z",
+            "last_viewed_at": "2019-10-10T20:01:29.407Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174732,
+              "key": "140416375",
+              "title": "假设检验",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "GyLWb1FBJsA",
+                "china_cdn_id": "GyLWb1FBJsA.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 177004,
+          "key": "1405671130923",
+          "title": "增加参与度？",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1405671130923",
+            "completed_at": "2019-02-21T02:05:48.819Z",
+            "last_viewed_at": "2019-10-10T20:03:07.717Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174733,
+              "key": "140567113",
+              "title": "增加参与度？",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 你觉得呢？会提高参与度吗？\n\n这道题没有标准答案！",
+              "user_state": {
+                "node_key": "140567113",
+                "completed_at": "2019-02-21T02:06:03.531Z",
+                "last_viewed_at": "2019-04-02T14:22:48.259Z",
+                "unstructured": "{\"0\":\"no\"}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "o0gtllaVkuE",
+                  "china_cdn_id": "o0gtllaVkuE.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "增加参与度？",
+                "alt_text": "",
+                "background_image": "//lh3.ggpht.com/tLc8QuFGt0fjfZw8TsWVt_3MqC9Dps4DroQklSDVI6drknNaLmoMiC7JhYq5kvTMuhV940CSGoSKxVN8xg=s0#w=1364&h=736",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/140567113",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "140306829",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "TextInputWidget",
+                    "is_text_area": true,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.1568842566991749,
+                      "width": 0.352807658121746,
+                      "x": 0.46343629420220533,
+                      "y": 0.29347232348129343
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    }
+  ]
+}

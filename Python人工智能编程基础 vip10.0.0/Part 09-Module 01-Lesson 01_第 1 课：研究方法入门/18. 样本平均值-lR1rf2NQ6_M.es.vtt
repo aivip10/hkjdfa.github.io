@@ -1,0 +1,31 @@
+WEBVTT
+Kind: captions
+Language: es
+
+00:00:00.012 --> 00:00:02.288
+Entonces, sin necesidad de calcular nada,
+
+00:00:02.368 --> 00:00:04.078
+puedes ver que hemos elegido
+
+00:00:04.128 --> 00:00:06.502
+las mayores puntuaciones para la muestra.
+
+00:00:06.592 --> 00:00:09.092
+El resto de puntuaciones son muy inferiores.
+
+00:00:09.212 --> 00:00:14.812
+Por lo tanto, automáticamente sabemos que la media de la muestra va a ser mayor
+
+00:00:14.812 --> 00:00:16.922
+que el parámetro de población.
+
+00:00:16.922 --> 00:00:18.079
+Esto es sólo un ejemplo en el que
+
+00:00:18.091 --> 00:00:22.774
+a veces tomamos una muestra y no estimamos con precisión
+
+00:00:22.774 --> 00:00:24.053
+el parámetro de población.
+

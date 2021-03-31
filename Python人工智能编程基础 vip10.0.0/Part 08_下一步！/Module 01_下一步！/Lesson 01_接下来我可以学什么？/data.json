@@ -1,0 +1,74 @@
+{
+  "data": {
+    "lesson": {
+      "id": 593024,
+      "key": "3f419187-6b74-46fa-9b04-3552a3bb9dee",
+      "title": "接下来我可以学什么？",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "zh-cn",
+      "summary": null,
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": null,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/3f419187-6b74-46fa-9b04-3552a3bb9dee/593024/1544268566199/%E6%8E%A5%E4%B8%8B%E6%9D%A5%E6%88%91%E5%8F%AF%E4%BB%A5%E5%AD%A6%E4%BB%80%E4%B9%88%EF%BC%9F+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/3f419187-6b74-46fa-9b04-3552a3bb9dee/593024/1544268563839/%E6%8E%A5%E4%B8%8B%E6%9D%A5%E6%88%91%E5%8F%AF%E4%BB%A5%E5%AD%A6%E4%BB%80%E4%B9%88%EF%BC%9F+Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 593023,
+          "key": "76b047e4-302c-4514-acd1-549a0489cfc0",
+          "title": "迈入 AI 世界的下一步！",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "76b047e4-302c-4514-acd1-549a0489cfc0",
+            "completed_at": "2018-08-01T07:23:05.205Z",
+            "last_viewed_at": "2018-08-01T07:23:04.554Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 593021,
+              "key": "8635af1a-7564-4c88-aa16-efd0160161c3",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# 迈入 AI 世界的下一步！",
+              "instructor_notes": ""
+            },
+            {
+              "id": 593022,
+              "key": "a92af9d3-23fd-491c-a47b-c9aa5909eead",
+              "title": "迈入 AI 世界的下一步！",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "2Nf95Q3tH0c",
+                "china_cdn_id": "2Nf95Q3tH0c.mp4"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

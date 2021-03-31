@@ -1,0 +1,65 @@
+{
+  "data": {
+    "lesson": {
+      "id": 178213,
+      "key": "4595028745",
+      "title": "Google Spreadsheet 教程",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "zh-cn",
+      "summary": "熟悉 Google Spreadsheet。",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": null,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/4595028745/178213/1544466642120/Google+Spreadsheet+%E6%95%99%E7%A8%8B+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/4595028745/178213/1544466638043/Google+Spreadsheet+%E6%95%99%E7%A8%8B+Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 176734,
+          "key": "1164749820923",
+          "title": "Google Spreadsheet 教程",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1164749820923",
+            "completed_at": "2019-07-16T09:47:31.573Z",
+            "last_viewed_at": "2019-07-16T09:47:26.423Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174392,
+              "key": "116474982",
+              "title": "Google Spreadsheet 教程",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "你可以在这里访问[优达学城员工的 Facebook 好友 Google Spreadsheet](https://docs.google.com/spreadsheet/ccc?key=0Alo47BBiqLE0dG5xRWtyUEJWWTZidExmUEQ4ZGlMNUE&usp=sharing)。将此数据复制并粘贴到你自己的 Google Spreadsheet 中执行计算。进入 Google Drive（登录 Google 帐户后位于页面顶部），单击左侧按钮“创建”，然后单击“Spreadsheet”。\n\n如果你无法访问 Google Drive，也可以从[这里](https://s3.cn-north-1.amazonaws.com.cn/static-documents/nd002/How+many+Facebook+friends+do+Udacians+have-+-+Lesson+3.xlsx)直接下载该文档，在本地使用 Excel 或其它表格软件打开计算。视频中的界面与 Excel 的非常相似，使用的公式也都一致。 \n\n你将在第 3 课中用到该数据。",
+              "video": {
+                "youtube_id": "c3yK3OhuNvo",
+                "china_cdn_id": "c3yK3OhuNvo.mp4"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

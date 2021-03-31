@@ -1,0 +1,1333 @@
+{
+  "data": {
+    "lesson": {
+      "id": 178221,
+      "key": "4603879281",
+      "title": "习题集 6: 正态分布",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "zh-cn",
+      "summary": "检验你对正态分布的掌握程度。",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": null,
+      "resources": {
+        "files": [],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 176842,
+          "key": "2523036600923",
+          "title": "1. 身高",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2523036600923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174570,
+              "key": "252303660",
+              "title": "1. 身高",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 如果你从上面的人口分布图中随机选择一个7岁的小学生，这个小学生身高小于120cm的概率是多少？用比例来描述你的答案。",
+              "user_state": {
+                "node_key": "252303660",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "1. 身高",
+                "alt_text": null,
+                "background_image": "//lh3.ggpht.com/yt0763rWaBQeALUhLDGM9YIHpLy_N8TXsg_B9O2jkl7-bvvgcEUPK2AQfJDaGdtuYAEOIcjAhnpfhU8myH4=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252303660",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "86243910",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.7030457296004103,
+                      "y": 0.6288659991414378
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176843,
+          "key": "2523036610923",
+          "title": "挑战 2. 身高",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2523036610923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174571,
+              "key": "252303661",
+              "title": "*挑战* 2. 身高",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 这个分布的标准偏差是多少？\n\n提示：使用 z 表格。<a href=\"https://s3.amazonaws.com/udacity-hosted-downloads/ZTable.jpg\" target=\"_blank\">z 表格</a>的链接。\n\n对你的 z 值四舍五入，精确到小数点后两位，并使用 z 表中显示的精确值。",
+              "user_state": {
+                "node_key": "252303661",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "*挑战* 2. 身高",
+                "alt_text": null,
+                "background_image": "//lh5.ggpht.com/6FjCQ-MPAnaXqMYSjcBW9SQAuH5ojP0JhchJ_CVMEdIMKwHNtDXS28QBeKbFQrLB35KADU41VYNLNrvx5G7y=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252303661",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "86243911",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.6773024816178776,
+                      "y": 0.40979387348610624
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176844,
+          "key": "2523036620923",
+          "title": "3. 住房",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2523036620923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174572,
+              "key": "252303662",
+              "title": "3. 住房",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 房价低于 $50,000 的比例是多少？\n\n<a href=\"https://s3.amazonaws.com/udacity-hosted-downloads/ZTable.jpg\" target=\"_blank\">z 表格</a>的链接。\n\n对你的 z 值四舍五入，精确到小数点后两位，并使用 z 表中显示的精确值。",
+              "user_state": {
+                "node_key": "252303662",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "3. 住房",
+                "alt_text": null,
+                "background_image": "//lh4.ggpht.com/PxcVUHhMlm5cVbb4KveVigw0kbvFy4Y22TUZvYAafc5qOJCIjuyVwdLoGMXkgbAw20-bgrpPfbMtQN7Xbg=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252303662",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "86243912",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.7019579848577492,
+                      "y": 0.2712629063029976
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176845,
+          "key": "2523036630923",
+          "title": "4. 住房",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2523036630923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174573,
+              "key": "252303663",
+              "title": "4. 住房",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 房价在 $60,000 和 $80,000 之间的比例是多少？\n\n<a href=\"https://s3.amazonaws.com/udacity-hosted-downloads/ZTable.jpg\" target=\"_blank\">z 表格</a>的链接。\n\n对你的 z 值四舍五入，精确到小数点后两位，并使用 z 表中显示的精确值。",
+              "user_state": {
+                "node_key": "252303663",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "4. 住房",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/LhFPkzcMSjq1t4KjLvSvTO8EJflecS2BHMJx1iDpIJZxOhgRb49y5oOKugGDos8OAvcE1Ha__TaqKJDm2gk=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252303663",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "86243913",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.6965192611444436,
+                      "y": 0.32345362796049965
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176846,
+          "key": "2523036640923",
+          "title": "5. 住房",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2523036640923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174574,
+              "key": "252303664",
+              "title": "5. 住房",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 房价前 5% 的房子，最低房价是多少？\n\n<a href=\"https://s3.amazonaws.com/udacity-hosted-downloads/ZTable.jpg\" target=\"_blank\">z 表格</a>的链接。\n\n对你的 z 值四舍五入，精确到小数点后两位，并使用 z 表中显示的精确值。 ",
+              "user_state": {
+                "node_key": "252303664",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "5. 住房",
+                "alt_text": null,
+                "background_image": "//lh5.ggpht.com/QHnz92K8ziFrjlff43qFiCnS844PI8xAmkBMSYOwv42TTHm28djlL6vPnT4CU7VMPKlJm2JjaWTMoDA0w6xJ=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252303664",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "86243915",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.07538802660753881,
+                      "width": 0.1371571072319202,
+                      "x": 0.6725888768058993,
+                      "y": 0.22680414340956986
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176847,
+          "key": "2523036650923",
+          "title": "6. 住房",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2523036650923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174575,
+              "key": "252303665",
+              "title": "6. 住房",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 如果分布图中的总体为 120, 500 栋房子，多少房子的价格至少在 $100,000 以上 ?\n\n<a href=\"https://s3.amazonaws.com/udacity-hosted-downloads/ZTable.jpg\" target=\"_blank\">z 表格</a>的链接。\n\n对你的 z 值四舍五入，精确到小数点后两位，并使用 z 表中显示的精确值。",
+              "user_state": {
+                "node_key": "252303665",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "6. 住房",
+                "alt_text": "",
+                "background_image": "//lh4.ggpht.com/Mf7bkSRogbaREta9fWJIX4u2To9N5UeR_4D9b75YpZpbwlV1crBGwYroggFqBTYkmRVFImzh4K5p7YA2ew=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252303665",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "86243914",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.6889050479458159,
+                      "y": 0.4143041434383737
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176850,
+          "key": "2523036660923",
+          "title": "7. 大于 108",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2523036660923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174576,
+              "key": "252303666",
+              "title": "7. 大于 108",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 对于一个均值为 100，标准偏差为 16 的正态分布，从中随机取出一个值，它大于 108 的概率是多少？用比例写出，保留2位小数。\n\n<a href=\"https://s3.amazonaws.com/udacity-hosted-downloads/ZTable.jpg\" target=\"_blank\">Z-表格</a>的链接。\n\n对你的 z 值四舍五入，精确到小数点后两位，并使用 z 表中显示的精确值。",
+              "user_state": {
+                "node_key": "252303666",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "7. 大于 108",
+                "alt_text": null,
+                "background_image": "//lh5.ggpht.com/cbORRtpSgDGplpo_BD60d5QdTBvYQ37bnJB7GfQHjwkAUkQ1ukiFWEWQ2ki5002bKMUbWwuBFX38GIPKMpE=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252303666",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "102349448",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.5159536338626995,
+                      "y": 0.4916237310791175
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176848,
+          "key": "2523036670923",
+          "title": "8. 小于 76",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2523036670923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174577,
+              "key": "252303667",
+              "title": "8. 小于 76",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 对于一个均值为 100，标准偏差为 16 的正态分布，从中随机取出一个值，它小于 76 的概率是多少？用比例写出，保留2位小数。\n\n<a href=\"https://s3.amazonaws.com/udacity-hosted-downloads/ZTable.jpg\" target=\"_blank\">z 表格</a>的链接。\n\n对你的 z 值四舍五入，精确到小数点后两位，并使用 z 表中显示的精确值。",
+              "user_state": {
+                "node_key": "252303667",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "8. 小于 76",
+                "alt_text": null,
+                "background_image": "//lh3.ggpht.com/SmQLtN7YfrcmxcQ-0rUZ9VHrP1vaQL5xbv5UmL5NVKA8EIzTDiqFSMesuQl6abYlDRsjz24XlCPKw4Qbltg=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252303667",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "102349449",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.4822335468402052,
+                      "y": 0.4954897104611547
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176849,
+          "key": "2523036680923",
+          "title": "9. 65 和 90 之间",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2523036680923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174578,
+              "key": "252303668",
+              "title": "9. 65 和 90 之间",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 对于一个均值为 80，标准偏差为 10 的正态分布，从中随机取出一个值，它在 65 和 90 之间的概率是多少？用比例写出，保留2位小数。\n\n<a href=\"https://s3.amazonaws.com/udacity-hosted-downloads/ZTable.jpg\" target=\"_blank\">z 表格</a>的链接。\n\n对你的 z 值四舍五入，精确到小数点后两位，并使用 z 表中显示的精确值。",
+              "user_state": {
+                "node_key": "252303668",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "9. 65 和 90 之间",
+                "alt_text": null,
+                "background_image": "//lh3.ggpht.com/IWMk2FWZnjSM2ID1zY6t8nJOOH1NmOvBOPWog2WlFHZWamlhnJDRkUmN6HDMxxdsiFxCqLGjlKLaKCzNIYI=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252303668",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "102349450",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.37889779628739984,
+                      "y": 0.5206185764443965
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176851,
+          "key": "2523036690923",
+          "title": "10. 80 和 95 之间",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2523036690923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174579,
+              "key": "252303669",
+              "title": "10. 80 和 95 之间",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 对于一个均值为 80，标准偏差为 10 的正态分布，从中随机取出一个值，它在 80 和 95 之间的概率是多少？用比例写出，保留2位小数。\n\n<a href=\"https://s3.amazonaws.com/udacity-hosted-downloads/ZTable.jpg\" target=\"_blank\">z 表格</a>的链接。\n\n对你的 z 值四舍五入，精确到小数点后两位，并使用 z 表中显示的精确值。",
+              "user_state": {
+                "node_key": "252303669",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "10. 80 和 95 之间",
+                "alt_text": null,
+                "background_image": "//lh5.ggpht.com/iNuQkaiRUkwmRJHuhH4MTCnC8LqBuB67dDe362bFDtKu6IsDetKn456iP4VheZxtw9k9E9s0dUmIiFCL42M=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252303669",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "102349451",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.38107328577272204,
+                      "y": 0.5167525380721953
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176852,
+          "key": "2523036700923",
+          "title": "11. 前 30%",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2523036700923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174580,
+              "key": "252303670",
+              "title": "11. 前 30%",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 对于一个均值为 120，标准偏差为 20 的正态分布。哪一个值以上，代表总体的前 30% ？\n\n<a href=\"https://s3.amazonaws.com/udacity-hosted-downloads/ZTable.jpg\" target=\"_blank\">z 表格</a>的链接。\n\n对你的 z 值四舍五入，精确到小数点后两位，并使用 z 表中显示的精确值。",
+              "user_state": {
+                "node_key": "252303670",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "11. 前 30%",
+                "alt_text": null,
+                "background_image": "//lh4.ggpht.com/6corAnSREiWAoIN3BtF33pkazLA1ZT-luCEBuLuMZRPquQ84KvWRPpxesS_g29lyVefRVSmIaPEcY5P8mz6m=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252303670",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "102349452",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.4191443517658609,
+                      "y": 0.45489686795960027
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176854,
+          "key": "2523036710923",
+          "title": "12. 大于 1.64",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2523036710923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174581,
+              "key": "252303671",
+              "title": "12. 大于 1.64",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 从一个标准正态分布中随机取一个 Z-值，它大于 + 1.64 的概率是多少？\n\n- □ 0.9495\n- □ 0.4495\n- □ 0.0987\n- □ 0.0505\n\n<a href=\"https://s3.amazonaws.com/udacity-hosted-downloads/ZTable.jpg\" target=\"_blank\">z 表格</a>的链接。",
+              "user_state": {
+                "node_key": "252303671",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "12. 大于 1.64",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/P18tJRGg7flqSIP5hbPhStxdQ8WNAT2KDNs8IfRur44H-CmWv6CTo-Iza7yu9GDPTw-w8MIQFSC7v6eX9Orf=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252303671",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "102349453",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.3071066432717667,
+                      "y": 0.5882732156300473
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.3060188985291055,
+                      "y": 0.5148196073713407
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.3060188985291055,
+                      "y": 0.4452319784946712
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.3060188985291055,
+                      "y": 0.37177837023596455
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176853,
+          "key": "2523036720923",
+          "title": "13. 小于 -2.33",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2523036720923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174582,
+              "key": "252303672",
+              "title": "13. 小于 -2.33",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 从一个标准正态分布中随机取一个 Z-值，它小于 - 2.33 的概率是多少？\n\n- □ 0.0099\n- □ 0.9901\n- □ 0.0987\n- □ 0.4901\n\n<a href=\"https://s3.amazonaws.com/udacity-hosted-downloads/ZTable.jpg\" target=\"_blank\">z 表格</a>的链接。",
+              "user_state": {
+                "node_key": "252303672",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "13. 小于 -2.33",
+                "alt_text": null,
+                "background_image": "//lh4.ggpht.com/onKvE0QIrBzVSXNbYQFB-do9ST2oatR87wSANQ7eskqfURFuMz8Eti1XViIO2hKFCe2M0pduIjQ3_vZhKdY=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252303672",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "102349454",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.25707038510935565,
+                      "y": 0.369845351049864
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.25598264036669455,
+                      "y": 0.43556700054449626
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.25707038510935565,
+                      "y": 0.5051546294211657
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.25598264036669455,
+                      "y": 0.5786082376798724
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176855,
+          "key": "2523036730923",
+          "title": "14. 前 40%",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2523036730923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174583,
+              "key": "252303673",
+              "title": "14. 前 40%",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## Z-值为多少时，它代表总体的前 40% ？\n\n<a href=\"https://s3.amazonaws.com/udacity-hosted-downloads/ZTable.jpg\" target=\"_blank\">z 表格</a>的链接。\n\n对你的 z 值四舍五入，精确到小数点后两位，并使用 z 表中显示的精确值。",
+              "user_state": {
+                "node_key": "252303673",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "14. 前 40%",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/6yD8WJkBYgWype-EttrR9VT-tr8KLth5_tJmnaFVfmWpfema8WVnx0m-fTF9RLwnlQkSlfDpgIT-OEKcHZM=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252303673",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "102349455",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.3419144750369221,
+                      "y": 0.3563144232127338
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176856,
+          "key": "2523036740923",
+          "title": "15. 含义",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2523036740923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174584,
+              "key": "252303674",
+              "title": "15. 含义",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 如果总体中 33% 的值都低于“值 X”，这意味着（选择所有正确的选项）：\n\n- □ “值 X“ 的 Z-值为 - 0.44\n- □ “值 X“ 大于均值\n- □ “值 X“ 在均值上下一个标准偏差以内\n- □ “值 X“ 的百分位数为 33%\n\n<a href=\"https://s3.amazonaws.com/udacity-hosted-downloads/ZTable.jpg\" target=\"_blank\">z 表格</a>的链接。\n\n注：假设总体为正态分布。",
+              "user_state": {
+                "node_key": "252303674",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "15. 含义",
+                "alt_text": null,
+                "background_image": "//lh5.ggpht.com/-bm6Q2opLRox34RDJXcf9AjNUniv4VV0_bM-f0kyt-eHX09FiWJJ1eHSZHgWxspbAeebEP7pPpglLYdEBoE=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252303674",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "102349457",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.2768729641693811,
+                      "y": 0.584942084942085
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.2768729641693811,
+                      "y": 0.5115830115830116
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.2768729641693811,
+                      "y": 0.43243243243243246
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "4",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 5,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.2757871878393051,
+                      "y": 0.3532818532818533
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176857,
+          "key": "2523036750923",
+          "title": "16. 第 64 个百分位数",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2523036750923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174585,
+              "key": "252303675",
+              "title": "16. 第 64 个百分位数",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 对于一个均值为 90，标准偏差为 10 的正态分布，分布中的哪一个值为第 64 个百分位数？\n\n<a href=\"https://s3.amazonaws.com/udacity-hosted-downloads/ZTable.jpg\" target=\"_blank\">z 表格</a>的链接。\n\n对你的 z 值四舍五入，精确到小数点后两位，并使用 z 表中显示的精确值。",
+              "user_state": {
+                "node_key": "252303675",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "16. 第 64 个百分位数",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/s17zeyV8Ze7W7rTelHoXZcwbyDBHFz54ECUiJvLoJkciXNH-kRMLg3E_5MlWc2qfU-OhKSeHubnVhMp1-H4=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252303675",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "102349456",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.539884018201244,
+                      "y": 0.3041237015552318
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    }
+  ]
+}

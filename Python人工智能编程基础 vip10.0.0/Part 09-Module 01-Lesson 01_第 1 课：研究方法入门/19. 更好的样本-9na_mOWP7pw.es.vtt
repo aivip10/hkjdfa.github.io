@@ -1,0 +1,67 @@
+WEBVTT
+Kind: captions
+Language: es
+
+00:00:00.000 --> 00:00:01.935
+La respuesta es una muestra más grande.
+
+00:00:02.035 --> 00:00:06.695
+Si elegimos una más, esta también, digamos estas dos,
+
+00:00:06.855 --> 00:00:08.433
+y doblamos el tamaño de la muestra,
+
+00:00:08.493 --> 00:00:12.665
+Entonces ves, tenemos este valor más pequeño 32%.
+
+00:00:12.835 --> 00:00:17.142
+Y esto va a arrastrar hacia abajo la muestra estadística (x barra), la media.
+
+00:00:17.224 --> 00:00:20.824
+Entonces, estará más cerca de la media de la población (mu).
+
+00:00:20.824 --> 00:00:22.272
+Y, por supuesto, idealmente,
+
+00:00:22.272 --> 00:00:24.462
+con la población completa.
+
+00:00:24.462 --> 00:00:26.787
+Pero a menudo es dificil de conseguir
+
+00:00:26.787 --> 00:00:29.247
+porque la población puede ser muy grande.
+
+00:00:29.247 --> 00:00:32.432
+Ahí es cuando necesitamos una muestra. Pero una muestra más grande
+
+00:00:32.532 --> 00:00:36.242
+se aproximará mejora al parámetro de población.
+
+00:00:36.402 --> 00:00:37.465
+Otro ejemplo en el que las muestras
+
+00:00:37.477 --> 00:00:42.224
+pueden ser erróneas es la predicción de los resultados electorales de la presidencia.
+
+00:00:42.356 --> 00:00:46.970
+En la última campaña electoral a la Presidencia: Obama versus Mitt Romney,
+
+00:00:46.982 --> 00:00:50.460
+se emitieron muchas encuestas, cada una con sus propios resultados.
+
+00:00:50.550 --> 00:00:54.622
+Algunas de ellas predecían que Romney iba a ganar, lo que sabemos que no ocurrió.
+
+00:00:54.752 --> 00:00:59.839
+Si bien cada muestra puede no predecir perfectamente el parámetro de población.
+
+00:00:59.941 --> 00:01:05.553
+La muestra estadística puede darnos un intervalo en el que se encuentra el parámetro de población,
+
+00:01:05.755 --> 00:01:10.595
+siempre que la muestra sea aleatoria y lo más imparcial posible.
+
+00:01:10.877 --> 00:01:13.047
+Profundizaremos en esto más adelante.
+

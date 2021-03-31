@@ -1,0 +1,64 @@
+WEBVTT
+Kind: captions
+Language: es
+
+00:00:00.012 --> 00:00:04.739
+Ahora que has visto estudios observacionales en los que hay correlación entre el sueño y la memoria,
+
+00:00:04.739 --> 00:00:08.755
+y has aprendido sobre encuestas en las que preguntamos a la gente.
+
+00:00:08.755 --> 00:00:14.281
+Y has aprendido sobre experimentos que son la mejor apuesta para probar la causalidad.
+
+00:00:14.281 --> 00:00:18.658
+En la mayor parte de este curso, vamos a poner foco en los estudios observacionales.
+
+00:00:18.658 --> 00:00:23.613
+Esto es porque no podemos hacer exactamente una encuesta o experimento online.
+
+00:00:23.613 --> 00:00:29.001
+Pero pensamos que es importante para tí conocer los diferentes tipos de estudios que se usan en estadística.
+
+00:00:29.001 --> 00:00:32.712
+Aquí en Udacity, hicimos nuestro propio estudio observacional,
+
+00:00:32.723 --> 00:00:36.269
+que vamos a compartir contigo para que puedas dibujar las conclusiones.
+
+00:00:36.269 --> 00:00:42.109
+Por el momento, conoces mi mano bastante bien. La estás viendo todo el rato, mientras escribo las lecciones.
+
+00:00:42.109 --> 00:00:47.810
+Entonces, ahora, vas a utilizar tus conocimientos sobre mi mano, para saber algo más de mí.
+
+00:00:47.810 --> 00:00:50.915
+Hay un enlace, a la derecha llamado 'Peso y mano derecha'
+
+00:00:50.915 --> 00:00:55.177
+con los datos reales de la longitud de la mano y peso de aquí, en Udacity.
+
+00:00:55.177 --> 00:01:02.105
+Saquemos estos datos, si destacamos estos datos, y vamos a aquí arriba para insertar un gráfico.
+
+00:01:02.105 --> 00:01:09.457
+Vamos a gráficos y seleccionamos dispersión. Y necesitamos seleccionar aqui 'Gráfico de dispersión'
+
+00:01:09.457 --> 00:01:12.783
+y luego seleccionamos 'Insertar'. Después de seleccionar 'Insertar'
+
+00:01:12.795 --> 00:01:19.321
+Te aparecerá un grafico de dispersión,que mostrará visualmente los datos. Verás claramente la relación entre peso
+
+00:01:19.333 --> 00:01:26.234
+y longitud de la mano derecha. Basándote en este gráfico, si te digo que mi mano mide 6,75 pulgadas
+
+00:01:26.234 --> 00:01:31.195
+¿Cuál es mi altura? Escribe tu respuesta en pulgadas,
+
+00:01:31.195 --> 00:01:36.813
+ya que es así como he medido la mía. Sólo haz una suposicíon. Esto no va a afectar tus notas.
+
+00:01:36.813 --> 00:01:40.503
+El propósito es que utilices un patrón para hacer suposiciones.
+

@@ -1,0 +1,1412 @@
+{
+  "data": {
+    "lesson": {
+      "id": 178235,
+      "key": "4578974354",
+      "title": "习题集 11a：t 检验，第 3 部分",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "zh-cn",
+      "summary": "使用独立 t 检验样本，积累经验。",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": null,
+      "resources": {
+        "files": [],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 177143,
+          "key": "2529164890923",
+          "title": "3. t 检验",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2529164890923",
+            "completed_at": "2019-03-08T08:09:59.387Z",
+            "last_viewed_at": "2019-03-08T08:09:58.960Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174873,
+              "key": "252916489",
+              "title": "3. t 检验",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "<a href=\"https://s3.amazonaws.com/udacity-hosted-downloads/t-table.jpg\" target=\"_blank\">t 表格链接</a>",
+              "user_state": {
+                "node_key": "252916489",
+                "completed_at": "2019-03-08T08:18:28.352Z",
+                "last_viewed_at": "2019-03-08T08:18:28.352Z",
+                "unstructured": "{\"0\":true,\"1\":false,\"2\":\"1.89\",\"3\":\"31.56\",\"4\":\"2.59\"}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "3. t 检验",
+                "alt_text": null,
+                "background_image": "//lh4.ggpht.com/2-YFVP5hd_WIJ5yaOBqBwdX_plKLMW8EyvX4hgH0dllFtaRkK8Pk58c25VCP5QADOZ2_QKu5OV5NdnBdKy8=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252916489",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "153974158",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5735010262123046,
+                      "y": 0.7452667553012972
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5749517031950637,
+                      "y": 0.8502582019968119
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0.08425720620842572,
+                      "width": 0.1396508728179551,
+                      "x": 0.6808511229364798,
+                      "y": 0.1299483911777627
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 5,
+                    "placement": {
+                      "height": 0.07317073170731707,
+                      "width": 0.13092269326683292,
+                      "x": 0.69680856974683,
+                      "y": 0.45783135165811845
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "4",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 6,
+                    "placement": {
+                      "height": 0.07982261640798226,
+                      "width": 0.13466334164588528,
+                      "x": 0.69680856974683,
+                      "y": 0.5791738645917934
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177144,
+          "key": "2529164900923",
+          "title": "4. t 临界值",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2529164900923",
+            "completed_at": "2019-03-08T08:18:33.341Z",
+            "last_viewed_at": "2019-03-08T08:18:32.882Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174874,
+              "key": "252916490",
+              "title": "4. t 临界值",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "N 是这两个组数据点的总数。\n\n输入 t 表格中显示的确切值（三位小数）。\n<a href=\"https://s3.amazonaws.com/udacity-hosted-downloads/t-table.jpg\" target=\"_blank\">t 表格链接</a>",
+              "user_state": {
+                "node_key": "252916490",
+                "completed_at": "2019-03-08T08:19:38.132Z",
+                "last_viewed_at": "2019-03-08T08:19:38.132Z",
+                "unstructured": "{\"numeric1\":\"1.714\"}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "4. t 临界值",
+                "alt_text": null,
+                "background_image": "//lh3.ggpht.com/XWMrUwtsjQ3QiSANZoREKkqdfKx2auxOtVjLWJaSnZJdlbInlHYmQylmyXul5gvszLgKiCsdM_pwvSoM1A=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252916490",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "153974160",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": null,
+                    "marker": "numeric1",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.07095343680709534,
+                      "width": 0.09725685785536159,
+                      "x": 0.3461073877805486,
+                      "y": 0.3240715077605322
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177146,
+          "key": "2529164910923",
+          "title": "5. P 值",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2529164910923",
+            "completed_at": "2019-03-08T08:20:06.476Z",
+            "last_viewed_at": "2019-03-08T08:20:05.522Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174875,
+              "key": "252916491",
+              "title": "5. P 值",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "在前一习题所介绍的检验的背景下考虑此 P 值。\n\n<a href=\"https://s3.amazonaws.com/udacity-hosted-downloads/t-table.jpg\" target=\"_blank\">t 表格链接</a>",
+              "user_state": {
+                "node_key": "252916491",
+                "completed_at": "2019-03-08T08:20:11.926Z",
+                "last_viewed_at": "2019-03-08T08:20:11.926Z",
+                "unstructured": "{\"0\":true,\"1\":false}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "5. P 值",
+                "alt_text": null,
+                "background_image": "//lh5.ggpht.com/swlWreYDd5SSuxcPPR_2FVj4t038Q8fwQeWvWAkSUr8T-h1UdUKbKr5kHiWSTdf-lZS3HYWXkCcZciPUJNLK=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252916491",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "153974161",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.37549289466063496,
+                      "y": 0.4859648867884061
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.3767643865363735,
+                      "y": 0.3861003861003861
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177147,
+          "key": "2529164920923",
+          "title": "6. P 值",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2529164920923",
+            "completed_at": "2019-03-08T08:20:16.635Z",
+            "last_viewed_at": "2019-03-08T08:20:16.258Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174876,
+              "key": "252916492",
+              "title": "6. P 值",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "在前一习题所介绍的检验的背景下考虑此 P 值。\n\n<a href=\"https://s3.amazonaws.com/udacity-hosted-downloads/t-table.jpg\" target=\"_blank\">t 表格链接</a>",
+              "user_state": {
+                "node_key": "252916492",
+                "completed_at": "2019-03-08T08:20:20.358Z",
+                "last_viewed_at": "2019-03-08T08:20:20.358Z",
+                "unstructured": "{\"0\":false,\"1\":true}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "6. P 值",
+                "alt_text": null,
+                "background_image": "//lh5.ggpht.com/iUZPB7LVmJxes24nklEkSUwsSKO7kb-G2UYM0BghYb8WP4mDnfVsrXPwdqQsBbZDX1RY6Pu8HSRZw44EMmvY=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252916492",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "153974162",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.37756304783370104,
+                      "y": 0.4840350695889412
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.3764786629757333,
+                      "y": 0.37982454328622844
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177148,
+          "key": "2529164940923",
+          "title": "8. 真或假？",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2529164940923",
+            "completed_at": "2019-03-08T08:21:54.954Z",
+            "last_viewed_at": "2019-03-08T08:21:54.532Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174877,
+              "key": "252916494",
+              "title": "8. 真或假？",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "下列说法中，哪些是正确的，哪些是错误的？\n\n- R^2测量的是两组数据标准偏差的平均值的差值。\n- 统计显著性告诉我们某样本的统计值的得出，很大可能性不是因为偶然。\n- Cohen's d 是一种效应量大小的检验。\n- R^2测量的是自变量的引起的差异在整体差异中所占的比例。\n- 重复测量设计的好处是转移影响（carryover）小于主体之间between-subject的影响。\n\n<br>\n<a href=\"https://s3.amazonaws.com/udacity-hosted-downloads/t-table.jpg\" target=\"_blank\">t 表格链接</a>",
+              "user_state": {
+                "node_key": "252916494",
+                "completed_at": "2019-03-08T08:23:12.904Z",
+                "last_viewed_at": "2019-03-08T08:23:12.904Z",
+                "unstructured": "{\"0\":true,\"1\":false,\"2\":false,\"3\":true,\"4\":false,\"5\":true,\"6\":false,\"7\":true,\"8\":true,\"9\":false}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "8. 真或假？",
+                "alt_text": "",
+                "background_image": "//lh6.ggpht.com/g5IuZmCoblC_aCm2_CMYVAww29eeqghcaZCHx4d4Fry-EoECCuS3mfznrfRo5spdwHExkHtRqgDIeQB4ZBgJ=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252916494",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "153974164",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.9,
+                      "y": 0.238
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.823,
+                      "y": 0.238
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.9,
+                      "y": 0.3805
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.823,
+                      "y": 0.3805
+                    }
+                  },
+                  {
+                    "group": "group2",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "4",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 5,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.9,
+                      "y": 0.465
+                    }
+                  },
+                  {
+                    "group": "group2",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "5",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 6,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.823,
+                      "y": 0.465
+                    }
+                  },
+                  {
+                    "group": "group3",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "6",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 7,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.9,
+                      "y": 0.622
+                    }
+                  },
+                  {
+                    "group": "group3",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "7",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 8,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.823,
+                      "y": 0.622
+                    }
+                  },
+                  {
+                    "group": "group4",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "8",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 9,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.9,
+                      "y": 0.822
+                    }
+                  },
+                  {
+                    "group": "group4",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "9",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 10,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.823,
+                      "y": 0.822
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177150,
+          "key": "2529165000923",
+          "title": "14. 自变量",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2529165000923",
+            "completed_at": "2019-03-08T08:30:16.567Z",
+            "last_viewed_at": "2019-03-08T08:30:16.085Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174878,
+              "key": "252916500",
+              "title": "14. 自变量",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 一名研究者检验了两种不同的奖励方法对诊断为多动症 (ADHD) 的两组男孩改进行为的影响。研究者为每组随机分配了 10 名男孩。这些男孩在每次表现出良好行为（例如：举手提问、帮助同学、完成作业）时会得分。得分可用于兑换不同的奖励方法。一组可以使用得分换取额外休息时间，另一组可使用得分从学校礼品店换取礼品（例如：铅笔、小玩具）。研究者记录了 20 分钟一堂课内的良好行为次数。请确保写下每步的值，将在后面的步骤中用到。所有步骤和你的答案中请保留两位小数。\n\n以下哪个属于自变量？\n\n- ADHD\n- 性别\n- 奖励方法类型\n- 单个 20 分钟课程中的良好行为数量\n\n<a href=\"https://s3.amazonaws.com/udacity-hosted-downloads/t-table.jpg\" target=\"_blank\">t 表格链接</a>",
+              "user_state": {
+                "node_key": "252916500",
+                "completed_at": "2019-03-08T08:32:23.459Z",
+                "last_viewed_at": "2019-03-08T08:32:38.047Z",
+                "unstructured": "{\"0\":false,\"1\":true,\"2\":false,\"3\":false}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "14. 自变量",
+                "alt_text": "",
+                "background_image": "//lh5.ggpht.com/w-RMmJ_rS0qXrdzs5Ug6M9DePgHwvC5jXLyEi3J0hVA_OeO2I8bDFNdAT_y-pBwMxGg-Bvha8hyduYmf1Q=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252916500",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "153974170",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.18109382871362997,
+                      "y": 0.8750000394611936
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.18290472256734938,
+                      "y": 0.7996134415114684
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.1821803915532747,
+                      "y": 0.7229381444409548
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.18241042345276873,
+                      "y": 0.6525096525096525
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177149,
+          "key": "2529165010923",
+          "title": "15. 因变量",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2529165010923",
+            "completed_at": "2019-03-08T08:32:41.965Z",
+            "last_viewed_at": "2019-03-08T08:32:41.512Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174879,
+              "key": "252916501",
+              "title": "15. 因变量",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 一名研究者检验了两种不同的奖励方法对诊断为多动症 (ADHD) 的两组男孩改进行为的影响。研究者为每组随机分配了 10 名男孩。这些男孩在每次表现出良好行为（例如：举手提问、帮助同学、完成作业）时会得分。得分可用于兑换不同的奖励方法。一组可以使用得分换取额外休息时间，另一组可使用得分从学校礼品店换取礼品（例如：铅笔、小玩具）。研究者记录了 20 分钟一堂课内的良好行为次数。请确保写下每步的值，将在后面的步骤中用到。所有步骤和你的答案中请保留两位小数。\n\n以下哪个属于因变量？\n\n- ADHD\n- 性别\n- 奖励方法类型\n- 单个 20 分钟课程中的良好行为数量\n\n<a href=\"https://s3.amazonaws.com/udacity-hosted-downloads/t-table.jpg\" target=\"_blank\">t 表格链接</a>",
+              "user_state": {
+                "node_key": "252916501",
+                "completed_at": "2019-03-08T08:32:49.070Z",
+                "last_viewed_at": "2019-03-08T08:32:49.070Z",
+                "unstructured": "{\"0\":true,\"1\":false,\"2\":false,\"3\":false}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "15. 因变量",
+                "alt_text": "",
+                "background_image": "//lh6.ggpht.com/1LgaCz2c6W6gaAsmP6QJT-lWtUC4RS1-bH67q1dhYqVyDXtFvLWMfgItfsAyrL4K4h5pSd_oTYcKnCn4tA=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252916501",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "153974171",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.18109382871362997,
+                      "y": 0.8750000394611936
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.1803694313810226,
+                      "y": 0.7976804518204498
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.18109382871362997,
+                      "y": 0.7190721650589176
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.18132464712269272,
+                      "y": 0.6544401544401545
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177151,
+          "key": "2529165020923",
+          "title": "16. 零假设",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2529165020923",
+            "completed_at": "2019-03-08T08:32:52.695Z",
+            "last_viewed_at": "2019-03-08T08:32:52.270Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174880,
+              "key": "252916502",
+              "title": "16. 零假设",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": " 一名研究者检验了两种不同的奖励方法对诊断为多动症 (ADHD) 的两组男孩改进行为的影响。研究者为每组随机分配了 10 名男孩。这些男孩在每次表现出良好行为（例如：举手提问、帮助同学、完成作业）时会得分。得分可用于兑换不同的奖励方法。一组可以使用得分换取额外休息时间，另一组可使用得分从学校礼品店换取礼品（例如：铅笔、小玩具）。研究者记录了 20 分钟一堂课内的良好行为次数。请确保写下每步的值，将在后面的步骤中用到。所有步骤和你的答案中请保留两位小数。\n\n零假设是什么？用日常用语表达。\n\n1. 点数可以换取奖励。\n2. 在两种激励条件下，良好行为的次数有差异。\n3. 在两种激励条件下，良好行为的次数没有差异。\n\n<a href=\"https://s3.amazonaws.com/udacity-hosted-downloads/t-table.jpg\" target=\"_blank\">t 表格链接</a>",
+              "user_state": {
+                "node_key": "252916502",
+                "completed_at": "2019-03-08T08:33:10.084Z",
+                "last_viewed_at": "2019-03-08T08:33:10.084Z",
+                "unstructured": "{\"1\":true,\"2\":false,\"3\":false}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "16. 零假设",
+                "alt_text": "",
+                "background_image": "//lh5.ggpht.com/Nh9l5a6rIsVjOPnuogBMdQvWLjKm1FvSflK9WH-YwNlJYR3RpmXS3SITNMQPT7_TyA1kNYtv1mcXEx7y1Q=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252916502",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "153974172",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.13328506376926255,
+                      "y": 0.833762847399245
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.13328506376926255,
+                      "y": 0.707474226912806
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.1329228319436925,
+                      "y": 0.6398195877271552
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177152,
+          "key": "2529165030923",
+          "title": "17. 自由度",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2529165030923",
+            "completed_at": "2019-03-08T08:33:13.616Z",
+            "last_viewed_at": "2019-03-08T08:33:12.667Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174881,
+              "key": "252916503",
+              "title": "17. 自由度",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": " 一名研究者检验了两种不同的奖励方法对诊断为多动症 (ADHD) 的两组男孩改进行为的影响。研究者为每组随机分配了 10 名男孩。这些男孩在每次表现出良好行为（例如：举手提问、帮助同学、完成作业）时会得分。得分可用于兑换不同的奖励方法。一组可以使用得分换取额外休息时间，另一组可使用得分从学校礼品店换取礼品（例如：铅笔、小玩具）。研究者记录了 20 分钟一堂课内的良好行为次数。请确保写下每步的值，将在后面的步骤中用到。所有步骤和你的答案中请保留两位小数。\n\n自由度是多少？\n\n<a href=\"https://s3.amazonaws.com/udacity-hosted-downloads/t-table.jpg\" target=\"_blank\">t 表格链接</a>\n",
+              "user_state": {
+                "node_key": "252916503",
+                "completed_at": "2019-03-08T08:33:25.687Z",
+                "last_viewed_at": "2019-03-08T08:33:25.687Z",
+                "unstructured": "{\"0\":\"18\"}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "17. 自由度",
+                "alt_text": "",
+                "background_image": "//lh3.ggpht.com/lg4Qirr2pnKGvtk9WB-4lx1Bu2oRqNfDSaNZ6Vb-LdQAH6Sz6erlmuKd7wSa1Gukb_Zu_dUFUe2_-wmx4-4=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252916503",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "153939567",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.05789473683484043,
+                      "width": 0.15181388011547853,
+                      "x": 0.19218241042345277,
+                      "y": 0.6795366795366795
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177153,
+          "key": "2529165040923",
+          "title": "18. t 临界值",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2529165040923",
+            "completed_at": "2019-03-08T08:33:37.558Z",
+            "last_viewed_at": "2019-03-08T08:33:37.044Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174882,
+              "key": "252916504",
+              "title": "18. t 临界值",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": " 一名研究者检验了两种不同的奖励方法对诊断为多动症 (ADHD) 的两组男孩改进行为的影响。研究者为每组随机分配了 10 名男孩。这些男孩在每次表现出良好行为（例如：举手提问、帮助同学、完成作业）时会得分。得分可用于兑换不同的奖励方法。一组可以使用得分换取额外休息时间，另一组可使用得分从学校礼品店换取礼品（例如：铅笔、小玩具）。研究者记录了 20 分钟一堂课内的良好行为次数。请确保写下每步的值，将在后面的步骤中用到。所有步骤和你的答案中请保留两位小数。\n\n请写出 α = 0.05 、双尾检验的 t 临界值：\n\n\n\n<a href=\"https://s3.amazonaws.com/udacity-hosted-downloads/t-table.jpg\" target=\"_blank\">t 表格链接</a>",
+              "user_state": {
+                "node_key": "252916504",
+                "completed_at": "2019-03-08T08:34:13.044Z",
+                "last_viewed_at": "2019-03-08T08:34:13.044Z",
+                "unstructured": "{\"0\":\"2.101\"}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "18. t 临界值",
+                "alt_text": "",
+                "background_image": "//lh4.ggpht.com/1gq_Rh2W7rT8SQd3NiHnlS5JzPXQa3qjclQqQf3OiR2mkZDzwPb_76u3nQkUyu_hpZwC8Mg5n1i_dwcx5a4=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252916504",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "153974173",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.36590662323561346,
+                      "y": 0.6891891891891891
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177155,
+          "key": "2529165050923",
+          "title": "19. t 统计量",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2529165050923",
+            "completed_at": "2019-03-08T08:34:37.278Z",
+            "last_viewed_at": "2019-03-08T08:34:36.765Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174883,
+              "key": "252916505",
+              "title": "19. t 统计量",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": " 一名研究者检验了两种不同的奖励方法对诊断为多动症 (ADHD) 的两组男孩改进行为的影响。研究者为每组随机分配了 10 名男孩。这些男孩在每次表现出良好行为（例如：举手提问、帮助同学、完成作业）时会得分。得分可用于兑换不同的奖励方法。一组可以使用得分换取额外休息时间，另一组可使用得分从学校礼品店换取礼品（例如：铅笔、小玩具）。研究者记录了 20 分钟一堂课内的良好行为次数。请确保写下每步的值，将在后面的步骤中用到。所有步骤和你的答案中请保留两位小数。\n\n额外休息小组的均值为 10，礼物小组的均值为 7。标准误差是 0.94。输入正的 t 统计量。\n\n<a href=\"https://s3.amazonaws.com/udacity-hosted-downloads/t-table.jpg\" target=\"_blank\">t 表格链接</a>",
+              "user_state": {
+                "node_key": "252916505",
+                "completed_at": "2019-03-08T08:38:11.522Z",
+                "last_viewed_at": "2019-03-08T08:38:11.522Z",
+                "unstructured": "{\"0\":\"3.19\"}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "19. t 统计量",
+                "alt_text": "",
+                "background_image": "//lh6.ggpht.com/CsSPKn99JB8L3VilfIDWgTdV_q-0VGfbp1jkVU4XIzDYb87C86_k-ABzIn45GVgQKXrikO-nLqa3w3LDRkY=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252916505",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "153974174",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.0975609756097561,
+                      "width": 0.16209476309226933,
+                      "x": 0.4027010664670977,
+                      "y": 0.8089473495806794
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177154,
+          "key": "2529165060923",
+          "title": "20. 决策",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2529165060923",
+            "completed_at": "2019-03-08T08:38:19.967Z",
+            "last_viewed_at": "2019-03-08T08:38:19.554Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174884,
+              "key": "252916506",
+              "title": "20. 决策",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": " 一名研究者检验了两种不同的奖励方法对诊断为多动症 (ADHD) 的两组男孩改进行为的影响。研究者为每组随机分配了 10 名男孩。这些男孩在每次表现出良好行为（例如：举手提问、帮助同学、完成作业）时会得分。得分可用于兑换不同的奖励方法。一组可以使用得分换取额外休息时间，另一组可使用得分从学校礼品店换取礼品（例如：铅笔、小玩具）。研究者记录了 20 分钟一堂课内的良好行为次数。请确保写下每步的值，将在后面的步骤中用到。所有步骤和你的答案中请保留两位小数。\n\n\n<a href=\"https://s3.amazonaws.com/udacity-hosted-downloads/t-table.jpg\" target=\"_blank\">t 表格链接</a>",
+              "user_state": {
+                "node_key": "252916506",
+                "completed_at": "2019-03-08T08:38:24.942Z",
+                "last_viewed_at": "2019-03-08T08:38:24.942Z",
+                "unstructured": "{\"0\":true,\"1\":false}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "20. 决策",
+                "alt_text": "",
+                "background_image": "//lh5.ggpht.com/8IumbfVyakM0-spuJ6GlwaT96lxjK2TIsJ41_U__kNjzKoejGw5yL-enFJe4miLu-IN6SfxwdqeVpjYZiNZ3=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252916506",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "153974175",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.280658494767096,
+                      "y": 0.6785964844504662
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.2789826423015093,
+                      "y": 0.5742105141973232
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177156,
+          "key": "2529165070923",
+          "title": "21. Cohen's d",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2529165070923",
+            "completed_at": "2019-03-08T08:38:29.114Z",
+            "last_viewed_at": "2019-03-08T08:40:29.727Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174885,
+              "key": "252916507",
+              "title": "21. Cohen's d",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": " 一名研究者检验了两种不同的奖励方法对诊断为多动症 (ADHD) 的两组男孩改进行为的影响。研究者为每组随机分配了 10 名男孩。这些男孩在每次表现出良好行为（例如：举手提问、帮助同学、完成作业）时会得分。得分可用于兑换不同的奖励方法。一组可以使用得分换取额外休息时间，另一组可使用得分从学校礼品店换取礼品（例如：铅笔、小玩具）。研究者记录了 20 分钟一堂课内的良好行为次数。请确保写下每步的值，将在后面的步骤中用到。所有步骤和你的答案中请保留两位小数。\n\n合并标准差为 2.33，计算 Cohen's d\n\n<a href=\"https://s3.amazonaws.com/udacity-hosted-downloads/t-table.jpg\" target=\"_blank\">t 表格链接</a>",
+              "user_state": {
+                "node_key": "252916507",
+                "completed_at": "2019-03-08T08:39:35.416Z",
+                "last_viewed_at": "2019-03-08T08:39:35.416Z",
+                "unstructured": "{\"0\":\"1.29\"}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "21. Cohen's d",
+                "alt_text": "",
+                "background_image": "//lh3.ggpht.com/eecGfKyou9u8FZLg2UgtIJZ3WPlbRG7d2MXC3P_0BVtkb3ZDSimSceSi2NmgtH3VAFmM_FiDSXProEhIVA=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252916507",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "153974176",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.2301845819761129,
+                      "y": 0.7432432432432432
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177158,
+          "key": "2529165080923",
+          "title": "22. 可变性百分比",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2529165080923",
+            "completed_at": "2019-03-08T08:39:42.769Z",
+            "last_viewed_at": "2019-03-08T08:40:37.012Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174886,
+              "key": "252916508",
+              "title": "22. 可变性百分比",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": " 一名研究者检验了两种不同的奖励方法对诊断为多动症 (ADHD) 的两组男孩改进行为的影响。研究者为每组随机分配了 10 名男孩。这些男孩在每次表现出良好行为（例如：举手提问、帮助同学、完成作业）时会得分。得分可用于兑换不同的奖励方法。一组可以使用得分换取额外休息时间，另一组可使用得分从学校礼品店换取礼品（例如：铅笔、小玩具）。研究者记录了 20 分钟一堂课内的良好行为次数。请确保写下每步的值，将在后面的步骤中用到。所有步骤和你的答案中请保留两位小数。\n\n良好行为变化的 `_____%` 是由于不同的激励条件造成的？\n\n注：将比例转换为百分比，但是在答案中去掉百分号 %\n\n提示：你将在此计算中用到 t 统计量和自由度。\n\n<a href=\"https://s3.amazonaws.com/udacity-hosted-downloads/t-table.jpg\" target=\"_blank\">t 表格链接</a>",
+              "user_state": {
+                "node_key": "252916508",
+                "completed_at": "2019-03-08T08:40:43.626Z",
+                "last_viewed_at": "2019-03-08T08:40:43.626Z",
+                "unstructured": "{\"0\":\"36.12\"}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "22. 可变性百分比",
+                "alt_text": "",
+                "background_image": "//lh6.ggpht.com/cPFSFaOq9NEeI5V0FJVbEzQKptb0Iio2FOfIU6n6q7VI5vv1Y9DzXIQlpbVpY_rDwCfSRNymjgLhY5GYbY0=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252916508",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "153974177",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.0598669623059867,
+                      "width": 0.06733167082294264,
+                      "x": 0.11605751246882794,
+                      "y": 0.5472560975609756
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    }
+  ]
+}

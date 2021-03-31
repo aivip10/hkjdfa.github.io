@@ -1,0 +1,1459 @@
+{
+  "data": {
+    "lesson": {
+      "id": 178214,
+      "key": "4582174168",
+      "title": "习题集 3a: 集中趋势",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "zh-cn",
+      "summary": "复习集中趋势知识。",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": null,
+      "resources": {
+        "files": [],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 176736,
+          "key": "2517598430923",
+          "title": "1. BBC 记忆测试分数",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2517598430923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174424,
+              "key": "251759843",
+              "title": "1. BBC 记忆测试分数",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "##  还记得你之前做过的 BBC 人脸记忆测试吗？我们收集了一些优达学员的分数，你可以在这里下载：[分数样本](https://s3.cn-north-1.amazonaws.com.cn/static-documents/nd002/Sample+Memory+Scores+-+PS3%2C+PS4.xlsx)\n\n**样本量是多少？**",
+              "user_state": {
+                "node_key": "251759843",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "1. BBC 记忆测试分数",
+                "alt_text": null,
+                "background_image": "//lh5.ggpht.com/9kRm1SiBX_39cFtyhrGSy33N6jh26hcTNqr76mtbFctMl6vcIg-4kdUn6QGMOSZW3rkM9vpVQ7QkfNrwlIw=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/251759843",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "76945246",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.3485342019543974,
+                      "y": 0.5193050193050193
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176737,
+          "key": "2517598440923",
+          "title": "2. BBC 记忆测试分数",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2517598440923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174425,
+              "key": "251759844",
+              "title": "2. BBC 记忆测试分数",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "##  还记得你之前做过的 BBC 人脸记忆测试吗？我们收集了一些优达学员的分数，你可以在这里下载：[分数样本](https://s3.cn-north-1.amazonaws.com.cn/static-documents/nd002/Sample+Memory+Scores+-+PS3%2C+PS4.xlsx)\n\n**平均识别得分和平均短时记忆得分分别是多少？**\n\n答案四舍五入，精确到小数点后两位。",
+              "user_state": {
+                "node_key": "251759844",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "2. BBC 记忆测试分数",
+                "alt_text": null,
+                "background_image": "//lh5.ggpht.com/yuy6T_UnwO3ahLrH4Yd2463ShUtZc3O6Nd2iZdCiXNj4lZiCJOpAvx1kTkO0ChEaB8mLLJO1xIX12z89Pi3l=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/251759844",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "76945247",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.6145494028230185,
+                      "y": 0.7181467181467182
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.251900108577633,
+                      "y": 0.7200772200772201
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176738,
+          "key": "2517598450923",
+          "title": "3. BBC 记忆测试分数",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2517598450923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174426,
+              "key": "251759845",
+              "title": "3. BBC 记忆测试分数",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "##  还记得你之前做过的 BBC 人脸记忆测试吗？我们收集了一些优达学员的分数，你可以在这里下载：[分数样本](https://s3.cn-north-1.amazonaws.com.cn/static-documents/nd002/Sample+Memory+Scores+-+PS3%2C+PS4.xlsx)\n\n**BBC 进行这项测试时，他们发现识别得分和短时记忆得分的平均分分别是 92% 和 68%。我们的样本和这两个数字有多大差别？**\n\n- 识别得分差别：□ \n- 短时记忆得分差别：□ \n\n你的答案必须全部为正，因为我们在这里只关心样本与总体平均值之间的差距，而非孰大孰小。将你的答案四舍五入到最近的十分位（一个小数位）。仅用数字写下你的答案，不得包含任何特殊符号 (%)。",
+              "user_state": {
+                "node_key": "251759845",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "3. BBC 记忆测试分数",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/aZj3n4DwqIcJS2LuNuGTd5WS98rMXKsf8ysnwKGoVHQ9EV_rhAYCqHDamNhhRBuWiaP8_LLzB3p2hkSAVdw=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/251759845",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "76945248",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.059845559845559844,
+                      "width": 0.1465798045602606,
+                      "x": 0.6601520086862106,
+                      "y": 0.749034749034749
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0.06756756756756757,
+                      "width": 0.1769815418023887,
+                      "x": 0.6080347448425625,
+                      "y": 0.6640926640926641
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176740,
+          "key": "2517598460923",
+          "title": "4. 什么分布？",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2517598460923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174427,
+              "key": "251759846",
+              "title": "4. 什么分布？",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 这幅直方图描述了某家公司员工的通勤时间（分钟）。这个分布属于？\n\n- □ 正态分布\n- □ 双峰分布\n- □ 偏斜分布\n- □ 均匀分布",
+              "user_state": {
+                "node_key": "251759846",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "4. 什么分布？",
+                "alt_text": null,
+                "background_image": "//lh3.ggpht.com/YyAsGnWpfBWzV9vmny54hgQvH0YFFEAS2JcH1JORreh0CwXnZRGrsCvBu3YOnSIBRBmlu6Z3rzxf7cLuW_s=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/251759846",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "66418625",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 0,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6492942453854506,
+                      "y": 0.7837837837837838
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6416938110749185,
+                      "y": 0.7007722007722008
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6406080347448425,
+                      "y": 0.6138996138996139
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6395222584147665,
+                      "y": 0.5347490347490348
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176739,
+          "key": "2517598470923",
+          "title": "5. 什么分布？",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2517598470923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174428,
+              "key": "251759847",
+              "title": "5. 什么分布？",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 请问这个分布的形状是？\n\n- □ 正态分布\n- □ 偏斜分布\n- □ 双峰分布\n- □ 均匀分布",
+              "user_state": {
+                "node_key": "251759847",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "5. 什么分布？",
+                "alt_text": null,
+                "background_image": "//lh5.ggpht.com/T4Bd4AaoUn1s7SjI7XIV8iLm7j3EKzBFOpP1g-YennH6BpgLY5nMUpNjv1NRI_3GnFv-Xhh9rCCXgoKnVkg=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/251759847",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "66418624",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 0,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6601520086862106,
+                      "y": 0.584942084942085
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6547231270358306,
+                      "y": 0.5
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6536373507057546,
+                      "y": 0.4247104247104247
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6525515743756786,
+                      "y": 0.33976833976833976
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176743,
+          "key": "2517598480923",
+          "title": "6. 正态分布",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2517598480923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174429,
+              "key": "251759848",
+              "title": "6. 正态分布",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 对于正态分布，下面的说法中哪些是正确的？\n\n- □ 均值、中位数和众数都相等\n- □ 均值大于中位数\n- □ 均值小于众数\n- □ 中位数大于众数\n- □ 均值和众数都大于中位数",
+              "user_state": {
+                "node_key": "251759848",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "6. 正态分布",
+                "alt_text": null,
+                "background_image": "//lh5.ggpht.com/SscDQHh628llRUsID41CsQL2DnA9w5gE5ytBshkI-wATThU_TvwXhc5--g4Ty6gb3JKL0XsIRU7jvKywwg=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/251759848",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "66418614",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 0,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.03908794788273615,
+                      "y": 0.6235521235521235
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.038002171552660155,
+                      "y": 0.5521235521235521
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.038002171552660155,
+                      "y": 0.4806949806949807
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "4",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.038002171552660155,
+                      "y": 0.40733590733590735
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.038002171552660155,
+                      "y": 0.693050193050193
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176744,
+          "key": "2517598490923",
+          "title": "7. 正偏斜",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2517598490923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174430,
+              "key": "251759849",
+              "title": "7. 正偏斜",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 如果一项正偏态分布的中位数为 50，以下哪项为真（选择所有适用项）？\n\n- □ 均值大于 50。\n- □ 均值小于 50。\n- □ 众数小于 50。\n- □ 均值、中位数和众数都是完全相同的。\n- □ 众数大于 50。\n- □ 中位数大于众数，但小于均值。\n",
+              "user_state": {
+                "node_key": "251759849",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "7. 正偏斜",
+                "alt_text": null,
+                "background_image": "//lh5.ggpht.com/7WenMWVrWCUPUmOWO9IiH8ODjKAUBNKTN33clP6WVlDNlFcdBjxkTs52C19MPWEmvBRt2yTMIe2h-7mRW8E=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/251759849",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "66418615",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 0,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.06948968512486428,
+                      "y": 0.7413127413127413
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.06948968512486428,
+                      "y": 0.667953667953668
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.06948968512486428,
+                      "y": 0.5965250965250966
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.06948968512486428,
+                      "y": 0.525096525096525
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "4",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.06948968512486428,
+                      "y": 0.44787644787644787
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "5",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 5,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.06948968512486428,
+                      "y": 0.3745173745173745
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176745,
+          "key": "2517598500923",
+          "title": "8. 均值",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2517598500923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174431,
+              "key": "251759850",
+              "title": "8. 均值",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 以下关于均值的说法哪个是正确的？（选择所有适用项）\n\n- □ 它是任何分布最中间的那个值（一半数据大于均值，一半小于均值）\n- □ 它不受极端分数（异常值）影响。\n- □ 对于正态分布，它大约等于中位数和众数。\n- □ 它是最常见的得分。\n- □ 它可以用于描述分类数据，例如性别或出生地。\n",
+              "user_state": {
+                "node_key": "251759850",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "8. 均值",
+                "alt_text": null,
+                "background_image": "//lh4.ggpht.com/qD_qIrp-q0cyiAMGggeNIbC_lCf_7d1QOvO6ReJttQcuIsrNoKnJqscjv_sW3UqI87D8VijIG23llv8HuA=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/251759850",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "66418616",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.18890502577236937,
+                      "y": 0.7390464115294978
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.1896302110643669,
+                      "y": 0.6365979579055122
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "5",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 5,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.1918057005496891,
+                      "y": 0.49033503195832917
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "6",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 6,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.1918057005496891,
+                      "y": 0.3853092980730947
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "8",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 8,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.1947063089363385,
+                      "y": 0.23324740305285593
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176741,
+          "key": "2517598510923",
+          "title": "9. 中位数",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2517598510923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174432,
+              "key": "251759851",
+              "title": "9. 中位数",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 下列关于中位数的说法哪个为真（选择所有适用项）？\n\n- □ 它是任何分布最中间的那个值（一半数据大于中位数，一半小于中位数）\n- □ 它不受极端分数（异常值）影响。\n- □ 对于正态分布，它大约等于均值和众数。\n- □ 它是最常见的得分。\n- □ 它可以用于描述分类数据，例如性别或出生地。\n",
+              "user_state": {
+                "node_key": "251759851",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "9. 中位数",
+                "alt_text": null,
+                "background_image": "//lh3.ggpht.com/gVB0IYL_ftr9eUUFbyaEa2TX1X9FR0mXki0iKeybSM7iV6PJuNjo2Cxx7KXULmxmMrQLObSEI9zsLToMnQ=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/251759851",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "66418617",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "4",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.17367659937511384,
+                      "y": 0.4877577516970803
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "5",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 5,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.17476434411777494,
+                      "y": 0.6359536673352819
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "6",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 6,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.17331403992445024,
+                      "y": 0.38981956802536216
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "7",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 7,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.17476434411777494,
+                      "y": 0.7435566814817652
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "8",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 8,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.17585208886043607,
+                      "y": 0.2390463721259117
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176742,
+          "key": "2517598520923",
+          "title": "10. 众数",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2517598520923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174433,
+              "key": "251759852",
+              "title": "10. 众数",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 下列关于众数的说法哪个为真（选择所有适用项）？\n\n- □ 它是任何分布中间的那个值（一半数据大于众数，一半小于众数）\n- □ 它不受极端分数（异常值）影响。\n- □ 对于正态分布，它大约等于均值和中位数。\n- □ 它是最常见的得分。\n- □ 它可以用于描述分类数据，例如性别或出生地。\n",
+              "user_state": {
+                "node_key": "251759852",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "10. 众数",
+                "alt_text": null,
+                "background_image": "//lh5.ggpht.com/quvOGX4fOKvRx8C0rEmoHsGJnImJCsse1_X068NcEWC-nKm4ioLM2Gw462msn0qijzOMJbuaK4OXAQwcW0c=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/251759852",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "66418618",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 0,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.18745472157904466,
+                      "y": 0.7454896711727838
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.18527923209372243,
+                      "y": 0.6417526364083377
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "4",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.18781728102970827,
+                      "y": 0.4890464508178686
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "6",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 6,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.18999277051503047,
+                      "y": 0.39046397657592025
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "8",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 8,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.18781728102970827,
+                      "y": 0.23646909186466286
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176746,
+          "key": "2517598620923",
+          "title": "20. NHL (均值)",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2517598620923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174434,
+              "key": "251759862",
+              "title": "20. NHL (均值)",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "两个朋友在争论国家冰球联盟 (NHL) 中谁最喜欢的球队的球员个子较高。Scott 认为他的球队底特律红翼队球员更高，而 Dan 认为他的球队圣荷西鲨鱼队的球员更高。\n\n[这个电子表格](https://s3.cn-north-1.amazonaws.com.cn/static-documents/nd002/NHL+-+Problem+Set+3.xlsx)展示了每个球队队员的身高（单位为英寸，根据 2013 年 1 月 30 日的球员名单）。数据来自球队的官方网站。\n\n**每个球队球员的平均身高（英寸）是多少？**\n   \n- 底特律红翼队：□                  \n- 圣荷西鲨鱼队：□ \n\n----\n\n数据下载：[美国国家冰球联盟](https://s3.cn-north-1.amazonaws.com.cn/static-documents/nd002/NHL+-+Problem+Set+3.xlsx)\n\n下载完成后，打开文档计算，四舍五入到最近的百分位 (xx.xx)。",
+              "user_state": {
+                "node_key": "251759862",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "20. NHL (均值)",
+                "alt_text": null,
+                "background_image": "//lh5.ggpht.com/RcxiiimQ_rsIPmf1gTjzp1uOdaOuZY_Lgle3szRTpAFKhP9NqoDFBMrojM57fPJ_7ou2SWMX9Fa2dchyzkg=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/251759862",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "66418621",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "0",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 0,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.8241042345276873,
+                      "y": 0.8416988416988417
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "0",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06177606177606178,
+                      "width": 0.13137893593919653,
+                      "x": 0.4212812160694897,
+                      "y": 0.8416988416988417
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176749,
+          "key": "2517598630923",
+          "title": "21. NHL (众数)",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2517598630923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174435,
+              "key": "251759863",
+              "title": "21. NHL (众数)",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "两个朋友在争论国家冰球联盟 (NHL) 中谁最喜欢的球队的球员个子较高。Scott 认为他的球队底特律红翼队球员更高，而 Dan 认为他的球队圣荷西鲨鱼队的球员更高。\n\n[这个电子表格](https://s3.cn-north-1.amazonaws.com.cn/static-documents/nd002/NHL+-+Problem+Set+3.xlsx)展示了每个球队队员的身高（单位为英寸，根据 2013 年 1 月 30 日的球员名单）。数据来自球队的官方网站。\n\n**每个球队球员的身高（英寸）的众数是多少？**\n   \n- 底特律红翼队：□                  \n- 圣荷西鲨鱼队：□ \n\n----\n\n数据下载：[美国国家冰球联盟](https://s3.cn-north-1.amazonaws.com.cn/static-documents/nd002/NHL+-+Problem+Set+3.xlsx)\n\n下载完成后，打开文档计算，四舍五入到最近的百分位 (xx.xx)。",
+              "user_state": {
+                "node_key": "251759863",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "21. NHL (众数)",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/UQBu2iPcBOTcR8viLihcvUmjDmnCifPk8wO8aM_-8IEY0AnFTsyR_dV7DriYiJxzN6If8hvJHNvgkvVDaEyl=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/251759863",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "66418622",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "0",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 0,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.3116178067318133,
+                      "y": 0.8397683397683398
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "0",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.761129207383279,
+                      "y": 0.8378378378378378
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176748,
+          "key": "2517598640923",
+          "title": "22. NHL (中位数)",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2517598640923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174437,
+              "key": "251759864",
+              "title": "22. NHL (中位数)",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "两个朋友在争论国家冰球联盟 (NHL) 中谁最喜欢的球队的球员个子较高。Scott 认为他的球队底特律红翼队球员更高，而 Dan 认为他的球队圣荷西鲨鱼队的球员更高。\n\n[这个电子表格](https://s3.cn-north-1.amazonaws.com.cn/static-documents/nd002/NHL+-+Problem+Set+3.xlsx)展示了每个球队队员的身高（单位为英寸，根据 2013 年 1 月 30 日的球员名单）。数据来自球队的官方网站。\n\n**每个球队球员的身高（英寸）的中位数是多少？**\n   \n- 底特律红翼队：□                  \n- 圣荷西鲨鱼队：□ \n\n----\n\n数据下载：[美国国家冰球联盟](https://s3.cn-north-1.amazonaws.com.cn/static-documents/nd002/NHL+-+Problem+Set+3.xlsx)\n\n下载完成后，打开文档计算，四舍五入到最近的百分位 (xx.xx)。",
+              "user_state": {
+                "node_key": "251759864",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "22. NHL (中位数)",
+                "alt_text": null,
+                "background_image": "//lh4.ggpht.com/VheA8T300c-aSL4Xzdf7IALqlbvYHh6oa-HCwZUmTvKOQ9Ur-pWCfp1nlMw9OE9KWLWNJBa4Pkttpezuqqs=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/251759864",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "66418623",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "0",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 0,
+                    "placement": {
+                      "height": 0.06873614190687362,
+                      "width": 0.1483790523690773,
+                      "x": 0.40608034744842564,
+                      "y": 0.8397683397683398
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "0",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.07538802660753881,
+                      "width": 0.14214463840399003,
+                      "x": 0.8208469055374593,
+                      "y": 0.8436293436293436
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    }
+  ]
+}

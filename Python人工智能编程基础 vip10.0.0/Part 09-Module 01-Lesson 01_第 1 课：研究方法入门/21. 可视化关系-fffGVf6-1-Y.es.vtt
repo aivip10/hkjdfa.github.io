@@ -1,0 +1,67 @@
+WEBVTT
+Kind: captions
+Language: es
+
+00:00:00.490 --> 00:00:02.080
+Cuando visualizamos datos,
+
+00:00:02.150 --> 00:00:05.010
+es mucho más fácil sacar conclusiones.
+
+00:00:05.110 --> 00:00:10.130
+Podemos ver una clara tendencia ascendente en la relación entre las horas de sueño
+
+00:00:10.210 --> 00:00:11.550
+y la memoria temporal.
+
+00:00:11.640 --> 00:00:13.130
+Basándonos en estos datos,
+
+00:00:13.180 --> 00:00:15.990
+podemos decir que en general, cuantas más horas duermes,
+
+00:00:16.060 --> 00:00:18.340
+mejor puntuación de memoria temporal obtienes.
+
+00:00:18.440 --> 00:00:23.520
+Eso no quiere decir que el sueño provoca mejor puntuación de memoria temporal
+
+00:00:23.640 --> 00:00:27.300
+Es sólo una tendencia que podemos ver en los datos.
+
+00:00:27.360 --> 00:00:28.640
+En realidad no sabemos,
+
+00:00:28.710 --> 00:00:31.240
+si una mayor puntuación en la memoria temporal supone
+
+00:00:31.310 --> 00:00:33.080
+un mejor resultado en el test.
+
+00:00:33.180 --> 00:00:36.020
+No podemos afirmar esta segunda opción.
+
+00:00:36.160 --> 00:00:39.850
+La tercera opción se opone a la relación que vemos aqui.
+
+00:00:40.210 --> 00:00:45.080
+Y definitivamente vemos una tendencia ascendente en esta relación.
+
+00:00:45.200 --> 00:00:48.120
+Profundizaremos en visualización más adelante.
+
+00:00:48.250 --> 00:00:53.100
+Pero por ahora, el tema es que los datos vienen en distintos formatos:
+
+00:00:53.200 --> 00:00:56.944
+Filas de datos, visualizaciones,
+
+00:00:57.124 --> 00:01:01.804
+o en datos agregados.
+
+00:01:01.924 --> 00:01:04.270
+Tenemos que tomar buenas decisiones
+
+00:01:04.370 --> 00:01:07.900
+sobre qué método utilizaremos para dibujar conclusiones sólidas de nuestros datos.
+

@@ -1,0 +1,1073 @@
+{
+  "data": {
+    "lesson": {
+      "id": 178215,
+      "key": "4594888601",
+      "title": "习题集 3b: 额外练习 (可选)",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "zh-cn",
+      "summary": "将你对“集中趋势”的理解学以致用。",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": null,
+      "resources": {
+        "files": [],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 176747,
+          "key": "2517598530923",
+          "title": "11. 一掷千金（中位数）",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2517598530923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174436,
+              "key": "251759853",
+              "title": "11. 一掷千金（中位数）",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## “一掷千金”是美国的一档电视游戏节目，曾在全球40个国家播出。在这个游戏中，参与者要打开一系列带有编号的箱子，每个箱子包含不同金额的奖金。\n\n一共有26个箱子，每个箱子所含奖金的金额可以在[这个表格](https://s3.cn-north-1.amazonaws.com.cn/static-documents/nd002/Deal+or+No+Deal-+-+Problem+Set+3.xlsx)中查找。\n\n**奖金的中位数是多少？**\n\n----\n\n下载数据：[一掷千金](https://s3.cn-north-1.amazonaws.com.cn/static-documents/nd002/Deal+or+No+Deal-+-+Problem+Set+3.xlsx)\n\n打开下载好的文档开始计算。",
+              "user_state": {
+                "node_key": "251759853",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "11. 一掷千金(中位数)",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/jfY_5NqiOmqmKfYll8WG1c6AVvY0f0EIt0kDZuHkR8Qq3O4cbrlz1Slq_uwfOynpyZsWacKcDeGI-yBKyw=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/251759853",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "66418605",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "TextInputWidget",
+                    "is_text_area": false,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.5228526358167125,
+                      "y": 0.6447091728617823
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176750,
+          "key": "2517598540923",
+          "title": "12. 一掷千金（众数）",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2517598540923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174438,
+              "key": "251759854",
+              "title": "12. 一掷千金（众数）",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## “一掷千金”是美国的一档电视游戏节目，曾在全球40个国家播出。在这个游戏中，参与者要打开一系列带有编号的箱子，每个箱子包含不同金额的奖金。\n\n一共有26个箱子，每个箱子所含奖金的金额可以在[这个表格](https://s3.cn-north-1.amazonaws.com.cn/static-documents/nd002/Deal+or+No+Deal-+-+Problem+Set+3.xlsx)中查找。\n\n**奖金的众数是多少？（如果没有众数，请输入 NA）**\n\n----\n\n下载数据：[一掷千金](https://s3.cn-north-1.amazonaws.com.cn/static-documents/nd002/Deal+or+No+Deal-+-+Problem+Set+3.xlsx)\n\n打开下载好的文档开始计算。",
+              "user_state": {
+                "node_key": "251759854",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "12. 一掷千金(众数)",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/ZkNXXhXdK6kz7hs6EKyM8KEIsDBsCKahJ_gL4ptrBAxgee7G3mEQ_zlzO3xmq1500fd3Jqe6BtbD-OdgO7JI=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/251759854",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "66418606",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "TextInputWidget",
+                    "is_text_area": false,
+                    "tabindex": 0,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.2182410423452769,
+                      "y": 0.7567567567567568
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176751,
+          "key": "2517598550923",
+          "title": "13. 一掷千金（数字）",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2517598550923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174439,
+              "key": "251759855",
+              "title": "13. 一掷千金（数字）",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## “一掷千金”是美国的一档电视游戏节目，曾在全球40个国家播出。在这个游戏中，参与者要打开一系列带有编号的箱子，每个箱子包含不同金额的奖金。\n\n一共有26个箱子，每个箱子所含奖金的金额可以在[这个表格](https://s3.cn-north-1.amazonaws.com.cn/static-documents/nd002/Deal+or+No+Deal-+-+Problem+Set+3.xlsx)中查找。\n\n**有多少箱子的奖金少于中位数？** □ \n\n**有多少箱子的奖金大于中位数？** □ \n\n----\n\n下载数据：[一掷千金](https://s3.cn-north-1.amazonaws.com.cn/static-documents/nd002/Deal+or+No+Deal-+-+Problem+Set+3.xlsx)\n\n打开下载好的文档开始计算。",
+              "user_state": {
+                "node_key": "251759855",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "13. 一掷千金(数字)",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/hA7T9Tchgp4JrOXkRJS9TWnz4bTzQmscn-8YSijtvIYyNmDmy13ctJ1AVj0laJbrOu-79BqBI6_yUkjI0Q=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/251759855",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "66418607",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "0",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 0,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.8078175895765473,
+                      "y": 0.6254826254826255
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "0",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.8067318132464713,
+                      "y": 0.8378378378378378
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176752,
+          "key": "2517598560923",
+          "title": "14. 一掷千金（均值和中位数）",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2517598560923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174440,
+              "key": "251759856",
+              "title": "14. 一掷千金（均值和中位数）",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## “一掷千金”是美国的一档电视游戏节目，曾在全球40个国家播出。在这个游戏中，参与者要打开一系列带有编号的箱子，每个箱子包含不同金额的奖金。\n\n一共有26个箱子，每个箱子所含奖金的金额可以在[这个表格](https://s3.cn-north-1.amazonaws.com.cn/static-documents/nd002/Deal+or+No+Deal-+-+Problem+Set+3.xlsx)中查找。\n\n**在不进行任何计算的情况下，你预测均值会……** \n\n- □ 小于中位数\n- □ 大于中位数\n- □ 等于中位数\n\n----\n\n下载数据：[一掷千金](https://s3.cn-north-1.amazonaws.com.cn/static-documents/nd002/Deal+or+No+Deal-+-+Problem+Set+3.xlsx)\n\n打开下载好的文档开始计算。",
+              "user_state": {
+                "node_key": "251759856",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "14. 一掷千金(均值和中位数)",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/D3DwZhTjEYHIftoimqHzlrSrmPwlO_dnJZid9kilfWa2qS1q88So0UdIhzbF_fPegIoavUQDtsGP_tHtqA=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/251759856",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "66418608",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 0,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.1454940282301846,
+                      "y": 0.8938223938223938
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.14332247557003258,
+                      "y": 0.8185328185328186
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.14115092290988057,
+                      "y": 0.749034749034749
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176753,
+          "key": "2517598570923",
+          "title": "15. 一掷千金（均值）",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2517598570923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174441,
+              "key": "251759857",
+              "title": "15. 一掷千金（均值）",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## “一掷千金”是美国的一档电视游戏节目，曾在全球40个国家播出。在这个游戏中，参与者要打开一系列带有编号的箱子，每个箱子包含不同金额的奖金。\n\n一共有26个箱子，每个箱子所含奖金的金额可以在[这个表格](https://s3.cn-north-1.amazonaws.com.cn/static-documents/nd002/Deal+or+No+Deal-+-+Problem+Set+3.xlsx)中查找。\n\n**请计算均值：□ ** \n\n----\n\n下载数据：[一掷千金](https://s3.cn-north-1.amazonaws.com.cn/static-documents/nd002/Deal+or+No+Deal-+-+Problem+Set+3.xlsx)\n\n打开下载好的文档开始计算。",
+              "user_state": {
+                "node_key": "251759857",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "15. 一掷千金(均值)",
+                "alt_text": null,
+                "background_image": "//lh5.ggpht.com/27R2R4Lw0wtSMA1_WEvP4oDlqD5QWyVmkHcvyGWj38qmVOMJpHxZQ9pWFhqkK_QJIL2RgdTJbcbdssYboA=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/251759857",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "66418609",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "0",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 0,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.30944625407166126,
+                      "y": 0.6467181467181468
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176754,
+          "key": "2517598580923",
+          "title": "16. 一掷千金（比例）",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2517598580923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174442,
+              "key": "251759858",
+              "title": "16. 一掷千金（比例）",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## “一掷千金”是美国的一档电视游戏节目，曾在全球40个国家播出。在这个游戏中，参与者要打开一系列带有编号的箱子，每个箱子包含不同金额的奖金。\n\n一共有26个箱子，每个箱子所含奖金的金额可以在[这个表格](https://s3.cn-north-1.amazonaws.com.cn/static-documents/nd002/Deal+or+No+Deal-+-+Problem+Set+3.xlsx)中查找。\n\n**有多少比例的箱子所含奖金大于均值？ ** \n\n----\n\n下载数据：[一掷千金](https://s3.cn-north-1.amazonaws.com.cn/static-documents/nd002/Deal+or+No+Deal-+-+Problem+Set+3.xlsx)\n\n打开下载好的文档开始计算。",
+              "user_state": {
+                "node_key": "251759858",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "16. 一掷千金(比例)",
+                "alt_text": null,
+                "background_image": "//lh3.ggpht.com/M-WgtMDuWzBT9OmgBraqHTpTWx23xXixPJObC7kr1cSDUDoBDMk9iALic_FIyQ9cL2_Uosc-jpzQ36lfJNnc=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/251759858",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "66418610",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "0",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 0,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.7144408251900108,
+                      "y": 0.7258687258687259
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176755,
+          "key": "2517598590923",
+          "title": "17. 一掷千金（频率）",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2517598590923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174443,
+              "key": "251759859",
+              "title": "17. 一掷千金（频率）",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## “一掷千金”是美国的一档电视游戏节目，曾在全球40个国家播出。在这个游戏中，参与者要打开一系列带有编号的箱子，每个箱子包含不同金额的奖金。\n\n一共有26个箱子，每个箱子所含奖金的金额可以在[这个表格](https://s3.cn-north-1.amazonaws.com.cn/static-documents/nd002/Deal+or+No+Deal-+-+Problem+Set+3.xlsx)中查找。\n\n**如果创建一个组距为500的直方图，频数最高的分组是哪一个？** \n\n- □ 0 - 499\n- □ 500 - 999 \n- □ 100,000 - 100,499\n\n频数为： □ \n\n----\n\n下载数据：[一掷千金](https://s3.cn-north-1.amazonaws.com.cn/static-documents/nd002/Deal+or+No+Deal-+-+Problem+Set+3.xlsx)\n\n打开下载好的文档开始计算。",
+              "user_state": {
+                "node_key": "251759859",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "17. 一掷千金(频率)",
+                "alt_text": "",
+                "background_image": "//lh4.ggpht.com/wpOdd91EnmaYdRwaNEzXyp7hCE4pmm2pgJV6NTGocjE3yoFS7Kn2l3AsarR7uBU9v6cW3XYOZYOD_DHS9w=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/251759859",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "66418613",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 0,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.1563517915309446,
+                      "y": 0.918918918918919
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.15526601520086863,
+                      "y": 0.8455598455598455
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.15309446254071662,
+                      "y": 0.7818532818532818
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "0",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0.059845559845559844,
+                      "width": 0.08143322475570032,
+                      "x": 0.6796959826275787,
+                      "y": 0.7644787644787645
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176756,
+          "key": "2517598600923",
+          "title": "18. 一掷千金（分布）",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2517598600923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174444,
+              "key": "251759860",
+              "title": "18. 一掷千金(分布)",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## “一掷千金”是美国的一档电视游戏节目，曾在全球40个国家播出。在这个游戏中，参与者要打开一系列带有编号的箱子，每个箱子包含不同金额的奖金。\n\n一共有26个箱子，每个箱子所含奖金的金额可以在[这个表格](https://s3.cn-north-1.amazonaws.com.cn/static-documents/nd002/Deal+or+No+Deal-+-+Problem+Set+3.xlsx)中查找。\n\n**奖金金额的分布图是什么形状？**\n\n- □ 负偏斜\n- □ 正偏斜\n- □ 正态分布\n- □ 均匀分布\n- □ 多峰分布\n\n下载数据：[一掷千金](https://s3.cn-north-1.amazonaws.com.cn/static-documents/nd002/Deal+or+No+Deal-+-+Problem+Set+3.xlsx)\n\n打开下载好的文档开始计算。",
+              "user_state": {
+                "node_key": "251759860",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "18. 一掷千金(分布)",
+                "alt_text": null,
+                "background_image": "//lh4.ggpht.com/J5XEZTsvKp119toc96SGFyZPUKHfGWNXF99uP8TKeJM98hbxBl8b3s4KD4mQk159guqMkDNnHIA2VD0FtA=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/251759860",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "66418611",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 0,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5504885993485342,
+                      "y": 0.7664092664092664
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5504885993485342,
+                      "y": 0.693050193050193
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.2182410423452769,
+                      "y": 0.859073359073359
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.21498371335504887,
+                      "y": 0.7818532818532818
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "4",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.21498371335504887,
+                      "y": 0.7162162162162162
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176757,
+          "key": "2517598610923",
+          "title": "19. 一掷千金（中心）",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2517598610923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174445,
+              "key": "251759861",
+              "title": "19. 一掷千金（中心）",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## “一掷千金”是美国的一档电视游戏节目，曾在全球40个国家播出。在这个游戏中，参与者要打开一系列带有编号的箱子，每个箱子包含不同金额的奖金。\n\n一共有26个箱子，每个箱子所含奖金的金额可以在[这个表格](https://s3.cn-north-1.amazonaws.com.cn/static-documents/nd002/Deal+or+No+Deal-+-+Problem+Set+3.xlsx)中查找。\n\n- □ 均值\n- □ 中位数\n\n能更准确地描述奖金分布的中心。原因是：__________。\n\n----\n\n下载数据：[一掷千金](https://s3.cn-north-1.amazonaws.com.cn/static-documents/nd002/Deal+or+No+Deal-+-+Problem+Set+3.xlsx)\n\n打开下载好的文档开始计算。",
+              "user_state": {
+                "node_key": "251759861",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "19. 一掷千金(中心)",
+                "alt_text": null,
+                "background_image": "//lh4.ggpht.com/8eqfPOaiNfOVgmccFqn7DXvB_1unxYSPWkT0qZ4o4GXZIS8reNcLTTLQx0srzFBVr72rZH9VnR5l4AocbNA=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/251759861",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "66418612",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 0,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.1498371335504886,
+                      "y": 0.6756756756756757
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.1476655808903366,
+                      "y": 0.6061776061776062
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "TextInputWidget",
+                    "is_text_area": true,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0.059845559845559844,
+                      "width": 0.46145494028230183,
+                      "x": 0.4755700325732899,
+                      "y": 0.693050193050193
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176758,
+          "key": "2517598650923",
+          "title": "23. 哪些分布？",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2517598650923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174446,
+              "key": "251759865",
+              "title": "23. 哪些分布？",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 一次《统计学入门》期末考试中，分数高于75分和低于75分的人数一样多。\n\n**分数的分布图可能会是什么形状？勾选所有可能的选项**\n\n- □ 均匀分布\n- □ 正态分布\n- □ 双峰分布\n- □ 正偏斜分布\n- □ 负偏斜分布",
+              "user_state": {
+                "node_key": "251759865",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "23. 哪些分布？",
+                "alt_text": null,
+                "background_image": "//lh3.ggpht.com/Qw3FQAT3WYtyrWX6rYEzgA2ludJPCiw3DAcMauAvw-9gpo2pSuQddjuNMjxsg_lPEkTRrdnNtWYOES1kmBZ9=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/251759865",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "66418626",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 0,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.498371335504886,
+                      "y": 0.7760617760617761
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.495114006514658,
+                      "y": 0.6911196911196911
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.496199782844734,
+                      "y": 0.6158301158301158
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.2888165038002172,
+                      "y": 0.696911196911197
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "4",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.28338762214983715,
+                      "y": 0.6216216216216216
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176759,
+          "key": "2079680440923",
+          "title": "24. 已给出中位数的直方图",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2079680440923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174447,
+              "key": "207968044",
+              "title": "24. 已给出中位数的直方图",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 中位数大约在哪里？",
+              "user_state": {
+                "node_key": "207968044",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "24. 已给出中位数的直方图",
+                "alt_text": null,
+                "background_image": "//lh3.ggpht.com/iB0almbkZfGwf0q-zNCYvEzZaiaXispudwhuKk4HtcEN9maejUYmg4v7v3OA78tcnKll_eRyPupCjMJCHKUc=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/207968044",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "207968045",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.05992268042157647,
+                      "width": 0.0749728359354853,
+                      "x": 0.6838102579620955,
+                      "y": 0.28092779576792665
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    }
+  ]
+}

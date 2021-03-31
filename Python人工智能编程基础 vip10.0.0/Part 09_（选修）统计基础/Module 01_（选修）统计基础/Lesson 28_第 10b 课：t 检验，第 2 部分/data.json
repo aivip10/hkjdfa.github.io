@@ -1,0 +1,2169 @@
+{
+  "data": {
+    "lesson": {
+      "id": 178232,
+      "key": "4621269407",
+      "title": "第 10b 课：t 检验，第 2 部分",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "zh-cn",
+      "summary": "了解什么是有效大小，尝试一个单一样本 t 检验的完整示例。",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": null,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/4621269407/178232/1544465626448/%E7%AC%AC+10b+%E8%AF%BE%EF%BC%9At+%E6%A3%80%E9%AA%8C%EF%BC%8C%E7%AC%AC+2+%E9%83%A8%E5%88%86+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/4621269407/178232/1544465616037/%E7%AC%AC+10b+%E8%AF%BE%EF%BC%9At+%E6%A3%80%E9%AA%8C%EF%BC%8C%E7%AC%AC+2+%E9%83%A8%E5%88%86+Subtitles.zip"
+          },
+          {
+            "name": "Lesson10.pdf",
+            "uri": "https://video.udacity-data.com/topher/2017/May/591926c9_lesson10/lesson10.pdf"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 177072,
+          "key": "2302290830923",
+          "title": "效应量",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2302290830923",
+            "completed_at": "2019-03-06T21:51:23.950Z",
+            "last_viewed_at": "2019-03-06T21:51:41.862Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174799,
+              "key": "230229083",
+              "title": "效应量",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "z98xODInLCQ",
+                "china_cdn_id": "z98xODInLCQ.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 177071,
+          "key": "2302290840923",
+          "title": "日常含义",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2302290840923",
+            "completed_at": "2019-03-06T21:55:34.159Z",
+            "last_viewed_at": "2019-03-06T21:55:33.028Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174800,
+              "key": "230229084",
+              "title": "日常含义",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "230229084",
+                "completed_at": "2019-03-06T21:56:51.178Z",
+                "last_viewed_at": "2019-03-06T21:56:51.178Z",
+                "unstructured": "{\"0\":false,\"1\":true,\"2\":false,\"3\":false}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "DKxww0fCCAA",
+                  "china_cdn_id": "DKxww0fCCAA.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "日常含义",
+                "alt_text": null,
+                "background_image": "//lh4.ggpht.com/mqcAeYcKrnZW4DFnF6M8ccyJjsjpOQEoxN3ZiQa_jSxPXoJHXWepF9Sf7KUBvBRSwAvOSFDVmlZ02qbhyPE=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/230229084",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "230229086",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.04092715608092912,
+                      "y": 0.7583763674298476
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.04056499057389178,
+                      "y": 0.6520618754336609
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.04056499057389178,
+                      "y": 0.5399484733545824
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.04056499057389178,
+                      "y": 0.42783507127550385
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "XDfqzA6nkqk",
+                  "china_cdn_id": "XDfqzA6nkqk.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177070,
+          "key": "2302290880923",
+          "title": "有效大小测量类型",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2302290880923",
+            "completed_at": "2019-03-06T21:57:52.256Z",
+            "last_viewed_at": "2019-03-06T21:57:50.946Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174801,
+              "key": "230229088",
+              "title": "有效大小测量类型",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "FWSS2VadyBg",
+                "china_cdn_id": "FWSS2VadyBg.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 177073,
+          "key": "2302290890923",
+          "title": "统计显著性",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2302290890923",
+            "completed_at": "2019-03-06T22:04:00.119Z",
+            "last_viewed_at": "2019-03-06T22:03:57.769Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174802,
+              "key": "230229089",
+              "title": "统计显著性",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "kpdwHL54eys",
+                "china_cdn_id": "kpdwHL54eys.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 177075,
+          "key": "2302290900923",
+          "title": "Cohen 的 d",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2302290900923",
+            "completed_at": "2019-03-06T22:19:38.493Z",
+            "last_viewed_at": "2019-03-06T22:19:36.617Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174803,
+              "key": "230229090",
+              "title": "Cohen 的 d",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "5rXOy1S5bVk",
+                "china_cdn_id": "5rXOy1S5bVk.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 177074,
+          "key": "2302290910923",
+          "title": "r^2",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2302290910923",
+            "completed_at": "2019-03-06T22:25:22.017Z",
+            "last_viewed_at": "2019-03-06T22:25:20.855Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174804,
+              "key": "230229091",
+              "title": "r^2",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "X5F1reyQ_5U",
+                "china_cdn_id": "X5F1reyQ_5U.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 177077,
+          "key": "2302290920923",
+          "title": "计算 r^2",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2302290920923",
+            "completed_at": "2019-03-06T22:28:00.508Z",
+            "last_viewed_at": "2019-03-06T22:27:59.307Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174806,
+              "key": "230229092",
+              "title": "计算 r^2",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "230229092",
+                "completed_at": "2019-03-06T22:28:59.702Z",
+                "last_viewed_at": "2019-03-06T22:28:59.702Z",
+                "unstructured": "{\"0\":\"0.167\"}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "ZEkbLbmfHvg",
+                  "china_cdn_id": "ZEkbLbmfHvg.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "计算 r^2",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/wmsODcK9Sphetl-O_kM8zI7ynGgxi85m2KKHsjJKy7Ie6n7vr4mY_JOMCdIHS8Pr8STuW5sbtJRqyexQVg=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/230229092",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "230229094",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.477363252111067,
+                      "y": 0.19909793817491536
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "cpDTPUNDo4U",
+                  "china_cdn_id": "cpDTPUNDo4U.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177076,
+          "key": "2302290960923",
+          "title": "报告结果",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2302290960923",
+            "completed_at": "2019-03-06T22:30:35.721Z",
+            "last_viewed_at": "2019-03-06T22:30:33.741Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174805,
+              "key": "230229096",
+              "title": "报告结果",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "xNbzHOnSx5Q",
+                "china_cdn_id": "xNbzHOnSx5Q.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 177078,
+          "key": "2302290970923",
+          "title": "报告置信区间结果",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2302290970923",
+            "completed_at": "2019-03-06T22:41:54.740Z",
+            "last_viewed_at": "2019-03-06T22:41:53.217Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174807,
+              "key": "230229097",
+              "title": "报告置信区间结果",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "pr-2ZaCDzPY",
+                "china_cdn_id": "pr-2ZaCDzPY.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 177080,
+          "key": "2302290980923",
+          "title": "报告置信区间结果 2",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2302290980923",
+            "completed_at": "2019-03-06T22:45:26.227Z",
+            "last_viewed_at": "2019-03-06T22:45:24.985Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174808,
+              "key": "230229098",
+              "title": "报告置信区间结果 2",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "eVTzjsolEwI",
+                "china_cdn_id": "eVTzjsolEwI.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 177079,
+          "key": "2302290990923",
+          "title": "报告结果 - 效应量",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2302290990923",
+            "completed_at": "2019-03-06T22:46:31.377Z",
+            "last_viewed_at": "2019-03-06T22:46:30.124Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174809,
+              "key": "230229099",
+              "title": "报告结果 - 效应量",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "jjByXJIiCLs",
+                "china_cdn_id": "jjByXJIiCLs.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 177081,
+          "key": "2302291000923",
+          "title": "单一样本 t 检验",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2302291000923",
+            "completed_at": "2019-03-06T22:49:21.551Z",
+            "last_viewed_at": "2019-03-06T22:49:20.305Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174810,
+              "key": "230229100",
+              "title": "单一样本 t 检验",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "QyjjSIvJ_F4",
+                "china_cdn_id": "QyjjSIvJ_F4.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 177082,
+          "key": "2302291010923",
+          "title": "Mu",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2302291010923",
+            "completed_at": "2019-03-07T05:25:53.941Z",
+            "last_viewed_at": "2019-03-07T05:25:52.584Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174811,
+              "key": "230229101",
+              "title": "Mu",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "GXY-iMfZTn0",
+                "china_cdn_id": "GXY-iMfZTn0.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 177083,
+          "key": "2302291020923",
+          "title": "因变量",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2302291020923",
+            "completed_at": "2019-03-07T05:29:33.620Z",
+            "last_viewed_at": "2019-03-07T05:29:32.636Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174812,
+              "key": "230229102",
+              "title": "因变量",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "230229102",
+                "completed_at": "2019-03-07T05:30:49.431Z",
+                "last_viewed_at": "2019-03-07T05:30:49.431Z",
+                "unstructured": "{\"0\":false,\"1\":false,\"2\":true,\"3\":false}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "QyKOEh0722A",
+                  "china_cdn_id": "QyKOEh0722A.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "因变量",
+                "alt_text": null,
+                "background_image": "//lh4.ggpht.com/Pj9a3tfSrVptjbOpcBDaoNyT5g7G-EL5a9aDqjmf6KQQerOis4FowmAf6VWvQj-KyrOWnA8tBFGFk8WGr0-8=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/230229102",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "230229104",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.1698659684916128,
+                      "y": 0.7351804321474605
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.17312565701054694,
+                      "y": 0.6269330094504192
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.17421221985019167,
+                      "y": 0.5012886795342105
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.17421221985019167,
+                      "y": 0.37564434961800175
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "nEr-E8WZ-bo",
+                  "china_cdn_id": "nEr-E8WZ-bo.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177085,
+          "key": "2302291060923",
+          "title": "处理",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2302291060923",
+            "completed_at": "2019-03-07T05:31:39.546Z",
+            "last_viewed_at": "2019-03-07T05:31:38.042Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174813,
+              "key": "230229106",
+              "title": "处理",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "230229106",
+                "completed_at": "2019-03-07T05:32:20.923Z",
+                "last_viewed_at": "2019-03-07T05:32:20.923Z",
+                "unstructured": "{\"0\":true,\"1\":false,\"2\":false,\"3\":false}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "Q8hPJD_wXFY",
+                  "china_cdn_id": "Q8hPJD_wXFY.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "处理",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/19dzhoblsfNZdciZhkEzCrlkbmXcpYdtXKk3dar-TslyxP-uCpywyx_s8YLnnRYvnDlMF8CNVsOhzWRuyGk=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/230229106",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "230229108",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.1709525313312575,
+                      "y": 0.7293814630744048
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.17203909417090224,
+                      "y": 0.6250000197594006
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.1763853455294811,
+                      "y": 0.503221669225229
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.17855847120877053,
+                      "y": 0.3737113599269832
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "zWmH6ajoLtE",
+                  "china_cdn_id": "zWmH6ajoLtE.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177084,
+          "key": "2302291100923",
+          "title": "零假设",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2302291100923",
+            "completed_at": "2019-03-07T05:32:44.025Z",
+            "last_viewed_at": "2019-03-07T05:32:43.058Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174814,
+              "key": "230229110",
+              "title": "零假设",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "230229110",
+                "completed_at": "2019-03-07T05:33:28.126Z",
+                "last_viewed_at": "2019-03-07T05:33:28.126Z",
+                "unstructured": "{\"0\":false,\"1\":true,\"2\":false}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "KFSiwhv4q7s",
+                  "china_cdn_id": "KFSiwhv4q7s.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "零假设",
+                "alt_text": null,
+                "background_image": "//lh3.ggpht.com/85vS3PQiRIGr3Os2rkoOsHLI_dwdwY7ZDFTFsOlJIFZ9QdVHgcUpc3_YaCM6tjm8-aLNoJz5DsAmG_y4Vx4=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/230229110",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "230229112",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.09706625823541694,
+                      "y": 0.7680412568947766
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.10358563527328522,
+                      "y": 0.5650773393378241
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.10575876095257465,
+                      "y": 0.3582474423988344
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "kW_p0VHNEPM",
+                  "china_cdn_id": "kW_p0VHNEPM.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177086,
+          "key": "2302291140923",
+          "title": "对立假设",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2302291140923",
+            "completed_at": "2019-03-07T05:33:57.857Z",
+            "last_viewed_at": "2019-03-07T05:33:56.886Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174815,
+              "key": "230229114",
+              "title": "对立假设",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "230229114",
+                "completed_at": "2019-03-07T05:35:16.911Z",
+                "last_viewed_at": "2019-03-07T05:35:16.911Z",
+                "unstructured": "{\"0\":false,\"1\":false,\"2\":true}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "u6vw-FcHT-M",
+                  "china_cdn_id": "u6vw-FcHT-M.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "对立假设",
+                "alt_text": null,
+                "background_image": "//lh5.ggpht.com/x1DO3VORI2aPObxnR_VITv2LbhMzebLAwxWcEM2UU-r967yH0Frbaokn--xSLhU425xkAvU-sNZbWdkFhQ=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/230229114",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "230229116",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.10032594675435108,
+                      "y": 0.7603092981307024
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.10286123794067785,
+                      "y": 0.5618557095161811
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.10575876095257465,
+                      "y": 0.3563144527078158
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "Pk_BMZINZ0k",
+                  "china_cdn_id": "Pk_BMZINZ0k.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177087,
+          "key": "2302291180923",
+          "title": "假设",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2302291180923",
+            "completed_at": "2019-03-07T05:36:29.489Z",
+            "last_viewed_at": "2019-03-07T05:36:28.286Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174816,
+              "key": "230229118",
+              "title": "假设",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "FDcgsIOTv94",
+                "china_cdn_id": "FDcgsIOTv94.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 177088,
+          "key": "2302291190923",
+          "title": "哪种尾检验？",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2302291190923",
+            "completed_at": "2019-03-07T05:43:02.316Z",
+            "last_viewed_at": "2019-03-07T05:43:01.190Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174817,
+              "key": "230229119",
+              "title": "哪种尾检验？",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "230229119",
+                "completed_at": "2019-03-07T05:44:07.765Z",
+                "last_viewed_at": "2019-03-07T05:44:07.765Z",
+                "unstructured": "{\"0\":false,\"1\":false,\"2\":true,\"3\":false}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "AXYl4jWsA3o",
+                  "china_cdn_id": "AXYl4jWsA3o.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "哪种尾检验？",
+                "alt_text": null,
+                "background_image": "//lh4.ggpht.com/Bxv7qDda2bUp88WL6nTZYAkR15LzlJWcqwANL8cGzE3qnXp9F4nX0HXXVevEWzLtTL-jBISdnXQRZj5dv0bK=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/230229119",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "230229121",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.1481347116987185,
+                      "y": 0.6965205793369248
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.15248096305729736,
+                      "y": 0.5940721257129392
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.15682721441587624,
+                      "y": 0.47229377517876764
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.16008690293481037,
+                      "y": 0.35824738340867046
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "bD9ULWEsW0M",
+                  "china_cdn_id": "bD9ULWEsW0M.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177090,
+          "key": "2302291230923",
+          "title": "自由度",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2302291230923",
+            "completed_at": "2019-03-07T05:45:07.421Z",
+            "last_viewed_at": "2019-03-07T05:45:05.901Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174818,
+              "key": "230229123",
+              "title": "自由度",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "230229123",
+                "completed_at": "2019-03-07T05:46:10.190Z",
+                "last_viewed_at": "2019-03-07T05:46:10.190Z",
+                "unstructured": "{\"0\":\"24\"}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "58Mh3hOraqk",
+                  "china_cdn_id": "58Mh3hOraqk.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "自由度",
+                "alt_text": null,
+                "background_image": "//lh5.ggpht.com/2RF-6Y590TGdPUJynR0esFI7Stc1A0DkW-qhfsAhFW1072WVP_kjYFL_MKsUzA8amP6W6c2YLf_iqXjTKps=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/230229123",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "230229125",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06958762887666944,
+                      "width": 0.09344440420944544,
+                      "x": 0.8134733350683211,
+                      "y": 0.1836340206467666
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "GOwsOqdMY8w",
+                  "china_cdn_id": "GOwsOqdMY8w.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177089,
+          "key": "2302291270923",
+          "title": "t 临界值",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2302291270923",
+            "completed_at": "2019-03-07T05:46:24.703Z",
+            "last_viewed_at": "2019-03-07T05:46:23.199Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174819,
+              "key": "230229127",
+              "title": "t 临界值",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "<a href=\"https://s3.amazonaws.com/udacity-hosted-downloads/t-table.jpg\" target=\"_blank\">t-表格链接</a>",
+              "user_state": {
+                "node_key": "230229127",
+                "completed_at": "2019-03-07T05:48:11.713Z",
+                "last_viewed_at": "2019-03-07T05:48:32.647Z",
+                "unstructured": "{\"0\":\"-1.711\"}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "9-yTPJl_DIw",
+                  "china_cdn_id": "9-yTPJl_DIw.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "t 临界值",
+                "alt_text": null,
+                "background_image": "//lh4.ggpht.com/5CFExxApVNJShnpJd4va3wHV2AqZrwUmnK31Dsn0ZTvLU-Dnqbv0znmSiWJuVB_RCC6FN9tDl-fWLUMZAQ=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/230229127",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "230229129",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.08118556702278103,
+                      "width": 0.10213690692660317,
+                      "x": 0.8065917925234155,
+                      "y": 0.19007728029005264
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "uZk43roQbt0",
+                  "china_cdn_id": "uZk43roQbt0.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177091,
+          "key": "2302291310923",
+          "title": "SEM",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2302291310923",
+            "completed_at": "2019-03-07T05:48:54.298Z",
+            "last_viewed_at": "2019-03-07T05:48:52.748Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174820,
+              "key": "230229131",
+              "title": "SEM",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "230229131",
+                "completed_at": "2019-03-07T05:50:50.838Z",
+                "last_viewed_at": "2019-03-07T05:50:50.838Z",
+                "unstructured": "{\"numeric1\":\"10\"}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "Sv8q6DpXOA0",
+                  "china_cdn_id": "Sv8q6DpXOA0.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "SEM",
+                "alt_text": null,
+                "background_image": "//lh3.ggpht.com/-H7w4jfTBmw4vYESM6RGi7LLhza2Czd5iayx9BIImTWA7y9bY6JrY0vPgOwCHnt0T6hEOPPnjYQvj6znY65o=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/230229131",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "230229133",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": null,
+                    "marker": "numeric1",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.09977827050997783,
+                      "width": 0.14962593516209477,
+                      "x": 0.7611050498753117,
+                      "y": 0.17527023281596452
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "gl4ogBY9AOI",
+                  "china_cdn_id": "gl4ogBY9AOI.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177092,
+          "key": "2302291350923",
+          "title": "均值误差",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2302291350923",
+            "completed_at": "2019-03-07T05:55:47.896Z",
+            "last_viewed_at": "2019-03-07T05:55:46.884Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174821,
+              "key": "230229135",
+              "title": "均值误差",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "230229135",
+                "completed_at": "2019-03-07T05:57:22.281Z",
+                "last_viewed_at": "2019-03-07T05:57:22.281Z",
+                "unstructured": "{\"0\":\"-25\"}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "yu70KwoztEg",
+                  "china_cdn_id": "yu70KwoztEg.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "均值误差",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/1HXDqXDw1GmD7mRWre8XXboKg-CnC_5JKX3fxGmkdsNc9P3HTt4rBHKyRxpR91B77f3cLfMPNWjBvxFS0gA=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/230229135",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "230229137",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.07925257733176243,
+                      "width": 0.1043100326058926,
+                      "x": 0.23831942738922982,
+                      "y": 0.40657212568413537
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "eTNZnE_O_RM",
+                  "china_cdn_id": "eTNZnE_O_RM.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177093,
+          "key": "2348996490923",
+          "title": "t 统计量",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2348996490923",
+            "completed_at": "2019-03-07T05:57:58.534Z",
+            "last_viewed_at": "2019-03-07T05:57:57.026Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174822,
+              "key": "234899649",
+              "title": "t 统计量",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "234899649",
+                "completed_at": "2019-03-07T05:59:17.698Z",
+                "last_viewed_at": "2019-03-07T05:59:17.698Z",
+                "unstructured": "{\"0\":\"-2.50\"}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "rWiQoVHAa0s",
+                  "china_cdn_id": "rWiQoVHAa0s.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "t 统计量",
+                "alt_text": null,
+                "background_image": "//lh5.ggpht.com/yrRF5aatPo5ExQuxmGM4W_D8xiL2aeWw2vYytaG44lhM1o7DDzTdnWFzakMRmTnmzz3ZkfH56D8X7gu3fg=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/234899649",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "234899651",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.7696486559754953,
+                      "y": 0.17461336276190387
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "KmEfiWATLUI",
+                  "china_cdn_id": "KmEfiWATLUI.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177094,
+          "key": "2302291400923",
+          "title": "临界区",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2302291400923",
+            "completed_at": "2019-03-07T05:59:43.988Z",
+            "last_viewed_at": "2019-03-07T05:59:42.816Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174823,
+              "key": "230229140",
+              "title": "临界区",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "230229140",
+                "completed_at": "2019-03-07T06:16:38.105Z",
+                "last_viewed_at": "2019-03-07T06:16:38.105Z",
+                "unstructured": "{\"0\":false,\"1\":true}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "SyNQ2mElRi0",
+                  "china_cdn_id": "SyNQ2mElRi0.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "临界区",
+                "alt_text": null,
+                "background_image": "//lh4.ggpht.com/9OrlcKkxcthk74-4wdJhBpU11Icmwjh27dwqiaeLNAfkIxee1gfru22zU9MLuQxeY1SosWvg33E-6doyQcSF=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/230229140",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "230229142",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.26874318689928184,
+                      "y": 0.5728092391117346
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.26765662405963714,
+                      "y": 0.37177831124580063
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "skeY26k1hSs",
+                  "china_cdn_id": "skeY26k1hSs.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177095,
+          "key": "2302291440923",
+          "title": "P 值",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2302291440923",
+            "completed_at": "2019-03-07T06:17:06.725Z",
+            "last_viewed_at": "2019-03-07T06:17:05.135Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174824,
+              "key": "230229144",
+              "title": "P 值",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "230229144",
+                "completed_at": "2019-03-07T06:17:41.285Z",
+                "last_viewed_at": "2019-03-07T06:17:41.285Z",
+                "unstructured": "{\"0\":true,\"1\":false}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "5pnYBObhGJk",
+                  "china_cdn_id": "5pnYBObhGJk.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "P 值",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/ybvAqJun2h-hHdec7K1TdoaklB2YWG3y7_eW3sa0a8KphEnzzV9RFdVAiqb5AbrcxwqHXpPLe0rNRfYd3Eg=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/230229144",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "230229146",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.15030783737800793,
+                      "y": 0.518685527763214
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.16334659145374453,
+                      "y": 0.36984532155478206
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "6Z3BJWRuOAE",
+                  "china_cdn_id": "6Z3BJWRuOAE.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177096,
+          "key": "2302291480923",
+          "title": "统计显著",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2302291480923",
+            "completed_at": "2019-03-07T06:18:55.928Z",
+            "last_viewed_at": "2019-03-07T06:18:54.771Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174825,
+              "key": "230229148",
+              "title": "统计显著",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "230229148",
+                "completed_at": "2019-03-07T06:19:06.986Z",
+                "last_viewed_at": "2019-03-07T06:19:06.986Z",
+                "unstructured": "{\"0\":false,\"1\":true}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "y7Kk4Aywtrg",
+                  "china_cdn_id": "y7Kk4Aywtrg.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "统计显著",
+                "alt_text": null,
+                "background_image": "//lh3.ggpht.com/aqLNc4SAAcgt30TPj-sAg31p2qof11yQVl2Tz8bkIe9Gh3Pndz1PCec3QplrYbg05P6xwKEY-jcRjiIwlp4=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/230229148",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "230229150",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.26982974973892654,
+                      "y": 0.5940721847031031
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.26982974973892654,
+                      "y": 0.4375000197305968
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "VXgMxs0tiBw",
+                  "china_cdn_id": "VXgMxs0tiBw.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177098,
+          "key": "2302291520923",
+          "title": "有意义结果",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2302291520923",
+            "completed_at": "2019-03-07T06:19:28.382Z",
+            "last_viewed_at": "2019-03-07T06:19:27.320Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174826,
+              "key": "230229152",
+              "title": "有意义结果",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "230229152",
+                "completed_at": "2019-03-07T06:20:32.230Z",
+                "last_viewed_at": "2019-03-07T06:20:40.785Z",
+                "unstructured": "{\"0\":true,\"1\":false,\"2\":false}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "7LoVF_V0qZ4",
+                  "china_cdn_id": "7LoVF_V0qZ4.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "有意义结果",
+                "alt_text": null,
+                "background_image": "//lh5.ggpht.com/JQwrP8IwbeAgvFNggSj63WOE7lZOJp8w1NlMsVJIdca0AVIb0yHjN2uSzVaB9Bnjrz8N3azCOhZtGIAYtBY=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/230229152",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "230229154",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.23180005035136153,
+                      "y": 0.6617267648985901
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.2350597388702957,
+                      "y": 0.5128865586901581
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.23940599022887454,
+                      "y": 0.3505154246445961
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "yexyfs5ca2k",
+                  "china_cdn_id": "yexyfs5ca2k.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177097,
+          "key": "2302291560923",
+          "title": "Cohen 的 d",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2302291560923",
+            "completed_at": "2019-03-07T06:21:44.988Z",
+            "last_viewed_at": "2019-03-07T06:21:43.915Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174827,
+              "key": "230229156",
+              "title": "Cohen 的 d",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "230229156",
+                "completed_at": "2019-03-07T06:22:59.821Z",
+                "last_viewed_at": "2019-03-07T06:22:59.821Z",
+                "unstructured": "{\"0\":\"-0.5\"}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "-x9e6NP_ac0",
+                  "china_cdn_id": "-x9e6NP_ac0.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Cohen 的 d",
+                "alt_text": null,
+                "background_image": "//lh5.ggpht.com/Nj56nrcUjCqTN1lq0HPvWcG7JHAiWcyULPXXwR_4VtozFtEFgNigxVJ_laZ4noU482o6lsBKk4SvK8nnMkw=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/230229156",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "230229158",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.08311855671379961,
+                      "width": 0.11408909816269502,
+                      "x": 0.7164070768329042,
+                      "y": 0.2190721846454955
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "smedG3-3mOE",
+                  "china_cdn_id": "smedG3-3mOE.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177100,
+          "key": "2302291600923",
+          "title": "r^2",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2302291600923",
+            "completed_at": "2019-03-07T06:24:27.347Z",
+            "last_viewed_at": "2019-03-07T06:24:26.230Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174828,
+              "key": "230229160",
+              "title": "r^2",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "230229160",
+                "completed_at": "2019-03-07T06:26:09.900Z",
+                "last_viewed_at": "2019-03-07T06:26:09.900Z",
+                "unstructured": "{\"0\":\"0.21\"}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "L9Wwg8AQk4M",
+                  "china_cdn_id": "L9Wwg8AQk4M.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "r^2",
+                "alt_text": null,
+                "background_image": "//lh4.ggpht.com/mu621IX-zYhKxAITXGpD11LqAQkgzDPxxgzBE2q0Kguz2iugR438GVSFd81VZ75F6TNZOCMgSVqrVo0xKA=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/230229160",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "230229162",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.08311855671379961,
+                      "width": 0.11408909816269502,
+                      "x": 0.6327418044987939,
+                      "y": 0.2119845754418153
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "mnfgAsAVaTQ",
+                  "china_cdn_id": "mnfgAsAVaTQ.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177099,
+          "key": "2302291640923",
+          "title": "误差范围",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2302291640923",
+            "completed_at": "2019-03-07T06:26:52.445Z",
+            "last_viewed_at": "2019-03-07T06:26:50.099Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174829,
+              "key": "230229164",
+              "title": "误差范围",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "<a href=\"https://s3.amazonaws.com/udacity-hosted-downloads/t-table.jpg\" target=\"_blank\">t-表格链接</a>\n\n请记得计算**双尾 t 检验**的误差范围！",
+              "user_state": {
+                "node_key": "230229164",
+                "completed_at": "2019-03-07T06:30:28.262Z",
+                "last_viewed_at": "2019-03-07T06:30:38.656Z",
+                "unstructured": "{\"0\":\"20.6\"}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "cLyzI4feDEw",
+                  "china_cdn_id": "cLyzI4feDEw.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "误差范围",
+                "alt_text": null,
+                "background_image": "//lh3.ggpht.com/BgsuAZBaNkPWwNEcMDxM4rzu93Fv0PGPvSsf4-UPfpndXWO5Yrkq083RFkKkUmhgLD4y7bC5HhVVejCndA=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/230229164",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "230229166",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.07345360825870664,
+                      "width": 0.0967040927283796,
+                      "x": 0.36399855128097935,
+                      "y": 0.3769330487387901
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "22SXauLJVd4",
+                  "china_cdn_id": "22SXauLJVd4.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177102,
+          "key": "2302291680923",
+          "title": "计算置信区间",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2302291680923",
+            "completed_at": "2019-03-07T06:31:04.324Z",
+            "last_viewed_at": "2019-03-10T00:24:43.617Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174830,
+              "key": "230229168",
+              "title": "计算置信区间",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "230229168",
+                "completed_at": "2019-03-07T06:32:44.441Z",
+                "last_viewed_at": "2019-03-07T06:32:44.441Z",
+                "unstructured": "{\"0\":\"105.4\",\"1\":\"146.6\"}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "Adzhg-M3Pvk",
+                  "china_cdn_id": "Adzhg-M3Pvk.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "计算置信区间",
+                "alt_text": null,
+                "background_image": "//lh5.ggpht.com/XnDEs5HlekI9TIsmGX0tObAhea3xM-xe6xUqe9NdUgESNHRc9xZdKljQHDApiiFzyh8h3ohEm4KuWir4LtA=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/230229168",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "230229170",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.07925257733176243,
+                      "width": 0.09887721840766903,
+                      "x": 0.4487504527732671,
+                      "y": 0.28930416308255913
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0.07925257733176243,
+                      "width": 0.0967040927283796,
+                      "x": 0.45019918111994917,
+                      "y": 0.522551566135415
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "nCg6F5QQZsI",
+                  "china_cdn_id": "nCg6F5QQZsI.mp4"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    }
+  ]
+}

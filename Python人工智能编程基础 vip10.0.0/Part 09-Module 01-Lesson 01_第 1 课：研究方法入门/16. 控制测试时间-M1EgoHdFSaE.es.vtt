@@ -1,0 +1,37 @@
+WEBVTT
+Kind: captions
+Language: es
+
+00:00:00.012 --> 00:00:05.925
+Si, confiaríamos más en los resultados porque estamos manteniendo uno de estos factores constantes.
+
+00:00:05.925 --> 00:00:09.955
+Cuantos más factores mantenemos constantes, el test es más fiable porque
+
+00:00:09.967 --> 00:00:14.133
+estas condiciones son las misma para todas las personas que lo realizaron.
+
+00:00:14.133 --> 00:00:17.454
+Siempre tenemos que pensar en los factores extraños,
+
+00:00:17.754 --> 00:00:22.004
+cosas que pueden impactar los resultados y no hemos considerado.
+
+00:00:22.004 --> 00:00:27.267
+Estos factores extraños pueden impactar en el resultado, en este caso, la memoria.
+
+00:00:27.267 --> 00:00:31.104
+Estos factores extraños a menudo se llaman variables de confusión
+
+00:00:31.176 --> 00:00:35.149
+Permanecen ocultos esperando la emboscada de tus resultados.
+
+00:00:35.149 --> 00:00:39.453
+Es realmente dificil tener en cuenta cada posible factor de confusión.
+
+00:00:39.465 --> 00:00:44.138
+Pero es algo que debes considerar, no sólo a lo largo de este curso,
+
+00:00:44.150 --> 00:00:46.205
+sino cuando analices datos en tu día a día.
+

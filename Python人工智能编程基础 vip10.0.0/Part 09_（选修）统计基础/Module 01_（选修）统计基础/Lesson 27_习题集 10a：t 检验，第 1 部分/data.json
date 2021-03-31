@@ -1,0 +1,1133 @@
+{
+  "data": {
+    "lesson": {
+      "id": 178231,
+      "key": "4623768903",
+      "title": "习题集 10a：t 检验，第 1 部分",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "zh-cn",
+      "summary": "使用对儿童词汇量的一项研究，测试你对 t 检验的掌握程度。",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": null,
+      "resources": {
+        "files": [],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 177059,
+          "key": "2526055040923",
+          "title": "1. 正态分布和 t 分布",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2526055040923",
+            "completed_at": "2019-03-06T21:14:08.825Z",
+            "last_viewed_at": "2019-03-06T21:14:07.181Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174788,
+              "key": "252605504",
+              "title": "1. 正态分布和 t 分布",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 下图中的两个分布，其中一个是正态分布，另一个是自由度为 10 的 t 分布，哪一个是 t 分布？",
+              "user_state": {
+                "node_key": "252605504",
+                "completed_at": "2019-03-06T21:14:24.323Z",
+                "last_viewed_at": "2019-03-06T21:14:24.323Z",
+                "unstructured": "{\"0\":false,\"1\":true}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "1. 正态分布和 t 分布",
+                "alt_text": "",
+                "background_image": "//lh6.ggpht.com/amBXIpdJNPBMOQwWUsitRAa_7OaEe4NumKlWf10hjEDuQOsvh2N-kTuPfYAv7q6Sos3FChh_t7tXKSbG3Rg=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252605504",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "144643874",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.429,
+                      "y": 0.231
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.429,
+                      "y": 0.423
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177060,
+          "key": "2526055050923",
+          "title": "2. z 和 t",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2526055050923",
+            "completed_at": "2019-03-06T21:14:31.599Z",
+            "last_viewed_at": "2019-03-06T21:14:29.619Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174789,
+              "key": "252605505",
+              "title": "2. Z 和 t",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 什么时候使用 t 检验，什么时候使用 z 检验？\n\n- （知道／不知道）总体参数时，我们选择使用 z 检验。\n- （知道／不知道）总体参数时，我们选择使用 t 检验。",
+              "user_state": {
+                "node_key": "252605505",
+                "completed_at": "2019-03-06T21:14:53.455Z",
+                "last_viewed_at": "2019-03-06T21:14:53.455Z",
+                "unstructured": "{\"0\":false,\"1\":true,\"2\":true,\"3\":false}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "2. Z 和 t",
+                "alt_text": "",
+                "background_image": "//lh6.ggpht.com/CrD-jiX-GsvLaYoLAueY0OGp0i2VO7t-NZfionwomQysDwJzj2DHPaGKQIpsOz5-yM94CgBN-KK1sKdLfARo=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252605505",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "144643875",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6807817589576547,
+                      "y": 0.3416988416988417
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5461454940282302,
+                      "y": 0.33976833976833976
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6872964169381107,
+                      "y": 0.6081081081081081
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5570032573289903,
+                      "y": 0.6023166023166023
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177061,
+          "key": "2526055060923",
+          "title": "3. 词汇量 - 研究类型",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2526055060923",
+            "completed_at": "2019-03-06T21:15:46.436Z",
+            "last_viewed_at": "2019-03-06T21:15:45.314Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174790,
+              "key": "252605506",
+              "title": "3. 词汇量 - 研究类型",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 儿童的词汇量是如何随时间增长的？早期儿童教育研究者随机选取了 1000 名 4 岁美国儿童，让他们说几个句子。平均下来，4 岁儿童每句话使用 3 个单词，标准偏差为 1.2。4 年后，当这些孩子 8 岁时，研究者对同一些孩子进行同样的实验，他们平均每句话使用 12 个单词，标准偏差为 2.7。\n\n这个实验属于什么实验？选择所有正确的选项。\n\n- □ 先验检验，后验检验\n- □ 纵向实验\n- □ 相依样本 t 检验",
+              "user_state": {
+                "node_key": "252605506",
+                "completed_at": "2019-03-06T21:16:26.867Z",
+                "last_viewed_at": "2019-03-06T21:20:07.419Z",
+                "unstructured": "{\"0\":true,\"1\":true,\"2\":false}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "3. 词汇量 - 研究类型",
+                "alt_text": "",
+                "background_image": "//lh6.ggpht.com/PbNP5OxnF16S-RWDyXDF6Q2DK1Lo0US6CUlJSrdwCD88l09OHJT2zpTxm8QzZiCPguTZ1tNu6b_EXivnZXc=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252605506",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "144643876",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.48859934853420195,
+                      "y": 0.8667953667953668
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.48859934853420195,
+                      "y": 0.7837837837837838
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.48859934853420195,
+                      "y": 0.696911196911197
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177063,
+          "key": "2526055070923",
+          "title": "4. 词汇量 - 自变量",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2526055070923",
+            "completed_at": "2019-03-06T21:20:13.819Z",
+            "last_viewed_at": "2019-03-06T21:20:12.586Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174791,
+              "key": "252605507",
+              "title": "4. 词汇量 - 自变量",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 儿童的词汇量是如何随时间增长的？早期儿童教育研究者随机选取了 1000 名 4 岁美国儿童，让他们说几个句子。平均下来，4 岁儿童每句话使用 3 个单词，标准偏差为 1.2。4 年后，当这些孩子 8 岁时，研究者对同一些孩子进行同样的实验，他们平均每句话使用 12 个单词，标准偏差为 2.7。\n\n这个实验中的自变量是什么？\n\n- □ 句子数量\n- □ 儿童的年龄\n- □ 儿童平均每句话使用单词的数量\n- □ 时间",
+              "user_state": {
+                "node_key": "252605507",
+                "completed_at": "2019-03-06T21:20:44.395Z",
+                "last_viewed_at": "2019-03-06T21:21:16.413Z",
+                "unstructured": "{\"0\":false,\"1\":false,\"2\":true,\"3\":false}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "4. 词汇量 - 自变量",
+                "alt_text": "",
+                "background_image": "//lh3.ggpht.com/LiGOc5tBGgCODu8UfVGVAOKaD0LoPzQCktANBatDTS94glfEg6HdyCABhcYDlI0uwaY1W1FuD_2z60ysXA=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252605507",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "144643877",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5504885993485342,
+                      "y": 0.9208494208494209
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5483170466883822,
+                      "y": 0.7934362934362934
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5472312703583062,
+                      "y": 0.7316602316602316
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5504885993485342,
+                      "y": 0.666023166023166
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177062,
+          "key": "2526055080923",
+          "title": "5. 词汇量 - 因变量",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2526055080923",
+            "completed_at": "2019-03-06T21:21:21.140Z",
+            "last_viewed_at": "2019-03-06T21:21:20.008Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174792,
+              "key": "252605508",
+              "title": "5. 词汇量 - 因变量",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 儿童的词汇量是如何随时间增长的？早期儿童教育研究者随机选取了 1000 名 4 岁美国儿童，让他们说几个句子。平均下来，4 岁儿童每句话使用 3 个单词，标准偏差为 1.2。4 年后，当这些孩子 8 岁时，研究者对同一些孩子进行同样的实验，他们平均每句话使用 12 个单词，标准偏差为 2.7。\n\n这个实验中的因变量是什么？\n\n- □ 句子数量\n- □ 儿童的年龄\n- □ 儿童平均每句话使用单词的数量\n- □ 时间",
+              "user_state": {
+                "node_key": "252605508",
+                "completed_at": "2019-03-06T21:21:28.483Z",
+                "last_viewed_at": "2019-03-06T21:21:28.483Z",
+                "unstructured": "{\"0\":false,\"1\":true,\"2\":false,\"3\":false}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "5. 词汇量 - 因变量",
+                "alt_text": "",
+                "background_image": "//lh3.ggpht.com/7CeEy-GkACZB4K44IVg8a2shceP2XemjbcevDaE43E3YSAyt5qYG7hOgeYcufwx2gwp-RtttJ2CSWEmOYg=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252605508",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "144643878",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5494028230184582,
+                      "y": 0.9208494208494209
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5494028230184582,
+                      "y": 0.7953667953667953
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5483170466883822,
+                      "y": 0.7316602316602316
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5504885993485342,
+                      "y": 0.666023166023166
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177064,
+          "key": "2526055090923",
+          "title": "6. 词汇量 - 零假设",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2526055090923",
+            "completed_at": "2019-03-06T21:21:34.244Z",
+            "last_viewed_at": "2019-03-06T21:21:33.179Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174793,
+              "key": "252605509",
+              "title": "6. 词汇量 - 零假设",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 儿童的词汇量是如何随时间增长的？早期儿童教育研究者随机选取了 1000 名 4 岁美国儿童，让他们说几个句子。平均下来，4 岁儿童每句话使用 3 个单词，标准偏差为 1.2。4 年后，当这些孩子 8 岁时，研究者对同一些孩子进行同样的实验，他们平均每句话使用 12 个单词，标准偏差为 2.7。\n\n这个实验中的零假设可能是什么？\n\n- □ 从 4 岁到 8 岁，儿童的词汇量会增长\n- □ 从 4 岁到 8 岁，儿童的词汇量会下降\n- □ 从 4 岁到 8 岁，儿童的词汇量不变",
+              "user_state": {
+                "node_key": "252605509",
+                "completed_at": "2019-03-06T21:21:46.796Z",
+                "last_viewed_at": "2019-03-06T21:21:46.796Z",
+                "unstructured": "{\"0\":true,\"1\":false,\"2\":false}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "6. 词汇量 - 零假设",
+                "alt_text": "",
+                "background_image": "//lh5.ggpht.com/OrWsEDQeAhXildZkMMhPaeFaNIxL9z72scW9qunuJ8sib1k7PRQ-2Ijm_6By7ZB2oUn6vhqYEdrQWltEfnI=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252605509",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "144643879",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.509229098805646,
+                      "y": 0.8976833976833977
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.511400651465798,
+                      "y": 0.7992277992277992
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5190010857763301,
+                      "y": 0.694980694980695
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177066,
+          "key": "2526055100923",
+          "title": "7. 词汇量 - 对立假设",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2526055100923",
+            "completed_at": "2019-03-06T21:21:50.271Z",
+            "last_viewed_at": "2019-03-06T21:21:49.171Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174794,
+              "key": "252605510",
+              "title": "7. 词汇量 - 对立假设",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 儿童的词汇量是如何随时间增长的？早期儿童教育研究者随机选取了 1000 名 4 岁美国儿童，让他们说几个句子。平均下来，4 岁儿童每句话使用 3 个单词，标准偏差为 1.2。4 年后，当这些孩子 8 岁时，研究者对同一些孩子进行同样的实验，他们平均每句话使用 12 个单词，标准偏差为 2.7。\n\n这个实验中的对立假设可能是什么？\n\n- □ 从 4 岁到 8 岁，儿童的词汇量会增长\n- □ 从 4 岁到 8 岁，儿童的词汇量会下降\n- □ 从 4 岁到 8 岁，儿童的词汇量不变",
+              "user_state": {
+                "node_key": "252605510",
+                "completed_at": "2019-03-06T21:22:04.711Z",
+                "last_viewed_at": "2019-03-06T21:22:04.711Z",
+                "unstructured": "{\"0\":false,\"1\":false,\"2\":true}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "7. 词汇量 - 对立假设",
+                "alt_text": "",
+                "background_image": "//lh6.ggpht.com/j3OlLoKxV3iRwHSYr8LHvxHTIfHOeBppmhmbt_LLE4Z8L2CfBorXMnb0keP2bpULPbsNU0WkO3uJrK8HYSXH=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252605510",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "144643880",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.510314875135722,
+                      "y": 0.8976833976833977
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.511400651465798,
+                      "y": 0.7972972972972973
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.5179153094462541,
+                      "y": 0.694980694980695
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177065,
+          "key": "2526055110923",
+          "title": "8. 词汇量 - 单尾还是双尾？",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2526055110923",
+            "completed_at": "2019-03-06T21:22:08.108Z",
+            "last_viewed_at": "2019-03-06T21:22:06.517Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174795,
+              "key": "252605511",
+              "title": "8. 词汇量 - 单尾还是双尾？",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 儿童的词汇量是如何随时间增长的？早期儿童教育研究者随机选取了 1000 名 4 岁美国儿童，让他们说几个句子。平均下来，4 岁儿童每句话使用 3 个单词，标准偏差为 1.2。4 年后，当这些孩子 8 岁时，研究者对同一些孩子进行同样的实验，他们平均每句话使用 12 个单词，标准偏差为 2.7。\n\n根据这些假设，我们应该进行单尾检验还是双尾检验？（说明：µ2 代表 8 岁儿童平均每句话使用的单词数，µ1 代表 4 岁儿童平均每句话使用的单词数）\n\n- □ 单尾检验\n- □ 双尾检验",
+              "user_state": {
+                "node_key": "252605511",
+                "completed_at": "2019-03-06T21:22:27.050Z",
+                "last_viewed_at": "2019-03-06T21:22:27.050Z",
+                "unstructured": "{\"0\":false,\"1\":true}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "8. 词汇量 - 单尾还是双尾？",
+                "alt_text": "",
+                "background_image": "//lh3.googleusercontent.com/IeQPoKnwyhIej3HmoG_khnpOfcjQNP-Gs8deMYOQIS2TBpayeYHuofvWCv3tpCNUxYLnjpY9xsHk2DgqP3Q=s0#w=889&h=500",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252605511",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "144643881",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.46688382193268185,
+                      "y": 0.9324324324324325
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.46362649294245384,
+                      "y": 0.8783783783783784
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177067,
+          "key": "2526055120923",
+          "title": "9. 词汇量 - t 临界值",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2526055120923",
+            "completed_at": "2019-03-06T21:22:31.519Z",
+            "last_viewed_at": "2019-03-06T21:22:29.915Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174796,
+              "key": "252605512",
+              "title": "9. 词汇量 - t 临界值",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 儿童的词汇量是如何随时间增长的？早期儿童教育研究者随机选取了 1000 名 4 岁美国儿童，让他们说几个句子。平均下来，4 岁儿童每句话使用 3 个单词，标准偏差为 1.2。4 年后，当这些孩子 8 岁时，研究者对同一些孩子进行同样的实验，他们平均每句话使用 12 个单词，标准偏差为 2.7。\n\n计算 α 水平为 0.05 时，t 临界值为多少。\n\n<a href=\"https://s3.amazonaws.com/udacity-hosted-downloads/t-table.jpg\" target=\"_blank\">t-表格链接</a>",
+              "user_state": {
+                "node_key": "252605512",
+                "completed_at": "2019-03-06T21:24:56.946Z",
+                "last_viewed_at": "2019-03-06T21:25:14.685Z",
+                "unstructured": "{\"0\":\"1.646\"}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "9. 词汇量 - t 临界值",
+                "alt_text": "",
+                "background_image": "//lh5.ggpht.com/4cWXdkUIRPYx4BZLal_3Np6mzweY2RRyb19rCFUM3CIeP9WdV1Sn8RbkL1HM2WQonuB3fXXXppHt7iH0l8s=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252605512",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "144643882",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.5765472312703583,
+                      "y": 0.7818532818532818
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177068,
+          "key": "2526055130923",
+          "title": "10. 词汇量 - 均值和标准偏差",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2526055130923",
+            "completed_at": "2019-03-06T21:25:23.619Z",
+            "last_viewed_at": "2019-03-06T21:25:22.537Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174797,
+              "key": "252605513",
+              "title": "10. 词汇量 - 均值和标准偏差",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 儿童的词汇量是如何随时间增长的？早期儿童教育研究者随机选取了 1000 名 4 岁美国儿童，让他们说几个句子。平均下来，4 岁儿童每句话使用 3 个单词，标准偏差为 1.2。4 年后，当这些孩子 8 岁时，研究者对同一些孩子进行同样的实验，他们平均每句话使用 12 个单词，标准偏差为 2.7。\n\n计算均值和差异的标准偏差（均为正值）。\n\n对你的答案四舍五入，精确到小数点后两位 (x.xx)。\n\n**警告**：测试题幻灯片中误差 S<sub>D</sub> 的标准偏差公式针对的是从两个不同组中获取的配对样本，而非此处展示的相依样本实验，因而无需在不同时间跟踪相同主题（配对样本）。一般来说，我们无法计算配对样本实验中初始组的方差的误差标准偏差。为执行此任务，请使用提供的公式完成习题集中的答案。",
+              "user_state": {
+                "node_key": "252605513",
+                "completed_at": "2019-03-06T21:49:07.017Z",
+                "last_viewed_at": "2019-03-06T21:49:07.017Z",
+                "unstructured": "{\"0\":\"9\",\"1\":\"2.95\"}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "10. 均值和标准偏差",
+                "alt_text": "",
+                "background_image": "//lh5.ggpht.com/6jntE7Nr8ojYfcSfCyVnM6Mxd2h-1sbgbewzayqZqyKvnpqGvdmPuCYRFTqPEWlFo3NyYhkbAWqsNYsouw=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252605513",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "144643883",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.056555269922879174,
+                      "width": 0.14182344428364688,
+                      "x": 0.3300760043431053,
+                      "y": 0.888030888030888
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0.06940874035989718,
+                      "width": 0.14182344428364688,
+                      "x": 0.5363735070575462,
+                      "y": 0.8822393822393823
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177069,
+          "key": "2526055140923",
+          "title": "11. 词汇量 - t 统计量",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2526055140923",
+            "completed_at": "2019-03-06T21:49:21.157Z",
+            "last_viewed_at": "2019-03-06T21:49:20.060Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174798,
+              "key": "252605514",
+              "title": "11. 词汇量 - t 统计量",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 儿童的词汇量是如何随时间增长的？早期儿童教育研究者随机选取了 1000 名 4 岁美国儿童，让他们说几个句子。平均下来，4 岁儿童每句话使用 3 个单词，标准偏差为 1.2。4 年后，当这些孩子 8 岁时，研究者对同一些孩子进行同样的实验，他们平均每句话使用 12 个单词，标准偏差为 2.7。\n\n使用你刚刚计算出的均值和差异的标准偏差，计算 t 统计量。\n\n我们会接受还是拒绝零假设？\n\n<a href=\"https://s3.amazonaws.com/udacity-hosted-downloads/t-table.jpg\" target=\"_blank\">t-表格链接</a>\n\n请注意，我们从不“接受零假设”。我们会拒绝或保留零假设。",
+              "user_state": {
+                "node_key": "252605514",
+                "completed_at": "2019-03-06T21:51:13.036Z",
+                "last_viewed_at": "2019-03-06T21:51:13.036Z",
+                "unstructured": "{\"0\":\"96.47\",\"1\":true,\"2\":false}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "11. 词汇量 - t 统计量",
+                "alt_text": "",
+                "background_image": "//lh4.ggpht.com/mQAqqnnUxOGDTkLyhy9X2atdK8BceMgAQMKSL6d1xKAtjlumYbmRogeH3VcjA39Mi8mtKRpCBXSIaoFFlrE=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252605514",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "144643884",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.056555269922879174,
+                      "width": 0.16353111432706222,
+                      "x": 0.7003257328990228,
+                      "y": 0.7760617760617761
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.7643865363735071,
+                      "y": 0.9034749034749034
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.7633007600434311,
+                      "y": 0.8532818532818532
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    }
+  ]
+}

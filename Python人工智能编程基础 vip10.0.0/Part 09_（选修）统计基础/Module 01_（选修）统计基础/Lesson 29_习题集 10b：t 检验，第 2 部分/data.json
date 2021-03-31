@@ -1,0 +1,1459 @@
+{
+  "data": {
+    "lesson": {
+      "id": 178233,
+      "key": "4596828919",
+      "title": "习题集 10b：t 检验，第 2 部分",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "zh-cn",
+      "summary": "进行更多有关 t 检验的练习。",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": null,
+      "resources": {
+        "files": [],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 177103,
+          "key": "2526055150923",
+          "title": "12. 手机法律：研究类型",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2526055150923",
+            "completed_at": "2019-03-07T06:35:03.411Z",
+            "last_viewed_at": "2019-03-07T06:35:26.878Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174832,
+              "key": "252605515",
+              "title": "12. 手机法律：研究类型",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 研究者想要研究一项法律条款的效力，该条款将对开车时使用手机的行为进行处罚。研究者随机选择了美国一个州的 10 个乡镇，统计了通过该法律前一年以及后一年，因为开车时使用手机引发的交通事故的数量。他们预想该法律的实施，会降低由开车时使用手机引发的交通事故的数量。\n\n这个实验属于什么实验？选择所有正确的选项。\n\n- □ 先验检验，后验检验\n- □ 纵向实验（[一段时间内的重复跟踪研究](http://baike.baidu.com/view/1351133.htm)）\n- □ 相依样本 t 检验",
+              "user_state": {
+                "node_key": "252605515",
+                "completed_at": "2019-03-07T06:38:14.233Z",
+                "last_viewed_at": "2019-03-07T06:38:14.233Z",
+                "unstructured": "{\"0\":true,\"1\":false,\"2\":true}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "12. 手机定律：研究类型",
+                "alt_text": "",
+                "background_image": "//lh5.ggpht.com/QMZto3Y9iYRTJm7ZXHrQ24TL19r6EwvBcr7k1nSoMGgCbBTRXUJcbubCxcEzcBmNcMRxEbQanr1nD3atndc=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252605515",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "144643887",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.10732933291770573,
+                      "y": 0.7280002771618626
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.10949189526184538,
+                      "y": 0.6488359201773836
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.10732933291770573,
+                      "y": 0.5796147450110865
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177101,
+          "key": "2526055160923",
+          "title": "13. 手机法律：因变量",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2526055160923",
+            "completed_at": "2019-03-07T06:38:18.514Z",
+            "last_viewed_at": "2019-03-07T06:38:17.386Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174831,
+              "key": "252605516",
+              "title": "13. 手机法律：因变量",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 研究者想要研究一项法律条款的效力，该条款将对开车时使用手机的行为进行处罚。研究者随机选择了美国一个州的 10 个乡镇，统计了通过该法律前一年以及后一年，因为开车时使用手机引发的交通事故的数量。他们预想该法律的实施，会降低由开车时使用手机引发的交通事故的数量。\n\n因变量是什么？\n\n- □ 手机类型（例如是 iPhone 或 Adroid）\n- □ 纵向实验（开车使用了手机的司机的比例）\n- □ 处罚开车时使用手机者的法律\n- □ 由开车时使用手机引发的交通事故的数量",
+              "user_state": {
+                "node_key": "252605516",
+                "completed_at": "2019-03-07T06:38:40.157Z",
+                "last_viewed_at": "2019-03-07T06:38:40.157Z",
+                "unstructured": "{\"0\":true,\"1\":false,\"2\":false,\"3\":false}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "13. 手机定律：因变量",
+                "alt_text": "",
+                "background_image": "//lh6.ggpht.com/Dq_AjiN5h3DxkQj-Flp-aI6sewt3uJN2n1Gk2JMbk1ilatP1HTpqdlVhh-X0Znk_p-GuUWgDZuYMkxXm6Q=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252605516",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "144643885",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.09663409337676439,
+                      "y": 0.7953667953667953
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.09663409337676439,
+                      "y": 0.7316602316602316
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.09446254071661238,
+                      "y": 0.6583011583011583
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.09337676438653637,
+                      "y": 0.584942084942085
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177105,
+          "key": "2526055170923",
+          "title": "14. 手机法律：自变量",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2526055170923",
+            "completed_at": "2019-03-07T06:38:44.699Z",
+            "last_viewed_at": "2019-03-07T06:38:43.051Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174833,
+              "key": "252605517",
+              "title": "14. 手机法律：自变量",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 研究者想要研究一项法律条款的效力，该条款将对开车时使用手机的行为进行处罚。研究者随机选择了美国一个州的 10 个乡镇，统计了通过该法律前一年以及后一年，因为开车时使用手机引发的交通事故的数量。他们预想该法律的实施，会降低由开车时使用手机引发的交通事故的数量。\n\n处理是什么？\n\n- □ 手机类型（例如是 iPhone 或 Adroid）\n- □ 纵向实验（开车使用了手机的司机的比例）\n- □ 处罚开车时使用手机者的法律\n- □ 由开车时使用手机引发的交通事故的数量",
+              "user_state": {
+                "node_key": "252605517",
+                "completed_at": "2019-03-07T06:38:52.019Z",
+                "last_viewed_at": "2019-03-07T06:38:52.019Z",
+                "unstructured": "{\"0\":false,\"1\":true,\"2\":false,\"3\":false}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "14. 手机定律：自变量",
+                "alt_text": "",
+                "background_image": "//lh5.ggpht.com/WvXlgN0EBzMQgMGQrSVl7iRd03FD-b9UKR1pM9zgu6DxEhx4Jtpxfjf4_qbpNks35jUqC8GbWYILKwM0wK0=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252605517",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "144643886",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.09663409337676439,
+                      "y": 0.7953667953667953
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.09663409337676439,
+                      "y": 0.7316602316602316
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.09446254071661238,
+                      "y": 0.6583011583011583
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.09337676438653637,
+                      "y": 0.5868725868725869
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177104,
+          "key": "2526055180923",
+          "title": "15. 手机法律：零假设",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2526055180923",
+            "completed_at": "2019-03-07T06:38:54.995Z",
+            "last_viewed_at": "2019-03-07T06:38:53.879Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174834,
+              "key": "252605518",
+              "title": "15. 手机法律：零假设",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 研究者想要研究一项法律条款的效力，该条款将对开车时使用手机的行为进行处罚。研究者随机选择了美国一个州的 10 个乡镇，统计了通过该法律前一年以及后一年，因为开车时使用手机引发的交通事故的数量。他们预想该法律的实施，会降低由开车时使用手机引发的交通事故的数量。\n\n最可能的零假设是什么？\n\n- □ 该法律对由开车时使用手机引发的交通事故的数量没有影响\n- □ 该法律会降低由开车时使用手机引发的交通事故的数量\n- □ 该法律会增加由开车时使用手机引发的交通事故的数量",
+              "user_state": {
+                "node_key": "252605518",
+                "completed_at": "2019-03-07T06:39:02.776Z",
+                "last_viewed_at": "2019-03-07T06:39:02.776Z",
+                "unstructured": "{\"0\":false,\"1\":false,\"2\":true}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "15. 手机定律：零假设",
+                "alt_text": "",
+                "background_image": "//lh6.ggpht.com/T_UCHvsgLAuzT9XoFVsfUmgDQ9vqqigLs-TGUZoiHfkv8AXVJg7kLGKuSeVe3m7JyPABemtJjtIcx_nPPU0=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252605518",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "144643888",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.28230184581976114,
+                      "y": 0.7316602316602316
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.28013029315960913,
+                      "y": 0.6621621621621622
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.2779587404994571,
+                      "y": 0.5868725868725869
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177106,
+          "key": "2526055190923",
+          "title": "16. 手机法律：对立假设",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2526055190923",
+            "completed_at": "2019-03-07T06:39:06.598Z",
+            "last_viewed_at": "2019-03-07T06:39:04.949Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174835,
+              "key": "252605519",
+              "title": "16. 手机法律：对立假设",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 研究者想要研究一项法律条款的效力，该条款将对开车时使用手机的行为进行处罚。研究者随机选择了美国一个州的 10 个乡镇，统计了通过该法律前一年以及后一年，因为开车时使用手机引发的交通事故的数量。他们预想该法律的实施，会降低由开车时使用手机引发的交通事故的数量。\n\n最可能的对立假设是什么？\n\n- □ 该法律对由开车时使用手机引发的交通事故的数量没有影响\n- □ 该法律会降低由开车时使用手机引发的交通事故的数量\n- □ 该法律会增加由开车时使用手机引发的交通事故的数量",
+              "user_state": {
+                "node_key": "252605519",
+                "completed_at": "2019-03-07T06:39:17.666Z",
+                "last_viewed_at": "2019-03-07T06:39:17.666Z",
+                "unstructured": "{\"0\":false,\"1\":true,\"2\":false}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "16. 手机定律：对立假设",
+                "alt_text": "",
+                "background_image": "//lh6.ggpht.com/a_AgTuM7cJNOCAmfIBvn8lUHqB9QCSbAkpHPPDFNCkgIO3fd9aN-mxfwpp_VT_wN5ti0btii8km8bfAZxA=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252605519",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "144643889",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.28230184581976114,
+                      "y": 0.7297297297297297
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.28013029315960913,
+                      "y": 0.6640926640926641
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.2779587404994571,
+                      "y": 0.5888030888030888
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177107,
+          "key": "2526055200923",
+          "title": "17. 手机法律：t 检验",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2526055200923",
+            "completed_at": "2019-03-07T06:39:21.819Z",
+            "last_viewed_at": "2019-03-07T06:39:20.677Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174836,
+              "key": "252605520",
+              "title": "17. 手机定律：t 检验",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 研究者想要研究一项法律条款的效力，该条款将对开车时使用手机的行为进行处罚。研究者随机选择了美国一个州的 10 个乡镇，统计了通过该法律前一年以及后一年，因为开车时使用手机引发的交通事故的数量。他们预想该法律的实施，会降低由开车时使用手机引发的交通事故的数量。\n\n根据对立假设，研究者最可能使用哪种 t 检验？\n\n- □ 单尾检验，正方向\n- □ 单尾检验，负方向\n- □ 双尾检验",
+              "user_state": {
+                "node_key": "252605520",
+                "completed_at": "2019-03-07T06:39:35.197Z",
+                "last_viewed_at": "2019-03-07T06:39:35.197Z",
+                "unstructured": "{\"0\":false,\"1\":true,\"2\":false}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "17. 手机定律：t 检验",
+                "alt_text": "",
+                "background_image": "//lh5.ggpht.com/xcCNuuuJLwQPZ1SYSYKebTRbeaz3NEgEBbytLEjz-pP2jbUNruKoguTPfkfwbhhJa_illX9HlYFbzsfxfQ=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252605520",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "144643890",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.13355048859934854,
+                      "y": 0.7972972972972973
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.13246471226927253,
+                      "y": 0.7258687258687259
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.13355048859934854,
+                      "y": 0.6583011583011583
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177108,
+          "key": "2526055210923",
+          "title": "18. 手机法律：误差分数",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2526055210923",
+            "completed_at": "2019-03-07T06:39:38.446Z",
+            "last_viewed_at": "2019-03-07T06:39:37.327Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174837,
+              "key": "252605521",
+              "title": "18. 手机定律：误差分数",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 下表是由开车时使用手机引发的交通事故的数量（单位为千）。请计算差异，先验均值，后验均值，和差异的均值。\n\n计算误差的方法是用检验后的分数减去检验前的分数。换句话说，如果检验后的分数大于检验前的分数，则误差为正值，反之为负值。",
+              "user_state": {
+                "node_key": "252605521",
+                "completed_at": "2019-03-07T06:42:53.742Z",
+                "last_viewed_at": "2019-03-07T06:42:53.742Z",
+                "unstructured": "{\"0\":\"-3\",\"1\":\"-1\",\"2\":\"-2\",\"3\":\"-3\",\"4\":\"-5\",\"5\":\"-2\",\"6\":\"-5\",\"7\":\"-2\",\"8\":\"-4\",\"9\":\"-3\",\"10\":\"7.8\",\"11\":\"4.8\",\"12\":\"-3\"}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "18. 手机定律：误差分数",
+                "alt_text": "",
+                "background_image": "//lh6.ggpht.com/MIwt1Yrgot-Cx0JehNUla9y7H9YgnGSgU7XJzYisAMfguD85ACqS0wakqtqxc7ONnSN4HNFHoK8Q6eqB6h8=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252605521",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "144643891",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.0555,
+                      "width": 0.08,
+                      "x": 0.66,
+                      "y": 0.3
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0.0555,
+                      "width": 0.08,
+                      "x": 0.66,
+                      "y": 0.365
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0.0555,
+                      "width": 0.08,
+                      "x": 0.66,
+                      "y": 0.43
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0.0555,
+                      "width": 0.08,
+                      "x": 0.66,
+                      "y": 0.49
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "4",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 5,
+                    "placement": {
+                      "height": 0.0555,
+                      "width": 0.08,
+                      "x": 0.66,
+                      "y": 0.555
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "5",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 6,
+                    "placement": {
+                      "height": 0.0555,
+                      "width": 0.08,
+                      "x": 0.66,
+                      "y": 0.614
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "6",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 7,
+                    "placement": {
+                      "height": 0.0555,
+                      "width": 0.08,
+                      "x": 0.66,
+                      "y": 0.677
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "7",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 8,
+                    "placement": {
+                      "height": 0.0555,
+                      "width": 0.08,
+                      "x": 0.66,
+                      "y": 0.741
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "8",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 9,
+                    "placement": {
+                      "height": 0.0555,
+                      "width": 0.08,
+                      "x": 0.66,
+                      "y": 0.802
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "9",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 10,
+                    "placement": {
+                      "height": 0.0555,
+                      "width": 0.08,
+                      "x": 0.66,
+                      "y": 0.862
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "10",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 11,
+                    "placement": {
+                      "height": 0.0555,
+                      "width": 0.08,
+                      "x": 0.3028756234413965,
+                      "y": 0.923
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "11",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 12,
+                    "placement": {
+                      "height": 0.0555,
+                      "width": 0.08,
+                      "x": 0.47365960099750626,
+                      "y": 0.923
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "12",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 13,
+                    "placement": {
+                      "height": 0.0555,
+                      "width": 0.08,
+                      "x": 0.66,
+                      "y": 0.923
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177110,
+          "key": "2526055220923",
+          "title": "19. 手机法律：t 临界值",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2526055220923",
+            "completed_at": "2019-03-07T06:43:08.260Z",
+            "last_viewed_at": "2019-03-07T06:43:07.100Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174838,
+              "key": "252605522",
+              "title": "19. 手机定律：t 临界值",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 研究者想要研究一项法律条款的效力，该条款将对开车时使用手机的行为进行处罚。研究者随机选择了美国一个州的 10 个乡镇，统计了通过该法律前一年以及后一年，因为开车时使用手机引发的交通事故的数量。他们预想该法律的实施，会降低由开车时使用手机引发的交通事故的数量。\n\n计算 α 水平等于 0.05 时的 t 临界值。\n\n<a href=\"https://s3.amazonaws.com/udacity-hosted-downloads/t-table.jpg\" target=\"_blank\">t 表格链接</a>",
+              "user_state": {
+                "node_key": "252605522",
+                "completed_at": "2019-03-07T06:44:47.438Z",
+                "last_viewed_at": "2019-03-07T06:44:47.438Z",
+                "unstructured": "{\"0\":\"-1.833\"}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "19. 手机定律：t 临界值",
+                "alt_text": "",
+                "background_image": "//lh5.ggpht.com/c5B59JtaNGj06Tq9hM8HL-VTy7NnrHykH-IrJxumLT-eAc0hgdxPHxDToS-pdnhadHr17-DWmkRR3HoOkA=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252605522",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "144643892",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.5439739413680782,
+                      "y": 0.6467181467181468
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177109,
+          "key": "2526055230923",
+          "title": "20. 手机法律：标准误差",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2526055230923",
+            "completed_at": "2019-03-07T06:44:52.801Z",
+            "last_viewed_at": "2019-03-07T06:44:51.143Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174839,
+              "key": "252605523",
+              "title": "20. 手机定律：标准误差",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 研究者想要研究一项法律条款的效力，该条款将对开车时使用手机的行为进行处罚。研究者随机选择了美国一个州的 10 个乡镇，统计了通过该法律前一年以及后一年，因为开车时使用手机引发的交通事故的数量。他们预想该法律的实施，会降低由开车时使用手机引发的交通事故的数量。\n\n如果差异的标准偏差等于 1.33，计算均值的标准误差。",
+              "user_state": {
+                "node_key": "252605523",
+                "completed_at": "2019-03-07T06:46:44.166Z",
+                "last_viewed_at": "2019-03-07T06:46:44.166Z",
+                "unstructured": "{\"0\":\"0.421\"}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "20. 手机定律：标准误差",
+                "alt_text": "",
+                "background_image": "//lh4.ggpht.com/1pkwHvzoN9fSy2oKHSzs3Aa2CF20NrNYwLpt21whXyw9XTye1CrfgulKVjURL0hF2s9UTKI1UfhRzscj9IA=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252605523",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "144643893",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.40933767643865365,
+                      "y": 0.7123552123552124
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177112,
+          "key": "2526055240923",
+          "title": "21. 手机法律：t 统计量",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2526055240923",
+            "completed_at": "2019-03-07T06:46:49.892Z",
+            "last_viewed_at": "2019-03-07T06:46:48.721Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174840,
+              "key": "252605524",
+              "title": "21. 手机定律：t 统计量",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 研究者想要研究一项法律条款的效力，该条款将对开车时使用手机的行为进行处罚。研究者随机选择了美国一个州的 10 个乡镇，统计了通过该法律前一年以及后一年，因为开车时使用手机引发的交通事故的数量。他们预想该法律的实施，会降低由开车时使用手机引发的交通事故的数量。\n\n计算 t 统计量。",
+              "user_state": {
+                "node_key": "252605524",
+                "completed_at": "2019-03-07T06:48:09.656Z",
+                "last_viewed_at": "2019-03-07T06:48:09.656Z",
+                "unstructured": "{\"0\":\"-7.126\"}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "21. 手机定律：t 统计量",
+                "alt_text": "",
+                "background_image": "//lh4.ggpht.com/BsMpZMA6T4wPWQDCZtRsc0HCMmXG9jJWqQrcL1At11bsTp-bT1kweLLaqpn9adfQeNkk3x_mh7hMMlevDHk=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252605524",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "144643894",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.3756786102062975,
+                      "y": 0.6505791505791506
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177111,
+          "key": "2526055250923",
+          "title": "22. 手机法律：决策",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2526055250923",
+            "completed_at": "2019-03-07T06:48:13.141Z",
+            "last_viewed_at": "2019-03-07T06:48:11.976Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174841,
+              "key": "252605525",
+              "title": "22. 手机定律：决策",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 研究者想要研究一项法律条款的效力，该条款将对开车时使用手机的行为进行处罚。研究者随机选择了美国一个州的 10 个乡镇，统计了通过该法律前一年以及后一年，因为开车时使用手机引发的交通事故的数量。他们预想该法律的实施，会降低由开车时使用手机引发的交通事故的数量。\n\n根据 t 统计量和 t 临界值，结果具有统计上的显著性吗？\n\n我们应该拒绝零假设还是不拒绝零假设？\n\n因为 p > 0.05 还是 p < 0.05 ？\n\n\n<a href=\"https://s3.amazonaws.com/udacity-hosted-downloads/t-table.jpg\" target=\"_blank\">t 表格链接</a>",
+              "user_state": {
+                "node_key": "252605525",
+                "completed_at": "2019-03-07T06:48:51.431Z",
+                "last_viewed_at": "2019-03-07T06:49:00.898Z",
+                "unstructured": "{\"0\":false,\"1\":true,\"2\":false,\"3\":true,\"4\":true,\"5\":false}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "22. 手机定律：决策",
+                "alt_text": "",
+                "background_image": "//lh6.ggpht.com/xl7b66C5JTgHylCwEZral0z-9FDOY471JlX9qb19Z61w9eU3lOUpCEsGvpxjI0Fev9u_MIp0Vsiv35mstw=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252605525",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "144643895",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.3474484256243214,
+                      "y": 0.7239382239382239
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.34527687296416937,
+                      "y": 0.6602316602316602
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.756786102062975,
+                      "y": 0.5791505791505791
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.6536373507057546,
+                      "y": 0.5733590733590733
+                    }
+                  },
+                  {
+                    "group": "group2",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "4",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 5,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.3496199782844734,
+                      "y": 0.9285714285714286
+                    }
+                  },
+                  {
+                    "group": "group2",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "5",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 6,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.3474484256243214,
+                      "y": 0.8513513513513513
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177114,
+          "key": "2526055260923",
+          "title": "23. 手机法律：Cohen 的 d",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2526055260923",
+            "completed_at": "2019-03-07T06:49:05.872Z",
+            "last_viewed_at": "2019-03-07T06:49:04.676Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174842,
+              "key": "252605526",
+              "title": "23. 手机定律：Cohen 的 d",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 研究者想要研究一项法律条款的效力，该条款将对开车时使用手机的行为进行处罚。研究者随机选择了美国一个州的 10 个乡镇，统计了通过该法律前一年以及后一年，因为开车时使用手机引发的交通事故的数量。他们预想该法律的实施，会降低由开车时使用手机引发的交通事故的数量。\n\n计算 Cohen's d.",
+              "user_state": {
+                "node_key": "252605526",
+                "completed_at": "2019-03-07T06:49:57.931Z",
+                "last_viewed_at": "2019-03-07T06:49:57.931Z",
+                "unstructured": "{\"0\":\"2.256\"}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "23. 手机定律：Cohen 的 d",
+                "alt_text": "",
+                "background_image": "//lh6.ggpht.com/hgXlzaUW_KP4ffyonkWHLeeaq1LI1vw_2gFoaqPoeOH05Mkj8VG5vSu66wvITt7Gg9dohvWtsoB_ES304wY=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252605526",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "144643896",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.6308360477741585,
+                      "y": 0.6447876447876448
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 177113,
+          "key": "2526055270923",
+          "title": "24. 手机法律：置信区间",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2526055270923",
+            "completed_at": "2019-03-07T06:50:17.390Z",
+            "last_viewed_at": "2019-03-07T06:50:15.744Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174843,
+              "key": "252605527",
+              "title": "24. 手机定律：置信区间",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 研究者想要研究一项法律条款的效力，该条款将对开车时使用手机的行为进行处罚。研究者随机选择了美国一个州的 10 个乡镇，统计了通过该法律前一年以及后一年，因为开车时使用手机引发的交通事故的数量。他们预想该法律的实施，会降低由开车时使用手机引发的交通事故的数量。\n\n计算均值差异的 95% 置信区间。\n\n以下是回答该问题时要注意的事项。\n\n<ol>\n<li>将 -3.0 作为平均差\n<li>将标准偏差转换为标准误差（参见问题 #20）\n<li>查找 95% 的分布的 t 临界值（注：双尾各 2.5%）\n<li>记住我们处于分布的负数一边，因此最大的负数应该是下限值\n</ol>\n\n<a href=\"https://s3.amazonaws.com/udacity-hosted-downloads/t-table.jpg\" target=\"_blank\">t 表格链接</a>",
+              "user_state": {
+                "node_key": "252605527",
+                "completed_at": "2019-03-07T06:53:09.893Z",
+                "last_viewed_at": "2019-03-07T06:53:09.893Z",
+                "unstructured": "{\"0\":\"-3.95\",\"1\":\"-2.05\"}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "24. 手机定律：置信区间",
+                "alt_text": "",
+                "background_image": "//lh4.ggpht.com/skAK49HGxZudqjANYtOLRsieGC0i_8EqBwIlag_Q2ix4P9SMrF66RtyYR_NHOf0wqvemhYMab7aajTrFDZdb=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/252605527",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "144643898",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06208425720620843,
+                      "width": 0.14588528678304238,
+                      "x": 0.2909880564603692,
+                      "y": 0.694980694980695
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0.06208425720620843,
+                      "width": 0.1396508728179551,
+                      "x": 0.46254071661237783,
+                      "y": 0.694980694980695
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    }
+  ]
+}

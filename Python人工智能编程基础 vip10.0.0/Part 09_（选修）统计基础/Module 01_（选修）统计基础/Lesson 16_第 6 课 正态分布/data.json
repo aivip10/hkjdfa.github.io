@@ -1,0 +1,1513 @@
+{
+  "data": {
+    "lesson": {
+      "id": 178220,
+      "key": "4588768731",
+      "title": "第 6 课: 正态分布",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "zh-cn",
+      "summary": "学习概率密度函数（PDF），正态分布和 z 表格。",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": null,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/4588768731/178220/1544465806505/%E7%AC%AC+6+%E8%AF%BE%3A+%E6%AD%A3%E6%80%81%E5%88%86%E5%B8%83+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/4588768731/178220/1544465798546/%E7%AC%AC+6+%E8%AF%BE%3A+%E6%AD%A3%E6%80%81%E5%88%86%E5%B8%83+Subtitles.zip"
+          },
+          {
+            "name": "Lesson6.pdf",
+            "uri": "https://video.udacity-data.com/topher/2017/May/59192482_lesson6/lesson6.pdf"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 176820,
+          "key": "1020887710923",
+          "title": "概率密度函数简介",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1020887710923",
+            "completed_at": "2019-11-09T20:49:48.282Z",
+            "last_viewed_at": "2019-11-09T20:49:48.765Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174549,
+              "key": "102088771",
+              "title": "概率密度函数简介",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "QTVWqk09q1A",
+                "china_cdn_id": "QTVWqk09q1A.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 176823,
+          "key": "1033392280923",
+          "title": "概率",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1033392280923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174550,
+              "key": "103339228",
+              "title": "概率",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 假设随机选择任何一名优达学城学员，为其分配一个唯一编号。接着，我们随机选择一个编号，我们选择的学员的年龄等于或小于 30 岁的概率是多少？\n\n请把你的答案填入上方的方框中。",
+              "user_state": {
+                "node_key": "103339228",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "oR8H9vdtreE",
+                  "china_cdn_id": "oR8H9vdtreE.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "概率",
+                "alt_text": null,
+                "background_image": "//lh5.ggpht.com/py4kTA9cXBdU0n4u17XnJyNmnpZ4P_9cTDtrrWgqkLHvZEKE1Xm7c1EcX2wnLipNOFinN4Oig4L7eGgGi0QB=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/103339228",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "102088772",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.7139231770270215,
+                      "y": 0.6018040844770135
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "Wf7m7ygRvz8",
+                  "china_cdn_id": "Wf7m7ygRvz8.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176822,
+          "key": "1020887750923",
+          "title": "认识概率密度函数",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1020887750923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174551,
+              "key": "102088775",
+              "title": "认识概率密度函数",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "52HAbu6_u9I",
+                "china_cdn_id": "52HAbu6_u9I.mp4"
+              }
+            },
+            {
+              "id": 813634,
+              "key": "23d7a875-506e-470c-8669-5697edc434c7",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "我们在本课程中会学到正态分布，但我们不会详细介绍正态分布的概率密度函数公式，如果想要了解的话，可以查阅维基百科的这个[链接](https://en.wikipedia.org/wiki/Normal_distribution)。",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 176824,
+          "key": "1033392290923",
+          "title": "概率大于",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1033392290923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174552,
+              "key": "103339229",
+              "title": "概率大于",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 随机选择一个受试者，大于均值5个标准偏差以上的概率是多少？\n\n- □ 0.01\n- □ 0.3\n- □ 0.8 \n- □ 0.99",
+              "user_state": {
+                "node_key": "103339229",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "5DZTwMn7GAY",
+                  "china_cdn_id": "5DZTwMn7GAY.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "概率大于",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/RdCkobKNT15XQ_1uxgz5ZTlAaZY-jMpTrEeNSCdRY9TKIwDgBk8EEGDhkgzCOlpdqT_Yyx9YJvufHeP_kw=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/103339229",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "102088776",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.7367658166229047,
+                      "y": 0.38724228776411335
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.738578680266893,
+                      "y": 0.4561856260705525
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.740029050850888,
+                      "y": 0.5302835248994894
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.740029050850888,
+                      "y": 0.6037371331581961
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "SJ9JldQSF5w",
+                  "china_cdn_id": "SJ9JldQSF5w.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176825,
+          "key": "1033392300923",
+          "title": "概率小于",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1033392300923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174553,
+              "key": "103339230",
+              "title": "概率小于",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 随机选择一个受试者，不超过均值5个标准偏差以上的概率是多少？\n\n- □ 0.01\n- □ 0.3\n- □ 0.8 \n- □ 0.99",
+              "user_state": {
+                "node_key": "103339230",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "1PkuYCWwc_g",
+                  "china_cdn_id": "1PkuYCWwc_g.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "概率小于",
+                "alt_text": "",
+                "background_image": "//lh4.ggpht.com/2EqGNsnvxrmqO7SkouZfPxfN2HCxDf2IgoJSz_pT2f70dQz0dftRGUNoKkeYpFNrHmb57CoGLmXcD52Ftdg=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/103339230",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "102088779",
+                "widgets": [
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.740029050850888,
+                      "y": 0.38724228776411335
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.7378535613655658,
+                      "y": 0.45682985765061884
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.740029050850888,
+                      "y": 0.5283504762183069
+                    }
+                  },
+                  {
+                    "group": "group0",
+                    "initial_value": "false",
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0,
+                      "width": 0,
+                      "x": 0.7422045403362102,
+                      "y": 0.6037370741680321
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "wDRJK3htUZE",
+                  "china_cdn_id": "wDRJK3htUZE.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176826,
+          "key": "1033392310923",
+          "title": "2个标准偏差以下或以上",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1033392310923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174554,
+              "key": "103339231",
+              "title": "2个标准偏差以下或以上",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 对于正态分布，数据值低于均值 2 个标准偏差，或高于均值 2 个标准偏差的概率是多少？ 请用比例（即，小数）写出你的答案。（或者：某个数据值与均值的差异超过 2 个标准偏差以上）",
+              "user_state": {
+                "node_key": "103339231",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "lGHZ4w8UqIk",
+                  "china_cdn_id": "lGHZ4w8UqIk.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "2个标准偏差以下或以上",
+                "alt_text": "",
+                "background_image": "//lh6.ggpht.com/wV7lEEos5psDHgQj_2svUm7zvFv11Owicr2bk9oAU2iHrkEz5DT97V54eGy94EiJ64bjuWOfttLc6VAWnOeD=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/103339231",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "102088782",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.6160261501875216,
+                      "y": 0.3814432597008936
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "CoFbRt4icdQ",
+                  "china_cdn_id": "CoFbRt4icdQ.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176827,
+          "key": "1033392320923",
+          "title": "Facebook 好友比例",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1033392320923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174555,
+              "key": "103339232",
+              "title": "Facebook 好友比例",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "假设该分布是正态分布，平均每个人有 190 个 Facebook 好友，标准偏差是 36 ，那么多少比例的人的 Facebook 好友数少于 154？<br>\n提示：可以看上个视频回顾关键数据 68% 95% 以及曲线下的面积总和是 1 ",
+              "user_state": {
+                "node_key": "103339232",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "swOg73wqLKM",
+                  "china_cdn_id": "swOg73wqLKM.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Facebook 好友比例",
+                "alt_text": "",
+                "background_image": "//lh6.ggpht.com/qSysODzfwBMQFseUirWcdhTXzuH19z6kFOSc9fUeIAg9xYIjoCpkXpfUra9vh01QWseQORXfSLsxtujQmw=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/103339232",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "102088785",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.7128354322843603,
+                      "y": 0.3891752774551319
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "19ZQP5wzmKA",
+                  "china_cdn_id": "19ZQP5wzmKA.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176828,
+          "key": "1033392330923",
+          "title": "大于 262",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1033392330923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174556,
+              "key": "103339233",
+              "title": "大于 262",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## Facebook 好友数超过 262 的人的百分比是多少呢？",
+              "user_state": {
+                "node_key": "103339233",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "ulXPRo2lgC8",
+                  "china_cdn_id": "ulXPRo2lgC8.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "大于 262",
+                "alt_text": null,
+                "background_image": "//lh5.ggpht.com/7Xk6JQ6wBaQ5LpariGFAumOpYTUSQwwC_DI46hsQ5DvXXEtjeTepgSqAm38GTIroVlwY1LC5Q0L8_aK_WA=s0#w=1719&h=965",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/103339233",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "102088788",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06208425720620843,
+                      "width": 0.08728179551122195,
+                      "x": 0.6796959826275787,
+                      "y": 0.2611218568665377
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "c6PzC3WZD4I",
+                  "china_cdn_id": "c6PzC3WZD4I.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176829,
+          "key": "1028338980923",
+          "title": "介于 118 和 226 之间",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1028338980923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174557,
+              "key": "102833898",
+              "title": "介于 118 和 226 之间",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 我们再来做个练习，Facebook 好友数在 118 到 226 之间的人的比例大约是多少？",
+              "user_state": {
+                "node_key": "102833898",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "b2t55uKFMrA",
+                  "china_cdn_id": "b2t55uKFMrA.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "介于 118 和 226 之间",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/YRJrQMyF7kmeOLb_WGij5kuNYJojAtOxeD220duf1hJejcTLvi5Xcm_49FMWZwVPSo60OBnB8LbqfUuuwhxf=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/102833898",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "102088791",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.7041334743430714,
+                      "y": 0.389175218464968
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "pHNtOrr6bgE",
+                  "china_cdn_id": "pHNtOrr6bgE.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176831,
+          "key": "1028338970923",
+          "title": "小于 240",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1028338970923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174558,
+              "key": "102833897",
+              "title": "小于 240",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## Facebook 好友数少于 240 的人的比例是多少？",
+              "user_state": {
+                "node_key": "102833897",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "ZeIYb60Qerk",
+                  "china_cdn_id": "ZeIYb60Qerk.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "小于 240",
+                "alt_text": null,
+                "background_image": "//lh4.ggpht.com/pgK8JyGxmXR3pFv8kYCgxs3tLsOMn8lcTVrPrS0rdyiq8iGUexUkym7ZCokQRXE-Tp_VhjDNU5jDaGt7gJA=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/102833897",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "102088794",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.6986947506297659,
+                      "y": 0.3853092390829308
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "xUkquw-73BY",
+                  "china_cdn_id": "xUkquw-73BY.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176830,
+          "key": "1020887970923",
+          "title": "Z-表格",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1020887970923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174559,
+              "key": "102088797",
+              "title": "Z-表格",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "这是视频中所示 z-表格的链接：[z-表格链接](https://github.com/udacity/Business_Analyst_China/raw/master/%E5%95%86%E4%B8%9A%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%EF%BC%88%E5%85%A5%E9%97%A8%EF%BC%89/%E9%A1%B9%E7%9B%AE%E4%B8%80%EF%BC%9A%E8%B0%83%E6%9F%A5%E9%97%AE%E5%8D%B7%E6%95%B0%E6%8D%AE/ZTable.jpg)",
+              "video": {
+                "youtube_id": "hSAxcGBxbds",
+                "china_cdn_id": "hSAxcGBxbds.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 176832,
+          "key": "1028338960923",
+          "title": "使用Z-表格",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1028338960923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174560,
+              "key": "102833896",
+              "title": "使用Z-表格",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 使用 Z-表格得出，Facebook 好友数少于 240 的人的大概比例是多少？\n\n记得使用这个 Z-表格：<a href=\"https://github.com/udacity/Business_Analyst_China/raw/master/%E5%95%86%E4%B8%9A%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%EF%BC%88%E5%85%A5%E9%97%A8%EF%BC%89/%E9%A1%B9%E7%9B%AE%E4%B8%80%EF%BC%9A%E8%B0%83%E6%9F%A5%E9%97%AE%E5%8D%B7%E6%95%B0%E6%8D%AE/ZTable.jpg\" target=\"_blank\">Z-表格链接</a>",
+              "user_state": {
+                "node_key": "102833896",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "EeT7osOfzJE",
+                  "china_cdn_id": "EeT7osOfzJE.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "使用Z-表格",
+                "alt_text": "",
+                "background_image": "//lh4.ggpht.com/ojL9nDlGmtQX2H8dA1yL2bkPGeqa_IU1RHXunUsMqDhx202oyWG12w0mJAKToO-Ql7BkjeE-15pmJaJ5RA=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/102833896",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "102088798",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.7182741559976659,
+                      "y": 0.551546411500694
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "GF0qAvNKpOA",
+                  "china_cdn_id": "GF0qAvNKpOA.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176834,
+          "key": "1020888010923",
+          "title": "Karma",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1020888010923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174561,
+              "key": "102088801",
+              "title": "Karma",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "cNFMJpVQlKY",
+                "china_cdn_id": "cNFMJpVQlKY.mp4"
+              }
+            },
+            {
+              "id": 813633,
+              "key": "90f69aa0-26b6-457e-ab82-481e1d54c243",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Karma 分数是优达学城论坛上的一种积分系统。\n\n积分规则：\n* 如果你的帖子被别人点赞，你可以得到 15 个 Karma 分数；\n* 如果提问问题的同学认为你的回答是最佳答案，你可以得到 25 个 Karma 分数；\n* 如果你提了问题并接受了别人的，你可以得到 5 个 Karma 分数；\n* 但如果别人否决了你的答案，你会被减掉  1 个 Karma 分数；\n* 如果别人举报了你的帖子，你会被减掉  2 个 Karma 分数；\n* 如果你被举报的帖子被删除，你会被减掉  100 个 Karma 分数。\n\n优达学城论坛现在已不再使用 Katie 提到的 karma 系统。但是，你仍然可以访问 Katie 创建的数据集，点击此处即可：<a href=\"https://s3.cn-north-1.amazonaws.com.cn/static-documents/nd002/Karma+points+per+post+Lesson+6.xlsx\" target=\"_blank\">每篇帖子的平均 Karma 分数</a>。",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 176833,
+          "key": "1028338950923",
+          "title": "每篇帖子的平均 Karma 分数",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1028338950923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174562,
+              "key": "102833895",
+              "title": "每篇帖子的平均 Karma 分数",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "每个帖子的平均 Karma 分数是多少？提示：用 excel 计算 **平均值** 的函数可以快速算出\n\n点击这里下载数据：<a href=\"https://s3.cn-north-1.amazonaws.com.cn/static-documents/nd002/Karma+points+per+post+Lesson+6.xlsx\" target=\"_blank\">每篇帖子的平均 Karma 分数</a>\n\n仅使用数字输入答案，不添加任何特殊字符，包括逗号。",
+              "user_state": {
+                "node_key": "102833895",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "p-ma7uqFNCM",
+                  "china_cdn_id": "p-ma7uqFNCM.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "每篇帖子的平均 Karma 分数",
+                "alt_text": "",
+                "background_image": "//lh6.ggpht.com/0lDrdAWodMPfMHY-sMgl5P55XBKcau55UnGH-Jgmq0jcJK-NLt92nm_thcc_00XvJhQraeTX70e6j0Sucw=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/102833895",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "102088802",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.130891994960667,
+                      "y": 0.4916236720889536
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "NtldeU_E4sI",
+                  "china_cdn_id": "NtldeU_E4sI.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176837,
+          "key": "1028338940923",
+          "title": "每篇帖子的 Karma 分数的标准偏差",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1028338940923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174563,
+              "key": "102833894",
+              "title": "每篇帖子的 Karma 分数的标准偏差",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "\n",
+              "user_state": {
+                "node_key": "102833894",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "gIR0M2Jxb0k",
+                  "china_cdn_id": "gIR0M2Jxb0k.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "每篇帖子的 Karma 分数的标准偏差",
+                "alt_text": "",
+                "background_image": "//lh3.ggpht.com/GMegUY3KyCR6UFOrHfeVGxe0GoOA1Dz0NJz6HpgQmON-hBipgF5WsLKZMxMYb_R7CQ6ul_p6IrpR0SkP6F8=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/102833894",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "102088805",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.340826730294261,
+                      "y": 0.5882731566398833
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "uCRzrlaA8mg",
+                  "china_cdn_id": "uCRzrlaA8mg.mp4"
+                }
+              }
+            },
+            {
+              "id": 813636,
+              "key": "c93ce77d-f06c-4227-9def-e1d4403b9dd3",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "下一步我们将计算出标准偏差，但这次是要估算出总体参数，需要使用该公式来计算样本标准偏差。标准偏差的公式我们在描述统计学课程中学过，如果你对概念有些模糊，请回顾之前的课程。\n\n注意：它和总体标准偏差差不多，只是我们除以的是 n-1。这叫做贝塞尔校正系数，使标准偏差稍微大点，因为样本的标准偏差会低估变化性。请算出样本标准偏差，这会是一次很好的复习机会。\n\n提示：用 excel 计算 **标准差** 的函数可以快速算出\n\n点击这里下载数据：<a href=\"https://s3.cn-north-1.amazonaws.com.cn/static-documents/nd002/Karma+points+per+post+Lesson+6.xlsx\" target=\"_blank\">每篇帖子的平均 Karma 分数</a>\n\n仅使用数字输入答案，不添加任何特殊字符，包括逗号。",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 176836,
+          "key": "1028338930923",
+          "title": "整数标准偏差",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1028338930923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174564,
+              "key": "102833893",
+              "title": "整数标准偏差",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 请在上图的方框中输入恰当的值。",
+              "user_state": {
+                "node_key": "102833893",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "KAOIExZuV_M",
+                  "china_cdn_id": "KAOIExZuV_M.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "整数标准偏差",
+                "alt_text": null,
+                "background_image": "//lh3.ggpht.com/djFrZY0c5Cyysrz9F-wLy39AfNxKj9hIVUsFZc2fqEedIjrL887Fk4grgOYjhQBMO9A78c6P39XXd68k1lfe=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/102833893",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "102088808",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.07095343680709534,
+                      "width": 0.05610972568578554,
+                      "x": 0.1921687328310084,
+                      "y": 0.7081170177248259
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "1",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0.07095343680709534,
+                      "width": 0.05610972568578554,
+                      "x": 0.29992489327219063,
+                      "y": 0.7103217266615637
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "2",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0.07095343680709534,
+                      "width": 0.05610972568578554,
+                      "x": 0.510300900276165,
+                      "y": 0.7100382718172941
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "3",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0.07095343680709534,
+                      "width": 0.05486284289276808,
+                      "x": 0.612548866176843,
+                      "y": 0.7103217266615637
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "CtbwhKXSEMs",
+                  "china_cdn_id": "CtbwhKXSEMs.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176835,
+          "key": "1028338920923",
+          "title": "小于 5",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1028338920923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174565,
+              "key": "102833892",
+              "title": "小于 5",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 学员平均每个帖子低于 5 分的概率是多少？请使用 z 表格求出答案。\n\n<a href=\"https://s3.amazonaws.com/udacity-hosted-downloads/ZTable.jpg\" target=\"_blank\">Z-表格链接</a>\n\n对你的 z 分数四舍五入，精确到小数点后两位，并输入 z-表格中显示的精确值。",
+              "user_state": {
+                "node_key": "102833892",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "CHHhDWRG49A",
+                  "china_cdn_id": "CHHhDWRG49A.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "小于 5",
+                "alt_text": null,
+                "background_image": "//lh3.ggpht.com/M0oCmyTacEy6bqEtU6YLB0dIiKgJSlEywZgB0__x6oyO6Gr6btw6tkF5Sxe7dWZshC4o-FLa5ntZyaD1F8E=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/102833892",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "102088811",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.4844090363255274,
+                      "y": 0.46262888571383853
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "ONwh_Dcd6j8",
+                  "china_cdn_id": "ONwh_Dcd6j8.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176838,
+          "key": "1028338890923",
+          "title": "大于 20",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1028338890923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174567,
+              "key": "102833889",
+              "title": "大于 20",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "再来一道题：平均帖子得分超过 20 分的学员比例是多少？这道题比上一道题更难些。\n\n提示： z 表格会告诉我们低于某个值的比例而不是大于某个值的比例。\n\n<a href=\"https://s3.amazonaws.com/udacity-hosted-downloads/ZTable.jpg\" target=\"_blank\">Z-表格链接</a>\n\n对你的 z 分数四舍五入，精确到小数点后两位，并输入 z-表格中显示的精确值。",
+              "user_state": {
+                "node_key": "102833889",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "W0R3XOK1IfE",
+                  "china_cdn_id": "W0R3XOK1IfE.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "大于 20",
+                "alt_text": null,
+                "background_image": "//lh5.ggpht.com/0l74E7ssX34J-U29AZld83JL54XudvUBYZxFWyS7dOHoKBvy0iiZ8l-4cP1RD2vFdaogm5euSfOLiqUp2ws=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/102833889",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "102088814",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.5572879340838217,
+                      "y": 0.5109536279893034
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "YaznAtppruA",
+                  "china_cdn_id": "YaznAtppruA.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176839,
+          "key": "1028338900923",
+          "title": "介于 10 和 16 之间",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1028338900923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174566,
+              "key": "102833890",
+              "title": "介于 10 和 16 之间",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 那么两个数值之间的比例呢？学员平均每个帖子得分在 10 分和 16 分之间的概率是多少？\n\n你需要采用在上两道题中用到的同一技巧。\n\n<a href=\"https://s3.amazonaws.com/udacity-hosted-downloads/ZTable.jpg\" target=\"_blank\">Z-表格链接</a>\n\n对你的 z 分数四舍五入，精确到小数点后两位，并输入 z-表格中显示的精确值。",
+              "user_state": {
+                "node_key": "102833890",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "lMm_BrpheLM",
+                  "china_cdn_id": "lMm_BrpheLM.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "介于 10 和 16 之间",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/WYLCCL6XnWw-B4CjZhue96TYofQ5lHJsnOwLBxJbT4fuCsxPUap8yIlP7NLqgUKwbMmGmzgbk6uLYC3j8A=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/102833890",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "102088817",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.5507614656278551,
+                      "y": 0.5225515071452511
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "4QIEdzv6g6w",
+                  "china_cdn_id": "4QIEdzv6g6w.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176840,
+          "key": "1028338910923",
+          "title": "前 5%",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1028338910923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174568,
+              "key": "102833891",
+              "title": "前 5%",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "## 要进入优达学城学员前 5% 的范围内，平均每个帖子 karma 分数要达到多少？\n\n这道题非常难，需要我们具有逆向思维。我们要计算出达到这一比例的值而不是找到小于或大于某个值的比例。请试着解出这道题，这可能需要花点时间，但是我相信你，一定可以解出的！\n\n<a href=\"https://s3.amazonaws.com/udacity-hosted-downloads/ZTable.jpg\" target=\"_blank\">Z-表格链接</a>\n\n对你的 z 分数四舍五入，精确到小数点后两位，并输入 z-表格中显示的精确值。",
+              "user_state": {
+                "node_key": "102833891",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "HbS35vDe_x0",
+                  "china_cdn_id": "HbS35vDe_x0.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "前 5%",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/O1pCBNbFOo-n1JTcOIy2m6i2kK8D19iAmvtAt60DwIrOi4FVq95zUkSYgG7tSTn7FxoThtP9kkEgvNHTGE8=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/102833891",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "102088820",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": "Empty",
+                    "marker": "0",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06,
+                      "width": 0.15,
+                      "x": 0.6356055555554215,
+                      "y": 0.5186855867533778
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "tEmdl6zhvgA",
+                  "china_cdn_id": "tEmdl6zhvgA.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 176841,
+          "key": "1020888230923",
+          "title": "真棒！",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1020888230923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 174569,
+              "key": "102088823",
+              "title": "真棒！",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "[曲线下的面积可视化链接](http://psych.colorado.edu/~mcclella/java/normal/handleNormal.html)",
+              "video": {
+                "youtube_id": "fm66AGJzRI0",
+                "china_cdn_id": "fm66AGJzRI0.mp4"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    }
+  ]
+}
