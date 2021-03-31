@@ -1,0 +1,83 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:01.791
+Aqui estão os dados.
+
+00:00:01.823 --> 00:00:06.424
+As pessoas adicionaram esses dados
+no dia 2 de janeiro.
+
+00:00:08.304 --> 00:00:12.488
+E os dados vão até a célula B28.
+
+00:00:12.521 --> 00:00:13.890
+Bem aqui.
+
+00:00:13.923 --> 00:00:16.571
+E começa na célula B2.
+
+00:00:16.604 --> 00:00:20.425
+Podemos calcular a média
+em qualquer lugar em branco.
+
+00:00:20.458 --> 00:00:22.109
+Vamos colocar aqui.
+
+00:00:22.456 --> 00:00:24.758
+Parece uma boa célula.
+
+00:00:24.807 --> 00:00:26.891
+A boa e velha célula D4.
+
+00:00:27.378 --> 00:00:35.885
+Escrevemos "=média(b2:b28)".
+
+00:00:35.918 --> 00:00:41.672
+Certifique-se que os dados estão
+selecionados com essa linha verde.
+
+00:00:41.705 --> 00:00:46.124
+Assim temos certeza
+que estamos usando todos os dados.
+
+00:00:46.657 --> 00:00:48.234
+E aí apertamos "enter".
+
+00:00:48.267 --> 00:00:55.898
+A média de amigos do Facebook da Udacian,
+pelo menos dessa amostra, é de 584.
+
+00:00:55.931 --> 00:01:08.364
+Outra maneira é digitar "=soma(b2:b28)"
+e dividir pelo número de pessoas.
+
+00:01:08.397 --> 00:01:12.525
+São 27 pessoas.
+E obtemos o mesmo resultado.
+
+00:01:12.558 --> 00:01:15.972
+Lembre-se,
+o que fizemos aqui,
+
+00:01:17.809 --> 00:01:23.424
+quando somamos os valores dos dados
+e dividimos por n,
+
+00:01:23.457 --> 00:01:27.524
+é a fórmula da média
+para qualquer conjunto de dados.
+
+00:01:27.557 --> 00:01:30.352
+A mesma coisa
+que você fez antes.
+
+00:01:30.385 --> 00:01:34.294
+Planilhas, além de úteis,
+são um ótimo jeito
+
+00:01:34.328 --> 00:01:37.831
+de olhar para os mesmos conceitos
+de um modo diferente.
+

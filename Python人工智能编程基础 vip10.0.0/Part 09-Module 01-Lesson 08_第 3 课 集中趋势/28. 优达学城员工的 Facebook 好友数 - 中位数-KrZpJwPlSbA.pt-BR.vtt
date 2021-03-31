@@ -1,0 +1,90 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:04.295
+E se quiséssemos encontrar a mediana
+usando a planilha?
+
+00:00:04.328 --> 00:00:06.982
+Lembre-se, primeiro precisamos
+organizar os dados.
+
+00:00:07.015 --> 00:00:10.168
+Existe uma ferramenta muito útil
+chamada "classificar".
+
+00:00:10.201 --> 00:00:13.011
+Ela está em quase todos
+os programas de planilha.
+
+00:00:13.044 --> 00:00:18.197
+No Google Sheets,
+você seleciona os dados.
+
+00:00:18.230 --> 00:00:21.510
+Vou te mostrar
+um atalho do teclado.
+
+00:00:21.543 --> 00:00:25.815
+Da célula A2,
+aperte "shift" + seta para a direita.
+
+00:00:25.848 --> 00:00:28.719
+Ele vai selecionar
+as células A2 e B2.
+
+00:00:28.752 --> 00:00:33.147
+Depois
+"command" + "shift" + seta para baixo.
+
+00:00:33.180 --> 00:00:35.204
+Todos os dados
+serão selecionados.
+
+00:00:35.237 --> 00:00:40.268
+É mais fácil fazer isso
+do que arrastar o cursor até o fim.
+
+00:00:40.301 --> 00:00:43.438
+É um jeito fácil de selecionar
+todos os dados.
+
+00:00:43.471 --> 00:00:46.048
+Agora, clique em "Dados".
+
+00:00:46.081 --> 00:00:48.616
+Nós queremos organizar
+a coluna B,
+
+00:00:48.650 --> 00:00:50.470
+porque é lá que estão os dados
+que nos interessam.
+
+00:00:50.503 --> 00:00:52.698
+Os horários não interessam.
+
+00:00:52.731 --> 00:00:55.007
+Clicamos em "Classificar intervalos".
+
+00:00:56.434 --> 00:00:57.956
+Uma caixa deve aparecer.
+
+00:00:57.989 --> 00:01:02.193
+Clique em "classificar coluna B".
+
+00:01:02.230 --> 00:01:05.903
+E normalmente queremos organizar
+do menor para o maior.
+
+00:01:05.936 --> 00:01:10.399
+Então eu vou parar aqui
+e deixar você tentar sozinho.
+
+00:01:10.432 --> 00:01:13.417
+Depois que você organizar
+os dados da planilha,
+
+00:01:13.450 --> 00:01:15.309
+tente achar a mediana.
+

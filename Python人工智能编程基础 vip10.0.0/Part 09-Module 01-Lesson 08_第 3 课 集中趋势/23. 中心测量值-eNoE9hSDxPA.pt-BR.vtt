@@ -1,0 +1,49 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.012 --> 00:00:06.564
+&gt;&gt; Você já fez muito até aqui, e vamos apenas resumir o que aconteceu quando adicionamos
+
+00:00:06.564 --> 00:00:13.456
+esse outlier ao conjunto de dados. A média mudou de 47.718, quando a verificamos rapidamente,
+
+00:00:13.456 --> 00:00:20.225
+para 123.098, quando passamos a analisar o todo. No entanto, a média só mudou
+
+00:00:20.225 --> 00:00:26.366
+de 48.670 para 50.915 por isso. Essa tendência da mediana é chamada de robusta.
+
+00:00:26.366 --> 00:00:32.335
+Na linguagem diária, robusto significa forte e resistente, o que faz sentido para sua
+
+00:00:32.335 --> 00:00:38.441
+definição estatística. Ela não é muito afetada por desvios da norma. Então,
+
+00:00:38.441 --> 00:00:43.730
+agora você sabe o que é média, mediana e moda. Elas são
+
+00:00:43.730 --> 00:00:48.138
+medidas do centro porque geralmente descrevem o centro da
+
+00:00:48.138 --> 00:00:53.120
+distribuição. No entanto, como você viu, às vezes a média não descreve o
+
+00:00:53.120 --> 00:00:57.761
+centro em virtude de um outlier. Às vezes, a moda não descreve o centro
+
+00:00:57.761 --> 00:01:02.162
+, e a mediana não abrange todos os pontos de dados. Contudo, no caso
+
+00:01:02.162 --> 00:01:06.718
+dos salários iniciais da Universidade de Carolina do Norte, a mediana poderia
+
+00:01:06.718 --> 00:01:11.073
+ter sido uma estatística mais adequada para determinar qual seria seu salário inicial
+
+00:01:11.073 --> 00:01:15.851
+como um especialista em geografia na década de 80. A mediana é sempre a melhor medida da
+
+00:01:15.851 --> 00:01:19.996
+tendência central quando lidamos com distribuições altamente enviesadas.
+

@@ -1,0 +1,55 @@
+WEBVTT
+Kind: captions
+Language: es
+
+00:00:00.012 --> 00:00:05.121
+Ahora, hay una cosa más que tenemos que hacer antes de que termine esta lección. Como dije antes,
+
+00:00:05.181 --> 00:00:09.423
+es realmente importante saber cómo usar la tecnología. Y esta es la razón de pedirte
+
+00:00:09.483 --> 00:00:13.701
+que crees una cuenta en google, para poder compartir contigo datos reales para analizar.
+
+00:00:13.761 --> 00:00:18.309
+He pedido a mis colegas de trabajo aquí en Udacity, que me digan cuantos amigos tienen en Facebook,
+
+00:00:18.359 --> 00:00:20.886
+y he incorporado esta información en una hoja de cálculo.
+
+00:00:20.956 --> 00:00:25.576
+Abre la hoja, copia y pega los datos en una nueva hoja.
+
+00:00:25.646 --> 00:00:30.353
+Luego intenta encontrar la media de alumnos en Facebook. Te ayudaré a emprezar.
+
+00:00:30.413 --> 00:00:34.594
+En cualquiera de las celdas en blanco, empezamos a calcular con un =
+
+00:00:34.714 --> 00:00:39.800
+Ya hay creada una función llamada AVERAGE que calcula la media.
+
+00:00:39.880 --> 00:00:44.704
+Mira como puedes incorporarlo en la hoja, y reconocerá la función.
+
+00:00:44.704 --> 00:00:48.541
+Luego entre paréntesis escribe la celda de inicio, es decir
+
+00:00:48.601 --> 00:00:52.837
+la letra y número que corresponden a la localización de la celda.
+
+00:00:52.907 --> 00:00:59.088
+Por ejemplo C32. Luego escribe dos puntos, porque queremos incluir todos los datos,
+
+00:00:59.148 --> 00:01:02.730
+entre la celda de inicio y la de finalización. Y luego termina
+
+00:01:02.830 --> 00:01:08.934
+con un paréntesis final. Pulsa ENTER. Obtendrás el resultado de la media.
+
+00:01:09.044 --> 00:01:12.517
+Una vez hayas usado la hoja de cálculo, dinos qué obtuviste.
+
+00:01:12.607 --> 00:01:15.689
+¿Cuál es la media de amigos de Facebook de mis colegas de Udacity?
+

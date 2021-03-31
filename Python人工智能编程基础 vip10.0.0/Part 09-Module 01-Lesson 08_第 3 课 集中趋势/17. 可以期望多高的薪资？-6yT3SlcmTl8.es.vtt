@@ -1,0 +1,22 @@
+WEBVTT
+Kind: captions
+Language: es
+
+00:00:00.012 --> 00:00:03.665
+Creo que podemos decir con confianza que esta media es errónea.
+
+00:00:03.735 --> 00:00:10.259
+Esto es porque, si miras a los datos, todos estas chicos cobran menos de 123 098$,
+
+00:00:10.349 --> 00:00:15.377
+de hecho, significatívamente menos. La media puede ser errónea cuando tenemos valores atípicos.
+
+00:00:15.447 --> 00:00:19.416
+Valores que son claramente diferentes del resto de valores observados.
+
+00:00:19.486 --> 00:00:24.591
+Los valores atípicos crean distribuciones sesgadas desviando la media hacia el valor atípico.
+
+00:00:24.651 --> 00:00:27.720
+Esto hace que la media sea menos representativa de la mitad de los datos.
+

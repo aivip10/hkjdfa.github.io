@@ -1,0 +1,211 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:01.465
+Essa aqui é verdadeira.
+
+00:00:01.498 --> 00:00:04.664
+A moda pode ser usado
+para descrever qualquer tipo de dado.
+
+00:00:04.699 --> 00:00:06.495
+Numérico ou categórico.
+
+00:00:06.530 --> 00:00:10.801
+Você viu no último teste
+que homem versus mulher é categórico.
+
+00:00:10.836 --> 00:00:11.968
+E a moda era homem.
+
+00:00:12.014 --> 00:00:14.609
+Porém, nem todos os pontos
+do conjunto de dados
+
+00:00:14.644 --> 00:00:17.023
+necessariamente
+afetam a moda.
+
+00:00:17.058 --> 00:00:19.744
+Nesse conjunto de dados, por exemplo,
+a moda é 22,
+
+00:00:19.779 --> 00:00:23.570
+porque ele ocorre 3 vezes
+e o resto ocorre apenas umas.
+
+00:00:23.605 --> 00:00:28.437
+Mas se tirarmos o valor 14,
+a moda continua sendo 22.
+
+00:00:28.472 --> 00:00:32.402
+E se adicionarmos um número extremo
+como 1 milhão,
+
+00:00:32.437 --> 00:00:34.310
+a moda
+continua sendo 22.
+
+00:00:34.343 --> 00:00:35.418
+Então não podemos dizer
+
+00:00:35.420 --> 00:00:38.494
+que todos os pontos do conjunto
+vão afetar a moda.
+
+00:00:38.527 --> 00:00:40.327
+Essa também é falsa.
+
+00:00:40.360 --> 00:00:42.795
+Se tirarmos várias amostras
+de uma população,
+
+00:00:42.830 --> 00:00:45.791
+a moda vai mudar
+de amostra para amostra.
+
+00:00:45.826 --> 00:00:48.658
+Vamos ilustrar isso
+com um aplicativo.
+
+00:00:48.693 --> 00:00:49.843
+É muito legal.
+
+00:00:49.878 --> 00:00:52.413
+Isso é
+uma distribuição de histograma.
+
+00:00:52.448 --> 00:00:54.522
+Isso é uma curva de sino.
+
+00:00:54.555 --> 00:00:59.575
+Vamos pegar 5 amostrar aleatórias
+que o software vai criar para a gente.
+
+00:01:02.985 --> 00:01:05.001
+Olhe para as duas primeiras.
+
+00:01:05.034 --> 00:01:07.377
+A moda está aqui.
+
+00:01:08.553 --> 00:01:12.331
+Ele fica à esquerda
+desta distribuição.
+
+00:01:12.996 --> 00:01:14.628
+Vamos fazer de novo.
+
+00:01:17.631 --> 00:01:20.360
+Agora a moda está
+à direita da distribuição.
+
+00:01:21.215 --> 00:01:23.031
+Quando fizemos de novo,
+
+00:01:23.064 --> 00:01:26.949
+ele voltou para
+a esquerda da distribuição.
+
+00:01:29.944 --> 00:01:32.557
+E aqui nem tem um moda.
+
+00:01:33.161 --> 00:01:35.602
+Então você pode ver
+que se recolhermos amostrar
+
+00:01:35.637 --> 00:01:37.109
+a moda é arbitrário.
+
+00:01:37.144 --> 00:01:40.636
+Não vai ser necessariamente
+parecido com outra modas.
+
+00:01:40.669 --> 00:01:43.577
+E também não vai necessariamente
+representar a população.
+
+00:01:43.610 --> 00:01:48.303
+A moda também muda quando você muda
+o tamanho do compartimento.
+
+00:01:48.336 --> 00:01:50.777
+Se você diminuir
+o tamanho do compartimento,
+
+00:01:52.125 --> 00:01:54.910
+parece que a moda
+está indo para a esquerda.
+
+00:01:56.251 --> 00:01:58.651
+Aqui está em 470.
+
+00:02:00.239 --> 00:02:03.519
+Aqui parece
+que começa em 450.
+
+00:02:05.412 --> 00:02:08.065
+E a moda muda quando mudamos
+o tamanho do compartimento.
+
+00:02:08.100 --> 00:02:10.248
+Se aumentarmos
+o tamanho do compartimento,
+
+00:02:10.281 --> 00:02:12.059
+a moda aparece
+nesse intervalo.
+
+00:02:12.092 --> 00:02:16.030
+Entre 343 e 414,74.
+
+00:02:16.063 --> 00:02:19.016
+Então ele depende de como
+você apresenta os dados.
+
+00:02:19.049 --> 00:02:21.369
+Como essa sentença é falsa,
+
+00:02:21.402 --> 00:02:24.746
+não podemos usar a moda
+para conhecer a população.
+
+00:02:24.779 --> 00:02:28.603
+E esse é o nosso objetivo nesse curso:
+estatística inferencial.
+
+00:02:28.636 --> 00:02:31.135
+Mas é importante levar a moda
+em consideração
+
+00:02:31.168 --> 00:02:32.802
+quando estiver descrevendo
+um conjunto de dados.
+
+00:02:32.835 --> 00:02:35.139
+Esta última
+também é falsa.
+
+00:02:35.205 --> 00:02:37.781
+Existe um procedimento
+para encontrar a moda.
+
+00:02:37.814 --> 00:02:42.222
+Você observa os valores dos dados,
+vê qual acontece com mais frequência
+
+00:02:42.257 --> 00:02:44.053
+ou você observa o histograma
+
+00:02:44.088 --> 00:02:46.748
+e vê qual compartimento
+tem a maior frequência.
+
+00:02:46.781 --> 00:02:49.522
+Não podemos descrever a moda
+com uma equação.
+
+00:02:49.555 --> 00:02:52.774
+E é por isso que costumamos
+usar a média.
+

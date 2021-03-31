@@ -1,0 +1,46 @@
+WEBVTT
+Kind: captions
+Language: es
+
+00:00:00.012 --> 00:00:06.023
+Entonces, aqui están los datos, y puedes ver que la gente ha incorporado la información el 2 de Enero.
+
+00:00:08.543 --> 00:00:17.197
+Y que los datos llegan a la celda B28, justo aquí, y empieza en la celda B2.
+
+00:00:17.357 --> 00:00:20.619
+Ahora vamos a calcular la media en este espacio en blanco.
+
+00:00:20.689 --> 00:00:27.582
+Pulsemos en la celda, parece una celda buena, es la D4. Vale, escribimos
+
+00:00:27.632 --> 00:00:37.916
+=AVERAGE(B2:B28) Ahora, nos aseguramos
+
+00:00:38.016 --> 00:00:41.700
+de que todos los datos están resaltados con la línea de puntos verde.
+
+00:00:41.780 --> 00:00:48.367
+De esta forma, confirmamos que estamos calculando sobre todos estos datos. Y pulsamos ENTER.
+
+00:00:48.447 --> 00:00:55.983
+Así que debes haber obtenido que la media de los amigos de Facebook, al menos para esta muestra de Udacity, es de 585 amigos.
+
+00:00:56.063 --> 00:01:05.937
+Otra forma de hacerlo es sumar las celdas desde la B2 a la B28, y luego dividirlo por
+
+00:01:06.027 --> 00:01:13.811
+el número de personas. Entonces, hay 27 personas y obtenemos el mismo resultado porque recuerda,
+
+00:01:13.901 --> 00:01:22.081
+que lo que acabamos de hacer cuando sumamos todos los valores y luego
+
+00:01:22.151 --> 00:01:27.647
+lo dividimos por n, es la fórmula de la media, para un conjunto de datos.
+
+00:01:27.697 --> 00:01:32.852
+Y esto es lo que trabajamos en la lección anterior. Entonces, las hojas de datos no sólo son útiles,
+
+00:01:32.852 --> 00:01:37.644
+sino que son una forma genial de ver conceptos desde distintos puntos de vista.
+

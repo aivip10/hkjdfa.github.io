@@ -1,0 +1,102 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:01.694
+Vamos começar!
+
+00:00:01.727 --> 00:00:05.178
+Vamos para a célula A2,
+apertamos "command" + "shift".
+
+00:00:05.732 --> 00:00:07.297
+Seta pro lado direito.
+
+00:00:07.330 --> 00:00:09.868
+"Command" + "shift" + seta para baixo.
+
+00:00:09.901 --> 00:00:11.675
+Os dados foram selecionados.
+
+00:00:11.708 --> 00:00:14.414
+"Dados", "Classificar intervalos",
+
+00:00:14.447 --> 00:00:16.783
+"Classificar coluna B".
+
+00:00:16.816 --> 00:00:21.053
+Está escrito "A-Z",
+mas também se aplica a números.
+
+00:00:21.086 --> 00:00:22.583
+Do menor para o maior.
+
+00:00:22.616 --> 00:00:23.975
+Crescente.
+
+00:00:24.008 --> 00:00:26.072
+Ao invés de decrescente.
+
+00:00:26.105 --> 00:00:28.048
+Aperte "classificar".
+
+00:00:30.179 --> 00:00:32.628
+Agora nossos dados
+estão organizados.
+
+00:00:33.482 --> 00:00:38.182
+Começa na célula B2
+e termina na B28.
+
+00:00:38.215 --> 00:00:41.782
+Isso significa que vamos nos focar
+em 27 valores.
+
+00:00:41.815 --> 00:00:44.606
+Então a nossa mediana
+vai ser essa aqui.
+
+00:00:44.639 --> 00:00:46.073
+479.
+
+00:00:46.106 --> 00:00:50.650
+Temos 13 números maiores
+que 479.
+
+00:00:50.683 --> 00:00:57.604
+Isso porque estamos contando
+da célula B16 até a B28.
+
+00:00:57.637 --> 00:01:03.697
+Descobrimos o número de células
+calculando 28 - 16 + 1.
+
+00:01:03.730 --> 00:01:06.296
+O resultado é 13.
+
+00:01:06.329 --> 00:01:10.635
+E temos 13 números
+menores que 479.
+
+00:01:10.668 --> 00:01:17.341
+E podemos calcular 14 - 2 + 1.
+
+00:01:18.199 --> 00:01:19.825
+O resultado é 13.
+
+00:01:19.858 --> 00:01:21.415
+Aqui está nossa mediana.
+
+00:01:21.448 --> 00:01:23.696
+No 14º lugar.
+
+00:01:24.028 --> 00:01:25.470
+Aqui está escrito "15",
+
+00:01:25.503 --> 00:01:29.289
+mas é porque os dados começam
+na célula 2.
+
+00:01:29.310 --> 00:01:32.159
+Esse é o 14º valor.
+

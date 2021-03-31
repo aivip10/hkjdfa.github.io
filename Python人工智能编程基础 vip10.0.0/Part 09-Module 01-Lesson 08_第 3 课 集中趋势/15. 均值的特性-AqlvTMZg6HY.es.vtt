@@ -1,0 +1,85 @@
+WEBVTT
+Kind: captions
+Language: es
+
+00:00:00.012 --> 00:00:04.179
+Todos los valores de la distribución afectan a la media. Piensa en la media como
+
+00:00:04.249 --> 00:00:08.705
+un balancín. ¿Dónde tenemos que poner el pivote para equilibrarlo?.
+
+00:00:08.805 --> 00:00:13.802
+Estas pelotas representan los salarios de los estudiantes de Geografía. Ahora, si esto fuera
+
+00:00:13.872 --> 00:00:19.216
+un balancín. ¿Dónde situaríamos el pivote para equilibrarlo?. Esto es básicamete la media,
+
+00:00:19.286 --> 00:00:25.596
+que en este conjunto de salarios de estudiantes de Geografía es 47 718$.
+
+00:00:25.646 --> 00:00:29.699
+como habías calculado. Ahora, si tuviéramos que añadir otra pelota, digamos aquí,
+
+00:00:29.779 --> 00:00:34.833
+entonces el balancín, se movería así, por lo tanto tendríamos que mover el pivote hacia este lado
+
+00:00:34.833 --> 00:00:39.665
+para mantenerlo equilibrado. Entonces, puedes ver que los valores afectan a la media.
+
+00:00:39.725 --> 00:00:42.588
+También has visto que la media puede describierse con esta fórmula.
+
+00:00:42.678 --> 00:00:49.537
+Describimos la media de una muestra con x barra, que el la suma de los valores dividida por el número de valores.
+
+00:00:49.597 --> 00:00:55.562
+Y la media de la población, la suma de valores, dividido por el número de la población.
+
+00:00:55.682 --> 00:00:59.375
+También es verdad, que muchas muestras de la misma población,
+
+00:00:59.475 --> 00:01:04.045
+tendrán medias similares. Por ahora, te mostraré un programa en donde,
+
+00:01:04.105 --> 00:01:10.309
+si seleccionamos una muestra de 5, obtenemos que la media está aproximadamente en el centro.
+
+00:01:11.119 --> 00:01:18.262
+Y si lo hacemos una y otra vez, obtenemos que la media está más o menos en el centro.
+
+00:01:18.682 --> 00:01:21.294
+Hagámoslo unas cuantas veces más.
+
+00:01:40.754 --> 00:01:43.404
+Ahora, hemos calculado 10 medias simuladas,
+
+00:01:43.504 --> 00:01:48.158
+de esta distribución y todas son similares. Esto es, de hecho,
+
+00:01:48.228 --> 00:01:54.741
+es un concepto muy importante e increíble. Profundizaremos más en esto a lo largo del curso.
+
+00:01:54.831 --> 00:01:58.422
+Además, la media de una muestra, puede usarse para hacer inferencias,
+
+00:01:58.522 --> 00:02:02.866
+sobre la población de la que proviene. Esto está relacionado con la última propiedad de la media,
+
+00:02:02.946 --> 00:02:05.736
+porque como ves, todas las muestras tienen medias similares
+
+00:02:05.816 --> 00:02:12.269
+y se aproximan a la de la población. Sólo la última, no es una propiedad de la media.
+
+00:02:12.339 --> 00:02:19.134
+Si volvemos de nuevo al ejemplo del pivote, digamos que, añadimos una pelota por aquí.
+
+00:02:19.204 --> 00:02:23.430
+¿Esto modificará la media?. Puedes apostar. Se va a tener que ir
+
+00:02:23.490 --> 00:02:27.001
+bastante a la izquierda, para equilibrarse.
+
+00:02:27.091 --> 00:02:28.736
+Exploremos este punto un poco más.
+

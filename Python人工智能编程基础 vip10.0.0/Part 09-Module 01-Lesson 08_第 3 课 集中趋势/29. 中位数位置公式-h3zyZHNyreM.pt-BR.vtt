@@ -1,0 +1,129 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:02.993
+Depois de organizar
+nossos 27 valores,
+
+00:00:03.026 --> 00:00:07.621
+como descobrimos que nossa mediana
+é o 14º valor, sem contar?
+
+00:00:07.654 --> 00:00:11.312
+Existe algum jeito de descrever
+o valor da mediana com símbolos?
+
+00:00:11.345 --> 00:00:14.796
+Vamos começar observando
+notações simbólicas
+
+00:00:14.829 --> 00:00:16.806
+que já vimos antes.
+
+00:00:16.839 --> 00:00:19.237
+Lembre-se
+que essas são as posições.
+
+00:00:19.270 --> 00:00:21.685
+Esses não são
+os valores dos dados.
+
+00:00:21.718 --> 00:00:25.223
+Mas podemos denotar o valor
+usando a posição.
+
+00:00:25.256 --> 00:00:29.326
+O valor na 1ª posição
+seria x sub 1.
+
+00:00:29.359 --> 00:00:31.655
+X sub 2 na 2ª posição.
+
+00:00:31.688 --> 00:00:33.904
+X sub 3 na 3ª posição.
+
+00:00:33.937 --> 00:00:36.507
+E no caso dos amigos de Facebook
+da Udacian,
+
+00:00:36.540 --> 00:00:39.127
+x sub 14 é a mediana.
+
+00:00:39.160 --> 00:00:44.792
+Lembre-se, podemos nomear qualquer valor
+genericamente como x sub i.
+
+00:00:44.825 --> 00:00:47.380
+X sub i é o iº valor.
+
+00:00:47.413 --> 00:00:49.439
+Sim, nós usamos iº.
+
+00:00:49.472 --> 00:00:53.025
+Mas e para qualquer conjunto de dados
+com n valores?
+
+00:00:53.058 --> 00:00:54.597
+A mediana vai ser diferente
+
+00:00:54.630 --> 00:00:57.670
+dependendo se o n
+for par ou ímpar.
+
+00:00:57.703 --> 00:01:00.459
+Essa vai ser
+uma pergunta capciosa.
+
+00:01:00.492 --> 00:01:03.944
+Qual fórmula descreve a mediana
+depois que organizamos os dados?
+
+00:01:03.977 --> 00:01:06.663
+Existe apenas uma resposta
+para n par
+
+00:01:06.696 --> 00:01:08.820
+e uma resposta
+para n ímpar.
+
+00:01:08.853 --> 00:01:11.156
+Isso pode parecer assustador,
+
+00:01:11.189 --> 00:01:13.592
+mas lembre-se
+que essa parte subscrita
+
+00:01:13.625 --> 00:01:15.509
+simboliza a posição.
+
+00:01:15.542 --> 00:01:19.856
+Por exemplo, nós temos 4 valores
+no conjunto de dados.
+
+00:01:19.889 --> 00:01:23.190
+N dividido por 2
+seria 4 dividido por 2,
+
+00:01:23.223 --> 00:01:24.604
+que é igual a 2.
+
+00:01:24.637 --> 00:01:28.653
+Isso significa que x sub 2,
+que é o 2º valor,
+
+00:01:28.686 --> 00:01:31.340
+pode ser a mediana
+se o n for 4.
+
+00:01:31.373 --> 00:01:34.634
+Não estou dizendo que está certo,
+só estou dando um exemplo.
+
+00:01:34.667 --> 00:01:36.467
+Dê o seu melhor.
+
+00:01:36.500 --> 00:01:40.764
+Isso vai te ajudar
+a se acostumar a usar símbolos.
+

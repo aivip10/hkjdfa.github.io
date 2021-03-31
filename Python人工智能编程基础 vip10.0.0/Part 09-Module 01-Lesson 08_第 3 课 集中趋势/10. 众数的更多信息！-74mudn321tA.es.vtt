@@ -1,0 +1,97 @@
+WEBVTT
+Kind: captions
+Language: es
+
+00:00:00.012 --> 00:00:06.415
+Este es verdadero, la moda puede usarse para describir cualquier tipo de datos, numéricos o categóricos.
+
+00:00:06.495 --> 00:00:10.764
+En la última pregunta, hombres vs mujeres, eran datos categóricos,
+
+00:00:10.814 --> 00:00:14.405
+y la moda era hombres. Sin embargo, todos los valores en el conjunto de datos,
+
+00:00:14.485 --> 00:00:21.312
+no afectan a la moda necesariamente. Toma este conjunto de datos. La moda es 22, porque aparece 3 veces
+
+00:00:21.382 --> 00:00:28.441
+y el resto ocurre una. Sin embargo, si quitamos el valor 14, la moda sigue siendo 22.
+
+00:00:28.501 --> 00:00:32.277
+Ahora, digamos que añadimos un valor extremo, por ejemplo 1 000 000,
+
+00:00:32.377 --> 00:00:36.705
+la moda seguirá siendo 22. Por lo tanto, no podemos decir que todos los valores del conjunto,
+
+00:00:36.805 --> 00:00:42.544
+afecten a la moda. Este también es falso. Si tomamos un grupo de muestras de una población,
+
+00:00:42.614 --> 00:00:45.630
+la moda es probable que cambie de una muestra a otra,
+
+00:00:45.730 --> 00:00:51.280
+ilustremos esta idea con un programa, es realmente genial. Este es un histograma,
+
+00:00:51.360 --> 00:00:57.240
+Se le llama curva de campana y seleccionemos 5 muestras,
+
+00:00:57.350 --> 00:01:06.267
+que este sw genera para nosotros. Miremos estas dos de arriba. Ves que la moda aquí,
+
+00:01:06.637 --> 00:01:14.106
+en el lado izquierdo de la distribución. Hagámoslo de nuevo.
+
+00:01:15.326 --> 00:01:22.850
+Ahora la moda está aquí, a la derecha de la distribución. Si lo hacemos de nuevo,
+
+00:01:22.920 --> 00:01:32.482
+la moda de nuevo, está a la izquierda de la distribución. Ahora aquí no hay ni tan siquiera moda.
+
+00:01:33.162 --> 00:01:37.474
+Puedes ver que si tomamos muestras, la moda es más bien arbitraria
+
+00:01:37.554 --> 00:01:41.174
+y no es necesariamente similar a otras modas y tampoco,
+
+00:01:41.254 --> 00:01:45.247
+necesariamente, representa la población. Otro tema sobre las modas,
+
+00:01:45.317 --> 00:01:50.716
+es que cambian, según cambiamos el tamaño del intervalo. Entonces, si hacemos más pequeño el intervalo,
+
+00:01:51.176 --> 00:01:58.058
+la moda se va a la izquierda. Aquí está en 470.
+
+00:01:58.868 --> 00:02:07.919
+Aquí parece que está en 450. Y la moda cambia cuando cambiamos el intervalo.
+
+00:02:07.979 --> 00:02:11.849
+Si hacemos el intervalo realmente grande, entonces la moda está en este intervalo,
+
+00:02:11.939 --> 00:02:19.061
+entre 346 y 514.74 . Por lo que parece que realmente depende de cómo presentemos los datos.
+
+00:02:19.171 --> 00:02:24.519
+Porque el tercer punto es falso, no podemos usar la moda para conocer la población.
+
+00:02:24.619 --> 00:02:28.216
+Y este es el objetivo del curso, estadística inferencial.
+
+00:02:28.296 --> 00:02:32.409
+Pero aun así, es importante tener en cuenta la moda cuando describimos un conjunto de datos.
+
+00:02:32.509 --> 00:02:37.842
+Finalmente, esta última es falsa. Aunque hay un procedimiento para encontrar la moda,
+
+00:02:37.942 --> 00:02:42.242
+cuando miras todos los datos, ves cuál aparece más amenudo,
+
+00:02:42.342 --> 00:02:46.417
+o cuando miras el histograma ves el intervalo con mayor frecuencia,
+
+00:02:46.477 --> 00:02:51.007
+no podemos describir la moda con una ecuación, esta es la causa de que usemos
+
+00:02:51.087 --> 00:02:51.687
+la mediana o la media.
+

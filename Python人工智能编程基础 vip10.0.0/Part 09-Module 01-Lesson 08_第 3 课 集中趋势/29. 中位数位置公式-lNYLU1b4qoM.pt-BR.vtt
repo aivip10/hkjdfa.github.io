@@ -1,0 +1,206 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:02.835
+Vamos olhar cada um
+individualmente.
+
+00:00:02.868 --> 00:00:05.729
+Digamos que n é igual a 4.
+
+00:00:05.762 --> 00:00:08.828
+Temos 4 valores em ordem.
+
+00:00:10.581 --> 00:00:12.187
+Do menor para o maior.
+
+00:00:12.220 --> 00:00:14.259
+Se n é 4,
+
+00:00:14.292 --> 00:00:16.269
+a posição desse valor é 1º
+
+00:00:16.302 --> 00:00:18.511
+e a posição desse valor é 4º.
+
+00:00:18.544 --> 00:00:21.762
+E esses aqui são os valores.
+
+00:00:21.795 --> 00:00:25.966
+Nesse aqui, n dividido por 2
+seria 4 dividido por 2,
+
+00:00:25.999 --> 00:00:27.264
+que é igual a 2.
+
+00:00:27.297 --> 00:00:29.014
+X sub 2 é esse aqui.
+
+00:00:29.047 --> 00:00:30.444
+Essa é a mediana?
+
+00:00:30.477 --> 00:00:33.562
+Não,
+porque é um conjunto par,
+
+00:00:33.595 --> 00:00:36.470
+então a mediana vai ser uma média
+desses dois.
+
+00:00:36.503 --> 00:00:42.198
+Mas agora sabemos que esse valor
+é igual a x n/2.
+
+00:00:42.231 --> 00:00:48.461
+A posição n-1 dividido por 2
+seria 4 - 1, que é 3,
+
+00:00:48.494 --> 00:00:51.329
+dividido por 2 é 1,5.
+
+00:00:51.362 --> 00:00:53.240
+E isso não existe.
+
+00:00:53.273 --> 00:00:56.835
+Não temos nenhuma posição
+com valor decimal.
+
+00:00:56.868 --> 00:00:58.616
+Apenas valores inteiros.
+
+00:00:58.649 --> 00:00:59.928
+E essa aqui?
+
+00:00:59.961 --> 00:01:05.601
+x sub n/2 + x sub n/2 + 1.
+
+00:01:05.634 --> 00:01:09.786
+Se essa é a posição n/2,
+
+00:01:09.819 --> 00:01:12.766
+n/2 + 1 é 3.
+
+00:01:12.799 --> 00:01:17.799
+E se dividirmos por 2,
+temos a média desses valores.
+
+00:01:17.832 --> 00:01:19.742
+Aqui está nossa resposta.
+
+00:01:19.775 --> 00:01:23.807
+Você pode ver que esse valor
+é o 3º.
+
+00:01:23.840 --> 00:01:30.389
+Podemos usar essa lógica
+para qualquer conjunto de dados par.
+
+00:01:30.422 --> 00:01:32.835
+Digamos que n é 5.
+
+00:01:32.868 --> 00:01:35.097
+Temos 5 valores em ordem.
+
+00:01:35.130 --> 00:01:37.809
+Podemos dividir 5 por 2?
+
+00:01:37.842 --> 00:01:42.673
+Não, se n é ímpar,
+não podemos ter uma posição decimal.
+
+00:01:42.706 --> 00:01:45.415
+E 5+1 dividido por 2?
+
+00:01:45.448 --> 00:01:47.881
+Isso é 6 dividido por 2.
+
+00:01:47.914 --> 00:01:50.612
+E 6 dividido por 2 é 3.
+
+00:01:50.645 --> 00:01:53.785
+Isso significa que seria o valor
+da 3ª posição.
+
+00:01:53.818 --> 00:01:55.568
+E essa é a mediana.
+
+00:01:55.601 --> 00:01:57.509
+Vamos observar as outras.
+
+00:01:57.542 --> 00:02:00.174
+5 - 1 dividido por 2
+
+00:02:00.207 --> 00:02:02.927
+é igual a 4 dividido por 2,
+que é 2.
+
+00:02:02.960 --> 00:02:07.164
+E o valor na 2ª posição
+não é a mediana.
+
+00:02:07.197 --> 00:02:08.340
+E finalmente,
+
+00:02:08.373 --> 00:02:11.812
+5 dividido por 2,
+que é 2,5,
+
+00:02:11.845 --> 00:02:13.877
+mais 1, que é 3,5.
+
+00:02:13.910 --> 00:02:17.592
+E não temos
+uma posição 3,5.
+
+00:02:17.625 --> 00:02:19.446
+Apenas números inteiros.
+
+00:02:19.479 --> 00:02:23.616
+Isso pode ser confuso,
+então antes de terminarmos,
+
+00:02:23.649 --> 00:02:26.494
+vamos aplicar essa aqui
+
+00:02:26.527 --> 00:02:30.643
+aos dados dos amigos de Facebook
+da Udacian que nós usamos antes.
+
+00:02:30.676 --> 00:02:33.682
+Você lembra
+que tínhamos 27 valores?
+
+00:02:33.715 --> 00:02:39.416
+Nós queremos o valor
+da posição n+1 dividido por 2.
+
+00:02:39.449 --> 00:02:43.949
+Se colocarmos os valores
+teremos 27+1 dividido por 2.
+
+00:02:44.830 --> 00:02:47.550
+Que é 28 dividido por 2.
+
+00:02:48.636 --> 00:02:50.835
+Que é o 14º lugar.
+
+00:02:50.868 --> 00:02:55.181
+E quando procuramos
+o valor do 14º lugar,
+
+00:02:55.214 --> 00:02:57.995
+descobrimos que a mediana
+é 479.
+
+00:02:58.028 --> 00:02:59.848
+Espero
+que tenha feito sentido
+
+00:02:59.881 --> 00:03:03.702
+e que você esteja se acostumando
+a usar notações simbólicas.
+
+00:03:03.735 --> 00:03:04.937
+Bom trabalho!
+

@@ -1,0 +1,92 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:03.732
+Tem mais uma coisa para fazer
+antes de terminar essa aula.
+
+00:00:03.765 --> 00:00:07.974
+Como eu já disse,
+é muito importante saber usar tecnologia.
+
+00:00:08.007 --> 00:00:10.484
+Por isso pedimos para que você
+criasse uma conta no Google.
+
+00:00:10.517 --> 00:00:13.958
+Assim podemos compartilhar dados
+com você para analisar.
+
+00:00:13.991 --> 00:00:16.326
+Eu perguntei
+para os meus colegas da Udacity
+
+00:00:16.359 --> 00:00:18.452
+quantos amigos
+eles têm no Facebook.
+
+00:00:18.485 --> 00:00:21.131
+E coloquei esses dados
+em uma planilha.
+
+00:00:21.164 --> 00:00:25.577
+Abra essa planilha
+e cole os dados em uma nova planilha.
+
+00:00:25.610 --> 00:00:29.005
+Tente encontrar a média
+dos amigos do Facebook.
+
+00:00:29.038 --> 00:00:30.553
+Eu vou te ajudar
+a começar.
+
+00:00:30.586 --> 00:00:34.941
+Nas células em branco,
+comece seus cálculos com "=".
+
+00:00:34.974 --> 00:00:39.688
+Já existe uma função programada
+chamada "média" que calcula a média.
+
+00:00:39.721 --> 00:00:45.165
+Você escreve isso e o programa reconhece
+que você quer calcular a média.
+
+00:00:45.198 --> 00:00:47.993
+Entre parênteses,
+escreva sua célula inicial,
+
+00:00:48.026 --> 00:00:52.933
+ou seja, a letra e o número
+que correspondem à localização da célula.
+
+00:00:52.966 --> 00:00:55.895
+Por exemplo, C32.
+
+00:00:55.928 --> 00:00:57.374
+Depois você coloca ":",
+
+00:00:57.407 --> 00:01:01.764
+porque você quer incluir todas as células
+entre a célula inicial e final.
+
+00:01:01.797 --> 00:01:06.936
+Depois feche o parênteses
+e aperte "enter" ou "return".
+
+00:01:06.969 --> 00:01:08.948
+Ele te dará a média.
+
+00:01:08.981 --> 00:01:10.983
+Depois de fazer o cálculo
+usando a planilha,
+
+00:01:11.016 --> 00:01:12.594
+nos conte a resposta.
+
+00:01:12.627 --> 00:01:17.010
+Qual é a média de amigos do Facebook
+dos meus colegas da Udacity?
+

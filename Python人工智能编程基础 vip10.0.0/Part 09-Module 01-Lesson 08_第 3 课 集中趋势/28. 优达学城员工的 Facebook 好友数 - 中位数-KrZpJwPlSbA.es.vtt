@@ -1,0 +1,49 @@
+WEBVTT
+Kind: captions
+Language: es
+
+00:00:00.330 --> 00:00:04.430
+¿Y si quisiéramos saber la mediana del número de amigos utilizando la hoja de cálculo?
+
+00:00:04.510 --> 00:00:07.074
+Recuerda, lo primero que tenemos que hacer es ordenar los datos.
+
+00:00:07.134 --> 00:00:13.324
+Es una herramienta muy útil llamada Sort, que se encuentra en muchos sw de hojas de cálculo.
+
+00:00:13.414 --> 00:00:18.520
+En la hojas de Google, la forma de hacerlo es primero seleccionar los datos.
+
+00:00:18.580 --> 00:00:24.430
+Voy a enseñarte algunos trucos rápidos. Desde la celda A2, pulsamos SHIFT,
+
+00:00:24.500 --> 00:00:29.548
+luego FECHA DCHA, de esta forma se seleccionan las celdas A2 y B2.
+
+00:00:29.638 --> 00:00:35.338
+Y luego, COMMAND, SHIFT, FECHA ABAJO. Y así seleccionamos todos los datos.
+
+00:00:35.408 --> 00:00:40.660
+Es más fácil que bajar el cursor hacia abajo del todo.
+
+00:00:40.730 --> 00:00:43.810
+Es una forma rápida y fácil de seleccionar los datos.
+
+00:00:43.890 --> 00:00:50.575
+Ahora, pulsa sobre los datos, y queremos ordenar por la columna B porque es dónde estan los valores que nos interesan.
+
+00:00:50.655 --> 00:00:53.530
+No estamos realmente interesados en la fecha. Entonces seleccionamos
+
+00:00:53.570 --> 00:00:58.260
+'Sort Range' -Rango de ordenación-, y aparecerá una ventana diciendo
+
+00:00:58.350 --> 00:01:05.730
+Rango de ordenación... y decimos... por la columna B. En general queremos ordenar de menor a mayor.
+
+00:01:05.820 --> 00:01:10.841
+Voy a parar aquí y te voy a dejar practicar un poco con esto.
+
+00:01:10.911 --> 00:01:14.750
+Una vez hayas ordenado los datos, intenta encontrar la mediana.
+

@@ -1,0 +1,61 @@
+WEBVTT
+Kind: captions
+Language: es
+
+00:00:00.480 --> 00:00:08.006
+Después de ordenar los 27 valores, ¿Cómo sabemos que la mediana está en la posición nº 14, simplemente contando?
+
+00:00:08.046 --> 00:00:11.391
+¿Hay alguna forma de describir la mediana a través símbolos?
+
+00:00:11.451 --> 00:00:16.930
+Empecemos primero, por la notación de símbolos de la que hablamos anteriormente.
+
+00:00:17.000 --> 00:00:19.050
+Recuerda que estos son el rankin, la posición de los valores.
+
+00:00:19.150 --> 00:00:25.442
+Estos no son los valores reales, pero podemos referirnos a los valores reales a través de su posición.
+
+00:00:25.512 --> 00:00:31.887
+Entonces, el valor correspondiente a la primera posición será X1, luego X2 para la segunda posición,
+
+00:00:31.957 --> 00:00:36.950
+X3 para la tercera posición, y en el caso de los amigos de la gente Udacity en Facebook
+
+00:00:37.020 --> 00:00:43.695
+X14 es la mediana. Recuerda que cualquier valor, puede referenciarse de forma genérica
+
+00:00:43.785 --> 00:00:49.548
+como Xi, en la que i representa su posición. Si, lo llamamos ith (posicion i).
+
+00:00:49.628 --> 00:00:55.310
+Entonces, ¿Qué ocurre en un conjunto de n valores? La mediana será distinta, dependiendo
+
+00:00:55.380 --> 00:01:00.600
+de si n es par o impar. Ahora, te voy a hacer una pregunta con trampa:
+
+00:01:00.680 --> 00:01:04.338
+¿Qué fórmula describe la mediana, después de haber ordenado los datos?.
+
+00:01:04.428 --> 00:01:09.115
+Sólo hay una respuesta correcta para n par y una respuesta correcta para n impar.
+
+00:01:09.175 --> 00:01:15.700
+Ahora, de forma rápida, quizá desalentadora, recuerda que el subíndice corresponde a la posición del valor, su ranking.
+
+00:01:15.770 --> 00:01:20.544
+Por ejemplo, digamos que hay 4 valores en un conjunto, n dividido por 2,
+
+00:01:20.544 --> 00:01:26.994
+quiere decir, 4 dividido por dos es dos. Se decir X2,
+
+00:01:27.064 --> 00:01:33.130
+que es el segundo valor, será la mediana si n es 4. No estoy diciendo que sea cierto,
+
+00:01:33.220 --> 00:01:37.362
+sólo te estoy dando un ejemplo. Da tu mejor respuesta.
+
+00:01:37.432 --> 00:01:39.693
+De nuevo te puede ayudar el uso de símbolos.
+

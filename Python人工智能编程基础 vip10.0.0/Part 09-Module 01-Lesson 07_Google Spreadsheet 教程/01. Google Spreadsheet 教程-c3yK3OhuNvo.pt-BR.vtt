@@ -1,0 +1,587 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:01.001 --> 00:00:05.432
+Abra essa planilha, copie
+e cole os dados em uma nova planilha.
+
+00:00:05.465 --> 00:00:08.800
+E depois tente encontrar
+a média de amigos do Facebook.
+
+00:00:09.460 --> 00:00:11.440
+Tudo bem...
+
+00:00:11.473 --> 00:00:14.115
+Link dos amigos do Facebook
+da Udacian.
+
+00:00:14.148 --> 00:00:17.409
+É igual...
+Ah, eu não consigo digitar.
+
+00:00:18.134 --> 00:00:19.744
+Certo.
+
+00:00:20.259 --> 00:00:24.405
+Ah, copie e cole os dados
+em uma nova planilha.
+
+00:00:24.801 --> 00:00:27.522
+Como eu faço isso?
+
+00:00:28.361 --> 00:00:30.673
+Abro o Google Drive.
+
+00:00:32.484 --> 00:00:34.814
+Parece que eu preciso
+abrir uma conta.
+
+00:00:34.847 --> 00:00:38.444
+Clico em "criar" e "planilha".
+
+00:00:39.404 --> 00:00:43.031
+Vamos dar o mesmo nome
+para essa.
+
+00:00:43.064 --> 00:00:46.337
+Assim fica mais fácil de encontrar
+depois.
+
+00:00:46.370 --> 00:00:50.292
+Certo. Eu tenho que copiar
+e colar os dados.
+
+00:00:51.279 --> 00:00:52.307
+"Editar".
+
+00:00:52.340 --> 00:00:54.411
+Ah, "copiar" não está aqui.
+
+00:00:54.444 --> 00:00:57.238
+Eu vou copiar
+com força bruta.
+
+00:00:57.271 --> 00:00:58.751
+"Command" + "C".
+
+00:00:58.784 --> 00:01:01.399
+Vou tentar copiar
+só os dados.
+
+00:01:01.432 --> 00:01:03.718
+"Command" + "C".
+
+00:01:05.731 --> 00:01:07.301
+"Command" + "V".
+
+00:01:07.730 --> 00:01:09.672
+Funcionou!
+
+00:01:11.397 --> 00:01:13.663
+Mas eu poderia
+ter feito outra coisa.
+
+00:01:13.696 --> 00:01:15.558
+"Arquivo".
+
+00:01:15.591 --> 00:01:18.130
+Talvez "baixar como".
+
+00:01:18.163 --> 00:01:20.279
+"Microsoft Excel".
+
+00:01:20.312 --> 00:01:22.167
+Talvez isso funcione.
+
+00:01:22.200 --> 00:01:24.099
+Funcionou!
+
+00:01:24.132 --> 00:01:25.941
+Eu tenho
+uma cópia exata dos dados
+
+00:01:25.974 --> 00:01:28.778
+e posso fazer a mesma coisa
+no Excel.
+
+00:01:28.811 --> 00:01:32.144
+Bom, acho que vou usar
+o Google Docs por enquanto.
+
+00:01:33.485 --> 00:01:36.627
+Ah, não!
+Eu fechei sem querer.
+
+00:01:36.957 --> 00:01:39.684
+Mas está no meu drive.
+
+00:01:39.717 --> 00:01:44.299
+Você pode ver todas as opções
+no topo da conta do Google Docs.
+
+00:01:44.332 --> 00:01:46.471
+E aqui está a minha planilha.
+
+00:01:46.865 --> 00:01:49.085
+Vamos conhecer melhor
+essa planilha.
+
+00:01:49.118 --> 00:01:51.426
+Essa é a célula a1.
+
+00:01:51.459 --> 00:01:53.837
+Essa é a célula a2.
+
+00:01:53.870 --> 00:01:56.935
+Cada célula tem um nome,
+assim como eu e você.
+
+00:01:56.968 --> 00:02:00.274
+Mas nós não costumamos
+ter números nos nossos nomes.
+
+00:02:00.307 --> 00:02:03.853
+Não tem vírgulas ou caracteres especiais
+no nome da célula.
+
+00:02:03.886 --> 00:02:06.769
+É sempre a letra
+seguida do número.
+
+00:02:06.802 --> 00:02:09.091
+Qual é o nome dessa célula?
+
+00:02:09.124 --> 00:02:12.921
+Vamos colocar um cabeçalho nesses dados
+para sabermos do que se trata.
+
+00:02:12.954 --> 00:02:15.040
+"Inserir", "Linha Acima".
+
+00:02:15.073 --> 00:02:17.571
+Esse é o cabeçalho
+e ele não faz parte dos dados.
+
+00:02:17.604 --> 00:02:19.756
+Só nós diz
+o que estamos medindo.
+
+00:02:19.789 --> 00:02:24.843
+Isso significa que os dados
+vão da célula a2 até a28.
+
+00:02:24.876 --> 00:02:27.963
+Que coisas legais podemos fazer
+com esses dados?
+
+00:02:27.996 --> 00:02:30.631
+Que tal "Dados", "Classificar"?
+
+00:02:30.664 --> 00:02:33.110
+"Meus dados contém cabeçalhos".
+
+00:02:33.143 --> 00:02:35.911
+Eu quase falei
+"dados contém cabeças".
+
+00:02:35.944 --> 00:02:38.879
+Classificar
+"número de amigos no Facebook".
+
+00:02:38.912 --> 00:02:40.434
+Isso aí.
+
+00:02:40.467 --> 00:02:42.074
+O que mais podemos fazer?
+
+00:02:42.107 --> 00:02:43.759
+O que é isso?
+
+00:02:43.792 --> 00:02:45.866
+Isso parece sigma.
+
+00:02:45.899 --> 00:02:47.666
+Tem várias funções.
+
+00:02:47.699 --> 00:02:49.037
+Vamos somá-los.
+
+00:02:49.070 --> 00:02:51.514
+Ele coloca a fórmula aqui
+automaticamente.
+
+00:02:51.547 --> 00:02:53.459
+Mas nós poderíamos
+ter escrito sozinhos,
+
+00:02:53.492 --> 00:02:55.035
+ao invés de sermos
+preguiçosos.
+
+00:02:55.068 --> 00:02:57.294
+Na verdade,
+vamos escrever algumas fórmulas.
+
+00:02:57.327 --> 00:02:59.139
+Vamos calcular a média.
+
+00:02:59.172 --> 00:03:04.244
+“=average(a2”.
+
+00:03:04.277 --> 00:03:06.708
+Porque é
+onde nossos dados começam.
+
+00:03:06.741 --> 00:03:09.584
+Até a a28.
+
+00:03:11.408 --> 00:03:12.323
+Legal.
+
+00:03:12.356 --> 00:03:15.849
+E podemos ver o que escrevemos
+aqui na barra de fórmulas.
+
+00:03:15.882 --> 00:03:18.084
+Vamos encontrar
+a divergência da média.
+
+00:03:18.117 --> 00:03:22.290
+Não existe uma fórmula para isso.
+Você tem que saber o que é.
+
+00:03:22.323 --> 00:03:25.680
+Divergência significa
+o quanto algo diverge.
+
+00:03:25.713 --> 00:03:29.347
+Quanto cada valor
+diverge da média?
+
+00:03:29.380 --> 00:03:31.117
+Como descobrimos
+a diferença?
+
+00:03:31.150 --> 00:03:32.502
+Subtraindo.
+
+00:03:32.535 --> 00:03:34.622
+E como começamos
+nossas fórmulas?
+
+00:03:34.655 --> 00:03:36.151
+Com sinal de igual.
+
+00:03:36.184 --> 00:03:38.969
+"=a2-".
+
+00:03:39.002 --> 00:03:43.740
+E nós queremos que esse valor
+seja sempre constante.
+
+00:03:43.773 --> 00:03:49.067
+Ao invés de "e1",
+vou colocar um "$",
+
+00:03:49.100 --> 00:03:52.292
+entre a letra e o número.
+
+00:03:52.325 --> 00:03:55.485
+Isso vai manter a constância
+quando copiarmos e colarmos isso
+
+00:03:55.518 --> 00:03:57.853
+nas outras células.
+
+00:03:57.886 --> 00:03:59.780
+Isso faz sentido, não é?
+
+00:03:59.813 --> 00:04:06.619
+0 - 584, blá blá blá,
+deve ser - 584, blá blá blá.
+
+00:04:06.652 --> 00:04:10.510
+Tem algumas coisas
+que podemos fazer.
+
+00:04:10.543 --> 00:04:14.076
+Podemos ir para esse canto aqui,
+onde tem um sinal “+”
+
+00:04:14.109 --> 00:04:15.897
+e puxar para baixo.
+
+00:04:15.930 --> 00:04:19.031
+Então temos
+cada divergência da média.
+
+00:04:19.064 --> 00:04:23.321
+Na verdade, se clicarmos nela,
+vemos na barra de fórmulas
+
+00:04:23.354 --> 00:04:28.767
+que essa é a a10, aqui,
+menos a média.
+
+00:04:28.800 --> 00:04:30.738
+Que é e1.
+
+00:04:30.771 --> 00:04:33.441
+Também podemos
+clicar nessa célula,
+
+00:04:33.474 --> 00:04:38.872
+apertar "command" + "C",
+ou "Ctrl" + "C",
+
+00:04:38.905 --> 00:04:42.634
+ir para a célula a2,
+apertar "command" + seta para baixo,
+
+00:04:42.667 --> 00:04:45.166
+ir até a célula b28,
+
+00:04:45.199 --> 00:04:47.860
+apertar "command" + "shift",
+seta para cima.
+
+00:04:47.893 --> 00:04:50.665
+Essa área está selecionada.
+
+00:04:50.698 --> 00:04:53.667
+E apertar "command" + "V".
+
+00:04:53.700 --> 00:04:56.261
+Qual é a soma
+das divergências?
+
+00:04:56.294 --> 00:05:02.192
+"=soma(b2:b28)".
+
+00:05:02.225 --> 00:05:04.486
+É quase 0.
+
+00:05:04.519 --> 00:05:06.999
+Sempre deve ser
+por volta de 0.
+
+00:05:07.032 --> 00:05:08.885
+Vamos nomear essa coluna.
+
+00:05:08.918 --> 00:05:13.805
+Divergências (xi - x barra).
+
+00:05:13.838 --> 00:05:15.520
+X barra é a média.
+
+00:05:15.553 --> 00:05:17.903
+Vamos fazer
+o quadrado das divergências.
+
+00:05:17.936 --> 00:05:20.231
+É autoexplicativo.
+
+00:05:20.264 --> 00:05:22.342
+As divergências
+ao quadrado.
+
+00:05:22.375 --> 00:05:26.542
+"=b2^2".
+
+00:05:26.575 --> 00:05:29.043
+De novo, "command" + "C".
+
+00:05:29.076 --> 00:05:30.906
+Vá para a célula b2.
+
+00:05:30.939 --> 00:05:32.566
+"Command" + seta para baixo.
+
+00:05:32.599 --> 00:05:34.474
+Vá até a célula c28.
+
+00:05:34.507 --> 00:05:36.353
+"Command" + "shift"+ seta para cima.
+
+00:05:36.386 --> 00:05:38.206
+"Command" + "V".
+
+00:05:38.239 --> 00:05:41.771
+Se você se acostumar
+com os atalhos do teclado,
+
+00:05:41.804 --> 00:05:45.481
+você vai conseguir
+fazer tudo mais rápido.
+
+00:05:45.514 --> 00:05:49.437
+Especialmente se você tiver
+uma lista com 500 valores.
+
+00:05:49.470 --> 00:05:53.457
+Talvez seja mais fácil arrastar até em baixo
+com um número menos de valores,
+
+00:05:53.490 --> 00:05:58.851
+mas para muitos valores,
+os atalhos vão facilitar sua vida.
+
+00:05:58.884 --> 00:06:01.321
+Agora temos
+nossas divergências quadradas.
+
+00:06:01.354 --> 00:06:03.653
+Vamos calcular
+a soma dos quadrados.
+
+00:06:03.686 --> 00:06:11.973
+"=soma(c2:,c28)".
+
+00:06:12.006 --> 00:06:13.344
+Erro!
+
+00:06:13.377 --> 00:06:15.392
+Eu devo ter digitado
+alguma coisa errada.
+
+00:06:15.425 --> 00:06:17.638
+Vamos ver o que eu fiz.
+
+00:06:17.671 --> 00:06:20.276
+Ah, eu coloquei uma vírgula.
+
+00:06:20.309 --> 00:06:21.777
+Vamos deletar.
+
+00:06:21.810 --> 00:06:26.960
+Agora temos a soma dos quadrados.
+Ou SD.
+
+00:06:26.993 --> 00:06:28.693
+Vamos encontrar a variantes.
+
+00:06:28.726 --> 00:06:31.614
+É a soma dos quadrados
+dividido por n.
+
+00:06:31.647 --> 00:06:36.330
+"=c30/".
+
+00:06:36.363 --> 00:06:40.070
+Parece que temos 27 valores.
+
+00:06:40.103 --> 00:06:46.090
+Isso vai até o c28,
+mas tem um cabeçalho.
+
+00:06:46.123 --> 00:06:48.927
+Então não estamos usando
+uma das células.
+
+00:06:48.960 --> 00:06:52.439
+Temos apenas 27 valores.
+
+00:06:53.981 --> 00:06:56.110
+Legal.
+Essa é a variante.
+
+00:06:56.143 --> 00:06:59.326
+É melhor você escrever
+para não esquecer.
+
+00:06:59.359 --> 00:07:02.736
+Olha, está dizendo que as mudanças
+foram salvas no Drive.
+
+00:07:02.769 --> 00:07:05.909
+Todas as mudanças que você faz
+são salvas automaticamente.
+
+00:07:05.942 --> 00:07:08.599
+Isso é incrível!
+Eu amo o Google Docs.
+
+00:07:08.632 --> 00:07:11.158
+Repare que para variantes
+nós dividimos por n.
+
+00:07:11.191 --> 00:07:13.641
+Mas se estivéssemos tratando isso
+como uma amostra,
+
+00:07:13.674 --> 00:07:15.717
+dividiríamos por n - 1.
+
+00:07:15.750 --> 00:07:18.621
+Vamos encontrar
+a divergência padrão.
+
+00:07:18.654 --> 00:07:24.529
+"=raiz(c31)".
+
+00:07:24.562 --> 00:07:26.867
+Aqui está
+a divergência padrão.
+
+00:07:26.900 --> 00:07:31.254
+Lembre-se, ela é representada
+pelo símbolo grego sigma.
+
+00:07:31.287 --> 00:07:34.164
+E se alguém tivesse
+muitos amigos no Facebook?
+
+00:07:34.197 --> 00:07:37.218
+Como 100 mil.
+
+00:07:37.251 --> 00:07:41.087
+Como isso mudaria nossa média,
+divergência padrão e variantes?
+
+00:07:41.120 --> 00:07:43.944
+Digamos que ao invés de ter
+480 amigos no Facebook,
+
+00:07:43.977 --> 00:07:47.616
+ele tem 100 mil.
+
+00:07:47.649 --> 00:07:49.089
+Preparado?
+
+00:07:49.122 --> 00:07:50.473
+Nossa!
+
+00:07:50.506 --> 00:07:53.275
+Tudo mudou automaticamente.
+
+00:07:53.308 --> 00:07:57.916
+As divergências são enormes,
+porque a média é enorme.
+
+00:07:57.949 --> 00:08:01.743
+E as divergências quadradas
+são enormes
+
+00:08:01.776 --> 00:08:03.412
+e tudo é enorme.
+
+00:08:03.445 --> 00:08:04.965
+Isso é tão legal!
+
+00:08:04.998 --> 00:08:07.181
+Você não precisa
+mudar nada.
+
+00:08:07.214 --> 00:08:10.060
+E se ninguém tivesse
+amigos no Facebook?
+
+00:08:10.093 --> 00:08:12.283
+Tudo viraria 0.
+
+00:08:12.316 --> 00:08:15.491
+Nossa planilha é incrível,
+não é?
+

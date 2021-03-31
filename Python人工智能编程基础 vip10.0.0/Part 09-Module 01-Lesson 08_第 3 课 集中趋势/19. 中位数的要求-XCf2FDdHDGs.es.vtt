@@ -1,0 +1,31 @@
+WEBVTT
+Kind: captions
+Language: es
+
+00:00:00.012 --> 00:00:04.282
+¿A qué te refieres con esto? Si miras el número en el medio, en estos datos,
+
+00:00:04.342 --> 00:00:10.440
+tachamos el de arriba y el de abajo, volvemos a tachar el siguiente de arriba y abajo,
+
+00:00:10.480 --> 00:00:14.086
+y dejamos el del medio. El valor de en medio de estos datos,
+
+00:00:14.156 --> 00:00:20.006
+en realidad no representa los datos. De hecho, son los valores más bajos de estas columnas.
+
+00:00:20.076 --> 00:00:25.431
+Entonces, ¿Qué tenemos que hacer para que la mediana sea una estadística útil y represente a los datos?
+
+00:00:25.471 --> 00:00:26.765
+¿Calcular su promedio?
+
+00:00:26.835 --> 00:00:28.695
+¿Ordenar los datos?
+
+00:00:28.755 --> 00:00:30.525
+¿Eliminar los valores atípicos?
+
+00:00:30.575 --> 00:00:31.739
+¿Eliminar los valores que se repitan?
+

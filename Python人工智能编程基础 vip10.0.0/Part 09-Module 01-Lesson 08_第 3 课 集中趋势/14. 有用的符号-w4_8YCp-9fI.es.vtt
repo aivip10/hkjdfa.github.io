@@ -1,0 +1,97 @@
+WEBVTT
+Kind: captions
+Language: es
+
+00:00:00.012 --> 00:00:04.601
+Y, de hecho, podemos simplificar esto incluso sustituyéndolo con
+
+00:00:04.661 --> 00:00:08.851
+un símbolo especial y reemplazarlo por algo más corto.
+
+00:00:08.931 --> 00:00:14.152
+El símbolo que utilizamos para la suma es este, sigma. Y en vez de escribir todo
+
+00:00:14.222 --> 00:00:16.482
+'el salario de los estudiantes de Geografía',
+
+00:00:16.552 --> 00:00:21.832
+llamaremos a todo esto x. Y en vez de escribir 'el número de estudiantes de Geografía',
+
+00:00:21.932 --> 00:00:25.387
+lo llamaremos n, de número. Así que ahora,
+
+00:00:25.477 --> 00:00:32.813
+tenemos una fórmula realmente sencilla para la media, x barra igual a la suma de x dividido por n.
+
+00:00:32.893 --> 00:00:37.853
+¿no es bonita?. Ahora recuerda, esto es un ejemplo, y viste en la Lección 1
+
+00:00:37.963 --> 00:00:44.028
+que una muestra estadística se denota por x barra. Para una población, se denota con la letra mu.
+
+00:00:44.128 --> 00:00:52.706
+Y de nuevo, podemos decir que la suma de x, dividido por N, porque es el número de la población completa,
+
+00:00:52.786 --> 00:00:54.833
+mientras que 'n' es el número de elementos de la muestra.
+
+00:00:54.903 --> 00:01:02.077
+Ahora, esto debe parecerer algo griego, y lo es. Sigma es la letra griega correspondiente a S,
+
+00:01:02.147 --> 00:01:06.823
+que tiene sentido porque hace referencia a la suma. Cuando veas una 'sigma' y luego una 'x',
+
+00:01:06.893 --> 00:01:11.561
+esto te dice que tienes que sumar todo lo que viene detrás de la sigma. Y realmente,
+
+00:01:11.641 --> 00:01:17.810
+a veces, habrá una pequeña i aquí. Y esto va de i=1 hasta i=n,
+
+00:01:17.890 --> 00:01:25.220
+lo que quiere decir que tenemos que sumar: x1 + x2 +... hasta llegar a xn.
+
+00:01:25.320 --> 00:01:39.360
+y dividirlo por el total de elementos. Así que en este caso es x1 + x2 + x3 + x4 + x5. Porque n=5.
+
+00:01:39.430 --> 00:01:45.628
+Entonces, esto nos dice que tenemos que sumar desde x1 hasta xn.
+
+00:01:45.718 --> 00:01:51.230
+Que no te intimiden los símbolos. De hecho, esperamos que te encuentres cada vez
+
+00:01:51.330 --> 00:01:54.324
+más y más cómodo en el uso de símbolos a lo largo del curso.
+
+00:01:54.384 --> 00:01:58.769
+Por lo tanto, al final, ninguno de ellos será intimidante. La razón por la que
+
+00:01:58.829 --> 00:02:02.784
+queremos que te sientas cómodo es porque los símbolos son muy importantes y te ayudarán
+
+00:02:02.844 --> 00:02:07.452
+en tu pensamiento matemático en las clases. Los símbolos son como el alfabeto.
+
+00:02:07.512 --> 00:02:12.534
+El alfabeto es básicamente de símbolos y utilizamos símbolos para contar una historia.
+
+00:02:12.624 --> 00:02:15.630
+Los hemos utilizado para aprender de la gente desde hace cientos de años,
+
+00:02:15.680 --> 00:02:20.381
+personas que han escrito sus pensamientos, con estos símbolos. Ahora, es lo mismo con matemáticas.
+
+00:02:20.471 --> 00:02:24.558
+Excepto que las Matemáticas es otro tipo de lenguaje, que utiliza distintos símbolos.
+
+00:02:24.618 --> 00:02:29.289
+Y es un lenguaje universal. Estos símbolos los utiliza todo el mundo,
+
+00:02:29.349 --> 00:02:33.684
+lo que es increible. Las Matemáticas son una forma de pensar y ha evolucionado
+
+00:02:33.754 --> 00:02:38.536
+a lo largo de miles de años. La forma en la que simbolizamos estos pensamientos ha evolucionado con ella.
+
+00:02:38.596 --> 00:02:42.690
+La notación estadística tiene instrucciones abreviadas que nos cuentan qué hacer.
+

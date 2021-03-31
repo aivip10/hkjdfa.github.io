@@ -1,0 +1,53 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:02.000
+O que eu quero dizer
+com isso?
+
+00:00:02.033 --> 00:00:04.634
+Se olharmos para
+os números do meio nesses dados,
+
+00:00:04.667 --> 00:00:07.701
+vamos riscar
+o primeiro e o último,
+
+00:00:07.734 --> 00:00:10.133
+o segundo e o penúltimo,
+
+00:00:10.167 --> 00:00:11.701
+e o que sobra é o meio.
+
+00:00:11.734 --> 00:00:14.167
+O número do meio
+em cada um desses dados
+
+00:00:14.200 --> 00:00:16.501
+não representa os dados.
+
+00:00:16.534 --> 00:00:20.267
+Eles são os menores números
+de cada coluna.
+
+00:00:20.300 --> 00:00:23.667
+O que precisamos fazer
+para tornar a mediana uma estatística útil?
+
+00:00:23.701 --> 00:00:25.767
+Algo que represente
+os dados.
+
+00:00:25.801 --> 00:00:27.400
+Calcular a média?
+
+00:00:27.434 --> 00:00:29.000
+Colocar os dados em ordem?
+
+00:00:29.033 --> 00:00:30.601
+Eliminar exceções?
+
+00:00:30.634 --> 00:00:32.701
+Ou eliminar valores repetidos?
+
