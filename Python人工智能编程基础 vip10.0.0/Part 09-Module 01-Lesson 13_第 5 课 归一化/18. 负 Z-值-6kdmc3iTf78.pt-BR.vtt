@@ -1,0 +1,87 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:05.834
+Como Z é igual ao valor original
+menos a média dividido pelo desvio padrão,
+
+00:00:05.868 --> 00:00:08.868
+ou seja, o número de desvios padrão
+
+00:00:08.901 --> 00:00:11.434
+de distância
+entre o valor original e a média,
+
+00:00:11.467 --> 00:00:16.767
+então uma pontuação Z negativa
+significa que a média é maior que X.
+
+00:00:16.801 --> 00:00:20.434
+Isso deve significar que X está
+em algum lugar aqui embaixo.
+
+00:00:20.467 --> 00:00:25.334
+Não quer dizer que o valor original
+é negativo, mas pode ser.
+
+00:00:25.367 --> 00:00:28.801
+Significa que o valor original é menor
+que a média.
+
+00:00:28.834 --> 00:00:34.100
+O valor original é menor que zero,
+é basicamente a mesma coisa da 1ª,
+
+00:00:34.133 --> 00:00:36.100
+que o valor original é negativo.
+
+00:00:36.133 --> 00:00:41.434
+E nesta, o valor original X
+menos a média é negativo,
+
+00:00:41.467 --> 00:00:46.100
+também deve ser verdadeira,
+porque para a pontuação Z ser negativa,
+
+00:00:46.133 --> 00:00:52.234
+isto será negativo,
+porque o desvio padrão sempre é positivo.
+
+00:00:52.267 --> 00:00:56.267
+Para revisar, lembre que quando calculamos
+o desvio padrão,
+
+00:00:56.300 --> 00:00:59.167
+elevamos todos os desvios ao quadrado.
+
+00:00:59.200 --> 00:01:02.133
+Então todos os desvios são positivos,
+
+00:01:02.167 --> 00:01:06.734
+porque qualquer coisa elevada ao quadrado
+gera um número positivo.
+
+00:01:06.767 --> 00:01:12.067
+Então achamos
+o desvio quadrático médio, que é positivo,
+
+00:01:12.100 --> 00:01:15.267
+e tiramos a raiz quadrada,
+que é positiva.
+
+00:01:15.300 --> 00:01:18.667
+Então lembre-se
+que o desvio padrão sempre será positivo,
+
+00:01:18.701 --> 00:01:21.200
+o que quer dizer que se a pontuação Z
+for negativa,
+
+00:01:21.234 --> 00:01:23.934
+este numerador deve ser negativo.
+
+00:01:23.968 --> 00:01:27.934
+E isso quer dizer que X
+é menor que Mu.
+

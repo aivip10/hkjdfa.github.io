@@ -1,0 +1,64 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:03.501
+Vamos analisar cada opção antes
+de acharmos a resposta.
+
+00:00:03.534 --> 00:00:06.434
+Mu menos x nos dará
+um número positivo,
+
+00:00:06.467 --> 00:00:09.567
+porque Mu
+é maior que X em ambos os casos,
+
+00:00:09.601 --> 00:00:11.868
+então foi a 1ª coisa que fizemos.
+
+00:00:11.901 --> 00:00:16.334
+Mas isso não nos diz quantos desvios padrão
+X está partindo da média.
+
+00:00:16.367 --> 00:00:22.200
+X menos Mu nos dará o oposto disto,
+que é basicamente a distância negativa.
+
+00:00:22.234 --> 00:00:25.968
+X menos Mu vezes sigma não faz sentido.
+
+00:00:26.000 --> 00:00:30.534
+Seria multiplicar esta distância
+por este desvio padrão.
+
+00:00:30.567 --> 00:00:34.234
+X menos Mu dividido por sigma
+está mais próximo do que fizemos,
+
+00:00:34.267 --> 00:00:37.400
+mas nos dará
+a distância negativa.
+
+00:00:37.434 --> 00:00:40.968
+Porém, mais tarde você verá
+que esta equação é muito importante.
+
+00:00:41.000 --> 00:00:43.767
+E não multiplicamos por sigma.
+
+00:00:43.801 --> 00:00:49.767
+Então esta é a resposta correta
+para achar a distância em desvios padrão
+
+00:00:49.801 --> 00:00:51.267
+entre X e a média.
+
+00:00:51.300 --> 00:00:54.567
+Achamos a distância,
+que é Mu menos X,
+
+00:00:54.601 --> 00:00:58.100
+e dividimos
+pelo desvio padrão.
+

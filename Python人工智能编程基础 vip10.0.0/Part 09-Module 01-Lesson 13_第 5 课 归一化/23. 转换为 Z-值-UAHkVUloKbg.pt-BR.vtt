@@ -1,0 +1,52 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:03.861
+Na verdade, podemos criar qualquer
+distribuição normal
+
+00:00:03.891 --> 00:00:06.342
+com qualquer distribuição normal.
+
+00:00:06.372 --> 00:00:08.270
+Desculpe se soar confuso.
+
+00:00:08.300 --> 00:00:11.214
+Basicamente,
+podemos pegar qualquer distribuição normal,
+
+00:00:11.244 --> 00:00:17.438
+convertê-la para a distribuição normal padrão
+e depois colocá-la na escala que quisermos.
+
+00:00:17.468 --> 00:00:21.989
+Então, por exemplo, digamos que queremos
+dar a todos uma pontuação de popularidade
+
+00:00:22.019 --> 00:00:25.686
+de 0 a 100, com 50 sendo a média.
+
+00:00:25.716 --> 00:00:29.246
+Digamos que queremos que o desvio padrão
+seja 10.
+
+00:00:29.276 --> 00:00:32.606
+Começamos com nossa distribuição
+original do Facebook,
+
+00:00:32.636 --> 00:00:38.101
+onde a média é 190 e o desvio padrão é 36.
+
+00:00:38.131 --> 00:00:41.893
+Digamos que alguém tenha 210 amigos
+no Facebook.
+
+00:00:41.923 --> 00:00:45.014
+Primeiro vamos converter isto
+para uma pontuação Z.
+
+00:00:45.044 --> 00:00:45.045
+Quanto isso dará e onde isso fica
+nesta distribuição?
+

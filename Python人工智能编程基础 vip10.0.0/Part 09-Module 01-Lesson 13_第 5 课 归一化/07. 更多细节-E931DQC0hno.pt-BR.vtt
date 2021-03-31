@@ -1,0 +1,38 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:03.717
+Lembre-se, um problema com histogramas
+que aprendeu na lição 2.
+
+00:00:03.747 --> 00:00:06.474
+Nós sacrificamos
+os detalhes pela conveniência.
+
+00:00:06.504 --> 00:00:09.450
+Por esses compartimentos,
+não podemos determinar
+
+00:00:09.480 --> 00:00:13.105
+os valores proporcionais
+menores ou maiores que certos números.
+
+00:00:13.135 --> 00:00:15.482
+Mas queremos saber coisas assim,
+
+00:00:15.512 --> 00:00:19.409
+para ver como certas pontuações
+se comparam a outras na distribuição.
+
+00:00:19.439 --> 00:00:22.042
+O que nos mostrará mais detalhes?
+
+00:00:22.072 --> 00:00:24.378
+Adicionar mais valores
+ao conjunto de dados,
+
+00:00:24.408 --> 00:00:28.831
+aumentando o compartimento,
+ou um compartimento menor?
+

@@ -1,0 +1,71 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:06.615
+Lembre-se, pegamos esta distribuição
+e a deslocamos até zero,
+
+00:00:06.645 --> 00:00:09.294
+porque estamos subtraindo a média.
+
+00:00:09.324 --> 00:00:12.455
+Então basicamente, se tivermos
+uma distribuição normal
+
+00:00:12.485 --> 00:00:14.814
+com uma média de 100,
+
+00:00:14.844 --> 00:00:16.646
+se subtrairmos a média,
+
+00:00:16.676 --> 00:00:21.038
+deslocamos essa distribuição para 100
+à esquerda.
+
+00:00:21.068 --> 00:00:22.855
+Então a nova média é zero.
+
+00:00:22.885 --> 00:00:26.759
+E se somarmos uma distribuição
+com uma média de menos 30?
+
+00:00:26.789 --> 00:00:31.934
+Se subtrairmos menos 30,
+então estamos adicionando 30.
+
+00:00:31.964 --> 00:00:36.638
+E voltamos a distribuição para a direita,
+centralizando em zero.
+
+00:00:36.668 --> 00:00:42.455
+Outra forma de ver isto é:
+qual será a nova pontuação Z da média?
+
+00:00:42.485 --> 00:00:44.807
+Digamos que a média é X.
+
+00:00:44.845 --> 00:00:46.161
+A pontuação Z da média
+
+00:00:46.191 --> 00:00:51.512
+é basicamente a quantos desvios padrão
+de distância da média a média está.
+
+00:00:51.542 --> 00:00:53.081
+Bom, é zero.
+
+00:00:53.111 --> 00:00:55.313
+Em vez de X, temos Mu.
+
+00:00:55.343 --> 00:01:01.712
+Mu menos Mu dividido pelo desvio padrão
+é zero dividido pelo desvio padrão,
+
+00:01:01.742 --> 00:01:03.328
+que é zero.
+
+00:01:03.358 --> 00:01:05.031
+Então, esta é outra forma
+de enxergar.
+

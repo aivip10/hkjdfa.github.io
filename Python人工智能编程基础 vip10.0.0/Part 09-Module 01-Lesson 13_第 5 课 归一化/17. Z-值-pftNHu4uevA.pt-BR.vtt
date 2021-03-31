@@ -1,0 +1,140 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:03.267
+Mas não estamos preocupados
+apenas com o quanto
+
+00:00:03.300 --> 00:00:05.133
+os valores distam da média.
+
+00:00:05.167 --> 00:00:09.367
+Também nos interessa se estão
+ou não abaixo ou acima da média.
+
+00:00:09.400 --> 00:00:13.601
+Ao padronizar
+qualquer escore no eixo X,
+
+00:00:13.634 --> 00:00:17.767
+obtemos o "Escore Z",
+outrora apenas Z.
+
+00:00:17.801 --> 00:00:21.467
+Nós iremos subtrair a média
+do valor de X
+
+00:00:21.501 --> 00:00:24.234
+e dividir a diferença
+pelo desvio padrão.
+
+00:00:24.267 --> 00:00:27.834
+Assim, se tivermos
+um valor menor que a média,
+
+00:00:27.868 --> 00:00:30.300
+teremos um
+Escore Z negativo.
+
+00:00:30.334 --> 00:00:33.434
+O Escore Z é, basicamente,
+o número de desvios padrão
+
+00:00:33.467 --> 00:00:36.000
+que qualquer valor
+dista da média.
+
+00:00:36.033 --> 00:00:38.234
+Assim sendo, pode-se
+converter qualquer valor
+
+00:00:38.267 --> 00:00:40.734
+numa distribuição normal
+para um Escore Z.
+
+00:00:40.767 --> 00:00:44.667
+Ao fazer isso,
+padronizamos a distribuição.
+
+00:00:44.701 --> 00:00:47.701
+Podemos pegar
+qualquer distribuição normal
+
+00:00:47.734 --> 00:00:49.267
+e padronizá-la.
+
+00:00:49.300 --> 00:00:52.434
+Vamos retornar
+à nossa distribuição normal.
+
+00:00:52.467 --> 00:00:54.334
+A média é 190,
+
+00:00:54.367 --> 00:00:57.000
+esta é a média verdadeira
+de amigos no Facebook,
+
+00:00:57.033 --> 00:00:58.133
+eu chequei,
+
+00:00:58.167 --> 00:01:01.801
+mas vamos fazer de conta
+que o desvio padrão é 36,
+
+00:01:01.834 --> 00:01:04.467
+como no exemplo em que eu
+e Andy discutíamos
+
+00:01:04.501 --> 00:01:06.267
+nossa impopularidade.
+
+00:01:06.300 --> 00:01:10.234
+Usando essa informação,
+abra o link que compartilhamos,
+
+00:01:10.267 --> 00:01:13.100
+conte-nos quantos amigos
+no Facebook você tem...
+
+00:01:13.133 --> 00:01:15.167
+e calcule seu Escore Z.
+
+00:01:15.200 --> 00:01:17.767
+Nós analisaremos
+os dados depois
+
+00:01:17.801 --> 00:01:20.801
+e veremos se chegamos
+a uma distribuição normal.
+
+00:01:20.834 --> 00:01:25.234
+Então, saberemos se a conta
+de algum Escore Z não fechar.
+
+00:01:25.267 --> 00:01:27.300
+Dê o seu melhor
+calculando seu Escore Z,
+
+00:01:27.334 --> 00:01:28.968
+porque é boa prática
+
+00:01:29.000 --> 00:01:32.033
+e usaremos Escores Z
+até o fim da aula.
+
+00:01:32.734 --> 00:01:36.400
+Se não tiver Facebook, ponha 0.
+Mas cuidado:
+
+00:01:36.434 --> 00:01:39.801
+isso não quer dizer
+que seu Escore Z será 0.
+
+00:01:39.834 --> 00:01:42.734
+Você terá que calcular
+e descobrir qual é.
+
+00:01:42.767 --> 00:01:46.901
+Eu saberei se você errar!
+

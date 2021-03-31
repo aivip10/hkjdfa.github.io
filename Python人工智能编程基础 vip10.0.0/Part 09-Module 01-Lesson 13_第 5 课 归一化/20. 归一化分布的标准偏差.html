@@ -1,0 +1,287 @@
+<!-- udacity2.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>归一化分布的标准偏差</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>第 5 课: 归一化</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. 国际象棋.html">01. 国际象棋</a>
+    </li>
+    <li class="">
+      <a href="02. USCF 分布.html">02. USCF 分布</a>
+    </li>
+    <li class="">
+      <a href="03. 绝对或相对.html">03. 绝对或相对</a>
+    </li>
+    <li class="">
+      <a href="04. 相对频率直方图.html">04. 相对频率直方图</a>
+    </li>
+    <li class="">
+      <a href="05. 170-210 之间的比例.html">05. 170-210 之间的比例</a>
+    </li>
+    <li class="">
+      <a href="06. 180-200 之间的比例.html">06. 180-200 之间的比例</a>
+    </li>
+    <li class="">
+      <a href="07. 更多细节.html">07. 更多细节</a>
+    </li>
+    <li class="">
+      <a href="08. 无限小.html">08. 无限小</a>
+    </li>
+    <li class="">
+      <a href="09. 连续分布.html">09. 连续分布</a>
+    </li>
+    <li class="">
+      <a href="10. 理论正态分布.html">10. 理论正态分布</a>
+    </li>
+    <li class="">
+      <a href="11. Z.html">11. Z</a>
+    </li>
+    <li class="">
+      <a href="12. 不受欢迎.html">12. 不受欢迎</a>
+    </li>
+    <li class="">
+      <a href="13. Katie - (均值)以下的标准偏差.html">13. Katie - (均值)以下的标准偏差</a>
+    </li>
+    <li class="">
+      <a href="14. Andy - (均值)以下的标准偏差.html">14. Andy - (均值)以下的标准偏差</a>
+    </li>
+    <li class="">
+      <a href="15. 谁更不受欢迎？.html">15. 谁更不受欢迎？</a>
+    </li>
+    <li class="">
+      <a href="16. 标准差数量的公式.html">16. 标准差数量的公式</a>
+    </li>
+    <li class="">
+      <a href="17. Z-值.html">17. Z-值</a>
+    </li>
+    <li class="">
+      <a href="18. 负 Z-值.html">18. 负 Z-值</a>
+    </li>
+    <li class="">
+      <a href="19. 归一化分布的均值.html">19. 归一化分布的均值</a>
+    </li>
+    <li class="">
+      <a href="20. 归一化分布的标准偏差.html">20. 归一化分布的标准偏差</a>
+    </li>
+    <li class="">
+      <a href="21. 标准正态分布.html">21. 标准正态分布</a>
+    </li>
+    <li class="">
+      <a href="22. 受欢迎的 Chris.html">22. 受欢迎的 Chris</a>
+    </li>
+    <li class="">
+      <a href="23. 转换为 Z-值.html">23. 转换为 Z-值</a>
+    </li>
+    <li class="">
+      <a href="24. 转换为受欢迎值.html">24. 转换为受欢迎值</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">20. 归一化分布的标准偏差</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3><p>归一化分布的标准偏差</p></h3>
+  <div>
+  <div>
+    <h4>Question:</h4>
+
+    <video controls>
+  <source src="20. 归一化分布的标准偏差-0JZyJ5_T858.mp4" type="video/mp4">
+
+  <track default="true" kind="subtitles" srclang="en" src="20. 归一化分布的标准偏差-0JZyJ5_T858.en.vtt" label="en">
+  <track default="false" kind="subtitles" srclang="BR" src="20. 归一化分布的标准偏差-0JZyJ5_T858.pt-BR.vtt" label="BR">
+  <track default="false" kind="subtitles" srclang="CN" src="20. 归一化分布的标准偏差-0JZyJ5_T858.zh-CN.vtt" label="CN">
+</video>
+
+
+  </div>
+
+  <h4>Start Quiz:</h4>
+  <div>
+  <div style="display: block;">
+    <div style="position: relative;">
+      <img src="img/92993685.gif" style="width: 100%; max-height: 100%" alt="">
+      
+    <div style="
+    position: absolute; top: 40.54054054054054%; left: 55.157437567861024%; width: 15%; height: 6%;
+  ">
+      
+        <input type="number" style="width: 100%; height: 100%;" name="null" id="0" aria-label="Empty">
+      
+    </div>
+  
+    </div>
+  </div>
+</div>
+
+
+  <div>
+    <details>
+      <summary><strong>Solution:</strong></summary>
+      <div>
+        <video controls>
+  <source src="20. 归一化分布的标准偏差-LuI1poHmFOw.mp4" type="video/mp4">
+
+  <track default="true" kind="subtitles" srclang="en" src="20. 归一化分布的标准偏差-LuI1poHmFOw.en.vtt" label="en">
+  <track default="false" kind="subtitles" srclang="BR" src="20. 归一化分布的标准偏差-LuI1poHmFOw.pt-BR.vtt" label="BR">
+  <track default="false" kind="subtitles" srclang="CN" src="20. 归一化分布的标准偏差-LuI1poHmFOw.zh-CN.vtt" label="CN">
+</video>
+
+
+      </div>
+    </details>
+  </div>
+</div>
+
+
+  <div class="jumbotron" style="margin-top: 50px; margin-bottom: 50px;">
+    <h3>INSTRUCTOR NOTE:</h3>
+    <h2 id="如果我们将数据归一化处理为z值，该归一化分布的新标准偏差会是多少？">如果我们将数据归一化处理为z值，该归一化分布的新标准偏差会是多少？</h2>
+  </div>
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+              <a href="21. 标准正态分布.html" class="btn btn-outline-primary mt-4" role="button">Next Concept</a>
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://us-udacity.github.io/" target="_blank">【udacity2.0 】If you need more courses, please add wechat：udacity6</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('20. 归一化分布的标准偏差')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>

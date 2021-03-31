@@ -1,0 +1,41 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:04.067
+Que fórmula descreve o que fez
+para achar o número de desvios padrão
+
+00:00:04.100 --> 00:00:06.501
+que cada valor tem a partir da média?
+
+00:00:06.534 --> 00:00:08.267
+Vamos chamar o valor de X.
+
+00:00:08.300 --> 00:00:13.601
+No meu caso, X foi 63,
+e para Andy, 54.
+
+00:00:13.634 --> 00:00:18.000
+Foi Mu menos X? Ou X menos Mu?
+
+00:00:18.033 --> 00:00:22.534
+X menos Mu vezes sigma?
+X menos Mu dividido por sigma?
+
+00:00:22.567 --> 00:00:28.968
+Mu menos X vezes sigma?
+Ou fizemos Mu menos X dividido por sigma?
+
+00:00:29.000 --> 00:00:33.334
+Lembre-se de que nas duas últimas questões
+você achou um número positivo.
+
+00:00:33.367 --> 00:00:36.667
+Então estamos procurando a fórmula
+que descreve
+
+00:00:36.701 --> 00:00:39.934
+a distância positiva a que estávamos
+a partir da média.
+

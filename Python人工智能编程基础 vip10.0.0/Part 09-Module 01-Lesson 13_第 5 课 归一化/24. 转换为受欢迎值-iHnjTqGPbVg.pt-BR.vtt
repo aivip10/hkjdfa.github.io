@@ -1,0 +1,82 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:06.200
+Bom, sabemos que a pontuação Z
+é 0,56 e queremos descobrir que valor
+
+00:00:06.234 --> 00:00:12.834
+corresponde a isto em uma distribuição normal
+com média 50 e desvio padrão 10.
+
+00:00:12.868 --> 00:00:14.781
+Então aqui temos a conta armada,
+
+00:00:14.815 --> 00:00:23.624
+então só multiplicamos 0,56 por 10
+e somamos 50. Então temos 55,6.
+
+00:00:23.657 --> 00:00:31.098
+Basicamente o que fizemos é pegar
+uma distribuição ampla com média 190
+
+00:00:31.131 --> 00:00:33.734
+e desvio padrão 36,
+
+00:00:33.767 --> 00:00:38.405
+convertamos para a distribuição
+normal padrão com média zero
+
+00:00:38.438 --> 00:00:40.100
+e desvio padrão 1.
+
+00:00:40.133 --> 00:00:46.213
+Depois, convertemos isso
+para uma distribuição normal de média 50
+
+00:00:46.246 --> 00:00:48.148
+e desvio padrão 10.
+
+00:00:48.182 --> 00:00:52.267
+Então a pontuação
+para cada uma dessas distribuições
+
+00:00:52.300 --> 00:00:56.934
+corresponde à mesma porcentagem menor
+que a pontuação.
+
+00:00:56.968 --> 00:00:59.567
+Então em uma pontuação de 210,
+
+00:00:59.601 --> 00:01:06.334
+a proporção menor é a mesma
+da pontuação 0,56 aqui.
+
+00:01:06.367 --> 00:01:13.507
+E é exatamente a mesma que a proporção
+menor que uma pontuação de 55,6
+
+00:01:13.540 --> 00:01:14.942
+nesta distribuição.
+
+00:01:14.975 --> 00:01:17.300
+Espero que isso faça sentido.
+
+00:01:17.334 --> 00:01:19.112
+Se não fizer, não se preocupe.
+
+00:01:19.146 --> 00:01:23.817
+Fará ao se acostumar a trabalhar
+com distribuições normais.
+
+00:01:23.851 --> 00:01:30.601
+Na próxima lição, aprenderá a calcular
+as porcentagens menores ou maiores
+
+00:01:30.634 --> 00:01:33.200
+que certos valores no eixo de X.
+
+00:01:33.234 --> 00:01:34.267
+Bom trabalho!
+

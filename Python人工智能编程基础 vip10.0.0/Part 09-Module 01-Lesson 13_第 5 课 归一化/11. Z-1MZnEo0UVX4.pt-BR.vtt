@@ -1,0 +1,78 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:03.545
+A localização de um valor específico
+no eixo X
+
+00:00:03.578 --> 00:00:07.207
+é normalmente descrita
+em forma de derivação padrão.
+
+00:00:07.240 --> 00:00:12.310
+Esta é a média, esta é a média
+mais uma derivação padrão,
+
+00:00:12.343 --> 00:00:15.288
+esta é a média
+mais duas derivações padrão.
+
+00:00:15.321 --> 00:00:21.018
+E estas são as médias menos uma
+e menos duas derivações padrão.
+
+00:00:21.051 --> 00:00:23.966
+Qualquer valor que encontrarmos
+pode ser convertido
+
+00:00:23.999 --> 00:00:28.608
+para um valor igual ao número
+de derivações padrão até a média.
+
+00:00:28.641 --> 00:00:30.432
+Vamos chamá-lo de Z.
+
+00:00:30.465 --> 00:00:33.080
+Ao convertermos valores
+da distribuição normal
+
+00:00:33.113 --> 00:00:35.099
+para esse número especial Z,
+
+00:00:35.132 --> 00:00:38.880
+podemos descobrir a porcentagem
+maior ou menor que esse valor.
+
+00:00:38.913 --> 00:00:43.692
+Por exemplo, se descobrimos que o valor
+está a uma derivação padrão da média,
+
+00:00:43.725 --> 00:00:47.276
+então não importa
+a destribuição normal que temos,
+
+00:00:47.309 --> 00:00:52.729
+sabemos que aproximadamente
+84% são menores do que o valor.
+
+00:00:52.762 --> 00:00:55.087
+Na próxima aula,
+você vai aprender a calcular
+
+00:00:55.120 --> 00:00:59.744
+as proporções maiores e menores
+que um valor em uma distribuição normal.
+
+00:00:59.777 --> 00:01:02.548
+Em que situação
+podemos querer saber
+
+00:01:02.581 --> 00:01:06.483
+as proporções maiores e menores
+que um número específico?
+
+00:01:06.516 --> 00:01:08.931
+Vamos demonstrar isto
+com outra história.
+

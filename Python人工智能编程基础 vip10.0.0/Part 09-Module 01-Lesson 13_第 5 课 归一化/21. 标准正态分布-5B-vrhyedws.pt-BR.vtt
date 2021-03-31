@@ -1,0 +1,35 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:03.968
+Recapitulando, quando temos qualquer
+distribuição normal,
+
+00:00:04.000 --> 00:00:07.067
+podemos padronizá-la
+subtraindo primeiro a média,
+
+00:00:07.100 --> 00:00:10.934
+deslocando-a para zero,
+e depois dividindo pelo desvio padrão,
+
+00:00:10.968 --> 00:00:13.514
+o que faz o desvio padrão ser 1.
+
+00:00:13.547 --> 00:00:20.888
+Isso se chama a distribuição normal padrão,
+com média zero e desvio padrão 1.
+
+00:00:20.921 --> 00:00:27.434
+Então aqui a pontuação Z será menos 1,
+e a dois desvios padrão, menos 2.
+
+00:00:27.467 --> 00:00:30.367
+Então agora todo valor
+no conjunto de dados
+
+00:00:30.400 --> 00:00:35.167
+é escrito em termos do número
+de desvios padrão de distância da média.
+

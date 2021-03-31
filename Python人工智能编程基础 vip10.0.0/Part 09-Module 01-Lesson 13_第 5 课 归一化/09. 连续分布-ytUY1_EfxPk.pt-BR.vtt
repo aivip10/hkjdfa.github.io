@@ -1,0 +1,67 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:02.000
+Temos um dilema.
+
+00:00:02.033 --> 00:00:05.501
+Queremos um compartimento pequeno
+com tantos detalhes quanto possível
+
+00:00:05.534 --> 00:00:09.634
+sobre a localização de valores
+em relação ao resto da distribuição,
+
+00:00:09.667 --> 00:00:13.133
+mas por fim começamos
+a perder a forma da distribuição.
+
+00:00:13.167 --> 00:00:15.534
+Mas se tivermos um compartimento grande,
+
+00:00:15.567 --> 00:00:18.767
+não sabemos a proporção menor
+que nenhum valor.
+
+00:00:18.801 --> 00:00:22.267
+Vamos resolver esse problema
+usando um modelo teórico
+
+00:00:22.300 --> 00:00:24.133
+para nossas distribuições.
+
+00:00:24.167 --> 00:00:28.868
+Este modelo é uma curva suave
+que usa frequências relativas.
+
+00:00:28.901 --> 00:00:34.167
+Esta é uma distribuição teoricamente contínua
+que pode ser descrita com uma equação.
+
+00:00:34.200 --> 00:00:37.868
+Este simples recurso,
+uma equação nos permite calcular
+
+00:00:37.901 --> 00:00:42.000
+a proporção entre quaisquer dois valores
+no eixo de X.
+
+00:00:42.033 --> 00:00:46.133
+Não vamos discutir
+ou analisar esta equação nesta classe,
+
+00:00:46.167 --> 00:00:49.734
+mas podemos ver mais a fundo
+as formas, se quiser.
+
+00:00:49.767 --> 00:00:52.834
+Qual será a área sob esta curva?
+
+00:00:52.868 --> 00:00:54.934
+É um problema complicado.
+
+00:00:54.968 --> 00:01:00.367
+Lembra quando tínhamos um histograma,
+qual foi a soma das frequências relativas?
+

@@ -1,0 +1,93 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:04.267
+Ainda assim, não sabemos quantos valores
+são menores que qualquer dos números
+
+00:00:04.300 --> 00:00:06.934
+entre o balanço de cada compartimento.
+
+00:00:06.968 --> 00:00:12.567
+Por exemplo, não poderíamos saber
+a proporção menor que 175.
+
+00:00:12.601 --> 00:00:16.033
+Idealmente, gostaríamos
+do menor compartimento possível.
+
+00:00:16.067 --> 00:00:18.267
+Na verdade, infinitamente pequeno.
+
+00:00:18.300 --> 00:00:22.501
+Mas veja o que acontece com estes dados
+quando nós diminuímos o compartimento.
+
+00:00:22.534 --> 00:00:26.000
+Ou seja, aumentamos o número
+de compartimentos.
+
+00:00:26.033 --> 00:00:28.234
+Aqui, temos 50 intervalos.
+
+00:00:28.267 --> 00:00:30.167
+Aqui, 100 intervalos.
+
+00:00:30.200 --> 00:00:33.934
+E note que a frequência
+no eixo Y está diminuindo.
+
+00:00:33.968 --> 00:00:35.734
+Aqui temos 200 intervalos.
+
+00:00:35.767 --> 00:00:37.467
+500.
+
+00:00:37.501 --> 00:00:39.234
+1.000.
+
+00:00:39.267 --> 00:00:43.400
+E agora, veja que a frequência é 1
+para diversos compartimentos.
+
+00:00:43.434 --> 00:00:45.534
+5.000 intervalos.
+
+00:00:45.567 --> 00:00:47.667
+30.000 intervalos.
+
+00:00:47.701 --> 00:00:50.400
+E agora em 150.000 intervalos,
+
+00:00:50.434 --> 00:00:53.868
+a frequência para cada compartimento
+é 0 ou 1.
+
+00:00:53.901 --> 00:00:57.300
+Isso porque o tamanho de cada
+compartimento é tão pequeno
+
+00:00:57.334 --> 00:01:02.467
+que só há um valor em muitos
+compartimentos ou apenas zero valores.
+
+00:01:02.501 --> 00:01:09.734
+Se continuarmos diminuindo o compartimento,
+perdemos a forma da distribuição. Tente.
+
+00:01:09.767 --> 00:01:14.100
+Eu compartilhei um link para o histograma
+que ilustra bem esse conceito.
+
+00:01:14.133 --> 00:01:16.968
+Use o conjunto de dados de pontuações
+de testes de física
+
+00:01:17.000 --> 00:01:20.167
+e diminua o compartimento
+o máximo possível
+
+00:01:20.200 --> 00:01:22.167
+e veja o que acontece com a frequência.
+
