@@ -1,0 +1,1029 @@
+{
+  "data": {
+    "lesson": {
+      "id": 591367,
+      "key": "d79396c0-8fa6-4adc-ac06-9d9649fb0525",
+      "title": "Lab: 分类图像",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "zh-cn",
+      "summary": "学习如何使用预先训练的 CNN 图像分类器编写一个识别图像是否为小狗图像的脚本。如果图像中包含狗，程序将识别狗的品种。",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": null,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/d79396c0-8fa6-4adc-ac06-9d9649fb0525/591367/1544208205707/Lab%3A+%E5%88%86%E7%B1%BB%E5%9B%BE%E5%83%8F+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/d79396c0-8fa6-4adc-ac06-9d9649fb0525/591367/1544208201767/Lab%3A+%E5%88%86%E7%B1%BB%E5%9B%BE%E5%83%8F+Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 591350,
+          "key": "933e74b1-aa1b-4de7-a66e-e569745e72ba",
+          "title": "讲师",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "933e74b1-aa1b-4de7-a66e-e569745e72ba",
+            "completed_at": "2018-08-01T07:22:28.067Z",
+            "last_viewed_at": "2018-08-01T07:22:26.957Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 591280,
+              "key": "bf95d5e0-11a2-44f3-be59-385a72afcb67",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/March/5ab02e20_screen-shot-2018-03-19-at-2.39.10-pm/screen-shot-2018-03-19-at-2.39.10-pm.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/bf95d5e0-11a2-44f3-be59-385a72afcb67",
+              "caption": "_Jennifer Staab_",
+              "alt": "",
+              "width": 330,
+              "height": 290,
+              "instructor_notes": null
+            },
+            {
+              "id": 591281,
+              "key": "5b9bb3b2-f0ab-4b0a-9a6a-e90c523dbea0",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "学完所有 Python 知识后，我们现在将完成第一个 Lab 任务，检验你所学的编程技能！\n\n这个 Lab 由 Jennifer 提供。她是一名统计师和计算机科学家，之前是佛罗里达理工大学的教授。",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 591351,
+          "key": "87810e5b-b946-47d9-a8e4-e9f983da3a1b",
+          "title": "Lab 说明",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "87810e5b-b946-47d9-a8e4-e9f983da3a1b",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 591282,
+              "key": "927170bc-cdd8-4b8d-8dce-f3a1a795a566",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# 城市狗狗秀图像分类\n***\n## 简介视频\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 591283,
+              "key": "821939c2-2ac6-4d13-9a5a-ed8c0c8b5762",
+              "title": "AIPND Python Lab - 简介视频",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "T_cjVqDULQI",
+                "china_cdn_id": "T_cjVqDULQI.mp4"
+              }
+            },
+            {
+              "id": 591284,
+              "key": "33e80e83-e396-4d46-89a0-3495cafd6870",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "***\n## **说明**:\n你所在的城市即将举行一场全市狗狗秀，你志愿帮助举办方对报名的小狗进行分类。每位参赛狗主人都必须提交一张小狗图像，并附上关于小狗的生物信息。报名系统根据生物信息对图像添加标签。 \n\n为了举办狗狗秀，市政府不得不重新安排年度艺术节举办时间。一些魔术师对艺术节的时间调整不满意，**打算**带着**不是小狗**的宠物报名参加比赛，以此提出抗议。  \n\n你**打算**利用最近学到的 ***```Python``` 技能***阻碍魔术师们的破坏行动。 ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 591285,
+              "key": "7bff52ef-efc9-4520-be7c-dbcf399d807f",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "***\n## Lab 目标\n- 通过使用 ```Python``` 从计算方面解决复杂的问题，提高你的编程技能。\n- 使用*深度学习模型*解决这个复杂的问题。\n- 使用 ```Python``` 解决更复杂的问题并发现乐趣。\n\n***\n## ** 你的任务：**\n- 利用 ***```Python``` 技能***判断哪个图像分类算法**最适合**将图像分类为“小狗”和“非小狗”图像，以防抗议调整艺术节举办时间的魔术师干扰活动。\n\n\n- 此外，你需要确定**最合适**的分类算法在识别小狗品种时的准确率。幸运的是，报名系统将用报名小狗的品种（参赛者输入的信息）标记每个图片。你的程序*只*需将照片的文件名（包含品种信息）与分类算法返回的品种进行对比。如果图像品种信息不一致，其他志愿者将验证小狗的品种。\n\n\n- 最后，对于计算任务，通常需要在准确率和运行时之间做出权衡。算法的准确率越高，更有可能需要更长的运行时间和更多的计算资源。为了帮助你讨论这个问题并了解如何从计算方面考虑解决问题的最佳方法，请记录每个算法解决分类问题所花费的时间。\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 591287,
+              "key": "81f4ab8c-f290-4c36-a333-732f4c4c16b4",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "***\n## **重要事项：**\n对于这个图像分类任务，你将使用一个图像分类应用，该应用采用了称为卷积神经网络（经常简称为 CNN）的深度学习模型。CNN 非常适合检测图像中的特征，例如颜色、纹理和边，然后使用这些特征识别图像中的物体。你将使用已经从一个庞大的数据库（有 120 万张图像，称为 [ImageNet](http://www.image-net.org/)）中*学习*特征的 CNN。CNN 有多种不同的结构（架构）类型，对于你的应用条件，它们的效果可能很好，也可能很差。在此 Lab 中，你将了解三种不同的架构（**AlexNet**、**VGG** 和 **ResNet**），并判断哪种结构最适合你的应用。  \n\n我们在 ```classifier.py``` 中提供了一个***分类器函数***，使你能使用这些 CNN 分类图像。```test_classifier.py``` 文件包含一个演示如何使用***分类器函数***的示例程序。你将重点运用 Python 技能使用***分类器函数***完成这些任务；在神经网络课程中，你将详细了解这些算法的原理。\n \n注意，某些小狗品种看起来非常相似，这些算法区分两个品种的能力只与数据集 (ImageNet) 和算法相当。也就是说，算法从越多的两种外观相似的小狗品种图像中学习规律，就越能够区分这两个品种。对于人类也一样，你看到两个相似品种的小狗图像越多，发现真正的区别，就越能够区分这两种小狗。我们发现以下品种看起来很相似：[大白熊犬](https://www.bing.com/images/search?q=大白熊犬)和[白警犬](https://www.bing.com/images/search?q=白警犬)、[德牧](https://www.bing.com/images/search?q=德牧)和[玛伦牧羊犬](https://www.bing.com/images/search?q=玛伦牧羊犬)、[比格犬](https://www.bing.com/images/search?q=比格犬)和[步行猎犬](https://www.bing.com/images/search?q=步行猎犬) 等等。\n\n最后注意，格雷伊猎犬和澳洲牧羊犬在 ImageNet 中没有图像。因此算法将始终无法正确分类这两个品种，因为之前从未见过这两个品种。算法只能做到将这些图像分类为 ImageNet 中存在图像的相似小狗品种。对于你将用来测试算法的图像，将仅使用 ImageNet 中存在的小狗品种。",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 591352,
+          "key": "ab7c8b0a-21c7-4d79-884d-26c371869718",
+          "title": "Lab 说明",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "ab7c8b0a-21c7-4d79-884d-26c371869718",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 591286,
+              "key": "65647725-9de5-4d84-81bb-0a4056193cb9",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# **Lab 说明**\n\n***\n## Lab 说明视频\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 591288,
+              "key": "79ce3745-9abe-4a67-8ab5-cc7656b8bbfd",
+              "title": "AIPND Python Lab  - Lab 说明视频",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "Pv4yi_OJtuU",
+                "china_cdn_id": "Pv4yi_OJtuU.mp4"
+              }
+            },
+            {
+              "id": 591289,
+              "key": "b3cac347-b28f-435a-a168-04dab2ea49db",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "***\n## **主要目标**\n1. 正确标识哪些宠物图像是小狗图像（即使品种分类错误），哪些宠物图像不是小狗图像（无论图像是否分类正确）。  \n&nbsp;\n2. 针对小狗图像正确判断小狗品种。   \n&nbsp;\n3. 判断哪个 CNN 模型架构（ResNet、AlexNet 或 VGG）“__最能__”实现目标 _1_ 和 _2_。   \n&nbsp;\n4. 思考最能实现目标 _1_ 和 _2_ 所需的*时间*，并判断对于每个算法运行所花费的时间，是否有替代解决方案能够实现“_不错_”的结果。\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 591290,
+              "key": "d6e97e39-f519-40f8-83b8-259447f3526f",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "***\n## **TODO：**修改程序 ***```check_images.py```***\n***```check_images.py```*** 是为了实现上述四个目标要修改的程序文件。此文件包含一个 ```main()``` 函数，该函数概述了如何通过***尚未***定义的函数完成此课程。你将在 **check_images.py** 中创建这些_未定义_的函数，以实现上述目标。\n\n**注意：**\n\n- ** Lab Workspace **部分包含完成 Lab 所需的程序和文件（例如 pet_images 文件夹）。建议仅更改 **check_images.py** 项目并完成该 Lab 。如果更改此 Workspace 中的其他文件和程序，可能会导致你的程序无法正常运行，即使你的代码编写正确。\n\n\n- **check_images.py** 程序中以 ***```# TODO:```*** 开头的 Python 注释表示你需要在哪些地方更改程序代码。**check_images.py** 中的注释将帮助你做出更改，以便程序能够实现上述主要目标。\n\n\n- 函数文档字符串中包含输入***参数***和***返回值***，用于指导你实现讲师提供的解决方案。它们只是作为参考指导，你可以以不同的方式编写这些函数，只要能实现上述目标即可。\n\n\n- **时间代码**和**输出结果**为编写_未定义_的函数和完成 **check_images.py** 程序提供了额外的指导。这些信息可以帮助你更快速地完成该 Lab。 \n这些信息具体包括：\n - 在编写_未定义_的函数时参考哪些**课程**。\n - 关于作业文件（例如 pet_images 文件夹中的图像文件、dognames.txt）的详情。\n - 关于在 **classifier.py** 中使用_分类器函数_的详情。\n - 指向相关 python 文档的链接。\n - 相关*示例代码*（请参阅下面的“**示例代码**”部分）。 ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 591291,
+              "key": "402106f2-d394-473f-94a4-70ba36ef5b24",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "***\n## 项目概要\n针对所有三个图像分类算法（例如作为命令行参数的输入算法）**重复**实现*以下*功能：\n- 记录程序的运行时间\n - 使用 Time 模块计算程序的运行时\n- 从用户那获取程序输入\n - 使用命令行参数获取用户输入\n- 创建宠物图像标签\n - 使用宠物图像文件名创建标签\n - 将宠物图像标签存储在数据结构（例如字典）中\n- 创建分类器标签并比较标签\n - 使用 *Classifier* 函数分类图像，并创建分类器标签\n - 将分类器标签与宠物图像标签进行比较\n - 将宠物标签、分类器标签和比较结果存储在复杂的数据结构（例如列表字典）中\n- 将标签分类为“小狗”或“非小狗”\n - 使用 dognames.txt 文件将所有标签（宠物标签和分类器标签）分类为“小狗”或“非小狗”\n - 将新的分类信息存储在复杂的数据结构（例如列表字典）中\n- 计算结果\n - 使用标签和分类结果判断算法在分类图像方面的效果如何。\n- 输出结果",
+              "instructor_notes": ""
+            },
+            {
+              "id": 591292,
+              "key": "0ef9e1ce-f9b3-44a7-88d2-bfc456a1abf4",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "***\n## 示例代码\n你将在课堂中的很多部分找到*示例代码*。此外，在课堂相关部分的末尾提供了这些*示例代码*在 Github 代码库中对应的 python 程序。当你看到标题**代码**时，接下来就可以找到 Github 代码库中的*示例代码*程序的链接。\n\n### 注意\n如果你打算复制这些部分内的所有或部分*示例代码*，*__请从 Github 代码库中复制__*。从课堂部分内复制*示例代码*可能会导致缩进/制表符方面的语法错误。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 591293,
+              "key": "5394a151-b6da-415f-b4a1-c5ae7d7c2814",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "***\n## 解决方案视频\n在每部分内容结束时，你将发现解决方案视频，该视频会讲解你刚刚编写的代码的解决方案。在解决方案视频中，我们描述了测试程序的方式，确保程序能生成***期望的***结果，从而在完成编码之前，提前发现任何编程*错误*。建议在编写完每个_未定义_函数之后再观看视频并检查你的代码。",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 591349,
+          "key": "432e9c44-48da-4e64-ae99-40445ab30046",
+          "title": "Workspace 使用方式",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "432e9c44-48da-4e64-ae99-40445ab30046",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 591278,
+              "key": "c6239192-985f-437f-8443-a9b5b39de0a1",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Workspace 使用方式\n***\n以下视频演示了如何在*** Lab Workspace*** 内完成 Lab 任务。具体内容包括：\n\n- 如何从课程中转到*** Lab Workspace***\n\n\n- 在*** Lab Workspace*** 中需要*修改*哪些文件\n\n\n- 如何在*** Lab Workspace*** 中*修改*、*保存*和*运行* python 程序\n\n\n- 如何将*** Lab Workspace*** **重置**到原始状态\n - **重置** Workspace 后会发生以下情况：\n   - *删除*你已经*添加*到 Workspace 的任何文件\n   - *撤消*你对原本存在于 Workspace 中的文件所做的所有*修改*  \n   - *重新创建*原来存在于 Workspace 中但是你已经*删除*的文件\n\n- 如何从 Workspace *下载*、*上传*和*删除*文件\n\n\n- 如何从*** Lab Workspace*** 回到课程中\n***\n## Workspace 使用方式视频",
+              "instructor_notes": ""
+            },
+            {
+              "id": 591279,
+              "key": "053df5b0-4549-4b8a-87db-137aea6e5c21",
+              "title": "AIPND Python  Lab  - Workspace 使用方式视频",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "EQTttywUnXQ",
+                "china_cdn_id": "EQTttywUnXQ.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 591353,
+          "key": "5362f6d5-5df9-4601-96d9-ea96e7706ceb",
+          "title": "Lab  Workspace",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "5362f6d5-5df9-4601-96d9-ea96e7706ceb",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 591294,
+              "key": "16738784-745a-424a-8612-bc631732e079",
+              "title": null,
+              "semantic_type": "WorkspaceAtom",
+              "is_public": true,
+              "workspace_id": "view7907cdf9",
+              "pool_id": "webterminal",
+              "view_id": "02cb2634-0f88-4ac3-9cee-b3e4c3804201",
+              "gpu_capable": false,
+              "configuration": {
+                "id": "reserved",
+                "blueprint": {
+                  "conf": {
+                    "port": 3000,
+                    "ports": [],
+                    "userCode": "pip install opencv-python\npip install torchvision",
+                    "openFiles": [],
+                    "showFiles": true,
+                    "allowClose": true,
+                    "allowSubmit": false
+                  },
+                  "kind": "generic"
+                },
+                "workspaceId": "reserved"
+              },
+              "starter_files": null
+            }
+          ]
+        },
+        {
+          "id": 591354,
+          "key": "0ea3ccab-9a3d-4db9-9824-16ad0526c9b8",
+          "title": "计算代码运行时间",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "0ea3ccab-9a3d-4db9-9824-16ad0526c9b8",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 591295,
+              "key": "09c7daf9-8f1f-48ac-9653-13c250ea18e0",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# 计算代码运行时间\n***\n## 在 ***check_images.py*** 中编写代码\n### 要修改的代码\n- 程序标头中以 ```#TODO: 0.``` 开头的注释。\n - 添加你的名称\n - 你开始处理该 Lab 的日期\n \n- 在 ```main()``` 函数中以 ```#TODO: 1.``` 开头的位置添加代码\n - 添加计算程序运行时间的相应代码  \n\n### 预期的输出\n编写完毕后，该代码将计算程序的总运行时间。具体而言，该代码将衡量三个算法中的每个算法对 pet_images 文件夹中的所有图像进行分类所需的时间。\n\n### 检查代码\n使用 ```sleep()``` 函数测试计算运行时间的代码运行正确。\n\n测试以下内容：\n- 在 ```sleep()``` 函数中设置不同的值（秒），检查时长和时间格式。\n\n#### Lab Workspace \n- 你可以在** Lab Workspace** 中修改 ***check_image.py***。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 591296,
+              "key": "dce262d4-b06d-4e59-8b1f-c119e1955c16",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "***\n## 导入 Time 模块\n计算程序或部分程序代码的运行时间使我们能够比较使用不同算法解决问题所需的时间。此外，计算代码运行时间使我们能够了解使用给定计算资源运行程序所花费的时间。  \n\n要在 python 中计算代码运行时间，需要从 [python time 模块](https://docs.python.org/3/library/time.html#module-time) 导入 [```time()``` 函数](https://docs.python.org/3/library/time.html#time.time)。为了模拟程序运行一段特定的时间，我们将使用 time 模块的 [```sleep()``` 函数](https://docs.python.org/2/library/time.html#time.sleep)。它将使程序暂停执行一定的秒数。 \n\n因为我们只需使用 ```time()``` 和 ```sleep()``` 函数，我们将仅导入这两个函数，而不是导入整个 time 模块。仅从模块中导入所需的函数可以节省程序运行所需的内存 (RAM)。\n\n此类导入如下所示：\n\n```python\n# Imports time() and sleep() functions from time module\nfrom time import time, sleep\n```",
+              "instructor_notes": ""
+            },
+            {
+              "id": 591297,
+              "key": "eec8a61b-df85-497b-96aa-cbb9e4efabe7",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "***\n## 使用 Time 和 Sleep 函数\n\n要计算代码运行时间，需要：\n\n- 首先，创建一个变量来记录***开始时间*** (*start_time*)，即你要*开始*记录代码运行时间的点\n\n  \n- 接着，创建一个变量来记录***结束时间*** (*end_time*)，即你要*停止*记录代码运行时间的点\n\n\n- 最后，计算***总运行时间*** (*tot_time*)：将 *end_time* 减去 *start_time*\n \n \n- **注意**以下事项：\n - *tot_time* 是指代码的总运行时间（以***秒***记）\n -  下面的代码使用了 ```sleep()```，以使程序*暂停* 75 秒。要计算实际代码的运行时间，请将 ```sleep(75)``` 替换为要计算运行时间的代码。\n\n以下代码演示了如何使用 ```time()``` 和 ```sleep()```。\n\n```python\n# Sets start time\nstart_time = time()\n\n# Replace sleep(75) below with code you want to time\nsleep(75)\n    \n# Sets end time\nend_time = time()\n\n# Computes overall runtime in seconds\ntot_time = end_time - start_time\n\n# Prints overall runtime in seconds\nprint(\"\\nTotal Elapsed Runtime:\", tot_time, \"in seconds.\")\n```",
+              "instructor_notes": ""
+            },
+            {
+              "id": 591299,
+              "key": "09240a3c-aadb-4d85-8624-b2d99bd73971",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "***\n## 设定时间格式\n你可能需要将运行时间设置成一定的格式，例如 *hh*:*mm*:*ss*，其中\n - *hh* 表示两位数的小时数\n - *mm* 表示两位数的分钟数\n - *ss* 表示两位数的秒数 \n\n请记住以下在 python 中关于时间格式的秒数\n\n- 1 小时等于 **3600** 秒\n- 1 分钟等于 **60** 秒\n- [**/**](https://docs.python.org/3/library/operator.html#operator.truediv)（除法运算符）和 [**int()** 函数](https://docs.python.org/3/library/functions.html#int) 将仅返回除法的整数部分\n- [**%**](https://docs.python.org/3/library/operator.html#operator.mod)（模运算符）返回除法的余数\n- [**str() 函数**](https://docs.python.org/3/library/functions.html#func-str) 将数字值转换为字符串       \n- **数据类型和运算符**：*算术运算符*和*整型及浮点型*课程将帮助设定 python 中的时间格式。\n&nbsp; \n\n使用上述信息可以确定***总运行时间***（即*tot_time*）的格式：\n- hours = int( (tot_time / 3600) )\n- minutes = int(  ( (tot_time % 3600) / 60 )  )\n- seconds = int(  ( (tot_time % 3600) % 60 )  )      \n&nbsp; \n\n下面的代码将以 *hh*:*mm*:*ss* 格式输出运行时间：\n```python\n# Prints overall runtime in format hh:mm:ss\nprint(\"\\nTotal Elapsed Runtime:\", str( int( (tot_time / 3600) ) ) + \":\" +\n          str( int(  ( (tot_time % 3600) / 60 )  ) ) + \":\" + \n          str( int(  ( (tot_time % 3600) % 60 ) ) ) ) \n```\n### 注意\n我们的代码使用 *__int()__* 函数并截断秒数的值，而不是四舍五入到最近的秒数。也就是说，如果*总运行时间为* **4.519087974567**，则格式变成*总运行时间：* **0:0:4**。如果你想*__四舍五入__*到最近的秒数，在计算上面的*__秒数__*时，需要将 [*__int()__* 函数](https://docs.python.org/3/library/functions.html#int)替换为 [*__round()__* 函数](https://docs.python.org/3/library/functions.html#round)。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 591298,
+              "key": "d03f8bdc-e45b-4c91-954f-62eed61f7bb0",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "***\n## 代码\n你可以在程序 [timing_code.py](https://github.com/udacity/AIPND/blob/master/intropylab-classifying-images/timing_code.py) 的 Github 代码库中找到此部分的代码。\n*** \n## 解决方案视频",
+              "instructor_notes": ""
+            },
+            {
+              "id": 591300,
+              "key": "05c36d73-75d4-497f-99f4-9f66bd5eed06",
+              "title": "AIPND Python  Lab  - 计算代码运行时间解决方案视频",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "ic7gqM4cnl4",
+                "china_cdn_id": "ic7gqM4cnl4.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 591355,
+          "key": "d2c2afdf-0023-4854-b8bc-138cd5ec5a6e",
+          "title": "命令行参数",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "d2c2afdf-0023-4854-b8bc-138cd5ec5a6e",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 591301,
+              "key": "70c720cd-b83e-4838-94e3-4f93b8db97f5",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# 命令行参数\n***\n## 在 ***check_images.py*** 中编写代码\n### 要修改的代码\n此部分将帮助你编写程序中的*未定义*函数 **get_input_args**。对于此函数，你将使用 argparse 获取命令行参数。\n- 编写函数定义 ```def get_input_args():```\n - 使用文档字符串，为定义 **get_input_args** 添加相应的代码\n- 在 ```main()``` 函数中以 ```#TODO: 2.``` 开头的部分添加代码\n - 添加调用函数 **get_input_args** 的相应代码\n\n### 预期结果\n\n编写完毕后，这段代码将输入用户提供的三个命令行参数。 \n\n### 检查代码\n添加一个输出命令行参数的*临时*输出语句。 \n\n测试以下内容：\n- ***不***输入任何命令行参数导致输出*默认*值。\n- 输入命令行参数的值导致输出*相应的*的值。\n\n####  Lab Workspace \n- 你可以在** Lab Workspace** 中修改 ***check_image.py***。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 591302,
+              "key": "6b8ed392-e3f8-49df-bc39-15b140aca364",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "***\n## 目的\n命令行参数的目的是使程序能够更灵活地允许程序获得外部输入（命令行参数）。关键在于这些外部参数可以改变，从而使程序具有更高的灵活性。\n\n例如，假设你编写了一个程序，该程序会计算文件中的行数并将该数字输出到屏幕上。要使用户能够进入_任何_文件，而不用更改程序，我们需要以命令行参数的形式传入文件位置。这样的话，该程序可以用在_任何_文件上，因为值在运行时作为外部输入被传入。\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 591303,
+              "key": "8ce12d21-a933-4bf9-be62-6f1608534948",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "***\n## Argparse:\n\n[Argparse](https://docs.python.org/3/library/argparse.html#module-argparse) 是一个 python 模块，借助该模块，我们可以轻松地为命令行参数编写用户友好型命令行界面。你可以在[此处](https://docs.python.org/3/howto/argparse.html)查看简单的 Argparse 教程。\n\n要使用 Argparse 模块，你首先需要在程序中导入该模块。以下是导入该模块的代码。\n```python\n# Imports argparse python module\nimport argparse\n```",
+              "instructor_notes": ""
+            },
+            {
+              "id": 591304,
+              "key": "7d100280-2604-4fa6-8744-ac86a5eae97e",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "***\n## Argparse 的用途：\n\n我们将使用 **argparse** 模块将以下外部输入输入到程序 **check_image.py** 中。我们建议编写 **get_input_args** 函数以使用 **argparse** 获取命令行参数。  \n\n以下是 **check_image.py** 程序从用户那获取输入所需的三个外部输入以及每个输入的建议_默认_值。\n\n- 包含宠物图像的文件夹\n  - *pet_images/*\n\n\n- 要使用的 CNN 模型架构\n  - *resnet*、*alexnet* 或 *vgg*（选一个作为默认值）\n\n\n- 包含有效小狗名称列表的文件 \n - *dognames.txt*\n\n&nbsp;\n\n\n**get_input_args** 函数需要使用 [argparse.ArgumentParser](https://docs.python.org/3/library/argparse.html#argparse.ArgumentParser) 创建一个参数解析器对象，然后使用 [add_argument 方法](https://docs.python.org/3/library/argparse.html#adding-arguments)以使用户能够输入上述四个外部输入。 \n\n下面是创建参数解析器对象，然后使用 **add_argument** 添加文件夹路径参数和第二个整数参数的示例。\n```python\n# Creates Argument Parser object named parser\nparser = argparse.ArgumentParser()\n\n# Argument 1: that's a path to a folder\nparser.add_argument('--dir', type = str, default = 'my_folder/', \n                    help = 'path to the folder my_folder') \n\n# Argument 2: that's an integer\nparser.add_argument('--num', type = int, default = 1, \n                    help = 'Number (integer) input') \n```\n以下是对 **add_argument** 输入的解释。\n- **参数 1**:\n - --dir = 参数的变量名（本例中是 _dir_）\n\n - type = 参数类型（本例中是字符串）\n\n - default = 默认值（本例中是 'my_folder/‘）\n\n - help = 用户输入程序名，然后输入 -h 或 --help 时出现的文本。使用户了解期望的参数值是什么\n\n- **参数 2**:\n - --num = 参数的变量名（本例中是 _num_）\n\n - type = 参数类型（本例中是整型）\n\n - default = 默认值（本例中是值 1）\n\n - help = 用户输入程序名，然后输入 -h 或 --help 时出现的文本。使用户了解期望的参数值是什么",
+              "instructor_notes": ""
+            },
+            {
+              "id": 591305,
+              "key": "000b4200-f1a4-4136-8529-1189ca2dc658",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "***\n## 访问 Argparse 参数\n\n要通过 argparse 对象访问传入程序中的参数，你需要使用 [**parse_args 方法**](https://docs.python.org/3/library/argparse.html#the-parse-args-method)。以下代码演示了如何通过扩展上述示例的 argparse 访问参数。\n\n首先，你需要为 **parse_args** 分配一个变量，然后使用该变量访问 argparse 对象的参数。如果在函数内创建 argparse 对象，需要_返回_ **parse_args**，而不是为它分配一个变量。\n```python\n# Assigns variable in_args to parse_args()\nin_args = parser.parse_args()\n\n# Accesses values of Arguments 1 and 2 by printing them\nprint(\"Argument 1:\", in_args.dir, \"  Argument 2:\", in_args.num)\n```",
+              "instructor_notes": ""
+            },
+            {
+              "id": 591306,
+              "key": "056c628a-0098-4969-aa00-dff8c7ab737a",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "***\n## 代码\n你可以在程序 [command_line_arguments.py](https://github.com/udacity/AIPND/blob/master/intropylab-classifying-images/command_line_arguments.py) 的 Github 代码库中找到此部分的代码。\n\n***\n## 解决方案视频",
+              "instructor_notes": ""
+            },
+            {
+              "id": 591307,
+              "key": "0390955e-cf94-4a0e-8475-d6eb18e58b18",
+              "title": "AIPND Python  Lab  - 命令行参数解决方案视频",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "tuBIyuPrXFY",
+                "china_cdn_id": "tuBIyuPrXFY.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 591356,
+          "key": "b269f4fa-fc20-48e5-bd23-26fc039ffd7e",
+          "title": "可变数据类型和函数",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "b269f4fa-fc20-48e5-bd23-26fc039ffd7e",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 591308,
+              "key": "3c860dd4-1860-4671-b46f-afc2d19a9244",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# 可变数据类型和函数\n*** \n在**数据类型和运算符**课程中，当我们在*列表和成员运算符*部分介绍列表时，讲解了数据类型是*可变*类型或*不可变*类型的含义。此外，我们在**函数**课程的*变量作用域*部分介绍了不可变 python 数据类型的作用域。\n\n在此视频中，我们将复习可变和不可变数据类型的定义，并详细讲解这两个类别分别包含哪些数据类型。此外，我们将介绍对于函数来说，*可变*数据类型的行为如何。这部分将帮助你更好地理解如何在函数中使用可变数据结构（例如列表和字典）。这样有助于理解如何在 **check_images** python 程序中使用各种数据结构。 \n\n***\n## 可变数据类型和函数视频",
+              "instructor_notes": ""
+            },
+            {
+              "id": 591309,
+              "key": "b686fa91-09fd-456b-9731-8497b5423b09",
+              "title": "AIPND Python Lab  - 可变数据类型和函数视频",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "LIOmuZdLymw",
+                "china_cdn_id": "LIOmuZdLymw.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 591357,
+          "key": "975c8a77-ba69-489a-b179-3a8200df6ab7",
+          "title": "创建宠物图像标签 - 第 1 部分",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "975c8a77-ba69-489a-b179-3a8200df6ab7",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 591310,
+              "key": "9d157af3-764b-419a-8bff-1b08af8f105a",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# 创建宠物图像标签 - 第 1 部分\n***\n## 在 ***check_images.py*** 中编写代码\n### 要修改的代码\n这部分将帮助你在程序中编写*未定义*函数 **get_pet_labels**。对于此函数，你将使用 *pet_images* 文件夹中的宠物图像的文件名为宠物图像创建标签。这些宠物图像标签标示宠物图像中的动物品种；因此，它们是表示图像分类“*真实结果*”的标签。\n\n- 编写函数定义 ```def get_pet_labels():``` \n - 使用文档字符串，为定义 **get_pet_labels** 添加相应的代码\n- 在 ```main()``` 函数中以 ```#TODO: 3.``` 开头的部分编写代码\n - 添加调用函数 **get_pet_labels** 的相应代码\n\n### 预期结果\n\n编写完毕后，这段代码将返回一个字典，*键*是*宠物图像文件名*，*值*是*宠物图像标签*，并为 *pet_image* 文件夹中的所有 40 个宠物图像都创建了键值对。\n\n### 检查代码\n添加一个*临时*输出语句，输出 **get_pet_labels** 函数返回的字典的前 10 个键值对，并输出该字典的长度。\n\n用肉眼检查结果表明：\n- 字典包含 40 个键值对（例如字典长度为 40）。\n- 宠物图像标签全小写，多个单词构成的宠物标签用一个空格区分每个单词，并且正确地标识了文件名。\n\n#### Lab Workspace \n- 你可以在** Lab Workspace **中修改 ***check_image.py***",
+              "instructor_notes": ""
+            },
+            {
+              "id": 591311,
+              "key": "a3a41007-5b2b-41ce-9a5a-99dbc710c220",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "***\n## 读取文件夹中的文件\n Lab Workspace 中的文件夹 **pet_images/** 包含 40 个用于测试分类器算法的图像。**pet_images/** 中的图像文件名标识了每张图像的动物。\n \n要为宠物图像创建_标签_，你需要：\n- 读取 **pet_image/** 文件夹中的所有文件的名称\n- 处理文件名以创建宠物图像标签\n- 调整宠物图像标签的格式，以便与以下内容相符：\n - 分类器函数标签\n - dognames.txt 中的小狗名称\n\n该函数的第一个任务是从文件夹中读取文件名。要完成此任务，你只需从 [os python 模块](https://docs.python.org/3/library/os.html)中导入 [listdir 方法](https://docs.python.org/3/library/os.html#os.listdir)。**listdir** 方法会从文件夹中的文件中检索所有文件名。**listdir** 会将这些文件名当做列表返回。以下代码演示了如何进行此导入和检索操作。\n```python\n# Imports only listdir function from OS module \nfrom os import listdir  \n\n# Retrieve the filenames from folder pet_images/\nfilename_list = listdir(\"pet_images/\")\n\n# Print 10 of the filenames from folder pet_images/\nprint(\"\\nPrints 10 filenames from folder pet_images/\")\nfor idx in range(0, 10, 1):\n    print(\"%2d file: %-25s\" % (idx + 1, filename_list[idx]))\n```",
+              "instructor_notes": ""
+            },
+            {
+              "id": 591312,
+              "key": "9199807a-0e15-4a64-a11a-92b02dfb4668",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "***\n## 宠物图像文件名和标签字典\n宠物图像文件名（作为键）和相关标签（作为值）应使用 python [字典](https://docs.python.org/3/tutorial/datastructures.html#dictionaries)数据结构。选择此数据结构的理由如下：\n- 字典的键值对是一个逻辑选择，因为需要使用**分类器函数**处理相同的文件名（键），并将返回的标签与宠物图像标签（值）进行对比。\n- 给定输入键后，检索相关值比从其他数据结构（例如列表）中检索值的速度要快。 \n***\n## 字典用途知识回顾\n你在**数据类型和运算符**一课的*字典和恒等运算符*部分第一次学习了字典这一概念。以下代码演示了使用 python 字典可以完成的操作，你在编写此函数时将发现这些操作很有用。\n- 创建空的字典\n- 判断字典中的条目数\n- 如果某个键尚未出现在字典中，向字典添加该键值对\n- 遍历字典，输出字典中的所有键值对 \n\n```python\n# Creates empty dictionary named pet_dic\npet_dic = dict()\n      \n# Determines number of items in dictionary\nitems_in_dic = len(pet_dic)\nprint(\"\\nEmpty Dictionary pet_dic - n items=\", items_in_dic)\n   \n# Adds new key-value pairs to dictionary ONLY when key doesn't already exist\nkeys = [\"beagle_0239.jpg\", \"Boston_terrier_02259.jpg\"]\nvalues = [\"beagle\", \"boston terrier\"]\nfor idx in range(0, len(keys), 1):\n    if keys[idx] not in pet_dic:\n         pet_dic[keys[idx]] = values[idx]\n    else:\n         print(\"** Warning: Key=\", keys[idx], \n               \"already exists in pet_dic with value =\", pet_dic[keys[idx]])\n\n#Iterating through a dictionary printing all keys & their associated values\nprint(\"\\nPrinting all key-value pairs in dictionary pet_dic:\")\nfor key in pet_dic:\n    print(\"Key=\", key, \"   Value=\", pet_dic[key])\n```",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 591358,
+          "key": "8a6f4921-a714-42ca-85cf-036511afba87",
+          "title": "创建宠物图像标签 - 第 2 部分",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8a6f4921-a714-42ca-85cf-036511afba87",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 591313,
+              "key": "58b2acda-4e94-475d-a6b1-da80c6061ec3",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# 创建宠物图像标签 - 第 2 部分\n***\n#### Lab Workspace \n- 你可以在** Lab Workspace** 中修改 ***check_image.py***。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 591314,
+              "key": "ec7d3f54-2e54-49c0-80ab-266783e0a935",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "***\n## 宠物图像文件格式和标签匹配\n正如上文所述，我们需要判断宠物图像标签和分类器标签是否匹配。要使用函数完成此匹配任务，你需要了解两种标签的格式。下文详述了用来创建宠物图像标签的宠物图像文件名的格式。\n\n### 宠物图像文件\n位于 Workspace 的 *pet_images* 文件夹中。你将在下面找到关于宠物图像的详情。以下是一些文件名示例：Basenji_00963.jpg、Boston_terrier_02259.jpg、gecko_80.jpg、fox_squirrel_01.jpg \n\n- 共 40 张宠物图像\n    - 30 张小狗图像\n    - 10 张非小狗动物图像\n- 图像的名称（标签）（**需要用于比较**）\n    - 包含大小写字母\n    - 包含描述图像的一个或多个单词（标签）\n    - 单词用下划线 (_) 分隔\n- 数字值（*不需要*）\n   - 以下划线 (_) 开头\n   - 以一系列数字 (0-9) 结束\n- 文件扩展名（*不需要*）\n  - 以点 (.) 开始\n  - 以 jpg 结尾",
+              "instructor_notes": ""
+            },
+            {
+              "id": 591315,
+              "key": "587101bd-d549-494b-9ed4-5d2b4a0529e6",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "***\n## 根据文件名创建宠物图像标签\n根据上述宠物图像文件名的详细信息，每个宠物图像名称的最佳格式为：\n- 标签全部由小写字母组成\n- 对于由多个单词组成的标签，用空格分隔每个单词\n- 删除标签前后的空格\n\n你在**数据类型和运算符**一课的*字符串*和*字符串方法*部分第一次学习了字符串数据类型。根据*上述*宠物图像文件名格式，我们可以使用字符串函数获得上述标签格式：\n\n- [**lower()**](https://docs.python.org/3/library/stdtypes.html#str.lower) - 使字母全变成小写形式。\n- [**split()**](https://docs.python.org/3/library/stdtypes.html#str.split) - 返回字符串中的单词类别，单词按照提供给 split 函数的分隔符分离（划分）。如果没有提供分隔符，则用空格分离。 \n- [**strip()**](https://docs.python.org/3/library/stdtypes.html#str.strip) - 返回删除首尾字符的字符串。如果未传入任何字符，则删除首尾的空格。\n- [**isalpha()**](https://docs.python.org/3/library/stdtypes.html#str.isalpha) - 如果字符串仅包含字母字符，则返回 true，否则返回 false。\n\n以下代码演示了如何使用上述字符串函数。 ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 591316,
+              "key": "8b4a65ea-129c-40b1-b3a8-99a0f82b2374",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "```python\n# Sets pet_image variable to a filename \npet_image = \"Boston_terrier_02259.jpg\"\n\n# Sets string to lower case letters\nlow_pet_image = pet_image.lower()\n\n# Splits lower case string by _ to break into words \nword_list_pet_image = low_pet_image.split(\"_\")\n\n# Create pet_name starting as empty string\npet_name = \"\"\n\n# Loops to check if word in pet name is only\n# alphabetic characters - if true append word\n# to pet_name separated by trailing space \nfor word in word_list_pet_image:\n    if word.isalpha():\n        pet_name += word + \" \"\n\n# Strip off starting/trailing whitespace characters \npet_name = pet_name.strip()\n\n# Prints resulting pet_name\nprint(\"\\nFilename=\", pet_image, \"   Label=\", pet_name)\n```",
+              "instructor_notes": ""
+            },
+            {
+              "id": 591317,
+              "key": "0582c17b-a7b3-4509-ac47-e526c29092d4",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "***\n## 代码\n你可以在程序 [create_pet_image_labels.py](https://github.com/udacity/AIPND/blob/master/intropylab-classifying-images/create_pet_image_labels.py) 的 Github 代码库中找到此部分的代码。\n\n***\n## 解决方案视频",
+              "instructor_notes": ""
+            },
+            {
+              "id": 591318,
+              "key": "dd26ce0e-62b1-4685-a952-b206f73aaf40",
+              "title": "AIPND Python  Lab  - 检查图像解决方案视频",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "2jaZfP7otSs",
+                "china_cdn_id": "2jaZfP7otSs.mp4"
+              }
+            },
+            {
+              "id": 620155,
+              "key": "508cd9d0-9db0-406a-973d-7b65ec2e0f76",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "备注：\n\n在上方的解决方案视频中，你可能留意到在打印语句中使用符号 % 来使得输出格式化。 在该 Lab 中并不要求格式化输出。 不过，如果你想学习打印语句中的格式化输出，可以点击该 [链接](https://github.com/udacity/AIPND/blob/master/notes/lab_intro-to-python-lab.md#formatting-print-statements) 进一步学习。 ",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 591359,
+          "key": "bf5ed954-2b29-46d3-bf6e-8a24eec439ac",
+          "title": "分类图像 - 第 1 部分",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "bf5ed954-2b29-46d3-bf6e-8a24eec439ac",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 591319,
+              "key": "18a57ade-d5e0-4c76-ad5b-4c64e034793d",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# 分类图像 - 第 1 部分\n***\n## 在 ***check_images.py*** 中编写代码\n### 要修改的代码 \n此方法将帮助你在程序中编写*未定义*函数 **classify_images**。对于此函数，你将使用分类器函数为宠物图像创建标签。此外，你会将这些分类器的标签与宠物图像标签进行比较（判断图像标识符是否正确）。最后，你将使用 **classify_images** 返回的复杂数据结构存储宠物图像标签、分类器生成的标签和标签比较结果。对于讲师解决方案，我们使用了列表字典。 \n\n- 编写函数定义 ```def classify_images():```\n - 使用文档字符串，添加定义 **classify_images** 的相应代码\n- 在 ```main()``` 函数中以 ```#TODO: 4.``` 标注的位置编写代码\n - 添加调用函数 **classify_images** 的相应代码\n\n### 预期结果\n\n编写完毕后，这段代码将返回一个列表字典，*键*是*宠物图像文件名*，*值*是 *pet_image* 文件夹中所有 40 张宠物图像的列表。该列表将包含以下条目：宠物图像标签（索引 0）、分类器标签（索引 1），以及标签比较结果（索引 2）。\n\n### 检查代码\n添加一个*临时*输出语句，使用 **classify_images** 返回的字典输出分类器标签和宠物标签匹配的*所有*情形。此外，添加另一个*临时*输出语句，使用 **classify_images** 返回的字典输出分类器标签和宠物标签不匹配的*所有*情形。建议遍历字典两次，用两个不同的群组输出匹配和不匹配的情形，这样肉眼检查起来更简单。 \n\n肉眼检查结果后表明：\n- 分类器和宠物图像标签匹配的情形*的确*匹配\n- 分类器和宠物图像标签不匹配的情形*的确*不匹配\n- *匹配数*和*不匹配数*加起来为 **40**，正好等于 *pet_images* 文件夹中的图像总数 40。\n\n#### Lab Workspace \n- 你可以在** Lab Workspace** 修改 ***check_image.py***",
+              "instructor_notes": ""
+            },
+            {
+              "id": 591320,
+              "key": "65d3201f-6377-4090-a4d5-ad5793ed4e8f",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "***\n## 分类器函数\n### *测试*分类器函数\n测试我们将用来分类宠物图像的环境和**分类器函数**。此函数位于 *classifier.py* 程序中。通过按以下说明运行 *test_classifier.py* 程序，测试你的环境。建议查看 *test_classifier.py* 程序以了解如何在 **check_images.py** 中使用**分类器函数**。\n\n1. 转到** Lab Workspace** 部分。   \n&nbsp;\n2. 打开终端。   \n&nbsp; \n3. 在命令行中输入以下命令以测试 classifier.py 程序。*柯利犬*图像应该正确地分类为**柯利犬**。\n```\npython test_classifier.py \n```\n\n### 编写 *test_classifier.py*\n查看 **test_classifier.py** 程序后将发现以下信息：\n- 分类器函数必须导入你的程序中（*已经在 **check_images.py*** 中导入了）。\n\n \n- 分类器函数有两个参数：\n - *完整的图像路径*（包括文件夹和文件名）。\n   - 文件夹和文件名存储为单独的变量，可以连接成一个字符串。\n - CNN *模型*架构\n   - 必须为 *resnet* *vgg* 或 *alexnet*\n\n要查看 ```test_classifier.py``` 的代码，请在 Workspace 中打开该程序。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 591321,
+              "key": "1bc7dd6e-d24b-4184-a91c-057a06b172db",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "***\n## 分类器标签格式\n你的函数需要能够判断宠物图像标签和分类器函数返回的标签是否匹配。为了使用函数完成此匹配任务，你需要了解分类器标签的格式。下面详述了分类器标签的格式。\n\n### 分类器标签\n位于文件 *imagenet1000_clsid_to_human.txt* 中，你将在 Workspace 中看到该文件。 \n\n其中：\n- 共有 1000 个标签\n    - 与 118 个不同的小狗品种相关联\n         - 小狗品种与 ID 相关，151：吉娃娃到 268：墨西哥无毛狗\n    - 与不是小狗的 882 张图像相关\n- 标签格式：\n    - 包含大小写字母\n    - 用一个单词标识图像\n         - 例如 *beagle*\n    - 用多个单词（以空格分隔）标识图像\n         - 例如 *German shorthaired pointer*\n    - 用几个不同的术语（用英文逗号分隔）标识相同的图像 \n         - 例如 *cocker spaniel, English cocker spaniel, cocker*\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 591322,
+              "key": "16b2c8a6-7715-4c2f-83c7-bcc3784596a2",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "***\n## 比较宠物图像标签和分类器标签\n在**创建宠物图像标签**部分，我们将宠物图像标签的格式设为：\n\n- 标签全小写\n- 对于由多个单词组成的标签，用空格区分每个单词\n- 去除标签首位的空格\n- 示例：\n - beagle \n - cocker spaniel\n - polar bear\n\n查看上述分类器标签格式后，你唯一需要处理的是将所有字母变成小写形式，并去除首尾的所有空格。如果标签是由一系列用逗号分隔的术语构成的，你需要使用 [**find()**](https://docs.python.org/3/library/stdtypes.html#str.find) 函数。宠物图像标签始终只有一个术语（即使该术语由多个单词构成）；因此，如果你在术语列表中**发现**构成分类器标签的一个术语，那么存在匹配项。  \n\n需要注意的一点是，有时候 **find** 函数会指明完全不存在的标签匹配项。如果宠物图像标签是一个很短的字符串，属于另一个术语的一部分时，就会发生这种情况。  \n\n***注意***：对于我们的 Lab 来说，这种情况*很罕见*，其中 ```find() >= 0``` 没有生成*真正的*匹配。但是为了正确地处理*所有* Lab 图像，并能够将你的程序用于其他不包含在 Lab 之内的图像，你需要相应地调整你的函数代码。 \n\n```find() >= 0``` 不是匹配项的示例：\n- cat_07.jpg 具有标签 ***cat***，它匹配以下分类器标签：*skunk, pole**cat**, wood pussy* and *lynx **cat**amount*  -- 但是它们并不匹配。\n- ***fox*** 匹配以下分类器标签：*Walker hound, Walker **fox**hound* and *English **fox**hound* -- 但是它们也并不匹配。\n\n要处理上述情形，即*发现了*宠物图像标签，但是并不匹配，你需要在确定 ```find() >= 0``` 之后添加一个条件语句，筛选出*真正*匹配的情形。为了帮助你完成此任务，我们在下面提供了两种*真正*匹配情形的*伪代码*。*伪代码*是使用英语和非正式编程语法对程序或算法操作的概括性描述。\n\n**真正**匹配的项：\n- 一个术语：\n - 发现的索引为 0 ***以及*** \n - 宠物图像标签的长度与分类器标签的长度相符\n   - *伪代码*：\n```\nfound_idx == 0 and len(pet_label) == len(classifier_label)\n```\n- 多个术语：\n - 发现的术语从索引 0 处开始，***或者***在开始*之前*具有空值 \n - ***以及*** \n - 发现的术语在分类器标签的结尾处结束，***或者***在发现的术语的最后一个字母*之后*具有空格或逗号\n - *伪代码*：\n```\n( (found_idx == 0) or (classifier_label[found_idx - 1] == \" \") )  \n and\n (  ( found_idx + len(pet_label) == len(classifier_label) ) or   \n    ( classifier_label[found_idx + len(pet_label) :found_idx + len(pet_label) +1]\n       in  (\" \",\",\") )  ) \n```\n\n你在**数据类型和运算符**一课的*字符串*和*字符串方法*部分第一次学习了字符串数据类型。为了完成这些格式设定和匹配任务，你需要使用以下字符串函数：\n\n- [**lower()**](https://docs.python.org/3/library/stdtypes.html#str.lower) - 使字母全变成小写形式。\n- [**strip()**](https://docs.python.org/3/library/stdtypes.html#str.strip) - 返回删除首尾字符的字符串。如果未传入任何字符，则删除首尾的空格。\n- [**find()**](https://docs.python.org/3/library/stdtypes.html#str.find) - 返回从字符串中找到子字符串（作为输入提供给函数）的最小索引。如果未发现该子字符串，返回值 -1。\n- [**len()**](https://docs.python.org/3/library/stdtypes.html#common-sequence-operations) - 返回字符串的长度。\n- [**string slicing**](https://docs.python.org/3/library/stdtypes.html#common-sequence-operations) - 使其能够返回字符串的某个部分。",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 591360,
+          "key": "b943be5b-8486-4a94-a510-bde7357bf50f",
+          "title": "分类图像 - 第 2 部分",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "b943be5b-8486-4a94-a510-bde7357bf50f",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 591323,
+              "key": "ef6b8e4b-77d2-4692-bd80-d27fa928f2d0",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# 分类图像 - 第 2 部分\n***\n#### Lab Workspace \n- 你可以在** Lab Workspace** 中修改 ***check_image.py***。\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 591324,
+              "key": "d705b4f4-c86a-4b8c-a3e3-4e6d46928f47",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "***\n## 结果的数据结构\n### 复合数据结构\n你在**数据类型和运算符**一课的*字典和恒等运算符*部分第一次学习了字典这一概念。**get_pet_labels** 函数返回一个字典，*键*为文件名，*值*为宠物图像标签。对于 **classify_images** 函数，你将创建一个复合数据结构以返回结果（每个文件名的标签和比较结果）。\n\n你在**数据类型和运算符**一课的*复合数据结构*部分第一次学习了复合数据结构。在*复合数据结构*中，你创建并使用嵌套字典来存储元素信息。此函数使用的复合数据结构将是列表（*值*）字典，而不是字典（*值*）字典。对于此函数，你也可以使用嵌套字典，但是讲师提供的解决方案将使用列表字典。\n\n选择该数据结构的原因是：\n- 使用索引值更容易访问列表元素 \n- 可以使用 [sum()](https://docs.python.org/3/library/functions.html#sum) 函数和 [slicing](https://docs.python.org/3/tutorial/introduction.html#lists) 快速分类结果\n\n### 计算结果\n对于此函数，你需要输入 *petlabel_dic* 字典，其中*键*为*文件名*，值为*宠物图像标签*。你需要遍历该字典，使用**分类器函数**处理每个宠物图像（文件名），以获取分类器标签。接着，你需要比较宠物图像和分类器标签，判断它们是否匹配。最后，你需要将结果添加到此函数返回的字典 (*results_dic*) 中。\n\n防止 **classify_images** 出现问题的编程建议：\n- 在函数的开头（在遍历 *petlabels_dic* 之前）将结果字典 (*results_dic*) 创建为空字典\n- 对于**分类器函数**，确保将 *images_dir* 与*文件名*相连，表示每个宠物图像文件的*完整*路径。\n- 使分类器图表全小写，去除标签首尾的空格。\n- 确保筛选*真正的*匹配项*（请参阅上述部分）*。\n- ***results_dic*** 格式将如下：\n - *键* = 宠物图像文件名（例如 Beagle_01141.jpg）\n - *值* = 满足以下条件的列表：\n   - 索引 0 = 宠物图像标签（例如 beagle）\n   - 索引 1 = 分类器标签（例如 english foxhound）\n   - 索引 2 = 0/1，其中 1 = 标签匹配，0 = 标签不匹配（例如 0）\n - example_dictionary = {'Beagle_01141.jpg': ['beagle', 'english foxhound', 0]}\n- 要*初始化* *results_dic* 中的键，使用*赋值*运算符 ( = ) 分配列表的值。\n- 要在 *results_dic* 中向该列表添加**现有**的*键*，使用 *+=* 运算符或 *append* 函数向该列表附加值。\n \n要详细了解如何使用列表字典，请参阅以下示例代码。该代码演示了*初始化*键值对和向列表中添加*现有*键值对的区别。该代码还演示了如何遍历列表字典，以访问列表中的每个元素。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 591325,
+              "key": "c3fe06cf-538e-4814-9c07-2e78b89ec22b",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "```python\n# Defining lists to populate dictionary \nfilenames = [\"Beagle_01141.jpg\", \"Beagle_01125.jpg\", \"skunk_029.jpg\" ]\npet_labels = [\"beagle\", \"beagle\", \"skunk\"]\nclassifier_labels = [\"walker hound, walker foxhound\", \"beagle\",\n                     \"skunk, polecat, wood pussy\"]\npet_label_is_dog = [1, 1, 0]\nclassifier_label_is_dog = [1, 1, 0]\n\n# Defining empty dictionary\nresults_dic = dict()\n    \n# Populates empty dictionary with both labels &indicates if they match (idx 2)\nfor idx in range (0, len(filenames), 1):\n    # If first time key is assigned initialize the list with pet & \n    # classifier labels\n    if filenames[idx] not in results_dic:\n        results_dic[filenames[idx]] = [ pet_labels[idx], classifier_labels[idx] ]\n \n    # Determine if pet_labels matches classifier_labels using find() string \n    # function - so if pet label is found within classifier label it's a match\n    found = classifier_labels[idx].find(pet_labels[idx])\n        \n    # Key already exists because labels were added, append value to end of\n    # list for idx 2 \n    # if pet image label was FOUND then there is a match \n    if found >= 0:\n        results_dic[filenames[idx]] += [ 1 ]\n            \n    # if pet image label was NOT found then there is no match\n    else:\n        results_dic[filenames[idx]] += [ 0 ]\n\n# Populates dictionary with whether or not labels indicate a dog image (idx 3&4)\nfor idx in range (0, len(filenames), 1):\n    # Key already exists, append value to end of list for idx 3 & 4\n    # can use append() function instead of += to append to end of a list\n    results_dic[filenames[idx]].append(pet_label_is_dog[idx])\n    results_dic[filenames[idx]].append(classifier_label_is_dog[idx])\n        \n# Iterates through the list to print the results for each filename\nfor key in results_dic:\n    print(\"\\nFilename=\", key, \"\\npet_image Label=\", results_dic[key][0],\n          \"\\nClassifier Label=\", results_dic[key][1], \"\\nmatch=\",\n          results_dic[key][2], \"\\nImage is dog=\", results_dic[key][3],\n          \"\\nClassifier is dog=\", results_dic[key][4])                        \n\n    # Provides classifications of the results\n    if sum(results_dic[key][2:]) == 3:\n        print(\"*Breed Match*\")\n    if sum(results_dic[key][3:]) == 2:\n        print(\"*Is-a-Dog Match*\")\n    if sum(results_dic[key][3:]) == 0 and results_dic[key][2] == 1:\n        print(\"*NOT-a-Dog Match*\")\n```",
+              "instructor_notes": ""
+            },
+            {
+              "id": 591326,
+              "key": "79c22c75-2f83-497a-bec6-60dd80f1ac85",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "***\n## 代码\n你可以在程序 [data_structure.py](https://github.com/udacity/AIPND/blob/master/intropylab-classifying-images/data_structure.py) 的 Github 代码库中找到此部分的代码。此外，该代码库还具有 [test_classifier.py](https://github.com/udacity/AIPND/blob/master/intropylab-classifying-images/test_classifier.py) 程序，它也位于你的 Lab  Workspace 中。\n\n***\n## 解决方案视频",
+              "instructor_notes": ""
+            },
+            {
+              "id": 591327,
+              "key": "72a92b0a-5291-4f38-8980-752931e01371",
+              "title": "AIPND Python  Lab  - 分类图像解决方案视频",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "sBbY6HmJG9M",
+                "china_cdn_id": "sBbY6HmJG9M.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 591361,
+          "key": "356e8d82-0ba2-49d4-b846-867a343764e7",
+          "title": "将标签分类为小狗",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "356e8d82-0ba2-49d4-b846-867a343764e7",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 591328,
+              "key": "a883306a-0387-4039-80aa-041e56aca3e9",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# 将标签分类为小狗\n***\n## 在 ***check_images.py*** 中编写代码\n### 要修改的代码 \n此部分将帮助你在你的程序中编写*未定义*函数 **adjust_results4_isadog**。对于此函数，你将读取 Workspace 中的 *dognames.txt* 文件，创建一个数据结构（字典）来存储有效小狗名称、将小狗名称与结果字典 (*resutlts_dic*) 中的分类器标签和宠物图像标签进行比较，调整结果字典以考虑分类器标签和宠物图像标签何时就图像是“小狗”或“非小狗”达成一致。注意，**adjust_results4_isadog** 函数将更改结果字典，但是因为字典是可变的，因此你无需返回此字典（要了解详细原因，请复习*可变数据类型和函数*部分）。\n\n- 编写函数定义 ```def adjust_results4_isadog():``` \n - 使用文档字符串，为定义 **adjust_results4_isadog** 添加相应的代码\n- 在 ```main()``` 函数中以 ```#TODO: 5.``` 开头的部分添加代码\n - 添加调用函数 **adjust_results4_isadog** 的相应代码\n\n### 预期结果\n\n编写完毕后，这段代码将更改结果字典（一个列表字典），将*键*设为*宠物图像文件名*，*值*设为 *pet_image* 文件夹中的所有 40 个宠物图像的列表。每个*键*列表现在将包含另外两项：宠物图像标签是小狗（索引 3）和分类器标签是小狗（索引 4）。\n\n### 检查代码\n添加*临时*输出语句，使用 **adjust_results4_isadog** 返回的字典输出分类器标签和宠物图像标签匹配的情形。此外，添加其他*临时*输出语句，使用 **adjust_results4_isadog** 返回的字典输出分类器标签和宠物标签*不匹配*的*所有*情形。建议遍历字典两次，用两个不同的群组输出匹配和不匹配的情形，这样肉眼检查起来更简单。 \n\n肉眼检查结果后表明：\n- 分类器标签和宠物图像标签匹配的情形都将两种标签相应地分类为“小狗”或“非小狗”\n- 分类器标签和宠物图像标签不匹配的情形分别将每个标签正确地分类为“小狗”或“非小狗”\n- *匹配数*和*不匹配数*加起来为 **40**，正好等于 *pet_images* 文件夹中的图像总数 40。\n\n#### Lab Workspace \n- 你可以在** Lab Workspace** 修改 ***check_image.py***。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 591329,
+              "key": "eaaae248-a412-48ec-b273-3c4ed65d5ecd",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "***\n## **定义：**通过查看小狗名称文件判断“是小狗”/“不是小狗”\n\n### 回忆主要目标 _1_ 和 _2_：\n1. 正确标识哪些宠物图像是小狗图像（即使品种分类错误），哪些宠物图像不是小狗图像（无论图像是否分类正确）。  \n&nbsp;\n2. 针对小狗图像正确判断小狗品种。 \n&nbsp; \n\n要实现目标 _1_ 和 _2_，程序要能够判断分类器函数和宠物图像中的标签为“_是小狗_”或“_不是小狗_”。要能够将标签分类为“_是小狗_”或“_不是小狗_”，程序需要将标签与 Workspace 中的 **dognames.txt** 文件包含的小狗列表进行比较。  \n\n该 **dognames.txt** 文件根据格式化的标签（全小写、去除首尾空格等）创建而成。因此，在将*小狗名称*（来自 dognames.txt）与你的*标签*比较时：\n- 如果*小狗名称*与*标签*匹配，则标签为“**是小狗**” \n- 如果*小狗名称*与*标签*不匹配，则标签为“**不是小狗**” \n\n### 关于 _dognames.txt_ 的详情:\n\n其中：\n- 每行一个狗品种名称\n- 有 210 个狗品种名称\n- 来自分类器函数和宠物图像标签的所有可能狗品种\n- _分类器函数标签：_ \n - 第 **1** 行（吉娃娃）到第 **118** 行（墨西哥无毛犬），应该与分类器返回的标签匹配，只要这些标签_全_小写，并且去除了首尾的空格。\n- _宠物图像标签：_ \n - 应该匹配以下行，只要标签_全_小写，首尾空格已去除，并且如果小狗名称由多个单词组成，则用一个空格区分单词。主要是第 **119** 行（猴绠）到第 **210** 行（墨西哥无毛犬）。其次是第 **1** 行（吉娃娃）到第 **118** 行（墨西哥无毛犬），具有单个狗名标签（例如 great dane 或 beagle）。\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 591330,
+              "key": "8689d2a6-f167-477b-9209-5f78b7e11aef",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## 读取 Dogsname.txt\n\n**adjust_results4_isadog** 的第一项任务是读取所有_小狗名称_并将它们存储在一种数据结构中。根据上述详情，_小狗名称_的最理想数据结构是字典，键是_小狗名称_，值是 1（任意值）。理由是字典的查询速度很快。因为我们知道如果有匹配项的话，标签应该与_小狗名称_完全匹配；我们可以直接将标签当做键在小狗名称字典中查询，发现为_小狗_的所有标签。如果在小狗名称字典中没有找到标签键，那么我们知道该标签_不是_小狗。\n\n**脚本编写**一课的*读写文件*部分介绍了如何打开文件和读取文件信息。如果你从 *dognames.txt* 中读取小狗名称时遇到问题，请复习此部分。\n\n防止 **adjust_results4_isadog** 出现问题的编程建议：\n- 在打开以读取 *dognames.txt* 文件之前定义 *dognames_dic*\n- 使用 [**rstrip()**](https://docs.python.org/3/library/stdtypes.html#str.rstrip) 去除从 *dognames.txt* 读取的每行中的换行符  \n- 如果某个*小狗名称*已经存在于 *dognames_dic* 中，输出一条**警告**语句，因为不应在 *dognames.txt* 中发现任何重复的*小狗名称*",
+              "instructor_notes": ""
+            },
+            {
+              "id": 591331,
+              "key": "9d703dbf-5b82-4fb0-9a90-8cfeba254d86",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "***\n## 调整结果字典\n将*小狗名称*读取到 *dognames_dic* 中后，你需要调整结果字典 (*results_dic*)，考虑标签何时正确/错误地分类为小狗。\n\n复习*将标签分类为小狗*部分，了解如何遍历结果字典，以将值附加到结果字典中每个*键*的*值*列表中。如果你想同时附加两种值，则需要使用 [**extend**](https://docs.python.org/3.1/tutorial/datastructures.html) 列表函数同时将**索引 3** 和**索引 4** 添加到 *results_dic* 中。\n\n**results_dic** 将具有以下***调整后***格式：\n - *键* = 宠物图像文件名（例如 Beagle_01141.jpg）\n - *值* = 满足以下条件的列表：\n   - 索引 0 = 宠物图像标签（例如 beagle）\n   - 索引 1 = 分类器标签（例如 english foxhound）\n   - 索引 2 = 0/1，其中 1 = 标签匹配，0 = 标签不匹配（例如 0）\n   - ***索引 3*** = 0/1，其中 1= 宠物图像标签是小狗，0 = 宠物图像不是小狗（例如 1）\n   - ***索引 4*** = 0/1，其中 1= 分类器标签是小狗，0 = 分类器标签不是小狗（例如 1）\n - example_dictionary = {'Beagle_01141.jpg': ['beagle', 'walker hound, walker foxhound', 0, 1, 1]}\n\n***\n## 解决方案视频\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 634560,
+              "key": "995a2ece-6086-42ce-96de-100688b4ae36",
+              "title": "Aipnd Pythonlab Adjust4dogs Solutions",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "bortCdSZAjg",
+                "china_cdn_id": "bortCdSZAjg.mp4"
+              }
+            },
+            {
+              "id": 620156,
+              "key": "a01f526f-05b7-4955-b41c-1c3ed672ad2c",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "#### 备注：\n\n 在视频 2：56 处展现的代码```results_dic[key].extend((0, 0))```  是正确的。 ",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 591362,
+          "key": "84ffc3fd-282d-41e7-8199-7e211e37884c",
+          "title": "计算结果",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "84ffc3fd-282d-41e7-8199-7e211e37884c",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 591333,
+              "key": "df143564-114a-4520-890a-097af9b27598",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# 计算结果\n***\n## 在 ***check_images.py*** 中编写代码\n### 要修改的代码 \n此部分将帮助你在你的程序中编写*未定义*函数 **calculates_results_stats**。对于此函数，你将输入 *results_dic*（来自 **adjust_results4_isadog** 的列表字典）创建结果统计信息字典 (*results_stats*)。此结果统计信息字典将仅包含*统计量的名称*作为*键*，*值*将为*统计量的数字值*。\n \n你将在 **calculates_results_stats** 中创建 *results_stats* 字典，因此我们建议你在函数的第一行创建此字典，并在函数的最后一行返回值。要详细了解为何函数返回了此字典，请复习*可变数据类型和函数*部分。\n\n- 编写函数定义 ```def calculates_results_stats():``` \n - 使用文档字符串，为定义 **calculates_results_stats** 添加相应的代码\n- 在 ```main()``` 函数中以 ```#TODO: 6.``` 开头的部分编写代码\n - 添加调用函数 **calculates_results_stats** 的相应代码\n\n### 预期结果\n\n编写完毕后，这段代码将能够提供用于回答此 Lab 目标的计数和百分比值。*results_stats* 字典提供的百分比将回答目标 1 和 2。计数将用于计算百分比。 \n\n### 检查代码\n\n添加使用 *results_dic* 计算以下值的*临时*代码：\n- **计数**：\n - 图像数量\n - 小狗图像数量\n - 非小狗图像数量\n- **百分比**:\n - 正确分类的小狗图像所占百分比\n - 正确分类的非小狗图像所占百分比\n - 品种分类正确的小狗图像所占百分比\n\n用肉眼检查确保此*临时*代码的六个统计量结果与使用 **calculates_results_stats** 计算的结果匹配，方法是检查确保 *results_stats* 中的统计量与这些值匹配。\n\n#### Lab Workspace \n- 你可以在* Lab Workspace* 中修改 ***check_image.py***。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 591334,
+              "key": "885f09bd-9cad-4918-b48b-4e025bb4348c",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "***\n## 定义百分比以总结结果\n\n### 回忆主要目标 _1_ 和 _2_：\n1. 正确标识哪些宠物图像是小狗图像（即使品种分类错误），哪些宠物图像不是小狗图像（无论图像是否分类正确）。 \n&nbsp;\n2. 针对小狗图像正确判断小狗品种。   \n&nbsp; \n\n要实现目标 _1_ 和 _2_，程序需要能够根据比较 *results_dic* 中包含的标签得出的结果计算以下百分比：\n\n**results_dic** 将具有以下格式：\n - *键* = 宠物图像文件名（例如 Beagle_01141.jpg）\n - *值* = 满足以下条件的列表：\n   - 索引 0 = 宠物图像标签（例如 beagle）\n   - 索引 1 = 分类器标签（例如 english foxhound）\n   - 索引 2 = 0/1，其中 1 = 标签匹配，0 = 标签不匹配（例如 0）\n   - ***索引 3*** = 0/1，其中 1= 宠物图像标签是小狗，0 = 宠物图像不是小狗（例如 1）\n   - ***索引 4*** = 0/1，其中 1= 分类器标签是小狗，0 = 分类器标签不是小狗（例如 1）\n - example_dictionary = {'Beagle_01141.jpg': ['beagle', 'walker hound, walker foxhound', 0, 1, 1]}\n\n你需要将这些计算结果（计数和百分比）存储在 *results_stats* 字典中。我们建议在统计量的名称（*键*）中针对所有计数（例如 *n_*）和百分比（例如 *pct_*）使用相同的前缀，以便更轻松地针对每组输出所有条目。\n\n**results_stats** 将具有以下格式：\n- *键* = 统计量的名称（例如 n_correct_dogs、pct_correct_dogs、n_correct_breed、pct_correct_breed）\n- *值* = 统计量的值（例如 30、100%、24、80%）\n- example_dictionary = {'n_correct_dogs': 30, 'pct_correct_dogs': 100.0, 'n_correct_breed': 24, 'pct_correct_breed': 80.0}",
+              "instructor_notes": ""
+            },
+            {
+              "id": 591335,
+              "key": "1d119c8f-140b-46f3-9091-c3af2095193f",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "***\n## 通过 *results_dic* 计算并输入到 *results_stats* 中的计数\n- **Z**：图像数量\n - *results_dic* 的长度，因为文件名 = 键\n- **A**：小狗匹配正确的数量\n - 两个标签都是小狗：*results_dic*[key][3] = 1 及 *results_dic*[key][4] = 1\n- **B**：小狗图像的数量\n -  宠物标签是小狗：*results_dic*[key][3] = 1\n- **C**：正确非小狗匹配项的数量\n - 两个标签都不是小狗：*results_dic*[key][3] = 0 及 *results_dic*[key][4] = 0\n- **D**：非小狗图像的数量\n -  图像数量 - 小狗图像数量 --或者-- \n - 宠物标签不是小狗：*results_dic*[key][3] = 0\n- **E**：正确品种匹配项的数量 \n - 宠物标签是小狗并且标签匹配：*results_dic*[key][3] = 1 及 *results_dic*[key][2] = 1\n-（*可选*）**Y**：标签匹配项的数量\n - 标签匹配：*results_dic*[key][2] = 1\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 591336,
+              "key": "f7f2a8d4-043b-4d7a-875a-f14bb9258351",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "***\n## 计算 *results_stats* 中的计算摘要百分比\n - **目标 _1_**：正确分类的小狗图像所占百分比\n   - **A**：正确分类的_小狗_图像数量\n   - **B**：_小狗_图像数量\n   - 正确分类为_小狗_的图像所占百分比：**A**/**B** * 100\n\n - **目标 _1_**：正确分类的非小狗图像所占百分比\n   - **C**：正确分类的_非小狗_图像数量。\n   - **D**：_非小狗_图像数量\n   - 正确分类为_非小狗_的图像所占百分比：**C**/**D** * 100\n\n - **目标 _2_**：正确分类的小狗品种所占百分比\n   - **E**：正确分类为特定品种的_小狗_图像数量。\n   - **B**：_小狗_图像数量   \n   - 正确分类的_小狗_品种图像所占百分比：**E**/**B** * 100\n\n - (*可选*）百分比标签匹配数（无论是否为小狗）\n   - **Y**：标签匹配数量\n   - **Z**：图像数量\n   - 正确匹配的图像所占百分比（无论是否为小狗）：**Y**/**Z** * 100\n\n**重要事项**：\n- 在遍历 *results_dic* 之前，你需要将所有计数初始化为 0，如果满足特定的条件，你需要将这些计数器加 1。\n\n\n- 百分比（以及图像总数）可以通过计数生成（请参阅上述百分比和计数计算方法）；因此，应该在遍历字典 (*results_dic*) 并计算计数*之后*计算这些值。 \n\n\n- 在计算正确分类的非小狗图像所占百分比时，使用条件语句检查 **D**（非小狗图像的数量）大于 0。为了避免除以 0，仅在 **D** 大于 0 时才计算 **C**/**D** * 100；否则直接设为 0。这样程序日后将能处理无人提交非小狗图像的情形。\n\n\n- 因为 *results_stats* 是在函数内创建的，并且是可变对象，你需要在函数结束时*返回*它的值（请参阅*可变数据类型和函数*部分）。 \n\n***\n## 解决方案视频",
+              "instructor_notes": ""
+            },
+            {
+              "id": 634549,
+              "key": "a990f338-a367-48e2-b642-077702dce107",
+              "title": "Aipnd Pythonlab Calculateresults Solution [HD 720p]",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "z-2OTgf7uHw",
+                "china_cdn_id": "z-2OTgf7uHw.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 591363,
+          "key": "fb04a0bb-686d-4dbb-824f-92e5eae443c8",
+          "title": "输出结果",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "fb04a0bb-686d-4dbb-824f-92e5eae443c8",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 591338,
+              "key": "162327e2-f2f5-4fb6-8bb9-9f943041f0d0",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# 输出结果\n***\n## 在 ***check_images.py*** 中编写代码\n### 要修改的代码 \n此部分将帮助你在你的程序中编写*未定义*函数 **print_results**。对于此函数，你将输出 *results_dic* (**adjust_results4_isadog** 中的列表字典）和结果统计字典（来自 **calculates_results_stats** 的 *results_stats*），以输出结果摘要。因为此函数使我们能够输出分类错误的小狗和分类错误的小狗品种列表，我们需要包含 *results_dic*。  \n \n- 编写函数定义 ```def print_results():``` \n - 使用文档字符串，为定义 **print_results** 添加相应的代码\n- ```在 ```main()``` 函数中以 ```#TODO: 7.``` 开头的部分编写代码\n - 添加调用函数 **print_results** 的相应代码\n\n### 预期结果\n\n编写完毕后，这段代码将输出用于回答此 Lab 的目标 1 和 2 的结果摘要。 \n\n### 检查代码\n\n你需要运行完成的程序并用肉眼检查以下各项：\n- 运行程序后，正确地输出了统计量和计数并且设定了正确的格式。*计算结果*的*代码检查*部分的结果应该与 6 个统计量输出的结果匹配。\n- 在函数调用中保留两个默认参数，不输出分类错误的结果（预期的默认行为）\n- 在函数调用中为两个默认参数添加值 *True*，输出分类错误的结果（预期的行为）\n\n### 最后一次运行程序\n当程序能正常运行并且你对程序满意时，使用批处理（请参阅下面的*批处理*部分）针对所有*三个* CNN 模型架构运行程序。你将使用这些结果与下个部分（**结果**）中的结果进行比较。\n\n\n#### Lab Workspace \n- 你可以在 ** Lab Workspace** 中修改 ***check_image.py***。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 591339,
+              "key": "7d822c50-b345-4408-a8e8-9d8052fbe678",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "***\n## 输出结果\n\n首先要输出的是一个概括性语句，表示针对三个 CNN 模型架构中的哪个架构。你应该传入输入参数 *model*，以便输出这些信息。\n\n接着，你需要针对三个 CNN 模型架构都输出以下三项的计数。可以通过在输出语句中使用相应的键来调用这些计数。\n- 图像数量\n- 小狗图像数量\n- 非小狗图像数量\n\n最后，你将遍历 *results_stats* 字典并输出统计量的名称和所有百分比的值（例如以字母“*p*”开头的键）。之前我们建议你为所有百分比统计量设定相同的前缀（例如 *pct_*），以便以一个群组的形式输出它们。\n\n百分比计算结果：\n- 正确的小狗图像所占百分比\n- 正确的品种图像所占百分比\n- 正确的非小狗图像所占百分比\n- 匹配项所占百分比（*可选* - 包括小狗图像和非小狗图像）",
+              "instructor_notes": ""
+            },
+            {
+              "id": 591340,
+              "key": "a945949b-e962-4b1a-9ac4-bfee8c28fcef",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "***\n## （*可选*）输出分类错误的项\n此函数使我们能够*选择*输出*小狗*和*品种*分类错误的情形。讲师提供的解决方案中添加了此可选功能，但是你可以选择在自己的解决方案中忽略此功能。 \n\n此可选功能旨在改善代码的调试性能。此外，此功能使我们能够判断是否有一些每种算法都很难判断的小狗品种。\n\n***\n### 分类错误函数的默认参数\n函数 **print_results** 包含两个默认参数，用于输出分类错误的*小狗*和*品种*。在*函数*一课的“定义函数”部分，你第一次学习了默认参数。\n\n**默认参数**：\n- *print_incorrect_dogs* - 默认为 *False*\n- *print_incorrect_breed* - 默认为 *False*\n\n#### 目的\n\n默认参数的目的可能如下：\n- 为函数提供范围更广的行为，无需编写多个（相似的）函数。\n- 保证某些参数在函数中始终赋了值。\n- 为函数提供默认行为。\n\n***\n### 分类错误的小狗\n如果两个标签对于图像是否为小狗的结论不一致，那么标签的小狗分类结果不正确。\n\n在遍历 *results_dic* 以查找小狗分类错误的情形前，你必须使用条件语句检查用户是否*希望*输出分类错误的小狗以及*出现了*分类错误的小狗。\n\n这项检查发生在以下情形：\n - 用户想要输出分类错误的情形：\n   - *print_incorrect_dogs* == True \n - 有一些分类错误的小狗：\n   - n_correct_dogs + n_correct_notdogs != n_images\n     \n&nbsp;\n  \n如果检查结果为 *True*，则在以下情形时输出分类错误的小狗对应的宠物图像和分类器标签：\n -  关于图像是否为“小狗”，标签不一致\n   - sum(results_dic[key][3:]) == 1 \n\n***\n### 小狗品种分类错误\n当两个标签都表示图像是小狗，但是关于小狗的品种观点不一致，这种情况就属于小狗品种分类错误的情形。\n\n在遍历 *results_dic* 以查找品种分类错误的情形前，你必须使用条件语句检查用户是否*希望*输出品种分类错误的情形以及*出现了*品种分类错误的情形。\n\n这项检查发生在以下情形：\n - 用户想要输出分类错误的情形：\n   - *print_incorrect_breed* == True \n - 有一些品种分类错误了：\n   - n_correct_dogs != n_correct_breed\n    \n&nbsp;\n  \n如果检查结果为 *True*，则在以下情形时输出分类错误的品种对应的宠物图像和分类器标签：\n - 标签对图像是小狗这一观点保持一致，但是对小狗的品种保持不一致\n   - sum(results_dic[key][3:]) == 2 及 results_dic[key][2] == 0 ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 591341,
+              "key": "50a7b74c-243f-4252-ac07-1e62290a3911",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "***\n## 批处理\n你已经完成了 check_images.py 的代码编写过程，可以在所有三个模型上运行该程序了。一种方式是在终端窗口中针对其中一个模型运行该程序，直到程序运行完毕，记录结果，然后为其他两个模型重复相同的流程。\n\n一种更简单的处理方式是使用 shell 脚本进行批处理。对于这道练习，你将在 Workspace 找到 bash 程序 **run_models_batch.sh**。打开该文件后，你将发现以 # 开头的注释，和 python 一样，剩余的内容和你在终端窗口中运行程序时输入的命令一样（请参阅以下代码）。\n```bash\n#  Code from run_models_batch.sh \npython check_images.py --dir pet_images/ --arch resnet  --dogfile dognames.txt\n     > resnet.txt\npython check_images.py --dir pet_images/ --arch alexnet  --dogfile dognames.txt  \n     > alexnet.txt\npython check_images.py --dir pet_images/ --arch vgg  --dogfile dognames.txt \n     > vgg.txt\n```\n你还将发现，每个文件以 *> filename.txt* 结束。*>* 是一个管道，负责将输出从控制台传输到文件中。该文件包含被使用的模型的文件名。这样的话，每次运行过后，结果会自动存储到你的 Workspace 。\n\n要在 Workspace 运行文件 **run_models_batch.sh**，打开终端窗口并输入以下内容：   \n```terminal\nsh run_models_batch.sh\n```\n使用 ```run_models_batch.sh``` 运行所有三个模型后（在 windows 系统中使用 ```run_models_batch.bat```），将这些结果与下个部分**总结**中的结果进行比较。\n\n***\n## 解决方案视频",
+              "instructor_notes": ""
+            },
+            {
+              "id": 591342,
+              "key": "b492eb7a-61db-4953-92b0-155222cdb256",
+              "title": "AIPND Python Lab - 输出结果解决方案视频",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "XRnoQry3ubU",
+                "china_cdn_id": "XRnoQry3ubU.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 591364,
+          "key": "b491274a-fc29-4f3e-b6db-be42b5f84a42",
+          "title": "结果",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "b491274a-fc29-4f3e-b6db-be42b5f84a42",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 591343,
+              "key": "a9b7255a-eb1a-40b6-b42d-1eb3790639a5",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "***\n# 结果\n我们在此部分提供了针对所有*三个* CNN 模型架构运行 **check_images.py** 的结果。请将这些结果与你在*输出结果*部分运行 *run_models_bacth.sh* 后程序生成的结果进行比较。我们还讨论了 **check_images.py** 如何处理此 Lab 的四个主要目标。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 591344,
+              "key": "371b9754-98c4-4cd6-a7d2-aa380ef9da3f",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "***\n## 主要目标\n你将在下面找到主要目标、结果摘要以及关于 **check_images.py** 如何实现这四个目标的讨论。\n\n### 主要目标\n1. 正确标识哪些宠物图像是小狗图像（即使品种分类错误），哪些宠物图像不是小狗图像（无论图像是否分类正确）。\n&nbsp;\n2. 针对小狗图像正确判断小狗品种。  \n&nbsp;\n3. 判断哪个 CNN 模型架构（ResNet、AlexNet 或 VGG）“__最能__”实现目标 _1_ 和 _2_。  \n&nbsp;\n4. 思考最能实现目标 _1_ 和 _2_ 所需的*时间*，并判断对于每个算法运行所花费的时间，是否有替代解决方案能够实现“_不错_”的结果。\n\n***\n## 目标 1 和 目标 2\n你的程序在运行时应该实现了目标 *1* 和 *2*。在下面的表格中，你将发现对于每个 CNN 模型架构，我们的结果如何。你的程序得出的结果和我们在下面提供的应该一样。\n\n对于目标 1，注意 *VGG* 和 *AlexNet* 始终都能够正确地将图像标识为“小狗”或“非小狗”。但是对于目标 2，*VGG* 提供了最佳解决方案，因为超过 90% 的情况下它都能正确分类小狗品种，效果比 *AlexNet* 或 *ResNet* 要好。\n\n***\n## 结果表格  \n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 591345,
+              "key": "ce856fd4-ccf4-4d20-9d85-cdb465f9486a",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/March/5aa84e54_aipnd-intropythonlab-results/aipnd-intropythonlab-results.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/ce856fd4-ccf4-4d20-9d85-cdb465f9486a",
+              "caption": "** Lab 结果**",
+              "alt": "",
+              "width": 645,
+              "height": 240,
+              "instructor_notes": null
+            },
+            {
+              "id": 591346,
+              "key": "3702aef7-1478-463c-8538-01c0fe96743d",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "***\n## 目标 3\n根据我们的结果，**最佳** CNN 模型架构是 ***VGG***。对于目标 *1* 和 *2* 来说，它的效果比另外两种架构好。你将发现，*ResNet* 的确在分类小狗品种方面比 *AlexNet* 要强，但是只有 *VGG* 和 *AlexNet* 能够 100% 准确地将图像分类为“小狗”或“非小狗”。模型 *VGG* 能够 100% 准确地将图像分类为“小狗”或“非小狗”，并且在品种分类方面效果最好，准确率达到 93.3%。\n\n*** \n## 目标 4\n考虑到我们的资源并不受限，并且时间长短并不重要，我将再等待 *27*-*29* 秒，使 *VGG* 能够 100% 准确地分类小狗图像，并且品种分类准确率超过 90%。 *AlexNet* 和 *ResNet* 的运行时间都不超过 5 秒，*AlexNet* 的运行速度最快。 *VGG* 的运行时间刚刚超过 30 秒，但是额外等待几秒钟带来的结果是值得的。\n\n因此，即使考虑到运行时间，我也认为 ***VGG*** 是**最佳**解决方案。需要注意的一点是，在不到 10% 的情况下，它对小狗品种的分类不正确。因此，当分类器判断品种和狗主人报告的品种不匹配时，志愿者有必要咨询下狗主人。此外，对于分类器无法返回的品种标签（例如格雷伊猎犬或澳洲牧羊犬），志愿者可以判断狗主人报告的品种是否准确。\n\n***\n# Lab 解决方案\n### Lab 解决方案 Workspace \n我们提供了*__ Lab 解决方案__*，其中包含 **check_images_solution.py** 程序以及运行程序所需的所有文件。如果你想查看解决方案代码和/或自行运行解决方案，可以出于这些目的使用此 Workspace 。   \n\n### Github 中的 Lab 解决方案\n此外，你可以在这门课程的 Github 代码库中找到 [check_images_solution.py](https://github.com/udacity/AIPND/blob/master/intropylab-classifying-images/check_images_solution.py) 以及运行代码所需的文件。通过以下链接可以完全访问此 Lab 的 Github 代码库：[分类图像 Lab 的 Github 代码库](https://github.com/udacity/AIPND/tree/master/intropylab-classifying-images)。",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 591365,
+          "key": "7ce83f3b-a50f-493a-b406-393e95a28342",
+          "title": "结论",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "7ce83f3b-a50f-493a-b406-393e95a28342",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 591347,
+              "key": "6243c5b6-1878-49ad-9b8c-fa5b419f5dce",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "***\n# 结论\n***\n#### <span style=\"color:blue; font-size:15pt;\">恭喜你成功地完成了本 Lab ！</span>\n我们在下面列出了你在成功完成此 Lab 后掌握的一些编程概念。\n\n***\n## 该 Lab 涉及的编程概念和技能\n\n- 在编写程序之前，通过注释及函数存根列出纲要和创建初始程序，为更复杂的程序制定*__蓝图__*。\n\n\n- 利用*__函数__*：\n - 隔离任务\n - 测试代码\n - 重复利用代码\n\n\n- 记录程序的运行时间，以了解如何在算法复杂度和时间消耗之间做出权衡。\n\n\n- 使用*命令行参数*增强程序的功能。\n\n\n- 在编写代码时，检查程序及其功能（单元测试）。\n\n\n- *复杂的*数据结构：\n - 使用列表字典\n - 为存储数据选择合适的数据结构  \n  - 在函数中正确地使用字典（可变对象）\n\n\n- 使用三个预训练的卷积神经网络 (CNN) 模型架构分类图像。\n\n\n- 从文件中检索*信息*并用在程序中。\n\n\n- 使用*默认*参数。\n\n\n- 从准确率和运行时间角度比较*不同*的算法。 \n\n\n- 使用*批量*文件按顺序运行多个程序。",
+              "instructor_notes": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    }
+  ]
+}
