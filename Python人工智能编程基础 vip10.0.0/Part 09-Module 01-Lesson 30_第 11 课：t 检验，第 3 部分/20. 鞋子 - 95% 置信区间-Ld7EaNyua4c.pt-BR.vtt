@@ -1,0 +1,44 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:04.334
+Lembrem-se de que estamos tentando encontrar
+o intervalo de confiança da verdadeira diferença
+
+00:00:04.367 --> 00:00:07.467
+entre o número de sapatos
+dos homens e das mulheres.
+
+00:00:07.501 --> 00:00:09.801
+Como queremos descobrir a diferença,
+
+00:00:09.834 --> 00:00:13.601
+não vamos usar uma das duas médias amostrais
+para nossa estimativa.
+
+00:00:13.634 --> 00:00:15.968
+Vamos usar
+a diferença entre elas.
+
+00:00:16.000 --> 00:00:18.634
+Não importa a ordem do cálculo.
+
+00:00:18.667 --> 00:00:22.968
+Podemos usar
+o valor crítico t positivo e negativo.
+
+00:00:23.000 --> 00:00:25.968
+O valor da estatística é 0,96.
+
+00:00:26.000 --> 00:00:30.968
+Não queremos este valor, queremos o cut-off
+do meio do intervalo de 95%.
+
+00:00:31.000 --> 00:00:37.067
+Por fim, o valor
+do erro padrão é 15,72.
+
+00:00:37.100 --> 00:00:39.834
+O erro padrão nunca pode ser negativo.
+

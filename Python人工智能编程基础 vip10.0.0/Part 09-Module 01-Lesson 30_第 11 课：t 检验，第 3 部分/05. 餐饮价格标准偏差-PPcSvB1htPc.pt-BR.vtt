@@ -1,0 +1,34 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:06.367
+Ao escrevermos na planilha =stdev,
+
+00:00:06.400 --> 00:00:11.467
+estamos usando a função que mostra
+o desvio padrão da amostra.
+
+00:00:11.501 --> 00:00:14.000
+Vamos colocar o número das células aqui.
+
+00:00:14.033 --> 00:00:20.868
+No exemplo de Gettysburg,
+vamos usar a2 dois pontos a19.
+
+00:00:20.901 --> 00:00:24.367
+É bom praticar
+fazer todo o processo
+
+00:00:24.400 --> 00:00:28.067
+em vez de usar uma função
+para encontrar o resultado.
+
+00:00:28.100 --> 00:00:30.634
+Se arredondarmos
+para duas casas decimais de novo,
+
+00:00:30.667 --> 00:00:38.801
+vamos obter o desvio padrão da amostra
+para Gettysburg é 2,65 e 2,18 para Wilma.
+

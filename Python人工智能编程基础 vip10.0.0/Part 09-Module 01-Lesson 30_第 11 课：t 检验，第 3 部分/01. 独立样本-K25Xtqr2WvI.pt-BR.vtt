@@ -1,0 +1,233 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:01.934
+Bem-vindos à lição 11.
+
+00:00:01.968 --> 00:00:06.167
+Na lição 10, estudamos amostras dependentes
+ou medidas repetidas.
+
+00:00:06.200 --> 00:00:10.000
+Apenas para refrescar a memória,
+nós fornecemos a mesma pessoa
+
+00:00:10.033 --> 00:00:13.601
+duas condições diferentes
+para ver como reagem a cada uma.
+
+00:00:13.634 --> 00:00:17.667
+Podem ser um controle e uma intervenção,
+ou dois tipos de intervenção.
+
+00:00:17.701 --> 00:00:19.868
+Também podemos usar
+dados longitudinais
+
+00:00:19.901 --> 00:00:22.534
+em que medimos algumas variáveis
+em um período
+
+00:00:22.567 --> 00:00:25.968
+e verificamos de novo
+em outro período para ver se a variável mudou.
+
+00:00:26.000 --> 00:00:28.968
+Também podemos usar
+como um teste de antes e depois.
+
+00:00:29.000 --> 00:00:32.968
+Qual era a medida da variável
+antes e depois da intervenção?
+
+00:00:33.000 --> 00:00:37.534
+Estes são alguns exemplos
+em que utilizamos as amostras dependentes.
+
+00:00:37.567 --> 00:00:43.534
+Este modelo de análise é muito útil
+porque podemos controlar diferenças individuais.
+
+00:00:43.567 --> 00:00:47.300
+Ou seja, se dermos a alguém
+uma intervenção,
+
+00:00:47.334 --> 00:00:52.968
+as diferenças individuais estarão presentes
+se utilizarmos a mesma intervenção.
+
+00:00:53.000 --> 00:00:55.834
+Assim podemos ver
+como duas intervenções diferentes
+
+00:00:55.868 --> 00:00:58.467
+funcionam sob as mesmas condições.
+
+00:00:58.501 --> 00:01:01.367
+Como podemos controlar
+as diferenças individuais,
+
+00:01:01.400 --> 00:01:03.701
+não precisamos de muitas amostras.
+
+00:01:03.734 --> 00:01:10.033
+Temos um custo-benefício maior
+em menos tempo.
+
+00:01:10.067 --> 00:01:12.968
+Porém, há algumas desvantagens.
+
+00:01:13.000 --> 00:01:15.501
+Um deles é o efeito carry-over.
+
+00:01:15.534 --> 00:01:19.234
+Vamos supor que criamos
+um novo método para ensinar matemática
+
+00:01:19.267 --> 00:01:21.634
+e queremos saber
+se vai funcionar.
+
+00:01:21.667 --> 00:01:25.968
+Se utilizarmos o mesmo grupo de alunos
+para testarmos esse novo método,
+
+00:01:26.000 --> 00:01:29.934
+no segundo teste a matemática deles
+estará melhor que no primeiro.
+
+00:01:29.968 --> 00:01:32.701
+Se na primeira lição
+ensinarmos de um jeito
+
+00:01:32.734 --> 00:01:35.601
+e na segunda lição
+ensinarmos diferente,
+
+00:01:35.634 --> 00:01:38.968
+a matemática deles estará melhor
+do que na primeira lição,
+
+00:01:39.000 --> 00:01:41.968
+mas não sabemos se os resultados
+após a segunda intervenção
+
+00:01:42.000 --> 00:01:47.234
+são devido ao método que funcionou
+ou ao fato de já terem aprendido matemática.
+
+00:01:47.267 --> 00:01:49.033
+Este é apenas um exemplo.
+
+00:01:49.067 --> 00:01:52.701
+O segundo resultado pode ser afetado
+pela primeira intervenção.
+
+00:01:52.734 --> 00:01:56.934
+E a ordem das intervenções
+pode influenciar os resultados.
+
+00:01:56.968 --> 00:02:00.167
+Por exemplo, digamos que queremos
+testar dois tipos de pílulas.
+
+00:02:00.200 --> 00:02:04.234
+E se a primeira pílula
+tiver algum efeito na segunda pílula?
+
+00:02:04.267 --> 00:02:08.467
+Se tomarmos nesta ordem,
+elas podem afetar os resultados.
+
+00:02:08.501 --> 00:02:12.968
+Para estes casos, vamos aprender
+a usar as amostras independentes.
+
+00:02:13.000 --> 00:02:17.300
+Nas amostras dependentes utilizamos
+medidas pareadas do mesmo conjunto de amostras
+
+00:02:17.334 --> 00:02:21.200
+e nas amostras independentes
+utilizamos medidas de conjuntos diferentes.
+
+00:02:21.234 --> 00:02:24.534
+Neste caso, as vantagens
+das amostras dependentes
+
+00:02:24.567 --> 00:02:27.300
+são as desvantagens
+das amostras independentes.
+
+00:02:27.334 --> 00:02:33.033
+As desvantagens das amostras dependentes
+são as vantagens das amostras independentes.
+
+00:02:33.067 --> 00:02:34.501
+Isso faz sentido?
+
+00:02:34.534 --> 00:02:37.767
+Nas amostras independentes,
+precisamos de mais amostras
+
+00:02:37.801 --> 00:02:42.000
+pois precisamos de amostras aleatórias
+de dois grupos para duas intervenções.
+
+00:02:42.033 --> 00:02:43.467
+Precisamos de um segmento maior
+
+00:02:43.501 --> 00:02:47.300
+para tentar controlar
+diferenças individuais ao máximo.
+
+00:02:47.334 --> 00:02:51.033
+Este método é mais lento
+e costuma ser mais caro.
+
+00:02:51.067 --> 00:02:56.033
+Uma das vantagens das amostras independentes
+é que não temos o efeito carry-over.
+
+00:02:56.067 --> 00:02:58.634
+Portanto, podemos usar
+uma intervenção em um grupo
+
+00:02:58.667 --> 00:03:00.234
+e outra intervenção em outro grupo
+
+00:03:00.267 --> 00:03:03.167
+sem nos preocuparmos
+com os efeitos de um no outro
+
+00:03:03.200 --> 00:03:07.334
+pois cada pessoa ou amostra
+recebeu uma intervenção.
+
+00:03:07.367 --> 00:03:11.534
+Nas amostras independentes,
+podemos realizar testes experimentais
+
+00:03:11.567 --> 00:03:15.300
+em que utilizamos as intervenções
+nas amostras
+
+00:03:15.334 --> 00:03:18.534
+ou testes observacionais,
+em que apenas observamos
+
+00:03:18.567 --> 00:03:22.234
+as características de duas populações
+e as comparamos.
+
+00:03:22.267 --> 00:03:24.968
+São todos iguais.
+
+00:03:25.000 --> 00:03:27.400
+As hipóteses nula e alternativa,
+
+00:03:27.434 --> 00:03:32.000
+o teste t
+e a tomada de decisão estatística.
+

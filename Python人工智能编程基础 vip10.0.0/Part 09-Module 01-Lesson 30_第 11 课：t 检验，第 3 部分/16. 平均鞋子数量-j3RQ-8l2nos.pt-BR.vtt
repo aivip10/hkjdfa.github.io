@@ -1,0 +1,116 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:07.667
+Vamos calcular a média de sapatos
+das mulheres com "=average(A2:A8)".
+
+00:00:07.701 --> 00:00:10.934
+O resultado será 33,14.
+
+00:00:10.968 --> 00:00:15.367
+Vamos calcular
+a média de sapatos dos homens.
+
+00:00:15.400 --> 00:00:18.501
+Parece que um dos homens
+tem muitos sapatos.
+
+00:00:18.534 --> 00:00:19.968
+O resultado é 18.
+
+00:00:20.000 --> 00:00:23.801
+Vamos calcular desvios padrão quadráticos
+para as mulheres.
+
+00:00:23.834 --> 00:00:28.033
+Na coluna D, calcularemos
+desvios padrão quadráticos para homens.
+
+00:00:28.067 --> 00:00:37.334
+Na célula c2, vamos digitar
+"=a2-$a$10".
+
+00:00:37.367 --> 00:00:41.167
+Nós subtraímos a média amostral
+e elevamos ao quadrado.
+
+00:00:41.200 --> 00:00:43.934
+Desta vez,
+vamos arrastar para baixo.
+
+00:00:43.968 --> 00:00:46.767
+Encontramos os resultados
+dos desvios quadráticos.
+
+00:00:46.801 --> 00:00:50.968
+Vamos pegar a soma dos quadrados
+e dividir por n-1 cujo resultado é 6.
+
+00:00:51.000 --> 00:00:52.968
+Esta é nossa variância.
+
+00:00:53.000 --> 00:00:58.601
+A raiz quadrada da variância
+resultará no desvio padrão da amostra.
+
+00:00:58.634 --> 00:01:00.834
+Farei o mesmo com os homens.
+
+00:01:00.868 --> 00:01:04.934
+O resultado do desvio padrão é 34,27.
+
+00:01:04.968 --> 00:01:08.634
+Se você se sentir confiante
+para calcular tudo isso,
+
+00:01:08.667 --> 00:01:13.400
+você sabe o que tem de fazer
+e não precisa revisar as fórmulas.
+
+00:01:13.434 --> 00:01:19.167
+Fique à vontade para calcular
+o desvio padrão usando a função stdev.
+
+00:01:19.200 --> 00:01:27.801
+Se digitarmos "=stdev",
+e selecionarmos as células a2 a a8,
+
+00:01:27.834 --> 00:01:29.767
+vamos obter o mesmo resultado.
+
+00:01:29.801 --> 00:01:33.534
+Aqui será a mesma coisa.
+Digitaremos "=stdev".
+
+00:01:33.567 --> 00:01:37.234
+Queremos calcular o desvio padrão
+do número de sapatos dos homens.
+
+00:01:37.267 --> 00:01:40.534
+B2;B12.
+
+00:01:41.133 --> 00:01:43.767
+Esta é uma boa maneira
+de conferir as respostas.
+
+00:01:43.801 --> 00:01:46.400
+Se não souber fazer os cálculos
+passo a passo,
+
+00:01:46.434 --> 00:01:51.667
+eu recomendo que continue praticando
+até que se torne natural para você.
+
+00:01:51.701 --> 00:01:58.801
+Isso vai te ajudar a lembrar o processo
+e entender os cálculos do desvio padrão.
+
+00:01:58.834 --> 00:02:01.234
+Agora temos quase todas
+as informações necessárias
+
+00:02:01.267 --> 00:02:02.801
+para aplicarmos o teste t.
+

@@ -1,0 +1,39 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:01.534
+Aqui estão os dados.
+
+00:00:01.567 --> 00:00:05.634
+Desta vez, eu vou fornecer
+as médias e os desvios padrão.
+
+00:00:05.667 --> 00:00:10.334
+Pode calcular esses valores
+se quiser praticar um pouco mais.
+
+00:00:10.367 --> 00:00:12.834
+Vamos usar
+o teste bicaudal para conferir
+
+00:00:12.868 --> 00:00:16.200
+se os efeitos dos remédios
+são significativamente diferentes.
+
+00:00:16.234 --> 00:00:21.968
+Na hipótese nula,
+a população que usa o remédio A
+
+00:00:22.000 --> 00:00:26.200
+não será significativamente diferente
+da população que usa o remédio B.
+
+00:00:26.234 --> 00:00:30.767
+Na hipótese alternativa, as populações
+serão significativamente diferentes.
+
+00:00:30.801 --> 00:00:33.167
+Primeiramente,
+vamos calcular o teste t.
+

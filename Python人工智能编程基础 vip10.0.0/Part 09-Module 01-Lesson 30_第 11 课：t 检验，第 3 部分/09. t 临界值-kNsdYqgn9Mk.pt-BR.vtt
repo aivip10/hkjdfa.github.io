@@ -1,0 +1,36 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:02.234
+Encontramos o valor do teste t.
+
+00:00:02.267 --> 00:00:06.767
+Os valores 2,58 e -2,58 são aceitáveis
+como resultados do teste t
+
+00:00:06.801 --> 00:00:08.968
+já que este é um teste bicaudal.
+
+00:00:09.000 --> 00:00:13.968
+Se fosse um teste monocaudal,
+utilizaríamos apenas uma ordem.
+
+00:00:14.000 --> 00:00:16.968
+Vamos comparar isto
+ao valor crítico t.
+
+00:00:17.000 --> 00:00:21.133
+Utilize a tabela t para encontrar
+os valores críticos do teste bicaudal
+
+00:00:21.167 --> 00:00:23.868
+em que o valor de alfa seja igual a 0,05.
+
+00:00:23.901 --> 00:00:27.801
+Lembrem-se que a soma
+dos tamanhos das amostras menos 2
+
+00:00:27.834 --> 00:00:29.701
+são os graus de liberdade.
+

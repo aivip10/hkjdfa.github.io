@@ -1,0 +1,106 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:01.900
+O erro padrão que estamos usando
+
+00:00:01.933 --> 00:00:05.500
+presume que as amostras são aproximadamente
+do mesmo tamanho.
+
+00:00:05.533 --> 00:00:10.133
+Devemos corrigir o tamanho da amostra
+utilizando pool na variância.
+
+00:00:10.167 --> 00:00:14.133
+Vamos modificar um pouco
+o erro padrão que estivemos utilizando.
+
+00:00:14.167 --> 00:00:18.300
+A variância pooled, que vamos simbolizar
+por S subscrito p ao quadrado
+
+00:00:18.333 --> 00:00:22.500
+porque usamos S ao quadrado para a variância
+e S para o desvio padrão,
+
+00:00:22.533 --> 00:00:27.533
+é a média da variância das duas amostras
+que corrige os tamanhos de amostras diferentes.
+
+00:00:27.567 --> 00:00:31.467
+Lembram quando tínhamos uma amostra
+em que a variância era a soma dos quadrados
+
+00:00:31.500 --> 00:00:33.633
+dividida pelos graus de liberdade.
+
+00:00:33.667 --> 00:00:37.467
+Por escrito, utilizamos a soma
+destes desvios padrão ao quadrado
+
+00:00:37.500 --> 00:00:39.533
+dividido por n menos 1.
+
+00:00:39.567 --> 00:00:42.600
+Utilizando variâncias pooled,
+faremos quase a mesma coisa.
+
+00:00:42.633 --> 00:00:47.200
+Quando tivermos duas amostras,
+vamos somar a soma dos quadrados de cada uma
+
+00:00:47.233 --> 00:00:50.367
+e dividir pela soma
+dos graus de liberdade.
+
+00:00:50.400 --> 00:00:52.100
+Vamos analisar um exemplo.
+
+00:00:52.133 --> 00:00:56.000
+Vamos supor que temos duas amostras:
+uma chamada x e a outra y.
+
+00:00:56.033 --> 00:00:59.267
+Queremos saber se as populações
+de onde estas amostras vieram
+
+00:00:59.300 --> 00:01:01.133
+são significativamente diferentes.
+
+00:01:01.167 --> 00:01:03.900
+Primeiramente, vamos encontrar
+a soma dos quadrados de cada uma.
+
+00:01:03.933 --> 00:01:08.000
+Lembrem-se de que para calcular isso
+temos que encontrar o desvio de cada média
+
+00:01:08.033 --> 00:01:10.700
+e elevar ao quadrado
+para depois somá-los.
+
+00:01:10.733 --> 00:01:15.000
+Você pode escrever cada desvio
+e desvio ao quadrado nestas colunas,
+
+00:01:15.033 --> 00:01:16.267
+mas não é obrigatório.
+
+00:01:16.300 --> 00:01:21.667
+Nós fornecemos estes espaços para que
+o ajudem a calcular a soma dos quadrados.
+
+00:01:21.700 --> 00:01:26.600
+Mas você pode usar tecnologias
+como Excel, R/g ou qualquer uma que quiser.
+
+00:01:26.633 --> 00:01:31.167
+Também pode calcular à mão
+em vez de digitá-los.
+
+00:01:31.200 --> 00:01:34.867
+Pode utilizar o que for mais fácil
+para você calcular estas somas dos quadrados.
+

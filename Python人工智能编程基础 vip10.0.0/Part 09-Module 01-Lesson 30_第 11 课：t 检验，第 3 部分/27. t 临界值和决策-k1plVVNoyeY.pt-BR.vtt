@@ -1,0 +1,27 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:05.968
+O cálculo dos graus de liberdade
+é 4 mais 3 menos 2, que é igual a 5.
+
+00:00:06.000 --> 00:00:09.934
+Em vez disso, podemos somar
+os graus de liberdade de cada amostra.
+
+00:00:09.968 --> 00:00:11.200
+O cálculo seria 3 mais 2.
+
+00:00:11.234 --> 00:00:17.033
+O resultado do valor crítico t
+será 2,571 e -2,571.
+
+00:00:17.067 --> 00:00:24.467
+Esta estatística de -1,34 não está
+na região crítica definida pelos valores críticos.
+
+00:00:24.501 --> 00:00:26.634
+Portanto,
+vamos aceitar a hipótese nula.
+

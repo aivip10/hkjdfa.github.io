@@ -1,0 +1,42 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:04.300
+Agora vamos comparar a estatística
+com o valor crítico t.
+
+00:00:04.334 --> 00:00:07.968
+Lembrem-se de que para encontrar o resultado,
+precisamos usar os graus de liberdade
+
+00:00:08.000 --> 00:00:11.067
+que é a soma do tamanho
+das amostras menos 2.
+
+00:00:11.100 --> 00:00:15.400
+Outra fórmula possível seria
+usar os graus de liberdade de uma amostra
+
+00:00:15.434 --> 00:00:17.968
+mais os graus de liberdade
+da outra amostra.
+
+00:00:18.000 --> 00:00:19.968
+Após encontrar o valor crítico t,
+
+00:00:20.000 --> 00:00:22.000
+qual será
+a tomada de decisão estatística?
+
+00:00:22.033 --> 00:00:24.200
+Ao calcular os valores críticos t,
+
+00:00:24.234 --> 00:00:27.067
+lembrem-se de que ele pode ser
+positivo ou negativo.
+
+00:00:27.100 --> 00:00:33.534
+Coloque apenas o valor positivo aqui
+e calcule o valor crítico t com alfa de 0,05.
+

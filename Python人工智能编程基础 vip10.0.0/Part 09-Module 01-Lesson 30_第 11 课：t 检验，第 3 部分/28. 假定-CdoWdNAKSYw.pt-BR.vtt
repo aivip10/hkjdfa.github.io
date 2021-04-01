@@ -1,0 +1,132 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:02.534
+Geralmente,
+vamos usar a variância pooled
+
+00:00:02.567 --> 00:00:05.968
+já que ela corrige os tamanhos diferentes
+de amostras.
+
+00:00:06.000 --> 00:00:10.200
+Você vai praticar mais a variância pooled
+durante os problemas que veremos.
+
+00:00:10.234 --> 00:00:14.133
+Porém, a forma como a estatística é calculada
+continua basicamente igual.
+
+00:00:14.167 --> 00:00:19.400
+Dividimos a diferença observada
+entre a média X e a média Y
+
+00:00:19.434 --> 00:00:23.167
+pelo erro padrão, que é calculado
+de uma forma um pouco diferente.
+
+00:00:23.200 --> 00:00:27.200
+Em que estes valores
+correspondem a esta variância pooled.
+
+00:00:27.234 --> 00:00:31.400
+Percebam que esta é a estatística
+quando esperamos
+
+00:00:31.434 --> 00:00:36.667
+que as verdadeiras populações
+destas amostras sejam as mesmas.
+
+00:00:36.701 --> 00:00:41.467
+Ou seja, a diferença
+entre os parâmetros populacionais é zero.
+
+00:00:41.501 --> 00:00:45.834
+Vamos supor que esperamos
+que a diferença seja igual a 10.
+
+00:00:45.868 --> 00:00:52.334
+Vamos subtrair esta diferença esperada
+da diferença observada.
+
+00:00:52.367 --> 00:00:55.400
+Obtemos esta diferença observada
+da amostra.
+
+00:00:55.434 --> 00:00:59.868
+Esta é a estatística completa
+para amostras independentes.
+
+00:00:59.901 --> 00:01:02.501
+Na maioria dos exemplos desta aula,
+a hipótese nula confirmou
+
+00:01:02.534 --> 00:01:06.834
+que não há diferença significativa
+entre as duas populações.
+
+00:01:06.868 --> 00:01:11.133
+Ou seja, esperamos que a diferença
+entre os parâmetros seja aproximadamente zero.
+
+00:01:11.167 --> 00:01:15.167
+Há algumas suposições que devem ser levadas
+em conta ao usarmos a variância pooled
+
+00:01:15.200 --> 00:01:17.934
+assim como em qualquer método
+de medição.
+
+00:01:17.968 --> 00:01:20.868
+A primeira é que X e Y devem ser
+amostras aleatórias
+
+00:01:20.901 --> 00:01:23.300
+retiradas de duas populações independentes.
+
+00:01:23.334 --> 00:01:26.601
+Vocês se lembram
+das amostras dependentes?
+
+00:01:26.634 --> 00:01:29.834
+Tínhamos dados que vinham
+duas vezes da mesma amostra.
+
+00:01:29.868 --> 00:01:33.634
+Neste caso, a população
+deve ser independente.
+
+00:01:33.667 --> 00:01:37.033
+A segunda suposição
+é que as populações de origem de X e Y
+
+00:01:37.067 --> 00:01:39.067
+devem ser aproximadamente normais.
+
+00:01:39.100 --> 00:01:43.467
+Isso não é muito importante
+quando o tamanho das amostras é muito grande.
+
+00:01:43.501 --> 00:01:44.968
+Por exemplo, maiores que 30.
+
+00:01:45.000 --> 00:01:47.200
+A terceira suposição
+é que os dados da amostra
+
+00:01:47.234 --> 00:01:50.501
+podem ser usados para estimar
+as variâncias da população.
+
+00:01:50.534 --> 00:01:53.334
+A última suposição
+é que as variâncias populacionais
+
+00:01:53.367 --> 00:01:54.968
+devem ser mais ou menos iguais
+
+00:01:55.000 --> 00:01:59.934
+para que possamos usar esta variância pooled
+como uma estimativa para ambos.
+

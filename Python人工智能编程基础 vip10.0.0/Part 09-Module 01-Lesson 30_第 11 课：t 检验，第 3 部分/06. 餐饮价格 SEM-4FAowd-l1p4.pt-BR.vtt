@@ -1,0 +1,31 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:02.767
+Agora podemos calcular o erro padrão.
+
+00:00:02.801 --> 00:00:06.667
+Já que como S subscrito G
+é o desvio padrão,
+
+00:00:06.701 --> 00:00:09.367
+se colocarmos esse valor ao quadrado,
+obtemos a variância.
+
+00:00:09.400 --> 00:00:13.634
+Encontramos a variância do preço
+das refeições em Gettysburg
+
+00:00:13.667 --> 00:00:17.133
+dividido pelo número
+da amostra de Gettysburg
+
+00:00:17.167 --> 00:00:20.367
+mais a variância
+do preço da refeição em Wilma
+
+00:00:20.400 --> 00:00:24.334
+dividido pelo número de restaurantes
+da amostragem de Wilma.
+

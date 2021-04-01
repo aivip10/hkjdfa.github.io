@@ -1,0 +1,66 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:05.968
+Estas são as áreas críticas
+e suas respectivas probabilidades de 0,025,
+
+00:00:06.000 --> 00:00:08.934
+que resultam
+em um valor alfa de 0,05.
+
+00:00:08.968 --> 00:00:11.767
+Lembrem-se de que esta é
+a distribuição t.
+
+00:00:11.801 --> 00:00:16.801
+O valor crítico t deste lado
+é -2,042.
+
+00:00:16.834 --> 00:00:20.968
+O valor crítico t do outro lado
+é 2,042.
+
+00:00:21.000 --> 00:00:25.834
+2,58 se encontra
+acima da área de 2,042.
+
+00:00:25.868 --> 00:00:27.968
+Se tivéssemos usado a ordem inversa,
+
+00:00:28.000 --> 00:00:33.934
+obteríamos -2,58,
+que está abaixo da área de -2,042.
+
+00:00:33.968 --> 00:00:36.234
+Portanto,
+vamos rejeitar a hipótese nula.
+
+00:00:36.267 --> 00:00:40.133
+Aparentemente, o preço das refeições
+em Wilma e Gettysburg
+
+00:00:40.167 --> 00:00:45.701
+são estatisticamente diferentes
+no nível de significância 0,05.
+
+00:00:45.734 --> 00:00:47.667
+Se calcularmos o valor p,
+
+00:00:47.701 --> 00:00:52.501
+levando em consideração o teste t de 2,58,
+e os graus de liberdade de 30,
+
+00:00:52.534 --> 00:00:57.834
+no GraphPad veremos
+que o valor p no teste bicaudal é 0,015.
+
+00:00:57.868 --> 00:01:02.167
+Este valor é menor
+que o nível alfa 0,05.
+
+00:01:02.200 --> 00:01:04.767
+Bom trabalho!
+Acabamos este exemplo.
+

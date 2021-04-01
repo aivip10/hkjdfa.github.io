@@ -1,0 +1,19 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:02.367
+Agora podemos usar a variância pooled
+
+00:00:02.400 --> 00:00:05.934
+da mesma forma como usamos
+cada variância anteriormente.
+
+00:00:05.968 --> 00:00:11.033
+Agora em vez de cada variância individual,
+vamos usar a variância pooled.
+
+00:00:11.067 --> 00:00:14.367
+Vamos encontrar
+o erro padrão corrigido.
+

@@ -1,0 +1,60 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:01.601
+O cálculo para obter
+os graus de liberdade é
+
+00:00:01.634 --> 00:00:05.534
+o tamanho da amostra menos 1
+mais o outro tamanho da amostra menos 1.
+
+00:00:05.567 --> 00:00:08.701
+Também podemos somá-los
+e subtrair 2.
+
+00:00:08.734 --> 00:00:12.400
+Neste caso, o resultado
+dos graus de liberdade é 16.
+
+00:00:12.434 --> 00:00:14.300
+Vamos verificar a tabela t.
+
+00:00:14.334 --> 00:00:16.968
+Ao obtermos o valor 16
+em graus de liberdade,
+
+00:00:17.000 --> 00:00:23.667
+teremos 0,025 em cada cauda, pois estamos
+usando o teste bicaudal com alfa igual a 0,05.
+
+00:00:23.701 --> 00:00:27.701
+O valor crítico t será 2,12.
+
+00:00:27.734 --> 00:00:31.667
+Já que a estatística é
+menor que o valor crítico t,
+
+00:00:31.701 --> 00:00:35.000
+ela estará localizada
+no meio da distribuição.
+
+00:00:35.033 --> 00:00:37.801
+O valor 0,96 deve estar
+mais ou menos aqui.
+
+00:00:37.834 --> 00:00:40.968
+O valor crítico t está aqui.
+
+00:00:41.000 --> 00:00:43.234
+Portanto, aceitaremos a hipótese nula.
+
+00:00:43.267 --> 00:00:46.334
+Com base nas amostras,
+não há diferença significativa
+
+00:00:46.367 --> 00:00:51.300
+entre o número de sapatos
+dos homens e das mulheres.
+

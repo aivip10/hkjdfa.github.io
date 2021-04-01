@@ -1,0 +1,23 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:03.634
+Para encontrar a variância pooled,
+vamos somar a soma dos quadrados
+
+00:00:03.667 --> 00:00:06.834
+e dividir esse valor
+pelos graus de liberdade.
+
+00:00:06.868 --> 00:00:10.767
+O resultado dos graus de liberdade
+é a soma dos graus de liberdade de x e y.
+
+00:00:10.801 --> 00:00:13.200
+Neste caso, a soma é 3 mais 2
+que é igual a 5.
+
+00:00:13.234 --> 00:00:15.234
+O resultado final é 15,2.
+
