@@ -1,0 +1,249 @@
+<!-- udacity2.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>15. 手机法律：零假设</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>习题集 10b：t 检验，第 2 部分</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. 12. 手机法律：研究类型.html">01. 12. 手机法律：研究类型</a>
+    </li>
+    <li class="">
+      <a href="02. 13. 手机法律：因变量.html">02. 13. 手机法律：因变量</a>
+    </li>
+    <li class="">
+      <a href="03. 14. 手机法律：自变量.html">03. 14. 手机法律：自变量</a>
+    </li>
+    <li class="">
+      <a href="04. 15. 手机法律：零假设.html">04. 15. 手机法律：零假设</a>
+    </li>
+    <li class="">
+      <a href="05. 16. 手机法律：对立假设.html">05. 16. 手机法律：对立假设</a>
+    </li>
+    <li class="">
+      <a href="06. 17. 手机法律：t 检验.html">06. 17. 手机法律：t 检验</a>
+    </li>
+    <li class="">
+      <a href="07. 18. 手机法律：误差分数.html">07. 18. 手机法律：误差分数</a>
+    </li>
+    <li class="">
+      <a href="08. 19. 手机法律：t 临界值.html">08. 19. 手机法律：t 临界值</a>
+    </li>
+    <li class="">
+      <a href="09. 20. 手机法律：标准误差.html">09. 20. 手机法律：标准误差</a>
+    </li>
+    <li class="">
+      <a href="10. 21. 手机法律：t 统计量.html">10. 21. 手机法律：t 统计量</a>
+    </li>
+    <li class="">
+      <a href="11. 22. 手机法律：决策.html">11. 22. 手机法律：决策</a>
+    </li>
+    <li class="">
+      <a href="12. 23. 手机法律：Cohen 的 d.html">12. 23. 手机法律：Cohen 的 d</a>
+    </li>
+    <li class="">
+      <a href="13. 24. 手机法律：置信区间.html">13. 24. 手机法律：置信区间</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">04. 15. 手机法律：零假设</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3><ol start="15">
+<li>手机法律：零假设</li>
+</ol></h3>
+  <div>
+
+  <h4>Start Quiz:</h4>
+  <div>
+  <div style="display: block;">
+    <div style="position: relative;">
+      <img src="img/144643888.gif" style="width: 100%; max-height: 100%" alt="">
+      
+    <div style="
+    position: absolute; top: 73.16602316602317%; left: 28.230184581976115%; width: 0%; height: 0%;
+  ">
+      
+        <input type="radio" name="group0" id="0" aria-label="Empty">
+      
+    </div>
+  
+    <div style="
+    position: absolute; top: 66.21621621621621%; left: 28.013029315960914%; width: 0%; height: 0%;
+  ">
+      
+        <input type="radio" name="group0" id="1" aria-label="Empty">
+      
+    </div>
+  
+    <div style="
+    position: absolute; top: 58.68725868725869%; left: 27.795874049945713%; width: 0%; height: 0%;
+  ">
+      
+        <input type="radio" name="group0" id="2" aria-label="Empty">
+      
+    </div>
+  
+    </div>
+  </div>
+</div>
+
+
+</div>
+
+
+  <div class="jumbotron" style="margin-top: 50px; margin-bottom: 50px;">
+    <h3>INSTRUCTOR NOTE:</h3>
+    <h2 id="研究者想要研究一项法律条款的效力，该条款将对开车时使用手机的行为进行处罚。研究者随机选择了美国一个州的-10-个乡镇，统计了通过该法律前一年以及后一年，因为开车时使用手机引发的交通事故的数量。他们预想该法律的实施，会降低由开车时使用手机引发的交通事故的数量。">研究者想要研究一项法律条款的效力，该条款将对开车时使用手机的行为进行处罚。研究者随机选择了美国一个州的 10 个乡镇，统计了通过该法律前一年以及后一年，因为开车时使用手机引发的交通事故的数量。他们预想该法律的实施，会降低由开车时使用手机引发的交通事故的数量。</h2>
+<p>最可能的零假设是什么？</p>
+<ul>
+<li>□ 该法律对由开车时使用手机引发的交通事故的数量没有影响</li>
+<li>□ 该法律会降低由开车时使用手机引发的交通事故的数量</li>
+<li>□ 该法律会增加由开车时使用手机引发的交通事故的数量</li>
+</ul>
+  </div>
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+              <a href="05. 16. 手机法律：对立假设.html" class="btn btn-outline-primary mt-4" role="button">Next Concept</a>
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://us-udacity.github.io/" target="_blank">【udacity2.0 】If you need more courses, please add wechat：udacity6</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('04. 15. 手机法律：零假设')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>
