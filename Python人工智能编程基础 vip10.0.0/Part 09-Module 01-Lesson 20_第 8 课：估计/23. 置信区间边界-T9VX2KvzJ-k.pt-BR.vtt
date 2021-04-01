@@ -1,0 +1,110 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:04.067
+Descobrimos
+que o erro padrão é 0,024,
+
+00:00:04.100 --> 00:00:06.501
+mas precisamos
+da estimativa intervalar.
+
+00:00:06.534 --> 00:00:10.467
+Digamos que queremos
+intervalo de confiança de 95%.
+
+00:00:10.501 --> 00:00:12.634
+abreviado para IC,
+no diminutivo.
+
+00:00:12.667 --> 00:00:16.000
+Irei colocar aqui
+o erro padrão da média.
+
+00:00:16.033 --> 00:00:19.801
+Devo colocar "N" maiúsculo,
+já que se refere à população,
+
+00:00:19.834 --> 00:00:22.501
+e "n" é a amostra
+de tamanho 20.
+
+00:00:22.534 --> 00:00:27.100
+Baseado nos resultados
+da média da amostra, 0,13,
+
+00:00:27.133 --> 00:00:28.801
+então a média
+da população,
+
+00:00:28.834 --> 00:00:32.000
+se todos tiverem acesso
+a essa lição musical,
+
+00:00:32.033 --> 00:00:34.467
+será algo em torno de 0,13.
+
+00:00:34.501 --> 00:00:37.601
+E com um intervalo de confiança
+de 95%,
+
+00:00:37.634 --> 00:00:40.534
+presumimos
+que a média amostral
+
+00:00:40.567 --> 00:00:44.000
+é uma dos 95%
+de médias amostrais
+
+00:00:44.033 --> 00:00:47.200
+que estarão em torno
+da média da população.
+
+00:00:47.234 --> 00:00:52.133
+Vamos chamá-la de µI.
+"I" de intervenção.
+
+00:00:52.167 --> 00:00:54.934
+Isso significa
+que se esta média amostral
+
+00:00:54.968 --> 00:00:59.167
+estiver englobada
+nesse 95% do µI,
+
+00:00:59.200 --> 00:01:02.567
+então µI
+pode estar aqui ou aqui.
+
+00:01:02.601 --> 00:01:07.601
+Vê como a média amostral está
+no limitante inferior do 95%?
+
+00:01:07.634 --> 00:01:12.501
+Já aqui, a média amostral
+está no limitante superior do 95%.
+
+00:01:12.534 --> 00:01:16.000
+Então, se µI pode estar
+aqui ou aqui,
+
+00:01:16.033 --> 00:01:19.234
+neste intervalo
+que compreende 0,13,
+
+00:01:19.267 --> 00:01:21.167
+então este é o intervalo
+de confiança.
+
+00:01:21.200 --> 00:01:23.267
+Quais são esses valores?
+
+00:01:23.300 --> 00:01:25.901
+Este valor aqui
+deveria ser qual?
+
+00:01:25.934 --> 00:01:28.434
+E este valor aqui
+deveria ser qual?
+

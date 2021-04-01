@@ -1,0 +1,46 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:03.367
+Você aprendeu que,
+numa distribuição normal,
+
+00:00:03.400 --> 00:00:08.133
+cerca de 68% está a até 1
+desvio padrão da média
+
+00:00:08.167 --> 00:00:12.701
+e 95% está a até 2
+desvios padrão da média.
+
+00:00:12.734 --> 00:00:16.534
+Mas isso cabe para populações
+distribuídas normalmente.
+
+00:00:16.567 --> 00:00:19.534
+Estamos falando
+de distribuição amostral.
+
+00:00:19.567 --> 00:00:23.434
+Cada escore neste conjunto
+de dados é uma média,
+
+00:00:23.467 --> 00:00:27.601
+e o desvio padrão é
+o desvio padrão da população
+
+00:00:27.634 --> 00:00:31.400
+dividido pela raiz quadrada
+da amostra de tamanho N.
+
+00:00:31.434 --> 00:00:35.300
+Então 95%
+das médias amostrais...
+
+00:00:35.334 --> 00:00:39.334
+distarão até 2 erros padrão
+
+00:00:39.367 --> 00:00:41.534
+da média da população.
+

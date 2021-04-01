@@ -1,0 +1,105 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:03.133
+Vamos redesenhar
+esta distribuição amostral.
+
+00:00:03.167 --> 00:00:05.434
+Se esta é a média
+da população -
+
+00:00:05.467 --> 00:00:06.801
+que é igual à média
+
+00:00:06.834 --> 00:00:09.100
+da distribuição
+das médias amostrais -
+
+00:00:09.133 --> 00:00:13.367
+e isto está a 2 desvios padrão
+de distância da média -
+
+00:00:13.400 --> 00:00:19.000
+que é igual à média
+somada a 2 erros padrão -
+
+00:00:19.033 --> 00:00:24.567
+e este valor é a média
+menos 2 erros padrão.
+
+00:00:24.601 --> 00:00:29.300
+95% estão
+entre estes dois valores.
+
+00:00:29.334 --> 00:00:31.834
+Voltando a este exemplo,
+
+00:00:31.868 --> 00:00:34.167
+95% das médias
+
+00:00:34.200 --> 00:00:37.901
+estão a até 2
+desvios padrão,
+
+00:00:37.934 --> 00:00:41.334
+em ambos os lados
+da média da população.
+
+00:00:41.367 --> 00:00:42.601
+Esta distância,
+
+00:00:42.634 --> 00:00:46.767
+2 desvios padrão da população
+divididos pela raiz de N,
+
+00:00:46.801 --> 00:00:48.901
+chama-se margem de erro.
+
+00:00:48.934 --> 00:00:52.267
+O que isso nos diz
+sobre esse valor 40?
+
+00:00:52.300 --> 00:00:55.000
+Se todos começassem
+a usar o Bieber Tweeter,
+
+00:00:55.033 --> 00:00:58.234
+imaginamos que haveria
+uma redistribuição da população
+
+00:00:58.267 --> 00:00:59.501
+de escores Klout,
+
+00:00:59.534 --> 00:01:01.467
+mas não sabemos
+qual seria ela.
+
+00:01:01.501 --> 00:01:05.601
+O que sabemos é que uma
+das amostras de 35 de tamanho
+
+00:01:05.634 --> 00:01:07.367
+tem 40 de média.
+
+00:01:07.400 --> 00:01:12.400
+Se 95% das médias amostrais
+estão a até 2 erros padrão,
+
+00:01:12.434 --> 00:01:16.234
+este valor de média
+tem 95% de chance
+
+00:01:16.267 --> 00:01:19.234
+de estar
+a até 2 erros padrão
+
+00:01:19.267 --> 00:01:22.100
+desta nova média
+da população,
+
+00:01:22.133 --> 00:01:24.651
+se todos passassem
+a usar o Bieber Tweeter.
+

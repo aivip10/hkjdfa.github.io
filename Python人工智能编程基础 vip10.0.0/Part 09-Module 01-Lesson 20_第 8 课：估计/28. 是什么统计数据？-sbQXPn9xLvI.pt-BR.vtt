@@ -1,0 +1,80 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:02.300
+Com certeza, observar
+se as médias amostrais
+
+00:00:02.334 --> 00:00:05.000
+são mais altas ou baixas
+do que a média populacional,
+
+00:00:05.033 --> 00:00:09.000
+dá alguma indicação
+sobre se a canção ajudou ou não
+
+00:00:09.033 --> 00:00:10.901
+no engajamento
+e aprendizado do aluno.
+
+00:00:10.934 --> 00:00:13.334
+Mas essa não é
+a história toda.
+
+00:00:13.367 --> 00:00:14.901
+Poderíamos
+observar a diferença
+
+00:00:14.934 --> 00:00:17.234
+da média populacional
+e amostral,
+
+00:00:17.267 --> 00:00:20.133
+mas a população é baseada
+em milhares de resultados
+
+00:00:20.167 --> 00:00:23.601
+enquanto a média amostral é
+apenas de 20 resultados.
+
+00:00:23.634 --> 00:00:26.200
+Então não é
+uma comparação precisa.
+
+00:00:26.234 --> 00:00:28.834
+Não podemos achar
+o Escore Z da média amostral
+
+00:00:28.868 --> 00:00:31.901
+usando o desvio padrão
+da população, sigma.
+
+00:00:31.934 --> 00:00:36.200
+Sigma é baseado na variabilidade
+de cada resultado individual,
+
+00:00:36.234 --> 00:00:39.300
+não na variabilidade
+da média de resultados.
+
+00:00:39.334 --> 00:00:41.968
+Portanto,
+a terceira opção está correta.
+
+00:00:42.000 --> 00:00:43.701
+Usando o teorema
+do limite central,
+
+00:00:43.734 --> 00:00:46.200
+precisamos ver a distribuição
+das médias amostrais
+
+00:00:46.234 --> 00:00:48.534
+para todas as amostras
+de tamanho 20,
+
+00:00:48.567 --> 00:00:53.167
+e ver onde as médias amostrais
+se encaixam nas distribuições.
+

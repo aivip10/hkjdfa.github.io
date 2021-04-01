@@ -1,0 +1,127 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:02.634
+Agora presumiremos
+que esta média amostral
+
+00:00:02.667 --> 00:00:05.300
+é uma das 98%
+
+00:00:05.334 --> 00:00:09.467
+que ficam a até 2,33
+desvios padrão
+
+00:00:09.501 --> 00:00:14.133
+de média da população,
+neste caso µBT.
+
+00:00:14.167 --> 00:00:15.968
+Se for o caso,
+
+00:00:16.000 --> 00:00:18.934
+µBT precisa estar,
+em contrapartida,
+
+00:00:18.968 --> 00:00:23.667
+a até 2,33 desvios padrão
+da média amostral.
+
+00:00:23.701 --> 00:00:29.601
+Esta média amostral
+menos 2,33 desvios padrão,
+
+00:00:29.634 --> 00:00:32.100
+que é 1,01,
+
+00:00:32.133 --> 00:00:35.200
+serão nosso limitante inferior
+para o intervalo de confiança.
+
+00:00:35.234 --> 00:00:39.100
+Portanto,
+chegamos a cerca de 37,65.
+
+00:00:39.133 --> 00:00:42.334
+E nosso limitante superior
+para o int. de confiança de 98%
+
+00:00:42.367 --> 00:00:47.067
+será 40
+mais 2,33 vezes 1,01.
+
+00:00:47.100 --> 00:00:51.501
+Dá 42,35, aproximadamente.
+
+00:00:51.534 --> 00:00:54.667
+Resumindo, nós pegamos
+esta média amostral, 40,
+
+00:00:54.701 --> 00:00:56.367
+e decidimos que é possível
+
+00:00:56.400 --> 00:01:00.067
+que ela esteja aqui ou aqui
+na distribuição,
+
+00:01:00.100 --> 00:01:04.100
+de modo que 1% dos dados
+podem estar sobre ou sob ela.
+
+00:01:04.133 --> 00:01:07.100
+Antes, com o intervalo
+de confiança de 95%,
+
+00:01:07.133 --> 00:01:08.934
+dissemos que,
+provavelmente,
+
+00:01:08.968 --> 00:01:11.734
+seria um pouco mais perto
+da média.
+
+00:01:11.767 --> 00:01:15.534
+Então 2,5% dos dados
+ficariam acima
+
+00:01:15.567 --> 00:01:17.767
+e 2,5% abaixo.
+
+00:01:17.801 --> 00:01:20.200
+Mas estávamos sendo
+meio lenientes.
+
+00:01:20.234 --> 00:01:22.901
+Estávamos permitindo
+que esta média amostral
+
+00:01:22.934 --> 00:01:27.000
+estivesse mais longe
+da média de população.
+
+00:01:27.033 --> 00:01:29.901
+Agora, temos um intervalo
+um pouco maior.
+
+00:01:29.934 --> 00:01:33.067
+Mas temos mais certeza
+de que a real média de pop.
+
+00:01:33.100 --> 00:01:35.000
+estará neste intervalo.
+
+00:01:35.033 --> 00:01:38.701
+Lembre-se que, antes,
+o intervalo de confiança de 95%
+
+00:01:38.734 --> 00:01:42.934
+ia de 38,01 a 41,99.
+
+00:01:42.968 --> 00:01:45.167
+Era um pouco menor
+do que isso.
+
+00:01:45.200 --> 00:01:46.934
+Bom trabalho.
+

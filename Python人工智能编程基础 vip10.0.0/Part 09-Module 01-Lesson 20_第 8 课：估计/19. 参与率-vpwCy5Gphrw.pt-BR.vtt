@@ -1,0 +1,120 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:03.400
+Façamos mais um exemplo do uso
+do intervalo de confiança
+
+00:00:03.434 --> 00:00:04.868
+antes de prosseguirmos.
+
+00:00:04.901 --> 00:00:07.801
+Espero que esteja
+curtindo a aula até aqui.
+
+00:00:07.834 --> 00:00:09.367
+Como mediríamos isso?
+
+00:00:09.400 --> 00:00:11.801
+Uma forma é olhar
+para o número de minutos
+
+00:00:11.834 --> 00:00:15.067
+que cada pessoa assistiu
+dos vídeos,
+
+00:00:15.100 --> 00:00:18.033
+dividido pelo total
+de minutos disponíveis.
+
+00:00:18.067 --> 00:00:21.701
+Poderíamos chamar isso
+de "razão de engajamento",
+
+00:00:21.734 --> 00:00:24.767
+por fornecer indicações
+sobre o quão engajado você está.
+
+00:00:24.801 --> 00:00:26.968
+Se você está
+assistindo mais vídeos,
+
+00:00:27.000 --> 00:00:29.200
+então provavelmente
+está mais engajado.
+
+00:00:29.234 --> 00:00:31.767
+Em 11 de março,
+a data desta filmagem,
+
+00:00:31.801 --> 00:00:36.467
+há 8.702 alunos
+matriculados no curso.
+
+00:00:36.501 --> 00:00:38.634
+Eu inventei
+um conjunto de dados,
+
+00:00:38.667 --> 00:00:40.100
+o link está abaixo -
+
+00:00:40.133 --> 00:00:43.868
+Infelizmente não obtive
+os dados de todo aluno,
+
+00:00:43.901 --> 00:00:47.534
+mas acho que o formato está
+bem próximo do que é.
+
+00:00:47.567 --> 00:00:49.601
+E essa é a natureza
+do negócio.
+
+00:00:49.634 --> 00:00:52.968
+Muita gente se inscreve
+porque é de graça e é fácil,
+
+00:00:53.000 --> 00:00:54.767
+mas não progride no curso,
+
+00:00:54.801 --> 00:00:57.934
+ou se inscreve
+com a intenção de cursar depois.
+
+00:00:58.434 --> 00:01:00.501
+Se estiver cursando
+para obter créditos,
+
+00:01:00.534 --> 00:01:02.901
+o que julgo ser o caso
+de uns 100 de vocês,
+
+00:01:02.934 --> 00:01:05.400
+provavelmente estão aqui
+na distribuição,
+
+00:01:05.434 --> 00:01:08.601
+avançando no curso
+para obter créditos.
+
+00:01:08.634 --> 00:01:13.334
+Primeiro, calcule a média
+e o desvio padrão desses dados.
+
+00:01:13.367 --> 00:01:14.868
+É um conjunto
+de dados grande,
+
+00:01:14.901 --> 00:01:18.767
+então tente usar os atalhos
+que você aprendeu anteriormente.
+
+00:01:18.801 --> 00:01:20.334
+Trate isso
+como uma população
+
+00:01:20.367 --> 00:01:24.934
+e arredonde os milésimos -
+três casas decimais.
+

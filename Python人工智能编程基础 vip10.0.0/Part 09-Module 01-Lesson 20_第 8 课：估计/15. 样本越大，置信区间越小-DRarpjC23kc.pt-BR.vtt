@@ -1,0 +1,107 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:02.467
+Agora temos
+o intervalo de confiança,
+
+00:00:02.501 --> 00:00:06.234
+que vai de 38 a 42,
+
+00:00:06.267 --> 00:00:09.567
+bem menor que aquele
+que calculamos
+
+00:00:09.601 --> 00:00:13.634
+quando o baseamos
+de uma amostra de 35.
+
+00:00:13.667 --> 00:00:16.434
+Amostras maiores retornam
+estimativas mais precisas
+
+00:00:16.467 --> 00:00:18.467
+por nos darem
+intervalos menores.
+
+00:00:18.501 --> 00:00:23.200
+Eles contraem o desvio padrão
+desta distribuição amostral,
+
+00:00:23.234 --> 00:00:25.467
+então contraem o intervalo
+
+00:00:25.501 --> 00:00:28.667
+em que uma média amostral
+pode se encontrar.
+
+00:00:28.701 --> 00:00:31.133
+Veja que este
+intervalo de confiança
+
+00:00:31.167 --> 00:00:36.434
+nem contem a média
+da pop. original, 37,72.
+
+00:00:36.467 --> 00:00:38.501
+Portanto,
+é muito improvável
+
+00:00:38.534 --> 00:00:41.601
+que uma amostra aleatória
+de 250 de tamanho,
+
+00:00:41.634 --> 00:00:45.634
+com 40 de média,
+fosse selecionada ao acaso.
+
+00:00:45.667 --> 00:00:48.601
+Isso é evidência
+para um efeito de tratamento.
+
+00:00:48.634 --> 00:00:50.400
+Quanto maior a amostra,
+
+00:00:50.434 --> 00:00:52.167
+menor o intervalo
+
+00:00:52.200 --> 00:00:55.801
+em que sabemos
+que a população está.
+
+00:00:55.834 --> 00:00:58.434
+Com um intervalo
+de confiança de 95%
+
+00:00:58.467 --> 00:01:01.767
+para uma amostra
+de tamanho 35...
+
+00:01:01.801 --> 00:01:04.067
+dava um grande intervalo.
+
+00:01:04.100 --> 00:01:06.434
+Mas um intervalo
+de confiança de 95%
+
+00:01:06.467 --> 00:01:09.133
+com amostras
+de tamanho 250,
+
+00:01:09.167 --> 00:01:12.067
+temos um intervalo
+muito menor.
+
+00:01:12.100 --> 00:01:15.300
+Quanto maior a amostra,
+menor o intervalo de confiança
+
+00:01:15.334 --> 00:01:19.367
+para o verdadeiro parâmetro
+da população após a intervenção
+
+00:01:19.400 --> 00:01:23.534
+e melhor a nossa estimativa
+dos parâmetros de população.
+

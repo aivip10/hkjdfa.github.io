@@ -1,0 +1,193 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:02.100
+Vamos dar um zoom aqui.
+
+00:00:02.133 --> 00:00:05.000
+Sabemos que 95%
+das médias amostrais
+
+00:00:05.033 --> 00:00:08.434
+estarão a até 2
+desvios padrão da média.
+
+00:00:08.467 --> 00:00:09.734
+É provável...
+
+00:00:09.767 --> 00:00:14.133
+que esta média amostral
+esteja entre os 95%
+
+00:00:14.167 --> 00:00:17.100
+que distarão
+até 2 desvios padrão
+
+00:00:17.133 --> 00:00:19.834
+da nova distribuição amostral,
+
+00:00:19.868 --> 00:00:22.501
+se todos passarem
+a usar o Bieber Tweeter.
+
+00:00:22.534 --> 00:00:23.868
+Trocando em miúdos,
+
+00:00:23.901 --> 00:00:27.300
+prevemos uma nova média
+de população.
+
+00:00:27.334 --> 00:00:31.000
+Chamaremos-na de µBT,
+de Bieber Tweeter.
+
+00:00:31.033 --> 00:00:33.067
+Nosso melhor chute é 40,
+
+00:00:33.100 --> 00:00:35.501
+mas estará em um intervalo
+ao redor de 40,
+
+00:00:35.534 --> 00:00:37.000
+provavelmente.
+
+00:00:37.033 --> 00:00:41.200
+E sabemos que 95%
+das médias amostrais,
+
+00:00:41.234 --> 00:00:43.667
+só das pessoas
+que usam Bieber Tweeter,
+
+00:00:43.701 --> 00:00:45.934
+estará neste intervalo.
+
+00:00:45.968 --> 00:00:50.200
+É provável que este
+seja um dos 95%.
+
+00:00:50.234 --> 00:00:53.234
+Vamos presumir
+que isto está no intervalo.
+
+00:00:53.267 --> 00:00:57.367
+Se esta média amostral
+está mesmo dentro do intervalo,
+
+00:00:57.400 --> 00:01:00.300
+qual seria a média
+da população?
+
+00:01:00.334 --> 00:01:03.234
+Bem,
+se 40 está neste intervalo,
+
+00:01:03.267 --> 00:01:06.434
+sabemos que 40
+há de ser maior que isto,
+
+00:01:06.467 --> 00:01:08.467
+mas menor que isto.
+
+00:01:09.067 --> 00:01:12.400
+Lembra como resolver
+inequações assim?
+
+00:01:12.434 --> 00:01:15.434
+Estamos tentando descobrir
+a média da população.
+
+00:01:15.968 --> 00:01:20.100
+Então subtrairemos
+dos três lados da inequação.
+
+00:01:20.133 --> 00:01:24.300
+Fazendo isso,
+cortamos estes dois.
+
+00:01:24.334 --> 00:01:28.868
+-2 erros padrão...
+
+00:01:28.901 --> 00:01:34.167
+é menor que 40
+menos a média da população
+
+00:01:34.200 --> 00:01:37.267
+que é menor
+que 2 erros padrão.
+
+00:01:37.300 --> 00:01:41.100
+Subtraímos 40
+dos três lados da inequação...
+
+00:01:41.133 --> 00:01:44.133
+Aqui temos -40...
+
+00:01:44.167 --> 00:01:47.467
+E a última coisa a fazer
+é tornar isto positivo.
+
+00:01:47.501 --> 00:01:51.534
+Multiplicaremos os 3 lados
+por -1.
+
+00:01:51.567 --> 00:01:54.400
+Multiplicar e dividir
+por número negativo
+
+00:01:54.434 --> 00:01:57.334
+reverte toda a inequação.
+
+00:01:57.367 --> 00:01:59.601
+Multiplicando isto por -1,
+
+00:01:59.634 --> 00:02:04.934
+temos 40 + 2 sigma
+dividido por raiz de N
+
+00:02:04.968 --> 00:02:09.667
+é maior que média
+da população
+
+00:02:09.701 --> 00:02:12.801
+que é maior que 40...
+
+00:02:12.834 --> 00:02:16.200
+-2 erros padrão.
+
+00:02:16.234 --> 00:02:19.133
+Agora,
+temos este intervalo lindo.
+
+00:02:19.167 --> 00:02:21.200
+Vamos recapitular.
+
+00:02:21.234 --> 00:02:24.400
+Sabemos que 95%
+das médias amostrais
+
+00:02:24.434 --> 00:02:29.634
+distarão até 2 erros padrão
+da média da população.
+
+00:02:29.667 --> 00:02:33.901
+Imaginamos que a média amostral
+que temos está nesses 95%
+
+00:02:33.934 --> 00:02:37.934
+que caem neste intervalo.
+Se for o caso,
+
+00:02:37.968 --> 00:02:41.300
+temos convicção
+de que a média da população
+
+00:02:41.334 --> 00:02:44.133
+está entre
+esta média amostral...
+
+00:02:44.167 --> 00:02:47.934
+mais ou menos
+2 erros padrão.
+

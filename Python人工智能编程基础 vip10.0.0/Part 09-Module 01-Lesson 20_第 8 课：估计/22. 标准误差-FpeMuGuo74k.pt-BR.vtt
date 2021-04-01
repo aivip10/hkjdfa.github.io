@@ -1,0 +1,86 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:02.667
+Então se esta é
+nossa população,
+
+00:00:02.701 --> 00:00:04.801
+onde o eixo de y
+é a frequência
+
+00:00:04.834 --> 00:00:07.601
+e o eixo de x é a razão
+de engajamento,
+
+00:00:07.634 --> 00:00:11.067
+sabemos que se pegarmos
+toda amostra com 20 de tamanho
+
+00:00:11.100 --> 00:00:13.100
+desta distribuição,
+
+00:00:13.133 --> 00:00:15.868
+calcularmos a média
+de cada amostra
+
+00:00:15.901 --> 00:00:18.300
+e pusermos no gráfico
+a distribuição de médias,
+
+00:00:18.334 --> 00:00:19.968
+será normal.
+
+00:00:20.000 --> 00:00:23.901
+A média de distribuição deve
+ser a média da população,
+
+00:00:23.934 --> 00:00:27.100
+o que você calculou
+e obteve 77.000.
+
+00:00:27.133 --> 00:00:30.534
+E o desvio padrão
+desta distribuição
+
+00:00:30.567 --> 00:00:35.200
+é o desvio padrão dividido
+pelo tamanho da amostra
+
+00:00:35.234 --> 00:00:39.133
+que é 0,107 dividido
+pela raiz quadrada de 20.
+
+00:00:39.167 --> 00:00:41.400
+E, se arrendodarmos
+os milésimos,
+
+00:00:41.434 --> 00:00:43.901
+obteremos 24.000.
+
+00:00:43.934 --> 00:00:46.100
+Então este é o erro padrão.
+
+00:00:46.133 --> 00:00:48.601
+Ao descobrirmos que a média
+da razão de engajamento
+
+00:00:48.634 --> 00:00:51.934
+da nossa amostra
+de tamanho 20 era 0,13,
+
+00:00:51.968 --> 00:00:54.667
+podemos compará-la
+a nossa distribuição
+
+00:00:54.701 --> 00:00:56.734
+em termos de erro padrão.
+
+00:00:56.767 --> 00:00:59.234
+Queremos saber
+a quantos erros padrões
+
+00:00:59.267 --> 00:01:02.200
+0,13 está da média.
+

@@ -1,0 +1,42 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:04.300
+Lembre-se:
+dissemos que cerca de 95%
+
+00:00:04.334 --> 00:00:07.133
+das médias amostrais
+cairiam neste intervalo.
+
+00:00:07.167 --> 00:00:09.634
+2 vezes sigma dividido
+pela raiz quadrada de N
+
+00:00:09.667 --> 00:00:12.133
+é, aproximadamente,
+nossa margem de erro.
+
+00:00:12.167 --> 00:00:14.701
+Mas usemos valores exatos.
+
+00:00:14.734 --> 00:00:18.467
+Em qualquer distribuição normal
+onde a média seja µ,
+
+00:00:18.501 --> 00:00:21.868
+sabemos que cerca de 95%
+dos dados
+
+00:00:21.901 --> 00:00:25.000
+está a até 2 desvios padrão
+da média.
+
+00:00:25.033 --> 00:00:28.000
+Mas qual é o número exato
+de desvios padrão
+
+00:00:28.033 --> 00:00:31.934
+que contém 95% dos dados?
+

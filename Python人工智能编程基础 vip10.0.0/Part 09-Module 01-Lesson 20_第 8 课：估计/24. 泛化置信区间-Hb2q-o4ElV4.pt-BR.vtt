@@ -1,0 +1,119 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.033 --> 00:00:02.467
+Certo,
+então vamos analisar o primeiro.
+
+00:00:02.501 --> 00:00:06.100
+Nós temos nossa média amostral,
+X-barra,
+
+00:00:06.133 --> 00:00:08.200
+menos o Escore Z
+
+00:00:08.234 --> 00:00:11.200
+vezes o desvio padrão.
+
+00:00:11.234 --> 00:00:14.734
+Significa que temos esse número
+de desvios padrões
+
+00:00:14.767 --> 00:00:16.400
+a menos do que a média.
+
+00:00:16.434 --> 00:00:17.901
+E foi o que fizemos...
+
+00:00:17.934 --> 00:00:22.067
+com o Z sendo 1,96,
+
+00:00:22.100 --> 00:00:24.567
+como isso é 95%.
+
+00:00:24.601 --> 00:00:27.868
+E aqui, do outro lado,
+temos nossa média amostral
+
+00:00:27.901 --> 00:00:33.701
+mais quantidades Z
+de desvios ou erros padrões.
+
+00:00:33.734 --> 00:00:37.200
+Isso é o que fizemos para achar
+o intervalo de confiança.
+
+00:00:37.234 --> 00:00:41.267
+Mas não subtraímos
+os desvios padrões Z
+
+00:00:41.300 --> 00:00:43.067
+da média populacional.
+
+00:00:43.100 --> 00:00:47.334
+A média da população original
+era 0,77.
+
+00:00:47.367 --> 00:00:50.801
+Se fizéssemos isso, obteríamos
+o intervalo de confiança
+
+00:00:50.834 --> 00:00:53.701
+da média
+da população original,
+
+00:00:53.734 --> 00:00:55.601
+e isso não é
+do nosso interesse.
+
+00:00:55.634 --> 00:00:59.467
+Neste terceiro, nós temos
+nossa média amostral menos -
+
+00:00:59.501 --> 00:01:04.334
+e, em vez de Z,
+temos o valor de Z: 1,96 -
+
+00:01:04.367 --> 00:01:05.934
+vezes o desvio padrão.
+
+00:01:05.968 --> 00:01:09.200
+Então 1,96 erro padrão
+
+00:01:09.234 --> 00:01:11.601
+a menos
+do que a média amostral.
+
+00:01:11.634 --> 00:01:14.801
+Foi isso o que fizemos.
+E o mesmo fizemos aqui.
+
+00:01:14.834 --> 00:01:19.167
+Temos 1,96 erro padrão
+mais a média amostral.
+
+00:01:19.200 --> 00:01:21.334
+E este não faz
+muito sentido
+
+00:01:21.367 --> 00:01:26.701
+porque não podemos subtrair
+o número de desvios padrões.
+
+00:01:26.734 --> 00:01:30.200
+Precisamos multriplicar o número
+de desvios padrões
+
+00:01:30.234 --> 00:01:33.234
+pelo o que é
+o desvio padrão,
+
+00:01:33.267 --> 00:01:37.501
+para encontrar a distância
+da média amostral que queremos.
+
+00:01:37.534 --> 00:01:40.467
+Espero que faça sentido.
+Ótimo trabalho.
+

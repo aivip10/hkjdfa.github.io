@@ -1,0 +1,100 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:01.968
+Voltemos à Tabela Z.
+
+00:00:02.000 --> 00:00:05.400
+Aqui está a Tabela Z,
+áreas sob a curva normal,
+
+00:00:05.434 --> 00:00:07.534
+e queremos
+esta probabilidade aqui.
+
+00:00:07.567 --> 00:00:10.868
+Antes de mais nada,
+se 95% está aqui
+
+00:00:10.901 --> 00:00:14.067
+e a área total sob a curva
+é 100%,
+
+00:00:14.100 --> 00:00:17.701
+isso significa que 2,5%
+está nesta ponta
+
+00:00:17.734 --> 00:00:20.701
+e 2,5% está nesta ponta.
+
+00:00:20.734 --> 00:00:23.367
+Queremos saber
+qual é o valor de Z
+
+00:00:23.400 --> 00:00:27.501
+quando há 2,5% menos
+que o valor de Z.
+
+00:00:27.534 --> 00:00:29.667
+Voltemos à Tabela Z.
+
+00:00:29.701 --> 00:00:34.033
+Queremos que esta área cinza
+seja 0,025,
+
+00:00:34.067 --> 00:00:36.000
+ou 2,5%,
+
+00:00:36.033 --> 00:00:39.334
+então se acharmos 0,25...
+
+00:00:39.367 --> 00:00:40.801
+Está aqui.
+
+00:00:40.834 --> 00:00:46.234
+Com um valor Z de -1,96.
+
+00:00:46.267 --> 00:00:50.467
+Então aqui está o -1,96,
+
+00:00:50.501 --> 00:00:54.100
+e esta área total
+até o valor de Z
+
+00:00:54.133 --> 00:00:57.501
+é 95% mais 2,5%,
+
+00:00:57.534 --> 00:01:00.467
+que dá 97,5%.
+
+00:01:00.501 --> 00:01:03.434
+Vamos procurar 0,975...
+
+00:01:03.467 --> 00:01:05.300
+E vemos que está aqui,
+
+00:01:05.334 --> 00:01:08.868
+em 1,96.
+
+00:01:08.901 --> 00:01:12.701
+Se o escore de Z aqui
+é 1,96,
+
+00:01:12.734 --> 00:01:14.901
+como isto é simétrico
+
+00:01:14.934 --> 00:01:19.200
+e µ fica a 0 desvio padrão
+de si mesmo,
+
+00:01:19.234 --> 00:01:22.100
+sabemos que isto será 1,96,
+
+00:01:22.133 --> 00:01:24.567
+mas eu queria provar,
+usando a Tabela Z,
+
+00:01:24.601 --> 00:01:25.986
+como são simétricos.
+
