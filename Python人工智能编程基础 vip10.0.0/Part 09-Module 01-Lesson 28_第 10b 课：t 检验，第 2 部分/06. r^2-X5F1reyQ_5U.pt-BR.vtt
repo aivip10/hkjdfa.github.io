@@ -1,0 +1,78 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:02.734
+Vamos falar
+sobre medidas de correlação.
+
+00:00:02.767 --> 00:00:04.567
+Já mencionamos
+r ao quadrado.
+
+00:00:04.601 --> 00:00:08.834
+Ele nos dá a força da relação
+entre duas variáveis.
+
+00:00:08.868 --> 00:00:12.334
+Às vezes, é chamado
+de coeficiente de determinação.
+
+00:00:12.367 --> 00:00:16.467
+Como r ao quadrado é uma proporção,
+ele varia entre 0 e 1.
+
+00:00:16.501 --> 00:00:21.234
+Quando r ao quadrado é 0,
+as variáveis não estão relacionadas.
+
+00:00:21.267 --> 00:00:24.934
+Quando r ao quadrado é 1,
+estão perfeitamente relacionadas.
+
+00:00:24.968 --> 00:00:27.067
+Isso raramente acontece.
+
+00:00:27.100 --> 00:00:30.534
+É difícil imaginar variáveis
+perfeitamente relacionadas.
+
+00:00:30.567 --> 00:00:33.601
+Ao conduzir o teste t,
+a fórmula de r ao quadrado
+
+00:00:33.634 --> 00:00:36.467
+pode ser derivada
+das informações do teste t.
+
+00:00:36.501 --> 00:00:38.267
+A fórmula de r ao quadrado é
+
+00:00:38.300 --> 00:00:43.033
+t ao quadrado sobre t ao quadrado
+mais os graus de liberdade.
+
+00:00:43.067 --> 00:00:45.434
+Este t não é
+o valor crítico,
+
+00:00:45.467 --> 00:00:48.767
+mas o valor obtido
+no teste t em si.
+
+00:00:48.801 --> 00:00:52.000
+Para computar r ao quadrado,
+compute o valor de t
+
+00:00:52.033 --> 00:00:54.467
+usando a fórmula,
+eleve-o ao quadrado,
+
+00:00:54.501 --> 00:00:57.234
+coloque-o no numerador,
+eleve-o ao quadrado,
+
+00:00:57.267 --> 00:00:59.934
+adicione os graus de liberdade
+e divida.
+

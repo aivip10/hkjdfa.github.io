@@ -1,0 +1,79 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:02.434
+Já falamos um pouco
+sobre o d de Cohen,
+
+00:00:02.467 --> 00:00:05.133
+cujo nome vem
+do estatístico Jacob Cohen.
+
+00:00:05.167 --> 00:00:07.167
+É uma medida
+de tamanho de efeito
+
+00:00:07.200 --> 00:00:10.334
+que nos dá a diferença
+média padronizada.
+
+00:00:10.367 --> 00:00:13.601
+Vamos esclarecer.
+Sabemos o que é diferença média.
+
+00:00:13.634 --> 00:00:17.634
+Diferença média é simplesmente
+a diferença entre duas médias.
+
+00:00:17.667 --> 00:00:20.067
+Por exemplo,
+entre X barra e mi,
+
+00:00:20.100 --> 00:00:23.767
+como nos testes z e t
+de amostra independente.
+
+00:00:23.801 --> 00:00:27.534
+Usamos o termo "padronizado"
+na discussão sobre pontuações z.
+
+00:00:27.567 --> 00:00:30.567
+Chamar as pontuações z
+de padronizadas
+
+00:00:30.601 --> 00:00:35.467
+significa pegar a diferença entre
+uma pontuação bruta e a média,
+
+00:00:35.501 --> 00:00:37.801
+e dividi-la
+pelo desvio padrão.
+
+00:00:37.834 --> 00:00:41.234
+O d de Cohen faz algo parecido.
+Ele pega uma diferença,
+
+00:00:41.267 --> 00:00:45.234
+no caso da amostra independente,
+entre X barra e mi,
+
+00:00:45.267 --> 00:00:48.968
+e a divide pelo desvio padrão
+da amostra.
+
+00:00:49.000 --> 00:00:52.467
+Ela tem esse nome
+pois temos uma diferença média
+
+00:00:52.501 --> 00:00:55.467
+que é transformada
+em unidade de desvio padrão.
+
+00:00:55.501 --> 00:00:59.934
+A interpretação do d de Cohen
+é a distância entre essas médias
+
+00:00:59.968 --> 00:01:02.167
+em unidades de desvio padrão.
+

@@ -1,0 +1,219 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:04.133
+Ao conduzir uma pesquisa
+e computar resultados estatísticos,
+
+00:00:04.167 --> 00:00:07.334
+relatamos os resultados
+na seção de resultados.
+
+00:00:07.367 --> 00:00:10.467
+Vou falar sobre os itens
+da seção de resultados.
+
+00:00:10.501 --> 00:00:13.767
+O 1º item são
+as estatísticas descritivas,
+
+00:00:13.801 --> 00:00:16.167
+por exemplo,
+a média do desvio padrão.
+
+00:00:16.200 --> 00:00:19.234
+Estatísticas descritivas
+são o coração do estudo.
+
+00:00:19.267 --> 00:00:22.934
+Elas nos dizem o que aconteceu
+e sempre devem ser relatadas.
+
+00:00:22.968 --> 00:00:25.100
+Podemos relatá-las
+de 3 maneiras.
+
+00:00:25.133 --> 00:00:27.701
+Escrito por extenso,
+
+00:00:27.734 --> 00:00:31.334
+entre as palavras,
+na seção de resultados;
+
+00:00:31.367 --> 00:00:34.000
+em gráficos,
+como um gráfico de barras,
+
+00:00:34.033 --> 00:00:35.734
+ou em tabelas.
+
+00:00:35.767 --> 00:00:38.467
+Depois, relate
+as estatísticas inferenciais.
+
+00:00:38.501 --> 00:00:40.901
+Pode ser
+um teste de hipóteses,
+
+00:00:40.934 --> 00:00:43.367
+um intervalo de confiança,
+ou os dois.
+
+00:00:43.400 --> 00:00:45.434
+Ao relatar
+um teste de hipóteses,
+
+00:00:45.467 --> 00:00:48.033
+forneça ao leitor
+as informações a seguir.
+
+00:00:48.067 --> 00:00:50.634
+O tipo de teste
+que você conduziu.
+
+00:00:50.667 --> 00:00:53.901
+Por exemplo, um teste t
+de amostra independente.
+
+00:00:53.934 --> 00:00:58.534
+O valor real da estatística
+do teste. Por exemplo, o valor de t.
+
+00:00:58.567 --> 00:01:00.901
+Os graus de liberdade
+do teste.
+
+00:01:00.934 --> 00:01:03.834
+Não a fórmula,
+mas o número que resulta dela.
+
+00:01:03.868 --> 00:01:06.601
+Forneça também o valor de p.
+
+00:01:06.634 --> 00:01:09.133
+O valor exato de p,
+se possível.
+
+00:01:09.167 --> 00:01:12.033
+Se aplicável,
+informe a direção do teste.
+
+00:01:12.067 --> 00:01:15.200
+É um teste de uma ponta
+ou de duas pontas?
+
+00:01:15.234 --> 00:01:18.000
+E sempre forneça
+o nível alpha.
+
+00:01:18.033 --> 00:01:22.100
+Sempre informe o nível alpha
+que você usou para tomar decisões.
+
+00:01:22.133 --> 00:01:25.067
+Em muitas disciplinas,
+usamos as normas APA
+
+00:01:25.100 --> 00:01:28.133
+para relatar os resultados
+do teste de hipóteses.
+
+00:01:28.167 --> 00:01:32.100
+APA significa
+Associação Americana de Psicologia.
+
+00:01:32.133 --> 00:01:36.167
+A APA tem um guia de como escrever
+relatórios de pesquisa,
+
+00:01:36.200 --> 00:01:40.834
+e uma parte dele ensina a escrever
+resultados estatísticos inferenciais.
+
+00:01:40.868 --> 00:01:44.834
+Vou dar uma breve introdução
+das normas APA para estatísticas,
+
+00:01:44.868 --> 00:01:47.334
+pois tem a ver
+com o teste t.
+
+00:01:47.367 --> 00:01:51.067
+Este é um esboço de como
+apresentar resultados de um teste t
+
+00:01:51.100 --> 00:01:52.701
+dentro das normas APA.
+
+00:01:52.734 --> 00:01:56.701
+Primeiro, coloque o nome
+da estatística de teste. No caso, t.
+
+00:01:56.734 --> 00:01:59.701
+Ao lado, os graus de liberdade
+entre parênteses.
+
+00:01:59.734 --> 00:02:02.834
+Coloque um sinal de igual
+e forneça o valor de t
+
+00:02:02.868 --> 00:02:05.868
+arredondado para 2 casas
+decimais, uma vírgula,
+
+00:02:05.901 --> 00:02:09.267
+e o valor de p arredondado
+para 2 casas decimais.
+
+00:02:09.300 --> 00:02:13.067
+Há exceções à regra,
+mas em geral, é feito assim.
+
+00:02:13.100 --> 00:02:17.667
+Coloque outra vírgula e a direção
+do teste: é de uma ou duas pontas?
+
+00:02:17.701 --> 00:02:21.033
+Vou dar um exemplo
+mais concreto em breve.
+
+00:02:21.067 --> 00:02:23.501
+Imagine uma situação
+em que o valor de t
+
+00:02:23.534 --> 00:02:27.334
+com 24 graus de liberdade
+é igual a menos 2,50.
+
+00:02:27.367 --> 00:02:29.934
+Fazendo à mão,
+só é possível saber se p
+
+00:02:29.968 --> 00:02:33.334
+é menor ou maior que 0,05.
+
+00:02:33.367 --> 00:02:35.801
+O teste é de uma ponta.
+É escrito assim.
+
+00:02:35.834 --> 00:02:38.901
+Usando um computador
+para obter os resultados,
+
+00:02:38.934 --> 00:02:41.033
+obteríamos o valor
+exato de p.
+
+00:02:41.067 --> 00:02:44.067
+Um valor exato de p de uma ponta
+nesta situação,
+
+00:02:44.100 --> 00:02:48.734
+arredondado para 2 casas
+decimais, é 0,01.
+
+00:02:48.767 --> 00:02:51.133
+Podemos escrever
+p é igual a 0,01.
+
