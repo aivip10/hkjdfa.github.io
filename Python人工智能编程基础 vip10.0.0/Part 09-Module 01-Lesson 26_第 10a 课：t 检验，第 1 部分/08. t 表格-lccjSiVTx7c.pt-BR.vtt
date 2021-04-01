@@ -1,0 +1,87 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:04.300
+Como não temos mais uma distribuição
+normal, mas uma distribuição t,
+
+00:00:04.334 --> 00:00:05.801
+temos uma nova tabela.
+
+00:00:05.834 --> 00:00:07.667
+Esta é a tabela t.
+
+00:00:07.701 --> 00:00:12.501
+Diferente da z, a tabela t nos dá
+os valores críticos no corpo.
+
+00:00:12.534 --> 00:00:17.534
+E aqui, as colunas são a área
+na extremidade direita.
+
+00:00:17.567 --> 00:00:20.033
+À esquerda,
+temos os graus de liberdade.
+
+00:00:20.067 --> 00:00:24.033
+Lembra, eu disse que distribuições t
+são definidas por seus graus de liberdade.
+
+00:00:24.067 --> 00:00:30.167
+Então no eixo X das distribuições t,
+temos os valores t, em vez de valores z.
+
+00:00:30.200 --> 00:00:34.868
+Neste caso, só nos importam os valores t
+críticos.
+
+00:00:34.901 --> 00:00:37.767
+Então digamos que temos
+uma distribuição t
+
+00:00:37.801 --> 00:00:42.033
+e queremos saber
+o valor t crítico sendo que 10%
+
+00:00:42.067 --> 00:00:46.067
+estão na extremidade aqui,
+ou uma proporção 0,1.
+
+00:00:46.100 --> 00:00:52.033
+E digamos que o tamanho de nossa amostra
+é 10, então nosso grau de liberdade é 9.
+
+00:00:52.067 --> 00:00:55.501
+Então esta é uma distribuição t com 9 graus
+de liberdade.
+
+00:00:55.534 --> 00:00:58.267
+E queremos achar este valor t crítico.
+
+00:00:58.300 --> 00:01:02.934
+Aqui nas extremidades,
+procuramos por 0,1.
+
+00:01:02.968 --> 00:01:09.100
+E com 9 graus de liberdade,
+vemos que o valor crítico t é 1,383.
+
+00:01:09.133 --> 00:01:14.901
+Você usará esta tabela t para fazer basicamente
+a mesma coisa que fez com a tabela z.
+
+00:01:14.934 --> 00:01:17.100
+Mas em vez de achar a pontuação Z
+
+00:01:17.133 --> 00:01:22.200
+e depois determinar se a pontuação Z
+é maior ou menor que o valor z crítico,
+
+00:01:22.234 --> 00:01:30.601
+achamos a estatística t e descobrimos
+se ela é maior ou menor que o valor crítico t.
+
+00:01:30.634 --> 00:01:32.567
+Vamos praticar usando a tabela t.
+

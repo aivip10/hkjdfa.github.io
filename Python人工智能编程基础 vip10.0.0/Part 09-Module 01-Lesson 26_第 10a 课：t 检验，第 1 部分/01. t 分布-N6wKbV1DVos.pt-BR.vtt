@@ -1,0 +1,159 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:01.601
+Bem-vindo de volta!
+
+00:00:01.634 --> 00:00:03.200
+Nestes casos até agora,
+
+00:00:03.234 --> 00:00:07.267
+supomos que sabemos
+os parâmetros populacionais, Mu e sigma.
+
+00:00:07.300 --> 00:00:09.567
+Mas na maioria das vezes não sabemos.
+
+00:00:09.601 --> 00:00:15.601
+Muitas vezes só temos amostras,
+que devemos usar para chegar a conclusões.
+
+00:00:15.634 --> 00:00:18.501
+Nas próximas duas lições,
+usaremos amostras para descobrir
+
+00:00:18.534 --> 00:00:21.601
+o quão diferente uma média amostral
+é de uma população
+
+00:00:21.968 --> 00:00:24.667
+e o quão diferentes duas amostras
+são entre si.
+
+00:00:24.701 --> 00:00:27.868
+De todas as medidas de centro,
+geralmente usamos a média.
+
+00:00:27.901 --> 00:00:30.801
+Agora, as duas amostras
+que estamos comparando neste caso
+
+00:00:30.834 --> 00:00:34.234
+podem ser dependentes ou independentes.
+
+00:00:34.267 --> 00:00:36.501
+Vamos ver as diferenças depois.
+
+00:00:36.534 --> 00:00:39.334
+Na lição 10 vamos ver isso.
+
+00:00:39.367 --> 00:00:43.300
+E na lição 11, veremos amostras
+independentes.
+
+00:00:43.334 --> 00:00:44.801
+Será divertido.
+
+00:00:44.834 --> 00:00:46.434
+Quando trabalhamos com amostras,
+
+00:00:46.467 --> 00:00:49.300
+temos que estimar o desvio padrão
+da população
+
+00:00:49.334 --> 00:00:53.100
+usando o desvio padrão amostral
+com a correção de Bessel.
+
+00:00:53.133 --> 00:00:55.167
+Lembra disso, da lição 4?
+
+00:00:55.200 --> 00:00:59.300
+Normalmente, para achar quão típica
+ou atípica uma média amostral é.
+
+00:00:59.334 --> 00:01:05.133
+O que fez antes, é achar sua localização
+na distribuição das médias amostrais,
+
+00:01:05.167 --> 00:01:07.133
+a distribuição amostral.
+
+00:01:07.167 --> 00:01:11.200
+E podemos determinar a forma
+e os parâmetros dessa distribuição amostral
+
+00:01:11.234 --> 00:01:13.501
+se soubermos os parâmetros populacionais.
+
+00:01:13.534 --> 00:01:18.133
+Lembre-se que para qualquer média amostral
+podemos achar onde ela fica
+
+00:01:18.167 --> 00:01:19.601
+nesta distribuição padronizando-a.
+
+00:01:19.634 --> 00:01:22.801
+Ou seja, achando a pontuação Z
+da média amostral.
+
+00:01:22.834 --> 00:01:25.767
+Achamos a diferença entre a média amostral
+e Mu,
+
+00:01:25.801 --> 00:01:28.100
+e então dividimos pelo erro padrão.
+
+00:01:28.133 --> 00:01:31.834
+Mas agora o erro padrão depende
+da amostra,
+
+00:01:31.868 --> 00:01:35.567
+não podemos mais usar sigma
+se temos uma amostra.
+
+00:01:35.601 --> 00:01:39.801
+Portanto, acabamos com uma nova distribuição
+propensa a erros.
+
+00:01:39.834 --> 00:01:43.133
+Isso se chama distribuição t.
+
+00:01:43.167 --> 00:01:47.133
+Como é mais propensa a erro,
+é mais espalhada
+
+00:01:47.167 --> 00:01:50.667
+e mais grossa nas extremidades
+que uma distribuição normal.
+
+00:01:50.701 --> 00:01:52.434
+Lembra da lição 7,
+
+00:01:52.467 --> 00:01:57.334
+quando aprendeu que amostras maiores
+resultam em distribuições mais estreitas?
+
+00:01:57.367 --> 00:01:59.634
+O mesmo princípio se aplica aqui.
+
+00:01:59.667 --> 00:02:03.467
+Então o que acha que acontece
+quando n, o tamanho da amostra, aumenta?
+
+00:02:03.501 --> 00:02:05.968
+O erro padrão aumenta?
+
+00:02:06.000 --> 00:02:09.367
+A distribuição t se aproxima
+de uma distribuição normal?
+
+00:02:09.400 --> 00:02:12.234
+A distribuição t
+fica com extremidades mais finas?
+
+00:02:12.267 --> 00:02:17.567
+Por fim, s, o desvio do centro amostral,
+se aproxima de sigma.
+

@@ -1,0 +1,49 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:03.968
+Quando fazemos um teste unilateral,
+o valor P é a probabilidade
+
+00:00:04.000 --> 00:00:10.634
+acima da estatística t se for positivo,
+e abaixo da estatística t se for negativo.
+
+00:00:10.667 --> 00:00:17.567
+Mas em um teste bilateral, o valor P
+é tanto a probabilidade acima da estatística t
+
+00:00:17.601 --> 00:00:22.300
+e provavelmente menor que o valor negativo
+dessa estatística t.
+
+00:00:22.334 --> 00:00:26.801
+Se tivéssemos uma estatística t negativa,
+seria a mesma coisa.
+
+00:00:26.834 --> 00:00:31.334
+O valor t seria a soma da probabilidade
+abaixo dessa estatística t
+
+00:00:31.367 --> 00:00:35.267
+e acima do valor positivo dessa estatística t.
+
+00:00:35.300 --> 00:00:39.667
+Rejeitamos a nula quando o valor P
+é menor que o nível alfa.
+
+00:00:39.701 --> 00:00:41.901
+Digamos que temos a amostra a seguir.
+
+00:00:41.934 --> 00:00:47.701
+Esta média amostral é significantemente
+diferente de 10 em um nível alfa de 0,5?
+
+00:00:47.734 --> 00:00:50.033
+1ª, calcule a estatística t.
+
+00:00:50.067 --> 00:00:54.434
+Lembre-se de usar
+o desvio padrão amostral para S.
+

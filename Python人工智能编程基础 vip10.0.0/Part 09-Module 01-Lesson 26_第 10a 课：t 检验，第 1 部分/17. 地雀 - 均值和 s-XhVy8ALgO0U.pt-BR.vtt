@@ -1,0 +1,33 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:05.067
+Vamos fazer isso em uma planilha.
+Lembre-se que há 500 valores.
+
+00:00:05.100 --> 00:00:15.133
+Então em qualquer lugar nas células vazias,
+vamos escrever = média A2:A501.
+
+00:00:16.100 --> 00:00:23.167
+Achamos uma média de 6,47.
+E aqui calcularemos cada desvio quadrático
+
+00:00:23.200 --> 00:00:27.501
+igual a A2 menos D2 ao quadrado.
+
+00:00:29.534 --> 00:00:37.100
+Copie isto. Cole na coluna B. Vamos pegar
+a soma dos desvios quadráticos
+
+00:00:38.367 --> 00:00:41.868
+e dividir por n menos 1.
+
+00:00:41.901 --> 00:00:47.234
+Isto nos dá a variância.
+E então tiramos a raiz quadrada.
+
+00:00:47.267 --> 00:00:51.267
+Então achamos o desvio padrão amostral, 0,4.
+

@@ -1,0 +1,98 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.052 --> 00:00:02.032
+Se o tamanho
+da amostra é 100,
+
+00:00:02.065 --> 00:00:06.824
+agora temos 99 graus de liberdade
+em vez de 24.
+
+00:00:06.857 --> 00:00:09.426
+Ao consultar a tabela T,
+
+00:00:09.459 --> 00:00:13.102
+vemos que o grau de liberdade
+mais próximo de 99 é 100.
+
+00:00:13.135 --> 00:00:14.903
+Vamos usar esse.
+
+00:00:14.936 --> 00:00:18.461
+De novo, queremos 0,025
+em cada ponta.
+
+00:00:18.494 --> 00:00:22.266
+Na parte inferior,
+está escrito nível de confiança C.
+
+00:00:22.299 --> 00:00:24.671
+E aqui temos 95%.
+
+00:00:24.704 --> 00:00:27.277
+É igual ao topo da coluna,
+
+00:00:27.310 --> 00:00:31.300
+com 0,025% em cada ponta.
+
+00:00:31.333 --> 00:00:35.344
+Isso equivale a um intervalo
+de confiança de 95%. Legal!
+
+00:00:35.377 --> 00:00:37.331
+Vemos que o valor
+crítico de t
+
+00:00:37.364 --> 00:00:41.246
+é 1,984 e menos 1,984.
+
+00:00:41.279 --> 00:00:46.430
+Portanto, a margem de erro
+é 1,984 vezes s
+
+00:00:46.463 --> 00:00:51.238
+dividido pela raiz quadrada de n.
+O resultado é 39,68.
+
+00:00:51.271 --> 00:00:54.461
+Observe que a margem de erro
+ficou bem menor
+
+00:00:54.494 --> 00:00:57.960
+do que estava antes,
+com tamanho de amostra 25.
+
+00:00:57.993 --> 00:01:03.185
+Antes, a margem de erro
+era 2,064 vezes 200
+
+00:01:03.218 --> 00:01:08.350
+dividido pela raiz quadrada
+de 25, o que dava 82,56.
+
+00:01:08.383 --> 00:01:10.827
+Quando aumentamos
+o tamanho da amostra,
+
+00:01:10.860 --> 00:01:14.774
+diminuímos a margem de erro
+e somos mais precisos.
+
+00:01:14.807 --> 00:01:17.608
+E quando aumentamos
+o tamanho da amostra,
+
+00:01:17.641 --> 00:01:20.838
+também temos
+mais graus de liberdade
+
+00:01:20.871 --> 00:01:26.120
+e, portanto, a distribuição de t
+vai ficando mais estreita
+
+00:01:26.153 --> 00:01:28.096
+ao se aproximar
+da normalidade.
+

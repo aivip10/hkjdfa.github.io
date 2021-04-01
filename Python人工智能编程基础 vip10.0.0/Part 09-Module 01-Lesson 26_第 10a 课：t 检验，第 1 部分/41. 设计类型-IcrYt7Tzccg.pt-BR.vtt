@@ -1,0 +1,126 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:02.980
+Vimos um tipo de teste t
+de amostras pareadas,
+
+00:00:03.013 --> 00:00:06.593
+onde testamos e medimos
+amostras de 2 populações.
+
+00:00:06.626 --> 00:00:10.732
+No último exemplo, as populações
+eram o número de erros cometidos
+
+00:00:10.765 --> 00:00:13.741
+ao digitar o texto
+de 20 palavras em 30 segundos
+
+00:00:13.774 --> 00:00:15.843
+em cada configuração
+de teclado.
+
+00:00:15.876 --> 00:00:18.510
+Isso se chama
+design de medidas repetidas.
+
+00:00:18.543 --> 00:00:23.297
+A hipótese nula é que as 2 médias
+populacionais serão iguais.
+
+00:00:23.330 --> 00:00:24.907
+Antes de concluir,
+
+00:00:24.940 --> 00:00:28.665
+vou falar sobre 2 outro tipos
+de testes t de amostras pareadas.
+
+00:00:28.698 --> 00:00:30.678
+Um é um design longitudinal,
+
+00:00:30.711 --> 00:00:33.429
+onde medimos uma variável
+em um momento,
+
+00:00:33.462 --> 00:00:36.562
+depois medimos a mesma variável
+para a mesma amostra
+
+00:00:36.595 --> 00:00:40.369
+em um momento posterior, para ver
+se a diferença é significativa
+
+00:00:40.402 --> 00:00:43.528
+entre a variável no tempo 1
+e no tempo 2.
+
+00:00:43.561 --> 00:00:46.969
+A hipótese nula será a mesma,
+simbolicamente,
+
+00:00:47.002 --> 00:00:49.240
+que a do design
+de medidas repetidas.
+
+00:00:49.273 --> 00:00:52.034
+Mas, nesse design,
+há um grande intervalo
+
+00:00:52.067 --> 00:00:54.526
+entre as medições
+das variáveis.
+
+00:00:54.559 --> 00:00:58.914
+Um 3º tipo de design de amostras
+pareadas é o pré-teste pós-teste,
+
+00:00:58.947 --> 00:01:02.368
+onde medimos uma variável,
+implementamos um tratamento,
+
+00:01:02.401 --> 00:01:06.593
+depois medimos a mesma variável para
+a mesma amostra após o tratamento,
+
+00:01:06.626 --> 00:01:10.154
+para ver se este teve
+um efeito significativo.
+
+00:01:10.220 --> 00:01:12.655
+De novo,
+a hipótese nula é a mesma,
+
+00:01:12.688 --> 00:01:15.795
+de que a variável não vai
+mudar significativamente
+
+00:01:15.828 --> 00:01:18.127
+antes e depois
+do tratamento.
+
+00:01:18.160 --> 00:01:22.266
+Há exemplos desses 2 tipos de design
+na série de problemas 10.
+
+00:01:22.299 --> 00:01:25.311
+Ótimo trabalho!
+Testes t são muito complicados.
+
+00:01:25.344 --> 00:01:28.533
+Então, agora,
+se aprofunde com o dr. Laraway.
+
+00:01:28.566 --> 00:01:31.284
+Ele vai detalhar mais
+esses conceitos
+
+00:01:31.317 --> 00:01:33.620
+e realizar um teste t
+de uma amostra
+
+00:01:33.653 --> 00:01:38.000
+para que você possa praticar
+e entender como usar os conceitos.
+

@@ -1,0 +1,73 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.070 --> 00:00:03.957
+Aqui estão os dados. Observe
+que o tamanho da amostra é 25.
+
+00:00:03.990 --> 00:00:06.549
+Aqui diz 26
+por causa do cabeçalho.
+
+00:00:06.582 --> 00:00:09.944
+Vamos achar a média
+de erros no QWERTY.
+
+00:00:10.547 --> 00:00:15.886
+É igual à média de A2 a A26.
+
+00:00:15.919 --> 00:00:18.210
+O resultado é 5,08.
+
+00:00:18.243 --> 00:00:23.057
+E a média de erros cometidos
+no teclado alfabético
+
+00:00:23.492 --> 00:00:25.474
+é 7,8.
+
+00:00:25.507 --> 00:00:28.134
+Queremos ver se há diferença
+significativa
+
+00:00:28.167 --> 00:00:31.468
+entre o número de erros
+cometidos em cada teclado.
+
+00:00:31.501 --> 00:00:35.171
+A hipótese nula é que não há
+diferença significativa.
+
+00:00:35.204 --> 00:00:37.830
+A população de erros
+deste teclado,
+
+00:00:37.863 --> 00:00:41.135
+se estendida a todos,
+não só à amostra,
+
+00:00:41.168 --> 00:00:44.311
+é igual à população de erros
+usando este teclado.
+
+00:00:44.344 --> 00:00:48.423
+E a hipótese alternativa
+é que elas não são iguais.
+
+00:00:48.456 --> 00:00:51.317
+Observe que isto
+equivale a dizer
+
+00:00:51.350 --> 00:00:55.870
+que mi Q menos mi A
+é igual a 0,
+
+00:00:55.903 --> 00:00:59.731
+se só subtrairmos mi A
+em ambos os lados desta equação,
+
+00:00:59.764 --> 00:01:03.730
+o que significa, basicamente,
+que a diferença equivale a 0.
+

@@ -1,0 +1,38 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.086 --> 00:00:02.067
+Estamos usando
+a distribuição t,
+
+00:00:02.100 --> 00:00:05.257
+e a média de exemplo
+cai aqui no meio.
+
+00:00:05.290 --> 00:00:09.272
+Queremos achar o preço
+correspondente a uma estatística t
+
+00:00:09.305 --> 00:00:14.238
+de menos 2,064 e mais 2,064.
+
+00:00:14.271 --> 00:00:19.635
+Ou seja, qual o valor
+de 2,064 erros padrão
+
+00:00:19.668 --> 00:00:21.711
+acima de 1.700,
+
+00:00:21.744 --> 00:00:25.735
+sendo um erro padrão s dividido
+pela raiz quadrada de n?
+
+00:00:25.768 --> 00:00:30.737
+Calcule o intervalo de confiança.
+Vai ser uma boa revisão da lição 8.
+
+00:00:30.770 --> 00:00:34.984
+E lembre-se, 1.700 deve estar
+no meio destes 2 valores.
+

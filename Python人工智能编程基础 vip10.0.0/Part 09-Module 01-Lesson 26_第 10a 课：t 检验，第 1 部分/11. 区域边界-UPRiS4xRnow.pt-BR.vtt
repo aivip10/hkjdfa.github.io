@@ -1,0 +1,42 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:03.326
+Então sua estatística t é de 2,45.
+
+00:00:03.356 --> 00:00:06.702
+E você também sabe que já que
+o tamanho da amostra é 24,
+
+00:00:06.732 --> 00:00:08.998
+o grau de liberdade é 23.
+
+00:00:09.028 --> 00:00:14.006
+Então aqui estão 23 graus de liberdade,
+e vamos procurar 2,45,
+
+00:00:14.036 --> 00:00:16.294
+já que é nossa estatística t.
+
+00:00:16.324 --> 00:00:20.894
+Isso fica entre 2,177 e 2,5.
+
+00:00:20.924 --> 00:00:28.798
+A área à direita deste valor t crítico,
+2,177, é 0,02, ou 2%.
+
+00:00:28.828 --> 00:00:33.710
+A área à direita de 2,5 é 0,01, 1%.
+
+00:00:33.740 --> 00:00:40.294
+Isso significa que a área à direita
+de 2,45 fica entre 0,02 e 0,01.
+
+00:00:40.324 --> 00:00:42.550
+Nem todas as tabelas t são iguais,
+
+00:00:42.580 --> 00:00:47.087
+mas contanto que entenda
+como chegamos a isto, é o que importa.
+

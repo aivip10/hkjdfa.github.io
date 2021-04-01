@@ -1,0 +1,110 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.010 --> 00:00:03.569
+Agora que sabemos decidir
+estatisticamente se uma amostra
+
+00:00:03.602 --> 00:00:07.609
+é diferente de um parâmetro
+populacional, o resto vai ser fácil.
+
+00:00:07.642 --> 00:00:12.923
+Vamos usar os mesmos conceitos para
+comparar duas amostras dependentes.
+
+00:00:12.956 --> 00:00:16.368
+Elas são dependentes
+quando o mesmo sujeito
+
+00:00:16.401 --> 00:00:18.370
+faz o teste duas vezes.
+
+00:00:18.403 --> 00:00:20.785
+Este é um design
+intra-sujeito.
+
+00:00:20.818 --> 00:00:23.700
+Um exemplo é quando se atribui
+a cada sujeito
+
+00:00:23.733 --> 00:00:26.141
+duas condições
+em ordem aleatória.
+
+00:00:26.174 --> 00:00:30.658
+Por exemplo, se ele está na condição
+de controle e recebe um tratamento.
+
+00:00:30.691 --> 00:00:34.192
+Ou talvez ele esteja testando
+dois tipos de tratamentos.
+
+00:00:34.225 --> 00:00:37.526
+Outro exemplo é se cada sujeito
+receber um pré-teste
+
+00:00:37.559 --> 00:00:41.904
+depois um pós-teste. Outro exemplo
+é o crescimento ao longo do tempo,
+
+00:00:41.937 --> 00:00:44.691
+também conhecido
+como estudo longitudinal.
+
+00:00:44.724 --> 00:00:47.902
+Então vamos medir a variável
+para cada sujeito
+
+00:00:47.935 --> 00:00:51.352
+em um ponto do tempo,
+depois em outro ponto do tempo.
+
+00:00:51.385 --> 00:00:55.867
+Quando temos designs intra-sujeito,
+temos dados pareados.
+
+00:00:55.900 --> 00:00:58.753
+Esta coluna X i
+corresponderia
+
+00:00:58.786 --> 00:01:02.305
+às medidas variáveis
+de uma condição,
+
+00:01:02.338 --> 00:01:06.375
+do pré-teste,
+ou de algum ponto do tempo.
+
+00:01:06.408 --> 00:01:10.539
+Os valores Y corresponderiam
+a um segundo tratamento,
+
+00:01:10.572 --> 00:01:14.717
+a um pós-teste, ou a uma medida
+em outro ponto do tempo.
+
+00:01:14.750 --> 00:01:19.213
+Depois, vamos observar
+a diferença entre estes valores.
+
+00:01:19.246 --> 00:01:21.879
+Vamos chamá-la de D i.
+
+00:01:21.912 --> 00:01:26.610
+São os valores X menos os valores Y,
+ou pode ser o oposto.
+
+00:01:26.643 --> 00:01:29.967
+O que nos interessa
+é a diferença absoluta.
+
+00:01:30.000 --> 00:01:32.909
+Vamos seguir o mesmo
+procedimento que fizemos
+
+00:01:32.942 --> 00:01:36.431
+com o teste t de amostra única,
+mas usando os valores D.
+

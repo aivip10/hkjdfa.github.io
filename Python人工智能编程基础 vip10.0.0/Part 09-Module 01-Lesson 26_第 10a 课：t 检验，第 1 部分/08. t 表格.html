@@ -1,0 +1,294 @@
+<!-- udacity2.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>t 表格</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>第 10a 课：t 检验，第 1 部分</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. t 分布.html">01. t 分布</a>
+    </li>
+    <li class="">
+      <a href="02. 吉尼斯.html">02. 吉尼斯</a>
+    </li>
+    <li class="">
+      <a href="03. 自由度.html">03. 自由度</a>
+    </li>
+    <li class="">
+      <a href="04. 自由度 - 选择 n 个数字.html">04. 自由度 - 选择 n 个数字</a>
+    </li>
+    <li class="">
+      <a href="05. 自由度 - 添加至 10.html">05. 自由度 - 添加至 10</a>
+    </li>
+    <li class="">
+      <a href="06. 自由度 - 边际总数.html">06. 自由度 - 边际总数</a>
+    </li>
+    <li class="">
+      <a href="07. 自由度 - 样本标准偏差.html">07. 自由度 - 样本标准偏差</a>
+    </li>
+    <li class="">
+      <a href="08. t 表格.html">08. t 表格</a>
+    </li>
+    <li class="">
+      <a href="09. 单尾 t 检验.html">09. 单尾 t 检验</a>
+    </li>
+    <li class="">
+      <a href="10. 双尾 t 检验.html">10. 双尾 t 检验</a>
+    </li>
+    <li class="">
+      <a href="11. 区域边界.html">11. 区域边界</a>
+    </li>
+    <li class="">
+      <a href="12. 影响 t 统计量.html">12. 影响 t 统计量</a>
+    </li>
+    <li class="">
+      <a href="13. 单样本 t 检验.html">13. 单样本 t 检验</a>
+    </li>
+    <li class="">
+      <a href="14. 增加 t.html">14. 增加 t</a>
+    </li>
+    <li class="">
+      <a href="15. 地雀.html">15. 地雀</a>
+    </li>
+    <li class="">
+      <a href="16. 地雀 - n 和 DF.html">16. 地雀 - n 和 DF</a>
+    </li>
+    <li class="">
+      <a href="17. 地雀 - 均值和 s.html">17. 地雀 - 均值和 s</a>
+    </li>
+    <li class="">
+      <a href="18. 地雀 - 找到 t 统计量.html">18. 地雀 - 找到 t 统计量</a>
+    </li>
+    <li class="">
+      <a href="19. 地雀 - 决策.html">19. 地雀 - 决策</a>
+    </li>
+    <li class="">
+      <a href="20. P 值.html">20. P 值</a>
+    </li>
+    <li class="">
+      <a href="21. 可视化 P 值.html">21. 可视化 P 值</a>
+    </li>
+    <li class="">
+      <a href="22. 找到 P 值.html">22. 找到 P 值</a>
+    </li>
+    <li class="">
+      <a href="23. 租金 - t 临界值.html">23. 租金 - t 临界值</a>
+    </li>
+    <li class="">
+      <a href="24. 租金 - t 统计量.html">24. 租金 - t 统计量</a>
+    </li>
+    <li class="">
+      <a href="25. 租金 - 决策.html">25. 租金 - 决策</a>
+    </li>
+    <li class="">
+      <a href="26. 租金 - Cohen&#x27;s d.html">26. 租金 - Cohen&#x27;s d</a>
+    </li>
+    <li class="">
+      <a href="27. 租金 - 置信区间.html">27. 租金 - 置信区间</a>
+    </li>
+    <li class="">
+      <a href="28. 租金 - 找到置信区间.html">28. 租金 - 找到置信区间</a>
+    </li>
+    <li class="">
+      <a href="29. 租金 - 误差范围.html">29. 租金 - 误差范围</a>
+    </li>
+    <li class="">
+      <a href="30. 租金 - 增加 n.html">30. 租金 - 增加 n</a>
+    </li>
+    <li class="">
+      <a href="31. 相依样本.html">31. 相依样本</a>
+    </li>
+    <li class="">
+      <a href="32. 键盘.html">32. 键盘</a>
+    </li>
+    <li class="">
+      <a href="33. 键盘 - 差异点估计.html">33. 键盘 - 差异点估计</a>
+    </li>
+    <li class="">
+      <a href="34. 键盘 - 差异的标准偏差.html">34. 键盘 - 差异的标准偏差</a>
+    </li>
+    <li class="">
+      <a href="35. 键盘 - t 统计量.html">35. 键盘 - t 统计量</a>
+    </li>
+    <li class="">
+      <a href="36. 键盘 - t 临界值.html">36. 键盘 - t 临界值</a>
+    </li>
+    <li class="">
+      <a href="37. 键盘 - 决策.html">37. 键盘 - 决策</a>
+    </li>
+    <li class="">
+      <a href="38. 键盘 - Cohen&#x27;s d.html">38. 键盘 - Cohen&#x27;s d</a>
+    </li>
+    <li class="">
+      <a href="39. 键盘 - 相依样本的置信区间.html">39. 键盘 - 相依样本的置信区间</a>
+    </li>
+    <li class="">
+      <a href="40. 差异符号.html">40. 差异符号</a>
+    </li>
+    <li class="">
+      <a href="41. 设计类型.html">41. 设计类型</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">08. t 表格</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3><p>t 表格</p></h3>
+  <video controls>
+  <source src="08. t 表格-lccjSiVTx7c.mp4" type="video/mp4">
+
+  <track default="true" kind="subtitles" srclang="en" src="08. t 表格-lccjSiVTx7c.en.vtt" label="en">
+  <track default="false" kind="subtitles" srclang="BR" src="08. t 表格-lccjSiVTx7c.pt-BR.vtt" label="BR">
+  <track default="false" kind="subtitles" srclang="CN" src="08. t 表格-lccjSiVTx7c.zh-CN.vtt" label="CN">
+</video>
+
+
+  <div class="jumbotron" style="margin-top: 50px; margin-bottom: 50px;">
+    <h3>INSTRUCTOR NOTE:</h3>
+    <p><a href="https://s3.amazonaws.com/udacity-hosted-downloads/t-table.jpg" target="_blank">t 表格链接</a></p>
+  </div>
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+              <a href="09. 单尾 t 检验.html" class="btn btn-outline-primary mt-4" role="button">Next Concept</a>
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://us-udacity.github.io/" target="_blank">【udacity2.0 】If you need more courses, please add wechat：udacity6</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('08. t 表格')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>

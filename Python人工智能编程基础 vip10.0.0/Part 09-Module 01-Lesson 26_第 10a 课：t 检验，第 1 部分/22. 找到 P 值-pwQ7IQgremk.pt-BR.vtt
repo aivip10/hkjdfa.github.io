@@ -1,0 +1,58 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:01.968
+Aqui está o site Graphpad.
+
+00:00:02.000 --> 00:00:05.400
+Queremos calcular P a partir da estatística t.
+
+00:00:05.434 --> 00:00:10.601
+Novamente, queremos calcular P de T,
+e esta é nossa 1ª opção.
+
+00:00:10.634 --> 00:00:15.434
+E aqui achamos
+nossa estatística t de 0,977.
+
+00:00:16.067 --> 00:00:20.100
+E nosso grau de liberdade é 7,
+porque temos 8 valores.
+
+00:00:20.133 --> 00:00:28.467
+Calcule P e, de fato,
+achamos P entre 0,3 e 0,4, 0,3611.
+
+00:00:28.501 --> 00:00:35.801
+E o site até diz que, por convenção,
+geralmente o nível alfa é igual a 0,5.
+
+00:00:35.834 --> 00:00:39.934
+Esta diferença é considerada
+não significante estatisticamente.
+
+00:00:39.968 --> 00:00:43.234
+Achamos 0,3611.
+
+00:00:43.267 --> 00:00:46.033
+Isto não é significante estatisticamente
+
+00:00:46.067 --> 00:00:50.467
+e isso porque a probabilidade
+é maior que nosso nível alfa.
+
+00:00:50.501 --> 00:00:56.567
+Lembre-se, nosso nível alfa é 0,05.
+Portanto, não rejeitamos a nula.
+
+00:00:56.601 --> 00:01:00.968
+Aceitamos a hipótese que a população
+de onde nossa amostra vem
+
+00:01:01.000 --> 00:01:03.767
+não é significantemente diferente de 10.
+
+00:01:03.801 --> 00:01:04.767
+Bom trabalho.
+

@@ -1,0 +1,51 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.497 --> 00:00:02.650
+Além de decidir
+estatisticamente
+
+00:00:02.683 --> 00:00:05.168
+se uma amostra vem
+de uma população nova
+
+00:00:05.201 --> 00:00:09.558
+aceitando ou rejeitando o nulo,
+queremos calcular o intervalo
+
+00:00:09.591 --> 00:00:12.689
+no qual a média populacional
+provavelmente ficará.
+
+00:00:12.722 --> 00:00:14.876
+No caso,
+queremos um intervalo
+
+00:00:14.909 --> 00:00:18.674
+que, de preferência,
+contenha o aluguel médio real
+
+00:00:18.707 --> 00:00:21.780
+de todas as unidades
+de aluguel da Califórnia.
+
+00:00:21.813 --> 00:00:24.562
+Vamos fazer o mesmo
+que fizemos na lição 8,
+
+00:00:24.595 --> 00:00:26.626
+mas usando a estatística t,
+
+00:00:26.659 --> 00:00:29.134
+já que estamos usando s
+em vez de sigma.
+
+00:00:29.167 --> 00:00:34.477
+Você já achou as estatísticas t
+de 2,5% em cada ponta.
+
+00:00:34.510 --> 00:00:38.026
+Que intervalo de confiança
+isso nos dá? Preencha.
+

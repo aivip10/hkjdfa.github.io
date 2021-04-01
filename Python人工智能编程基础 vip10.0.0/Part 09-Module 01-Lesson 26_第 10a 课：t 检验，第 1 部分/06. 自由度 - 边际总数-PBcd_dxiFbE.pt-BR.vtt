@@ -1,0 +1,107 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:03.400
+Vamos escolher um número aqui.
+Digamos, 5.
+
+00:00:03.434 --> 00:00:07.033
+Podemos escolher este número
+e ainda ter o total 9
+
+00:00:07.067 --> 00:00:09.734
+e o resultado desta coluna como 9?
+
+00:00:09.767 --> 00:00:12.534
+Sim. Digamos, 3.
+
+00:00:12.567 --> 00:00:17.734
+Então juntos, somam 8,
+e isso força este a ser 1.
+
+00:00:17.767 --> 00:00:22.501
+OK, podemos escolher um valor aqui.
+Digamos, 8.
+
+00:00:22.534 --> 00:00:27.534
+Estes somam 13,
+o que significa que este valor é forçado.
+
+00:00:27.567 --> 00:00:29.868
+Precisa ser menos 4.
+
+00:00:30.234 --> 00:00:35.968
+Então podemos escolher um valor aqui
+e a coluna ainda totalizar 9?
+
+00:00:36.000 --> 00:00:38.400
+Sim. Digamos, 7.
+
+00:00:38.434 --> 00:00:43.501
+Se esta coluna precisa totalizar 9,
+então este espaço é forçado, menos 1.
+
+00:00:43.534 --> 00:00:46.300
+E como pode ver, este também
+é forçado.
+
+00:00:46.334 --> 00:00:51.667
+A soma dá 15, então para 9,
+precisamos de menos 6.
+
+00:00:51.701 --> 00:00:55.968
+Este espaço também é forçado,
+precisa ser 14.
+
+00:00:56.000 --> 00:00:59.501
+Então tanto esta coluna
+como esta linha totalizam 9.
+
+00:00:59.534 --> 00:01:02.634
+Então neste caso,
+há 4 graus de liberdade.
+
+00:01:02.667 --> 00:01:08.367
+Mas se tivermos uma tabela n por n,
+esta é de 3 por 3.
+
+00:01:08.400 --> 00:01:10.601
+Esta é de 4 por 4.
+
+00:01:10.634 --> 00:01:14.167
+Então poderíamos escolher
+todos estes números,
+
+00:01:14.200 --> 00:01:16.334
+mas estes seriam forçados.
+
+00:01:16.367 --> 00:01:19.968
+O número de espaços é n menos 1.
+
+00:01:20.000 --> 00:01:22.968
+E este número de espaços
+também é n menos 1.
+
+00:01:23.000 --> 00:01:28.701
+Então o total que podemos escolher
+é n menos 1 ao quadrado.
+
+00:01:28.734 --> 00:01:34.834
+Então nesta tabela 3 por 3,
+podemos escolher 2 vezes 2.
+
+00:01:34.868 --> 00:01:39.067
+Nesta tabela 4 por 4,
+escolhemos 3 vezes 3.
+
+00:01:39.100 --> 00:01:41.734
+Então quando temos uma tabela n por n,
+
+00:01:41.767 --> 00:01:45.567
+podemos escolher n menos 1
+vezes n menos 1,
+
+00:01:45.601 --> 00:01:47.334
+ou n menos 1 ao quadrado.
+

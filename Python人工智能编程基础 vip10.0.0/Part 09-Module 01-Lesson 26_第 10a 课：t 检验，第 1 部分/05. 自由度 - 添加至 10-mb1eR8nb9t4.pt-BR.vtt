@@ -1,0 +1,65 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:07.634
+Digamos que n é 4, então temos X1
+mais X2 até X4 precisa ser igual a 10.
+
+00:00:07.667 --> 00:00:11.767
+Vamos escolher qualquer número.
+Eu gosto de 13.
+
+00:00:11.801 --> 00:00:13.200
+O que isso quer dizer?
+
+00:00:13.234 --> 00:00:19.334
+Significa que X2 mais X3 mais X4
+precisa ser igual a 10 menos 13,
+
+00:00:19.367 --> 00:00:21.267
+então menos 3.
+
+00:00:21.300 --> 00:00:23.033
+Vamos escolher outro número.
+
+00:00:23.067 --> 00:00:24.534
+Gosto do número 8.
+
+00:00:24.567 --> 00:00:29.300
+Até agora escolhemos que X1 é 13,
+X2 é 8.
+
+00:00:29.334 --> 00:00:35.734
+Isso significa que X3 mais X4 é igual
+a menos 3 menos 8, que dá menos 11.
+
+00:00:35.767 --> 00:00:40.100
+Ainda podemos escolher outro valor para X3
+ou X4.
+
+00:00:40.133 --> 00:00:43.868
+Gosto do número 3, então digamos
+que X3 é 3.
+
+00:00:43.901 --> 00:00:45.567
+E o que isso significa?
+
+00:00:45.601 --> 00:00:54.200
+X4 precisa ser igual a menos 11 menos 3,
+que dá menos 14, então X4 foi forçado,
+
+00:00:54.234 --> 00:00:56.767
+mas eu pude escolher estes 3.
+
+00:00:56.801 --> 00:01:01.601
+Há 4 números para começar
+e eu tive 3 graus de liberdade.
+
+00:01:01.634 --> 00:01:06.200
+Se tiver n números,
+temos n menos 1 graus de liberdade.
+
+00:01:06.234 --> 00:01:07.300
+Bom trabalho!
+

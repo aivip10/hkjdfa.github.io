@@ -1,0 +1,35 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:04.200
+Você deve lembrar que o grau de liberdade
+é n menos 1,
+
+00:00:04.234 --> 00:00:06.968
+então nosso grau de liberdade
+é 29,
+
+00:00:07.000 --> 00:00:12.100
+então abrimos a tabela t,
+procuramos pelo grau de liberdade 29.
+
+00:00:12.133 --> 00:00:16.968
+E também sabemos que se alfa é 0,05
+em um teste bilateral,
+
+00:00:17.000 --> 00:00:20.367
+então 0,025 está em cada extremidade.
+
+00:00:20.400 --> 00:00:25.367
+Então procuramos onde diz
+que a probabilidade extrema é de 0,025.
+
+00:00:25.400 --> 00:00:31.801
+A 29 graus de liberdade,
+temos 2,045 como nosso valor t crítico.
+
+00:00:31.834 --> 00:00:39.267
+Isso significa que menos 2,045
+é o valor t crítico que corta o 0,025 menor.
+

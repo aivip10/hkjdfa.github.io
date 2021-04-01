@@ -1,0 +1,42 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.023 --> 00:00:02.551
+Vamos descobrir
+qual deve ser este valor.
+
+00:00:02.584 --> 00:00:08.031
+Temos 2,064 erros padrão
+abaixo de 1.700.
+
+00:00:08.295 --> 00:00:11.852
+Então o valor deve ser
+1.700 menos
+
+00:00:12.325 --> 00:00:16.913
+2,064 erros padrão,
+
+00:00:16.946 --> 00:00:21.511
+que é 200 dividido
+pela raiz quadrada de 25.
+
+00:00:21.544 --> 00:00:26.632
+O resultado é US$ 1.617,44.
+
+00:00:26.665 --> 00:00:31.282
+Vamos fazer o mesmo
+com o valor à direita de 1.700.
+
+00:00:31.315 --> 00:00:36.838
+Temos 1.700 mais 2,064
+erros padrão,
+
+00:00:36.871 --> 00:00:42.161
+o que resulta
+em US$ 1.782,56.
+
+00:00:42.194 --> 00:00:45.360
+E aí está o intervalo
+de confiança de 95%.
+

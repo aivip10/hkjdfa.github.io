@@ -1,0 +1,68 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.020 --> 00:00:02.855
+Vamos chamar o cabeçalho
+desta coluna de D.
+
+00:00:02.888 --> 00:00:04.574
+D de diferença.
+
+00:00:05.237 --> 00:00:08.202
+Se você tiver deduzido sozinho,
+bom trabalho!
+
+00:00:08.235 --> 00:00:13.169
+Coloque igual a A2 menos B2.
+
+00:00:13.202 --> 00:00:15.267
+Aí está a diferença.
+
+00:00:15.300 --> 00:00:19.034
+Copie esta célula,
+para copiar a fórmula.
+
+00:00:19.067 --> 00:00:21.898
+Vá para a célula C26.
+
+00:00:22.633 --> 00:00:26.067
+Selecione toda a coluna C
+e cole.
+
+00:00:26.100 --> 00:00:28.046
+Aí estão
+todas as diferenças.
+
+00:00:28.079 --> 00:00:30.560
+Vamos calcular
+a diferença média.
+
+00:00:33.064 --> 00:00:37.503
+O resultado é o mesmo da estimativa
+pontual das diferenças.
+
+00:00:37.536 --> 00:00:40.856
+Vamos calcular
+o desvio padrão.
+
+00:00:43.644 --> 00:00:46.546
+Temos cada valor
+menos a média.
+
+00:00:46.579 --> 00:00:51.120
+Lembre-se, vamos subtrair um número
+negativo e elevá-lo ao quadrado.
+
+00:00:51.153 --> 00:00:54.233
+Estes são os desvios padrão
+da média.
+
+00:00:54.266 --> 00:00:59.743
+Vamos somá-los e dividi-los
+por n menos 1, o que dá 24.
+
+00:00:59.776 --> 00:01:04.492
+Finalmente, a raiz quadrada.
+O resultado aproximado é 3,69.
+

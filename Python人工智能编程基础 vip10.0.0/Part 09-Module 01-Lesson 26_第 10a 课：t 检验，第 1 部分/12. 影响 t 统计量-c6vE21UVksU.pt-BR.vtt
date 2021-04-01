@@ -1,0 +1,88 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:04.257
+Como no teste z, quando
+a estatística t está longe do 0
+
+00:00:04.287 --> 00:00:06.369
+em qualquer direção, ou seja,
+
+00:00:06.399 --> 00:00:10.297
+a média amostral
+está longe da média populacional,
+
+00:00:10.327 --> 00:00:11.920
+rejeitamos a hipótese nula.
+
+00:00:11.950 --> 00:00:14.841
+A 1ª coisa que vamos fazer
+é comparar a média amostral
+
+00:00:14.871 --> 00:00:16.682
+com a média populacional.
+
+00:00:16.712 --> 00:00:22.097
+Neste caso, t é a média amostral
+menos a média populacional,
+
+00:00:22.127 --> 00:00:25.529
+Mu0, dividida pelo erro padrão.
+
+00:00:25.559 --> 00:00:28.481
+E em vez de ser sigma dividido
+pela raiz de n,
+
+00:00:28.511 --> 00:00:31.032
+usamos o desvio padrão da amostra.
+
+00:00:31.062 --> 00:00:35.647
+Já que a estatística t depende de tantos fatores,
+vamos fazer algumas questões
+
+00:00:35.677 --> 00:00:39.815
+para entender como estes fatores
+afetam a estatística t e, portanto,
+
+00:00:39.845 --> 00:00:42.007
+a decisão estatística.
+
+00:00:42.037 --> 00:00:46.224
+Quanto maior ou menor o valor de X-barra,
+mais forte a evidência
+
+00:00:46.254 --> 00:00:50.770
+que a média populacional de onde
+a amostra vem é maior
+
+00:00:50.800 --> 00:00:54.137
+do que esta média populacional
+com que estamos comparando.
+
+00:00:54.167 --> 00:00:58.257
+De forma parecida,
+quanto maior ou menor X-barra,
+
+00:00:58.287 --> 00:01:01.929
+mais forte é a evidência
+que a média populacional
+
+00:01:01.959 --> 00:01:05.393
+de onde vem X-barra é menor
+que este certo valor
+
+00:01:05.423 --> 00:01:07.274
+com que o estamos comparando.
+
+00:01:07.304 --> 00:01:10.993
+E finalmente, quanto mais longe
+o valor de X-barra estiver de Mu0
+
+00:01:11.023 --> 00:01:12.505
+em qualquer direção,
+
+00:01:12.535 --> 00:01:17.210
+mais forte ou fraca é a evidência
+que Mu não é igual a Mu0.
+

@@ -1,0 +1,54 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:04.975
+Uma medida comum de tamanho de efeito,
+quando comparando médias, é o d de Cohen,
+
+00:00:05.005 --> 00:00:07.559
+em homenagem ao estatístico Jacob Cohen.
+
+00:00:07.589 --> 00:00:10.576
+O d de Cohen é uma diferença
+de média padronizada
+
+00:00:10.606 --> 00:00:15.071
+que mede a distância entre duas médias
+em unidades de desvio padrão.
+
+00:00:15.101 --> 00:00:18.263
+Ou seja, em vez de dividir pelo erro padrão,
+
+00:00:18.293 --> 00:00:22.000
+simplesmente dividimos
+pelo desvio padrão da amostra.
+
+00:00:22.030 --> 00:00:27.600
+Podemos pensar assim, temos nossa amostra,
+digamos que é distribuída normalmente.
+
+00:00:27.630 --> 00:00:29.431
+E aqui está a média amostral,
+
+00:00:29.461 --> 00:00:32.941
+e o desvio padrão de nossa amostra é S.
+
+00:00:32.971 --> 00:00:35.976
+Agora digamos que temos
+uma média populacional aqui.
+
+00:00:36.006 --> 00:00:39.912
+Quantos Ss cabem entre X-barra e a média?
+
+00:00:39.942 --> 00:00:44.392
+Quanto maior o d de Cohen,
+mais longe X-barra está de Mu0,
+
+00:00:44.422 --> 00:00:46.879
+em termos de desvio padrão amostral.
+
+00:00:46.909 --> 00:00:50.084
+Então calcule o d de Cohen
+para este exemplo.
+

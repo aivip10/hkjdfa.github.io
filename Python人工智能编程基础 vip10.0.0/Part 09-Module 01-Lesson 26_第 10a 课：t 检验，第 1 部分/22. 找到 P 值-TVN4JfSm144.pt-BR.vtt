@@ -1,0 +1,81 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:01.834
+O que é o valor P?
+
+00:00:01.868 --> 00:00:03.601
+Não podemos usar a tabela t.
+
+00:00:03.634 --> 00:00:07.868
+Só podemos usar a tabela t para
+um a estimativa de intervalo para nosso valor P,
+
+00:00:07.901 --> 00:00:10.667
+mas não para achar o valor exato de P.
+
+00:00:10.701 --> 00:00:14.734
+Como nossa amostra tem 8 valores,
+temos 7 graus de liberdade.
+
+00:00:14.767 --> 00:00:20.534
+E nossa estatística t está entre
+0,896 e 1,119.
+
+00:00:20.567 --> 00:00:25.934
+Isso significa que a extremidade mais alta
+do valor P fica entre 0,15 e 0,20.
+
+00:00:26.634 --> 00:00:29.467
+Assim como a extremidade mais baixa
+do valor P,
+
+00:00:29.501 --> 00:00:31.767
+o que significa que nosso valor P total
+
+00:00:31.801 --> 00:00:41.000
+ficaria entre 0,3, 0,15 mais 0,15
+e 0,4, 0,2 mais 0,2.
+
+00:00:41.033 --> 00:00:44.200
+Mas não precisamos
+fazer isto à mão ou com a tabela,
+
+00:00:44.234 --> 00:00:46.601
+porque hoje em dia,
+podemos usar softwares.
+
+00:00:46.634 --> 00:00:49.934
+Há um site chamado Graph Pad,
+o link está abaixo,
+
+00:00:49.968 --> 00:00:56.567
+e o usamos para calcular este valor P,
+e você deve encontrar entre 0,3 e 0,4.
+
+00:00:56.601 --> 00:01:00.801
+Vá até Distribuições Estatísticas
+e Interpretando Valores P,
+
+00:01:00.834 --> 00:01:04.133
+e depois, baseado no fato que estamos
+fazendo um teste bilateral,
+
+00:01:04.167 --> 00:01:08.167
+e conhecemos a estatística t,
+descubra o resto.
+
+00:01:08.701 --> 00:01:11.234
+O que achou como valor P bilateral?
+
+00:01:11.267 --> 00:01:15.434
+É estatisticamente significante,
+ou não?
+
+00:01:15.467 --> 00:01:18.434
+E isto por causa de qual destas opções?
+
+00:01:18.467 --> 00:01:20.467
+Portanto, qual a nossa decisão?
+

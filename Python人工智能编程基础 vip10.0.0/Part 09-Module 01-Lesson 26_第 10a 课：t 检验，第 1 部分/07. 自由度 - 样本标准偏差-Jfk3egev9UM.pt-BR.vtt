@@ -1,0 +1,144 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:05.100
+Vamos aplicar esta ideia dos graus
+de liberdade a amostras e populações.
+
+00:00:05.133 --> 00:00:07.767
+Digamos que estes são valores
+em uma população.
+
+00:00:07.801 --> 00:00:11.033
+Podemos escolher qualquer valor n
+desta população
+
+00:00:11.067 --> 00:00:13.367
+para ter uma amostra de tamanho n.
+
+00:00:13.400 --> 00:00:16.834
+Se n for 5, digamos que escolhemos
+estes 5.
+
+00:00:16.868 --> 00:00:19.100
+Há 5 graus de liberdade.
+
+00:00:19.133 --> 00:00:21.267
+Se escolhermos
+uma amostra de tamanho n,
+
+00:00:21.300 --> 00:00:23.067
+temos n graus de liberdade.
+
+00:00:23.100 --> 00:00:26.367
+Mas então precisamos calcular o desvio padrão
+da amostra.
+
+00:00:26.400 --> 00:00:29.267
+Para isso, precisamos da média amostral.
+
+00:00:29.300 --> 00:00:33.934
+Para achá-la, somamos
+cada valor na amostra,
+
+00:00:34.300 --> 00:00:38.701
+dividimos pelo número
+na amostra e depois temos X-barra.
+
+00:00:38.734 --> 00:00:45.501
+Isso significa que a soma de todos os valores
+na amostra precisa ser X-barra vezes n.
+
+00:00:45.534 --> 00:00:48.167
+É como aquele exemplo que você fez,
+
+00:00:48.200 --> 00:00:51.367
+em que tem n valores
+que precisam somar 10.
+
+00:00:51.400 --> 00:00:54.701
+Nesse caso, você tinha n menos 1
+graus de liberdade
+
+00:00:54.734 --> 00:00:56.501
+e o mesmo se aplica aqui.
+
+00:00:56.534 --> 00:01:00.367
+Em nossa população, quando precisamos
+escolher uma amostra de tamanho n,
+
+00:01:00.400 --> 00:01:03.100
+agora temos uma restrição
+que o enésimo valor
+
+00:01:03.133 --> 00:01:07.100
+precisa assegurar que totaliza
+X-barra vezes n.
+
+00:01:07.133 --> 00:01:10.767
+Ou seja, n menos 1 dos valores
+pode variar,
+
+00:01:10.801 --> 00:01:16.033
+contanto que o enésimo valor resulte
+na mesma soma para achar a mesma média.
+
+00:01:16.067 --> 00:01:19.667
+N menos 1
+se chama tamanho amostral efetivo.
+
+00:01:19.701 --> 00:01:23.467
+Já que o desvio padrão amostral
+depende de X-barra,
+
+00:01:23.501 --> 00:01:26.434
+há n menos 1 graus de liberdade.
+
+00:01:26.467 --> 00:01:27.701
+Você pode perguntar,
+
+00:01:27.734 --> 00:01:33.200
+por que dividimos por n com o desvio padrão
+da população, se ele também usa X-barra?
+
+00:01:33.234 --> 00:01:37.968
+Bom, com a população não podemos
+substituir certos valores por outros,
+
+00:01:38.000 --> 00:01:39.434
+como podemos com amostras,
+
+00:01:39.467 --> 00:01:43.000
+porque já temos todos os valores possíveis
+da população.
+
+00:01:43.033 --> 00:01:46.067
+Graus de liberdade são o número
+de informações
+
+00:01:46.100 --> 00:01:50.467
+que podem variar livremente sem violar
+nenhuma restrição.
+
+00:01:50.501 --> 00:01:55.234
+Pense em graus de liberdade
+como o número de informações independentes
+
+00:01:55.267 --> 00:01:58.234
+disponíveis para estimar outra informação.
+
+00:01:58.267 --> 00:02:01.534
+Apenas n menos 1
+valores são independentes
+
+00:02:01.567 --> 00:02:03.200
+depois que sabemos a média.
+
+00:02:03.234 --> 00:02:05.667
+Conforme os graus de liberdade aumentam,
+
+00:02:05.701 --> 00:02:09.234
+a distribuição t se aproxima mais
+da distribuição normal.
+

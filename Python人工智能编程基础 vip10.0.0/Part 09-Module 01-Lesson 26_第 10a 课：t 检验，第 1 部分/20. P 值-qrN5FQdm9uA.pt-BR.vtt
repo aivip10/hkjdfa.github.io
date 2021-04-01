@@ -1,0 +1,38 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:03.033
+Para X-barra, ou a média amostral,
+
+00:00:03.067 --> 00:00:06.100
+se somarmos todos eles
+e depois dividirmos por 8,
+
+00:00:06.133 --> 00:00:09.300
+devemos achar 12,625.
+
+00:00:09.334 --> 00:00:11.968
+E para o desvio padrão amostral,
+
+00:00:12.000 --> 00:00:17.467
+tiramos a raiz quadrada de cada valor,
+menos a média X-barra
+
+00:00:17.501 --> 00:00:19.734
+e elevamos cada valor ao quadrado.
+
+00:00:19.767 --> 00:00:23.801
+Depois os somamos,
+depois dividimos por n menos 1.
+
+00:00:23.834 --> 00:00:27.434
+Então devemos achar cerca de 7,596.
+
+00:00:27.467 --> 00:00:30.367
+Quando usamos esses valores
+para a estatística t,
+
+00:00:30.400 --> 00:00:33.534
+achamos aproximadamente 0,977.
+

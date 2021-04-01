@@ -1,0 +1,70 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:02.000
+Vamos ver outro exemplo.
+
+00:00:02.033 --> 00:00:04.901
+Este é o condado de Santa Clara,
+na Califórnia.
+
+00:00:04.934 --> 00:00:09.534
+E digamos que a média de aluguel
+para apartamentos é 1.830
+
+00:00:09.567 --> 00:00:11.501
+em todos os tipos de unidades.
+
+00:00:11.534 --> 00:00:14.868
+Uma certa imobiliária chamada
+Rental California
+
+00:00:14.901 --> 00:00:17.634
+possui e aluga muitos apartamentos.
+
+00:00:17.667 --> 00:00:20.734
+E eles querem saber se a quantia
+que estão cobrando pelo aluguel
+
+00:00:20.767 --> 00:00:24.167
+é significantemente diferente
+da média populacional.
+
+00:00:24.200 --> 00:00:29.167
+Então eles examinam uma amostra aleatória
+de suas próprias unidades, de tamanho 25.
+
+00:00:29.200 --> 00:00:34.501
+Eles descobrem que, em média,
+alugam cada apartamento por 1.700
+
+00:00:34.534 --> 00:00:38.067
+e que o desvio padrão amostral
+é US$ 200.
+
+00:00:38.100 --> 00:00:41.501
+Você vai fazer um teste t de uma amostra
+para eles.
+
+00:00:41.534 --> 00:00:44.267
+Aqui estão as hipóteses nula e alternativa
+
+00:00:44.300 --> 00:00:47.868
+e, lembre-se, eles querem saber
+se é significantemente diferente ou não.
+
+00:00:48.400 --> 00:00:53.000
+Apesar de descobrirem ser menos,
+esta ainda pode ser a hipótese alternativa.
+
+00:00:53.033 --> 00:00:57.100
+E eles também querem um nível alfa de 0,05.
+
+00:00:57.133 --> 00:01:03.534
+1º, ache um valor t crítico para um teste
+bilateral com alfa igual a 0,05.
+
+00:01:03.567 --> 00:01:05.033
+Coloque-os aqui e aqui.
+

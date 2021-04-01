@@ -1,0 +1,30 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:04.501
+Vamos arredondar esses valores
+nas centenas pelo resto do exemplo.
+
+00:00:04.534 --> 00:00:06.901
+Agora vamos calcular a estatística t.
+
+00:00:06.934 --> 00:00:13.067
+Lembre-se que a estatística t é X-barra,
+nossa média amostral, menos Mu,
+
+00:00:13.100 --> 00:00:14.801
+a média populacional.
+
+00:00:14.834 --> 00:00:17.901
+E podemos comparar X-barra
+a qualquer coisa,
+
+00:00:17.934 --> 00:00:22.300
+mas escolhemos compará-lo
+à média populacional para ver se algo mudou.
+
+00:00:22.334 --> 00:00:28.200
+Depois dividimos pelo erro padrão S,
+dividido pela raiz quadrada de n.
+

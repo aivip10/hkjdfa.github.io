@@ -1,0 +1,66 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:04.256
+A diferença média,
+como você descobriu, é -2,72.
+
+00:00:04.289 --> 00:00:05.759
+Para o limite inferior,
+
+00:00:05.792 --> 00:00:09.384
+vamos subtrair o valor crítico T
+vezes o erro padrão.
+
+00:00:09.417 --> 00:00:13.783
+Você já descobriu
+que o valor crítico T é 2,064
+
+00:00:13.816 --> 00:00:16.336
+quando há 24 graus
+de liberdade.
+
+00:00:16.369 --> 00:00:18.705
+Vamos multiplicar
+esse valor por S,
+
+00:00:18.738 --> 00:00:21.463
+o desvio padrão
+das diferenças,
+
+00:00:21.496 --> 00:00:24.572
+dividido
+pela raiz quadrada de 25.
+
+00:00:24.605 --> 00:00:27.693
+O resultado aproximado
+é -4,24.
+
+00:00:27.726 --> 00:00:31.727
+Façamos o mesmo para o limite
+superior do intervalo de confiança.
+
+00:00:31.760 --> 00:00:36.637
+-2,72 mais 2,064
+
+00:00:36.670 --> 00:00:41.341
+vezes 3,69 divididos
+pela raiz quadrada de 25.
+
+00:00:41.374 --> 00:00:46.432
+Arredondando para o centésimo
+mais próximo, temos -1,20.
+
+00:00:46.465 --> 00:00:49.313
+Sendo assim, podemos
+concluir que, em média,
+
+00:00:49.346 --> 00:00:53.570
+os usuários cometem
+cerca de 4 a 1 erros a menos
+
+00:00:53.603 --> 00:00:57.248
+no teclado QWERTY
+do que no teclado alfabético.
+

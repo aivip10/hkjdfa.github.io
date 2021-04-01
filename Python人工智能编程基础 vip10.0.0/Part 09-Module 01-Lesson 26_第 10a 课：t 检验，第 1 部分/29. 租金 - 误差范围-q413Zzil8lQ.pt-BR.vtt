@@ -1,0 +1,40 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.025 --> 00:00:02.830
+Antes de avançarmos
+para o próximo tópico,
+
+00:00:02.863 --> 00:00:06.554
+vamos fazer dois pequenos testes
+sobre margem de erro.
+
+00:00:06.587 --> 00:00:08.610
+Lembre-se
+de que a margem de erro
+
+00:00:08.643 --> 00:00:11.630
+é metade da largura
+do intervalo de confiança.
+
+00:00:11.663 --> 00:00:15.182
+Tínhamos a média da amostra.
+Adicionamos a margem de erro
+
+00:00:15.215 --> 00:00:17.091
+para obter
+o limite superior,
+
+00:00:17.124 --> 00:00:19.970
+e a subtraímos para
+obter o limite inferior.
+
+00:00:20.003 --> 00:00:22.504
+Qual dos seguintes
+é a margem de erro,
+
+00:00:22.537 --> 00:00:24.557
+sendo t o valor
+crítico de t?
+
