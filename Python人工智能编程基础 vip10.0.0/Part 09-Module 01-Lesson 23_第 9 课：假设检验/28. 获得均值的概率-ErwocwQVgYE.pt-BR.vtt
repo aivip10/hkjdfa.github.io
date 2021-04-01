@@ -1,0 +1,98 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:04.567
+Isto é exatamente o que você fez na lição 7,
+quando achou onde uma média amostral
+
+00:00:04.601 --> 00:00:07.234
+fica na distribuição de médias amostrais.
+
+00:00:07.267 --> 00:00:11.701
+E quando usou a tabela Z
+para achar a probabilidade de selecionar
+
+00:00:11.734 --> 00:00:14.601
+uma média amostral maior que nosso valor.
+
+00:00:14.634 --> 00:00:19.434
+Se procurar na tabela Z este valor
+da pontuação Z, 2,44,
+
+00:00:19.467 --> 00:00:24.834
+verá que a proporção de 0,9927 é menor
+que essa proporção Z.
+
+00:00:24.868 --> 00:00:26.133
+Isso significa que a proporção
+
+00:00:26.167 --> 00:00:33.400
+maior que 2,44 é 1 menos 0,9927,
+que é 0,0073.
+
+00:00:33.434 --> 00:00:36.501
+Se nossa média amostral fica
+dentro da região crítica,
+
+00:00:36.534 --> 00:00:41.300
+então concluímos que esta média
+vem de uma distribuição totalmente diferente.
+
+00:00:41.334 --> 00:00:43.501
+Ou seja, a população tratada.
+
+00:00:43.534 --> 00:00:47.767
+Outra forma de falar disso é que acreditamos
+que nosso tratamento surtiu efeito.
+
+00:00:47.801 --> 00:00:51.334
+Claro, é possível que tenhamos
+feito uma decisão errada.
+
+00:00:51.367 --> 00:00:55.634
+Ou seja, é possível que devêssemos
+ter mantido a hipótese nula,
+
+00:00:55.667 --> 00:00:57.801
+que não há diferença significante,
+
+00:00:57.834 --> 00:01:02.400
+e que a única razão de termos esta
+média amostral foi por acaso,
+
+00:01:02.434 --> 00:01:07.901
+porque há uma chance de 0,0073% que
+vamos achar pelo menos esta média amostral.
+
+00:01:07.934 --> 00:01:11.968
+Porém, as chances
+são pequenas, menores que nosso nível alfa.
+
+00:01:12.000 --> 00:01:14.234
+Portanto, rejeitamos a hipótese nula.
+
+00:01:14.267 --> 00:01:15.267
+Por outro lado,
+
+00:01:15.300 --> 00:01:19.567
+não precisamos achar a probabilidade
+de obter ao menos a média amostral.
+
+00:01:19.601 --> 00:01:23.267
+Só precisamos saber
+que a pontuação Z da média amostral
+
+00:01:23.300 --> 00:01:25.300
+é maior que o valor crítico Z.
+
+00:01:25.334 --> 00:01:28.801
+2,44 é maior que 1,96.
+
+00:01:28.834 --> 00:01:32.934
+Só isso já nos diz que nossa média amostral
+ficou na região crítica
+
+00:01:32.968 --> 00:01:34.334
+e que podemos rejeitar a hipótese nula.
+

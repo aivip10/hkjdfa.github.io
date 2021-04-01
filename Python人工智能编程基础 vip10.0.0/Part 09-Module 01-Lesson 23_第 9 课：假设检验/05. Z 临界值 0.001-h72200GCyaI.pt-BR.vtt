@@ -1,0 +1,41 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:03.267
+Se o 0,1% se encontra aqui,
+
+00:00:03.300 --> 00:00:10.167
+significa que a região amarela
+ou laranja tem valor 99,9%.
+
+00:00:10.200 --> 00:00:14.234
+Então vamos procurar 0,999
+na tabela z.
+
+00:00:14.267 --> 00:00:19.267
+Aqui está o 0,999
+localizado na linha 3,10.
+
+00:00:19.300 --> 00:00:23.067
+Você vai perceber
+que há poucos 0,999.
+
+00:00:23.100 --> 00:00:28.067
+Vamos usar o primeiro porque é
+o mais próximo de 0,999
+
+00:00:28.100 --> 00:00:30.467
+e os outros vão aumentar.
+
+00:00:30.501 --> 00:00:36.734
+Este é 0,99905 ou algo assim,
+não há como determinar,
+
+00:00:36.767 --> 00:00:42.533
+mas sabemos que o primeiro
+será o mais próximo de 0,999.
+
+00:00:42.567 --> 00:00:48.165
+Então o resultado será 3,08.
+

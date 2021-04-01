@@ -1,0 +1,99 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:03.734
+Vamos calcular a média
+e o desvio padrão na planilha.
+
+00:00:03.767 --> 00:00:05.567
+Depois de copiar e colar
+
+00:00:05.601 --> 00:00:08.200
+os dados da motivação
+para a sua planilha,
+
+00:00:08.234 --> 00:00:12.467
+vamos escrever em uma célula
+"=average"
+
+00:00:12.501 --> 00:00:20.133
+e, neste caso,
+indo da célula B2 a B236.
+
+00:00:21.501 --> 00:00:25.767
+Se formos até o final,
+vemos 236 linhas.
+
+00:00:27.801 --> 00:00:32.067
+Como a primeira linha tem
+cabeçalho, temos 235 valores.
+
+00:00:33.067 --> 00:00:35.567
+A nossa média
+está na célula E1.
+
+00:00:35.601 --> 00:00:38.100
+Na célula D2
+vamos digitar
+
+00:00:38.133 --> 00:00:52.467
+"=(B2-$E$1)^2"
+para ficar ao quadrado.
+
+00:00:52.501 --> 00:00:55.767
+Este é o primeiro
+desvio quadrático da média.
+
+00:00:55.801 --> 00:00:59.767
+Vamos copiar esta célula,
+depois vamos para C2
+
+00:00:59.801 --> 00:01:04.567
+pressione a seta para baixo,
+vamos para D236
+
+00:01:04.601 --> 00:01:07.067
+e pressionamos
+"shift+seta para cima"
+
+00:01:07.100 --> 00:01:10.767
+para selecionar
+a coluna "D" e colamos.
+
+00:01:10.801 --> 00:01:13.534
+Agora temos
+todos os desvios quadráticos
+
+00:01:13.567 --> 00:01:16.534
+e a média dos desvios quadráticos
+é a variância.
+
+00:01:16.567 --> 00:01:22.701
+Vamos digitar
+"=average(D2:D236)"
+
+00:01:23.767 --> 00:01:25.767
+para obter a variância.
+
+00:01:25.801 --> 00:01:29.267
+Outro desvio padrão
+é a raiz quadrada da célula E2.
+
+00:01:30.501 --> 00:01:31.601
+Aí está.
+
+00:01:31.634 --> 00:01:33.767
+Vamos usar
+duas casas decimais.
+
+00:01:33.801 --> 00:01:36.701
+A média é 7,47
+
+00:01:36.734 --> 00:01:40.033
+e o desvio padrão é 2,41
+
+00:01:40.067 --> 00:01:42.367
+arredondado
+para duas casas decimais.
+

@@ -1,0 +1,75 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:03.701
+Há duas formas de obter
+este valor crítico z.
+
+00:00:03.734 --> 00:00:05.734
+Um delas é
+consultando a tabela z
+
+00:00:05.767 --> 00:00:10.701
+e encontrando o valor
+em que 2,5% seja menor que isso.
+
+00:00:10.734 --> 00:00:15.501
+Se procurarmos 0,025
+que equivale a 2,5%,
+
+00:00:15.534 --> 00:00:19.667
+veremos que o valor
+é de -1,96.
+
+00:00:19.701 --> 00:00:25.133
+Significa que o valor crítico z
+é de -1,96
+
+00:00:25.167 --> 00:00:28.067
+porque 2,5%
+é menor que isso.
+
+00:00:28.100 --> 00:00:30.734
+Como esta distribuição
+é simétrica,
+
+00:00:30.767 --> 00:00:35.300
+este valor crítico z
+será 1,96.
+
+00:00:35.334 --> 00:00:38.267
+Outra forma de calcular isso
+é perceber
+
+00:00:38.300 --> 00:00:42.033
+que se 2,5% aparece
+aqui em cima na região azul,
+
+00:00:42.067 --> 00:00:47.133
+então 97,5% ficará
+abaixo do valor crítico z.
+
+00:00:47.167 --> 00:00:51.234
+Então poderíamos procurar
+o número 0,975 na tabela z
+
+00:00:51.267 --> 00:00:54.167
+e encontraríamos 1,96.
+
+00:00:54.200 --> 00:00:56.734
+Isto é o chamado
+teste de hipótese bicaudal.
+
+00:00:56.767 --> 00:00:59.334
+Ao dividirmos
+o nível alfa por dois,
+
+00:00:59.367 --> 00:01:02.767
+vemos que ele é bicaudal,
+então os valores críticos z
+
+00:01:02.801 --> 00:01:06.567
+serão o mesmo número
+negativo e positivo.
+

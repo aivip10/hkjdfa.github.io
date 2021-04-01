@@ -1,0 +1,72 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:04.991
+Vou usar vermelho para errado
+e verde para correto.
+
+00:00:05.021 --> 00:00:07.319
+Se a hipótese acabar sendo verdadeira
+
+00:00:07.349 --> 00:00:11.430
+e não existir diferença significante,
+mas rejeitamos a hipótese,
+
+00:00:11.460 --> 00:00:14.182
+essa foi uma decisão errada.
+
+00:00:14.212 --> 00:00:16.222
+Porém, se a hipótese for verdadeira
+
+00:00:16.252 --> 00:00:21.223
+e decidimos baseados no resultado da nossa
+amostra que vamos manter a hipótese,
+
+00:00:21.253 --> 00:00:23.447
+então tomamos a decisão correta.
+
+00:00:23.477 --> 00:00:27.383
+De forma parecida,
+se a hipótese for falsa e a rejeitarmos,
+
+00:00:27.413 --> 00:00:29.630
+também tomamos a decisão certa.
+
+00:00:29.660 --> 00:00:33.822
+Mas se a hipótese for falsa
+e o tratamento teve um efeito,
+
+00:00:33.852 --> 00:00:38.390
+mas supomos diferente,
+então tomamos a decisão errada.
+
+00:00:38.420 --> 00:00:43.790
+É sempre possível tomar a decisão errada,
+mas minimizamos as chances disso
+
+00:00:43.820 --> 00:00:48.206
+quando temos uma amostra grande o bastante,
+quando aleatorizamos nossa amostra
+
+00:00:48.236 --> 00:00:52.134
+e quando implementamos
+controles apropriados.
+
+00:00:52.164 --> 00:00:58.694
+Se rejeitarmos a hipótese quando ela
+é verdadeira e concluímos que houve efeito,
+
+00:00:58.724 --> 00:01:00.919
+cometemos um erro tipo I.
+
+00:01:00.949 --> 00:01:02.910
+Está em algarismos romanos.
+
+00:01:02.940 --> 00:01:06.966
+E se não rejeitarmos a hipótese
+mesmo sendo falsa,
+
+00:01:06.996 --> 00:01:09.202
+isso é um erro tipo II.
+

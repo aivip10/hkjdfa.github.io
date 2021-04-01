@@ -1,0 +1,94 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:04.515
+Este tipo de análise estatística
+é propensa a interpretações erradas.
+
+00:00:04.545 --> 00:00:07.148
+Como discutimos no vídeo da solução,
+
+00:00:07.178 --> 00:00:10.677
+é possível que aqueles que puderam ver
+a lição de música
+
+00:00:10.707 --> 00:00:13.488
+já fossem alunos engajados
+
+00:00:13.518 --> 00:00:17.513
+e nós atribuímos erroneamente
+a alta média de engajamento à música.
+
+00:00:17.543 --> 00:00:19.208
+Claro que é improvável.
+
+00:00:19.238 --> 00:00:25.609
+Achamos que a probabilidade de obter aquela
+média amostral do engajamento é de 0,007,
+
+00:00:25.639 --> 00:00:31.080
+mas ainda é possível que tenhamos obtido
+aleatoriamente uma amostra com essa média.
+
+00:00:31.110 --> 00:00:34.141
+Mas isso quer dizer
+que 1 entre 4 coisas podem acontecer.
+
+00:00:34.171 --> 00:00:37.520
+Temos este diagrama
+que não está totalmente preenchido,
+
+00:00:37.550 --> 00:00:40.792
+mas mostra as 4 coisas possíveis
+de acontecer.
+
+00:00:40.822 --> 00:00:43.168
+As colunas representam a decisão
+que tomamos.
+
+00:00:43.198 --> 00:00:46.017
+Ou rejeitamos a hipótese nula
+ou mantivemos a hipótese,
+
+00:00:46.047 --> 00:00:48.656
+baseados nos resultados
+de nossa amostra.
+
+00:00:48.686 --> 00:00:52.137
+O estado do mundo
+é o que está acontecendo.
+
+00:00:52.167 --> 00:00:53.944
+E não sabemos o que é.
+
+00:00:53.974 --> 00:00:55.672
+Estamos apenas dando um palpite.
+
+00:00:55.702 --> 00:01:00.880
+Ou a hipótese é verdadeira,
+que não há efeito significante do tratamento,
+
+00:01:00.910 --> 00:01:04.681
+ou a hipótese é falsa,
+há efeito significante.
+
+00:01:04.711 --> 00:01:08.585
+Cada um desses 4 espaços
+representam uma situação diferente.
+
+00:01:08.615 --> 00:01:11.641
+A verdade e a decisão que tomamos.
+
+00:01:11.671 --> 00:01:16.592
+Em 2 desses 4 casos,
+tomamos a decisão estatística correta,
+
+00:01:16.622 --> 00:01:19.513
+mas nas outras duas,
+tomamos a decisão errada.
+
+00:01:19.543 --> 00:01:23.624
+Marque os dois casos em que tomamos
+a decisão estatística errada.
+

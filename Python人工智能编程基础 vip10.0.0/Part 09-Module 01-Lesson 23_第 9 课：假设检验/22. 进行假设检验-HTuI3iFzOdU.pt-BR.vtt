@@ -1,0 +1,106 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:03.334
+Supondo que o impacto
+na motivação seja desconhecido,
+
+00:00:03.367 --> 00:00:06.567
+a música pode motivar
+ou desmotivar os alunos.
+
+00:00:06.601 --> 00:00:10.467
+Vamos colocar "música"
+subscrito no mi
+
+00:00:10.501 --> 00:00:12.834
+porque a música
+é a intervenção.
+
+00:00:12.868 --> 00:00:17.033
+Testaremos se este parâmetro
+terá diferença significativa
+
+00:00:17.067 --> 00:00:19.000
+do valor já encontrado.
+
+00:00:19.033 --> 00:00:22.567
+Vamos especificar
+um critério para decidir
+
+00:00:22.601 --> 00:00:26.367
+se vamos rejeitar
+ou aceitar a hipótese nula.
+
+00:00:26.400 --> 00:00:28.434
+Vamos escolher
+o nível alfa.
+
+00:00:28.467 --> 00:00:31.734
+O nível alfa
+em geral é 0,05.
+
+00:00:32.367 --> 00:00:34.767
+Isso significa
+que no teste bicaudal
+
+00:00:34.801 --> 00:00:40.067
+temos 2,5% aqui ou 0,025
+
+00:00:40.100 --> 00:00:44.133
+e 0,025 na cauda esquerda.
+
+00:00:44.167 --> 00:00:46.767
+Encontraremos
+os valores críticos z,
+
+00:00:46.801 --> 00:00:49.734
+calcularemos
+o escore z da média
+
+00:00:49.767 --> 00:00:52.133
+e veremos se ele está
+na região crítica.
+
+00:00:52.167 --> 00:00:54.734
+Baseado nisso,
+decidiremos rejeitar
+
+00:00:54.767 --> 00:00:57.000
+ou aceitar a hipótese nula.
+
+00:00:57.033 --> 00:01:00.567
+Esta é uma visão geral
+de tudo que veremos nessa lição.
+
+00:01:00.601 --> 00:01:02.133
+Antes de prosseguir,
+
+00:01:02.167 --> 00:01:05.434
+vamos revisar a forma
+de rejeitar a hipótese nula.
+
+00:01:05.467 --> 00:01:08.501
+Selecione a expressão correta
+em cada frase
+
+00:01:08.534 --> 00:01:11.400
+para descrever
+como rejeitar a hipótese nula.
+
+00:01:11.434 --> 00:01:13.133
+Só uma observação:
+
+00:01:13.167 --> 00:01:16.767
+na segunda frase,
+ignore valores negativos.
+
+00:01:16.801 --> 00:01:19.367
+Imagine que o valor crítico z
+é positivo.
+
+00:01:19.400 --> 00:01:23.300
+Qual será o valor do escore z
+para rejeitar a hipótese nula?
+

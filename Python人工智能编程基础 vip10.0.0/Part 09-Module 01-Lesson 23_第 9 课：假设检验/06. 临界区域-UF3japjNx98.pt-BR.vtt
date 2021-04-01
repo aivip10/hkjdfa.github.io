@@ -1,0 +1,132 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:02.934
+Vamos explorar
+a distribuição amostral.
+
+00:00:02.968 --> 00:00:05.400
+Temos três regiões críticas:
+
+00:00:05.434 --> 00:00:12.232
+a menor tem probabilidade maior
+que esse escore z de 0,001.
+
+00:00:12.568 --> 00:00:16.767
+Esse outro escore z é 3,08.
+
+00:00:16.801 --> 00:00:21.767
+Lembre-se que o meio da distribuição,
+a média dela, tem escore z nulo.
+
+00:00:21.801 --> 00:00:25.200
+A 2ª menor região crítica
+tem escore z de 0,01.
+
+00:00:25.234 --> 00:00:29.801
+Essa é a probabilidade
+de ser maior que este valor,
+
+00:00:29.834 --> 00:00:32.767
+que calculamos em 2,32.
+
+00:00:32.801 --> 00:00:37.000
+A maior região crítica é 0,05.
+
+00:00:37.033 --> 00:00:42.767
+Esta probabilidade será maior
+que o escore z de 1,65.
+
+00:00:42.801 --> 00:00:46.033
+Os escore z correspondentes
+a estes níveis alfa
+
+00:00:46.067 --> 00:00:48.334
+são chamados
+de valores críticos z.
+
+00:00:48.367 --> 00:00:51.767
+Encontramos a média amostral,
+calculamos o escore z
+
+00:00:51.801 --> 00:00:55.467
+e a distribuição das médias,
+chamada de distribuição amostral,
+
+00:00:55.501 --> 00:00:58.300
+e veremos onde a média aparece.
+
+00:00:58.334 --> 00:01:01.969
+Vamos supor que ela apareça
+em qualquer região crítica.
+
+00:01:02.002 --> 00:01:03.668
+Então será improvável.
+
+00:01:03.702 --> 00:01:08.168
+Se ela aparecer na região verde,
+que é a menor região crítica,
+
+00:01:08.201 --> 00:01:10.602
+obteremos o menor nível alfa.
+
+00:01:10.635 --> 00:01:12.668
+A estatística da amostragem
+
+00:01:12.702 --> 00:01:15.668
+é diferente
+dos parâmetros populacionais.
+
+00:01:15.702 --> 00:01:20.301
+Temos provas da intervenção
+a que tenha sido submetida.
+
+00:01:20.335 --> 00:01:25.668
+Suponha uma média amostral
+de uma amostragem "n"
+
+00:01:25.702 --> 00:01:29.668
+e calculamos o escore z
+subtraindo o mi
+
+00:01:29.702 --> 00:01:33.335
+e dividindo pelo desvio padrão
+da distribuição amostral.
+
+00:01:33.368 --> 00:01:37.235
+Digamos que o resultado
+seja 1,82.
+
+00:01:37.268 --> 00:01:43.168
+O resultado será significativo
+para p menor que 0,05
+
+00:01:43.201 --> 00:01:47.668
+Se observarmos onde o escore z
+se encontra,
+
+00:01:47.702 --> 00:01:52.301
+veremos que ele está entre 1,65
+e 2,32 na distribuição.
+
+00:01:52.335 --> 00:01:56.201
+O escore z de 1,82 está
+na região vermelha.
+
+00:01:56.235 --> 00:02:00.068
+A probabilidade de obter
+a média amostral
+
+00:02:00.101 --> 00:02:04.668
+é menor que 0,05,
+mas não é menor que 0,01.
+
+00:02:04.932 --> 00:02:11.135
+Só é significativa na probabilidade
+ou p menor que 0,05.
+
+00:02:11.168 --> 00:02:14.466
+Lembrando que 0,05
+é o nível alfa.
+

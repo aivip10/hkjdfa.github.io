@@ -1,0 +1,50 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:02.534
+O nível alfa será
+o nosso critério
+
+00:00:02.567 --> 00:00:06.133
+para decidir se algo é
+provável ou improvável.
+
+00:00:06.167 --> 00:00:09.267
+Se a probabilidade
+for menor que o nível alfa,
+
+00:00:09.300 --> 00:00:11.400
+será considerado improvável.
+
+00:00:11.434 --> 00:00:15.467
+Se a média amostral tiver
+escore z maior que z*
+
+00:00:15.501 --> 00:00:20.100
+a probabilidade de selecionar
+a média amostral é ainda menor.
+
+00:00:20.133 --> 00:00:23.133
+Portanto, esta 2ª opção
+também é verdadeira.
+
+00:00:23.167 --> 00:00:28.862
+Se considerarmos as médias com escore z
+maiores que z* como improváveis,
+
+00:00:28.896 --> 00:00:34.067
+e a média aparecer na região laranja,
+será considerada provável.
+
+00:00:34.101 --> 00:00:36.601
+Portanto, a 3ª opção é falsa.
+
+00:00:36.634 --> 00:00:41.667
+Por fim, o nível alfa é
+0,05 ou 5%
+
+00:00:41.700 --> 00:00:45.265
+e corresponde à região verde,
+e não à laranja.
+

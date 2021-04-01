@@ -1,0 +1,48 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:03.235
+Digamos que temos
+uma amostra de 30 alunos
+
+00:00:03.265 --> 00:00:06.426
+e disponibilizamos a lição
+com a música para eles.
+
+00:00:06.456 --> 00:00:10.682
+Depois, a média da pontuação de envolvimento
+que eles reportam é de 8,3.
+
+00:00:10.712 --> 00:00:14.236
+Onde esse valor fica
+na distribuição de médias amostrais
+
+00:00:14.266 --> 00:00:16.443
+para as amostras de tamanho 30?
+
+00:00:16.473 --> 00:00:19.907
+Para responder,
+lembre-se que esta distribuição normal
+
+00:00:19.937 --> 00:00:22.867
+representa a distribuição de média amostral.
+
+00:00:22.897 --> 00:00:28.631
+Lembre-se que a média de amostras
+deve ser a mesma média da população.
+
+00:00:28.661 --> 00:00:32.407
+E o desvio padrão
+deve ser o desvio padrão da população
+
+00:00:32.437 --> 00:00:34.319
+dividido pela raiz quadrada de n.
+
+00:00:34.349 --> 00:00:38.255
+Queremos achar onde nesta distribuição
+a média amostral ficará.
+
+00:00:38.285 --> 00:00:40.440
+Ou seja, qual a pontuação Z?
+

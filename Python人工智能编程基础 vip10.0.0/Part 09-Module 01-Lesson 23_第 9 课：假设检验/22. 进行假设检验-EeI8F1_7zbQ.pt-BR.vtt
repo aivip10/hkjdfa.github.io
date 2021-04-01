@@ -1,0 +1,64 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:05.067
+Ao desconsiderar a hipótese nula,
+usaremos a hipótese alternativa.
+
+00:00:05.100 --> 00:00:08.267
+Há diferença significativa
+entre as duas.
+
+00:00:08.300 --> 00:00:14.601
+Isso resultará em uma amostragem
+diferente do que esperaríamos
+
+00:00:14.634 --> 00:00:18.601
+para todas as amostras
+que podíamos obter da população.
+
+00:00:18.634 --> 00:00:22.334
+Nesse caso, a média amostral
+aparecerá na região crítica.
+
+00:00:22.367 --> 00:00:26.200
+Se o valor crítico z
+for positivo,
+
+00:00:26.234 --> 00:00:30.100
+nosso escore z será
+maior que o valor crítico z.
+
+00:00:30.133 --> 00:00:33.868
+Então a média amostral
+estará dentro da região crítica.
+
+00:00:33.901 --> 00:00:37.601
+Por fim, a probabilidade
+de obter a média amostral
+
+00:00:37.634 --> 00:00:40.234
+será menor
+que o nível alfa.
+
+00:00:40.267 --> 00:00:43.200
+Utilizaremos o nível alfa
+como referência
+
+00:00:43.234 --> 00:00:46.801
+para calcular
+a probabilidade dessa amostra.
+
+00:00:46.834 --> 00:00:50.734
+Se a probabilidade de calcular
+essa amostra for baixa,
+
+00:00:50.767 --> 00:00:52.667
+significa que há
+algo estranho.
+
+00:00:52.701 --> 00:00:55.133
+E rejeitaremos
+a hipótese nula.
+

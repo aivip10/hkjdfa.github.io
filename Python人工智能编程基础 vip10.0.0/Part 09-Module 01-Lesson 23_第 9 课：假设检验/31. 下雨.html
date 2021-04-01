@@ -1,0 +1,357 @@
+<!-- udacity2.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>下雨</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>第 9 课：假设检验</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. 可能或不可能.html">01. 可能或不可能</a>
+    </li>
+    <li class="">
+      <a href="02. α 水平.html">02. α 水平</a>
+    </li>
+    <li class="">
+      <a href="03. Z 临界值 0.05.html">03. Z 临界值 0.05</a>
+    </li>
+    <li class="">
+      <a href="04. Z 临界值 0.01.html">04. Z 临界值 0.01</a>
+    </li>
+    <li class="">
+      <a href="05. Z 临界值 0.001.html">05. Z 临界值 0.001</a>
+    </li>
+    <li class="">
+      <a href="06. 临界区域.html">06. 临界区域</a>
+    </li>
+    <li class="">
+      <a href="07. 显著性.html">07. 显著性</a>
+    </li>
+    <li class="">
+      <a href="08. Darts 设计.html">08. Darts 设计</a>
+    </li>
+    <li class="">
+      <a href="09. Z 值.html">09. Z 值</a>
+    </li>
+    <li class="">
+      <a href="10. 双尾临界值 0.05.html">10. 双尾临界值 0.05</a>
+    </li>
+    <li class="">
+      <a href="11. 双尾检验.html">11. 双尾检验</a>
+    </li>
+    <li class="">
+      <a href="12. 双尾概率.html">12. 双尾概率</a>
+    </li>
+    <li class="">
+      <a href="13. 双尾临界值 0.01.html">13. 双尾临界值 0.01</a>
+    </li>
+    <li class="">
+      <a href="14. 双尾临界值 0.001.html">14. 双尾临界值 0.001</a>
+    </li>
+    <li class="">
+      <a href="15. 假设.html">15. 假设</a>
+    </li>
+    <li class="">
+      <a href="16. 拒绝零假设失败.html">16. 拒绝零假设失败</a>
+    </li>
+    <li class="">
+      <a href="17. 拒绝零假设证据.html">17. 拒绝零假设证据</a>
+    </li>
+    <li class="">
+      <a href="18. 均值和标准偏差.html">18. 均值和标准偏差</a>
+    </li>
+    <li class="">
+      <a href="19. 零假设.html">19. 零假设</a>
+    </li>
+    <li class="">
+      <a href="20. 对立假设.html">20. 对立假设</a>
+    </li>
+    <li class="">
+      <a href="21. 单尾或双尾.html">21. 单尾或双尾</a>
+    </li>
+    <li class="">
+      <a href="22. 进行假设检验.html">22. 进行假设检验</a>
+    </li>
+    <li class="">
+      <a href="23. 临界值 0.05.html">23. 临界值 0.05</a>
+    </li>
+    <li class="">
+      <a href="24. 样本均值的 Z 值.html">24. 样本均值的 Z 值</a>
+    </li>
+    <li class="">
+      <a href="25. 假设检验的结果.html">25. 假设检验的结果</a>
+    </li>
+    <li class="">
+      <a href="26. 增加样本量.html">26. 增加样本量</a>
+    </li>
+    <li class="">
+      <a href="27. 拒绝或拒绝失败.html">27. 拒绝或拒绝失败</a>
+    </li>
+    <li class="">
+      <a href="28. 获得均值的概率.html">28. 获得均值的概率</a>
+    </li>
+    <li class="">
+      <a href="29. 决策失误.html">29. 决策失误</a>
+    </li>
+    <li class="">
+      <a href="30. 热饮料.html">30. 热饮料</a>
+    </li>
+    <li class="">
+      <a href="31. 下雨.html">31. 下雨</a>
+    </li>
+    <li class="">
+      <a href="32. 发生了什么？.html">32. 发生了什么？</a>
+    </li>
+    <li class="">
+      <a href="33. 发生了什么？.html">33. 发生了什么？</a>
+    </li>
+    <li class="">
+      <a href="34. 容易产生误解.html">34. 容易产生误解</a>
+    </li>
+    <li class="">
+      <a href="35. 结束这节课....html">35. 结束这节课...</a>
+    </li>
+    <li class="">
+      <a href="36. 假设检验.html">36. 假设检验</a>
+    </li>
+    <li class="">
+      <a href="37. 增加参与度？.html">37. 增加参与度？</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">31. 下雨</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3><p>下雨</p></h3>
+  <div>
+  <div>
+    <h4>Question:</h4>
+
+    <video controls>
+  <source src="31. 下雨-R5Jgz8SaVqM.mp4" type="video/mp4">
+
+  <track default="true" kind="subtitles" srclang="en" src="31. 下雨-R5Jgz8SaVqM.en.vtt" label="en">
+  <track default="false" kind="subtitles" srclang="BR" src="31. 下雨-R5Jgz8SaVqM.pt-BR.vtt" label="BR">
+  <track default="false" kind="subtitles" srclang="CN" src="31. 下雨-R5Jgz8SaVqM.zh-CN.vtt" label="CN">
+</video>
+
+
+  </div>
+
+  <h4>Start Quiz:</h4>
+  <div>
+  <div style="display: block;">
+    <div style="position: relative;">
+      <img src="img/135919298.gif" style="width: 100%; max-height: 100%" alt="">
+      
+    <div style="
+    position: absolute; top: 31.596492562595607%; left: 76.11763273262963%; width: 3.99002493765586%; height: 5.543237250554324%;
+  ">
+      
+        <input type="text" style="width: 100%; height: 100%;" name="null" id="0" aria-label="Empty">
+      
+    </div>
+  
+    <div style="
+    position: absolute; top: 32.01754332023534%; left: 95.62814535476598%; width: 3.7406483790523692%; height: 5.543237250554324%;
+  ">
+      
+        <input type="text" style="width: 100%; height: 100%;" name="null" id="1" aria-label="Empty">
+      
+    </div>
+  
+    <div style="
+    position: absolute; top: 51.894736300197216%; left: 56.11368764513042%; width: 4.114713216957606%; height: 5.543237250554324%;
+  ">
+      
+        <input type="text" style="width: 100%; height: 100%;" name="null" id="2" aria-label="Empty">
+      
+    </div>
+  
+    <div style="
+    position: absolute; top: 76.98245559529474%; left: 55.89657524013242%; width: 4.239401496259352%; height: 5.543237250554324%;
+  ">
+      
+        <input type="text" style="width: 100%; height: 100%;" name="null" id="3" aria-label="Empty">
+      
+    </div>
+  
+    </div>
+  </div>
+</div>
+
+
+  <div>
+    <details>
+      <summary><strong>Solution:</strong></summary>
+      <div>
+        <video controls>
+  <source src="31. 下雨-UNASgS676Hc.mp4" type="video/mp4">
+
+  <track default="true" kind="subtitles" srclang="en" src="31. 下雨-UNASgS676Hc.en.vtt" label="en">
+  <track default="false" kind="subtitles" srclang="BR" src="31. 下雨-UNASgS676Hc.pt-BR.vtt" label="BR">
+  <track default="false" kind="subtitles" srclang="CN" src="31. 下雨-UNASgS676Hc.zh-CN.vtt" label="CN">
+</video>
+
+
+      </div>
+    </details>
+  </div>
+</div>
+
+
+  <div class="jumbotron" style="margin-top: 50px; margin-bottom: 50px;">
+    <h3>INSTRUCTOR NOTE:</h3>
+    <h4 id="不下雨☀️">不下雨☀️</h4>
+<h4 id="下雨☔️">下雨☔️</h4>
+<ul>
+<li>□ A. 不会下雨 ☀️</li>
+<li>□ B. 不带雨伞</li>
+<li>□ C. 带雨伞🌂</li>
+<li>□ D. 下雨啦</li>
+</ul>
+  </div>
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+              <a href="32. 发生了什么？.html" class="btn btn-outline-primary mt-4" role="button">Next Concept</a>
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://us-udacity.github.io/" target="_blank">【udacity2.0 】If you need more courses, please add wechat：udacity6</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('31. 下雨')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>

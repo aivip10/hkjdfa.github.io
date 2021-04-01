@@ -1,0 +1,68 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:03.254
+Novamente, temos que achar as pontuações Z
+para cada um destes.
+
+00:00:03.284 --> 00:00:04.982
+A pontuação Z muda um pouco,
+
+00:00:05.012 --> 00:00:08.454
+porque nossa amostra agora é de 50,
+em vez de 30.
+
+00:00:08.484 --> 00:00:12.295
+Agora aqui a pontuação Z
+fica em cerca de 0,97,
+
+00:00:12.325 --> 00:00:15.607
+que ainda fica fora da região crítica.
+
+00:00:15.637 --> 00:00:19.334
+Mas a pontuação Z
+para nossa média amostral é alta,
+
+00:00:19.364 --> 00:00:22.006
+de aproximadamente 2,44.
+
+00:00:22.036 --> 00:00:24.334
+E isso fica na região crítica.
+
+00:00:24.364 --> 00:00:27.118
+Neste caso, baseados
+nos resultados de nossa amostra,
+
+00:00:27.148 --> 00:00:29.190
+rejeitaríamos a hipótese nula.
+
+00:00:29.220 --> 00:00:33.839
+Porém, estamos simulando
+que o novo parâmetro populacional
+
+00:00:33.869 --> 00:00:39.038
+ficará fora da região crítica,
+perto do parâmetro populacional antigo.
+
+00:00:39.068 --> 00:00:43.574
+Neste caso, rejeitaríamos a hipótese nula
+quando ela é verdadeira.
+
+00:00:43.604 --> 00:00:46.062
+Estamos cometendo um erro tipo I.
+
+00:00:46.092 --> 00:00:50.551
+Neste caso, aconteceu de selecionarmos
+aleatoriamente uma amostra de alunos
+
+00:00:50.581 --> 00:00:52.990
+que já eram engajados.
+
+00:00:53.020 --> 00:00:55.174
+Afinal, isso é possível.
+
+00:00:55.204 --> 00:01:01.278
+Há uma chance de 2,5% de acharmos
+uma média com pontuação Z maior que 1,96.
+

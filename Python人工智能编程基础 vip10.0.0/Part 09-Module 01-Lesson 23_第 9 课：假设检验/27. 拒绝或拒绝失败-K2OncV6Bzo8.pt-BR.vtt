@@ -1,0 +1,44 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:05.486
+Desta vez, a pontuação Z é 2,44,
+maior que nosso valor Z crítico.
+
+00:00:05.516 --> 00:00:08.767
+Isso significa que nossa média amostral
+fica em algum lugar aqui.
+
+00:00:08.797 --> 00:00:14.775
+A probabilidade de obter esta média amostral
+de uma amostra de tamanho 50 é bem pequena,
+
+00:00:14.805 --> 00:00:17.047
+menor que 2,5%.
+
+00:00:17.077 --> 00:00:19.942
+E é isso que precisamos saber
+em um teste bilateral.
+
+00:00:19.972 --> 00:00:22.135
+Portanto, vamos rejeitar a hipótese nula.
+
+00:00:22.165 --> 00:00:26.239
+Temos evidências para acreditar que a música
+teve um efeito no envolvimento.
+
+00:00:26.269 --> 00:00:29.736
+Escrevemos isso em fórmula como P,
+para probabilidade,
+
+00:00:29.766 --> 00:00:34.143
+é menor que 0,05, nosso nível alfa.
+
+00:00:34.173 --> 00:00:39.111
+Porque a probabilidade de obter esta média
+amostral de uma amostra de tamanho 50
+
+00:00:39.141 --> 00:00:41.241
+é menor que nosso nível alfa.
+

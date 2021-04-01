@@ -1,0 +1,102 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:01.970
+Espero que estes 2 últimos exemplos
+
+00:00:02.000 --> 00:00:05.178
+tenham ilustrado o conceito de erros
+de tipo I e II.
+
+00:00:05.208 --> 00:00:08.777
+Mas para encerrar esta lição,
+vamos aplicar os erros de tipo I e II
+
+00:00:08.807 --> 00:00:13.458
+à questão se uma lição com música
+aumentará o engajamento.
+
+00:00:13.488 --> 00:00:18.105
+Nosso parâmetro populacional
+era de 7,47
+
+00:00:18.135 --> 00:00:22.067
+e isto vem das respostas
+do questionário que enviei.
+
+00:00:22.097 --> 00:00:26.401
+O desvio padrão populacional
+foi de 2,41.
+
+00:00:26.431 --> 00:00:30.762
+Nossa nova hipótese, então,
+será que a nova média populacional
+
+00:00:30.792 --> 00:00:34.514
+depois da intervenção
+não mudará significantemente
+
+00:00:34.544 --> 00:00:37.682
+deste parâmetro populacional.
+
+00:00:37.712 --> 00:00:40.218
+Ou seja,
+não haverá efeito no tratamento.
+
+00:00:40.248 --> 00:00:43.689
+A hipótese alternativa
+é que há um efeito.
+
+00:00:43.719 --> 00:00:47.393
+Então os dois parâmetros serão
+significantemente diferentes.
+
+00:00:47.423 --> 00:00:50.530
+Digamos que temos uma amostra
+de tamanho 30
+
+00:00:50.560 --> 00:00:53.345
+e o engajamento médio
+é de 8,3.
+
+00:00:53.375 --> 00:00:57.026
+Porém o engajamento verdadeiro
+da população,
+
+00:00:57.056 --> 00:01:01.593
+se implementássemos
+essa lição musical, será 7,8.
+
+00:01:01.623 --> 00:01:05.937
+Na vida real, não sabemos qual o valor
+de Mu song,
+
+00:01:05.967 --> 00:01:07.785
+mas vamos fingir que sabemos.
+
+00:01:07.815 --> 00:01:08.952
+Se isso acontecer,
+
+00:01:08.982 --> 00:01:12.449
+qual desses 4 quadrantes
+representam os resultados
+
+00:01:12.479 --> 00:01:14.577
+do nosso teste de hipóteses?
+
+00:01:14.607 --> 00:01:19.041
+É uma questão difícil e requer
+que você lembre o que fizemos antes
+
+00:01:19.071 --> 00:01:22.344
+e entenda bem os tipos I e II
+de erros.
+
+00:01:22.374 --> 00:01:23.816
+Faça o seu melhor.
+
+00:01:23.846 --> 00:01:28.355
+Digamos que nosso nível alfa é 0,05
+e este é um teste bilateral.
+
